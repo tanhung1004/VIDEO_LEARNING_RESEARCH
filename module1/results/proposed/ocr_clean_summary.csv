@@ -1,0 +1,6 @@
+﻿video_id,subject,total_frames,useful_frames,raw_words,clean_words
+v1,SQL,74,74,22075,16994
+v2,Python,89,88,5188,3590
+v3,Java,42,42,2353,1744
+v4,SQL,48,48,3028,1949
+v5,Java,38,38,4250,2947

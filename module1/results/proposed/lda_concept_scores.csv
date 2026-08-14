@@ -1,0 +1,502 @@
+﻿video_id,subject,method,chunk_id,start_sec,end_sec,concept,lda_score
+v1,SQL,transcript_ocr,0,0.0,60.0,select,0.121552
+v1,SQL,transcript_ocr,0,0.0,60.0,where,0.016737
+v1,SQL,transcript_ocr,0,0.0,60.0,group by,0.02708
+v1,SQL,transcript_ocr,0,0.0,60.0,having,0.035053
+v1,SQL,transcript_ocr,0,0.0,60.0,count,0.028633
+v1,SQL,transcript_ocr,0,0.0,60.0,aggregate function,0.035065
+v1,SQL,transcript_ocr,0,0.0,60.0,join,0.081168
+v1,SQL,transcript_ocr,0,0.0,60.0,inner join,0.048871
+v1,SQL,transcript_ocr,0,0.0,60.0,left join,0.17633
+v1,SQL,transcript_ocr,0,0.0,60.0,subquery,0.039854
+v1,SQL,transcript_ocr,0,0.0,60.0,order by,0.033404
+v1,SQL,transcript_ocr,1,60.0,120.0,select,0.118734
+v1,SQL,transcript_ocr,1,60.0,120.0,where,0.029657
+v1,SQL,transcript_ocr,1,60.0,120.0,group by,0.034318
+v1,SQL,transcript_ocr,1,60.0,120.0,having,0.039126
+v1,SQL,transcript_ocr,1,60.0,120.0,count,0.030276
+v1,SQL,transcript_ocr,1,60.0,120.0,aggregate function,0.037644
+v1,SQL,transcript_ocr,1,60.0,120.0,join,0.145818
+v1,SQL,transcript_ocr,1,60.0,120.0,inner join,0.096347
+v1,SQL,transcript_ocr,1,60.0,120.0,left join,0.101025
+v1,SQL,transcript_ocr,1,60.0,120.0,subquery,0.069185
+v1,SQL,transcript_ocr,1,60.0,120.0,order by,0.052748
+v1,SQL,transcript_ocr,2,120.0,180.0,select,0.116924
+v1,SQL,transcript_ocr,2,120.0,180.0,where,0.037723
+v1,SQL,transcript_ocr,2,120.0,180.0,group by,0.038887
+v1,SQL,transcript_ocr,2,120.0,180.0,having,0.04167
+v1,SQL,transcript_ocr,2,120.0,180.0,count,0.031324
+v1,SQL,transcript_ocr,2,120.0,180.0,aggregate function,0.039263
+v1,SQL,transcript_ocr,2,120.0,180.0,join,0.186114
+v1,SQL,transcript_ocr,2,120.0,180.0,inner join,0.125944
+v1,SQL,transcript_ocr,2,120.0,180.0,left join,0.053945
+v1,SQL,transcript_ocr,2,120.0,180.0,subquery,0.087474
+v1,SQL,transcript_ocr,2,120.0,180.0,order by,0.064839
+v1,SQL,transcript_ocr,3,180.0,240.0,select,0.115877
+v1,SQL,transcript_ocr,3,180.0,240.0,where,0.042418
+v1,SQL,transcript_ocr,3,180.0,240.0,group by,0.04154
+v1,SQL,transcript_ocr,3,180.0,240.0,having,0.043151
+v1,SQL,transcript_ocr,3,180.0,240.0,count,0.03193
+v1,SQL,transcript_ocr,3,180.0,240.0,aggregate function,0.040205
+v1,SQL,transcript_ocr,3,180.0,240.0,join,0.209582
+v1,SQL,transcript_ocr,3,180.0,240.0,inner join,0.143181
+v1,SQL,transcript_ocr,3,180.0,240.0,left join,0.026545
+v1,SQL,transcript_ocr,3,180.0,240.0,subquery,0.098124
+v1,SQL,transcript_ocr,3,180.0,240.0,order by,0.071876
+v1,SQL,transcript_ocr,4,240.0,300.0,select,0.115879
+v1,SQL,transcript_ocr,4,240.0,300.0,where,0.042419
+v1,SQL,transcript_ocr,4,240.0,300.0,group by,0.041538
+v1,SQL,transcript_ocr,4,240.0,300.0,having,0.043151
+v1,SQL,transcript_ocr,4,240.0,300.0,count,0.03193
+v1,SQL,transcript_ocr,4,240.0,300.0,aggregate function,0.040205
+v1,SQL,transcript_ocr,4,240.0,300.0,join,0.209585
+v1,SQL,transcript_ocr,4,240.0,300.0,inner join,0.143183
+v1,SQL,transcript_ocr,4,240.0,300.0,left join,0.026545
+v1,SQL,transcript_ocr,4,240.0,300.0,subquery,0.098126
+v1,SQL,transcript_ocr,4,240.0,300.0,order by,0.071877
+v1,SQL,transcript_ocr,5,300.0,360.0,select,0.11588
+v1,SQL,transcript_ocr,5,300.0,360.0,where,0.042419
+v1,SQL,transcript_ocr,5,300.0,360.0,group by,0.041537
+v1,SQL,transcript_ocr,5,300.0,360.0,having,0.043151
+v1,SQL,transcript_ocr,5,300.0,360.0,count,0.031929
+v1,SQL,transcript_ocr,5,300.0,360.0,aggregate function,0.040204
+v1,SQL,transcript_ocr,5,300.0,360.0,join,0.20959
+v1,SQL,transcript_ocr,5,300.0,360.0,inner join,0.143186
+v1,SQL,transcript_ocr,5,300.0,360.0,left join,0.026544
+v1,SQL,transcript_ocr,5,300.0,360.0,subquery,0.098127
+v1,SQL,transcript_ocr,5,300.0,360.0,order by,0.071877
+v1,SQL,transcript_ocr,6,360.0,420.0,select,0.115875
+v1,SQL,transcript_ocr,6,360.0,420.0,where,0.042418
+v1,SQL,transcript_ocr,6,360.0,420.0,group by,0.041542
+v1,SQL,transcript_ocr,6,360.0,420.0,having,0.043151
+v1,SQL,transcript_ocr,6,360.0,420.0,count,0.031931
+v1,SQL,transcript_ocr,6,360.0,420.0,aggregate function,0.040205
+v1,SQL,transcript_ocr,6,360.0,420.0,join,0.209575
+v1,SQL,transcript_ocr,6,360.0,420.0,inner join,0.143176
+v1,SQL,transcript_ocr,6,360.0,420.0,left join,0.026546
+v1,SQL,transcript_ocr,6,360.0,420.0,subquery,0.098121
+v1,SQL,transcript_ocr,6,360.0,420.0,order by,0.071876
+v1,SQL,transcript_ocr,7,420.0,480.0,select,0.115871
+v1,SQL,transcript_ocr,7,420.0,480.0,where,0.042416
+v1,SQL,transcript_ocr,7,420.0,480.0,group by,0.041546
+v1,SQL,transcript_ocr,7,420.0,480.0,having,0.043151
+v1,SQL,transcript_ocr,7,420.0,480.0,count,0.031933
+v1,SQL,transcript_ocr,7,420.0,480.0,aggregate function,0.040206
+v1,SQL,transcript_ocr,7,420.0,480.0,join,0.209562
+v1,SQL,transcript_ocr,7,420.0,480.0,inner join,0.143167
+v1,SQL,transcript_ocr,7,420.0,480.0,left join,0.026548
+v1,SQL,transcript_ocr,7,420.0,480.0,subquery,0.098116
+v1,SQL,transcript_ocr,7,420.0,480.0,order by,0.071876
+v1,SQL,transcript_ocr,8,480.0,540.0,select,0.115872
+v1,SQL,transcript_ocr,8,480.0,540.0,where,0.042417
+v1,SQL,transcript_ocr,8,480.0,540.0,group by,0.041544
+v1,SQL,transcript_ocr,8,480.0,540.0,having,0.043151
+v1,SQL,transcript_ocr,8,480.0,540.0,count,0.031933
+v1,SQL,transcript_ocr,8,480.0,540.0,aggregate function,0.040206
+v1,SQL,transcript_ocr,8,480.0,540.0,join,0.209567
+v1,SQL,transcript_ocr,8,480.0,540.0,inner join,0.14317
+v1,SQL,transcript_ocr,8,480.0,540.0,left join,0.026547
+v1,SQL,transcript_ocr,8,480.0,540.0,subquery,0.098118
+v1,SQL,transcript_ocr,8,480.0,540.0,order by,0.071876
+v1,SQL,transcript_ocr,9,540.0,600.0,select,0.115873
+v1,SQL,transcript_ocr,9,540.0,600.0,where,0.042417
+v1,SQL,transcript_ocr,9,540.0,600.0,group by,0.041544
+v1,SQL,transcript_ocr,9,540.0,600.0,having,0.043151
+v1,SQL,transcript_ocr,9,540.0,600.0,count,0.031932
+v1,SQL,transcript_ocr,9,540.0,600.0,aggregate function,0.040205
+v1,SQL,transcript_ocr,9,540.0,600.0,join,0.209568
+v1,SQL,transcript_ocr,9,540.0,600.0,inner join,0.143171
+v1,SQL,transcript_ocr,9,540.0,600.0,left join,0.026547
+v1,SQL,transcript_ocr,9,540.0,600.0,subquery,0.098119
+v1,SQL,transcript_ocr,9,540.0,600.0,order by,0.071876
+v1,SQL,transcript_ocr,10,600.0,660.0,select,0.115874
+v1,SQL,transcript_ocr,10,600.0,660.0,where,0.042417
+v1,SQL,transcript_ocr,10,600.0,660.0,group by,0.041543
+v1,SQL,transcript_ocr,10,600.0,660.0,having,0.043151
+v1,SQL,transcript_ocr,10,600.0,660.0,count,0.031932
+v1,SQL,transcript_ocr,10,600.0,660.0,aggregate function,0.040205
+v1,SQL,transcript_ocr,10,600.0,660.0,join,0.209572
+v1,SQL,transcript_ocr,10,600.0,660.0,inner join,0.143174
+v1,SQL,transcript_ocr,10,600.0,660.0,left join,0.026546
+v1,SQL,transcript_ocr,10,600.0,660.0,subquery,0.09812
+v1,SQL,transcript_ocr,10,600.0,660.0,order by,0.071876
+v1,SQL,transcript_ocr,11,660.0,720.0,select,0.115874
+v1,SQL,transcript_ocr,11,660.0,720.0,where,0.042417
+v1,SQL,transcript_ocr,11,660.0,720.0,group by,0.041542
+v1,SQL,transcript_ocr,11,660.0,720.0,having,0.043151
+v1,SQL,transcript_ocr,11,660.0,720.0,count,0.031932
+v1,SQL,transcript_ocr,11,660.0,720.0,aggregate function,0.040205
+v1,SQL,transcript_ocr,11,660.0,720.0,join,0.209572
+v1,SQL,transcript_ocr,11,660.0,720.0,inner join,0.143174
+v1,SQL,transcript_ocr,11,660.0,720.0,left join,0.026546
+v1,SQL,transcript_ocr,11,660.0,720.0,subquery,0.09812
+v1,SQL,transcript_ocr,11,660.0,720.0,order by,0.071876
+v1,SQL,transcript_ocr,12,720.0,780.0,select,0.115807
+v1,SQL,transcript_ocr,12,720.0,780.0,where,0.042398
+v1,SQL,transcript_ocr,12,720.0,780.0,group by,0.041601
+v1,SQL,transcript_ocr,12,720.0,780.0,having,0.043146
+v1,SQL,transcript_ocr,12,720.0,780.0,count,0.031958
+v1,SQL,transcript_ocr,12,720.0,780.0,aggregate function,0.040215
+v1,SQL,transcript_ocr,12,720.0,780.0,join,0.20938
+v1,SQL,transcript_ocr,12,720.0,780.0,inner join,0.14304
+v1,SQL,transcript_ocr,12,720.0,780.0,left join,0.026571
+v1,SQL,transcript_ocr,12,720.0,780.0,subquery,0.098042
+v1,SQL,transcript_ocr,12,720.0,780.0,order by,0.071866
+v2,Python,transcript_ocr,0,0.0,60.0,for loop,0.30384
+v2,Python,transcript_ocr,0,0.0,60.0,for,0.343195
+v2,Python,transcript_ocr,0,0.0,60.0,iteration,0.046011
+v2,Python,transcript_ocr,0,0.0,60.0,range,0.424834
+v2,Python,transcript_ocr,0,0.0,60.0,list,0.223117
+v2,Python,transcript_ocr,0,0.0,60.0,nested loop,0.075317
+v2,Python,transcript_ocr,0,0.0,60.0,index,0.002563
+v2,Python,transcript_ocr,0,0.0,60.0,break,0.064569
+v2,Python,transcript_ocr,0,0.0,60.0,continue,0.06595
+v2,Python,transcript_ocr,1,60.0,120.0,for loop,0.303989
+v2,Python,transcript_ocr,1,60.0,120.0,for,0.343358
+v2,Python,transcript_ocr,1,60.0,120.0,iteration,0.046037
+v2,Python,transcript_ocr,1,60.0,120.0,range,0.425057
+v2,Python,transcript_ocr,1,60.0,120.0,list,0.22324
+v2,Python,transcript_ocr,1,60.0,120.0,nested loop,0.075357
+v2,Python,transcript_ocr,1,60.0,120.0,index,0.00256
+v2,Python,transcript_ocr,1,60.0,120.0,break,0.064603
+v2,Python,transcript_ocr,1,60.0,120.0,continue,0.065985
+v2,Python,transcript_ocr,2,120.0,180.0,for loop,0.303996
+v2,Python,transcript_ocr,2,120.0,180.0,for,0.343366
+v2,Python,transcript_ocr,2,120.0,180.0,iteration,0.046038
+v2,Python,transcript_ocr,2,120.0,180.0,range,0.425069
+v2,Python,transcript_ocr,2,120.0,180.0,list,0.223247
+v2,Python,transcript_ocr,2,120.0,180.0,nested loop,0.075359
+v2,Python,transcript_ocr,2,120.0,180.0,index,0.002559
+v2,Python,transcript_ocr,2,120.0,180.0,break,0.064605
+v2,Python,transcript_ocr,2,120.0,180.0,continue,0.065987
+v2,Python,transcript_ocr,3,180.0,240.0,for loop,0.30392
+v2,Python,transcript_ocr,3,180.0,240.0,for,0.343283
+v2,Python,transcript_ocr,3,180.0,240.0,iteration,0.046025
+v2,Python,transcript_ocr,3,180.0,240.0,range,0.424955
+v2,Python,transcript_ocr,3,180.0,240.0,list,0.223183
+v2,Python,transcript_ocr,3,180.0,240.0,nested loop,0.075338
+v2,Python,transcript_ocr,3,180.0,240.0,index,0.002561
+v2,Python,transcript_ocr,3,180.0,240.0,break,0.064587
+v2,Python,transcript_ocr,3,180.0,240.0,continue,0.065969
+v2,Python,transcript_ocr,4,240.0,300.0,for loop,0.304011
+v2,Python,transcript_ocr,4,240.0,300.0,for,0.343382
+v2,Python,transcript_ocr,4,240.0,300.0,iteration,0.046041
+v2,Python,transcript_ocr,4,240.0,300.0,range,0.42509
+v2,Python,transcript_ocr,4,240.0,300.0,list,0.223259
+v2,Python,transcript_ocr,4,240.0,300.0,nested loop,0.075362
+v2,Python,transcript_ocr,4,240.0,300.0,index,0.002559
+v2,Python,transcript_ocr,4,240.0,300.0,break,0.064608
+v2,Python,transcript_ocr,4,240.0,300.0,continue,0.06599
+v2,Python,transcript_ocr,5,300.0,360.0,for loop,0.303799
+v2,Python,transcript_ocr,5,300.0,360.0,for,0.34315
+v2,Python,transcript_ocr,5,300.0,360.0,iteration,0.046004
+v2,Python,transcript_ocr,5,300.0,360.0,range,0.424772
+v2,Python,transcript_ocr,5,300.0,360.0,list,0.223082
+v2,Python,transcript_ocr,5,300.0,360.0,nested loop,0.075306
+v2,Python,transcript_ocr,5,300.0,360.0,index,0.002564
+v2,Python,transcript_ocr,5,300.0,360.0,break,0.064559
+v2,Python,transcript_ocr,5,300.0,360.0,continue,0.065941
+v2,Python,transcript_ocr,6,360.0,420.0,for loop,0.303968
+v2,Python,transcript_ocr,6,360.0,420.0,for,0.343335
+v2,Python,transcript_ocr,6,360.0,420.0,iteration,0.046033
+v2,Python,transcript_ocr,6,360.0,420.0,range,0.425026
+v2,Python,transcript_ocr,6,360.0,420.0,list,0.223223
+v2,Python,transcript_ocr,6,360.0,420.0,nested loop,0.075351
+v2,Python,transcript_ocr,6,360.0,420.0,index,0.00256
+v2,Python,transcript_ocr,6,360.0,420.0,break,0.064598
+v2,Python,transcript_ocr,6,360.0,420.0,continue,0.06598
+v2,Python,transcript_ocr,7,420.0,480.0,for loop,0.303913
+v2,Python,transcript_ocr,7,420.0,480.0,for,0.343275
+v2,Python,transcript_ocr,7,420.0,480.0,iteration,0.046024
+v2,Python,transcript_ocr,7,420.0,480.0,range,0.424944
+v2,Python,transcript_ocr,7,420.0,480.0,list,0.223177
+v2,Python,transcript_ocr,7,420.0,480.0,nested loop,0.075337
+v2,Python,transcript_ocr,7,420.0,480.0,index,0.002561
+v2,Python,transcript_ocr,7,420.0,480.0,break,0.064585
+v2,Python,transcript_ocr,7,420.0,480.0,continue,0.065968
+v2,Python,transcript_ocr,8,480.0,540.0,for loop,0.304005
+v2,Python,transcript_ocr,8,480.0,540.0,for,0.343376
+v2,Python,transcript_ocr,8,480.0,540.0,iteration,0.04604
+v2,Python,transcript_ocr,8,480.0,540.0,range,0.425082
+v2,Python,transcript_ocr,8,480.0,540.0,list,0.223254
+v2,Python,transcript_ocr,8,480.0,540.0,nested loop,0.075361
+v2,Python,transcript_ocr,8,480.0,540.0,index,0.002559
+v2,Python,transcript_ocr,8,480.0,540.0,break,0.064607
+v2,Python,transcript_ocr,8,480.0,540.0,continue,0.065989
+v2,Python,transcript_ocr,9,540.0,600.0,for loop,0.303895
+v2,Python,transcript_ocr,9,540.0,600.0,for,0.343255
+v2,Python,transcript_ocr,9,540.0,600.0,iteration,0.04602
+v2,Python,transcript_ocr,9,540.0,600.0,range,0.424917
+v2,Python,transcript_ocr,9,540.0,600.0,list,0.223162
+v2,Python,transcript_ocr,9,540.0,600.0,nested loop,0.075332
+v2,Python,transcript_ocr,9,540.0,600.0,index,0.002562
+v2,Python,transcript_ocr,9,540.0,600.0,break,0.064581
+v2,Python,transcript_ocr,9,540.0,600.0,continue,0.065963
+v2,Python,transcript_ocr,10,600.0,660.0,for loop,0.304069
+v2,Python,transcript_ocr,10,600.0,660.0,for,0.343446
+v2,Python,transcript_ocr,10,600.0,660.0,iteration,0.046051
+v2,Python,transcript_ocr,10,600.0,660.0,range,0.425178
+v2,Python,transcript_ocr,10,600.0,660.0,list,0.223307
+v2,Python,transcript_ocr,10,600.0,660.0,nested loop,0.075378
+v2,Python,transcript_ocr,10,600.0,660.0,index,0.002558
+v2,Python,transcript_ocr,10,600.0,660.0,break,0.064621
+v2,Python,transcript_ocr,10,600.0,660.0,continue,0.066004
+v2,Python,transcript_ocr,11,660.0,720.0,for loop,0.30396
+v2,Python,transcript_ocr,11,660.0,720.0,for,0.343327
+v2,Python,transcript_ocr,11,660.0,720.0,iteration,0.046032
+v2,Python,transcript_ocr,11,660.0,720.0,range,0.425015
+v2,Python,transcript_ocr,11,660.0,720.0,list,0.223217
+v2,Python,transcript_ocr,11,660.0,720.0,nested loop,0.075349
+v2,Python,transcript_ocr,11,660.0,720.0,index,0.00256
+v2,Python,transcript_ocr,11,660.0,720.0,break,0.064596
+v2,Python,transcript_ocr,11,660.0,720.0,continue,0.065979
+v2,Python,transcript_ocr,12,720.0,780.0,for loop,0.303881
+v2,Python,transcript_ocr,12,720.0,780.0,for,0.343239
+v2,Python,transcript_ocr,12,720.0,780.0,iteration,0.046018
+v2,Python,transcript_ocr,12,720.0,780.0,range,0.424895
+v2,Python,transcript_ocr,12,720.0,780.0,list,0.22315
+v2,Python,transcript_ocr,12,720.0,780.0,nested loop,0.075328
+v2,Python,transcript_ocr,12,720.0,780.0,index,0.002562
+v2,Python,transcript_ocr,12,720.0,780.0,break,0.064578
+v2,Python,transcript_ocr,12,720.0,780.0,continue,0.06596
+v2,Python,transcript_ocr,13,780.0,840.0,for loop,0.253519
+v2,Python,transcript_ocr,13,780.0,840.0,for,0.287003
+v2,Python,transcript_ocr,13,780.0,840.0,iteration,0.038011
+v2,Python,transcript_ocr,13,780.0,840.0,range,0.352598
+v2,Python,transcript_ocr,13,780.0,840.0,list,0.184811
+v2,Python,transcript_ocr,13,780.0,840.0,nested loop,0.06362
+v2,Python,transcript_ocr,13,780.0,840.0,index,0.002478
+v2,Python,transcript_ocr,13,780.0,840.0,break,0.053519
+v2,Python,transcript_ocr,13,780.0,840.0,continue,0.054677
+v2,Python,transcript_ocr,14,840.0,900.0,for loop,0.228154
+v2,Python,transcript_ocr,14,840.0,900.0,for,0.258428
+v2,Python,transcript_ocr,14,840.0,900.0,iteration,0.034132
+v2,Python,transcript_ocr,14,840.0,900.0,range,0.316813
+v2,Python,transcript_ocr,14,840.0,900.0,list,0.164888
+v2,Python,transcript_ocr,14,840.0,900.0,nested loop,0.057796
+v2,Python,transcript_ocr,14,840.0,900.0,index,0.002117
+v2,Python,transcript_ocr,14,840.0,900.0,break,0.048048
+v2,Python,transcript_ocr,14,840.0,900.0,continue,0.049049
+v3,Java,transcript_ocr,0,0.0,60.0,class,0.240193
+v3,Java,transcript_ocr,0,0.0,60.0,object,0.209214
+v3,Java,transcript_ocr,0,0.0,60.0,method,0.100193
+v3,Java,transcript_ocr,0,0.0,60.0,interface,0.13106
+v3,Java,transcript_ocr,0,0.0,60.0,implements,0.25447
+v3,Java,transcript_ocr,0,0.0,60.0,extends,0.1836
+v3,Java,transcript_ocr,0,0.0,60.0,inheritance,0.165009
+v3,Java,transcript_ocr,0,0.0,60.0,abstract class,0.416587
+v3,Java,transcript_ocr,0,0.0,60.0,abstract method,0.245929
+v3,Java,transcript_ocr,1,60.0,120.0,class,0.235356
+v3,Java,transcript_ocr,1,60.0,120.0,object,0.198769
+v3,Java,transcript_ocr,1,60.0,120.0,method,0.087382
+v3,Java,transcript_ocr,1,60.0,120.0,interface,0.11748
+v3,Java,transcript_ocr,1,60.0,120.0,implements,0.246966
+v3,Java,transcript_ocr,1,60.0,120.0,extends,0.172367
+v3,Java,transcript_ocr,1,60.0,120.0,inheritance,0.152415
+v3,Java,transcript_ocr,1,60.0,120.0,abstract class,0.431693
+v3,Java,transcript_ocr,1,60.0,120.0,abstract method,0.265069
+v3,Java,transcript_ocr,2,120.0,180.0,class,0.235437
+v3,Java,transcript_ocr,2,120.0,180.0,object,0.198828
+v3,Java,transcript_ocr,2,120.0,180.0,method,0.087399
+v3,Java,transcript_ocr,2,120.0,180.0,interface,0.117508
+v3,Java,transcript_ocr,2,120.0,180.0,implements,0.24705
+v3,Java,transcript_ocr,2,120.0,180.0,extends,0.172417
+v3,Java,transcript_ocr,2,120.0,180.0,inheritance,0.152455
+v3,Java,transcript_ocr,2,120.0,180.0,abstract class,0.431882
+v3,Java,transcript_ocr,2,120.0,180.0,abstract method,0.265201
+v3,Java,transcript_ocr,3,180.0,240.0,class,0.235424
+v3,Java,transcript_ocr,3,180.0,240.0,object,0.198819
+v3,Java,transcript_ocr,3,180.0,240.0,method,0.087396
+v3,Java,transcript_ocr,3,180.0,240.0,interface,0.117504
+v3,Java,transcript_ocr,3,180.0,240.0,implements,0.247037
+v3,Java,transcript_ocr,3,180.0,240.0,extends,0.172409
+v3,Java,transcript_ocr,3,180.0,240.0,inheritance,0.152449
+v3,Java,transcript_ocr,3,180.0,240.0,abstract class,0.431852
+v3,Java,transcript_ocr,3,180.0,240.0,abstract method,0.265181
+v3,Java,transcript_ocr,4,240.0,300.0,class,0.235417
+v3,Java,transcript_ocr,4,240.0,300.0,object,0.198813
+v3,Java,transcript_ocr,4,240.0,300.0,method,0.087395
+v3,Java,transcript_ocr,4,240.0,300.0,interface,0.117501
+v3,Java,transcript_ocr,4,240.0,300.0,implements,0.247029
+v3,Java,transcript_ocr,4,240.0,300.0,extends,0.172404
+v3,Java,transcript_ocr,4,240.0,300.0,inheritance,0.152445
+v3,Java,transcript_ocr,4,240.0,300.0,abstract class,0.431834
+v3,Java,transcript_ocr,4,240.0,300.0,abstract method,0.265168
+v3,Java,transcript_ocr,5,300.0,360.0,class,0.235423
+v3,Java,transcript_ocr,5,300.0,360.0,object,0.198818
+v3,Java,transcript_ocr,5,300.0,360.0,method,0.087396
+v3,Java,transcript_ocr,5,300.0,360.0,interface,0.117503
+v3,Java,transcript_ocr,5,300.0,360.0,implements,0.247036
+v3,Java,transcript_ocr,5,300.0,360.0,extends,0.172409
+v3,Java,transcript_ocr,5,300.0,360.0,inheritance,0.152449
+v3,Java,transcript_ocr,5,300.0,360.0,abstract class,0.431849
+v3,Java,transcript_ocr,5,300.0,360.0,abstract method,0.265178
+v3,Java,transcript_ocr,6,360.0,420.0,class,0.235405
+v3,Java,transcript_ocr,6,360.0,420.0,object,0.198804
+v3,Java,transcript_ocr,6,360.0,420.0,method,0.087392
+v3,Java,transcript_ocr,6,360.0,420.0,interface,0.117497
+v3,Java,transcript_ocr,6,360.0,420.0,implements,0.247017
+v3,Java,transcript_ocr,6,360.0,420.0,extends,0.172397
+v3,Java,transcript_ocr,6,360.0,420.0,inheritance,0.15244
+v3,Java,transcript_ocr,6,360.0,420.0,abstract class,0.431807
+v3,Java,transcript_ocr,6,360.0,420.0,abstract method,0.265149
+v3,Java,transcript_ocr,7,420.0,480.0,class,0.126295
+v3,Java,transcript_ocr,7,420.0,480.0,object,0.113029
+v3,Java,transcript_ocr,7,420.0,480.0,method,0.047131
+v3,Java,transcript_ocr,7,420.0,480.0,interface,0.061029
+v3,Java,transcript_ocr,7,420.0,480.0,implements,0.128315
+v3,Java,transcript_ocr,7,420.0,480.0,extends,0.093475
+v3,Java,transcript_ocr,7,420.0,480.0,inheritance,0.083896
+v3,Java,transcript_ocr,7,420.0,480.0,abstract class,0.209409
+v3,Java,transcript_ocr,7,420.0,480.0,abstract method,0.119647
+v4,SQL,transcript_ocr,0,0.0,60.0,select,0.132145
+v4,SQL,transcript_ocr,0,0.0,60.0,where,0.078307
+v4,SQL,transcript_ocr,0,0.0,60.0,group by,0.426279
+v4,SQL,transcript_ocr,0,0.0,60.0,having,0.153707
+v4,SQL,transcript_ocr,0,0.0,60.0,count,0.206951
+v4,SQL,transcript_ocr,0,0.0,60.0,aggregate function,0.171911
+v4,SQL,transcript_ocr,0,0.0,60.0,join,0.039222
+v4,SQL,transcript_ocr,0,0.0,60.0,inner join,0.024988
+v4,SQL,transcript_ocr,0,0.0,60.0,left join,0.067421
+v4,SQL,transcript_ocr,0,0.0,60.0,subquery,0.056442
+v4,SQL,transcript_ocr,0,0.0,60.0,order by,0.250147
+v4,SQL,transcript_ocr,1,60.0,120.0,select,0.132176
+v4,SQL,transcript_ocr,1,60.0,120.0,where,0.078331
+v4,SQL,transcript_ocr,1,60.0,120.0,group by,0.426437
+v4,SQL,transcript_ocr,1,60.0,120.0,having,0.15376
+v4,SQL,transcript_ocr,1,60.0,120.0,count,0.207023
+v4,SQL,transcript_ocr,1,60.0,120.0,aggregate function,0.171969
+v4,SQL,transcript_ocr,1,60.0,120.0,join,0.039212
+v4,SQL,transcript_ocr,1,60.0,120.0,inner join,0.024981
+v4,SQL,transcript_ocr,1,60.0,120.0,left join,0.067431
+v4,SQL,transcript_ocr,1,60.0,120.0,subquery,0.056451
+v4,SQL,transcript_ocr,1,60.0,120.0,order by,0.250234
+v4,SQL,transcript_ocr,2,120.0,180.0,select,0.132444
+v4,SQL,transcript_ocr,2,120.0,180.0,where,0.07853
+v4,SQL,transcript_ocr,2,120.0,180.0,group by,0.427762
+v4,SQL,transcript_ocr,2,120.0,180.0,having,0.154206
+v4,SQL,transcript_ocr,2,120.0,180.0,count,0.207624
+v4,SQL,transcript_ocr,2,120.0,180.0,aggregate function,0.172454
+v4,SQL,transcript_ocr,2,120.0,180.0,join,0.039133
+v4,SQL,transcript_ocr,2,120.0,180.0,inner join,0.024928
+v4,SQL,transcript_ocr,2,120.0,180.0,left join,0.067516
+v4,SQL,transcript_ocr,2,120.0,180.0,subquery,0.056526
+v4,SQL,transcript_ocr,2,120.0,180.0,order by,0.250959
+v4,SQL,transcript_ocr,3,180.0,240.0,select,0.132512
+v4,SQL,transcript_ocr,3,180.0,240.0,where,0.07858
+v4,SQL,transcript_ocr,3,180.0,240.0,group by,0.428097
+v4,SQL,transcript_ocr,3,180.0,240.0,having,0.154319
+v4,SQL,transcript_ocr,3,180.0,240.0,count,0.207777
+v4,SQL,transcript_ocr,3,180.0,240.0,aggregate function,0.172577
+v4,SQL,transcript_ocr,3,180.0,240.0,join,0.039113
+v4,SQL,transcript_ocr,3,180.0,240.0,inner join,0.024914
+v4,SQL,transcript_ocr,3,180.0,240.0,left join,0.067537
+v4,SQL,transcript_ocr,3,180.0,240.0,subquery,0.056545
+v4,SQL,transcript_ocr,3,180.0,240.0,order by,0.251142
+v4,SQL,transcript_ocr,4,240.0,300.0,select,0.132485
+v4,SQL,transcript_ocr,4,240.0,300.0,where,0.07856
+v4,SQL,transcript_ocr,4,240.0,300.0,group by,0.427964
+v4,SQL,transcript_ocr,4,240.0,300.0,having,0.154274
+v4,SQL,transcript_ocr,4,240.0,300.0,count,0.207716
+v4,SQL,transcript_ocr,4,240.0,300.0,aggregate function,0.172528
+v4,SQL,transcript_ocr,4,240.0,300.0,join,0.039121
+v4,SQL,transcript_ocr,4,240.0,300.0,inner join,0.024919
+v4,SQL,transcript_ocr,4,240.0,300.0,left join,0.067529
+v4,SQL,transcript_ocr,4,240.0,300.0,subquery,0.056537
+v4,SQL,transcript_ocr,4,240.0,300.0,order by,0.251069
+v4,SQL,transcript_ocr,5,300.0,360.0,select,0.130662
+v4,SQL,transcript_ocr,5,300.0,360.0,where,0.068857
+v4,SQL,transcript_ocr,5,300.0,360.0,group by,0.365028
+v4,SQL,transcript_ocr,5,300.0,360.0,having,0.135533
+v4,SQL,transcript_ocr,5,300.0,360.0,count,0.179597
+v4,SQL,transcript_ocr,5,300.0,360.0,aggregate function,0.150933
+v4,SQL,transcript_ocr,5,300.0,360.0,join,0.045695
+v4,SQL,transcript_ocr,5,300.0,360.0,inner join,0.028668
+v4,SQL,transcript_ocr,5,300.0,360.0,left join,0.084406
+v4,SQL,transcript_ocr,5,300.0,360.0,subquery,0.053909
+v4,SQL,transcript_ocr,5,300.0,360.0,order by,0.216895
+v4,SQL,transcript_ocr,6,360.0,420.0,select,0.132512
+v4,SQL,transcript_ocr,6,360.0,420.0,where,0.07858
+v4,SQL,transcript_ocr,6,360.0,420.0,group by,0.428095
+v4,SQL,transcript_ocr,6,360.0,420.0,having,0.154318
+v4,SQL,transcript_ocr,6,360.0,420.0,count,0.207776
+v4,SQL,transcript_ocr,6,360.0,420.0,aggregate function,0.172576
+v4,SQL,transcript_ocr,6,360.0,420.0,join,0.039113
+v4,SQL,transcript_ocr,6,360.0,420.0,inner join,0.024914
+v4,SQL,transcript_ocr,6,360.0,420.0,left join,0.067537
+v4,SQL,transcript_ocr,6,360.0,420.0,subquery,0.056545
+v4,SQL,transcript_ocr,6,360.0,420.0,order by,0.251141
+v4,SQL,transcript_ocr,7,420.0,480.0,select,0.132473
+v4,SQL,transcript_ocr,7,420.0,480.0,where,0.078551
+v4,SQL,transcript_ocr,7,420.0,480.0,group by,0.427905
+v4,SQL,transcript_ocr,7,420.0,480.0,having,0.154254
+v4,SQL,transcript_ocr,7,420.0,480.0,count,0.207689
+v4,SQL,transcript_ocr,7,420.0,480.0,aggregate function,0.172507
+v4,SQL,transcript_ocr,7,420.0,480.0,join,0.039124
+v4,SQL,transcript_ocr,7,420.0,480.0,inner join,0.024922
+v4,SQL,transcript_ocr,7,420.0,480.0,left join,0.067525
+v4,SQL,transcript_ocr,7,420.0,480.0,subquery,0.056534
+v4,SQL,transcript_ocr,7,420.0,480.0,order by,0.251037
+v5,Java,transcript_ocr,0,0.0,60.0,class,0.343337
+v5,Java,transcript_ocr,0,0.0,60.0,object,0.370684
+v5,Java,transcript_ocr,0,0.0,60.0,method,0.268553
+v5,Java,transcript_ocr,0,0.0,60.0,interface,0.31634
+v5,Java,transcript_ocr,0,0.0,60.0,implements,0.394624
+v5,Java,transcript_ocr,0,0.0,60.0,extends,0.348529
+v5,Java,transcript_ocr,0,0.0,60.0,inheritance,0.341314
+v5,Java,transcript_ocr,0,0.0,60.0,abstract class,0.33901
+v5,Java,transcript_ocr,0,0.0,60.0,abstract method,0.089506
+v5,Java,transcript_ocr,1,60.0,120.0,class,0.343167
+v5,Java,transcript_ocr,1,60.0,120.0,object,0.370493
+v5,Java,transcript_ocr,1,60.0,120.0,method,0.268403
+v5,Java,transcript_ocr,1,60.0,120.0,interface,0.316163
+v5,Java,transcript_ocr,1,60.0,120.0,implements,0.394421
+v5,Java,transcript_ocr,1,60.0,120.0,extends,0.348345
+v5,Java,transcript_ocr,1,60.0,120.0,inheritance,0.341131
+v5,Java,transcript_ocr,1,60.0,120.0,abstract class,0.338864
+v5,Java,transcript_ocr,1,60.0,120.0,abstract method,0.089484
+v5,Java,transcript_ocr,2,120.0,180.0,class,0.343334
+v5,Java,transcript_ocr,2,120.0,180.0,object,0.370681
+v5,Java,transcript_ocr,2,120.0,180.0,method,0.268551
+v5,Java,transcript_ocr,2,120.0,180.0,interface,0.316337
+v5,Java,transcript_ocr,2,120.0,180.0,implements,0.394621
+v5,Java,transcript_ocr,2,120.0,180.0,extends,0.348527
+v5,Java,transcript_ocr,2,120.0,180.0,inheritance,0.341311
+v5,Java,transcript_ocr,2,120.0,180.0,abstract class,0.339008
+v5,Java,transcript_ocr,2,120.0,180.0,abstract method,0.089505
+v5,Java,transcript_ocr,3,180.0,240.0,class,0.343372
+v5,Java,transcript_ocr,3,180.0,240.0,object,0.370724
+v5,Java,transcript_ocr,3,180.0,240.0,method,0.268585
+v5,Java,transcript_ocr,3,180.0,240.0,interface,0.316377
+v5,Java,transcript_ocr,3,180.0,240.0,implements,0.394666
+v5,Java,transcript_ocr,3,180.0,240.0,extends,0.348568
+v5,Java,transcript_ocr,3,180.0,240.0,inheritance,0.341352
+v5,Java,transcript_ocr,3,180.0,240.0,abstract class,0.33904
+v5,Java,transcript_ocr,3,180.0,240.0,abstract method,0.08951
+v5,Java,transcript_ocr,4,240.0,300.0,class,0.343317
+v5,Java,transcript_ocr,4,240.0,300.0,object,0.370662
+v5,Java,transcript_ocr,4,240.0,300.0,method,0.268536
+v5,Java,transcript_ocr,4,240.0,300.0,interface,0.316319
+v5,Java,transcript_ocr,4,240.0,300.0,implements,0.3946
+v5,Java,transcript_ocr,4,240.0,300.0,extends,0.348508
+v5,Java,transcript_ocr,4,240.0,300.0,inheritance,0.341293
+v5,Java,transcript_ocr,4,240.0,300.0,abstract class,0.338993
+v5,Java,transcript_ocr,4,240.0,300.0,abstract method,0.089503
+v5,Java,transcript_ocr,5,300.0,360.0,class,0.343445
+v5,Java,transcript_ocr,5,300.0,360.0,object,0.370806
+v5,Java,transcript_ocr,5,300.0,360.0,method,0.268649
+v5,Java,transcript_ocr,5,300.0,360.0,interface,0.316452
+v5,Java,transcript_ocr,5,300.0,360.0,implements,0.394753
+v5,Java,transcript_ocr,5,300.0,360.0,extends,0.348646
+v5,Java,transcript_ocr,5,300.0,360.0,inheritance,0.34143
+v5,Java,transcript_ocr,5,300.0,360.0,abstract class,0.339102
+v5,Java,transcript_ocr,5,300.0,360.0,abstract method,0.089519
+v5,Java,transcript_ocr,6,360.0,420.0,class,0.342927
+v5,Java,transcript_ocr,6,360.0,420.0,object,0.370221
+v5,Java,transcript_ocr,6,360.0,420.0,method,0.268191
+v5,Java,transcript_ocr,6,360.0,420.0,interface,0.315913
+v5,Java,transcript_ocr,6,360.0,420.0,implements,0.394134
+v5,Java,transcript_ocr,6,360.0,420.0,extends,0.348084
+v5,Java,transcript_ocr,6,360.0,420.0,inheritance,0.340872
+v5,Java,transcript_ocr,6,360.0,420.0,abstract class,0.338659
+v5,Java,transcript_ocr,6,360.0,420.0,abstract method,0.089455

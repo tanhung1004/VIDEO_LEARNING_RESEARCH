@@ -1,0 +1,41 @@
+video_id,subject,concept
+v1,SQL,select
+v1,SQL,where
+v1,SQL,group by
+v1,SQL,having
+v1,SQL,count
+v1,SQL,aggregate function
+v1,SQL,join
+v1,SQL,inner join
+v1,SQL,left join
+v1,SQL,subquery
+v2,Python,for loop
+v2,Python,for
+v2,Python,iteration
+v2,Python,range
+v2,Python,list
+v2,Python,nested loop
+v2,Python,break
+v3,Java,class
+v3,Java,object
+v3,Java,method
+v3,Java,interface
+v3,Java,implements
+v3,Java,extends
+v3,Java,inheritance
+v3,Java,abstract class
+v3,Java,abstract method
+v4,SQL,select
+v4,SQL,where
+v4,SQL,group by
+v4,SQL,having
+v4,SQL,count
+v4,SQL,aggregate function
+v5,Java,class
+v5,Java,object
+v5,Java,method
+v5,Java,interface
+v5,Java,implements
+v5,Java,inheritance
+v5,Java,abstract class
+v5,Java,abstract method

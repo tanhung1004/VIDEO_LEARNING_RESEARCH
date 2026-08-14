@@ -1,0 +1,6 @@
+video_id,subject,title,url,status
+v1,SQL,SQL Video 1,https://www.youtube.com/watch?v=avhmevmVEEY,selected
+v2,Python,Python Video 1,https://www.youtube.com/watch?v=94UHCEmprCY,selected
+v3,Java,Java Video 1,https://www.youtube.com/watch?v=HvPlEJ3LHgE,selected
+v4,SQL,SQL Video 2,https://www.youtube.com/watch?v=VQf0V6Wwbf4,selected
+v5,Java,Java Video 2,https://www.youtube.com/watch?v=c2sTQk9opO8,selected

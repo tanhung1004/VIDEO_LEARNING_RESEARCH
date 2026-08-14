@@ -1,0 +1,45 @@
+﻿video_id,subject,method,concept,result
+v1,sql,transcript_only,aggregate function,FN
+v1,sql,transcript_only,count,FN
+v1,sql,transcript_only,group by,TP
+v1,sql,transcript_only,having,TP
+v1,sql,transcript_only,inner join,TP
+v1,sql,transcript_only,join,FN
+v1,sql,transcript_only,left join,TP
+v1,sql,transcript_only,order by,FP
+v1,sql,transcript_only,select,TP
+v1,sql,transcript_only,subquery,TP
+v1,sql,transcript_only,where,TP
+v2,python,transcript_only,break,TP
+v2,python,transcript_only,continue,FP
+v2,python,transcript_only,for,TP
+v2,python,transcript_only,for loop,TP
+v2,python,transcript_only,iteration,TP
+v2,python,transcript_only,list,TP
+v2,python,transcript_only,nested loop,TP
+v2,python,transcript_only,range,TP
+v3,java,transcript_only,abstract class,TP
+v3,java,transcript_only,abstract method,TP
+v3,java,transcript_only,class,TP
+v3,java,transcript_only,extends,FN
+v3,java,transcript_only,implements,TP
+v3,java,transcript_only,inheritance,FN
+v3,java,transcript_only,interface,TP
+v3,java,transcript_only,method,TP
+v3,java,transcript_only,object,TP
+v4,sql,transcript_only,aggregate function,TP
+v4,sql,transcript_only,count,TP
+v4,sql,transcript_only,group by,TP
+v4,sql,transcript_only,having,TP
+v4,sql,transcript_only,left join,FP
+v4,sql,transcript_only,order by,FP
+v4,sql,transcript_only,select,FN
+v4,sql,transcript_only,where,FN
+v5,java,transcript_only,abstract class,TP
+v5,java,transcript_only,abstract method,TP
+v5,java,transcript_only,class,TP
+v5,java,transcript_only,implements,TP
+v5,java,transcript_only,inheritance,FN
+v5,java,transcript_only,interface,TP
+v5,java,transcript_only,method,TP
+v5,java,transcript_only,object,FN

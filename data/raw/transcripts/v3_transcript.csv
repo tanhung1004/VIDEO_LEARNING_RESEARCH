@@ -1,0 +1,222 @@
+﻿video_id,subject,youtube_id,start_sec,end_sec,start_time,end_time,text
+v3,Java,HvPlEJ3LHgE,0.08,2.96,00:00:00,00:00:02,abstract classes can be a really
+v3,Java,HvPlEJ3LHgE,1.52,4.08,00:00:01,00:00:04,confusing concept when you're learning
+v3,Java,HvPlEJ3LHgE,2.96,5.36,00:00:02,00:00:05,java when i was learning they were
+v3,Java,HvPlEJ3LHgE,4.08,6.96,00:00:04,00:00:06,pretty confusing for me but in this
+v3,Java,HvPlEJ3LHgE,5.36,9.12,00:00:05,00:00:09,video we're going to go over exactly
+v3,Java,HvPlEJ3LHgE,6.96,10.64,00:00:06,00:00:10,what an abstract class is how you make
+v3,Java,HvPlEJ3LHgE,9.12,12.08,00:00:09,00:00:12,one and how you can use one with an
+v3,Java,HvPlEJ3LHgE,10.64,13.44,00:00:10,00:00:13,example and why you would want to make
+v3,Java,HvPlEJ3LHgE,12.08,15.04,00:00:12,00:00:15,one in the first place we'll also talk
+v3,Java,HvPlEJ3LHgE,13.44,16.88,00:00:13,00:00:16,about the differences between abstract
+v3,Java,HvPlEJ3LHgE,15.04,18.64,00:00:15,00:00:18,classes and interfaces my name is john
+v3,Java,HvPlEJ3LHgE,16.88,19.92,00:00:16,00:00:19,i'm a lead java software engineer and i
+v3,Java,HvPlEJ3LHgE,18.64,21.12,00:00:18,00:00:21,love sharing what i've learned in a
+v3,Java,HvPlEJ3LHgE,19.92,22.32,00:00:19,00:00:22,clear understandable way so if you
+v3,Java,HvPlEJ3LHgE,21.12,23.76,00:00:21,00:00:23,enjoyed this video please consider
+v3,Java,HvPlEJ3LHgE,22.32,25.36,00:00:22,00:00:25,subscribing so you don't miss each new
+v3,Java,HvPlEJ3LHgE,23.76,26.8,00:00:23,00:00:26,java tutorial i also have a full java
+v3,Java,HvPlEJ3LHgE,25.36,28.0,00:00:25,00:00:28,course available in a link down in the
+v3,Java,HvPlEJ3LHgE,26.8,30.56,00:00:26,00:00:30,description if you're interested so
+v3,Java,HvPlEJ3LHgE,28.0,32.88,00:00:28,00:00:32,first things first what is an abstract
+v3,Java,HvPlEJ3LHgE,30.56,35.2,00:00:30,00:00:35,class all an abstract class is is a
+v3,Java,HvPlEJ3LHgE,32.88,37.12,00:00:32,00:00:37,class that you can't instantiate you
+v3,Java,HvPlEJ3LHgE,35.2,38.56,00:00:35,00:00:38,can't create objects from abstract
+v3,Java,HvPlEJ3LHgE,37.12,40.08,00:00:37,00:00:40,classes so what does that mean well you
+v3,Java,HvPlEJ3LHgE,38.56,42.4,00:00:38,00:00:42,know if you have like a normal class
+v3,Java,HvPlEJ3LHgE,40.08,44.32,00:00:40,00:00:44,like this cat class here if you want you
+v3,Java,HvPlEJ3LHgE,42.4,47.84,00:00:42,00:00:47,can create objects of that class so you
+v3,Java,HvPlEJ3LHgE,44.32,49.6,00:00:44,00:00:49,could say cat my cat equals new cat but
+v3,Java,HvPlEJ3LHgE,47.84,51.36,00:00:47,00:00:51,with abstract classes you can't do this
+v3,Java,HvPlEJ3LHgE,49.6,54.56,00:00:49,00:00:54,so if i go back into my cat class and
+v3,Java,HvPlEJ3LHgE,51.36,56.24,00:00:51,00:00:56,make it a public abstract class if i go
+v3,Java,HvPlEJ3LHgE,54.56,58.16,00:00:54,00:00:58,back into my main method i can see that
+v3,Java,HvPlEJ3LHgE,56.24,60.48,00:00:56,00:01:00,now i get an error here cannot
+v3,Java,HvPlEJ3LHgE,58.16,62.32,00:00:58,00:01:02,instantiate the type cat and by the way
+v3,Java,HvPlEJ3LHgE,60.48,64.32,00:01:00,00:01:04,this abstract keyword here in the class
+v3,Java,HvPlEJ3LHgE,62.32,66.32,00:01:02,00:01:06,definition is the only thing you need to
+v3,Java,HvPlEJ3LHgE,64.32,67.44,00:01:04,00:01:07,make a class into an abstract class
+v3,Java,HvPlEJ3LHgE,66.32,69.04,00:01:06,00:01:09,probably the first question that comes
+v3,Java,HvPlEJ3LHgE,67.44,70.72,00:01:07,00:01:10,to mind is why the heck would i want to
+v3,Java,HvPlEJ3LHgE,69.04,72.4,00:01:09,00:01:12,do that why would i want to make a class
+v3,Java,HvPlEJ3LHgE,70.72,73.84,00:01:10,00:01:13,that i can't create objects from so
+v3,Java,HvPlEJ3LHgE,72.4,75.52,00:01:12,00:01:15,here's a situation where it makes sense
+v3,Java,HvPlEJ3LHgE,73.84,77.76,00:01:13,00:01:17,to use an abstract class let's change
+v3,Java,HvPlEJ3LHgE,75.52,79.28,00:01:15,00:01:19,this class back into a regular class
+v3,Java,HvPlEJ3LHgE,77.76,81.6,00:01:17,00:01:21,instead of just being a standalone class
+v3,Java,HvPlEJ3LHgE,79.28,83.12,00:01:19,00:01:23,let's say it extended a class called
+v3,Java,HvPlEJ3LHgE,81.6,85.36,00:01:21,00:01:25,animal and let's say the animal class
+v3,Java,HvPlEJ3LHgE,83.12,87.52,00:01:23,00:01:27,had a couple of fields like int age
+v3,Java,HvPlEJ3LHgE,85.36,88.96,00:01:25,00:01:28,string name it totally makes sense that
+v3,Java,HvPlEJ3LHgE,87.52,91.2,00:01:27,00:01:31,you could have an animal class that
+v3,Java,HvPlEJ3LHgE,88.96,93.6,00:01:28,00:01:33,would have subclasses of actual animals
+v3,Java,HvPlEJ3LHgE,91.2,95.36,00:01:31,00:01:35,like cat dog horse whatever and it makes
+v3,Java,HvPlEJ3LHgE,93.6,97.44,00:01:33,00:01:37,sense that you could create objects of
+v3,Java,HvPlEJ3LHgE,95.36,99.28,00:01:35,00:01:39,those subclasses like you could create a
+v3,Java,HvPlEJ3LHgE,97.44,101.6,00:01:37,00:01:41,cat object but what doesn't make a whole
+v3,Java,HvPlEJ3LHgE,99.28,103.28,00:01:39,00:01:43,lot of sense is creating an animal
+v3,Java,HvPlEJ3LHgE,101.6,104.8,00:01:41,00:01:44,object you know it's just kind of weird
+v3,Java,HvPlEJ3LHgE,103.28,106.64,00:01:43,00:01:46,what kind of animal is it so you might
+v3,Java,HvPlEJ3LHgE,104.8,108.72,00:01:44,00:01:48,want a parent class like animal so that
+v3,Java,HvPlEJ3LHgE,106.64,110.64,00:01:46,00:01:50,your subclasses can share some fields
+v3,Java,HvPlEJ3LHgE,108.72,112.24,00:01:48,00:01:52,like age name and maybe some methods
+v3,Java,HvPlEJ3LHgE,110.64,114.48,00:01:50,00:01:54,that you write but you might not want to
+v3,Java,HvPlEJ3LHgE,112.24,116.4,00:01:52,00:01:56,be able to create objects of this animal
+v3,Java,HvPlEJ3LHgE,114.48,118.64,00:01:54,00:01:58,class all you have to do is make this
+v3,Java,HvPlEJ3LHgE,116.4,120.56,00:01:56,00:02:00,class abstract so an abstract class is a
+v3,Java,HvPlEJ3LHgE,118.64,122.48,00:01:58,00:02:02,class you can't instantiate but you can
+v3,Java,HvPlEJ3LHgE,120.56,124.96,00:02:00,00:02:04,absolutely make subclasses of an
+v3,Java,HvPlEJ3LHgE,122.48,127.2,00:02:02,00:02:07,abstract class that can be instantiated
+v3,Java,HvPlEJ3LHgE,124.96,129.52,00:02:04,00:02:09,now what about abstract methods in any
+v3,Java,HvPlEJ3LHgE,127.2,131.44,00:02:07,00:02:11,of your abstract classes you can choose
+v3,Java,HvPlEJ3LHgE,129.52,134.4,00:02:09,00:02:14,to have abstract methods let's say we
+v3,Java,HvPlEJ3LHgE,131.44,135.76,00:02:11,00:02:15,had a method like public void make noise
+v3,Java,HvPlEJ3LHgE,134.4,137.6,00:02:14,00:02:17,of course it makes sense for an animal
+v3,Java,HvPlEJ3LHgE,135.76,139.12,00:02:15,00:02:19,to be able to make noise but each
+v3,Java,HvPlEJ3LHgE,137.6,140.88,00:02:17,00:02:20,individual animal is going to make noise
+v3,Java,HvPlEJ3LHgE,139.12,142.56,00:02:19,00:02:22,in its own way a cat's going to meow a
+v3,Java,HvPlEJ3LHgE,140.88,144.16,00:02:20,00:02:24,dog is gonna bark so because of that it
+v3,Java,HvPlEJ3LHgE,142.56,146.08,00:02:22,00:02:26,might not make a whole lot of sense to
+v3,Java,HvPlEJ3LHgE,144.16,148.24,00:02:24,00:02:28,actually implement this method make
+v3,Java,HvPlEJ3LHgE,146.08,150.32,00:02:26,00:02:30,noise here in your abstract animal class
+v3,Java,HvPlEJ3LHgE,148.24,152.4,00:02:28,00:02:32,what you can do is make this method an
+v3,Java,HvPlEJ3LHgE,150.32,155.04,00:02:30,00:02:35,abstract method when you make a method
+v3,Java,HvPlEJ3LHgE,152.4,156.72,00:02:32,00:02:36,abstract you don't specify a body for
+v3,Java,HvPlEJ3LHgE,155.04,158.8,00:02:35,00:02:38,the method all you do is declare it and
+v3,Java,HvPlEJ3LHgE,156.72,160.56,00:02:36,00:02:40,then end it with a semicolon but then in
+v3,Java,HvPlEJ3LHgE,158.8,162.08,00:02:38,00:02:42,all the child classes of your abstract
+v3,Java,HvPlEJ3LHgE,160.56,164.16,00:02:40,00:02:44,class you have to actually create an
+v3,Java,HvPlEJ3LHgE,162.08,165.84,00:02:42,00:02:45,implementation of this make noise method
+v3,Java,HvPlEJ3LHgE,164.16,167.68,00:02:44,00:02:47,so if we go back over to our cat class
+v3,Java,HvPlEJ3LHgE,165.84,170.08,00:02:45,00:02:50,now we can see that it's giving us an
+v3,Java,HvPlEJ3LHgE,167.68,172.56,00:02:47,00:02:52,error that the type cat must implement
+v3,Java,HvPlEJ3LHgE,170.08,174.0,00:02:50,00:02:54,the inherited abstract method make noise
+v3,Java,HvPlEJ3LHgE,172.56,176.32,00:02:52,00:02:56,so of course we can write it all out but
+v3,Java,HvPlEJ3LHgE,174.0,178.56,00:02:54,00:02:58,we can also just use eclipse's fix tool
+v3,Java,HvPlEJ3LHgE,176.32,180.0,00:02:56,00:03:00,here to add the unimplemented method but
+v3,Java,HvPlEJ3LHgE,178.56,182.0,00:02:58,00:03:02,now this cat class can implement this
+v3,Java,HvPlEJ3LHgE,180.0,184.72,00:03:00,00:03:04,make noise method however we want print
+v3,Java,HvPlEJ3LHgE,182.0,187.28,00:03:02,00:03:07,out meow so because this animal class
+v3,Java,HvPlEJ3LHgE,184.72,189.2,00:03:04,00:03:09,declares an abstract method make noise
+v3,Java,HvPlEJ3LHgE,187.28,191.28,00:03:07,00:03:11,any child class of this animal class has
+v3,Java,HvPlEJ3LHgE,189.2,192.8,00:03:09,00:03:12,to provide its own make noise
+v3,Java,HvPlEJ3LHgE,191.28,195.12,00:03:11,00:03:15,implementation so now back in our main
+v3,Java,HvPlEJ3LHgE,192.8,196.64,00:03:12,00:03:16,method we could take my cat and call
+v3,Java,HvPlEJ3LHgE,195.12,199.2,00:03:15,00:03:19,meow and if we run our program we can
+v3,Java,HvPlEJ3LHgE,196.64,200.88,00:03:16,00:03:20,see that it says meow now of course we
+v3,Java,HvPlEJ3LHgE,199.2,203.12,00:03:19,00:03:23,could in our animal class you know get
+v3,Java,HvPlEJ3LHgE,200.88,205.28,00:03:20,00:03:25,rid of this abstract method and in our
+v3,Java,HvPlEJ3LHgE,203.12,207.2,00:03:23,00:03:27,cat class just declare a make noise
+v3,Java,HvPlEJ3LHgE,205.28,208.8,00:03:25,00:03:28,method that says meow and if we go back
+v3,Java,HvPlEJ3LHgE,207.2,211.36,00:03:27,00:03:31,and run our program again it still says
+v3,Java,HvPlEJ3LHgE,208.8,212.96,00:03:28,00:03:32,meow so why do we need this abstract
+v3,Java,HvPlEJ3LHgE,211.36,214.88,00:03:31,00:03:34,method what do we want that for what the
+v3,Java,HvPlEJ3LHgE,212.96,218.32,00:03:32,00:03:38,abstract class does as a whole is kind
+v3,Java,HvPlEJ3LHgE,214.88,220.96,00:03:34,00:03:40,of enforce and organize exactly what
+v3,Java,HvPlEJ3LHgE,218.32,222.32,00:03:38,00:03:42,every subclass of animal has to have so
+v3,Java,HvPlEJ3LHgE,220.96,224.16,00:03:40,00:03:44,this animal class is saying hey if you
+v3,Java,HvPlEJ3LHgE,222.32,225.36,00:03:42,00:03:45,want to create a new type of animal it's
+v3,Java,HvPlEJ3LHgE,224.16,226.72,00:03:44,00:03:46,going to have an age it's going to have
+v3,Java,HvPlEJ3LHgE,225.36,228.24,00:03:45,00:03:48,a name and it has to be able to make
+v3,Java,HvPlEJ3LHgE,226.72,229.84,00:03:46,00:03:49,noise every type of animal might make
+v3,Java,HvPlEJ3LHgE,228.24,231.84,00:03:48,00:03:51,noise in completely different ways but
+v3,Java,HvPlEJ3LHgE,229.84,234.0,00:03:49,00:03:54,this makes sure that every single animal
+v3,Java,HvPlEJ3LHgE,231.84,235.92,00:03:51,00:03:55,type is able to make noise as a side
+v3,Java,HvPlEJ3LHgE,234.0,237.36,00:03:54,00:03:57,note though in your abstract class all
+v3,Java,HvPlEJ3LHgE,235.92,239.68,00:03:55,00:03:59,of the methods don't necessarily have to
+v3,Java,HvPlEJ3LHgE,237.36,241.52,00:03:57,00:04:01,be abstract you can create actual
+v3,Java,HvPlEJ3LHgE,239.68,243.04,00:03:59,00:04:03,concrete implemented methods in your
+v3,Java,HvPlEJ3LHgE,241.52,246.0,00:04:01,00:04:06,abstract classes so you could have like
+v3,Java,HvPlEJ3LHgE,243.04,248.88,00:04:03,00:04:08,public void print name just prints my
+v3,Java,HvPlEJ3LHgE,246.0,250.24,00:04:06,00:04:10,name is name so now every subclass of
+v3,Java,HvPlEJ3LHgE,248.88,251.68,00:04:08,00:04:11,animal will also have this print name
+v3,Java,HvPlEJ3LHgE,250.24,252.8,00:04:10,00:04:12,method available to it but since it's
+v3,Java,HvPlEJ3LHgE,251.68,254.24,00:04:11,00:04:14,not abstract they don't need to
+v3,Java,HvPlEJ3LHgE,252.8,255.76,00:04:12,00:04:15,implement it themselves they can just
+v3,Java,HvPlEJ3LHgE,254.24,257.44,00:04:14,00:04:17,use the implementation that's here the
+v3,Java,HvPlEJ3LHgE,255.76,259.44,00:04:15,00:04:19,question a lot of people have and what's
+v3,Java,HvPlEJ3LHgE,257.44,260.88,00:04:17,00:04:20,actually also a big interview question
+v3,Java,HvPlEJ3LHgE,259.44,262.96,00:04:19,00:04:22,is what's the difference between an
+v3,Java,HvPlEJ3LHgE,260.88,265.76,00:04:20,00:04:25,abstract class and an interface let's
+v3,Java,HvPlEJ3LHgE,262.96,268.32,00:04:22,00:04:28,say we had an interface called like
+v3,Java,HvPlEJ3LHgE,265.76,271.52,00:04:25,00:04:31,animal stuff here in an interface we
+v3,Java,HvPlEJ3LHgE,268.32,272.96,00:04:28,00:04:32,could say how about public void poop
+v3,Java,HvPlEJ3LHgE,271.52,274.48,00:04:31,00:04:34,just like every animal might make noise
+v3,Java,HvPlEJ3LHgE,272.96,275.76,00:04:32,00:04:35,in different ways every animal is
+v3,Java,HvPlEJ3LHgE,274.48,277.68,00:04:34,00:04:37,probably also going to poop in different
+v3,Java,HvPlEJ3LHgE,275.76,279.36,00:04:35,00:04:39,ways in interfaces you don't need an
+v3,Java,HvPlEJ3LHgE,277.68,281.12,00:04:37,00:04:41,abstract keyword in your methods every
+v3,Java,HvPlEJ3LHgE,279.36,282.96,00:04:39,00:04:42,method in an interface is assumed to be
+v3,Java,HvPlEJ3LHgE,281.12,284.56,00:04:41,00:04:44,abstract so you uh you don't need this
+v3,Java,HvPlEJ3LHgE,282.96,286.64,00:04:42,00:04:46,keyword as you probably know if you want
+v3,Java,HvPlEJ3LHgE,284.56,288.56,00:04:44,00:04:48,to implement an interface so all you
+v3,Java,HvPlEJ3LHgE,286.64,290.48,00:04:46,00:04:50,have to do is instead of extending
+v3,Java,HvPlEJ3LHgE,288.56,293.12,00:04:48,00:04:53,another class you just say
+v3,Java,HvPlEJ3LHgE,290.48,294.72,00:04:50,00:04:54,implements the interface which is animal
+v3,Java,HvPlEJ3LHgE,293.12,296.64,00:04:53,00:04:56,stuff and now that we implement this
+v3,Java,HvPlEJ3LHgE,294.72,298.56,00:04:54,00:04:58,animal stuff interface we have to
+v3,Java,HvPlEJ3LHgE,296.64,300.24,00:04:56,00:05:00,implement this poop method you see right
+v3,Java,HvPlEJ3LHgE,298.56,302.4,00:04:58,00:05:02,now we get an error that says type cat
+v3,Java,HvPlEJ3LHgE,300.24,304.0,00:05:00,00:05:04,must implement the inherited abstract
+v3,Java,HvPlEJ3LHgE,302.4,305.68,00:05:02,00:05:05,method poop we can just click the
+v3,Java,HvPlEJ3LHgE,304.0,307.52,00:05:04,00:05:07,suggestion here to add the unimplemented
+v3,Java,HvPlEJ3LHgE,305.68,309.6,00:05:05,00:05:09,method print out
+v3,Java,HvPlEJ3LHgE,307.52,311.36,00:05:07,00:05:11,like
+v3,Java,HvPlEJ3LHgE,309.6,313.36,00:05:09,00:05:13,sounds pretty poopy so just like this
+v3,Java,HvPlEJ3LHgE,311.36,314.88,00:05:11,00:05:14,abstract make noise method made any
+v3,Java,HvPlEJ3LHgE,313.36,317.44,00:05:13,00:05:17,subclass implement this make noise
+v3,Java,HvPlEJ3LHgE,314.88,319.2,00:05:14,00:05:19,method this interface also makes any
+v3,Java,HvPlEJ3LHgE,317.44,320.56,00:05:17,00:05:20,classes that implement the interface
+v3,Java,HvPlEJ3LHgE,319.2,321.68,00:05:19,00:05:21,implement this method they seem like
+v3,Java,HvPlEJ3LHgE,320.56,323.04,00:05:20,00:05:23,they're doing the same thing right
+v3,Java,HvPlEJ3LHgE,321.68,325.12,00:05:21,00:05:25,what's the difference the first key
+v3,Java,HvPlEJ3LHgE,323.04,327.12,00:05:23,00:05:27,difference is that you can implement as
+v3,Java,HvPlEJ3LHgE,325.12,329.28,00:05:25,00:05:29,many interfaces as you want in java
+v3,Java,HvPlEJ3LHgE,327.12,331.2,00:05:27,00:05:31,there's no limit but you can only extend
+v3,Java,HvPlEJ3LHgE,329.28,332.96,00:05:29,00:05:32,one class and you can totally do both if
+v3,Java,HvPlEJ3LHgE,331.2,335.04,00:05:31,00:05:35,you want to you can extend the animal
+v3,Java,HvPlEJ3LHgE,332.96,336.88,00:05:32,00:05:36,class and implement the animal stuff
+v3,Java,HvPlEJ3LHgE,335.04,339.12,00:05:35,00:05:39,interface another difference is that in
+v3,Java,HvPlEJ3LHgE,336.88,342.32,00:05:36,00:05:42,interfaces if you declare any fields
+v3,Java,HvPlEJ3LHgE,339.12,343.84,00:05:39,00:05:43,like if you had end age and string name
+v3,Java,HvPlEJ3LHgE,342.32,346.08,00:05:42,00:05:46,every field that's declared inside an
+v3,Java,HvPlEJ3LHgE,343.84,347.52,00:05:43,00:05:47,interface is going to be static and
+v3,Java,HvPlEJ3LHgE,346.08,349.2,00:05:46,00:05:49,final that's why i'm getting an error
+v3,Java,HvPlEJ3LHgE,347.52,351.12,00:05:47,00:05:51,here because it's final i have to
+v3,Java,HvPlEJ3LHgE,349.2,353.04,00:05:49,00:05:53,instantiate it with some kind of a value
+v3,Java,HvPlEJ3LHgE,351.12,354.96,00:05:51,00:05:54,larry because every field in an
+v3,Java,HvPlEJ3LHgE,353.04,357.2,00:05:53,00:05:57,interface is automatically static that
+v3,Java,HvPlEJ3LHgE,354.96,360.0,00:05:54,00:06:00,means the same values apply to every
+v3,Java,HvPlEJ3LHgE,357.2,361.92,00:05:57,00:06:01,object in that class if i say age equals
+v3,Java,HvPlEJ3LHgE,360.0,363.84,00:06:00,00:06:03,one that would have to apply to every
+v3,Java,HvPlEJ3LHgE,361.92,364.96,00:06:01,00:06:04,class that implements this interface so
+v3,Java,HvPlEJ3LHgE,363.84,367.28,00:06:03,00:06:07,it really doesn't make a whole lot of
+v3,Java,HvPlEJ3LHgE,364.96,370.24,00:06:04,00:06:10,sense to have fields like this inside
+v3,Java,HvPlEJ3LHgE,367.28,371.92,00:06:07,00:06:11,interfaces that's why we have abstract
+v3,Java,HvPlEJ3LHgE,370.24,374.4,00:06:10,00:06:14,classes like this so you can say hey
+v3,Java,HvPlEJ3LHgE,371.92,375.84,00:06:11,00:06:15,every animal has to have an age and a
+v3,Java,HvPlEJ3LHgE,374.4,376.8,00:06:14,00:06:16,name but i'm not going to tell you what
+v3,Java,HvPlEJ3LHgE,375.84,379.36,00:06:15,00:06:19,it is right now because that doesn't
+v3,Java,HvPlEJ3LHgE,376.8,381.44,00:06:16,00:06:21,make sense each individual cat object
+v3,Java,HvPlEJ3LHgE,379.36,383.84,00:06:19,00:06:23,dog object and horse object can all have
+v3,Java,HvPlEJ3LHgE,381.44,386.08,00:06:21,00:06:26,their own age and name values so you can
+v3,Java,HvPlEJ3LHgE,383.84,387.6,00:06:23,00:06:27,do that with an abstract class but not
+v3,Java,HvPlEJ3LHgE,386.08,389.52,00:06:26,00:06:29,with an interface so you might want to
+v3,Java,HvPlEJ3LHgE,387.6,391.6,00:06:27,00:06:31,create an abstract class if you have a
+v3,Java,HvPlEJ3LHgE,389.52,393.36,00:06:29,00:06:33,lot of closely related classes that you
+v3,Java,HvPlEJ3LHgE,391.6,395.28,00:06:31,00:06:35,want to have the same functionality and
+v3,Java,HvPlEJ3LHgE,393.36,396.72,00:06:33,00:06:36,the same types of fields available but
+v3,Java,HvPlEJ3LHgE,395.28,399.04,00:06:35,00:06:39,you might want to make an interface
+v3,Java,HvPlEJ3LHgE,396.72,401.12,00:06:36,00:06:41,instead if you have a lot of unrelated
+v3,Java,HvPlEJ3LHgE,399.04,403.12,00:06:39,00:06:43,classes that you all want to be able to
+v3,Java,HvPlEJ3LHgE,401.12,404.48,00:06:41,00:06:44,do a certain thing that makes it so you
+v3,Java,HvPlEJ3LHgE,403.12,406.56,00:06:43,00:06:46,can guarantee that other types of
+v3,Java,HvPlEJ3LHgE,404.48,408.4,00:06:44,00:06:48,classes will be able to poop even if
+v3,Java,HvPlEJ3LHgE,406.56,410.48,00:06:46,00:06:50,they aren't animals that might be the
+v3,Java,HvPlEJ3LHgE,408.4,412.24,00:06:48,00:06:52,weirdest sentence ever said in a java
+v3,Java,HvPlEJ3LHgE,410.48,413.68,00:06:50,00:06:53,tutorial if you have any questions or
+v3,Java,HvPlEJ3LHgE,412.24,415.28,00:06:52,00:06:55,clarifications let me know in the
+v3,Java,HvPlEJ3LHgE,413.68,416.8,00:06:53,00:06:56,comments or if i got something wrong
+v3,Java,HvPlEJ3LHgE,415.28,418.24,00:06:55,00:06:58,feel free to shout and rant at me
+v3,Java,HvPlEJ3LHgE,416.8,421.2,00:06:56,00:07:01,angrily thanks so much for watching and
+v3,Java,HvPlEJ3LHgE,418.24,421.2,00:06:58,00:07:01,i'll see you next time

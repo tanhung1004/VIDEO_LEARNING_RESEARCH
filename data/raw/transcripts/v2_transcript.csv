@@ -1,0 +1,151 @@
+﻿video_id,subject,youtube_id,start_sec,end_sec,start_time,end_time,text
+v2,Python,94UHCEmprCY,3.38,8.4,00:00:03,00:00:08,there are times that we may want to repeat a task a number of times for
+v2,Python,94UHCEmprCY,8.4,13.35,00:00:08,00:00:13,example let's say we send a message to a user if that message cannot be delivered
+v2,Python,94UHCEmprCY,13.35,19.29,00:00:13,00:00:19,perhaps we want to retry three times now for simplicity let's imagine this print
+v2,Python,94UHCEmprCY,19.29,25.5,00:00:19,00:00:25,statement is equivalent to sending a message in a real work program to send a
+v2,Python,94UHCEmprCY,25.5,29.55,00:00:25,00:00:29,message to a user we have to write five to ten lines of code now if you want to
+v2,Python,94UHCEmprCY,29.55,34.23,00:00:29,00:00:34,retry three times we don't want to repeat all that code that is ugly that's
+v2,Python,94UHCEmprCY,34.23,39.54,00:00:34,00:00:39,when we use a loop we use loops to create repetition so here is how it
+v2,Python,94UHCEmprCY,39.54,46.02,00:00:39,00:00:46,works we start with four number in we have a built-in function called
+v2,Python,94UHCEmprCY,46.02,50.85,00:00:46,00:00:50,range now how many times we want to repeat this task let's say three times
+v2,Python,94UHCEmprCY,50.85,56.52,00:00:50,00:00:56,so we call range and pass three as an argument now similar to our if
+v2,Python,94UHCEmprCY,56.52,62.01,00:00:56,00:01:02,statements we need to terminate this line with a colon enter we get
+v2,Python,94UHCEmprCY,62.01,66.84,00:01:02,00:01:06,indentation so in this block we can write all the statements that should be
+v2,Python,94UHCEmprCY,66.84,73.37,00:01:06,00:01:13,repeated three times let's do a print a message like attempt save the changes
+v2,Python,94UHCEmprCY,73.37,79.44,00:01:13,00:01:19,run the program so we have attempt printed three times beautiful now what
+v2,Python,94UHCEmprCY,79.44,86.37,00:01:19,00:01:26,is this number let's take a look it's a variable of type integer so let's pass
+v2,Python,94UHCEmprCY,86.37,92.94,00:01:26,00:01:32,it as the second argument to the print function number run the program this is
+v2,Python,94UHCEmprCY,92.94,99.36,00:01:32,00:01:39,what we get zero one two so here we have a for loop this for loop is executed
+v2,Python,94UHCEmprCY,99.36,105.0,00:01:39,00:01:45,three times in each iteration number will have a different value initially it
+v2,Python,94UHCEmprCY,105.0,109.11,00:01:45,00:01:49,will be zero in the second iteration it will be one and finally in the last
+v2,Python,94UHCEmprCY,109.11,116.15,00:01:49,00:01:56,iteration it will be two now here we can do something fun we can add one to this
+v2,Python,94UHCEmprCY,116.15,120.81,00:01:56,00:02:00,run the program and now the message is that the print are kind of more
+v2,Python,94UHCEmprCY,120.81,125.28,00:02:00,00:02:05,meaningful or more user-friendly like attempting number one attempting number
+v2,Python,94UHCEmprCY,125.28,130.02,00:02:05,00:02:10,two and so on we can take this to the next level so we can pass another
+v2,Python,94UHCEmprCY,130.02,133.32,00:02:10,00:02:13,argument here I'm going to add an expression one more
+v2,Python,94UHCEmprCY,133.32,138.24,00:02:13,00:02:18,time number plus one so we'll get one two three now I want to put this
+v2,Python,94UHCEmprCY,138.24,144.0,00:02:18,00:02:23,expression in parenthesis so let's select this put it in parenthesis and
+v2,Python,94UHCEmprCY,144.0,151.53,00:02:23,00:02:31,then multiply it by a dot so here we have a string that is multiplied by a
+v2,Python,94UHCEmprCY,151.53,156.6,00:02:31,00:02:36,number the result will be that string repeated that number of times let's take
+v2,Python,94UHCEmprCY,156.6,161.6,00:02:36,00:02:41,a look so run the program see that's pretty cool isn't it
+v2,Python,94UHCEmprCY,161.6,165.84,00:02:41,00:02:45,now let me show you one more thing before you finish this lecture as you
+v2,Python,94UHCEmprCY,165.84,169.8,00:02:45,00:02:49,saw this range function generates numbers starting from zero all the way
+v2,Python,94UHCEmprCY,169.8,174.12,00:02:49,00:02:54,up to this number here but it doesn't include this number here we can pass
+v2,Python,94UHCEmprCY,174.12,181.62,00:02:54,00:03:01,another argument say start from one and finish before four with this change we
+v2,Python,94UHCEmprCY,181.62,186.45,00:03:01,00:03:06,don't need to add one to number every time because in the first iteration this
+v2,Python,94UHCEmprCY,186.45,191.19,00:03:06,00:03:11,number variable will be set to one so we can simplify our code and make it
+v2,Python,94UHCEmprCY,191.19,197.52,00:03:11,00:03:17,cleaner let's run it one more time we get the exact same result we can also
+v2,Python,94UHCEmprCY,197.52,202.29,00:03:17,00:03:22,pass a third argument as a step so I'm going to change the second argument to
+v2,Python,94UHCEmprCY,202.29,209.94,00:03:22,00:03:29,ten and pass two as a step look at the result these are the numbers we get 1 3
+v2,Python,94UHCEmprCY,209.94,214.65,00:03:29,00:03:34,5 and so on so pretty useful you're going to use this function a lot in
+v2,Python,94UHCEmprCY,214.65,217.76,00:03:34,00:03:37,real-world applications
+v2,Python,94UHCEmprCY,222.97,227.12,00:03:42,00:03:47,continuing with the example from the last lecture let's imagine the scenario
+v2,Python,94UHCEmprCY,227.12,231.95,00:03:47,00:03:51,where after the first attempt we can successfully send the message in that
+v2,Python,94UHCEmprCY,231.95,237.17,00:03:51,00:03:57,case you want to jump out of this loop we don't want to repeat this task of
+v2,Python,94UHCEmprCY,237.17,241.73,00:03:57,00:04:01,sending a message three times let me show you how to implement this so in
+v2,Python,94UHCEmprCY,241.73,245.78,00:04:01,00:04:05,this demo I'm gonna simulate the scenario where we can successfully send
+v2,Python,94UHCEmprCY,245.78,252.01,00:04:05,00:04:12,a message so we define a variable successful and set it to true
+v2,Python,94UHCEmprCY,252.01,259.42,00:04:12,00:04:19,now here after this print statement we'll have an if statement if successful
+v2,Python,94UHCEmprCY,259.42,267.74,00:04:19,00:04:27,: then perhaps we can print successful now here we want to jump out of this
+v2,Python,94UHCEmprCY,267.74,272.54,00:04:27,00:04:32,loop for that we use the break statement let's run this program and see what
+v2,Python,94UHCEmprCY,272.54,276.89,00:04:32,00:04:36,happens so there you go after the first attempt
+v2,Python,94UHCEmprCY,276.89,283.04,00:04:36,00:04:43,we are successful and there are no more attempts so once again I want you to pay
+v2,Python,94UHCEmprCY,283.04,287.12,00:04:43,00:04:47,great attention to the indentation here because that's one of the common issues
+v2,Python,94UHCEmprCY,287.12,293.12,00:04:47,00:04:53,amongst beginners so here's our for loop these two lines are indented with four
+v2,Python,94UHCEmprCY,293.12,298.55,00:04:53,00:04:58,spaces and they belong to our for loop in every iteration these two lines will
+v2,Python,94UHCEmprCY,298.55,305.57,00:04:58,00:05:05,be executed now when we get to line four if this condition is true then these two
+v2,Python,94UHCEmprCY,305.57,311.48,00:05:05,00:05:11,lines will be executed because both these lines are indented below this if
+v2,Python,94UHCEmprCY,311.48,316.85,00:05:11,00:05:16,statement now let's take this program to the next level what if we attempt three
+v2,Python,94UHCEmprCY,316.85,321.02,00:05:16,00:05:21,times and we still cannot send an email perhaps we want to display a different
+v2,Python,94UHCEmprCY,321.02,326.87,00:05:21,00:05:26,message to the user we say hey we tried three times but it didn't work so I'm
+v2,Python,94UHCEmprCY,326.87,333.8,00:05:26,00:05:33,gonna change successful to false now at the end here we can add an else
+v2,Python,94UHCEmprCY,333.8,339.02,00:05:33,00:05:39,statement this is what we call a for else statement what we put under this
+v2,Python,94UHCEmprCY,339.02,344.18,00:05:39,00:05:44,else statement will only be executed if this loop completes without an early
+v2,Python,94UHCEmprCY,344.18,349.61,00:05:44,00:05:49,termination so if we never break out of this loop then the else statement will
+v2,Python,94UHCEmprCY,349.61,353.3,00:05:49,00:05:53,be executed so here we can print a message like
+v2,Python,94UHCEmprCY,353.3,361.33,00:05:53,00:06:01,attempt at three times and failed so run the program
+v2,Python,94UHCEmprCY,361.44,366.33,00:06:01,00:06:06,see what we get three attempts followed by this message attempted three times
+v2,Python,94UHCEmprCY,366.33,373.11,00:06:06,00:06:13,and failed in contrast if we change successful to true because we terminate
+v2,Python,94UHCEmprCY,373.11,378.15,00:06:13,00:06:18,this loop using this break statement what we have in the else block will not
+v2,Python,94UHCEmprCY,378.15,382.02,00:06:18,00:06:22,be executed take a look run the program we have one
+v2,Python,94UHCEmprCY,382.02,385.85,00:06:22,00:06:25,attempt successful done
+v2,Python,94UHCEmprCY,390.85,395.96,00:06:30,00:06:35,in programming we have this concept called nested loops so we can put one
+v2,Python,94UHCEmprCY,395.96,400.21,00:06:35,00:06:40,loop inside of another loop and with this we can get some interesting results
+v2,Python,94UHCEmprCY,400.21,409.52,00:06:40,00:06:49,let me show you so I'm going to start with this loop for X in range 5 : now
+v2,Python,94UHCEmprCY,409.52,418.1,00:06:49,00:06:58,inside of this loop I'm gonna add another loop so for Y in range 3 :
+v2,Python,94UHCEmprCY,418.1,423.91,00:06:58,00:07:03,and then in our second loop I'm gonna add a print statement here we can use
+v2,Python,94UHCEmprCY,423.91,430.16,00:07:03,00:07:10,formatted strings to display coordinates remember formatted string so we have F
+v2,Python,94UHCEmprCY,430.16,436.25,00:07:10,00:07:16,followed by quotes now here we add parentheses for our coordinate first we
+v2,Python,94UHCEmprCY,436.25,443.0,00:07:16,00:07:23,want to display X and then comma followed by Y let's run this program and
+v2,Python,94UHCEmprCY,443.0,447.41,00:07:23,00:07:27,see what happens there you go pretty cool isn't it
+v2,Python,94UHCEmprCY,447.41,456.23,00:07:27,00:07:36,so we get 0 + 0 0 1 0 & 2 then we get 1 & 0 1 & 1 1 & 2 and so on now let me
+v2,Python,94UHCEmprCY,456.23,461.72,00:07:36,00:07:41,explain how exactly Python interpreter executes this code so here we have two
+v2,Python,94UHCEmprCY,461.72,467.87,00:07:41,00:07:47,loops this is what we call the outer loop and this is the inner loop so the
+v2,Python,94UHCEmprCY,467.87,473.27,00:07:47,00:07:53,execution of our program starts here in the first iteration of this loop X is 0
+v2,Python,94UHCEmprCY,473.27,480.35,00:07:53,00:08:00,now we get to this statement which is a child of this for statement because it's
+v2,Python,94UHCEmprCY,480.35,486.59,00:08:00,00:08:06,indented four times this statement itself is a loop so what we have inside
+v2,Python,94UHCEmprCY,486.59,493.37,00:08:06,00:08:13,of this loop will be executed three times in the first iteration X is 0
+v2,Python,94UHCEmprCY,493.37,497.81,00:08:13,00:08:17,because we're still in the first iteration of the outer loop and Y is
+v2,Python,94UHCEmprCY,497.81,502.52,00:08:17,00:08:22,also 0 because we're in the first iteration of the inner loop that is why
+v2,Python,94UHCEmprCY,502.52,509.09,00:08:22,00:08:29,we get 0 and 0 now we go to the second iteration of this inner loop in this
+v2,Python,94UHCEmprCY,509.09,515.36,00:08:29,00:08:35,iteration Y will be 1 whereas X is still 0 that is why we get 0 and 1 and
+v2,Python,94UHCEmprCY,515.36,521.67,00:08:35,00:08:41,similarly in the third iteration of our inner loop we'll get 0 and 2 in
+v2,Python,94UHCEmprCY,521.67,526.92,00:08:41,00:08:46,now we're done with the execution of the inner loop so the control moves back to
+v2,Python,94UHCEmprCY,526.92,532.44,00:08:46,00:08:52,our outer loop here we'll be in the second iteration so X will be 1 and then
+v2,Python,94UHCEmprCY,532.44,538.38,00:08:52,00:08:58,we start here again so we have to execute this inner loop 3 times in the
+v2,Python,94UHCEmprCY,538.38,544.35,00:08:58,00:09:04,first iteration Y will be 0 and X is 1 so here we have 1 and 0 then we'll get
+v2,Python,94UHCEmprCY,544.35,551.66,00:09:04,00:09:11,one on one and one and two you got the point so this is all about nested loops
+v2,Python,94UHCEmprCY,556.84,561.92,00:09:16,00:09:21,so you have learned how to use four loops to repeat one or more statements
+v2,Python,94UHCEmprCY,561.92,566.86,00:09:21,00:09:26,in your programs now let's dive deeper and see what this range function returns
+v2,Python,94UHCEmprCY,566.86,573.86,00:09:26,00:09:33,so earlier you learn about the built in type function with this function we can
+v2,Python,94UHCEmprCY,573.86,580.58,00:09:33,00:09:40,get the type of an object so if I pass five here and run this program this is
+v2,Python,94UHCEmprCY,580.58,586.85,00:09:40,00:09:46,what we get so the type of this number or this object is int or integer now
+v2,Python,94UHCEmprCY,586.85,592.97,00:09:46,00:09:52,let's look at the type of the value that we get from the range function so as an
+v2,Python,94UHCEmprCY,592.97,600.13,00:09:52,00:10:00,argument we pass range of a number let's run this program so this range function
+v2,Python,94UHCEmprCY,600.13,607.22,00:10:00,00:10:07,returns an object of type range so in Python we have primitive types like
+v2,Python,94UHCEmprCY,607.22,613.28,00:10:07,00:10:13,numbers strings and boolean but we also have complex types range is an example
+v2,Python,94UHCEmprCY,613.28,617.0,00:10:13,00:10:17,one of those complex types throughout this course you're going to learn about
+v2,Python,94UHCEmprCY,617.0,622.73,00:10:17,00:10:22,a lot of other complex types now what is interesting about this range object is
+v2,Python,94UHCEmprCY,622.73,629.2,00:10:22,00:10:29,that it's iterable which means we can iterate over it or use it in a for loop
+v2,Python,94UHCEmprCY,629.2,637.85,00:10:29,00:10:37,that is why we can write code like this so this range function returns a range
+v2,Python,94UHCEmprCY,637.85,643.85,00:10:37,00:10:43,object which is eatable which means we can iterate over it in each iteration X
+v2,Python,94UHCEmprCY,643.85,649.28,00:10:43,00:10:49,will have a different value now range objects are not the only iterable
+v2,Python,94UHCEmprCY,649.28,655.87,00:10:49,00:10:55,objects in Python strings are also iterable so here we can add a string
+v2,Python,94UHCEmprCY,655.87,664.1,00:10:55,00:11:04,like Python now in each iteration X will hold one character in this string let me
+v2,Python,94UHCEmprCY,664.1,668.39,00:11:04,00:11:08,show you so print Peg's and I'm gonna delete these two
+v2,Python,94UHCEmprCY,668.39,675.23,00:11:08,00:11:15,lines here let's run this program so in each iteration we'll get one character
+v2,Python,94UHCEmprCY,675.23,681.86,00:11:15,00:11:21,and print it we have another complex type called list which we use to store a
+v2,Python,94UHCEmprCY,681.86,687.44,00:11:21,00:11:27,list of objects so we add square brackets this indicates a list
+v2,Python,94UHCEmprCY,687.44,692.27,00:11:27,00:11:32,now we can add a list of numbers or a list of strings like a list of names you
+v2,Python,94UHCEmprCY,692.27,696.8,00:11:32,00:11:36,will learn about lists later in the course so let's run this one more time
+v2,Python,94UHCEmprCY,696.8,703.16,00:11:36,00:11:43,as we can see we can iterate over lists in each iteration we'll get one object
+v2,Python,94UHCEmprCY,703.16,707.9,00:11:43,00:11:47,in this list now later in the course I will show you how to create your own
+v2,Python,94UHCEmprCY,707.9,712.91,00:11:47,00:11:52,custom objects that are eatable for example you will learn how to write code
+v2,Python,94UHCEmprCY,712.91,722.3,00:11:52,00:12:02,like this for item in shopping cart print item so shopping cart is going to
+v2,Python,94UHCEmprCY,722.3,726.17,00:12:02,00:12:06,be a custom object that you will create it's not going to be an integer or a
+v2,Python,94UHCEmprCY,726.17,731.27,00:12:06,00:12:11,string or boolean it's a custom object it has a different structure and we'll
+v2,Python,94UHCEmprCY,731.27,735.92,00:12:11,00:12:15,make it eatable so we can use it in a for loop and in each iteration we can
+v2,Python,94UHCEmprCY,735.92,741.52,00:12:15,00:12:21,get one item in the shopping cart and print it on a terminal
+v2,Python,94UHCEmprCY,747.09,752.8,00:12:27,00:12:32,alright time for an exercise I want you to write a program to display the even
+v2,Python,94UHCEmprCY,752.8,758.77,00:12:32,00:12:38,numbers between 1 to 10 so when you run this program you should see 2 4 6 and 8
+v2,Python,94UHCEmprCY,758.77,765.58,00:12:38,00:12:45,and after these I want you to print this message we have 4 even numbers now here
+v2,Python,94UHCEmprCY,765.58,769.81,00:12:45,00:12:49,is a quick hint before you get started you should call the range function with
+v2,Python,94UHCEmprCY,769.81,775.39,00:12:49,00:12:55,1 and 10 do not use the third argument which is called step so basically I want
+v2,Python,94UHCEmprCY,775.39,780.25,00:12:55,00:13:00,you to iterate over all the numbers between 1 to 10 check if each number is
+v2,Python,94UHCEmprCY,780.25,785.89,00:13:00,00:13:05,an even number and then print it on the terminal so pause the video spend two
+v2,Python,94UHCEmprCY,785.89,790.86,00:13:05,00:13:10,minutes on this exercise when you're done come back continue watching
+v2,Python,94UHCEmprCY,792.5,800.94,00:13:12,00:13:20,so it started with a four loop for a number in range one to ten : we check to
+v2,Python,94UHCEmprCY,800.94,805.47,00:13:20,00:13:25,see if the remainder of division of this number by two equals zero
+v2,Python,94UHCEmprCY,805.47,814.74,00:13:25,00:13:34,so if number modulus two equals zero then we print this number
+v2,Python,94UHCEmprCY,814.74,821.28,00:13:34,00:13:41,now let's run this program so we get two four six eight beautiful now to count
+v2,Python,94UHCEmprCY,821.28,826.28,00:13:41,00:13:46,the even numbers we need a separate variable so let's call that count
+v2,Python,94UHCEmprCY,826.28,831.39,00:13:46,00:13:51,initially we set it to zero now in this if block every time we find an even
+v2,Python,94UHCEmprCY,831.39,839.13,00:13:51,00:13:59,number we need to increment count so we set count plus equals one and finally
+v2,Python,94UHCEmprCY,839.13,847.26,00:13:59,00:14:07,after our for loop we can print a formatted string we have count even
+v2,Python,94UHCEmprCY,847.26,854.21,00:14:07,00:14:14,numbers let's run the program and here's the result
+v2,Python,94UHCEmprCY,855.92,860.57,00:14:15,00:14:20,hi guys thank you for watching this tutorial my name is Mohammad Ani and I
+v2,Python,94UHCEmprCY,860.57,864.38,00:14:20,00:14:24,have tons of tutorials like this for you on my channel so be sure to subscribe
+v2,Python,94UHCEmprCY,864.38,868.58,00:14:24,00:14:28,and also please like and share this video if you want to learn Python
+v2,Python,94UHCEmprCY,868.58,873.29,00:14:28,00:14:33,properly from scratch with depth I have a comprehensive Python tutorial for you
+v2,Python,94UHCEmprCY,873.29,877.73,00:14:33,00:14:37,the link is below this video so click the link to get started thank you and
+v2,Python,94UHCEmprCY,877.73,880.78,00:14:37,00:14:40,have a fantastic day

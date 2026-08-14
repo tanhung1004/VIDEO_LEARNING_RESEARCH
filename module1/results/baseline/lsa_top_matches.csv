@@ -1,0 +1,154 @@
+﻿video_id,subject,method,chunk_id,start_sec,end_sec,concept,lsa_score
+v1,SQL,transcript_only,0,0,60,select,0.133
+v1,SQL,transcript_only,0,0,60,group by,0.0861
+v1,SQL,transcript_only,0,0,60,subquery,0.0841
+v1,SQL,transcript_only,1,60,120,left join,0.0768
+v1,SQL,transcript_only,1,60,120,select,0.0656
+v1,SQL,transcript_only,1,60,120,join,0.0125
+v1,SQL,transcript_only,2,120,180,left join,0.0812
+v1,SQL,transcript_only,2,120,180,select,0.065
+v1,SQL,transcript_only,2,120,180,subquery,0.0132
+v1,SQL,transcript_only,3,180,240,select,0.0624
+v1,SQL,transcript_only,3,180,240,order by,0.0425
+v1,SQL,transcript_only,3,180,240,group by,0.0282
+v1,SQL,transcript_only,4,240,300,inner join,0.387
+v1,SQL,transcript_only,4,240,300,left join,0.1019
+v1,SQL,transcript_only,4,240,300,join,0.0972
+v1,SQL,transcript_only,5,300,360,left join,0.2712
+v1,SQL,transcript_only,5,300,360,inner join,0.2158
+v1,SQL,transcript_only,5,300,360,join,0.0771
+v1,SQL,transcript_only,6,360,420,left join,0.1877
+v1,SQL,transcript_only,6,360,420,group by,0.1296
+v1,SQL,transcript_only,6,360,420,inner join,0.0914
+v1,SQL,transcript_only,7,420,480,group by,0.161
+v1,SQL,transcript_only,7,420,480,left join,0.0783
+v1,SQL,transcript_only,7,420,480,join,0.036
+v1,SQL,transcript_only,8,480,540,group by,0.144
+v1,SQL,transcript_only,8,480,540,having,0.0985
+v1,SQL,transcript_only,8,480,540,where,0.0639
+v1,SQL,transcript_only,9,540,600,select,0.0727
+v1,SQL,transcript_only,9,540,600,left join,0.0548
+v1,SQL,transcript_only,9,540,600,inner join,0.0457
+v1,SQL,transcript_only,10,600,660,select,0.0987
+v1,SQL,transcript_only,10,600,660,where,0.0717
+v1,SQL,transcript_only,10,600,660,subquery,0.0323
+v1,SQL,transcript_only,11,660,720,subquery,0.1086
+v1,SQL,transcript_only,11,660,720,where,0.0551
+v1,SQL,transcript_only,11,660,720,order by,0.0502
+v1,SQL,transcript_only,12,720,780,subquery,0.0568
+v1,SQL,transcript_only,12,720,780,having,0.0332
+v1,SQL,transcript_only,12,720,780,order by,0.0295
+v2,Python,transcript_only,0,0,60,for loop,0.0938
+v2,Python,transcript_only,0,0,60,nested loop,0.0787
+v2,Python,transcript_only,0,0,60,range,0.0309
+v2,Python,transcript_only,1,60,120,for loop,0.1207
+v2,Python,transcript_only,1,60,120,nested loop,0.0599
+v2,Python,transcript_only,1,60,120,continue,0.0468
+v2,Python,transcript_only,2,120,180,range,0.0267
+v2,Python,transcript_only,2,120,180,nested loop,0.0001
+v2,Python,transcript_only,2,120,180,for loop,0.0
+v2,Python,transcript_only,3,180,240,for loop,0.0483
+v2,Python,transcript_only,3,180,240,nested loop,0.0346
+v2,Python,transcript_only,3,180,240,range,0.0255
+v2,Python,transcript_only,4,240,300,for loop,0.1284
+v2,Python,transcript_only,4,240,300,break,0.1213
+v2,Python,transcript_only,4,240,300,nested loop,0.0961
+v2,Python,transcript_only,5,300,360,break,0.1422
+v2,Python,transcript_only,5,300,360,for,0.1
+v2,Python,transcript_only,5,300,360,nested loop,0.0616
+v2,Python,transcript_only,6,360,420,nested loop,0.347
+v2,Python,transcript_only,6,360,420,break,0.1736
+v2,Python,transcript_only,6,360,420,for loop,0.1538
+v2,Python,transcript_only,7,420,480,nested loop,0.137
+v2,Python,transcript_only,7,420,480,for loop,0.1179
+v2,Python,transcript_only,7,420,480,for,0.1031
+v2,Python,transcript_only,8,480,540,nested loop,0.2819
+v2,Python,transcript_only,8,480,540,continue,0.1601
+v2,Python,transcript_only,8,480,540,for loop,0.1293
+v2,Python,transcript_only,9,540,600,range,0.0735
+v2,Python,transcript_only,9,540,600,nested loop,0.029
+v2,Python,transcript_only,9,540,600,for loop,0.019
+v2,Python,transcript_only,10,600,660,range,0.1761
+v2,Python,transcript_only,10,600,660,for loop,0.0812
+v2,Python,transcript_only,10,600,660,for,0.0721
+v2,Python,transcript_only,11,660,720,list,0.1969
+v2,Python,transcript_only,11,660,720,range,0.078
+v2,Python,transcript_only,11,660,720,for,0.0435
+v2,Python,transcript_only,12,720,780,range,0.0738
+v2,Python,transcript_only,12,720,780,for loop,0.0601
+v2,Python,transcript_only,12,720,780,for,0.0424
+v2,Python,transcript_only,13,780,840,for loop,0.0858
+v2,Python,transcript_only,13,780,840,continue,0.0579
+v2,Python,transcript_only,13,780,840,nested loop,0.0551
+v2,Python,transcript_only,14,840,900,for loop,0.1161
+v2,Python,transcript_only,14,840,900,for,0.0775
+v2,Python,transcript_only,14,840,900,range,0.0698
+v3,Java,transcript_only,0,0,60,abstract class,0.2508
+v3,Java,transcript_only,0,0,60,class,0.1668
+v3,Java,transcript_only,0,0,60,abstract method,0.1152
+v3,Java,transcript_only,1,60,120,abstract class,0.2101
+v3,Java,transcript_only,1,60,120,class,0.1918
+v3,Java,transcript_only,1,60,120,object,0.1226
+v3,Java,transcript_only,2,120,180,abstract method,0.3715
+v3,Java,transcript_only,2,120,180,abstract class,0.2732
+v3,Java,transcript_only,2,120,180,method,0.1532
+v3,Java,transcript_only,3,180,240,abstract method,0.2
+v3,Java,transcript_only,3,180,240,abstract class,0.1333
+v3,Java,transcript_only,3,180,240,class,0.1138
+v3,Java,transcript_only,4,240,300,abstract method,0.1498
+v3,Java,transcript_only,4,240,300,implements,0.1432
+v3,Java,transcript_only,4,240,300,interface,0.1286
+v3,Java,transcript_only,5,300,360,abstract method,0.2071
+v3,Java,transcript_only,5,300,360,implements,0.1671
+v3,Java,transcript_only,5,300,360,interface,0.1352
+v3,Java,transcript_only,6,360,420,abstract class,0.1135
+v3,Java,transcript_only,6,360,420,object,0.0953
+v3,Java,transcript_only,6,360,420,implements,0.0923
+v3,Java,transcript_only,7,420,480,method,0.0001
+v3,Java,transcript_only,7,420,480,abstract class,0.0001
+v3,Java,transcript_only,7,420,480,object,0.0
+v4,SQL,transcript_only,0,0,60,group by,0.1386
+v4,SQL,transcript_only,0,0,60,where,0.0604
+v4,SQL,transcript_only,0,0,60,left join,0.0501
+v4,SQL,transcript_only,1,60,120,group by,0.2666
+v4,SQL,transcript_only,1,60,120,left join,0.0847
+v4,SQL,transcript_only,1,60,120,where,0.0652
+v4,SQL,transcript_only,2,120,180,group by,0.2342
+v4,SQL,transcript_only,2,120,180,count,0.2193
+v4,SQL,transcript_only,2,120,180,aggregate function,0.0983
+v4,SQL,transcript_only,3,180,240,group by,0.1546
+v4,SQL,transcript_only,3,180,240,count,0.082
+v4,SQL,transcript_only,3,180,240,order by,0.0579
+v4,SQL,transcript_only,4,240,300,group by,0.1554
+v4,SQL,transcript_only,4,240,300,having,0.1011
+v4,SQL,transcript_only,4,240,300,left join,0.0648
+v4,SQL,transcript_only,5,300,360,group by,0.2649
+v4,SQL,transcript_only,5,300,360,where,0.1184
+v4,SQL,transcript_only,5,300,360,order by,0.1021
+v4,SQL,transcript_only,6,360,420,group by,0.1595
+v4,SQL,transcript_only,6,360,420,count,0.1115
+v4,SQL,transcript_only,6,360,420,where,0.0746
+v4,SQL,transcript_only,7,420,480,aggregate function,0.101
+v4,SQL,transcript_only,7,420,480,count,0.1009
+v4,SQL,transcript_only,7,420,480,group by,0.0429
+v5,Java,transcript_only,0,0,60,class,0.2152
+v5,Java,transcript_only,0,0,60,abstract class,0.1831
+v5,Java,transcript_only,0,0,60,implements,0.1784
+v5,Java,transcript_only,1,60,120,abstract method,0.1609
+v5,Java,transcript_only,1,60,120,abstract class,0.1403
+v5,Java,transcript_only,1,60,120,class,0.1292
+v5,Java,transcript_only,2,120,180,abstract method,0.1967
+v5,Java,transcript_only,2,120,180,method,0.1377
+v5,Java,transcript_only,2,120,180,interface,0.1067
+v5,Java,transcript_only,3,180,240,interface,0.0978
+v5,Java,transcript_only,3,180,240,method,0.0961
+v5,Java,transcript_only,3,180,240,abstract method,0.082
+v5,Java,transcript_only,4,240,300,abstract method,0.1394
+v5,Java,transcript_only,4,240,300,method,0.1047
+v5,Java,transcript_only,4,240,300,interface,0.0658
+v5,Java,transcript_only,5,300,360,abstract class,0.064
+v5,Java,transcript_only,5,300,360,interface,0.0565
+v5,Java,transcript_only,5,300,360,implements,0.0525
+v5,Java,transcript_only,6,360,420,class,0.1343
+v5,Java,transcript_only,6,360,420,method,0.1332
+v5,Java,transcript_only,6,360,420,abstract class,0.0991

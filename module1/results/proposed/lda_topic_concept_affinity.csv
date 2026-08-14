@@ -1,0 +1,175 @@
+﻿topic_id,subject,concept,affinity_score
+0,SQL,select,0.115905
+0,SQL,where,0.042426
+0,SQL,group by,0.041515
+0,SQL,having,0.043153
+0,SQL,count,0.031919
+0,SQL,aggregate function,0.040201
+0,SQL,join,0.209662
+0,SQL,inner join,0.143236
+0,SQL,left join,0.026535
+0,SQL,subquery,0.098157
+0,SQL,order by,0.07188
+0,Python,for loop,0.009493
+0,Python,for,0.005832
+0,Python,iteration,0.000141
+0,Python,range,0.002449
+0,Python,list,0.000189
+0,Python,nested loop,0.003385
+0,Python,index,0.0055
+0,Python,break,0.002491
+0,Python,continue,0.002961
+0,Java,class,0.00205
+0,Java,object,0.004077
+0,Java,method,0.003982
+0,Java,interface,0.001222
+0,Java,implements,0.000314
+0,Java,extends,0.000314
+0,Java,inheritance,0.000344
+0,Java,abstract class,0.000325
+0,Java,abstract method,0.001633
+1,SQL,select,0.121647
+1,SQL,where,0.01672
+1,SQL,group by,0.026981
+1,SQL,having,0.035046
+1,SQL,count,0.028593
+1,SQL,aggregate function,0.035044
+1,SQL,join,0.081204
+1,SQL,inner join,0.048887
+1,SQL,left join,0.176545
+1,SQL,subquery,0.039858
+1,SQL,order by,0.033353
+1,Python,for loop,0.126162
+1,Python,for,0.173965
+1,Python,iteration,0.000868
+1,Python,range,0.1044
+1,Python,list,0.001166
+1,Python,nested loop,0.003186
+1,Python,index,0.010441
+1,Python,break,0.007068
+1,Python,continue,0.006523
+1,Java,class,0.005223
+1,Java,object,0.001737
+1,Java,method,0.005226
+1,Java,interface,0.001641
+1,Java,implements,0.001941
+1,Java,extends,0.001941
+1,Java,inheritance,0.002127
+1,Java,abstract class,0.002005
+1,Java,abstract method,0.002017
+2,SQL,select,0.003084
+2,SQL,where,0.005935
+2,SQL,group by,0.007584
+2,SQL,having,0.001817
+2,SQL,count,0.009541
+2,SQL,aggregate function,0.013816
+2,SQL,join,0.000813
+2,SQL,inner join,0.007845
+2,SQL,left join,0.000845
+2,SQL,subquery,0.012225
+2,SQL,order by,0.0096
+2,Python,for loop,0.304658
+2,Python,for,0.344091
+2,Python,iteration,0.046154
+2,Python,range,0.426062
+2,Python,list,0.223797
+2,Python,nested loop,0.075534
+2,Python,index,0.002544
+2,Python,break,0.064757
+2,Python,continue,0.066142
+2,Java,class,0.02712
+2,Java,object,0.032343
+2,Java,method,0.002313
+2,Java,interface,0.001511
+2,Java,implements,0.018364
+2,Java,extends,0.016414
+2,Java,inheritance,0.015132
+2,Java,abstract class,0.02161
+2,Java,abstract method,0.00197
+3,SQL,select,0.132637
+3,SQL,where,0.078673
+3,SQL,group by,0.428712
+3,SQL,having,0.154526
+3,SQL,count,0.208056
+3,SQL,aggregate function,0.172803
+3,SQL,join,0.039076
+3,SQL,inner join,0.024889
+3,SQL,left join,0.067576
+3,SQL,subquery,0.05658
+3,SQL,order by,0.251479
+3,Python,for loop,0.036301
+3,Python,for,0.049001
+3,Python,iteration,0.000667
+3,Python,range,0.02921
+3,Python,list,0.02953
+3,Python,nested loop,0.011569
+3,Python,index,0.007906
+3,Python,break,0.003974
+3,Python,continue,0.004954
+3,Java,class,0.044553
+3,Java,object,0.033412
+3,Java,method,0.003974
+3,Java,interface,0.001261
+3,Java,implements,0.030183
+3,Java,extends,0.030183
+3,Java,inheritance,0.027826
+3,Java,abstract class,0.038581
+3,Java,abstract method,0.00155
+4,SQL,select,0.001906
+4,SQL,where,0.004524
+4,SQL,group by,0.01002
+4,SQL,having,0.001429
+4,SQL,count,0.029534
+4,SQL,aggregate function,0.020421
+4,SQL,join,0.001597
+4,SQL,inner join,0.001906
+4,SQL,left join,0.00166
+4,SQL,subquery,0.010915
+4,SQL,order by,0.011566
+4,Python,for loop,0.014685
+4,Python,for,0.019229
+4,Python,iteration,0.000714
+4,Python,range,0.012505
+4,Python,list,0.000959
+4,Python,nested loop,0.008543
+4,Python,index,0.000714
+4,Python,break,0.001516
+4,Python,continue,0.001429
+4,Java,class,0.235735
+4,Java,object,0.199046
+4,Java,method,0.087459
+4,Java,interface,0.117613
+4,Java,implements,0.247362
+4,Java,extends,0.1726
+4,Java,inheritance,0.152604
+4,Java,abstract class,0.432577
+4,Java,abstract method,0.265687
+5,SQL,select,0.00594
+5,SQL,where,0.015806
+5,SQL,group by,0.006637
+5,SQL,having,0.001042
+5,SQL,count,0.008955
+5,SQL,aggregate function,0.002605
+5,SQL,join,0.024935
+5,SQL,inner join,0.00594
+5,SQL,left join,0.001211
+5,SQL,subquery,0.005783
+5,SQL,order by,0.008672
+5,Python,for loop,0.033465
+5,Python,for,0.044256
+5,Python,iteration,0.000521
+5,Python,range,0.024441
+5,Python,list,0.002096
+5,Python,nested loop,0.004567
+5,Python,index,0.01928
+5,Python,break,0.007738
+5,Python,continue,0.010422
+5,Java,class,0.343764
+5,Java,object,0.371166
+5,Java,method,0.268931
+5,Java,interface,0.316784
+5,Java,implements,0.395134
+5,Java,extends,0.348993
+5,Java,inheritance,0.341773
+5,Java,abstract class,0.339375
+5,Java,abstract method,0.089559

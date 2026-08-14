@@ -1,0 +1,239 @@
+﻿video_id,subject,youtube_id,start_sec,end_sec,start_time,end_time,text
+v1,SQL,avhmevmVEEY,0.48,5.84,00:00:00,00:00:05,So in this video I'm going to
+v1,SQL,avhmevmVEEY,2.56,9.52,00:00:02,00:00:09,demonstrate how to use SQL to do a few
+v1,SQL,avhmevmVEEY,5.84,11.76,00:00:05,00:00:11,challenging tasks including join group
+v1,SQL,avhmevmVEEY,9.52,14.4,00:00:09,00:00:14,by and subqueries.
+v1,SQL,avhmevmVEEY,11.76,18.72,00:00:11,00:00:18,So first of all I'm going to create a
+v1,SQL,avhmevmVEEY,14.4,20.64,00:00:14,00:00:20,new database um as example using SQL
+v1,SQL,avhmevmVEEY,18.72,23.92,00:00:18,00:00:23,statements
+v1,SQL,avhmevmVEEY,20.64,28.08,00:00:20,00:00:28,in the stu management studio. I click on
+v1,SQL,avhmevmVEEY,23.92,31.04,00:00:23,00:00:31,databases and right click new database.
+v1,SQL,avhmevmVEEY,28.08,34.24,00:00:28,00:00:34,I'll give you a name campground 2. This
+v1,SQL,avhmevmVEEY,31.04,37.36,00:00:31,00:00:37,campground 2 is an empty database as in
+v1,SQL,avhmevmVEEY,34.24,39.04,00:00:34,00:00:39,doesn't have any tables yet. So with
+v1,SQL,avhmevmVEEY,37.36,42.32,00:00:37,00:00:42,"this campground 2 highlighted, I can"
+v1,SQL,avhmevmVEEY,39.04,45.52,00:00:39,00:00:45,either create click on the new query or
+v1,SQL,avhmevmVEEY,42.32,48.8,00:00:42,00:00:48,right click and select new query.
+v1,SQL,avhmevmVEEY,45.52,50.8,00:00:45,00:00:50,Now I already have a series of SQL
+v1,SQL,avhmevmVEEY,48.8,52.72,00:00:48,00:00:52,statement already written. I'm going to
+v1,SQL,avhmevmVEEY,50.8,55.52,00:00:50,00:00:55,explain a little bit before executing
+v1,SQL,avhmevmVEEY,52.72,59.52,00:00:52,00:00:59,it. So in here I'm going to create three
+v1,SQL,avhmevmVEEY,55.52,61.92,00:00:55,00:01:01,"tables. camper, reservation, and spot."
+v1,SQL,avhmevmVEEY,59.52,64.88,00:00:59,00:01:04,"For each table, I create the table"
+v1,SQL,avhmevmVEEY,61.92,67.68,00:01:01,00:01:07,structure first defining the fields
+v1,SQL,avhmevmVEEY,64.88,69.84,00:01:04,00:01:09,"name, data type, whether it's not or"
+v1,SQL,avhmevmVEEY,67.68,71.84,00:01:07,00:01:11,not.
+v1,SQL,avhmevmVEEY,69.84,74.96,00:01:09,00:01:14,I will create the primary key and
+v1,SQL,avhmevmVEEY,71.84,77.84,00:01:11,00:01:17,foreign key later. So after I create the
+v1,SQL,avhmevmVEEY,74.96,81.68,00:01:14,00:01:21,"table structure, I will populate the"
+v1,SQL,avhmevmVEEY,77.84,84.4,00:01:17,00:01:24,"data into the table. For example, here I"
+v1,SQL,avhmevmVEEY,81.68,87.28,00:01:21,00:01:27,have five campers information. And
+v1,SQL,avhmevmVEEY,84.4,90.24,00:01:24,00:01:30,"similar for reservation, I would make"
+v1,SQL,avhmevmVEEY,87.28,92.64,00:01:27,00:01:32,the res number as the primary key and
+v1,SQL,avhmevmVEEY,90.24,95.84,00:01:30,00:01:35,then populate five reservation
+v1,SQL,avhmevmVEEY,92.64,99.52,00:01:32,00:01:39,information. Last one is the spot table.
+v1,SQL,avhmevmVEEY,95.84,103.68,00:01:35,00:01:43,Spot number will be my primary key and I
+v1,SQL,avhmevmVEEY,99.52,107.36,00:01:39,00:01:47,will have four spots.
+v1,SQL,avhmevmVEEY,103.68,110.32,00:01:43,00:01:50,So after that I would add uh primary key
+v1,SQL,avhmevmVEEY,107.36,114.72,00:01:47,00:01:54,by using the alter table. Add primary
+v1,SQL,avhmevmVEEY,110.32,118.08,00:01:50,00:01:58,"key of camper number to camper, reserve"
+v1,SQL,avhmevmVEEY,114.72,121.92,00:01:54,00:02:01,number to reservation and spot number to
+v1,SQL,avhmevmVEEY,118.08,124.48,00:01:58,00:02:04,spot table. Last I will create a foreign
+v1,SQL,avhmevmVEEY,121.92,127.84,00:02:01,00:02:07,key. So reservation table is an
+v1,SQL,avhmevmVEEY,124.48,130.4,00:02:04,00:02:10,associative entity that sits between
+v1,SQL,avhmevmVEEY,127.84,135.6,00:02:07,00:02:15,camper and spots.
+v1,SQL,avhmevmVEEY,130.4,138.48,00:02:10,00:02:18,So first is the camper number as a ref
+v1,SQL,avhmevmVEEY,135.6,142.56,00:02:15,00:02:22,as a foreign key in the reservation
+v1,SQL,avhmevmVEEY,138.48,145.6,00:02:18,00:02:25,table that references the camper number
+v1,SQL,avhmevmVEEY,142.56,148.8,00:02:22,00:02:28,in camper table.
+v1,SQL,avhmevmVEEY,145.6,150.8,00:02:25,00:02:30,The second one is the spot number as the
+v1,SQL,avhmevmVEEY,148.8,153.12,00:02:28,00:02:33,foreign key in reservation table
+v1,SQL,avhmevmVEEY,150.8,156.88,00:02:30,00:02:36,referencing the spot number in the spot
+v1,SQL,avhmevmVEEY,153.12,160.72,00:02:33,00:02:40,table. And once I execute and if I don't
+v1,SQL,avhmevmVEEY,156.88,163.12,00:02:36,00:02:43,"see any red marks in the messages, then"
+v1,SQL,avhmevmVEEY,160.72,166.32,00:02:40,00:02:46,that means good news. I have five
+v1,SQL,avhmevmVEEY,163.12,169.52,00:02:43,00:02:49,"records inserted for the camper table,"
+v1,SQL,avhmevmVEEY,166.32,173.04,00:02:46,00:02:53,"five for reservation, four for spots."
+v1,SQL,avhmevmVEEY,169.52,177.12,00:02:49,00:02:57,"Now that I have my tables ready, let's"
+v1,SQL,avhmevmVEEY,173.04,180.32,00:02:53,00:03:00,use SQL to do some joins.
+v1,SQL,avhmevmVEEY,177.12,182.96,00:02:57,00:03:02,So my first drawing is going to select
+v1,SQL,avhmevmVEEY,180.32,186.16,00:03:00,00:03:06,all campers and their reservation and
+v1,SQL,avhmevmVEEY,182.96,188.56,00:03:02,00:03:08,the spots that they reserved. So when I
+v1,SQL,avhmevmVEEY,186.16,191.68,00:03:06,00:03:11,"execute, you can see that I have all the"
+v1,SQL,avhmevmVEEY,188.56,193.92,00:03:08,00:03:13,"campers that make who made reservations,"
+v1,SQL,avhmevmVEEY,191.68,197.92,00:03:11,00:03:17,their reservation information and the
+v1,SQL,avhmevmVEEY,193.92,200.08,00:03:13,00:03:20,spots information. Notice that camper
+v1,SQL,avhmevmVEEY,197.92,203.6,00:03:17,00:03:23,10003
+v1,SQL,avhmevmVEEY,200.08,207.04,00:03:20,00:03:27,and 104 didn't show because they did not
+v1,SQL,avhmevmVEEY,203.6,210.08,00:03:23,00:03:30,make make any reservations. So in this
+v1,SQL,avhmevmVEEY,207.04,214.16,00:03:27,00:03:34,SQL statement I first select everything
+v1,SQL,avhmevmVEEY,210.08,216.48,00:03:30,00:03:36,from all three tables separate by comma
+v1,SQL,avhmevmVEEY,214.16,218.48,00:03:34,00:03:38,in between them following by wear
+v1,SQL,avhmevmVEEY,216.48,220.56,00:03:36,00:03:40,condition where I specify two
+v1,SQL,avhmevmVEEY,218.48,223.84,00:03:38,00:03:43,relationships.
+v1,SQL,avhmevmVEEY,220.56,226.32,00:03:40,00:03:46,um matching the foreign key camper
+v1,SQL,avhmevmVEEY,223.84,231.36,00:03:43,00:03:51,number in reservation with the camper
+v1,SQL,avhmevmVEEY,226.32,234.4,00:03:46,00:03:54,number in as a primary key in camper and
+v1,SQL,avhmevmVEEY,231.36,236.88,00:03:51,00:03:56,the spot number as the foreign key in
+v1,SQL,avhmevmVEEY,234.4,240.0,00:03:54,00:04:00,reservation matching the spot number as
+v1,SQL,avhmevmVEEY,236.88,243.52,00:03:56,00:04:03,primary key in spot. Notice that I have
+v1,SQL,avhmevmVEEY,240.0,246.72,00:04:00,00:04:06,three tables therefore I have two
+v1,SQL,avhmevmVEEY,243.52,250.48,00:04:03,00:04:10,relationships or two conditions. If I
+v1,SQL,avhmevmVEEY,246.72,254.4,00:04:06,00:04:14,"use this method to join M tables, then I"
+v1,SQL,avhmevmVEEY,250.48,257.28,00:04:10,00:04:17,would need to specify n minus one
+v1,SQL,avhmevmVEEY,254.4,261.92,00:04:14,00:04:21,number of conditions.
+v1,SQL,avhmevmVEEY,257.28,264.0,00:04:17,00:04:24,Another way of querying it is using the
+v1,SQL,avhmevmVEEY,261.92,266.24,00:04:21,00:04:26,inner join
+v1,SQL,avhmevmVEEY,264.0,268.4,00:04:24,00:04:28,and using the inner join I will have the
+v1,SQL,avhmevmVEEY,266.24,271.84,00:04:26,00:04:31,same results
+v1,SQL,avhmevmVEEY,268.4,274.08,00:04:28,00:04:34,the same results in here. So the syntax
+v1,SQL,avhmevmVEEY,271.84,276.4,00:04:31,00:04:36,is a little bit different. I still
+v1,SQL,avhmevmVEEY,274.08,279.12,00:04:34,00:04:39,select everything from and then I use
+v1,SQL,avhmevmVEEY,276.4,282.64,00:04:36,00:04:42,parenthesy. First inner join I join
+v1,SQL,avhmevmVEEY,279.12,285.6,00:04:39,00:04:45,camper with reservation on the condition
+v1,SQL,avhmevmVEEY,282.64,288.56,00:04:42,00:04:48,of the camper number in reservation
+v1,SQL,avhmevmVEEY,285.6,292.48,00:04:45,00:04:52,matching the camper number in camper and
+v1,SQL,avhmevmVEEY,288.56,295.52,00:04:48,00:04:55,then this whole thing as a object in a
+v1,SQL,avhmevmVEEY,292.48,298.72,00:04:52,00:04:58,join the third table spot on the
+v1,SQL,avhmevmVEEY,295.52,300.72,00:04:55,00:05:00,condition that the spot number in
+v1,SQL,avhmevmVEEY,298.72,303.12,00:04:58,00:05:03,reservation matching the spot number in
+v1,SQL,avhmevmVEEY,300.72,306.72,00:05:00,00:05:06,spot. So this is the inner joint. It has
+v1,SQL,avhmevmVEEY,303.12,309.44,00:05:03,00:05:09,the same results with the previous
+v1,SQL,avhmevmVEEY,306.72,312.16,00:05:06,00:05:12,method that I show. I personally prefer
+v1,SQL,avhmevmVEEY,309.44,315.52,00:05:09,00:05:15,the first method because uh I don't have
+v1,SQL,avhmevmVEEY,312.16,319.76,00:05:12,00:05:19,"to worry about the parenthesis. So next,"
+v1,SQL,avhmevmVEEY,315.52,322.32,00:05:15,00:05:22,what if I want to select all the campers
+v1,SQL,avhmevmVEEY,319.76,324.24,00:05:19,00:05:24,and their reservations even including
+v1,SQL,avhmevmVEEY,322.32,326.64,00:05:22,00:05:26,those campers who did not make any
+v1,SQL,avhmevmVEEY,324.24,329.68,00:05:24,00:05:29,reservations. Now we're using an outer
+v1,SQL,avhmevmVEEY,326.64,332.8,00:05:26,00:05:32,join or in SQL server we call this a
+v1,SQL,avhmevmVEEY,329.68,334.8,00:05:29,00:05:34,left join. Right? So it's very similar
+v1,SQL,avhmevmVEEY,332.8,338.4,00:05:32,00:05:38,to the inner join syntax. Instead of
+v1,SQL,avhmevmVEEY,334.8,340.72,00:05:34,00:05:40,inner we replace it with the word left
+v1,SQL,avhmevmVEEY,338.4,344.0,00:05:38,00:05:44,here as well. But notice that in the
+v1,SQL,avhmevmVEEY,340.72,346.96,00:05:40,00:05:46,result we're seeing the camper number
+v1,SQL,avhmevmVEEY,344.0,348.72,00:05:44,00:05:48,103 and 104
+v1,SQL,avhmevmVEEY,346.96,351.28,00:05:46,00:05:51,even though they did not make any
+v1,SQL,avhmevmVEEY,348.72,354.0,00:05:48,00:05:54,reservation.
+v1,SQL,avhmevmVEEY,351.28,358.4,00:05:51,00:05:58,Right? So this is the
+v1,SQL,avhmevmVEEY,354.0,361.68,00:05:54,00:06:01,left join which joining the first table
+v1,SQL,avhmevmVEEY,358.4,364.16,00:05:58,00:06:04,before the left join and including
+v1,SQL,avhmevmVEEY,361.68,366.88,00:06:01,00:06:06,everything in that table regardless
+v1,SQL,avhmevmVEEY,364.16,372.32,00:06:04,00:06:12,there's a match or not. So next I like
+v1,SQL,avhmevmVEEY,366.88,375.76,00:06:06,00:06:15,to show uh the group by. So group by is
+v1,SQL,avhmevmVEEY,372.32,378.24,00:06:12,00:06:18,used to organize records together and
+v1,SQL,avhmevmVEEY,375.76,380.32,00:06:15,00:06:20,you can add a condition by using the
+v1,SQL,avhmevmVEEY,378.24,382.64,00:06:18,00:06:22,keyword having. So in this case if I
+v1,SQL,avhmevmVEEY,380.32,385.36,00:06:20,00:06:25,want to select camper who have made
+v1,SQL,avhmevmVEEY,382.64,387.52,00:06:22,00:06:27,reservation so I am going to add more
+v1,SQL,avhmevmVEEY,385.36,391.12,00:06:25,00:06:31,than one reservation as a condition
+v1,SQL,avhmevmVEEY,387.52,393.76,00:06:27,00:06:33,later. First of all I use count reserve
+v1,SQL,avhmevmVEEY,391.12,396.88,00:06:31,00:06:36,number. Now this field can be any field
+v1,SQL,avhmevmVEEY,393.76,401.12,00:06:33,00:06:41,in the reservation but I need to count
+v1,SQL,avhmevmVEEY,396.88,404.4,00:06:36,00:06:44,how many records is there and display in
+v1,SQL,avhmevmVEEY,401.12,407.84,00:06:41,00:06:47,the results. And also I like to see the
+v1,SQL,avhmevmVEEY,404.4,411.28,00:06:44,00:06:51,camper number that matching uh those
+v1,SQL,avhmevmVEEY,407.84,413.6,00:06:47,00:06:53,reservations from. So I would need
+v1,SQL,avhmevmVEEY,411.28,415.12,00:06:51,00:06:55,camper information and res reservation
+v1,SQL,avhmevmVEEY,413.6,418.08,00:06:53,00:06:58,information. So I'm joining these two
+v1,SQL,avhmevmVEEY,415.12,421.52,00:06:55,00:07:01,tables and I need to specify the join
+v1,SQL,avhmevmVEEY,418.08,424.0,00:06:58,00:07:04,condition where camper number in the
+v1,SQL,avhmevmVEEY,421.52,428.16,00:07:01,00:07:08,reservation table matching camper number
+v1,SQL,avhmevmVEEY,424.0,431.68,00:07:04,00:07:11,in the camper table. We use group by and
+v1,SQL,avhmevmVEEY,428.16,435.12,00:07:08,00:07:15,so group by the camper number for each
+v1,SQL,avhmevmVEEY,431.68,439.2,00:07:11,00:07:19,camper. Each camper may make more than
+v1,SQL,avhmevmVEEY,435.12,444.08,00:07:15,00:07:24,one reservations. So for each camper we
+v1,SQL,avhmevmVEEY,439.2,446.56,00:07:19,00:07:26,put that camper as the group by.
+v1,SQL,avhmevmVEEY,444.08,449.2,00:07:24,00:07:29,So this outputs all the camper who had
+v1,SQL,avhmevmVEEY,446.56,452.0,00:07:26,00:07:32,made a reservation.
+v1,SQL,avhmevmVEEY,449.2,455.6,00:07:29,00:07:35,And in the first column says no column
+v1,SQL,avhmevmVEEY,452.0,458.24,00:07:32,00:07:38,name. It's actually the number of the
+v1,SQL,avhmevmVEEY,455.6,461.36,00:07:35,00:07:41,reservation they have made. So one 01
+v1,SQL,avhmevmVEEY,458.24,464.16,00:07:38,00:07:44,and one2 those two campers each made one
+v1,SQL,avhmevmVEEY,461.36,467.92,00:07:41,00:07:47,reservation and one2
+v1,SQL,avhmevmVEEY,464.16,469.44,00:07:44,00:07:49,likes camping and so far he made three
+v1,SQL,avhmevmVEEY,467.92,473.76,00:07:47,00:07:53,reservations.
+v1,SQL,avhmevmVEEY,469.44,476.72,00:07:49,00:07:56,If we would like to use an out a nicer
+v1,SQL,avhmevmVEEY,473.76,480.08,00:07:53,00:08:00,column name and we can use the s the
+v1,SQL,avhmevmVEEY,476.72,483.08,00:07:56,00:08:03,alias name such as the number of
+v1,SQL,avhmevmVEEY,480.08,483.08,00:08:00,00:08:03,reservation
+v1,SQL,avhmevmVEEY,484.88,491.76,00:08:04,00:08:11,and then it will show on the column as a
+v1,SQL,avhmevmVEEY,489.28,494.72,00:08:09,00:08:14,new column name in the results nicely.
+v1,SQL,avhmevmVEEY,491.76,499.6,00:08:11,00:08:19,So this is what we call a column alias.
+v1,SQL,avhmevmVEEY,494.72,502.24,00:08:14,00:08:22,Now if we want to limit as only one
+v1,SQL,avhmevmVEEY,499.6,505.52,00:08:19,00:08:25,reservation I'm going to use the keyword
+v1,SQL,avhmevmVEEY,502.24,510.08,00:08:22,00:08:30,for having. So having is kind of to
+v1,SQL,avhmevmVEEY,505.52,512.0,00:08:25,00:08:32,group by as where condition to select
+v1,SQL,avhmevmVEEY,510.08,515.92,00:08:30,00:08:35,right. So if you want to specify
+v1,SQL,avhmevmVEEY,512.0,519.2,00:08:32,00:08:39,condition in pair with group by you use
+v1,SQL,avhmevmVEEY,515.92,522.0,00:08:35,00:08:42,having. So having now we want to having
+v1,SQL,avhmevmVEEY,519.2,525.12,00:08:39,00:08:45,this count
+v1,SQL,avhmevmVEEY,522.0,528.56,00:08:42,00:08:48,greater than one. So not including one
+v1,SQL,avhmevmVEEY,525.12,532.32,00:08:45,00:08:52,but greater than one and now only camper
+v1,SQL,avhmevmVEEY,528.56,534.0,00:08:48,00:08:54,10002 shows and he had made three
+v1,SQL,avhmevmVEEY,532.32,535.92,00:08:52,00:08:55,reservations
+v1,SQL,avhmevmVEEY,534.0,538.72,00:08:54,00:08:58,right the other two campers they only
+v1,SQL,avhmevmVEEY,535.92,541.84,00:08:55,00:09:01,made one so they don't show in the
+v1,SQL,avhmevmVEEY,538.72,546.96,00:08:58,00:09:06,results anymore so that's group by and
+v1,SQL,avhmevmVEEY,541.84,549.92,00:09:01,00:09:09,having so the next example I want to uh
+v1,SQL,avhmevmVEEY,546.96,553.28,00:09:06,00:09:13,give is to help us finding the campers
+v1,SQL,avhmevmVEEY,549.92,555.92,00:09:09,00:09:15,who did not make any reservations using
+v1,SQL,avhmevmVEEY,553.28,560.56,00:09:13,00:09:20,a sub query.
+v1,SQL,avhmevmVEEY,555.92,564.8,00:09:15,00:09:24,So this outputs the camper names. So I
+v1,SQL,avhmevmVEEY,560.56,566.96,00:09:20,00:09:26,can add camper number as well.
+v1,SQL,avhmevmVEEY,564.8,569.2,00:09:24,00:09:29,So that since we're familiar with the
+v1,SQL,avhmevmVEEY,566.96,571.36,00:09:26,00:09:31,"camper number from previous examples,"
+v1,SQL,avhmevmVEEY,569.2,574.08,00:09:29,00:09:34,right? So 001001
+v1,SQL,avhmevmVEEY,571.36,576.24,00:09:31,00:09:36,and one 04. Those two campers did not
+v1,SQL,avhmevmVEEY,574.08,578.88,00:09:34,00:09:38,make any reservations.
+v1,SQL,avhmevmVEEY,576.24,581.76,00:09:36,00:09:41,And this reservation information with
+v1,SQL,avhmevmVEEY,578.88,583.84,00:09:38,00:09:43,"the camper's name, we need that from um"
+v1,SQL,avhmevmVEEY,581.76,586.16,00:09:41,00:09:46,both camper
+v1,SQL,avhmevmVEEY,583.84,588.64,00:09:43,00:09:48,table and reservation table. So we
+v1,SQL,avhmevmVEEY,586.16,591.84,00:09:46,00:09:51,"actually kind of joining two tables, but"
+v1,SQL,avhmevmVEEY,588.64,594.4,00:09:48,00:09:54,we're using subqueries in here. So we
+v1,SQL,avhmevmVEEY,591.84,597.44,00:09:51,00:09:57,select the information we like to
+v1,SQL,avhmevmVEEY,594.4,599.44,00:09:54,00:09:59,display from the camper uh table. So
+v1,SQL,avhmevmVEEY,597.44,602.16,00:09:57,00:10:02,this information all these three fields
+v1,SQL,avhmevmVEEY,599.44,607.28,00:09:59,00:10:07,are from the camper table. where
+v1,SQL,avhmevmVEEY,602.16,611.12,00:10:02,00:10:11,condition is where the camper number not
+v1,SQL,avhmevmVEEY,607.28,613.68,00:10:07,00:10:13,in. So it's not found those campers not
+v1,SQL,avhmevmVEEY,611.12,617.36,00:10:11,00:10:17,found from the reservation
+v1,SQL,avhmevmVEEY,613.68,621.2,00:10:13,00:10:21,"uh table. So this information, this"
+v1,SQL,avhmevmVEEY,617.36,624.56,00:10:17,00:10:24,field must match the select field in
+v1,SQL,avhmevmVEEY,621.2,626.32,00:10:21,00:10:26,there because you're selecting
+v1,SQL,avhmevmVEEY,624.56,628.64,00:10:24,00:10:28,uh all the camper number from the
+v1,SQL,avhmevmVEEY,626.32,630.72,00:10:26,00:10:30,"reservation, right? And it's a"
+v1,SQL,avhmevmVEEY,628.64,633.44,00:10:28,00:10:33,collection of the camper number that who
+v1,SQL,avhmevmVEEY,630.72,635.76,00:10:30,00:10:35,made reservations and if the camper
+v1,SQL,avhmevmVEEY,633.44,638.96,00:10:33,00:10:38,"number not in it, that means this camper"
+v1,SQL,avhmevmVEEY,635.76,642.96,00:10:35,00:10:42,did not make any reservation. Now
+v1,SQL,avhmevmVEEY,638.96,646.72,00:10:38,00:10:46,another example if we want to uh select
+v1,SQL,avhmevmVEEY,642.96,648.72,00:10:42,00:10:48,instead the camper who made reservation
+v1,SQL,avhmevmVEEY,646.72,652.88,00:10:46,00:10:52,who made reservation so that's like
+v1,SQL,avhmevmVEEY,648.72,656.56,00:10:48,00:10:56,opposite way let's use exists
+v1,SQL,avhmevmVEEY,652.88,659.6,00:10:52,00:10:59,right in the sub query so we also select
+v1,SQL,avhmevmVEEY,656.56,662.6,00:10:56,00:11:02,the camper
+v1,SQL,avhmevmVEEY,659.6,662.6,00:10:59,00:11:02,number
+v1,SQL,avhmevmVEEY,664.8,673.12,00:11:04,00:11:13,camper first name last name and from the
+v1,SQL,avhmevmVEEY,668.64,677.2,00:11:08,00:11:17,camper table where exists. So we're
+v1,SQL,avhmevmVEEY,673.12,681.6,00:11:13,00:11:21,looking for a if there's a record
+v1,SQL,avhmevmVEEY,677.2,684.32,00:11:17,00:11:24,existing that matching the joining
+v1,SQL,avhmevmVEEY,681.6,687.36,00:11:21,00:11:27,condition between camper and
+v1,SQL,avhmevmVEEY,684.32,689.52,00:11:24,00:11:29,reservation. So this use of subquery is
+v1,SQL,avhmevmVEEY,687.36,692.4,00:11:27,00:11:32,a little bit different. It matches with
+v1,SQL,avhmevmVEEY,689.52,695.04,00:11:29,00:11:35,the outer query. So the inner query
+v1,SQL,avhmevmVEEY,692.4,696.96,00:11:32,00:11:36,every time it runs it actually matching
+v1,SQL,avhmevmVEEY,695.04,698.88,00:11:35,00:11:38,with the outer query because that's
+v1,SQL,avhmevmVEEY,696.96,703.28,00:11:36,00:11:43,where they get the camper information
+v1,SQL,avhmevmVEEY,698.88,706.64,00:11:38,00:11:46,from and on this condition if a record
+v1,SQL,avhmevmVEEY,703.28,708.16,00:11:43,00:11:48,shows then it will return in this
+v1,SQL,avhmevmVEEY,706.64,710.88,00:11:46,00:11:50,collection
+v1,SQL,avhmevmVEEY,708.16,713.12,00:11:48,00:11:53,and if exists then it will output the
+v1,SQL,avhmevmVEEY,710.88,715.44,00:11:50,00:11:55,camper that means the camper has a
+v1,SQL,avhmevmVEEY,713.12,719.28,00:11:53,00:11:59,reservation existing. So therefore we
+v1,SQL,avhmevmVEEY,715.44,722.32,00:11:55,00:12:02,see the results camper 10 and one 01 10
+v1,SQL,avhmevmVEEY,719.28,724.4,00:11:59,00:12:04,one2 those three campers made
+v1,SQL,avhmevmVEEY,722.32,729.28,00:12:02,00:12:09,reservations.
+v1,SQL,avhmevmVEEY,724.4,733.2,00:12:04,00:12:13,So this is two types of subquery example
+v1,SQL,avhmevmVEEY,729.28,733.2,00:12:09,00:12:13,and so that's

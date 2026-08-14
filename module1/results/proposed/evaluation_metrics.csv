@@ -1,0 +1,7 @@
+﻿video_id,method,threshold,ground_truth_count,predicted_count,TP,FP,FN,TN,precision,recall,f1
+v1,transcript_ocr,0.4,10,7,6,1,4,0,0.8571,0.6,0.7059
+v2,transcript_ocr,0.4,7,6,6,0,1,2,1.0,0.8571,0.9231
+v3,transcript_ocr,0.4,9,6,6,0,3,0,1.0,0.6667,0.8
+v4,transcript_ocr,0.4,6,6,5,1,1,4,0.8333,0.8333,0.8333
+v5,transcript_ocr,0.4,8,8,7,1,1,0,0.875,0.875,0.875
+OVERALL,transcript_ocr,0.4,40,33,30,3,10,6,0.9091,0.75,0.8219

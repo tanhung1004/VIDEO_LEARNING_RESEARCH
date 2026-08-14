@@ -1,0 +1,6 @@
+﻿video_id,subject,status,transcript_rows,output_file
+v1,SQL,success,238,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\raw\transcripts\v1_transcript.csv
+v2,Python,success,150,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\raw\transcripts\v2_transcript.csv
+v3,Java,success,221,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\raw\transcripts\v3_transcript.csv
+v4,SQL,success,194,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\raw\transcripts\v4_transcript.csv
+v5,Java,success,156,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\raw\transcripts\v5_transcript.csv

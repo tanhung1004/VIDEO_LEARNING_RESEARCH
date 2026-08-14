@@ -1,0 +1,4 @@
+﻿Method,Ground Truth,Predicted,TP,FP,FN,Precision,Recall,F1
+Transcript-only,40,35,31,4,9,0.8857,0.775,0.8267
+Transcript+OCR,40,33,30,3,10,0.9091,0.75,0.8219
+Difference (OCR - Baseline),0,-2,-1,-1,1,0.0234,-0.025,-0.0048

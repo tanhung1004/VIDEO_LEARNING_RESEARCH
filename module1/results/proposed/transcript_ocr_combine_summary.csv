@@ -1,0 +1,6 @@
+﻿video_id,subject,num_chunks,ocr_frames_total,ocr_frames_kept,chunks_with_ocr,ocr_frames_removed
+v1,SQL,13,74,74,13,0
+v2,Python,15,88,85,15,3
+v3,Java,8,42,42,7,0
+v4,SQL,8,48,42,8,6
+v5,Java,7,38,38,7,0
