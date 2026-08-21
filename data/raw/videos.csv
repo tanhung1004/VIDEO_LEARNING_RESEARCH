@@ -1,6 +1,6 @@
-video_id,subject,title,url,status,split,cv_fold,annotation_status
-v1,SQL,SQL Video 1,https://www.youtube.com/watch?v=avhmevmVEEY,selected,dev,,completed
-v2,Python,Python Video 1,https://www.youtube.com/watch?v=94UHCEmprCY,selected,dev,,completed
-v3,Java,Java Video 1,https://www.youtube.com/watch?v=HvPlEJ3LHgE,selected,dev,,completed
-v4,SQL,SQL Video 2,https://www.youtube.com/watch?v=VQf0V6Wwbf4,selected,dev,,completed
-v5,Java,Java Video 2,https://www.youtube.com/watch?v=c2sTQk9opO8,selected,dev,,completed
+video_id,subject,title,url,status,split,cv_fold,annotation_status,content_style,duration_min,channel
+v1,SQL,SQL Video 1,https://www.youtube.com/watch?v=avhmevmVEEY,selected,dev,,completed,,,
+v2,Python,Python Video 1,https://www.youtube.com/watch?v=94UHCEmprCY,selected,dev,,completed,,,
+v3,Java,Java Video 1,https://www.youtube.com/watch?v=HvPlEJ3LHgE,selected,dev,,completed,,,
+v4,SQL,SQL Video 2,https://www.youtube.com/watch?v=VQf0V6Wwbf4,selected,dev,,completed,,,
+v5,Java,Java Video 2,https://www.youtube.com/watch?v=c2sTQk9opO8,selected,dev,,completed,,,
