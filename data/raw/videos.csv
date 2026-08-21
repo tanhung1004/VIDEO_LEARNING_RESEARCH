@@ -1,6 +1,14 @@
-video_id,subject,title,url,status,split,cv_fold,annotation_status,content_style,duration_min,channel
+﻿video_id,subject,title,url,status,split,cv_fold,annotation_status,content_style,duration_min,channel
 v1,SQL,SQL Video 1,https://www.youtube.com/watch?v=avhmevmVEEY,selected,dev,,completed,,,
 v2,Python,Python Video 1,https://www.youtube.com/watch?v=94UHCEmprCY,selected,dev,,completed,,,
 v3,Java,Java Video 1,https://www.youtube.com/watch?v=HvPlEJ3LHgE,selected,dev,,completed,,,
 v4,SQL,SQL Video 2,https://www.youtube.com/watch?v=VQf0V6Wwbf4,selected,dev,,completed,,,
 v5,Java,Java Video 2,https://www.youtube.com/watch?v=c2sTQk9opO8,selected,dev,,completed,,,
+v6,SQL,Learn Basic SQL Commands,https://www.youtube.com/watch?v=OlT3FispsMU,selected,dev,,pending,concept_explanation,7.08,1Keydata
+v7,SQL,SQL SELECT Tutorial,https://www.youtube.com/watch?v=YufocuHbYZo,selected,dev,,pending,concept_explanation,8.93,Socratica
+v8,SQL,Learn Basic SQL in 15 Minutes,https://www.youtube.com/watch?v=kbKty5ZVKMY,selected,dev,,pending,ide_demo,17.67,Adam Finer - Learn BI
+v9,SQL,Aggregate Functions in SQL,https://www.youtube.com/watch?v=RGIVS8RGBaI,selected,dev,,pending,slide_lecture,12.0,Neso Academy
+v10,SQL,GROUP BY and HAVING Clause in SELECT Command,https://www.youtube.com/watch?v=wsbp1J-AFhY,selected,dev,,pending,code_tutorial,,Sundeep Saradhi Kanthety
+v11,SQL,Subqueries in MySQL,https://www.youtube.com/watch?v=Vj6RqA_X-IE,selected,dev,,pending,code_tutorial,11.0,Alex The Analyst
+v12,SQL,Joins in MySQL,https://www.youtube.com/watch?v=lXQzD09BOH0,selected,dev,,pending,code_tutorial,17.0,Alex The Analyst
+v13,SQL,Beginner SQL - Analyzing Student Records,https://www.youtube.com/watch?v=_vxobA36UN4,selected,dev,,pending,ide_demo,15.0,Maven Analytics
