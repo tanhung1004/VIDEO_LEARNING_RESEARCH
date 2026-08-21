@@ -7,3 +7,7 @@ c005,SQL,GROUP BY and HAVING Clause in SELECT Command,https://www.youtube.com/wa
 c006,SQL,Subqueries in MySQL,https://www.youtube.com/watch?v=Vj6RqA_X-IE,Alex The Analyst,11.0,code_tutorial,yes,SQL subquery tutorial,2026-08-21,include,
 c007,SQL,Joins in MySQL,https://www.youtube.com/watch?v=lXQzD09BOH0,Alex The Analyst,17.0,code_tutorial,yes,SQL JOIN INNER LEFT tutorial,2026-08-21,include,
 c008,SQL,Beginner SQL - Analyzing Student Records,https://www.youtube.com/watch?v=_vxobA36UN4,Maven Analytics,15.0,ide_demo,yes,SQL beginner SELECT WHERE GROUP BY JOIN tutorial,2026-08-21,include,
+c009,SQL,Group By And Having Clause In SQL,https://www.youtube.com/watch?v=jk6_L0k8VPg,Simplilearn,31.3,ide_demo,no,SQL GROUP BY HAVING tutorial,2026-08-21,exclude,NoTranscriptFound
+c010,SQL,SQL Joins Tutorial for Beginners,https://www.youtube.com/watch?v=2HVMiPPuPIM,Joey Blue,15.5,code_tutorial,yes,SQL JOIN INNER LEFT tutorial,2026-08-21,include,
+c011,SQL,SQL Aggregate Functions Explained,https://www.youtube.com/watch?v=i_IwrISHu7A,Rita Onuoha,,concept_explanation,yes,SQL aggregate SUM COUNT AVG tutorial,2026-08-21,include,
+c012,SQL,SQL Subqueries With Examples,https://www.youtube.com/watch?v=iq52vhD45A4,Extern Code,,code_tutorial,yes,SQL subquery tutorial,2026-08-21,include,
