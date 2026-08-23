@@ -1,0 +1,757 @@
+﻿video_id,subject,youtube_id,start_sec,end_sec,start_time,end_time,text
+v23,Java,Pt-gPG9LOV8,0.16,4.56,00:00:00,00:00:04,AL we're going to cover using objects.
+v23,Java,Pt-gPG9LOV8,2.8,6.56,00:00:02,00:00:06,"If you don't like the pace of the video,"
+v23,Java,Pt-gPG9LOV8,4.56,8.64,00:00:04,00:00:08,adjust the playback speed in YouTube.
+v23,Java,Pt-gPG9LOV8,6.56,10.72,00:00:06,00:00:10,Check the timestamps to jump to specific
+v23,Java,Pt-gPG9LOV8,8.64,13.28,00:00:08,00:00:13,topics and check the video description
+v23,Java,Pt-gPG9LOV8,10.72,14.88,00:00:10,00:00:14,"for other resources. In this video,"
+v23,Java,Pt-gPG9LOV8,13.28,16.72,00:00:13,00:00:16,we'll learn how primitive types are
+v23,Java,Pt-gPG9LOV8,14.88,19.12,00:00:14,00:00:19,different than reference types in Java
+v23,Java,Pt-gPG9LOV8,16.72,20.48,00:00:16,00:00:20,and why it matters. You've probably
+v23,Java,Pt-gPG9LOV8,19.12,22.88,00:00:19,00:00:22,already learned that there are eight
+v23,Java,Pt-gPG9LOV8,20.48,25.6,00:00:20,00:00:25,primitive types in Java. Primitive types
+v23,Java,Pt-gPG9LOV8,22.88,27.92,00:00:22,00:00:27,"are small, simple pieces of data. As an"
+v23,Java,Pt-gPG9LOV8,25.6,31.04,00:00:25,00:00:31,"example, we create a primitive variable"
+v23,Java,Pt-gPG9LOV8,27.92,33.36,00:00:27,00:00:33,int a and initialize it to three. The
+v23,Java,Pt-gPG9LOV8,31.04,35.44,00:00:31,00:00:35,value for a is stored in the stack part
+v23,Java,Pt-gPG9LOV8,33.36,37.84,00:00:33,00:00:37,of memory. The same thing happens when
+v23,Java,Pt-gPG9LOV8,35.44,40.16,00:00:35,00:00:40,we create a double variable and a
+v23,Java,Pt-gPG9LOV8,37.84,42.8,00:00:37,00:00:42,"boolean variable. Now, let's create a"
+v23,Java,Pt-gPG9LOV8,40.16,45.2,00:00:40,00:00:45,reference type variable. Reference type
+v23,Java,Pt-gPG9LOV8,42.8,47.68,00:00:42,00:00:47,variables get their name because they
+v23,Java,Pt-gPG9LOV8,45.2,49.28,00:00:45,00:00:49,refer to an object. Some common
+v23,Java,Pt-gPG9LOV8,47.68,53.68,00:00:47,00:00:53,reference types you may have worked with
+v23,Java,Pt-gPG9LOV8,49.28,55.92,00:00:49,00:00:55,"are string, array, and scanner. Unlike"
+v23,Java,Pt-gPG9LOV8,53.68,59.44,00:00:53,00:00:59,"primitive types, you can design your own"
+v23,Java,Pt-gPG9LOV8,55.92,61.52,00:00:55,00:01:01,reference types. I wrote a dog class.
+v23,Java,Pt-gPG9LOV8,59.44,64.4,00:00:59,00:01:04,This is a common way to declare and
+v23,Java,Pt-gPG9LOV8,61.52,66.64,00:01:01,00:01:06,initialize a reference type variable.
+v23,Java,Pt-gPG9LOV8,64.4,69.36,00:01:04,00:01:09,Primitive type variables have a value
+v23,Java,Pt-gPG9LOV8,66.64,71.44,00:01:06,00:01:11,stored on the stack. Reference type
+v23,Java,Pt-gPG9LOV8,69.36,74.16,00:01:09,00:01:14,variables also have a value on the
+v23,Java,Pt-gPG9LOV8,71.44,77.2,00:01:11,00:01:17,"stack, but the value is a reference that"
+v23,Java,Pt-gPG9LOV8,74.16,79.84,00:01:14,00:01:19,points to an object on the heap. The
+v23,Java,Pt-gPG9LOV8,77.2,82.96,00:01:17,00:01:22,reference refers to a place in heap
+v23,Java,Pt-gPG9LOV8,79.84,85.28,00:01:19,00:01:25,memory where the object is stored. Heap
+v23,Java,Pt-gPG9LOV8,82.96,87.2,00:01:22,00:01:27,"memory is larger than stack memory, so"
+v23,Java,Pt-gPG9LOV8,85.28,89.68,00:01:25,00:01:29,it can hold objects which are more
+v23,Java,Pt-gPG9LOV8,87.2,91.92,00:01:27,00:01:31,complex than primitive types. Let's
+v23,Java,Pt-gPG9LOV8,89.68,94.0,00:01:29,00:01:34,create another reference type. The
+v23,Java,Pt-gPG9LOV8,91.92,96.08,00:01:31,00:01:36,objects themselves are completely
+v23,Java,Pt-gPG9LOV8,94.0,98.88,00:01:34,00:01:38,"equivalent, but they have different"
+v23,Java,Pt-gPG9LOV8,96.08,101.2,00:01:36,00:01:41,identities because they each exist in a
+v23,Java,Pt-gPG9LOV8,98.88,103.52,00:01:38,00:01:43,unique part of the heap. The two
+v23,Java,Pt-gPG9LOV8,101.2,105.52,00:01:41,00:01:45,references are not equivalent because
+v23,Java,Pt-gPG9LOV8,103.52,108.64,00:01:43,00:01:48,they refer to different places on the
+v23,Java,Pt-gPG9LOV8,105.52,112.56,00:01:45,00:01:52,heap. Now let's declare a new primitive
+v23,Java,Pt-gPG9LOV8,108.64,115.84,00:01:48,00:01:55,variable D and assign it the value of A.
+v23,Java,Pt-gPG9LOV8,112.56,119.04,00:01:52,00:01:59,D is created and we copy the stacks
+v23,Java,Pt-gPG9LOV8,115.84,121.12,00:01:55,00:02:01,value for A and assign it to D. For data
+v23,Java,Pt-gPG9LOV8,119.04,123.44,00:01:59,00:02:03,"on the stack, we don't think about the"
+v23,Java,Pt-gPG9LOV8,121.12,126.32,00:02:01,00:02:06,identity because each variable has its
+v23,Java,Pt-gPG9LOV8,123.44,129.44,00:02:03,00:02:09,own unique value. Now let's create a new
+v23,Java,Pt-gPG9LOV8,126.32,133.84,00:02:06,00:02:13,dog type variable Z and assign it the
+v23,Java,Pt-gPG9LOV8,129.44,137.52,00:02:09,00:02:17,value of Y. Z is created and we copy the
+v23,Java,Pt-gPG9LOV8,133.84,139.84,00:02:13,00:02:19,stacks value for Y and assign it to Z.
+v23,Java,Pt-gPG9LOV8,137.52,142.64,00:02:17,00:02:22,"Notice that we copied the reference, not"
+v23,Java,Pt-gPG9LOV8,139.84,144.8,00:02:19,00:02:24,the object. When we set one variable
+v23,Java,Pt-gPG9LOV8,142.64,147.68,00:02:22,00:02:27,"equal to another variable, we always"
+v23,Java,Pt-gPG9LOV8,144.8,149.6,00:02:24,00:02:29,copy the data on the stack. But Z's
+v23,Java,Pt-gPG9LOV8,147.68,151.84,00:02:27,00:02:31,reference and Y's reference have the
+v23,Java,Pt-gPG9LOV8,149.6,154.88,00:02:29,00:02:34,same value because they are referring to
+v23,Java,Pt-gPG9LOV8,151.84,157.04,00:02:31,00:02:37,the same object on the heap. X's
+v23,Java,Pt-gPG9LOV8,154.88,159.44,00:02:34,00:02:39,reference has a different value because
+v23,Java,Pt-gPG9LOV8,157.04,162.08,00:02:37,00:02:42,it is referring to a different object on
+v23,Java,Pt-gPG9LOV8,159.44,164.72,00:02:39,00:02:44,the heap. Now let's learn why these
+v23,Java,Pt-gPG9LOV8,162.08,167.68,00:02:42,00:02:47,differences are important. Look at these
+v23,Java,Pt-gPG9LOV8,164.72,169.84,00:02:44,00:02:49,three lines of code. Here we're using
+v23,Java,Pt-gPG9LOV8,167.68,173.68,00:02:47,00:02:53,double equals which is the equality
+v23,Java,Pt-gPG9LOV8,169.84,176.48,00:02:49,00:02:56,"operator to compare A and B. In Java,"
+v23,Java,Pt-gPG9LOV8,173.68,179.28,00:02:53,00:02:59,the equality operator compares the value
+v23,Java,Pt-gPG9LOV8,176.48,181.84,00:02:56,00:03:01,on the stack for two variables. Even
+v23,Java,Pt-gPG9LOV8,179.28,184.4,00:02:59,00:03:04,"though A and B are different data types,"
+v23,Java,Pt-gPG9LOV8,181.84,187.2,00:03:01,00:03:07,Java recognizes they are mathematically
+v23,Java,Pt-gPG9LOV8,184.4,190.56,00:03:04,00:03:10,equivalent and will evaluate to true.
+v23,Java,Pt-gPG9LOV8,187.2,192.88,00:03:07,00:03:12,"Next, we compare X and Y. They refer to"
+v23,Java,Pt-gPG9LOV8,190.56,195.44,00:03:10,00:03:15,different objects on the heap. So the
+v23,Java,Pt-gPG9LOV8,192.88,198.56,00:03:12,00:03:18,references are not equivalent and this
+v23,Java,Pt-gPG9LOV8,195.44,200.72,00:03:15,00:03:20,expression evaluates to false. There are
+v23,Java,Pt-gPG9LOV8,198.56,203.36,00:03:18,00:03:23,ways to check whether the objects X and
+v23,Java,Pt-gPG9LOV8,200.72,205.92,00:03:20,00:03:25,Y are referring to are equivalent. In
+v23,Java,Pt-gPG9LOV8,203.36,208.08,00:03:23,00:03:28,"this case, they are. However, the proper"
+v23,Java,Pt-gPG9LOV8,205.92,211.12,00:03:25,00:03:31,way to compare objects depends on the
+v23,Java,Pt-gPG9LOV8,208.08,214.72,00:03:28,00:03:34,object type and is never double equals.
+v23,Java,Pt-gPG9LOV8,211.12,217.04,00:03:31,00:03:37,"Finally, we compare Y and Z. Y and Z's"
+v23,Java,Pt-gPG9LOV8,214.72,219.04,00:03:34,00:03:39,references have the same value because
+v23,Java,Pt-gPG9LOV8,217.04,222.48,00:03:37,00:03:42,they refer to the same location on the
+v23,Java,Pt-gPG9LOV8,219.04,224.72,00:03:39,00:03:44,heap. This expression evaluates to true.
+v23,Java,Pt-gPG9LOV8,222.48,226.56,00:03:42,00:03:46,Let's look at some other situations.
+v23,Java,Pt-gPG9LOV8,224.72,229.36,00:03:44,00:03:49,Suppose we change the value of the
+v23,Java,Pt-gPG9LOV8,226.56,231.12,00:03:46,00:03:51,primitive D to six. It's fairly
+v23,Java,Pt-gPG9LOV8,229.36,233.84,00:03:49,00:03:53,straightforward to see what happened.
+v23,Java,Pt-gPG9LOV8,231.12,236.72,00:03:51,00:03:56,And now if we use the equality operator
+v23,Java,Pt-gPG9LOV8,233.84,240.0,00:03:53,00:04:00,"to compare A and D, it would evaluate to"
+v23,Java,Pt-gPG9LOV8,236.72,241.76,00:03:56,00:04:01,"false. Now with reference types, there"
+v23,Java,Pt-gPG9LOV8,240.0,244.32,00:04:00,00:04:04,are two types of changes we need to
+v23,Java,Pt-gPG9LOV8,241.76,246.8,00:04:01,00:04:06,"consider. First, we can instruct the"
+v23,Java,Pt-gPG9LOV8,244.32,249.44,00:04:04,00:04:09,object that Y is referring to to change
+v23,Java,Pt-gPG9LOV8,246.8,251.28,00:04:06,00:04:11,"to blue. For now, don't worry about how"
+v23,Java,Pt-gPG9LOV8,249.44,253.52,00:04:09,00:04:13,we did that. Just accept that it
+v23,Java,Pt-gPG9LOV8,251.28,255.84,00:04:11,00:04:15,happened. The change affects both Y and
+v23,Java,Pt-gPG9LOV8,253.52,258.32,00:04:13,00:04:18,Z because they are both referring to the
+v23,Java,Pt-gPG9LOV8,255.84,260.96,00:04:15,00:04:20,same object. For a different type of
+v23,Java,Pt-gPG9LOV8,258.32,264.24,00:04:18,00:04:24,"change, we can instruct the Z variable"
+v23,Java,Pt-gPG9LOV8,260.96,266.8,00:04:20,00:04:26,to refer to a different object. This
+v23,Java,Pt-gPG9LOV8,264.24,270.08,00:04:24,00:04:30,doesn't affect Y at all because Y is
+v23,Java,Pt-gPG9LOV8,266.8,271.84,00:04:26,00:04:31,still referring to the original object.
+v23,Java,Pt-gPG9LOV8,270.08,274.8,00:04:30,00:04:34,Whenever you are modifying reference
+v23,Java,Pt-gPG9LOV8,271.84,277.52,00:04:31,00:04:37,"types, you need to consider are you"
+v23,Java,Pt-gPG9LOV8,274.8,279.12,00:04:34,00:04:39,modifying the object itself or are you
+v23,Java,Pt-gPG9LOV8,277.52,281.36,00:04:37,00:04:41,modifying where the variable is
+v23,Java,Pt-gPG9LOV8,279.12,283.52,00:04:39,00:04:43,referring.
+v23,Java,Pt-gPG9LOV8,281.36,285.6,00:04:41,00:04:45,"In this Java tutorial, you'll learn"
+v23,Java,Pt-gPG9LOV8,283.52,288.64,00:04:43,00:04:48,about using classes and creating
+v23,Java,Pt-gPG9LOV8,285.6,291.04,00:04:45,00:04:51,"objects. By the way, an object is also"
+v23,Java,Pt-gPG9LOV8,288.64,293.12,00:04:48,00:04:53,called an instance of a class or an
+v23,Java,Pt-gPG9LOV8,291.04,295.36,00:04:51,00:04:55,"instance. First, let's talk about what"
+v23,Java,Pt-gPG9LOV8,293.12,298.08,00:04:53,00:04:58,an object is. In object-oriented
+v23,Java,Pt-gPG9LOV8,295.36,300.32,00:04:55,00:05:00,"programming languages like Java, objects"
+v23,Java,Pt-gPG9LOV8,298.08,303.12,00:04:58,00:05:03,have two types of characteristics.
+v23,Java,Pt-gPG9LOV8,300.32,305.44,00:05:00,00:05:05,"First, they have states which in Java we"
+v23,Java,Pt-gPG9LOV8,303.12,307.76,00:05:03,00:05:07,"represent with field variables. Second,"
+v23,Java,Pt-gPG9LOV8,305.44,310.08,00:05:05,00:05:10,they have behaviors that in Java we
+v23,Java,Pt-gPG9LOV8,307.76,312.8,00:05:07,00:05:12,represent with methods. Imagine a light
+v23,Java,Pt-gPG9LOV8,310.08,315.44,00:05:10,00:05:15,bulb object. Two states might be color
+v23,Java,Pt-gPG9LOV8,312.8,318.56,00:05:12,00:05:18,and size. Three behaviors might be
+v23,Java,Pt-gPG9LOV8,315.44,321.12,00:05:15,00:05:21,"flash, turn off, and switch color. Let's"
+v23,Java,Pt-gPG9LOV8,318.56,323.6,00:05:18,00:05:23,create a light bulb object. This object
+v23,Java,Pt-gPG9LOV8,321.12,326.24,00:05:21,00:05:26,has the value yellow for the color field
+v23,Java,Pt-gPG9LOV8,323.6,328.64,00:05:23,00:05:28,and the value five for the size field.
+v23,Java,Pt-gPG9LOV8,326.24,331.2,00:05:26,00:05:31,"If we call the flash method, it causes"
+v23,Java,Pt-gPG9LOV8,328.64,333.28,00:05:28,00:05:33,the object to behave in a certain way.
+v23,Java,Pt-gPG9LOV8,331.2,335.36,00:05:31,00:05:35,Now let's call the switch color method.
+v23,Java,Pt-gPG9LOV8,333.28,337.76,00:05:33,00:05:37,You can see that the switch color method
+v23,Java,Pt-gPG9LOV8,335.36,339.68,00:05:35,00:05:39,change the value of the color field.
+v23,Java,Pt-gPG9LOV8,337.76,342.08,00:05:37,00:05:42,It's very common for programmers to
+v23,Java,Pt-gPG9LOV8,339.68,344.72,00:05:39,00:05:44,write methods to modify the values of
+v23,Java,Pt-gPG9LOV8,342.08,346.48,00:05:42,00:05:46,fields. Your next question might be
+v23,Java,Pt-gPG9LOV8,344.72,349.76,00:05:44,00:05:49,where did the code for the object come
+v23,Java,Pt-gPG9LOV8,346.48,351.92,00:05:46,00:05:51,from? The answer is from a class. A
+v23,Java,Pt-gPG9LOV8,349.76,353.84,00:05:49,00:05:53,class is like a blueprint or a template
+v23,Java,Pt-gPG9LOV8,351.92,356.32,00:05:51,00:05:56,for an object. There are a number of
+v23,Java,Pt-gPG9LOV8,353.84,358.8,00:05:53,00:05:58,classes built into Java. So often we
+v23,Java,Pt-gPG9LOV8,356.32,360.8,00:05:56,00:06:00,just use those pre-made classes. Some
+v23,Java,Pt-gPG9LOV8,358.8,363.76,00:05:58,00:06:03,examples of pre-made classes are the
+v23,Java,Pt-gPG9LOV8,360.8,365.92,00:06:00,00:06:05,"string class, arrays class, and scanner"
+v23,Java,Pt-gPG9LOV8,363.76,368.24,00:06:03,00:06:08,class. You've probably used at least one
+v23,Java,Pt-gPG9LOV8,365.92,370.8,00:06:05,00:06:10,of these already. Sometimes programmers
+v23,Java,Pt-gPG9LOV8,368.24,373.2,00:06:08,00:06:13,"write their own classes. Regardless,"
+v23,Java,Pt-gPG9LOV8,370.8,376.96,00:06:10,00:06:16,"once you have a class, you can use it to"
+v23,Java,Pt-gPG9LOV8,373.2,378.96,00:06:13,00:06:18,create as many objects as you want.
+v23,Java,Pt-gPG9LOV8,376.96,381.36,00:06:16,00:06:21,"Anyway, now that we've covered classes"
+v23,Java,Pt-gPG9LOV8,378.96,383.76,00:06:18,00:06:23,"and objects conceptually, let's learn"
+v23,Java,Pt-gPG9LOV8,381.36,385.36,00:06:21,00:06:25,how to create objects with code. Here's
+v23,Java,Pt-gPG9LOV8,383.76,387.92,00:06:23,00:06:27,how we can create an object for the
+v23,Java,Pt-gPG9LOV8,385.36,390.08,00:06:25,00:06:30,light bulb class. We start by stating
+v23,Java,Pt-gPG9LOV8,387.92,392.4,00:06:27,00:06:32,"the name of the class, in this case,"
+v23,Java,Pt-gPG9LOV8,390.08,396.64,00:06:30,00:06:36,"light bulb, then a variable, in this"
+v23,Java,Pt-gPG9LOV8,392.4,400.24,00:06:32,00:06:40,"case x, followed by equals new light"
+v23,Java,Pt-gPG9LOV8,396.64,402.24,00:06:36,00:06:42,bulb open close parentheses semicolon.
+v23,Java,Pt-gPG9LOV8,400.24,406.08,00:06:40,00:06:46,What we did was create a variable called
+v23,Java,Pt-gPG9LOV8,402.24,408.96,00:06:42,00:06:48,X of type light bulb and set it to refer
+v23,Java,Pt-gPG9LOV8,406.08,410.88,00:06:46,00:06:50,to a newly created light bulb object.
+v23,Java,Pt-gPG9LOV8,408.96,413.44,00:06:48,00:06:53,Now let's look at another way to declare
+v23,Java,Pt-gPG9LOV8,410.88,415.52,00:06:50,00:06:55,and initialize a light bulb object. On
+v23,Java,Pt-gPG9LOV8,413.44,418.4,00:06:53,00:06:58,"this line, we create a light bulb"
+v23,Java,Pt-gPG9LOV8,415.52,421.04,00:06:55,00:07:01,"variable Y. On the next line, we create"
+v23,Java,Pt-gPG9LOV8,418.4,423.68,00:06:58,00:07:03,the light bulb object and tell Y to
+v23,Java,Pt-gPG9LOV8,421.04,425.92,00:07:01,00:07:05,refer to that object. We're doing the
+v23,Java,Pt-gPG9LOV8,423.68,428.64,00:07:03,00:07:08,"same thing, but in the second example,"
+v23,Java,Pt-gPG9LOV8,425.92,430.72,00:07:05,00:07:10,we split up the steps. We can't access
+v23,Java,Pt-gPG9LOV8,428.64,432.96,00:07:08,00:07:12,"an object directly. So, we need a"
+v23,Java,Pt-gPG9LOV8,430.72,435.76,00:07:10,00:07:15,variable to allow us to identify the
+v23,Java,Pt-gPG9LOV8,432.96,438.32,00:07:12,00:07:18,object. It's like how people need names
+v23,Java,Pt-gPG9LOV8,435.76,440.56,00:07:15,00:07:20,so we can identify them. Let's look at a
+v23,Java,Pt-gPG9LOV8,438.32,443.2,00:07:18,00:07:23,"third example. Here, we declared a"
+v23,Java,Pt-gPG9LOV8,440.56,445.6,00:07:20,00:07:25,variable Z and initialized it with a new
+v23,Java,Pt-gPG9LOV8,443.2,447.76,00:07:23,00:07:27,light bulb object. But you'll also see
+v23,Java,Pt-gPG9LOV8,445.6,450.16,00:07:25,00:07:30,an additional piece of data. Anything
+v23,Java,Pt-gPG9LOV8,447.76,452.4,00:07:27,00:07:32,inside the parenthesis gets passed to
+v23,Java,Pt-gPG9LOV8,450.16,455.12,00:07:30,00:07:35,the constructor and is used in the
+v23,Java,Pt-gPG9LOV8,452.4,456.96,00:07:32,00:07:36,"creation of the object. In this case, I"
+v23,Java,Pt-gPG9LOV8,455.12,458.72,00:07:35,00:07:38,passed the string green to the
+v23,Java,Pt-gPG9LOV8,456.96,461.84,00:07:36,00:07:41,"constructor, which caused the light"
+v23,Java,Pt-gPG9LOV8,458.72,463.92,00:07:38,00:07:43,bulb's color field to be set to green.
+v23,Java,Pt-gPG9LOV8,461.84,466.08,00:07:41,00:07:46,"Now, you can't just pass anything you"
+v23,Java,Pt-gPG9LOV8,463.92,468.32,00:07:43,00:07:48,want to a class's constructor. The
+v23,Java,Pt-gPG9LOV8,466.08,470.32,00:07:46,00:07:50,programmer of the light bulb class
+v23,Java,Pt-gPG9LOV8,468.32,472.48,00:07:48,00:07:52,determined what type of data the
+v23,Java,Pt-gPG9LOV8,470.32,474.72,00:07:50,00:07:54,constructor could accept. When working
+v23,Java,Pt-gPG9LOV8,472.48,476.72,00:07:52,00:07:56,"with a class, you need to know what type"
+v23,Java,Pt-gPG9LOV8,474.72,479.6,00:07:54,00:07:59,of arguments you can pass to the
+v23,Java,Pt-gPG9LOV8,476.72,482.24,00:07:56,00:08:02,constructor when making a new object.
+v23,Java,Pt-gPG9LOV8,479.6,484.4,00:07:59,00:08:04,"Next, let's talk more about fields. We"
+v23,Java,Pt-gPG9LOV8,482.24,486.96,00:08:02,00:08:06,"learned earlier that in Java, an"
+v23,Java,Pt-gPG9LOV8,484.4,489.12,00:08:04,00:08:09,object's states are managed by field
+v23,Java,Pt-gPG9LOV8,486.96,491.36,00:08:06,00:08:11,variables. There are two types of fields
+v23,Java,Pt-gPG9LOV8,489.12,493.52,00:08:09,00:08:13,you need to know about. The first are
+v23,Java,Pt-gPG9LOV8,491.36,495.84,00:08:11,00:08:15,called class variables because they
+v23,Java,Pt-gPG9LOV8,493.52,499.04,00:08:13,00:08:19,belong to the class. These are also
+v23,Java,Pt-gPG9LOV8,495.84,501.36,00:08:15,00:08:21,known as static fields. The second are
+v23,Java,Pt-gPG9LOV8,499.04,503.92,00:08:19,00:08:23,called instance variables because they
+v23,Java,Pt-gPG9LOV8,501.36,507.12,00:08:21,00:08:27,belong to the individual instances.
+v23,Java,Pt-gPG9LOV8,503.92,509.04,00:08:23,00:08:29,These are also called non-static fields.
+v23,Java,Pt-gPG9LOV8,507.12,511.2,00:08:27,00:08:31,Let's pull up the light bulb class and
+v23,Java,Pt-gPG9LOV8,509.04,513.6,00:08:29,00:08:33,"some light bulb instances. Again, the"
+v23,Java,Pt-gPG9LOV8,511.2,515.92,00:08:31,00:08:35,light bulb class defines color as an
+v23,Java,Pt-gPG9LOV8,513.6,518.4,00:08:33,00:08:38,instance variable. That means each
+v23,Java,Pt-gPG9LOV8,515.92,521.12,00:08:35,00:08:41,instance has its own unique copy of the
+v23,Java,Pt-gPG9LOV8,518.4,524.08,00:08:38,00:08:44,variable. When we change the value for
+v23,Java,Pt-gPG9LOV8,521.12,527.68,00:08:41,00:08:47,"the instance that Y is referring to, it"
+v23,Java,Pt-gPG9LOV8,524.08,530.0,00:08:44,00:08:50,only affects that one instance. Size is
+v23,Java,Pt-gPG9LOV8,527.68,532.4,00:08:47,00:08:52,defined as a class variable. It belongs
+v23,Java,Pt-gPG9LOV8,530.0,534.8,00:08:50,00:08:54,to the class and is shared by all
+v23,Java,Pt-gPG9LOV8,532.4,536.88,00:08:52,00:08:56,instances of the class. When we change
+v23,Java,Pt-gPG9LOV8,534.8,539.6,00:08:54,00:08:59,"the value of a class variable, it"
+v23,Java,Pt-gPG9LOV8,536.88,542.16,00:08:56,00:09:02,affects the class and all instances of
+v23,Java,Pt-gPG9LOV8,539.6,544.08,00:08:59,00:09:04,"the class. When coding a class, the"
+v23,Java,Pt-gPG9LOV8,542.16,546.0,00:09:02,00:09:06,programmer decides which fields are
+v23,Java,Pt-gPG9LOV8,544.08,548.64,00:09:04,00:09:08,"class variables, and which are instance"
+v23,Java,Pt-gPG9LOV8,546.0,550.88,00:09:06,00:09:10,"variables. Next, let's look at methods."
+v23,Java,Pt-gPG9LOV8,548.64,553.6,00:09:08,00:09:13,"Again, there are two types of methods."
+v23,Java,Pt-gPG9LOV8,550.88,556.72,00:09:10,00:09:16,"Static methods, also called class"
+v23,Java,Pt-gPG9LOV8,553.6,559.52,00:09:13,00:09:19,"methods, and instance methods, also"
+v23,Java,Pt-gPG9LOV8,556.72,562.0,00:09:16,00:09:22,called non-static methods.
+v23,Java,Pt-gPG9LOV8,559.52,564.56,00:09:19,00:09:24,Static methods belong to the class. So
+v23,Java,Pt-gPG9LOV8,562.0,567.36,00:09:22,00:09:27,you call them with the class name.
+v23,Java,Pt-gPG9LOV8,564.56,570.08,00:09:24,00:09:30,Instance methods belong to an instance
+v23,Java,Pt-gPG9LOV8,567.36,572.8,00:09:27,00:09:32,meaning an object. So you need an object
+v23,Java,Pt-gPG9LOV8,570.08,574.56,00:09:30,00:09:34,"to call them from. To understand better,"
+v23,Java,Pt-gPG9LOV8,572.8,577.04,00:09:32,00:09:37,let's look at two different methods in
+v23,Java,Pt-gPG9LOV8,574.56,579.68,00:09:34,00:09:39,the light bulb class. The decrease size
+v23,Java,Pt-gPG9LOV8,577.04,582.24,00:09:37,00:09:42,method is a static method and the switch
+v23,Java,Pt-gPG9LOV8,579.68,584.08,00:09:39,00:09:44,color method is an instance method.
+v23,Java,Pt-gPG9LOV8,582.24,587.44,00:09:42,00:09:47,Let's write some code to see how we can
+v23,Java,Pt-gPG9LOV8,584.08,590.24,00:09:44,00:09:50,access the methods. lightbulb.decrease
+v23,Java,Pt-gPG9LOV8,587.44,592.4,00:09:47,00:09:52,size. Decrease size is static. It's a
+v23,Java,Pt-gPG9LOV8,590.24,594.8,00:09:50,00:09:54,"behavior of the class. So, we can call"
+v23,Java,Pt-gPG9LOV8,592.4,597.12,00:09:52,00:09:57,it from the class itself. There doesn't
+v23,Java,Pt-gPG9LOV8,594.8,599.04,00:09:54,00:09:59,even need to be an object in existence
+v23,Java,Pt-gPG9LOV8,597.12,601.44,00:09:57,00:10:01,for us to call this method.
+v23,Java,Pt-gPG9LOV8,599.04,604.0,00:09:59,00:10:04,"Alternatively, we can create an instance"
+v23,Java,Pt-gPG9LOV8,601.44,606.4,00:10:01,00:10:06,of the light bulb class. It's legal to
+v23,Java,Pt-gPG9LOV8,604.0,608.88,00:10:04,00:10:08,call static method decrease size from
+v23,Java,Pt-gPG9LOV8,606.4,611.36,00:10:06,00:10:11,the variable Q because an object always
+v23,Java,Pt-gPG9LOV8,608.88,612.8,00:10:08,00:10:12,"has a class standing behind it. However,"
+v23,Java,Pt-gPG9LOV8,611.36,614.8,00:10:11,00:10:14,this could be confusing to other
+v23,Java,Pt-gPG9LOV8,612.8,616.56,00:10:12,00:10:16,programmers reading our code. You should
+v23,Java,Pt-gPG9LOV8,614.8,618.48,00:10:14,00:10:18,make a practice of calling static
+v23,Java,Pt-gPG9LOV8,616.56,621.12,00:10:16,00:10:21,methods from the class itself like
+v23,Java,Pt-gPG9LOV8,618.48,623.36,00:10:18,00:10:23,above. Switch color is an instance
+v23,Java,Pt-gPG9LOV8,621.12,625.68,00:10:21,00:10:25,method. So we must call it from an
+v23,Java,Pt-gPG9LOV8,623.36,629.12,00:10:23,00:10:29,object. The only variable that is
+v23,Java,Pt-gPG9LOV8,625.68,631.36,00:10:25,00:10:31,referencing a light bulb object is Q. So
+v23,Java,Pt-gPG9LOV8,629.12,633.92,00:10:29,00:10:33,we'll call it from Q. As an instance
+v23,Java,Pt-gPG9LOV8,631.36,636.56,00:10:31,00:10:36,"method, switch color is a behavior of an"
+v23,Java,Pt-gPG9LOV8,633.92,638.96,00:10:33,00:10:38,"object. Therefore, it cannot be called"
+v23,Java,Pt-gPG9LOV8,636.56,641.52,00:10:36,00:10:41,from the light bulb class. This line of
+v23,Java,Pt-gPG9LOV8,638.96,643.92,00:10:38,00:10:43,code will give the error non-static
+v23,Java,Pt-gPG9LOV8,641.52,646.8,00:10:41,00:10:46,method cannot be referenced from a
+v23,Java,Pt-gPG9LOV8,643.92,649.36,00:10:43,00:10:49,static context. The final thing to know
+v23,Java,Pt-gPG9LOV8,646.8,652.48,00:10:46,00:10:52,is that static methods can only access
+v23,Java,Pt-gPG9LOV8,649.36,655.12,00:10:49,00:10:55,class variables while instance methods
+v23,Java,Pt-gPG9LOV8,652.48,657.12,00:10:52,00:10:57,can access both class variables and
+v23,Java,Pt-gPG9LOV8,655.12,659.28,00:10:55,00:10:59,instance variables.
+v23,Java,Pt-gPG9LOV8,657.12,661.52,00:10:57,00:11:01,This is why the switch color method had
+v23,Java,Pt-gPG9LOV8,659.28,664.08,00:10:59,00:11:04,to be an instance method so it could
+v23,Java,Pt-gPG9LOV8,661.52,666.8,00:11:01,00:11:06,access the instance variable color which
+v23,Java,Pt-gPG9LOV8,664.08,668.88,00:11:04,00:11:08,it changed. This fact will be important
+v23,Java,Pt-gPG9LOV8,666.8,671.6,00:11:06,00:11:11,when you learn about writing classes in
+v23,Java,Pt-gPG9LOV8,668.88,673.52,00:11:08,00:11:13,"a later lesson. Before we end, I wanted"
+v23,Java,Pt-gPG9LOV8,671.6,675.44,00:11:11,00:11:15,to mention that there are a few classes
+v23,Java,Pt-gPG9LOV8,673.52,678.0,00:11:13,00:11:18,that have unique ways of creating
+v23,Java,Pt-gPG9LOV8,675.44,680.64,00:11:15,00:11:20,objects. Some examples include the
+v23,Java,Pt-gPG9LOV8,678.0,682.88,00:11:18,00:11:22,string class and the array class. Don't
+v23,Java,Pt-gPG9LOV8,680.64,685.28,00:11:20,00:11:25,"worry about those now, but be aware that"
+v23,Java,Pt-gPG9LOV8,682.88,686.96,00:11:22,00:11:26,exceptions exist.
+v23,Java,Pt-gPG9LOV8,685.28,689.44,00:11:25,00:11:29,"In this lesson, we'll learn about"
+v23,Java,Pt-gPG9LOV8,686.96,692.0,00:11:26,00:11:32,calling methods in Java. Some important
+v23,Java,Pt-gPG9LOV8,689.44,694.4,00:11:29,00:11:34,points in object-oriented programming.
+v23,Java,Pt-gPG9LOV8,692.0,696.88,00:11:32,00:11:36,We can think of methods as behaviors.
+v23,Java,Pt-gPG9LOV8,694.4,699.28,00:11:34,00:11:39,Static methods are behaviors that belong
+v23,Java,Pt-gPG9LOV8,696.88,702.0,00:11:36,00:11:42,to the class. So we call the methods
+v23,Java,Pt-gPG9LOV8,699.28,704.32,00:11:39,00:11:44,from the class itself. A class is like a
+v23,Java,Pt-gPG9LOV8,702.0,706.48,00:11:42,00:11:46,blueprint for an object. Instance
+v23,Java,Pt-gPG9LOV8,704.32,709.52,00:11:44,00:11:49,methods are behaviors that belong to
+v23,Java,Pt-gPG9LOV8,706.48,712.16,00:11:46,00:11:52,objects. We need to use the class to
+v23,Java,Pt-gPG9LOV8,709.52,714.32,00:11:49,00:11:54,create one or more objects.
+v23,Java,Pt-gPG9LOV8,712.16,717.12,00:11:52,00:11:57,Then we call the instance method from a
+v23,Java,Pt-gPG9LOV8,714.32,719.68,00:11:54,00:11:59,specific object. Let's look at this cake
+v23,Java,Pt-gPG9LOV8,717.12,722.32,00:11:57,00:12:02,"class. As discussed earlier, we can"
+v23,Java,Pt-gPG9LOV8,719.68,724.64,00:11:59,00:12:04,think of a class as akin to a blueprint.
+v23,Java,Pt-gPG9LOV8,722.32,726.72,00:12:02,00:12:06,You might expect the cake class to have
+v23,Java,Pt-gPG9LOV8,724.64,728.48,00:12:04,00:12:08,"fields and constructors, but we aren't"
+v23,Java,Pt-gPG9LOV8,726.72,730.48,00:12:06,00:12:10,displaying them. If you don't know what
+v23,Java,Pt-gPG9LOV8,728.48,733.04,00:12:08,00:12:13,"fields and constructors are yet, that's"
+v23,Java,Pt-gPG9LOV8,730.48,735.2,00:12:10,00:12:15,fine. We only see the method headers.
+v23,Java,Pt-gPG9LOV8,733.04,737.28,00:12:13,00:12:17,The method bodies don't matter to us
+v23,Java,Pt-gPG9LOV8,735.2,739.6,00:12:15,00:12:19,because we don't care how these methods
+v23,Java,Pt-gPG9LOV8,737.28,741.52,00:12:17,00:12:21,do what they do. Think of it like a car.
+v23,Java,Pt-gPG9LOV8,739.6,743.84,00:12:19,00:12:23,We don't need to understand how a car
+v23,Java,Pt-gPG9LOV8,741.52,745.44,00:12:21,00:12:25,works to drive it. Let's look at the
+v23,Java,Pt-gPG9LOV8,743.84,748.08,00:12:23,00:12:28,method headers and learn what
+v23,Java,Pt-gPG9LOV8,745.44,750.64,00:12:25,00:12:30,information we can from them. Public is
+v23,Java,Pt-gPG9LOV8,748.08,752.72,00:12:28,00:12:32,an access modifier. This means we can
+v23,Java,Pt-gPG9LOV8,750.64,755.76,00:12:30,00:12:35,call the method from either inside the
+v23,Java,Pt-gPG9LOV8,752.72,757.6,00:12:32,00:12:37,cake class or from another class.
+v23,Java,Pt-gPG9LOV8,755.76,760.64,00:12:35,00:12:40,Compare that to the private access
+v23,Java,Pt-gPG9LOV8,757.6,763.12,00:12:37,00:12:43,"modifier, meaning the other method can"
+v23,Java,Pt-gPG9LOV8,760.64,766.4,00:12:40,00:12:46,only be called from inside the cake
+v23,Java,Pt-gPG9LOV8,763.12,768.48,00:12:43,00:12:48,"class. Next, the static keyword tells us"
+v23,Java,Pt-gPG9LOV8,766.4,771.2,00:12:46,00:12:51,this behavior belongs to the class
+v23,Java,Pt-gPG9LOV8,768.48,774.16,00:12:48,00:12:54,itself. We don't actually need to make a
+v23,Java,Pt-gPG9LOV8,771.2,776.24,00:12:51,00:12:56,cake to call list flavor choices. We can
+v23,Java,Pt-gPG9LOV8,774.16,778.96,00:12:54,00:12:58,call the behavior from the cake's
+v23,Java,Pt-gPG9LOV8,776.24,781.12,00:12:56,00:13:01,blueprint. Compare that to how many
+v23,Java,Pt-gPG9LOV8,778.96,784.0,00:12:58,00:13:04,calories which doesn't have the word
+v23,Java,Pt-gPG9LOV8,781.12,786.56,00:13:01,00:13:06,static as an instance method. It must be
+v23,Java,Pt-gPG9LOV8,784.0,788.56,00:13:04,00:13:08,called from a cake object. Different
+v23,Java,Pt-gPG9LOV8,786.56,791.28,00:13:06,00:13:11,cake objects will have different numbers
+v23,Java,Pt-gPG9LOV8,788.56,792.96,00:13:08,00:13:12,of calories. So it makes sense that how
+v23,Java,Pt-gPG9LOV8,791.28,795.36,00:13:11,00:13:15,many calories will be an instance
+v23,Java,Pt-gPG9LOV8,792.96,797.6,00:13:12,00:13:17,method. When I say that different cakes
+v23,Java,Pt-gPG9LOV8,795.36,800.24,00:13:15,00:13:20,"may have different numbers of calories,"
+v23,Java,Pt-gPG9LOV8,797.6,802.4,00:13:17,00:13:22,this variability is key to understanding
+v23,Java,Pt-gPG9LOV8,800.24,805.12,00:13:20,00:13:25,why how many calories is an instance
+v23,Java,Pt-gPG9LOV8,802.4,806.72,00:13:22,00:13:26,method. Since each cake object could
+v23,Java,Pt-gPG9LOV8,805.12,809.04,00:13:25,00:13:29,"have different ingredients, the number"
+v23,Java,Pt-gPG9LOV8,806.72,811.44,00:13:26,00:13:31,of calories will vary from one object to
+v23,Java,Pt-gPG9LOV8,809.04,814.24,00:13:29,00:13:34,another. That's why the method needs to
+v23,Java,Pt-gPG9LOV8,811.44,816.4,00:13:31,00:13:36,"be called on a specific cake object,"
+v23,Java,Pt-gPG9LOV8,814.24,818.08,00:13:34,00:13:38,allowing us to calculate the calorie
+v23,Java,Pt-gPG9LOV8,816.4,821.6,00:13:36,00:13:41,content based on the unique
+v23,Java,Pt-gPG9LOV8,818.08,823.76,00:13:38,00:13:43,characteristics of that individual cake.
+v23,Java,Pt-gPG9LOV8,821.6,826.16,00:13:41,00:13:46,This is our return type. It tells us
+v23,Java,Pt-gPG9LOV8,823.76,828.16,00:13:43,00:13:48,that every time list flavor choices is
+v23,Java,Pt-gPG9LOV8,826.16,830.96,00:13:46,00:13:50,"called, it will send back a piece of"
+v23,Java,Pt-gPG9LOV8,828.16,833.04,00:13:48,00:13:53,"string data. In the case of this method,"
+v23,Java,Pt-gPG9LOV8,830.96,835.28,00:13:50,00:13:55,we can surmise from the name that the
+v23,Java,Pt-gPG9LOV8,833.04,837.6,00:13:53,00:13:57,return string will be a list of the
+v23,Java,Pt-gPG9LOV8,835.28,840.4,00:13:55,00:14:00,different flavors of cake objects that
+v23,Java,Pt-gPG9LOV8,837.6,842.32,00:13:57,00:14:02,can be created from this class. Return
+v23,Java,Pt-gPG9LOV8,840.4,845.12,00:14:00,00:14:05,types can be primitive or reference
+v23,Java,Pt-gPG9LOV8,842.32,848.32,00:14:02,00:14:08,types. The how many calories method will
+v23,Java,Pt-gPG9LOV8,845.12,850.8,00:14:05,00:14:10,return a piece of data of int type. Add
+v23,Java,Pt-gPG9LOV8,848.32,853.44,00:14:08,00:14:13,writing has a void return type meaning
+v23,Java,Pt-gPG9LOV8,850.8,856.0,00:14:10,00:14:16,it will not return any data when called.
+v23,Java,Pt-gPG9LOV8,853.44,858.72,00:14:13,00:14:18,Here is the method name. It should be in
+v23,Java,Pt-gPG9LOV8,856.0,861.2,00:14:16,00:14:21,lower camel case and describe what the
+v23,Java,Pt-gPG9LOV8,858.72,863.92,00:14:18,00:14:23,"method does. Finally, we have the"
+v23,Java,Pt-gPG9LOV8,861.2,866.48,00:14:21,00:14:26,parentheses which can hold one or more
+v23,Java,Pt-gPG9LOV8,863.92,868.72,00:14:23,00:14:28,parameters. Parameters are variables
+v23,Java,Pt-gPG9LOV8,866.48,871.52,00:14:26,00:14:31,that receive data when we call the
+v23,Java,Pt-gPG9LOV8,868.72,874.08,00:14:28,00:14:34,method. List flavor choices doesn't have
+v23,Java,Pt-gPG9LOV8,871.52,876.8,00:14:31,00:14:36,any parameters. Compare that to add
+v23,Java,Pt-gPG9LOV8,874.08,879.2,00:14:34,00:14:39,writing which has one string parameter.
+v23,Java,Pt-gPG9LOV8,876.8,881.52,00:14:36,00:14:41,"Every time we call add writing, we need"
+v23,Java,Pt-gPG9LOV8,879.2,884.0,00:14:39,00:14:44,to pass it a string which will populate
+v23,Java,Pt-gPG9LOV8,881.52,886.24,00:14:41,00:14:46,the words variable. New programmers
+v23,Java,Pt-gPG9LOV8,884.0,888.64,00:14:44,00:14:48,often confuse return types and
+v23,Java,Pt-gPG9LOV8,886.24,890.96,00:14:46,00:14:50,"parameters. Remember, parameters tell"
+v23,Java,Pt-gPG9LOV8,888.64,894.16,00:14:48,00:14:54,you what data needs to be sent to a
+v23,Java,Pt-gPG9LOV8,890.96,896.0,00:14:50,00:14:56,method when we call it. Return types
+v23,Java,Pt-gPG9LOV8,894.16,898.56,00:14:54,00:14:58,tell you what type of data will be
+v23,Java,Pt-gPG9LOV8,896.0,900.96,00:14:56,00:15:00,"returned back. Now, let's look at the"
+v23,Java,Pt-gPG9LOV8,898.56,903.36,00:14:58,00:15:03,bakery class. We'll write some code in
+v23,Java,Pt-gPG9LOV8,900.96,905.68,00:15:00,00:15:05,the main method of the bakery class. The
+v23,Java,Pt-gPG9LOV8,903.36,908.0,00:15:03,00:15:08,main method is automatically called when
+v23,Java,Pt-gPG9LOV8,905.68,909.92,00:15:05,00:15:09,"we run a class. For reference, I've"
+v23,Java,Pt-gPG9LOV8,908.0,912.88,00:15:08,00:15:12,included the method headers from the
+v23,Java,Pt-gPG9LOV8,909.92,915.52,00:15:09,00:15:15,cake class. Suppose we attempted to call
+v23,Java,Pt-gPG9LOV8,912.88,918.0,00:15:12,00:15:18,list flavor choices. While this is a
+v23,Java,Pt-gPG9LOV8,915.52,920.16,00:15:15,00:15:20,"valid method name in the cake class,"
+v23,Java,Pt-gPG9LOV8,918.0,923.04,00:15:18,00:15:23,there is no method by this name in the
+v23,Java,Pt-gPG9LOV8,920.16,925.12,00:15:20,00:15:25,"bakery class. So, Java can't find it."
+v23,Java,Pt-gPG9LOV8,923.04,927.68,00:15:23,00:15:27,Let's look at the cake methods and learn
+v23,Java,Pt-gPG9LOV8,925.12,930.64,00:15:25,00:15:30,how to call them from the bakery class.
+v23,Java,Pt-gPG9LOV8,927.68,932.48,00:15:27,00:15:32,"List flavor choices is a static method,"
+v23,Java,Pt-gPG9LOV8,930.64,934.96,00:15:30,00:15:34,which means it's a behavior that belongs
+v23,Java,Pt-gPG9LOV8,932.48,937.52,00:15:32,00:15:37,to the cake class itself. To properly
+v23,Java,Pt-gPG9LOV8,934.96,940.88,00:15:34,00:15:40,"call it from another class, we will say"
+v23,Java,Pt-gPG9LOV8,937.52,943.2,00:15:37,00:15:43,cake.list list flavor choices which will
+v23,Java,Pt-gPG9LOV8,940.88,945.2,00:15:40,00:15:45,run without error. Let's go back and
+v23,Java,Pt-gPG9LOV8,943.2,947.44,00:15:43,00:15:47,look at the return type of the method.
+v23,Java,Pt-gPG9LOV8,945.2,949.36,00:15:45,00:15:49,It returns a string. We aren't doing
+v23,Java,Pt-gPG9LOV8,947.44,951.36,00:15:47,00:15:51,"anything with the return data, so the"
+v23,Java,Pt-gPG9LOV8,949.36,953.44,00:15:49,00:15:53,list of flavor choices will disappear
+v23,Java,Pt-gPG9LOV8,951.36,956.64,00:15:51,00:15:56,into the ether. Let's print out the
+v23,Java,Pt-gPG9LOV8,953.44,959.28,00:15:53,00:15:59,"return string. Next, let's call the how"
+v23,Java,Pt-gPG9LOV8,956.64,961.52,00:15:56,00:16:01,many calories method. How many calories
+v23,Java,Pt-gPG9LOV8,959.28,963.52,00:15:59,00:16:03,"is an instance method, so it is a"
+v23,Java,Pt-gPG9LOV8,961.52,966.56,00:16:01,00:16:06,behavior that acts on individual
+v23,Java,Pt-gPG9LOV8,963.52,969.12,00:16:03,00:16:09,"objects. To call it, we need to create"
+v23,Java,Pt-gPG9LOV8,966.56,971.6,00:16:06,00:16:11,at least one object. We start by
+v23,Java,Pt-gPG9LOV8,969.12,974.08,00:16:09,00:16:14,creating a variable of type cake and
+v23,Java,Pt-gPG9LOV8,971.6,976.4,00:16:11,00:16:16,name it vanilla. Since vanilla is a
+v23,Java,Pt-gPG9LOV8,974.08,978.64,00:16:14,00:16:18,"variable of a reference type, it will"
+v23,Java,Pt-gPG9LOV8,976.4,982.48,00:16:16,00:16:22,need to refer to something before we use
+v23,Java,Pt-gPG9LOV8,978.64,984.8,00:16:18,00:16:24,it. Here we create a new cake object and
+v23,Java,Pt-gPG9LOV8,982.48,987.2,00:16:22,00:16:27,have the vanilla variable reference it.
+v23,Java,Pt-gPG9LOV8,984.8,990.32,00:16:24,00:16:30,"In memory, we have the vanilla variable"
+v23,Java,Pt-gPG9LOV8,987.2,992.8,00:16:27,00:16:32,which references a cake object. The cake
+v23,Java,Pt-gPG9LOV8,990.32,995.68,00:16:30,00:16:35,object is an actual cake that we can do
+v23,Java,Pt-gPG9LOV8,992.8,998.0,00:16:32,00:16:38,things with. Contrast that to the cake
+v23,Java,Pt-gPG9LOV8,995.68,1000.48,00:16:35,00:16:40,"class, which is just a blueprint for a"
+v23,Java,Pt-gPG9LOV8,998.0,1003.04,00:16:38,00:16:43,cake. We can make as many cake objects
+v23,Java,Pt-gPG9LOV8,1000.48,1005.12,00:16:40,00:16:45,as we want. Different cake objects may
+v23,Java,Pt-gPG9LOV8,1003.04,1007.44,00:16:43,00:16:47,"not be identical, but they must all"
+v23,Java,Pt-gPG9LOV8,1005.12,1010.4,00:16:45,00:16:50,follow the specifications created by the
+v23,Java,Pt-gPG9LOV8,1007.44,1012.72,00:16:47,00:16:52,class blueprint. How many calories has
+v23,Java,Pt-gPG9LOV8,1010.4,1014.32,00:16:50,00:16:54,an int return type. That means the
+v23,Java,Pt-gPG9LOV8,1012.72,1017.36,00:16:52,00:16:57,method will return the number of
+v23,Java,Pt-gPG9LOV8,1014.32,1019.44,00:16:54,00:16:59,calories in a particular cake as an int.
+v23,Java,Pt-gPG9LOV8,1017.36,1021.44,00:16:57,00:17:01,"Again, we are just letting that data"
+v23,Java,Pt-gPG9LOV8,1019.44,1023.52,00:16:59,00:17:03,disappear into the ether. Instead of
+v23,Java,Pt-gPG9LOV8,1021.44,1026.4,00:17:01,00:17:06,"printing it out like before, let's store"
+v23,Java,Pt-gPG9LOV8,1023.52,1028.72,00:17:03,00:17:08,the data in a variable called calories.
+v23,Java,Pt-gPG9LOV8,1026.4,1031.36,00:17:06,00:17:11,"Next, we want to call the add writing"
+v23,Java,Pt-gPG9LOV8,1028.72,1033.92,00:17:08,00:17:13,"method. It is an instance method. So, we"
+v23,Java,Pt-gPG9LOV8,1031.36,1036.08,00:17:11,00:17:16,must call the behavior from an object or
+v23,Java,Pt-gPG9LOV8,1033.92,1039.2,00:17:13,00:17:19,a variable that is referring to an
+v23,Java,Pt-gPG9LOV8,1036.08,1041.92,00:17:16,00:17:21,"object. It has a void return type. So,"
+v23,Java,Pt-gPG9LOV8,1039.2,1044.4,00:17:19,00:17:24,no data is returned. The add writing
+v23,Java,Pt-gPG9LOV8,1041.92,1046.64,00:17:21,00:17:26,method has a string parameter. That
+v23,Java,Pt-gPG9LOV8,1044.4,1049.6,00:17:24,00:17:29,"means when we call add writing, we need"
+v23,Java,Pt-gPG9LOV8,1046.64,1052.16,00:17:26,00:17:32,to pass a string argument. The argument
+v23,Java,Pt-gPG9LOV8,1049.6,1054.88,00:17:29,00:17:34,we pass will populate the words
+v23,Java,Pt-gPG9LOV8,1052.16,1057.28,00:17:32,00:17:37,parameter affecting how the add writing
+v23,Java,Pt-gPG9LOV8,1054.88,1060.24,00:17:34,00:17:40,method behaves. When we call the add
+v23,Java,Pt-gPG9LOV8,1057.28,1062.96,00:17:37,00:17:42,"writing method, it modifies the object."
+v23,Java,Pt-gPG9LOV8,1060.24,1066.08,00:17:40,00:17:46,Some methods modify objects while others
+v23,Java,Pt-gPG9LOV8,1062.96,1068.72,00:17:42,00:17:48,"don't. Finally, let's look at the mix"
+v23,Java,Pt-gPG9LOV8,1066.08,1071.36,00:17:46,00:17:51,ingredients method. This method has a
+v23,Java,Pt-gPG9LOV8,1068.72,1073.68,00:17:48,00:17:53,"private access modifier, meaning it can"
+v23,Java,Pt-gPG9LOV8,1071.36,1075.84,00:17:51,00:17:55,only be called from inside the cake
+v23,Java,Pt-gPG9LOV8,1073.68,1078.48,00:17:53,00:17:58,class. There is no way for us to
+v23,Java,Pt-gPG9LOV8,1075.84,1081.04,00:17:55,00:18:01,directly call mix ingredients from the
+v23,Java,Pt-gPG9LOV8,1078.48,1083.36,00:17:58,00:18:03,"bakery class. However, if one of the"
+v23,Java,Pt-gPG9LOV8,1081.04,1085.68,00:18:01,00:18:05,public methods we called happens to call
+v23,Java,Pt-gPG9LOV8,1083.36,1088.4,00:18:03,00:18:08,the mix ingredients method as part of
+v23,Java,Pt-gPG9LOV8,1085.68,1091.2,00:18:05,00:18:11,"its workings, we would have indirectly"
+v23,Java,Pt-gPG9LOV8,1088.4,1093.2,00:18:08,00:18:13,called mix ingredients. Before we wrap
+v23,Java,Pt-gPG9LOV8,1091.2,1095.28,00:18:11,00:18:15,"up, let's quickly recap what we've"
+v23,Java,Pt-gPG9LOV8,1093.2,1097.28,00:18:13,00:18:17,covered in this lesson. We learned that
+v23,Java,Pt-gPG9LOV8,1095.28,1100.4,00:18:15,00:18:20,methods in Java can be thought of as
+v23,Java,Pt-gPG9LOV8,1097.28,1103.68,00:18:17,00:18:23,behaviors with static methods belonging
+v23,Java,Pt-gPG9LOV8,1100.4,1106.96,00:18:20,00:18:26,to the class itself and instance methods
+v23,Java,Pt-gPG9LOV8,1103.68,1110.48,00:18:23,00:18:30,belonging to individual objects.
+v23,Java,Pt-gPG9LOV8,1106.96,1113.28,00:18:26,00:18:33,We explored how static methods like list
+v23,Java,Pt-gPG9LOV8,1110.48,1115.84,00:18:30,00:18:35,flavor choices can be called directly
+v23,Java,Pt-gPG9LOV8,1113.28,1118.96,00:18:33,00:18:38,from the class while instance methods
+v23,Java,Pt-gPG9LOV8,1115.84,1121.76,00:18:35,00:18:41,like how many calories require an object
+v23,Java,Pt-gPG9LOV8,1118.96,1124.08,00:18:38,00:18:44,to be created first. We also discussed
+v23,Java,Pt-gPG9LOV8,1121.76,1127.76,00:18:41,00:18:47,"method headers, including access"
+v23,Java,Pt-gPG9LOV8,1124.08,1130.32,00:18:44,00:18:50,"modifiers, return types, method names,"
+v23,Java,Pt-gPG9LOV8,1127.76,1132.56,00:18:47,00:18:52,"and parameters, and how they tell us"
+v23,Java,Pt-gPG9LOV8,1130.32,1137.04,00:18:50,00:18:57,important information about what a
+v23,Java,Pt-gPG9LOV8,1132.56,1139.52,00:18:52,00:18:59,method does and how to use it.
+v23,Java,Pt-gPG9LOV8,1137.04,1142.16,00:18:57,00:19:02,"Welcome. In this Java tutorial, we'll"
+v23,Java,Pt-gPG9LOV8,1139.52,1144.8,00:18:59,00:19:04,learn how to use the string class. Some
+v23,Java,Pt-gPG9LOV8,1142.16,1148.24,00:19:02,00:19:08,important facts to know. String is a
+v23,Java,Pt-gPG9LOV8,1144.8,1150.32,00:19:04,00:19:10,"data type that holds text. Internally,"
+v23,Java,Pt-gPG9LOV8,1148.24,1153.36,00:19:08,00:19:13,strings are an array of the primitive
+v23,Java,Pt-gPG9LOV8,1150.32,1155.84,00:19:10,00:19:15,type care. The string class has a
+v23,Java,Pt-gPG9LOV8,1153.36,1158.16,00:19:13,00:19:18,variety of methods to compare and modify
+v23,Java,Pt-gPG9LOV8,1155.84,1159.92,00:19:15,00:19:19,strings. We'll start by looking at the
+v23,Java,Pt-gPG9LOV8,1158.16,1162.4,00:19:18,00:19:22,most common way to declare and
+v23,Java,Pt-gPG9LOV8,1159.92,1164.56,00:19:19,00:19:24,"initialize a string, which is to say"
+v23,Java,Pt-gPG9LOV8,1162.4,1167.28,00:19:22,00:19:27,"string, the name of the variable, in"
+v23,Java,Pt-gPG9LOV8,1164.56,1170.72,00:19:24,00:19:30,"this case a, and then set it to a string"
+v23,Java,Pt-gPG9LOV8,1167.28,1173.04,00:19:27,00:19:33,"literal, in this case hello. Java will"
+v23,Java,Pt-gPG9LOV8,1170.72,1174.8,00:19:30,00:19:34,place the variable on the stack and
+v23,Java,Pt-gPG9LOV8,1173.04,1177.36,00:19:33,00:19:37,create a reference pointing to the
+v23,Java,Pt-gPG9LOV8,1174.8,1179.6,00:19:34,00:19:39,"object on the heap. Typically, it will"
+v23,Java,Pt-gPG9LOV8,1177.36,1181.68,00:19:37,00:19:41,put it inside the string pool. This
+v23,Java,Pt-gPG9LOV8,1179.6,1184.8,00:19:39,00:19:44,means if we create another string
+v23,Java,Pt-gPG9LOV8,1181.68,1186.96,00:19:41,00:19:46,"variable with the same value, Java will"
+v23,Java,Pt-gPG9LOV8,1184.8,1188.96,00:19:44,00:19:48,"look in the string pool, see it's"
+v23,Java,Pt-gPG9LOV8,1186.96,1191.12,00:19:46,00:19:51,"already there, and then have the new"
+v23,Java,Pt-gPG9LOV8,1188.96,1194.08,00:19:48,00:19:54,variable refer to the same memory
+v23,Java,Pt-gPG9LOV8,1191.12,1196.64,00:19:51,00:19:56,location. This behavior reduces memory
+v23,Java,Pt-gPG9LOV8,1194.08,1199.36,00:19:54,00:19:59,usage. This behavior is different from
+v23,Java,Pt-gPG9LOV8,1196.64,1201.28,00:19:56,00:20:01,"most other object types in Java. Now,"
+v23,Java,Pt-gPG9LOV8,1199.36,1202.88,00:19:59,00:20:02,let's look at a less common way to
+v23,Java,Pt-gPG9LOV8,1201.28,1204.96,00:20:01,00:20:04,declare and initialize a string
+v23,Java,Pt-gPG9LOV8,1202.88,1207.52,00:20:02,00:20:07,variable. This is how we declare and
+v23,Java,Pt-gPG9LOV8,1204.96,1209.76,00:20:04,00:20:09,initialize most objects. When we do it
+v23,Java,Pt-gPG9LOV8,1207.52,1212.72,00:20:07,00:20:12,"this way, Java will create a unique"
+v23,Java,Pt-gPG9LOV8,1209.76,1215.2,00:20:09,00:20:15,object outside of the string pool. If we
+v23,Java,Pt-gPG9LOV8,1212.72,1217.52,00:20:12,00:20:17,"do it again this way, even if it's the"
+v23,Java,Pt-gPG9LOV8,1215.2,1220.24,00:20:15,00:20:20,"same value, it will create a second"
+v23,Java,Pt-gPG9LOV8,1217.52,1222.48,00:20:17,00:20:22,object on a different part of the heap.
+v23,Java,Pt-gPG9LOV8,1220.24,1224.4,00:20:20,00:20:24,While this is unusual behavior for a
+v23,Java,Pt-gPG9LOV8,1222.48,1227.2,00:20:22,00:20:27,"string, this is typical for most"
+v23,Java,Pt-gPG9LOV8,1224.4,1230.16,00:20:24,00:20:30,"objects. Now, let's look at this line of"
+v23,Java,Pt-gPG9LOV8,1227.2,1233.6,00:20:27,00:20:33,"code. For this lesson, SOP stands for"
+v23,Java,Pt-gPG9LOV8,1230.16,1235.68,00:20:30,00:20:35,system outprint line. A equals B checks
+v23,Java,Pt-gPG9LOV8,1233.6,1238.24,00:20:33,00:20:38,if the variables have the same data
+v23,Java,Pt-gPG9LOV8,1235.68,1240.88,00:20:35,00:20:40,stored on the stack. For primitive types
+v23,Java,Pt-gPG9LOV8,1238.24,1243.04,00:20:38,00:20:43,"like int or boolean, double equals works"
+v23,Java,Pt-gPG9LOV8,1240.88,1246.0,00:20:40,00:20:46,well because all of the data is stored
+v23,Java,Pt-gPG9LOV8,1243.04,1248.8,00:20:43,00:20:48,"on the stack. However, with object types"
+v23,Java,Pt-gPG9LOV8,1246.0,1250.72,00:20:46,00:20:50,"like strings, double equals checks if"
+v23,Java,Pt-gPG9LOV8,1248.8,1252.64,00:20:48,00:20:52,the references on the stack are
+v23,Java,Pt-gPG9LOV8,1250.72,1256.0,00:20:50,00:20:56,referring to the same object on the
+v23,Java,Pt-gPG9LOV8,1252.64,1258.0,00:20:52,00:20:58,"heap. In this case, A and B refer to the"
+v23,Java,Pt-gPG9LOV8,1256.0,1260.64,00:20:56,00:21:00,"same object, so it will evaluate to"
+v23,Java,Pt-gPG9LOV8,1258.0,1262.8,00:20:58,00:21:02,"true. Now, let's look at another line of"
+v23,Java,Pt-gPG9LOV8,1260.64,1264.48,00:21:00,00:21:04,code. We're checking if C and D are
+v23,Java,Pt-gPG9LOV8,1262.8,1267.04,00:21:02,00:21:07,referring to the same object on the
+v23,Java,Pt-gPG9LOV8,1264.48,1269.28,00:21:04,00:21:09,heap. They aren't. So even though the
+v23,Java,Pt-gPG9LOV8,1267.04,1271.76,00:21:07,00:21:11,"objects are identical, it will evaluate"
+v23,Java,Pt-gPG9LOV8,1269.28,1274.96,00:21:09,00:21:14,to false because the variables refer to
+v23,Java,Pt-gPG9LOV8,1271.76,1276.88,00:21:11,00:21:16,different objects. These two objects
+v23,Java,Pt-gPG9LOV8,1274.96,1278.8,00:21:14,00:21:18,while equivalent have different
+v23,Java,Pt-gPG9LOV8,1276.88,1281.28,00:21:16,00:21:21,identities. Checking whether two
+v23,Java,Pt-gPG9LOV8,1278.8,1283.6,00:21:18,00:21:23,variables refer to the same object is
+v23,Java,Pt-gPG9LOV8,1281.28,1285.6,00:21:21,00:21:25,called referential equality. And that's
+v23,Java,Pt-gPG9LOV8,1283.6,1288.0,00:21:23,00:21:28,why double equals isn't a good way to
+v23,Java,Pt-gPG9LOV8,1285.6,1290.72,00:21:25,00:21:30,compare the values of objects. In the
+v23,Java,Pt-gPG9LOV8,1288.0,1293.68,00:21:28,00:21:33,"case of strings, it will generally work,"
+v23,Java,Pt-gPG9LOV8,1290.72,1296.16,00:21:30,00:21:36,"but it is a risky practice. For strings,"
+v23,Java,Pt-gPG9LOV8,1293.68,1299.44,00:21:33,00:21:39,we compare equality using the equals
+v23,Java,Pt-gPG9LOV8,1296.16,1301.28,00:21:36,00:21:41,"method. So, A equals B checks if the"
+v23,Java,Pt-gPG9LOV8,1299.44,1304.08,00:21:39,00:21:44,data that A and B refer to is
+v23,Java,Pt-gPG9LOV8,1301.28,1306.32,00:21:41,00:21:46,"equivalent. In this case, A and B refer"
+v23,Java,Pt-gPG9LOV8,1304.08,1308.8,00:21:44,00:21:48,"to the same object, so they will of"
+v23,Java,Pt-gPG9LOV8,1306.32,1311.36,00:21:46,00:21:51,course be equivalent. C and D are
+v23,Java,Pt-gPG9LOV8,1308.8,1313.76,00:21:48,00:21:53,"referring to different objects, but the"
+v23,Java,Pt-gPG9LOV8,1311.36,1316.16,00:21:51,00:21:56,data in those memory locations is the
+v23,Java,Pt-gPG9LOV8,1313.76,1319.12,00:21:53,00:21:59,"same. So, the equals method will return"
+v23,Java,Pt-gPG9LOV8,1316.16,1322.16,00:21:56,00:22:02,true. Let's look at another way to use
+v23,Java,Pt-gPG9LOV8,1319.12,1324.08,00:21:59,00:22:04,the string classes equals method. Here
+v23,Java,Pt-gPG9LOV8,1322.16,1327.28,00:22:02,00:22:07,we're calling the equals method from the
+v23,Java,Pt-gPG9LOV8,1324.08,1329.92,00:22:04,00:22:09,string object that a refers to. We're
+v23,Java,Pt-gPG9LOV8,1327.28,1332.24,00:22:07,00:22:12,passing the string literal hello to the
+v23,Java,Pt-gPG9LOV8,1329.92,1334.48,00:22:09,00:22:14,method. Since a refers to a string
+v23,Java,Pt-gPG9LOV8,1332.24,1336.72,00:22:12,00:22:16,object that is equivalent to the string
+v23,Java,Pt-gPG9LOV8,1334.48,1340.72,00:22:14,00:22:20,"literal we're passing, the method will"
+v23,Java,Pt-gPG9LOV8,1336.72,1343.2,00:22:16,00:22:23,"return true. Next, let's change a. This"
+v23,Java,Pt-gPG9LOV8,1340.72,1345.84,00:22:20,00:22:25,created a new object in the string pool
+v23,Java,Pt-gPG9LOV8,1343.2,1348.08,00:22:23,00:22:28,and changed a to refer to that new
+v23,Java,Pt-gPG9LOV8,1345.84,1351.36,00:22:25,00:22:31,object. The original object is
+v23,Java,Pt-gPG9LOV8,1348.08,1354.24,00:22:28,00:22:34,unchanged. We created a brand new object
+v23,Java,Pt-gPG9LOV8,1351.36,1357.12,00:22:31,00:22:37,and changed where A was referring. In
+v23,Java,Pt-gPG9LOV8,1354.24,1359.12,00:22:34,00:22:39,"fact, unlike most objects, strings are"
+v23,Java,Pt-gPG9LOV8,1357.12,1361.12,00:22:37,00:22:41,immutable. That means once they are
+v23,Java,Pt-gPG9LOV8,1359.12,1363.76,00:22:39,00:22:43,"created on the heap, they can't be"
+v23,Java,Pt-gPG9LOV8,1361.12,1365.68,00:22:41,00:22:45,modified. People often get confused
+v23,Java,Pt-gPG9LOV8,1363.76,1368.56,00:22:43,00:22:48,because it seems we have modified the
+v23,Java,Pt-gPG9LOV8,1365.68,1371.12,00:22:45,00:22:51,"string A is referring to, but really we"
+v23,Java,Pt-gPG9LOV8,1368.56,1373.92,00:22:48,00:22:53,just created a new string and updated
+v23,Java,Pt-gPG9LOV8,1371.12,1376.0,00:22:51,00:22:56,A's reference. Let's look at some other
+v23,Java,Pt-gPG9LOV8,1373.92,1378.96,00:22:53,00:22:58,examples to see how strings are handled
+v23,Java,Pt-gPG9LOV8,1376.0,1381.28,00:22:56,00:23:01,in memory. We created the E variable on
+v23,Java,Pt-gPG9LOV8,1378.96,1383.92,00:22:58,00:23:03,the stack and have it refer to a new
+v23,Java,Pt-gPG9LOV8,1381.28,1386.4,00:23:01,00:23:06,"object in the string pool. Next, we"
+v23,Java,Pt-gPG9LOV8,1383.92,1389.44,00:23:03,00:23:09,create a new variable F and copy the
+v23,Java,Pt-gPG9LOV8,1386.4,1392.16,00:23:06,00:23:12,"data from E. For a primitive data type,"
+v23,Java,Pt-gPG9LOV8,1389.44,1394.72,00:23:09,00:23:14,we would copy the actual value. For
+v23,Java,Pt-gPG9LOV8,1392.16,1397.2,00:23:12,00:23:17,"reference types like strings, we copy"
+v23,Java,Pt-gPG9LOV8,1394.72,1399.92,00:23:14,00:23:19,the reference. So both variables are
+v23,Java,Pt-gPG9LOV8,1397.2,1402.56,00:23:17,00:23:22,referring to the same object in heap
+v23,Java,Pt-gPG9LOV8,1399.92,1405.12,00:23:19,00:23:25,memory. This would happen even if the
+v23,Java,Pt-gPG9LOV8,1402.56,1408.0,00:23:22,00:23:28,"string weren't in the string pool. Next,"
+v23,Java,Pt-gPG9LOV8,1405.12,1410.08,00:23:25,00:23:30,we create a variable G on the stack and
+v23,Java,Pt-gPG9LOV8,1408.0,1413.12,00:23:28,00:23:33,have it refer to a new object in the
+v23,Java,Pt-gPG9LOV8,1410.08,1416.0,00:23:30,00:23:36,"string pool. Finally, we create a fourth"
+v23,Java,Pt-gPG9LOV8,1413.12,1420.32,00:23:33,00:23:40,variable H and have it refer to a newly
+v23,Java,Pt-gPG9LOV8,1416.0,1423.12,00:23:36,00:23:43,created object capital HI on the heap.
+v23,Java,Pt-gPG9LOV8,1420.32,1426.16,00:23:40,00:23:46,"Now, let's look at some comparisons. E="
+v23,Java,Pt-gPG9LOV8,1423.12,1429.2,00:23:43,00:23:49,F checks if the two variables refer to
+v23,Java,Pt-gPG9LOV8,1426.16,1432.0,00:23:46,00:23:52,equivalent objects. E and F refer to the
+v23,Java,Pt-gPG9LOV8,1429.2,1434.48,00:23:49,00:23:54,"same object. So, naturally, that object"
+v23,Java,Pt-gPG9LOV8,1432.0,1438.8,00:23:52,00:23:58,"is equivalent to itself, and the method"
+v23,Java,Pt-gPG9LOV8,1434.48,1440.72,00:23:54,00:24:00,"returns true. Next, we check E equals H."
+v23,Java,Pt-gPG9LOV8,1438.8,1443.6,00:23:58,00:24:03,Even though E and H both refer to
+v23,Java,Pt-gPG9LOV8,1440.72,1446.24,00:24:00,00:24:06,"objects that say hi, the strings equals"
+v23,Java,Pt-gPG9LOV8,1443.6,1449.76,00:24:03,00:24:09,"method is case-sensitive, so it returns"
+v23,Java,Pt-gPG9LOV8,1446.24,1452.64,00:24:06,00:24:12,"false. Finally, we use the equals ignore"
+v23,Java,Pt-gPG9LOV8,1449.76,1455.68,00:24:09,00:24:15,case method to compare E and H. Ignoring
+v23,Java,Pt-gPG9LOV8,1452.64,1458.0,00:24:12,00:24:18,"the capitalization, E and H refer to"
+v23,Java,Pt-gPG9LOV8,1455.68,1460.88,00:24:15,00:24:20,objects with the same value. So the
+v23,Java,Pt-gPG9LOV8,1458.0,1462.88,00:24:18,00:24:22,equals ignore case method returns true.
+v23,Java,Pt-gPG9LOV8,1460.88,1465.52,00:24:20,00:24:25,It's important to know that even though
+v23,Java,Pt-gPG9LOV8,1462.88,1468.4,00:24:22,00:24:28,"all object types have an equals method,"
+v23,Java,Pt-gPG9LOV8,1465.52,1470.88,00:24:25,00:24:30,many objects equals method only checks
+v23,Java,Pt-gPG9LOV8,1468.4,1473.52,00:24:28,00:24:33,referential equality. So their equals
+v23,Java,Pt-gPG9LOV8,1470.88,1475.2,00:24:30,00:24:35,method behaves like double equals. Now
+v23,Java,Pt-gPG9LOV8,1473.52,1477.36,00:24:33,00:24:37,let's look at some other useful methods
+v23,Java,Pt-gPG9LOV8,1475.2,1479.68,00:24:35,00:24:39,in the string class. Here we call the
+v23,Java,Pt-gPG9LOV8,1477.36,1481.6,00:24:37,00:24:41,length method. The length method counts
+v23,Java,Pt-gPG9LOV8,1479.68,1484.4,00:24:39,00:24:44,the number of characters in the string
+v23,Java,Pt-gPG9LOV8,1481.6,1488.08,00:24:41,00:24:48,and returns it as an int. G is referring
+v23,Java,Pt-gPG9LOV8,1484.4,1490.32,00:24:44,00:24:50,to howdy. So length will return five.
+v23,Java,Pt-gPG9LOV8,1488.08,1492.56,00:24:48,00:24:52,"Next, we have the substring method,"
+v23,Java,Pt-gPG9LOV8,1490.32,1495.28,00:24:50,00:24:55,which copies a part of the string and
+v23,Java,Pt-gPG9LOV8,1492.56,1496.96,00:24:52,00:24:56,returns that part as a new string. The
+v23,Java,Pt-gPG9LOV8,1495.28,1500.16,00:24:55,00:25:00,original string the variable is
+v23,Java,Pt-gPG9LOV8,1496.96,1502.32,00:24:56,00:25:02,referring to will be unchanged. We saw
+v23,Java,Pt-gPG9LOV8,1500.16,1504.56,00:25:00,00:25:04,"that when calculating a string's length,"
+v23,Java,Pt-gPG9LOV8,1502.32,1506.72,00:25:02,00:25:06,"we start counting at one, but when using"
+v23,Java,Pt-gPG9LOV8,1504.56,1509.36,00:25:04,00:25:09,"the substring method, we start counting"
+v23,Java,Pt-gPG9LOV8,1506.72,1512.72,00:25:06,00:25:12,"at zero. For a string with length five,"
+v23,Java,Pt-gPG9LOV8,1509.36,1514.88,00:25:09,00:25:14,the indexes go from 0 to 4. In this
+v23,Java,Pt-gPG9LOV8,1512.72,1517.12,00:25:12,00:25:17,"example, we passed one argument to the"
+v23,Java,Pt-gPG9LOV8,1514.88,1519.92,00:25:14,00:25:19,substring method. The substring method
+v23,Java,Pt-gPG9LOV8,1517.12,1522.08,00:25:17,00:25:22,will start at index 2 inclusive and go
+v23,Java,Pt-gPG9LOV8,1519.92,1525.84,00:25:19,00:25:25,to the end of the original string. This
+v23,Java,Pt-gPG9LOV8,1522.08,1527.76,00:25:22,00:25:27,call returns the substring wy.
+v23,Java,Pt-gPG9LOV8,1525.84,1529.84,00:25:25,00:25:29,There's another version of the substring
+v23,Java,Pt-gPG9LOV8,1527.76,1532.24,00:25:27,00:25:32,method with two parameters. So we
+v23,Java,Pt-gPG9LOV8,1529.84,1534.24,00:25:29,00:25:34,provide it with two arguments. In this
+v23,Java,Pt-gPG9LOV8,1532.24,1536.4,00:25:32,00:25:36,"case, the first argument is where we"
+v23,Java,Pt-gPG9LOV8,1534.24,1538.88,00:25:34,00:25:38,want to start and the second one is
+v23,Java,Pt-gPG9LOV8,1536.4,1541.12,00:25:36,00:25:41,"where we want to stop. However, you must"
+v23,Java,Pt-gPG9LOV8,1538.88,1543.36,00:25:38,00:25:43,be careful because the first value is
+v23,Java,Pt-gPG9LOV8,1541.12,1546.8,00:25:41,00:25:46,inclusive while the second one is
+v23,Java,Pt-gPG9LOV8,1543.36,1550.88,00:25:43,00:25:50,"exclusive. We start at index 1, but"
+v23,Java,Pt-gPG9LOV8,1546.8,1554.4,00:25:46,00:25:54,we'll end one before index 4. This call
+v23,Java,Pt-gPG9LOV8,1550.88,1556.64,00:25:50,00:25:56,returns the substring od.
+v23,Java,Pt-gPG9LOV8,1554.4,1559.12,00:25:54,00:25:59,Let's look at the compare to method. The
+v23,Java,Pt-gPG9LOV8,1556.64,1561.84,00:25:56,00:26:01,compare to method in the string class
+v23,Java,Pt-gPG9LOV8,1559.12,1564.08,00:25:59,00:26:04,compares the two strings lexographically
+v23,Java,Pt-gPG9LOV8,1561.84,1566.48,00:26:01,00:26:06,and returns an int of their difference.
+v23,Java,Pt-gPG9LOV8,1564.08,1569.12,00:26:04,00:26:09,"If the two strings have the same value,"
+v23,Java,Pt-gPG9LOV8,1566.48,1573.04,00:26:06,00:26:13,"it will return zero. In this case, it"
+v23,Java,Pt-gPG9LOV8,1569.12,1576.32,00:26:09,00:26:16,returns -32. If we switch the order of H
+v23,Java,Pt-gPG9LOV8,1573.04,1578.0,00:26:13,00:26:18,"and E, it would return positive 32."
+v23,Java,Pt-gPG9LOV8,1576.32,1579.84,00:26:16,00:26:19,"Finally, let's look at a couple of"
+v23,Java,Pt-gPG9LOV8,1578.0,1582.4,00:26:18,00:26:22,examples of how we might use these
+v23,Java,Pt-gPG9LOV8,1579.84,1584.8,00:26:19,00:26:24,methods. We're taking the length of the
+v23,Java,Pt-gPG9LOV8,1582.4,1587.84,00:26:22,00:26:27,string that H is referring to and
+v23,Java,Pt-gPG9LOV8,1584.8,1590.08,00:26:24,00:26:30,storing it in an int value I. Notice
+v23,Java,Pt-gPG9LOV8,1587.84,1593.04,00:26:27,00:26:33,"that since I is a primitive type, all"
+v23,Java,Pt-gPG9LOV8,1590.08,1596.48,00:26:30,00:26:36,"the data is on the stack. Here, we check"
+v23,Java,Pt-gPG9LOV8,1593.04,1598.96,00:26:33,00:26:38,if E equals the string literal pi. In
+v23,Java,Pt-gPG9LOV8,1596.48,1601.04,00:26:36,00:26:41,"this case, it returns false. So the code"
+v23,Java,Pt-gPG9LOV8,1598.96,1603.36,00:26:38,00:26:43,in the curly brackets doesn't get
+v23,Java,Pt-gPG9LOV8,1601.04,1605.28,00:26:41,00:26:45,executed. The string class has many
+v23,Java,Pt-gPG9LOV8,1603.36,1607.44,00:26:43,00:26:47,other useful methods you can read about
+v23,Java,Pt-gPG9LOV8,1605.28,1609.36,00:26:45,00:26:49,in the documentation linked in the video
+v23,Java,Pt-gPG9LOV8,1607.44,1611.36,00:26:47,00:26:51,description.
+v23,Java,Pt-gPG9LOV8,1609.36,1614.16,00:26:49,00:26:54,"In this lesson, we'll learn about the"
+v23,Java,Pt-gPG9LOV8,1611.36,1616.08,00:26:51,00:26:56,two uses for the plus sign in Java. Some
+v23,Java,Pt-gPG9LOV8,1614.16,1618.72,00:26:54,00:26:58,important facts to know. The plus sign
+v23,Java,Pt-gPG9LOV8,1616.08,1620.96,00:26:56,00:27:00,"in Java has two functions. First,"
+v23,Java,Pt-gPG9LOV8,1618.72,1623.44,00:26:58,00:27:03,"mathematical addition. Second,"
+v23,Java,Pt-gPG9LOV8,1620.96,1625.44,00:27:00,00:27:05,"concatenation, which takes two strings"
+v23,Java,Pt-gPG9LOV8,1623.44,1627.52,00:27:03,00:27:07,and combines them into one longer
+v23,Java,Pt-gPG9LOV8,1625.44,1629.2,00:27:05,00:27:09,"string. In some cases, Java will"
+v23,Java,Pt-gPG9LOV8,1627.52,1631.44,00:27:07,00:27:11,automatically convert different data
+v23,Java,Pt-gPG9LOV8,1629.2,1633.68,00:27:09,00:27:13,types to allow them to be combined.
+v23,Java,Pt-gPG9LOV8,1631.44,1636.0,00:27:11,00:27:16,These rules are Java specific and may
+v23,Java,Pt-gPG9LOV8,1633.68,1639.04,00:27:13,00:27:19,differ in other languages. Let's take a
+v23,Java,Pt-gPG9LOV8,1636.0,1640.72,00:27:16,00:27:20,look at this expression 3 + 5. We're
+v23,Java,Pt-gPG9LOV8,1639.04,1643.44,00:27:19,00:27:23,"adding two ins, so it's going to"
+v23,Java,Pt-gPG9LOV8,1640.72,1647.28,00:27:20,00:27:27,"evaluate to the int 8. Now, let's look"
+v23,Java,Pt-gPG9LOV8,1643.44,1650.4,00:27:23,00:27:30,"at 2.0 + 4.0. These are doubles, so it's"
+v23,Java,Pt-gPG9LOV8,1647.28,1652.16,00:27:27,00:27:32,going to evaluate to the double 6.0. In
+v23,Java,Pt-gPG9LOV8,1650.4,1655.6,00:27:30,00:27:35,"this example, we're adding the double"
+v23,Java,Pt-gPG9LOV8,1652.16,1657.84,00:27:32,00:27:37,4.2 and the int 3. To avoid loss of
+v23,Java,Pt-gPG9LOV8,1655.6,1659.6,00:27:35,00:27:39,"precision, Java automatically converts"
+v23,Java,Pt-gPG9LOV8,1657.84,1662.72,00:27:37,00:27:42,"the int to a double, and we're going to"
+v23,Java,Pt-gPG9LOV8,1659.6,1664.8,00:27:39,00:27:44,end up with a double 7.2. Here's an
+v23,Java,Pt-gPG9LOV8,1662.72,1667.04,00:27:42,00:27:47,example of how we might use the original
+v23,Java,Pt-gPG9LOV8,1664.8,1671.6,00:27:44,00:27:51,expression in a full line of code.
+v23,Java,Pt-gPG9LOV8,1667.04,1673.68,00:27:47,00:27:53,"Double a= 4.2 + 3. Now, we're going to"
+v23,Java,Pt-gPG9LOV8,1671.6,1676.4,00:27:51,00:27:56,"look at a different operation, string"
+v23,Java,Pt-gPG9LOV8,1673.68,1677.92,00:27:53,00:27:57,concatenation. Many languages like Java
+v23,Java,Pt-gPG9LOV8,1676.4,1680.08,00:27:56,00:28:00,also use the plus sign for
+v23,Java,Pt-gPG9LOV8,1677.92,1682.32,00:27:57,00:28:02,concatenation. Here's an example of
+v23,Java,Pt-gPG9LOV8,1680.08,1684.48,00:28:00,00:28:04,using the plus symbol with two strings.
+v23,Java,Pt-gPG9LOV8,1682.32,1687.28,00:28:02,00:28:07,Java combines these two strings into a
+v23,Java,Pt-gPG9LOV8,1684.48,1689.68,00:28:04,00:28:09,longer string. Hi there. Now let's look
+v23,Java,Pt-gPG9LOV8,1687.28,1691.92,00:28:07,00:28:11,at this expression. The first operand is
+v23,Java,Pt-gPG9LOV8,1689.68,1694.24,00:28:09,00:28:14,a string and the second operand is an
+v23,Java,Pt-gPG9LOV8,1691.92,1696.72,00:28:11,00:28:16,int. Java recognizes that it can't
+v23,Java,Pt-gPG9LOV8,1694.24,1699.92,00:28:14,00:28:19,perform addition here. So it implicitly
+v23,Java,Pt-gPG9LOV8,1696.72,1702.08,00:28:16,00:28:22,converts the int8 to a string. Now it
+v23,Java,Pt-gPG9LOV8,1699.92,1704.72,00:28:19,00:28:24,concatenates the two strings into the
+v23,Java,Pt-gPG9LOV8,1702.08,1706.32,00:28:22,00:28:26,string. Great. Here is an example that
+v23,Java,Pt-gPG9LOV8,1704.72,1709.04,00:28:24,00:28:29,shows the importance of operator
+v23,Java,Pt-gPG9LOV8,1706.32,1711.2,00:28:26,00:28:31,precedence. The plus operator is left
+v23,Java,Pt-gPG9LOV8,1709.04,1715.44,00:28:29,00:28:35,associative. So we'll execute from left
+v23,Java,Pt-gPG9LOV8,1711.2,1717.28,00:28:31,00:28:37,to right. 8 + 9 is 17. 17 is implicitly
+v23,Java,Pt-gPG9LOV8,1715.44,1719.92,00:28:35,00:28:39,converted to a string and the two
+v23,Java,Pt-gPG9LOV8,1717.28,1723.04,00:28:37,00:28:43,strings are concatenated into the string
+v23,Java,Pt-gPG9LOV8,1719.92,1725.44,00:28:39,00:28:45,"17 years old. In this variation, we add"
+v23,Java,Pt-gPG9LOV8,1723.04,1727.52,00:28:43,00:28:47,a set of parentheses. Parentheses have
+v23,Java,Pt-gPG9LOV8,1725.44,1729.68,00:28:45,00:28:49,the highest precedence. So we start with
+v23,Java,Pt-gPG9LOV8,1727.52,1731.76,00:28:47,00:28:51,the second plus symbol. The 9 is
+v23,Java,Pt-gPG9LOV8,1729.68,1734.0,00:28:49,00:28:54,implicitly converted to a string and
+v23,Java,Pt-gPG9LOV8,1731.76,1736.4,00:28:51,00:28:56,concatenated with the second string.
+v23,Java,Pt-gPG9LOV8,1734.0,1738.88,00:28:54,00:28:58,"Next, 8 is implicitly converted to a"
+v23,Java,Pt-gPG9LOV8,1736.4,1741.44,00:28:56,00:29:01,string and concatenated into the string
+v23,Java,Pt-gPG9LOV8,1738.88,1743.36,00:28:58,00:29:03,89 years old.
+v23,Java,Pt-gPG9LOV8,1741.44,1745.68,00:29:01,00:29:05,"In this lesson, we're going to learn"
+v23,Java,Pt-gPG9LOV8,1743.36,1747.76,00:29:03,00:29:07,about the math class in Java. Some
+v23,Java,Pt-gPG9LOV8,1745.68,1750.0,00:29:05,00:29:10,important facts to know. The math class
+v23,Java,Pt-gPG9LOV8,1747.76,1752.16,00:29:07,00:29:12,in Java contains methods that perform
+v23,Java,Pt-gPG9LOV8,1750.0,1754.08,00:29:10,00:29:14,various mathematical functions. All
+v23,Java,Pt-gPG9LOV8,1752.16,1756.0,00:29:12,00:29:16,methods in the math class are static.
+v23,Java,Pt-gPG9LOV8,1754.08,1759.28,00:29:14,00:29:19,"So, we can call methods directly from"
+v23,Java,Pt-gPG9LOV8,1756.0,1761.36,00:29:16,00:29:21,"the class. For example, math.random. You"
+v23,Java,Pt-gPG9LOV8,1759.28,1764.96,00:29:19,00:29:24,can't extend or create an instance of
+v23,Java,Pt-gPG9LOV8,1761.36,1767.04,00:29:21,00:29:27,the math class. Math ABS. This method
+v23,Java,Pt-gPG9LOV8,1764.96,1769.52,00:29:24,00:29:29,calculates the absolute value of a
+v23,Java,Pt-gPG9LOV8,1767.04,1772.56,00:29:27,00:29:32,number. We can pass the ABS method an
+v23,Java,Pt-gPG9LOV8,1769.52,1774.72,00:29:29,00:29:34,"int, a double, a float, or a long. The"
+v23,Java,Pt-gPG9LOV8,1772.56,1776.88,00:29:32,00:29:36,ABS method will always return the same
+v23,Java,Pt-gPG9LOV8,1774.72,1780.16,00:29:34,00:29:40,data type as what it was passed. Here's
+v23,Java,Pt-gPG9LOV8,1776.88,1783.84,00:29:36,00:29:43,"an example. If we pass math abs, the"
+v23,Java,Pt-gPG9LOV8,1780.16,1787.28,00:29:40,00:29:47,"double -3.2, it will return the double"
+v23,Java,Pt-gPG9LOV8,1783.84,1790.16,00:29:43,00:29:50,3.2. Math POW. This method calculates
+v23,Java,Pt-gPG9LOV8,1787.28,1792.8,00:29:47,00:29:52,"exponents. For example, 5 to the 4th"
+v23,Java,Pt-gPG9LOV8,1790.16,1794.96,00:29:50,00:29:54,power. Math POW can be passed a
+v23,Java,Pt-gPG9LOV8,1792.8,1797.76,00:29:52,00:29:57,"combination of two ints, doubles,"
+v23,Java,Pt-gPG9LOV8,1794.96,1800.16,00:29:54,00:30:00,"floats, or longs. Math POW always"
+v23,Java,Pt-gPG9LOV8,1797.76,1803.6,00:29:57,00:30:03,"returns a double. For example, if we"
+v23,Java,Pt-gPG9LOV8,1800.16,1806.08,00:30:00,00:30:06,"pass the int 3 and the double 2.0, it"
+v23,Java,Pt-gPG9LOV8,1803.6,1809.76,00:30:03,00:30:09,calculates 3 to the 2 power and will
+v23,Java,Pt-gPG9LOV8,1806.08,1812.0,00:30:06,00:30:12,return 9.0. Math square root. This
+v23,Java,Pt-gPG9LOV8,1809.76,1814.24,00:30:09,00:30:14,method calculates the square root. The
+v23,Java,Pt-gPG9LOV8,1812.0,1817.28,00:30:12,00:30:17,"square root method can be passed an int,"
+v23,Java,Pt-gPG9LOV8,1814.24,1819.36,00:30:14,00:30:19,"a double, a float, or a long. Math"
+v23,Java,Pt-gPG9LOV8,1817.28,1821.84,00:30:17,00:30:21,square root will always return a double.
+v23,Java,Pt-gPG9LOV8,1819.36,1824.24,00:30:19,00:30:24,"For example, if we call math square root"
+v23,Java,Pt-gPG9LOV8,1821.84,1827.76,00:30:21,00:30:27,"and pass it the int 9, it will return"
+v23,Java,Pt-gPG9LOV8,1824.24,1829.92,00:30:24,00:30:29,the double 3.0 math pi. Notice that
+v23,Java,Pt-gPG9LOV8,1827.76,1832.0,00:30:27,00:30:32,there are no parentheses after pi.
+v23,Java,Pt-gPG9LOV8,1829.92,1834.72,00:30:29,00:30:34,Unlike the previous examples which were
+v23,Java,Pt-gPG9LOV8,1832.0,1836.56,00:30:32,00:30:36,"methods, pi is a public field variable"
+v23,Java,Pt-gPG9LOV8,1834.72,1838.96,00:30:34,00:30:38,that we are accessing from the math
+v23,Java,Pt-gPG9LOV8,1836.56,1841.04,00:30:36,00:30:41,class. Most field variables we use are
+v23,Java,Pt-gPG9LOV8,1838.96,1843.19,00:30:38,00:30:43,private. So we can't access them this
+v23,Java,Pt-gPG9LOV8,1841.04,1845.68,00:30:41,00:30:45,way from outside the class. Math
+v23,Java,Pt-gPG9LOV8,1843.19,1847.6,00:30:43,00:30:47,[snorts] pi is a double variable that is
+v23,Java,Pt-gPG9LOV8,1845.68,1849.92,00:30:45,00:30:49,approximately equal to the mathematical
+v23,Java,Pt-gPG9LOV8,1847.6,1851.92,00:30:47,00:30:51,"constant pi. For example, we might use"
+v23,Java,Pt-gPG9LOV8,1849.92,1855.76,00:30:49,00:30:55,it in the expression circumference
+v23,Java,Pt-gPG9LOV8,1851.92,1857.44,00:30:51,00:30:57,equals 2 * math pi * radius. There are
+v23,Java,Pt-gPG9LOV8,1855.76,1859.6,00:30:55,00:30:59,variety of other useful methods in the
+v23,Java,Pt-gPG9LOV8,1857.44,1861.84,00:30:57,00:31:01,"math class. To see them all, go to a"
+v23,Java,Pt-gPG9LOV8,1859.6,1864.08,00:30:59,00:31:04,"search engine, type in Java, the current"
+v23,Java,Pt-gPG9LOV8,1861.84,1866.16,00:31:01,00:31:06,"version number of Java, and math. You"
+v23,Java,Pt-gPG9LOV8,1864.08,1868.32,00:31:04,00:31:08,will find a document detailing the math
+v23,Java,Pt-gPG9LOV8,1866.16,1870.56,00:31:06,00:31:10,"class, including all the methods and"
+v23,Java,Pt-gPG9LOV8,1868.32,1872.48,00:31:08,00:31:12,"their variations, what type of data we"
+v23,Java,Pt-gPG9LOV8,1870.56,1874.88,00:31:10,00:31:14,"can pass to the methods, and what type"
+v23,Java,Pt-gPG9LOV8,1872.48,1876.56,00:31:12,00:31:16,of data the methods will return. You've
+v23,Java,Pt-gPG9LOV8,1874.88,1878.48,00:31:14,00:31:18,"reached the end, and if you have a test"
+v23,Java,Pt-gPG9LOV8,1876.56,1880.08,00:31:16,00:31:20,"coming up, good luck. Tell me in the"
+v23,Java,Pt-gPG9LOV8,1878.48,1882.0,00:31:18,00:31:22,comments if there was something in the
+v23,Java,Pt-gPG9LOV8,1880.08,1883.6,00:31:20,00:31:23,video that you found useful. Check out
+v23,Java,Pt-gPG9LOV8,1882.0,1885.68,00:31:22,00:31:25,the other resources in the video
+v23,Java,Pt-gPG9LOV8,1883.6,1889.0,00:31:23,00:31:29,description and on the channel. And I'll
+v23,Java,Pt-gPG9LOV8,1885.68,1889.0,00:31:25,00:31:29,see you soon.

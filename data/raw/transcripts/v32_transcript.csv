@@ -1,0 +1,252 @@
+﻿video_id,subject,youtube_id,start_sec,end_sec,start_time,end_time,text
+v32,C++,nrNdn6lSQwE,0.54,5.82,00:00:00,00:00:05,hello everyone welcome to today's class
+v32,C++,nrNdn6lSQwE,3.78,8.04,00:00:03,00:00:08,in today's class we are looking at
+v32,C++,nrNdn6lSQwE,5.82,10.38,00:00:05,00:00:10,variables and data types
+v32,C++,nrNdn6lSQwE,8.04,13.2,00:00:08,00:00:13,by the end of the class we should
+v32,C++,nrNdn6lSQwE,10.38,15.24,00:00:10,00:00:15,understand what variables are we also
+v32,C++,nrNdn6lSQwE,13.2,16.2,00:00:13,00:00:16,look at the different data types that we
+v32,C++,nrNdn6lSQwE,15.24,19.62,00:00:15,00:00:19,have
+v32,C++,nrNdn6lSQwE,16.2,25.28,00:00:16,00:00:25,we will look at how to declare variables
+v32,C++,nrNdn6lSQwE,19.62,25.28,00:00:19,00:00:25,and how to assign values so that
+v32,C++,nrNdn6lSQwE,25.98,32.1,00:00:25,00:00:32,let's find out what a variable is
+v32,C++,nrNdn6lSQwE,28.92,35.46,00:00:28,00:00:35,a variable is simply defined as a
+v32,C++,nrNdn6lSQwE,32.1,37.56,00:00:32,00:00:37,portion of memory to store value what
+v32,C++,nrNdn6lSQwE,35.46,39.78,00:00:35,00:00:39,does this event mean
+v32,C++,nrNdn6lSQwE,37.56,41.94,00:00:37,00:00:41,think of it this way
+v32,C++,nrNdn6lSQwE,39.78,44.28,00:00:39,00:00:44,as a computer programmer
+v32,C++,nrNdn6lSQwE,41.94,46.74,00:00:41,00:00:46,you will mainly be doing dealing with
+v32,C++,nrNdn6lSQwE,44.28,49.62,00:00:44,00:00:49,data it's either you are asking your
+v32,C++,nrNdn6lSQwE,46.74,52.44,00:00:46,00:00:52,users to provide data for you or you are
+v32,C++,nrNdn6lSQwE,49.62,54.6,00:00:49,00:00:54,generating some data from the
+v32,C++,nrNdn6lSQwE,52.44,57.42,00:00:52,00:00:57,manipulations that you do
+v32,C++,nrNdn6lSQwE,54.6,59.58,00:00:54,00:00:59,when you receive this data it is very
+v32,C++,nrNdn6lSQwE,57.42,62.22,00:00:57,00:01:02,important that you store it somewhere
+v32,C++,nrNdn6lSQwE,59.58,64.14,00:00:59,00:01:04,for future use
+v32,C++,nrNdn6lSQwE,62.22,67.74,00:01:02,00:01:07,how do you do this
+v32,C++,nrNdn6lSQwE,64.14,70.5,00:01:04,00:01:10,you can request your computer to save
+v32,C++,nrNdn6lSQwE,67.74,73.14,00:01:07,00:01:13,some portion of its memory
+v32,C++,nrNdn6lSQwE,70.5,74.76,00:01:10,00:01:14,and you where you would use as a
+v32,C++,nrNdn6lSQwE,73.14,77.82,00:01:13,00:01:17,container
+v32,C++,nrNdn6lSQwE,74.76,78.72,00:01:14,00:01:18,this container that is used to store the
+v32,C++,nrNdn6lSQwE,77.82,81.24,00:01:17,00:01:21,value
+v32,C++,nrNdn6lSQwE,78.72,82.92,00:01:18,00:01:22,is what we are referring to as a
+v32,C++,nrNdn6lSQwE,81.24,85.2,00:01:21,00:01:25,variable
+v32,C++,nrNdn6lSQwE,82.92,87.72,00:01:22,00:01:27,let us think of it this way
+v32,C++,nrNdn6lSQwE,85.2,89.04,00:01:25,00:01:29,assuming that you have sugar and salt in
+v32,C++,nrNdn6lSQwE,87.72,92.04,00:01:27,00:01:32,your kitchen
+v32,C++,nrNdn6lSQwE,89.04,95.28,00:01:29,00:01:35,then you have containers
+v32,C++,nrNdn6lSQwE,92.04,96.42,00:01:32,00:01:36,that are similar to store this sugar and
+v32,C++,nrNdn6lSQwE,95.28,98.22,00:01:35,00:01:38,salt
+v32,C++,nrNdn6lSQwE,96.42,101.34,00:01:36,00:01:41,what do you think will happen
+v32,C++,nrNdn6lSQwE,98.22,102.6,00:01:38,00:01:42,most likely after pouring them into the
+v32,C++,nrNdn6lSQwE,101.34,105.54,00:01:41,00:01:45,container
+v32,C++,nrNdn6lSQwE,102.6,107.64,00:01:42,00:01:47,once you come back to it again you will
+v32,C++,nrNdn6lSQwE,105.54,109.02,00:01:45,00:01:49,be confused which one is sugar and which
+v32,C++,nrNdn6lSQwE,107.64,111.48,00:01:47,00:01:51,one the shortest
+v32,C++,nrNdn6lSQwE,109.02,114.3,00:01:49,00:01:54,how would you usually solve this
+v32,C++,nrNdn6lSQwE,111.48,116.46,00:01:51,00:01:56,by putting a label around the container
+v32,C++,nrNdn6lSQwE,114.3,118.14,00:01:54,00:01:58,so that you know which is sugar and then
+v32,C++,nrNdn6lSQwE,116.46,121.5,00:01:56,00:02:01,which is salt
+v32,C++,nrNdn6lSQwE,118.14,124.62,00:01:58,00:02:04,same idea is used in programming
+v32,C++,nrNdn6lSQwE,121.5,126.24,00:02:01,00:02:06,because different programs have
+v32,C++,nrNdn6lSQwE,124.62,130.32,00:02:04,00:02:10,requested a computer
+v32,C++,nrNdn6lSQwE,126.24,133.2,00:02:06,00:02:13,to save portion of memory for them
+v32,C++,nrNdn6lSQwE,130.32,135.9,00:02:10,00:02:15,the computer may also be confused when
+v32,C++,nrNdn6lSQwE,133.2,138.48,00:02:13,00:02:18,you ask for your data back which data
+v32,C++,nrNdn6lSQwE,135.9,141.3,00:02:15,00:02:21,are you referring to which data in which
+v32,C++,nrNdn6lSQwE,138.48,143.52,00:02:18,00:02:23,container for you to be is for you to
+v32,C++,nrNdn6lSQwE,141.3,144.66,00:02:21,00:02:24,easily identify which container you are
+v32,C++,nrNdn6lSQwE,143.52,149.16,00:02:23,00:02:29,talking about
+v32,C++,nrNdn6lSQwE,144.66,150.54,00:02:24,00:02:30,you need to give each container a name
+v32,C++,nrNdn6lSQwE,149.16,152.82,00:02:29,00:02:32,so
+v32,C++,nrNdn6lSQwE,150.54,155.58,00:02:30,00:02:35,the container is what we are referring
+v32,C++,nrNdn6lSQwE,152.82,157.56,00:02:32,00:02:37,to as a variable the name that is given
+v32,C++,nrNdn6lSQwE,155.58,160.62,00:02:35,00:02:40,to the container or the label that you
+v32,C++,nrNdn6lSQwE,157.56,163.14,00:02:37,00:02:43,put around the container is what we are
+v32,C++,nrNdn6lSQwE,160.62,164.34,00:02:40,00:02:44,referring to as a variable name or an
+v32,C++,nrNdn6lSQwE,163.14,166.44,00:02:43,00:02:46,identifier
+v32,C++,nrNdn6lSQwE,164.34,169.26,00:02:44,00:02:49,so if you hear of an identifier variable
+v32,C++,nrNdn6lSQwE,166.44,171.48,00:02:46,00:02:51,name it's simply the name or the label
+v32,C++,nrNdn6lSQwE,169.26,174.36,00:02:49,00:02:54,that you put around your content your
+v32,C++,nrNdn6lSQwE,171.48,178.16,00:02:51,00:02:58,container so that you can easily refer
+v32,C++,nrNdn6lSQwE,174.36,178.16,00:02:54,00:02:58,to them when you need it
+v32,C++,nrNdn6lSQwE,179.04,184.26,00:02:59,00:03:04,when you are choosing your variable
+v32,C++,nrNdn6lSQwE,181.32,188.28,00:03:01,00:03:08,names your variable names
+v32,C++,nrNdn6lSQwE,184.26,191.64,00:03:04,00:03:11,can be a sequence of one or more letters
+v32,C++,nrNdn6lSQwE,188.28,194.58,00:03:08,00:03:14,digits or underscore
+v32,C++,nrNdn6lSQwE,191.64,198.6,00:03:11,00:03:18,what this means is that you cannot use
+v32,C++,nrNdn6lSQwE,194.58,201.78,00:03:14,00:03:21,anything outside of what has been listed
+v32,C++,nrNdn6lSQwE,198.6,203.76,00:03:18,00:03:23,your variable names should start with a
+v32,C++,nrNdn6lSQwE,201.78,207.18,00:03:21,00:03:27,letter
+v32,C++,nrNdn6lSQwE,203.76,210.78,00:03:23,00:03:30,then it can be followed by a number or
+v32,C++,nrNdn6lSQwE,207.18,212.46,00:03:27,00:03:32,an underscore or even another letter
+v32,C++,nrNdn6lSQwE,210.78,214.62,00:03:30,00:03:34,variable names
+v32,C++,nrNdn6lSQwE,212.46,219.14,00:03:32,00:03:39,should not
+v32,C++,nrNdn6lSQwE,214.62,221.4,00:03:34,00:03:41,be this be similar to keywords
+v32,C++,nrNdn6lSQwE,219.14,225.3,00:03:39,00:03:45,keywords are just words that have
+v32,C++,nrNdn6lSQwE,221.4,227.16,00:03:41,00:03:47,special meanings to the computer let's
+v32,C++,nrNdn6lSQwE,225.3,229.38,00:03:45,00:03:49,think of it this way
+v32,C++,nrNdn6lSQwE,227.16,231.12,00:03:47,00:03:51,let's say you just made money
+v32,C++,nrNdn6lSQwE,229.38,232.68,00:03:49,00:03:52,you bought
+v32,C++,nrNdn6lSQwE,231.12,234.9,00:03:51,00:03:54,your dream car
+v32,C++,nrNdn6lSQwE,232.68,240.24,00:03:52,00:04:00,and then you visited the licensing
+v32,C++,nrNdn6lSQwE,234.9,241.8,00:03:54,00:04:01,office and said you wanted gp1
+v32,C++,nrNdn6lSQwE,240.24,243.48,00:04:00,00:04:03,do you think you'll be giving this
+v32,C++,nrNdn6lSQwE,241.8,249.18,00:04:01,00:04:09,number no
+v32,C++,nrNdn6lSQwE,243.48,250.5,00:04:03,00:04:10,why because in Ghana gp1 is reserved for
+v32,C++,nrNdn6lSQwE,249.18,254.1,00:04:09,00:04:14,Ghana Police
+v32,C++,nrNdn6lSQwE,250.5,257.34,00:04:10,00:04:17,so no matter how much money you have gp1
+v32,C++,nrNdn6lSQwE,254.1,259.44,00:04:14,00:04:19,would not be given to you similar idea
+v32,C++,nrNdn6lSQwE,257.34,261.54,00:04:17,00:04:21,when it comes to programming there are
+v32,C++,nrNdn6lSQwE,259.44,263.94,00:04:19,00:04:23,some words that have special meanings to
+v32,C++,nrNdn6lSQwE,261.54,269.3,00:04:21,00:04:29,the compiler and so you cannot select
+v32,C++,nrNdn6lSQwE,263.94,269.3,00:04:23,00:04:29,them as your variable name or identifier
+v32,C++,nrNdn6lSQwE,270.12,275.64,00:04:30,00:04:35,now let's talk about data types
+v32,C++,nrNdn6lSQwE,273.24,278.28,00:04:33,00:04:38,what is a data type
+v32,C++,nrNdn6lSQwE,275.64,282.9,00:04:35,00:04:42,think of it this way
+v32,C++,nrNdn6lSQwE,278.28,285.72,00:04:38,00:04:45,the data that you use as a programmer
+v32,C++,nrNdn6lSQwE,282.9,288.54,00:04:42,00:04:48,consists of different categories
+v32,C++,nrNdn6lSQwE,285.72,291.18,00:04:45,00:04:51,some of them are numbers some of them
+v32,C++,nrNdn6lSQwE,288.54,294.54,00:04:48,00:04:54,are characters some of them are Boolean
+v32,C++,nrNdn6lSQwE,291.18,297.48,00:04:51,00:04:57,values and even within the numbers some
+v32,C++,nrNdn6lSQwE,294.54,300.72,00:04:54,00:05:00,are whole numbers whilst others are
+v32,C++,nrNdn6lSQwE,297.48,302.76,00:04:57,00:05:02,numbers with decimal points behind them
+v32,C++,nrNdn6lSQwE,300.72,305.34,00:05:00,00:05:05,so because there are different
+v32,C++,nrNdn6lSQwE,302.76,307.32,00:05:02,00:05:07,categories that you need to deal with
+v32,C++,nrNdn6lSQwE,305.34,309.98,00:05:05,00:05:09,you need to find the appropriate
+v32,C++,nrNdn6lSQwE,307.32,309.98,00:05:07,00:05:09,container
+v32,C++,nrNdn6lSQwE,310.08,315.84,00:05:10,00:05:15,let's discuss a scenario
+v32,C++,nrNdn6lSQwE,313.74,318.66,00:05:13,00:05:18,assuming you want to go and buy a
+v32,C++,nrNdn6lSQwE,315.84,320.76,00:05:15,00:05:20,container to store an item
+v32,C++,nrNdn6lSQwE,318.66,323.1,00:05:18,00:05:23,what would you first think of
+v32,C++,nrNdn6lSQwE,320.76,325.86,00:05:20,00:05:25,you think of the kind of item that you
+v32,C++,nrNdn6lSQwE,323.1,329.04,00:05:23,00:05:29,are going to store so that you can buy
+v32,C++,nrNdn6lSQwE,325.86,331.38,00:05:25,00:05:31,the most appropriate container if you
+v32,C++,nrNdn6lSQwE,329.04,334.26,00:05:29,00:05:34,are going to store onions you buy a
+v32,C++,nrNdn6lSQwE,331.38,336.42,00:05:31,00:05:36,basket but if you want to store water
+v32,C++,nrNdn6lSQwE,334.26,337.56,00:05:34,00:05:37,you buy a bottle
+v32,C++,nrNdn6lSQwE,336.42,340.68,00:05:36,00:05:40,okay
+v32,C++,nrNdn6lSQwE,337.56,343.5,00:05:37,00:05:43,now let's come back to programming
+v32,C++,nrNdn6lSQwE,340.68,347.16,00:05:40,00:05:47,because you have different categories of
+v32,C++,nrNdn6lSQwE,343.5,350.76,00:05:43,00:05:50,data you need to be able to inform your
+v32,C++,nrNdn6lSQwE,347.16,352.8,00:05:47,00:05:52,compiler what kind of data you intend to
+v32,C++,nrNdn6lSQwE,350.76,355.68,00:05:50,00:05:55,store in your variable
+v32,C++,nrNdn6lSQwE,352.8,356.88,00:05:52,00:05:56,this would let the compiler be able to
+v32,C++,nrNdn6lSQwE,355.68,360.3,00:05:55,00:06:00,select
+v32,C++,nrNdn6lSQwE,356.88,361.74,00:05:56,00:06:01,the right type of container for you
+v32,C++,nrNdn6lSQwE,360.3,364.26,00:06:00,00:06:04,so that
+v32,C++,nrNdn6lSQwE,361.74,367.08,00:06:01,00:06:07,if you are in if you intend for instance
+v32,C++,nrNdn6lSQwE,364.26,369.74,00:06:04,00:06:09,to store water your compiler will not
+v32,C++,nrNdn6lSQwE,367.08,369.74,00:06:07,00:06:09,give you a basket
+v32,C++,nrNdn6lSQwE,371.88,378.36,00:06:11,00:06:18,let's talk about integer data types
+v32,C++,nrNdn6lSQwE,375.56,379.56,00:06:15,00:06:19,interested data types are used to handle
+v32,C++,nrNdn6lSQwE,378.36,381.78,00:06:18,00:06:21,numbers
+v32,C++,nrNdn6lSQwE,379.56,384.3,00:06:19,00:06:24,whole numbers
+v32,C++,nrNdn6lSQwE,381.78,385.98,00:06:21,00:06:25,there are different subcategories of the
+v32,C++,nrNdn6lSQwE,384.3,389.16,00:06:24,00:06:29,integer deadline
+v32,C++,nrNdn6lSQwE,385.98,391.8,00:06:25,00:06:31,typically you will use ends
+v32,C++,nrNdn6lSQwE,389.16,394.8,00:06:29,00:06:34,to represent integer values
+v32,C++,nrNdn6lSQwE,391.8,397.2,00:06:31,00:06:37,but there is short short is usually
+v32,C++,nrNdn6lSQwE,394.8,400.56,00:06:34,00:06:40,smaller than eight
+v32,C++,nrNdn6lSQwE,397.2,405.38,00:06:37,00:06:45,then we have an unsigned
+v32,C++,nrNdn6lSQwE,400.56,408.42,00:06:40,00:06:48,ends on side ends is used for
+v32,C++,nrNdn6lSQwE,405.38,412.32,00:06:45,00:06:52,non-negative whole numbers
+v32,C++,nrNdn6lSQwE,408.42,415.32,00:06:48,00:06:55,so whenever you use on sign in it means
+v32,C++,nrNdn6lSQwE,412.32,417.36,00:06:52,00:06:57,that nobody can use a negative whole
+v32,C++,nrNdn6lSQwE,415.32,419.76,00:06:55,00:06:59,number it's either positive whole
+v32,C++,nrNdn6lSQwE,417.36,424.68,00:06:57,00:07:04,numbers or zero
+v32,C++,nrNdn6lSQwE,419.76,427.74,00:06:59,00:07:07,long is bigger than int
+v32,C++,nrNdn6lSQwE,424.68,428.82,00:07:04,00:07:08,in some places it takes up to about 8
+v32,C++,nrNdn6lSQwE,427.74,432.48,00:07:07,00:07:12,bytes
+v32,C++,nrNdn6lSQwE,428.82,434.52,00:07:08,00:07:14,then we have the unsigned long just as
+v32,C++,nrNdn6lSQwE,432.48,438.0,00:07:12,00:07:18,we saw in the unsigned end
+v32,C++,nrNdn6lSQwE,434.52,440.34,00:07:14,00:07:20,these are very large values but they can
+v32,C++,nrNdn6lSQwE,438.0,442.98,00:07:18,00:07:22,only hold positive
+v32,C++,nrNdn6lSQwE,440.34,446.88,00:07:20,00:07:26,values
+v32,C++,nrNdn6lSQwE,442.98,451.2,00:07:22,00:07:31,in order for you to declare a variable
+v32,C++,nrNdn6lSQwE,446.88,452.4,00:07:26,00:07:32,as an integer what you need to do is to
+v32,C++,nrNdn6lSQwE,451.2,454.92,00:07:31,00:07:34,state
+v32,C++,nrNdn6lSQwE,452.4,457.2,00:07:32,00:07:37,the data type so for instance
+v32,C++,nrNdn6lSQwE,454.92,461.16,00:07:34,00:07:41,I will type ins
+v32,C++,nrNdn6lSQwE,457.2,462.6,00:07:37,00:07:42,followed by the name of the variable so
+v32,C++,nrNdn6lSQwE,461.16,464.16,00:07:41,00:07:44,in this case
+v32,C++,nrNdn6lSQwE,462.6,467.04,00:07:42,00:07:47,ain't value
+v32,C++,nrNdn6lSQwE,464.16,468.3,00:07:44,00:07:48,is the name of the variable
+v32,C++,nrNdn6lSQwE,467.04,469.86,00:07:47,00:07:49,and
+v32,C++,nrNdn6lSQwE,468.3,472.68,00:07:48,00:07:52,after
+v32,C++,nrNdn6lSQwE,469.86,476.28,00:07:49,00:07:56,declaring the variable you can also
+v32,C++,nrNdn6lSQwE,472.68,478.8,00:07:52,00:07:58,assign a value to it how do you assign a
+v32,C++,nrNdn6lSQwE,476.28,481.74,00:07:56,00:08:01,value to it by bringing the assignment
+v32,C++,nrNdn6lSQwE,478.8,483.66,00:07:58,00:08:03,to the operator or the equal sign and
+v32,C++,nrNdn6lSQwE,481.74,487.2,00:08:01,00:08:07,then the value that you want to assign
+v32,C++,nrNdn6lSQwE,483.66,490.02,00:08:03,00:08:10,to it so in simple terms if you want to
+v32,C++,nrNdn6lSQwE,487.2,493.68,00:08:07,00:08:13,declare a variable use the name of the
+v32,C++,nrNdn6lSQwE,490.02,496.56,00:08:10,00:08:16,data type the name of the variable
+v32,C++,nrNdn6lSQwE,493.68,499.08,00:08:13,00:08:19,you can end there or if you want to go
+v32,C++,nrNdn6lSQwE,496.56,502.68,00:08:16,00:08:22,ahead and assign a value to it you bring
+v32,C++,nrNdn6lSQwE,499.08,505.86,00:08:19,00:08:25,the equal sign and then the value
+v32,C++,nrNdn6lSQwE,502.68,509.04,00:08:22,00:08:29,how do you output values in a variable
+v32,C++,nrNdn6lSQwE,505.86,512.52,00:08:25,00:08:32,your output values in a variable using
+v32,C++,nrNdn6lSQwE,509.04,516.48,00:08:29,00:08:36,the C out command so you will see out
+v32,C++,nrNdn6lSQwE,512.52,519.72,00:08:32,00:08:39,and then the insertion operator then the
+v32,C++,nrNdn6lSQwE,516.48,521.88,00:08:36,00:08:41,name of the variable so in this case you
+v32,C++,nrNdn6lSQwE,519.72,523.86,00:08:39,00:08:43,can see that we have
+v32,C++,nrNdn6lSQwE,521.88,526.14,00:08:41,00:08:46,see out
+v32,C++,nrNdn6lSQwE,523.86,528.24,00:08:43,00:08:48,this ends you see here is just a text
+v32,C++,nrNdn6lSQwE,526.14,530.88,00:08:46,00:08:50,and then this is the name of our
+v32,C++,nrNdn6lSQwE,528.24,534.0,00:08:48,00:08:54,variable and this
+v32,C++,nrNdn6lSQwE,530.88,536.3,00:08:50,00:08:56,function here is just to go to a new
+v32,C++,nrNdn6lSQwE,534.0,536.3,00:08:54,00:08:56,line
+v32,C++,nrNdn6lSQwE,537.24,542.04,00:08:57,00:09:02,all right at this point let's talk about
+v32,C++,nrNdn6lSQwE,539.52,545.22,00:08:59,00:09:05,floating Point data type
+v32,C++,nrNdn6lSQwE,542.04,547.5,00:09:02,00:09:07,floating Point data type I use to
+v32,C++,nrNdn6lSQwE,545.22,549.3,00:09:05,00:09:09,represent numbers with decimal points
+v32,C++,nrNdn6lSQwE,547.5,551.28,00:09:07,00:09:11,behind them
+v32,C++,nrNdn6lSQwE,549.3,554.28,00:09:09,00:09:14,we have floats
+v32,C++,nrNdn6lSQwE,551.28,556.88,00:09:11,00:09:16,double and long double
+v32,C++,nrNdn6lSQwE,554.28,559.56,00:09:14,00:09:19,any of these can be used to represent
+v32,C++,nrNdn6lSQwE,556.88,561.5,00:09:16,00:09:21,floating Point numbers or numbers with
+v32,C++,nrNdn6lSQwE,559.56,564.36,00:09:19,00:09:24,data with
+v32,C++,nrNdn6lSQwE,561.5,566.28,00:09:21,00:09:26,decimals behind them
+v32,C++,nrNdn6lSQwE,564.36,568.68,00:09:24,00:09:28,what is the difference between these
+v32,C++,nrNdn6lSQwE,566.28,573.72,00:09:26,00:09:33,three categories
+v32,C++,nrNdn6lSQwE,568.68,577.32,00:09:28,00:09:37,floats is used to store very small
+v32,C++,nrNdn6lSQwE,573.72,579.6,00:09:33,00:09:39,decimal numbers so for instance if I
+v32,C++,nrNdn6lSQwE,577.32,581.46,00:09:37,00:09:41,want to store a number like the score of
+v32,C++,nrNdn6lSQwE,579.6,583.86,00:09:39,00:09:43,a student
+v32,C++,nrNdn6lSQwE,581.46,585.0,00:09:41,00:09:45,it is possible to have decimal points
+v32,C++,nrNdn6lSQwE,583.86,588.06,00:09:43,00:09:48,behind it
+v32,C++,nrNdn6lSQwE,585.0,591.66,00:09:45,00:09:51,but this will not be too huge
+v32,C++,nrNdn6lSQwE,588.06,594.66,00:09:48,00:09:54,right and so I can use float but when it
+v32,C++,nrNdn6lSQwE,591.66,598.2,00:09:51,00:09:58,comes to numbers like your bank balance
+v32,C++,nrNdn6lSQwE,594.66,599.76,00:09:54,00:09:59,bank balance can be really huge
+v32,C++,nrNdn6lSQwE,598.2,603.3,00:09:58,00:10:03,and so
+v32,C++,nrNdn6lSQwE,599.76,604.44,00:09:59,00:10:04,I can either use a double or a long
+v32,C++,nrNdn6lSQwE,603.3,606.12,00:10:03,00:10:06,double
+v32,C++,nrNdn6lSQwE,604.44,607.74,00:10:04,00:10:07,to say that
+v32,C++,nrNdn6lSQwE,606.12,610.44,00:10:06,00:10:10,again
+v32,C++,nrNdn6lSQwE,607.74,612.48,00:10:07,00:10:12,in the slide that you see we are
+v32,C++,nrNdn6lSQwE,610.44,615.18,00:10:10,00:10:15,declaring the variable
+v32,C++,nrNdn6lSQwE,612.48,617.04,00:10:12,00:10:17,by stating the data type and then the
+v32,C++,nrNdn6lSQwE,615.18,618.78,00:10:15,00:10:18,name of the variable
+v32,C++,nrNdn6lSQwE,617.04,620.88,00:10:17,00:10:20,and then
+v32,C++,nrNdn6lSQwE,618.78,625.5,00:10:18,00:10:25,what you see the code you see at the
+v32,C++,nrNdn6lSQwE,620.88,629.46,00:10:20,00:10:29,bottom here just depicts how we are
+v32,C++,nrNdn6lSQwE,625.5,632.18,00:10:25,00:10:32,displaying the value that we assigned to
+v32,C++,nrNdn6lSQwE,629.46,632.18,00:10:29,00:10:32,the variable
+v32,C++,nrNdn6lSQwE,633.3,641.82,00:10:33,00:10:41,character data types are
+v32,C++,nrNdn6lSQwE,637.7,643.62,00:10:37,00:10:43,data types that represent single
+v32,C++,nrNdn6lSQwE,641.82,646.98,00:10:41,00:10:46,characters
+v32,C++,nrNdn6lSQwE,643.62,649.56,00:10:43,00:10:49,so for instance if you have any single
+v32,C++,nrNdn6lSQwE,646.98,651.9,00:10:46,00:10:51,character that is any character that you
+v32,C++,nrNdn6lSQwE,649.56,655.08,00:10:49,00:10:55,see on the keyboard just a single
+v32,C++,nrNdn6lSQwE,651.9,658.56,00:10:51,00:10:58,character and you want to store then you
+v32,C++,nrNdn6lSQwE,655.08,661.1,00:10:55,00:11:01,have to use a variable of the data type
+v32,C++,nrNdn6lSQwE,658.56,661.1,00:10:58,00:11:01,car
+v32,C++,nrNdn6lSQwE,661.32,668.4,00:11:01,00:11:08,Boolean data types are used to hold
+v32,C++,nrNdn6lSQwE,664.74,673.26,00:11:04,00:11:13,true or false they can only hold two
+v32,C++,nrNdn6lSQwE,668.4,676.2,00:11:08,00:11:16,possible values either through or false
+v32,C++,nrNdn6lSQwE,673.26,680.34,00:11:13,00:11:20,so this brings us to the end of today's
+v32,C++,nrNdn6lSQwE,676.2,682.32,00:11:16,00:11:22,class do not forget to subscribe
+v32,C++,nrNdn6lSQwE,680.34,684.86,00:11:20,00:11:24,follow this channel
+v32,C++,nrNdn6lSQwE,682.32,684.86,00:11:22,00:11:24,thank you

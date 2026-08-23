@@ -1,0 +1,170 @@
+﻿video_id,subject,youtube_id,start_sec,end_sec,start_time,end_time,text
+v35,C++,LTXFr_RJE6M,2.76,7.64,00:00:02,00:00:07,in this video we are going to learn
+v35,C++,LTXFr_RJE6M,4.72,10.4,00:00:04,00:00:10,about references in
+v35,C++,LTXFr_RJE6M,7.64,13.24,00:00:07,00:00:13,C++ a reference may be defined as an
+v35,C++,LTXFr_RJE6M,10.4,16.12,00:00:10,00:00:16,alias or an alternative name for an
+v35,C++,LTXFr_RJE6M,13.24,19.72,00:00:13,00:00:19,existing variable it can be used to
+v35,C++,LTXFr_RJE6M,16.12,21.24,00:00:16,00:00:21,access and modify another variable let's
+v35,C++,LTXFr_RJE6M,19.72,24.16,00:00:19,00:00:24,understand its
+v35,C++,LTXFr_RJE6M,21.24,27.0,00:00:21,00:00:27,syntax here is the syntax of Declaration
+v35,C++,LTXFr_RJE6M,24.16,29.44,00:00:24,00:00:29,of a reference as you can see here first
+v35,C++,LTXFr_RJE6M,27.0,31.36,00:00:27,00:00:31,of all we mention the data type name
+v35,C++,LTXFr_RJE6M,29.44,34.08,00:00:29,00:00:34,then we men mention the reference name
+v35,C++,LTXFr_RJE6M,31.36,36.8,00:00:31,00:00:36,which must be preceded by an ENT sign or
+v35,C++,LTXFr_RJE6M,34.08,39.48,00:00:34,00:00:39,an address of operator and at the time
+v35,C++,LTXFr_RJE6M,36.8,41.56,00:00:36,00:00:41,of Declaration itself the reference name
+v35,C++,LTXFr_RJE6M,39.48,44.76,00:00:39,00:00:44,must be initialized with the name of the
+v35,C++,LTXFr_RJE6M,41.56,47.56,00:00:41,00:00:47,variable for which it is acting as a
+v35,C++,LTXFr_RJE6M,44.76,50.04,00:00:44,00:00:50,reference in this program I'm going to
+v35,C++,LTXFr_RJE6M,47.56,53.12,00:00:47,00:00:53,show you how to create a reference for a
+v35,C++,LTXFr_RJE6M,50.04,55.68,00:00:50,00:00:55,variable and work with it so first of
+v35,C++,LTXFr_RJE6M,53.12,59.16,00:00:53,00:00:59,all I'm going to create a floating Point
+v35,C++,LTXFr_RJE6M,55.68,63.76,00:00:55,00:01:03,type variable let's call it as total and
+v35,C++,LTXFr_RJE6M,59.16,63.76,00:00:59,00:01:03,assign it some value may be
+v35,C++,LTXFr_RJE6M,63.88,70.28,00:01:03,00:01:10,100.9 in The Next Step I'm going to
+v35,C++,LTXFr_RJE6M,66.88,72.4,00:01:06,00:01:12,create a reference for this variable so
+v35,C++,LTXFr_RJE6M,70.28,75.64,00:01:10,00:01:15,the data type should be the same which
+v35,C++,LTXFr_RJE6M,72.4,78.16,00:01:12,00:01:18,is float then the name of the reference
+v35,C++,LTXFr_RJE6M,75.64,80.64,00:01:15,00:01:20,let's say it is sum but it is a
+v35,C++,LTXFr_RJE6M,78.16,84.04,00:01:18,00:01:24,reference variable so its name must be
+v35,C++,LTXFr_RJE6M,80.64,87.48,00:01:20,00:01:27,preceded by an address of operator now
+v35,C++,LTXFr_RJE6M,84.04,89.48,00:01:24,00:01:29,we can type sum and a reference variable
+v35,C++,LTXFr_RJE6M,87.48,90.76,00:01:27,00:01:30,must be initialized at the time of
+v35,C++,LTXFr_RJE6M,89.48,92.76,00:01:29,00:01:32,Declaration
+v35,C++,LTXFr_RJE6M,90.76,95.52,00:01:30,00:01:35,so here we write
+v35,C++,LTXFr_RJE6M,92.76,98.92,00:01:32,00:01:38,total and this is how we declare and
+v35,C++,LTXFr_RJE6M,95.52,102.44,00:01:35,00:01:42,initialize it in single step after this
+v35,C++,LTXFr_RJE6M,98.92,108.04,00:01:38,00:01:48,I'm going to print the values of sum and
+v35,C++,LTXFr_RJE6M,102.44,111.84,00:01:42,00:01:51,total so first of all total is equal to
+v35,C++,LTXFr_RJE6M,108.04,115.64,00:01:48,00:01:55,total and similarly I'm going to print
+v35,C++,LTXFr_RJE6M,111.84,117.2,00:01:51,00:01:57,the value of sum as sum equal to name of
+v35,C++,LTXFr_RJE6M,115.64,120.8,00:01:55,00:02:00,the variable
+v35,C++,LTXFr_RJE6M,117.2,123.32,00:01:57,00:02:03,sum our program is already saved so
+v35,C++,LTXFr_RJE6M,120.8,123.32,00:02:00,00:02:03,let's run
+v35,C++,LTXFr_RJE6M,124.6,128.72,00:02:04,00:02:08,it and here you can see total is equal
+v35,C++,LTXFr_RJE6M,127.56,131.72,00:02:07,00:02:11,to
+v35,C++,LTXFr_RJE6M,128.72,134.32,00:02:08,00:02:14,100.9 and similarly sum is equal to
+v35,C++,LTXFr_RJE6M,131.72,137.36,00:02:11,00:02:17,100.9 so we can clearly see that
+v35,C++,LTXFr_RJE6M,134.32,140.8,00:02:14,00:02:20,variable sum is a reference for variable
+v35,C++,LTXFr_RJE6M,137.36,141.88,00:02:17,00:02:21,total now let's make some change to our
+v35,C++,LTXFr_RJE6M,140.8,146.8,00:02:20,00:02:26,variable
+v35,C++,LTXFr_RJE6M,141.88,151.32,00:02:21,00:02:31,total let's say I change the value of
+v35,C++,LTXFr_RJE6M,146.8,155.56,00:02:26,00:02:35,total as total Plus
+v35,C++,LTXFr_RJE6M,151.32,158.16,00:02:31,00:02:38,10 and in The Next Step once again I'm
+v35,C++,LTXFr_RJE6M,155.56,163.24,00:02:35,00:02:43,going to print these
+v35,C++,LTXFr_RJE6M,158.16,166.32,00:02:38,00:02:46,values so here I will type new Total and
+v35,C++,LTXFr_RJE6M,163.24,168.48,00:02:43,00:02:48,new sum let's see if the sum value
+v35,C++,LTXFr_RJE6M,166.32,171.08,00:02:46,00:02:51,Remains the Same or it is also changed
+v35,C++,LTXFr_RJE6M,168.48,171.08,00:02:48,00:02:51,along with
+v35,C++,LTXFr_RJE6M,171.16,178.68,00:02:51,00:02:58,total so as we execute it we can see
+v35,C++,LTXFr_RJE6M,176.08,183.2,00:02:56,00:03:03,that the new Total becomes
+v35,C++,LTXFr_RJE6M,178.68,187.72,00:02:58,00:03:07,11.9 and and similarly new sum is also
+v35,C++,LTXFr_RJE6M,183.2,187.72,00:03:03,00:03:07,11.9 with just one change in
+v35,C++,LTXFr_RJE6M,187.8,193.44,00:03:07,00:03:13,total if you make changes to the sum
+v35,C++,LTXFr_RJE6M,190.8,195.64,00:03:10,00:03:15,variable itself let's say sum is equal
+v35,C++,LTXFr_RJE6M,193.44,198.48,00:03:13,00:03:18,to
+v35,C++,LTXFr_RJE6M,195.64,201.4,00:03:15,00:03:21,0.0 then what would be the value of
+v35,C++,LTXFr_RJE6M,198.48,204.04,00:03:18,00:03:24,total and sum well obviously sum is
+v35,C++,LTXFr_RJE6M,201.4,207.4,00:03:21,00:03:27,going to be 0.0 but what about the
+v35,C++,LTXFr_RJE6M,204.04,211.0,00:03:24,00:03:31,variable total let's
+v35,C++,LTXFr_RJE6M,207.4,214.08,00:03:27,00:03:34,see so here new Total is equal to 0 and
+v35,C++,LTXFr_RJE6M,211.0,216.44,00:03:31,00:03:36,new sum is equal to 0 that means both of
+v35,C++,LTXFr_RJE6M,214.08,218.8,00:03:34,00:03:38,these variables have one to one
+v35,C++,LTXFr_RJE6M,216.44,221.28,00:03:36,00:03:41,correspondence if you make any change to
+v35,C++,LTXFr_RJE6M,218.8,224.4,00:03:38,00:03:44,one variable the other variable is
+v35,C++,LTXFr_RJE6M,221.28,227.36,00:03:41,00:03:47,automatically going to get
+v35,C++,LTXFr_RJE6M,224.4,230.6,00:03:44,00:03:50,changed references can also be used with
+v35,C++,LTXFr_RJE6M,227.36,233.16,00:03:47,00:03:53,functions in C++ since they provide an
+v35,C++,LTXFr_RJE6M,230.6,235.92,00:03:50,00:03:55,alternate way to access variables they
+v35,C++,LTXFr_RJE6M,233.16,238.16,00:03:53,00:03:58,are therefore used for passing variables
+v35,C++,LTXFr_RJE6M,235.92,240.76,00:03:55,00:04:00,or even larger data structures as
+v35,C++,LTXFr_RJE6M,238.16,243.92,00:03:58,00:04:03,arguments to functions without creating
+v35,C++,LTXFr_RJE6M,240.76,246.84,00:04:00,00:04:06,copies we have already seen this example
+v35,C++,LTXFr_RJE6M,243.92,248.32,00:04:03,00:04:08,in call by reference method let us study
+v35,C++,LTXFr_RJE6M,246.84,251.08,00:04:06,00:04:11,one more
+v35,C++,LTXFr_RJE6M,248.32,253.4,00:04:08,00:04:13,example in this program I'm going to
+v35,C++,LTXFr_RJE6M,251.08,256.64,00:04:11,00:04:16,show you how to pass an argument by
+v35,C++,LTXFr_RJE6M,253.4,258.8,00:04:13,00:04:18,reference to a function so first of all
+v35,C++,LTXFr_RJE6M,256.64,261.48,00:04:16,00:04:21,we are going to take an integer type
+v35,C++,LTXFr_RJE6M,258.8,264.0,00:04:18,00:04:24,variable then we will pass it to some
+v35,C++,LTXFr_RJE6M,261.48,267.28,00:04:21,00:04:27,function which accepts an integer
+v35,C++,LTXFr_RJE6M,264.0,270.36,00:04:24,00:04:30,reference then increments it and then we
+v35,C++,LTXFr_RJE6M,267.28,274.08,00:04:27,00:04:34,will see how passing by ref reference
+v35,C++,LTXFr_RJE6M,270.36,278.2,00:04:30,00:04:38,affects the original value so our first
+v35,C++,LTXFr_RJE6M,274.08,279.68,00:04:34,00:04:39,step is to create a function here let's
+v35,C++,LTXFr_RJE6M,278.2,282.6,00:04:38,00:04:42,say the name of the function is
+v35,C++,LTXFr_RJE6M,279.68,285.76,00:04:39,00:04:45,increment and its return type is
+v35,C++,LTXFr_RJE6M,282.6,289.48,00:04:42,00:04:49,void so this function will take an
+v35,C++,LTXFr_RJE6M,285.76,291.88,00:04:45,00:04:51,integer reference let's say and num is
+v35,C++,LTXFr_RJE6M,289.48,295.16,00:04:49,00:04:55,the reference and we will simply
+v35,C++,LTXFr_RJE6M,291.88,297.08,00:04:51,00:04:57,increment this num variable by one so
+v35,C++,LTXFr_RJE6M,295.16,299.04,00:04:55,00:04:59,whatever variable is being passed to
+v35,C++,LTXFr_RJE6M,297.08,301.68,00:04:57,00:05:01,this function by reference will get
+v35,C++,LTXFr_RJE6M,299.04,303.96,00:04:59,00:05:03,incremented by 1 that is the goal of
+v35,C++,LTXFr_RJE6M,301.68,306.76,00:05:01,00:05:06,defining this function
+v35,C++,LTXFr_RJE6M,303.96,309.36,00:05:03,00:05:09,increment now coming to the main
+v35,C++,LTXFr_RJE6M,306.76,312.48,00:05:06,00:05:12,function we are going to declare one
+v35,C++,LTXFr_RJE6M,309.36,314.72,00:05:09,00:05:14,variable here let's say a and let's
+v35,C++,LTXFr_RJE6M,312.48,318.16,00:05:12,00:05:18,initialize it with value
+v35,C++,LTXFr_RJE6M,314.72,323.8,00:05:14,00:05:23,10 now I'm going to
+v35,C++,LTXFr_RJE6M,318.16,325.68,00:05:18,00:05:25,print the value of a equal to here we
+v35,C++,LTXFr_RJE6M,323.8,330.6,00:05:23,00:05:30,will type the name
+v35,C++,LTXFr_RJE6M,325.68,333.32,00:05:25,00:05:33,a after this I'm going to call the
+v35,C++,LTXFr_RJE6M,330.6,335.44,00:05:30,00:05:35,function and this is a void type
+v35,C++,LTXFr_RJE6M,333.32,337.8,00:05:33,00:05:37,function so we don't need to assign it
+v35,C++,LTXFr_RJE6M,335.44,341.08,00:05:35,00:05:41,to some other variable we can simply
+v35,C++,LTXFr_RJE6M,337.8,343.6,00:05:37,00:05:43,Call It by passing the name of our
+v35,C++,LTXFr_RJE6M,341.08,348.88,00:05:41,00:05:48,actual variable which is
+v35,C++,LTXFr_RJE6M,343.6,355.2,00:05:43,00:05:55,a and after this once again I'm going to
+v35,C++,LTXFr_RJE6M,348.88,357.24,00:05:48,00:05:57,see the new value of a equal to and then
+v35,C++,LTXFr_RJE6M,355.2,361.56,00:05:55,00:06:01,we will type here
+v35,C++,LTXFr_RJE6M,357.24,363.48,00:05:57,00:06:03,a let's save this program
+v35,C++,LTXFr_RJE6M,361.56,365.24,00:06:01,00:06:05,as
+v35,C++,LTXFr_RJE6M,363.48,366.92,00:06:03,00:06:06,reference
+v35,C++,LTXFr_RJE6M,365.24,370.48,00:06:05,00:06:10,to
+v35,C++,LTXFr_RJE6M,366.92,370.48,00:06:06,00:06:10,save execute
+v35,C++,LTXFr_RJE6M,372.44,379.72,00:06:12,00:06:19,it so here you can see original value of
+v35,C++,LTXFr_RJE6M,375.6,382.72,00:06:15,00:06:22,a is 10 but the new value of a is 11
+v35,C++,LTXFr_RJE6M,379.72,385.72,00:06:19,00:06:25,this variable a has been passed by
+v35,C++,LTXFr_RJE6M,382.72,389.68,00:06:22,00:06:29,reference here in this line we are
+v35,C++,LTXFr_RJE6M,385.72,393.0,00:06:25,00:06:33,actually passing by reference because
+v35,C++,LTXFr_RJE6M,389.68,395.88,00:06:29,00:06:35,when we pass this variable a here its
+v35,C++,LTXFr_RJE6M,393.0,399.08,00:06:33,00:06:39,reference is and num which is defined
+v35,C++,LTXFr_RJE6M,395.88,402.56,00:06:35,00:06:42,inside the function body and once this
+v35,C++,LTXFr_RJE6M,399.08,404.6,00:06:39,00:06:44,reference is incremented that increment
+v35,C++,LTXFr_RJE6M,402.56,406.56,00:06:42,00:06:46,will affect the original value and
+v35,C++,LTXFr_RJE6M,404.6,409.12,00:06:44,00:06:49,therefore the original value is also
+v35,C++,LTXFr_RJE6M,406.56,413.72,00:06:46,00:06:53,incremented hence we got the new value
+v35,C++,LTXFr_RJE6M,409.12,417.0,00:06:49,00:06:57,of a as 11 let me show you once
+v35,C++,LTXFr_RJE6M,413.72,420.32,00:06:53,00:07:00,again so our actual value was 10 and the
+v35,C++,LTXFr_RJE6M,417.0,422.48,00:06:57,00:07:02,new value is 11 after increment in it
+v35,C++,LTXFr_RJE6M,420.32,425.04,00:07:00,00:07:05,through
+v35,C++,LTXFr_RJE6M,422.48,427.16,00:07:02,00:07:07,reference let us understand what is the
+v35,C++,LTXFr_RJE6M,425.04,430.72,00:07:05,00:07:10,difference between a reference and a
+v35,C++,LTXFr_RJE6M,427.16,432.92,00:07:07,00:07:12,pointer a reference by definition means
+v35,C++,LTXFr_RJE6M,430.72,435.72,00:07:10,00:07:15,an alternative name for an existing
+v35,C++,LTXFr_RJE6M,432.92,438.0,00:07:12,00:07:18,variable on the other hand a pointer is
+v35,C++,LTXFr_RJE6M,435.72,440.16,00:07:15,00:07:20,a variable which stores the address of
+v35,C++,LTXFr_RJE6M,438.0,442.52,00:07:18,00:07:22,some existing variable in a
+v35,C++,LTXFr_RJE6M,440.16,445.52,00:07:20,00:07:25,program second point of difference is
+v35,C++,LTXFr_RJE6M,442.52,446.52,00:07:22,00:07:26,that a reference must be initialized
+v35,C++,LTXFr_RJE6M,445.52,449.04,00:07:25,00:07:29,when
+v35,C++,LTXFr_RJE6M,446.52,451.72,00:07:26,00:07:31,declared whereas a pointer can be
+v35,C++,LTXFr_RJE6M,449.04,454.68,00:07:29,00:07:34,initialized ized at any time during the
+v35,C++,LTXFr_RJE6M,451.72,457.88,00:07:31,00:07:37,program third point is that a reference
+v35,C++,LTXFr_RJE6M,454.68,460.0,00:07:34,00:07:40,cannot be null as mentioned earlier at
+v35,C++,LTXFr_RJE6M,457.88,462.08,00:07:37,00:07:42,the time of Declaration itself a
+v35,C++,LTXFr_RJE6M,460.0,464.32,00:07:40,00:07:44,reference must be initialized with the
+v35,C++,LTXFr_RJE6M,462.08,466.68,00:07:42,00:07:46,name of the variable for which it is
+v35,C++,LTXFr_RJE6M,464.32,469.92,00:07:44,00:07:49,acting as a reference or an alternative
+v35,C++,LTXFr_RJE6M,466.68,472.8,00:07:46,00:07:52,name on the other hand a pointer can be
+v35,C++,LTXFr_RJE6M,469.92,475.36,00:07:49,00:07:55,null you may decide to assign it the
+v35,C++,LTXFr_RJE6M,472.8,477.16,00:07:52,00:07:57,address of some other variable later but
+v35,C++,LTXFr_RJE6M,475.36,479.96,00:07:55,00:07:59,for the time being you can keep your
+v35,C++,LTXFr_RJE6M,477.16,482.32,00:07:57,00:08:02,pointer as null last
+v35,C++,LTXFr_RJE6M,479.96,484.64,00:07:59,00:08:04,a reference cannot be reassigned to
+v35,C++,LTXFr_RJE6M,482.32,488.0,00:08:02,00:08:08,reference or to refer to some other
+v35,C++,LTXFr_RJE6M,484.64,490.76,00:08:04,00:08:10,variable once it is initialized on the
+v35,C++,LTXFr_RJE6M,488.0,492.96,00:08:08,00:08:12,other hand a pointer can be reassigned
+v35,C++,LTXFr_RJE6M,490.76,497.52,00:08:10,00:08:17,to point to different variables at
+v35,C++,LTXFr_RJE6M,492.96,497.52,00:08:12,00:08:17,different times during the program

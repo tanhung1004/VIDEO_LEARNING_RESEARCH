@@ -1,0 +1,162 @@
+﻿video_id,subject,youtube_id,start_sec,end_sec,start_time,end_time,text
+v38,C++,X8nYM8wdNRE,0.0,2.52,00:00:00,00:00:02,"Hey, what's up guys. My name is TheCherno"
+v38,C++,X8nYM8wdNRE,2.52,4.4,00:00:02,00:00:04,and welcome back to my c++ series
+v38,C++,X8nYM8wdNRE,4.4,5.64,00:00:04,00:00:05,"Today, we're going to be continuing  on our"
+v38,C++,X8nYM8wdNRE,6.22,8.68,00:00:06,00:00:08,adventure in object-orientated programming and talking about inheritance
+v38,C++,X8nYM8wdNRE,8.68,11.51,00:00:08,00:00:11,"in c++. So, in object oriented programming"
+v38,C++,X8nYM8wdNRE,11.51,14.52,00:00:11,00:00:14,"there's a huge huge huge paradigm, and inheritance between classes"
+v38,C++,X8nYM8wdNRE,14.52,16.12,00:00:14,00:00:16,is one of the fundamental
+v38,C++,X8nYM8wdNRE,16.45,18.12,00:00:16,00:00:18,aspects of it and one of the most
+v38,C++,X8nYM8wdNRE,18.11,21.14,00:00:18,00:00:21,powerful features that we can actually leverage. Inheritance allows us to
+v38,C++,X8nYM8wdNRE,21.14,24.16,00:00:21,00:00:24,have a hierarchy of classes which relate to each other.
+v38,C++,X8nYM8wdNRE,24.16,27.25,00:00:24,00:00:27,"Or in other words, it allows us to have a base class which contains"
+v38,C++,X8nYM8wdNRE,27.25,30.3,00:00:27,00:00:30,common functionality and then it allows us to kind of
+v38,C++,X8nYM8wdNRE,30.3,33.41,00:00:30,00:00:33,branch off from that class and create sub-classes from
+v38,C++,X8nYM8wdNRE,33.41,35.94,00:00:33,00:00:35,that initial parent class. The primary
+v38,C++,X8nYM8wdNRE,35.94,38.73,00:00:35,00:00:38,"reason why this is so, so, useful is because"
+v38,C++,X8nYM8wdNRE,38.73,41.9,00:00:38,00:00:41,it helps us avoid code duplication. Code duplication
+v38,C++,X8nYM8wdNRE,41.95,45.02,00:00:41,00:00:45,refers to whether we have to have the exact same code multiple times
+v38,C++,X8nYM8wdNRE,45.02,47.96,00:00:45,00:00:47,"Doing maybe, slightly, different things"
+v38,C++,X8nYM8wdNRE,47.97,51.01,00:00:47,00:00:51,and other time just exactly the same thing. Instead of us
+v38,C++,X8nYM8wdNRE,51.01,54.04,00:00:51,00:00:54,"repeating ourselves over and over again, we can"
+v38,C++,X8nYM8wdNRE,54.03,57.04,00:00:54,00:00:57,put all of our common functionality between classes
+v38,C++,X8nYM8wdNRE,57.05,60.0,00:00:57,00:00:59,into a parent class. And then simply make sub-classes
+v38,C++,X8nYM8wdNRE,59.99,62.89,00:00:59,00:01:02,from that base class. Which either change the functionality
+v38,C++,X8nYM8wdNRE,62.9,66.01,00:01:02,00:01:06,"in subtle ways, or introduce entirely new functionality."
+v38,C++,X8nYM8wdNRE,66.0,69.19,00:01:06,00:01:09,"But the idea is, inheritance gives us a way to put all"
+v38,C++,X8nYM8wdNRE,69.19,72.17,00:01:09,00:01:12,that common code between a number of classes into
+v38,C++,X8nYM8wdNRE,72.17,75.23,00:01:12,00:01:15,a base class so that we don't have to keep repeating ourselves. Kind of like a template.
+v38,C++,X8nYM8wdNRE,75.22,78.48,00:01:15,00:01:18,"So, let's take a look at how we can actually define that in our source code."
+v38,C++,X8nYM8wdNRE,78.48,81.59,00:01:18,00:01:21,Suppose that I had an entity class and this was going to govern
+v38,C++,X8nYM8wdNRE,81.59,84.64,00:01:21,00:01:24,pretty much every actual entity that I had in my game.
+v38,C++,X8nYM8wdNRE,84.64,87.7,00:01:24,00:01:27,We have a lot of very very specific entities in our
+v38,C++,X8nYM8wdNRE,87.7,90.52,00:01:27,00:01:30,"game. However to some aspect, they will share"
+v38,C++,X8nYM8wdNRE,90.53,93.12,00:01:30,00:01:33,"functionality. For example, perhaps every entity has"
+v38,C++,X8nYM8wdNRE,93.12,96.16,00:01:33,00:01:36,a position inside our game. This might be expressed through
+v38,C++,X8nYM8wdNRE,96.16,99.12,00:01:36,00:01:39,"two floats, for example. So we'll have float x and float y."
+v38,C++,X8nYM8wdNRE,99.12,102.2,00:01:39,00:01:42,"Next, we might want to give every entity  the ability to move."
+v38,C++,X8nYM8wdNRE,102.2,103.2,00:01:42,00:01:43,Perhaps via a movement method.
+v38,C++,X8nYM8wdNRE,103.41,106.47,00:01:43,00:01:46,So we'll take in an xa and a ya being the amount
+v38,C++,X8nYM8wdNRE,106.47,109.43,00:01:46,00:01:49,"that we want to move by. OK, great, so we have got a base entity class."
+v38,C++,X8nYM8wdNRE,109.44,112.64,00:01:49,00:01:52,Which basically says that every single entity we create in our game will have
+v38,C++,X8nYM8wdNRE,112.64,115.51,00:01:52,00:01:55,these traits. Let's go ahead and create a new type of
+v38,C++,X8nYM8wdNRE,115.5,118.42,00:01:55,00:01:58,"entity, for example, player. We'll write our player class,"
+v38,C++,X8nYM8wdNRE,118.42,121.44,00:01:58,00:02:01,for now with no concept of inheritance. So basically if we were doing
+v38,C++,X8nYM8wdNRE,121.44,124.45,00:02:01,00:02:04,this from scratch and we wanted this player to also have
+v38,C++,X8nYM8wdNRE,124.45,127.31,00:02:04,00:02:07,"a position, because it is an entity and it makes sense for it to have"
+v38,C++,X8nYM8wdNRE,127.31,130.4,00:02:07,00:02:10,a position inside  out game. We will also want to get it to be able to
+v38,C++,X8nYM8wdNRE,130.59,133.44,00:02:10,00:02:13,"move, so we would need the ""move"" function carried across."
+v38,C++,X8nYM8wdNRE,133.44,136.24,00:02:13,00:02:16,We would basically end up writing  something that looks very
+v38,C++,X8nYM8wdNRE,136.24,139.17,00:02:16,00:02:19,similar to this (entity function) Maybe this player class has extra data that we wanted to store
+v38,C++,X8nYM8wdNRE,139.16,141.88,00:02:19,00:02:21,"for example, a name or something like that. We would add this."
+v38,C++,X8nYM8wdNRE,141.88,144.91,00:02:21,00:02:24,You can say that these are actually different classes. However
+v38,C++,X8nYM8wdNRE,144.91,147.77,00:02:24,00:02:27,there's quiet a lot of code that's just been copy and pasted and that's
+v38,C++,X8nYM8wdNRE,147.76,150.9,00:02:27,00:02:30,this entire section. So what we could do here is use the power
+v38,C++,X8nYM8wdNRE,150.91,153.97,00:02:30,00:02:33,of inheritance. We could extend this entity class to
+v38,C++,X8nYM8wdNRE,153.97,157.03,00:02:33,00:02:37,create a new type called player and also have it store
+v38,C++,X8nYM8wdNRE,157.03,160.02,00:02:37,00:02:40,new data such as name. As well as provide
+v38,C++,X8nYM8wdNRE,160.01,162.67,00:02:40,00:02:42,"extra functionality, such as a function"
+v38,C++,X8nYM8wdNRE,162.68,165.76,00:02:42,00:02:45,that doesn't exist in the base class. And there we go. So now let's get
+v38,C++,X8nYM8wdNRE,165.75,168.66,00:02:45,00:02:48,player to be a subclass of entity. The way we do that is
+v38,C++,X8nYM8wdNRE,168.66,171.66,00:02:48,00:02:51,"we write a colon, after the type deceleration, here,"
+v38,C++,X8nYM8wdNRE,171.66,174.67,00:02:51,00:02:54,"class player, and then we write ""public entity"""
+v38,C++,X8nYM8wdNRE,174.68,177.75,00:02:54,00:02:57,"OK, so now with this line of code that we've written here, a few things actually"
+v38,C++,X8nYM8wdNRE,177.75,180.72,00:02:57,00:03:00,"happened. The player class now not only has the type ""player"","
+v38,C++,X8nYM8wdNRE,180.72,183.59,00:03:00,00:03:03,"it also has the type ""entity"". Meaning that it actually"
+v38,C++,X8nYM8wdNRE,183.59,186.62,00:03:03,00:03:06,is both of those types. Types in C++
+v38,C++,X8nYM8wdNRE,186.62,189.47,00:03:06,00:03:09,"are quiet a complicated topic because on one hand, they don't"
+v38,C++,X8nYM8wdNRE,189.47,192.68,00:03:09,00:03:12,"really exist. However on the other hand, they kind of do."
+v38,C++,X8nYM8wdNRE,192.68,195.54,00:03:12,00:03:15,Especially if you have certain runtime flags activated.
+v38,C++,X8nYM8wdNRE,195.53,198.44,00:03:15,00:03:18,We're not really going to get in-depth about how this whole thing works
+v38,C++,X8nYM8wdNRE,198.44,201.5,00:03:18,00:03:21,"just yet, but definitely something for the future."
+v38,C++,X8nYM8wdNRE,201.5,204.69,00:03:21,00:03:24,"The other thing that's occurred is that ""player"" now has"
+v38,C++,X8nYM8wdNRE,204.69,207.97,00:03:24,00:03:27,"everything that ""entity"" has. So all of these class members that we have"
+v38,C++,X8nYM8wdNRE,207.97,210.97,00:03:27,00:03:30,"such as x and y here, two floats, there are now"
+v38,C++,X8nYM8wdNRE,210.97,213.93,00:03:30,00:03:33,"also included in here. So, right now we've actually got"
+v38,C++,X8nYM8wdNRE,213.93,216.69,00:03:33,00:03:36,"four floats total in the player class. We've got these two,"
+v38,C++,X8nYM8wdNRE,216.69,219.72,00:03:36,00:03:39,that are just the copy-and-pasted ones. As well as the original
+v38,C++,X8nYM8wdNRE,219.72,222.72,00:03:39,00:03:42,two so let's definitely get rid of all of that duplicated
+v38,C++,X8nYM8wdNRE,222.72,225.66,00:03:42,00:03:45,code here so that we only have everything that's new.
+v38,C++,X8nYM8wdNRE,225.66,228.44,00:03:45,00:03:48,"Such as the name, which is a const char pointer, and the"
+v38,C++,X8nYM8wdNRE,228.44,231.47,00:03:48,00:03:51,PrintName function which is kind of our additional functionality example.
+v38,C++,X8nYM8wdNRE,231.47,234.57,00:03:51,00:03:54,"OK, cool, so the player class is looking really really clean now."
+v38,C++,X8nYM8wdNRE,234.57,237.63,00:03:54,00:03:57,"However it is actually an entity, which means that just looking at this class"
+v38,C++,X8nYM8wdNRE,237.63,240.47,00:03:57,00:04:00,doesn't actually tell us the whole story. We have to go up and
+v38,C++,X8nYM8wdNRE,240.47,243.72,00:04:00,00:04:03,find
+v38,C++,X8nYM8wdNRE,243.84,246.88,00:04:03,00:04:06,
+v38,C++,X8nYM8wdNRE,246.88,249.8,00:04:06,00:04:09,
+v38,C++,X8nYM8wdNRE,249.81,252.89,00:04:09,00:04:12,
+v38,C++,X8nYM8wdNRE,252.88,255.89,00:04:12,00:04:15,
+v38,C++,X8nYM8wdNRE,255.9,258.74,00:04:15,00:04:18,
+v38,C++,X8nYM8wdNRE,258.74,259.74,00:04:18,00:04:19,
+v38,C++,X8nYM8wdNRE,260.14,261.59,00:04:20,00:04:21,
+v38,C++,X8nYM8wdNRE,262.06,265.06,00:04:22,00:04:25,
+v38,C++,X8nYM8wdNRE,265.06,268.12,00:04:25,00:04:28,
+v38,C++,X8nYM8wdNRE,268.12,270.89,00:04:28,00:04:30,
+v38,C++,X8nYM8wdNRE,270.89,273.82,00:04:30,00:04:33,
+v38,C++,X8nYM8wdNRE,273.82,276.83,00:04:33,00:04:36,
+v38,C++,X8nYM8wdNRE,276.83,280.1,00:04:36,00:04:40,
+v38,C++,X8nYM8wdNRE,280.11,283.19,00:04:40,00:04:43,
+v38,C++,X8nYM8wdNRE,283.19,286.05,00:04:43,00:04:46,
+v38,C++,X8nYM8wdNRE,286.05,289.0,00:04:46,00:04:49,
+v38,C++,X8nYM8wdNRE,289.0,292.0,00:04:49,00:04:51,
+v38,C++,X8nYM8wdNRE,292.0,293.18,00:04:51,00:04:53,
+v38,C++,X8nYM8wdNRE,293.52,296.81,00:04:53,00:04:56,
+v38,C++,X8nYM8wdNRE,296.81,297.81,00:04:56,00:04:57,
+v38,C++,X8nYM8wdNRE,297.9,300.23,00:04:57,00:05:00,
+v38,C++,X8nYM8wdNRE,300.69,301.69,00:05:00,00:05:01,
+v38,C++,X8nYM8wdNRE,301.73,304.75,00:05:01,00:05:04,
+v38,C++,X8nYM8wdNRE,304.75,306.62,00:05:04,00:05:06,
+v38,C++,X8nYM8wdNRE,306.94,310.01,00:05:06,00:05:10,
+v38,C++,X8nYM8wdNRE,310.01,313.37,00:05:10,00:05:13,
+v38,C++,X8nYM8wdNRE,313.44,314.74,00:05:13,00:05:14,
+v38,C++,X8nYM8wdNRE,315.4,318.25,00:05:15,00:05:18,
+v38,C++,X8nYM8wdNRE,318.25,321.23,00:05:18,00:05:21,
+v38,C++,X8nYM8wdNRE,321.23,324.34,00:05:21,00:05:24,
+v38,C++,X8nYM8wdNRE,324.33,327.31,00:05:24,00:05:27,
+v38,C++,X8nYM8wdNRE,327.31,330.36,00:05:27,00:05:30,
+v38,C++,X8nYM8wdNRE,330.36,333.36,00:05:30,00:05:33,
+v38,C++,X8nYM8wdNRE,333.36,336.35,00:05:33,00:05:36,
+v38,C++,X8nYM8wdNRE,336.35,339.19,00:05:36,00:05:39,
+v38,C++,X8nYM8wdNRE,339.19,342.16,00:05:39,00:05:42,
+v38,C++,X8nYM8wdNRE,342.15,344.97,00:05:42,00:05:44,
+v38,C++,X8nYM8wdNRE,344.98,347.92,00:05:44,00:05:47,
+v38,C++,X8nYM8wdNRE,347.92,351.24,00:05:47,00:05:51,
+v38,C++,X8nYM8wdNRE,351.29,354.34,00:05:51,00:05:54,
+v38,C++,X8nYM8wdNRE,354.33,357.25,00:05:54,00:05:57,
+v38,C++,X8nYM8wdNRE,357.25,360.29,00:05:57,00:06:00,
+v38,C++,X8nYM8wdNRE,360.29,361.61,00:06:00,00:06:01,
+v38,C++,X8nYM8wdNRE,362.01,365.06,00:06:02,00:06:05,
+v38,C++,X8nYM8wdNRE,365.06,367.25,00:06:05,00:06:07,
+v38,C++,X8nYM8wdNRE,367.61,370.53,00:06:07,00:06:10,
+v38,C++,X8nYM8wdNRE,370.52,373.88,00:06:10,00:06:13,
+v38,C++,X8nYM8wdNRE,373.88,376.88,00:06:13,00:06:16,
+v38,C++,X8nYM8wdNRE,376.88,379.95,00:06:16,00:06:19,
+v38,C++,X8nYM8wdNRE,379.95,383.14,00:06:19,00:06:23,
+v38,C++,X8nYM8wdNRE,383.14,386.23,00:06:23,00:06:26,
+v38,C++,X8nYM8wdNRE,386.24,389.4,00:06:26,00:06:29,
+v38,C++,X8nYM8wdNRE,389.39,392.62,00:06:29,00:06:32,
+v38,C++,X8nYM8wdNRE,393.25,396.62,00:06:33,00:06:36,
+v38,C++,X8nYM8wdNRE,396.62,399.81,00:06:36,00:06:39,
+v38,C++,X8nYM8wdNRE,399.81,402.79,00:06:39,00:06:42,
+v38,C++,X8nYM8wdNRE,402.79,405.36,00:06:42,00:06:45,
+v38,C++,X8nYM8wdNRE,405.36,408.36,00:06:45,00:06:48,
+v38,C++,X8nYM8wdNRE,408.36,410.71,00:06:48,00:06:50,
+v38,C++,X8nYM8wdNRE,410.7,413.66,00:06:50,00:06:53,
+v38,C++,X8nYM8wdNRE,413.8,416.73,00:06:53,00:06:56,
+v38,C++,X8nYM8wdNRE,416.73,419.69,00:06:56,00:06:59,
+v38,C++,X8nYM8wdNRE,419.69,422.54,00:06:59,00:07:02,
+v38,C++,X8nYM8wdNRE,422.54,425.56,00:07:02,00:07:05,
+v38,C++,X8nYM8wdNRE,425.56,428.69,00:07:05,00:07:08,
+v38,C++,X8nYM8wdNRE,428.69,431.69,00:07:08,00:07:11,
+v38,C++,X8nYM8wdNRE,431.69,434.62,00:07:11,00:07:14,
+v38,C++,X8nYM8wdNRE,434.62,437.81,00:07:14,00:07:17,
+v38,C++,X8nYM8wdNRE,437.81,440.75,00:07:17,00:07:20,
+v38,C++,X8nYM8wdNRE,440.75,443.72,00:07:20,00:07:23,
+v38,C++,X8nYM8wdNRE,443.71,446.74,00:07:23,00:07:26,
+v38,C++,X8nYM8wdNRE,446.75,449.72,00:07:26,00:07:29,
+v38,C++,X8nYM8wdNRE,449.71,452.65,00:07:29,00:07:32,
+v38,C++,X8nYM8wdNRE,452.65,455.69,00:07:32,00:07:35,
+v38,C++,X8nYM8wdNRE,455.69,456.69,00:07:35,00:07:36,
+v38,C++,X8nYM8wdNRE,457.86,459.6,00:07:37,00:07:39,
+v38,C++,X8nYM8wdNRE,460.32,462.6,00:07:40,00:07:42,
