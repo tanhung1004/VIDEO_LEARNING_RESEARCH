@@ -1,0 +1,834 @@
+==============================================================================
+P1.2 FROZEN BASELINE CONFIGURATION CONTEXT
+==============================================================================
+
+==============================================================================
+04_build_chunks.py
+==============================================================================
+  36 |     / "processed"
+  37 |     / "transcript"
+  38 |     / "transcript_chunks.csv"
+  39 | )
+  40 | 
+  41 | 
+  42 | # Mỗi chunk dài 60 giây
+  43 | CHUNK_SECONDS = 60
+  44 | 
+  45 | 
+  46 | # =========================================================
+  47 | # 2. CHIA TRANSCRIPT THÀNH CHUNK
+  48 | # =========================================================
+  49 | 
+  50 | def build_chunks(video_id, subject):
+  51 | 
+  52 |     transcript_file = (
+  ...
+  80 |     max_time = df["end_sec"].max()
+  81 | 
+  82 |     chunks = []
+  83 | 
+  84 |     chunk_id = 0
+  85 |     start_time = 0
+  86 | 
+  87 |     while start_time <= max_time:
+  88 | 
+  89 |         end_time = start_time + CHUNK_SECONDS
+  90 | 
+  91 |         # Lấy transcript nằm trong khoảng thời gian chunk
+  92 |         chunk_df = df[
+  93 |             (df["start_sec"] < end_time)
+  94 |             &
+  ...
+  97 | 
+  98 |         raw_text = " ".join(
+  99 |             chunk_df["text"].tolist()
+ 100 |         )
+ 101 | 
+ 102 |         processed_text = preprocess_text(raw_text)
+ 103 | 
+ 104 |         # Chỉ lưu chunk thực sự có text
+ 105 |         if processed_text.strip():
+ 106 | 
+ 107 |             chunks.append({
+ 108 |                 "video_id": video_id,
+ 109 |                 "subject": subject,
+ 110 |                 "method": "transcript_only",
+ 111 |                 "chunk_id": chunk_id,
+ 112 |                 "start_sec": start_time,
+ 113 |                 "end_sec": end_time,
+  ...
+ 116 |             })
+ 117 | 
+ 118 |         chunk_id += 1
+ 119 |         start_time += CHUNK_SECONDS
+ 120 | 
+ 121 |     return chunks
+ 122 | 
+ 123 | 
+  ...
+ 130 |     print("======================================")
+ 131 |     print("MODULE 1 - BASELINE")
+ 132 |     print("STEP 04 - BUILD TRANSCRIPT CHUNKS")
+ 133 |     print("======================================")
+ 134 | 
+  ...
+ 142 |     ]
+ 143 | 
+ 144 |     all_chunks = []
+ 145 | 
+ 146 |     for _, row in videos.iterrows():
+  ...
+ 150 | 
+ 151 |         print(
+ 152 |             f"\nĐang chia chunk: {video_id} - {subject}"
+ 153 |         )
+ 154 | 
+ 155 |         chunks = build_chunks(
+ 156 |             video_id,
+ 157 |             subject
+ 158 |         )
+ 159 | 
+ 160 |         all_chunks.extend(chunks)
+ 161 | 
+ 162 |         print(
+ 163 |             "Số chunk:",
+ 164 |             len(chunks)
+ 165 |         )
+ 166 | 
+ 167 |     chunks_df = pd.DataFrame(all_chunks)
+ 168 | 
+ 169 |     chunks_df.to_csv(
+ 170 |         OUTPUT_FILE,
+ 171 |         index=False,
+  ...
+ 175 |     print("\n======================================")
+ 176 |     print("HOÀN THÀNH STEP 04")
+ 177 |     print("Tổng số chunk:", len(chunks_df))
+ 178 |     print("Output:")
+ 179 |     print(OUTPUT_FILE)
+
+==============================================================================
+05_run_lda.py
+==============================================================================
+  96 |     print(
+  97 |         "Số topic:",
+  98 |         lda_model.n_components
+  99 |     )
+ 100 | 
+  ...
+ 152 |     # Lưu probability từng topic
+ 153 |     for topic_id in range(
+ 154 |         lda_model.n_components
+ 155 |     ):
+ 156 | 
+
+==============================================================================
+06_run_lsa.py
+==============================================================================
+ 146 |     print(
+ 147 |         "Số latent dimensions:",
+ 148 |         svd.n_components
+ 149 |     )
+ 150 | 
+
+==============================================================================
+07_run_lda_concept_matching.py
+==============================================================================
+  30 |     train_lda,
+  31 |     get_topic_words,
+  32 |     calculate_topic_concept_affinity,
+  33 |     calculate_document_concept_scores
+  34 | )
+  35 | 
+  ...
+  47 | )
+  48 | 
+  49 | CONCEPT_FILE = (
+  50 |     PROJECT_ROOT
+  51 |     / "data"
+  52 |     / "concepts"
+  53 |     / "concept_catalog.csv"
+  54 | )
+  55 | 
+  ...
+  82 | 
+  83 |     print(
+  84 |         "STEP 07 - LDA CONCEPT MATCHING"
+  85 |     )
+  86 | 
+  ...
+ 107 | 
+ 108 | 
+ 109 |     if not CONCEPT_FILE.exists():
+ 110 | 
+ 111 |         print(
+ 112 |             "Không tìm thấy concept catalog:"
+ 113 |         )
+ 114 | 
+ 115 |         print(
+ 116 |             CONCEPT_FILE
+ 117 |         )
+ 118 | 
+  ...
+ 128 |     )
+ 129 | 
+ 130 |     concepts = pd.read_csv(
+ 131 |         CONCEPT_FILE
+ 132 |     )
+ 133 | 
+  ...
+ 145 | 
+ 146 |     # -----------------------------------------------------
+ 147 |     # Clean concept columns
+ 148 |     # -----------------------------------------------------
+ 149 | 
+ 150 |     concepts["subject"] = (
+ 151 |         concepts["subject"]
+ 152 |         .fillna("")
+ 153 |         .astype(str)
+ 154 |     )
+ 155 | 
+ 156 |     concepts["concept"] = (
+ 157 |         concepts["concept"]
+ 158 |         .fillna("")
+ 159 |         .astype(str)
+ 160 |     )
+ 161 | 
+ 162 |     concepts["description"] = (
+ 163 |         concepts["description"]
+ 164 |         .fillna("")
+ 165 |         .astype(str)
+  ...
+ 168 | 
+ 169 |     # =====================================================
+ 170 |     # 6. PREPARE CONCEPT TEXT
+ 171 |     # =====================================================
+ 172 | 
+ 173 |     # Ví dụ:
+ 174 |     #
+ 175 |     # concept:
+ 176 |     # group by
+ 177 |     #
+  ...
+ 179 |     # group database rows by one or more columns
+ 180 |     #
+ 181 |     # concept_text:
+ 182 |     # group by group database rows...
+ 183 |     #
+ 184 | 
+ 185 |     concepts["concept_text"] = (
+ 186 |         concepts["concept"]
+ 187 |         + " "
+ 188 |         + concepts["description"]
+ 189 |     )
+ 190 | 
+ 191 | 
+ 192 |     # Dùng cùng preprocessing với transcript
+ 193 |     concepts[
+ 194 |         "processed_concept_text"
+ 195 |     ] = (
+ 196 |         concepts["concept_text"]
+ 197 |         .apply(
+ 198 |             preprocess_text
+  ...
+ 209 | 
+ 210 | 
+ 211 |     concept_texts = (
+ 212 |         concepts[
+ 213 |             "processed_concept_text"
+ 214 |         ]
+ 215 |         .tolist()
+  ...
+ 223 | 
+ 224 |     print(
+ 225 |         "Concepts:",
+ 226 |         len(concept_texts)
+ 227 |     )
+ 228 | 
+  ...
+ 281 | 
+ 282 |     # =====================================================
+ 283 |     # 9. TOPIC <-> CONCEPT AFFINITY
+ 284 |     # =====================================================
+ 285 | 
+ 286 |     topic_concept_affinity = (
+ 287 |         calculate_topic_concept_affinity(
+ 288 |             lda_model=lda_model,
+ 289 |             vectorizer=vectorizer,
+ 290 |             concept_texts=concept_texts
+ 291 |         )
+ 292 |     )
+  ...
+ 303 |     ):
+ 304 | 
+ 305 |         for concept_index, concept in (
+ 306 |             concepts.iterrows()
+ 307 |         ):
+ 308 | 
+  ...
+ 312 | 
+ 313 |                 "subject":
+ 314 |                     concept["subject"],
+ 315 | 
+ 316 |                 "concept":
+ 317 |                     concept["concept"],
+ 318 | 
+ 319 |                 "topic_concept_affinity":
+ 320 |                     round(
+ 321 |                         float(
+ 322 |                             topic_concept_affinity[
+ 323 |                                 topic_id,
+ 324 |                                 concept_index
+ 325 |                             ]
+ 326 |                         ),
+  ...
+ 337 |     affinity_file = (
+ 338 |         RESULT_DIR
+ 339 |         / "lda_topic_concept_affinity.csv"
+ 340 |     )
+ 341 | 
+  ...
+ 349 | 
+ 350 |     # =====================================================
+ 351 |     # 10. CHUNK -> CONCEPT SCORE
+ 352 |     # =====================================================
+ 353 | 
+ 354 |     lda_concept_matrix = (
+ 355 |         calculate_document_concept_scores(
+ 356 |             document_topic_matrix,
+ 357 |             topic_concept_affinity
+ 358 |         )
+ 359 |     )
+  ...
+ 376 | 
+ 377 | 
+ 378 |         for concept_index, concept in (
+ 379 |             concepts.iterrows()
+ 380 |         ):
+ 381 | 
+ 382 |             concept_subject = str(
+ 383 |                 concept["subject"]
+ 384 |             )
+ 385 | 
+ 386 | 
+ 387 |             # =============================================
+ 388 |             # Chỉ compare concept cùng subject
+ 389 |             # =============================================
+ 390 | 
+ 391 |             if (
+ 392 |                 chunk_subject
+ 393 |                 != concept_subject
+ 394 |             ):
+ 395 |                 continue
+ 396 | 
+ 397 | 
+ 398 |             score = (
+ 399 |                 lda_concept_matrix[
+ 400 |                     chunk_index,
+ 401 |                     concept_index
+ 402 |                 ]
+ 403 |             )
+  ...
+ 426 |                     chunk["end_sec"],
+ 427 | 
+ 428 |                 "concept":
+ 429 |                     concept["concept"],
+ 430 | 
+ 431 |                 "lda_score":
+ 432 |                     round(
+ 433 |                         float(score),
+ 434 |                         4
+ 435 |                     )
+  ...
+ 438 | 
+ 439 | 
+ 440 |     scores_df = pd.DataFrame(
+ 441 |         result_rows
+ 442 |     )
+  ...
+ 444 | 
+ 445 |     # =====================================================
+ 446 |     # 12. SAVE ALL LDA CONCEPT SCORES
+ 447 |     # =====================================================
+ 448 | 
+ 449 |     score_file = (
+ 450 |         RESULT_DIR
+ 451 |         / "lda_concept_scores.csv"
+ 452 |     )
+ 453 | 
+ 454 | 
+ 455 |     scores_df.to_csv(
+ 456 |         score_file,
+ 457 |         index=False,
+ 458 |         encoding="utf-8-sig"
+  ...
+ 461 | 
+ 462 |     # =====================================================
+ 463 |     # 13. TOP 3 CONCEPT CỦA MỖI CHUNK
+ 464 |     # =====================================================
+ 465 | 
+ 466 |     top_matches = (
+ 467 |         scores_df
+ 468 |         .sort_values(
+ 469 |             [
+ 470 |                 "video_id",
+ 471 |                 "chunk_id",
+ 472 |                 "lda_score"
+ 473 |             ],
+ 474 | 
+  ...
+ 497 |     top_file = (
+ 498 |         RESULT_DIR
+ 499 |         / "lda_top_concepts.csv"
+ 500 |     )
+ 501 | 
+  ...
+ 531 | 
+ 532 |     print(
+ 533 |         "\n========== TOP LDA CONCEPTS =========="
+ 534 |     )
+ 535 | 
+  ...
+ 540 |                 "video_id",
+ 541 |                 "chunk_id",
+ 542 |                 "concept",
+ 543 |                 "lda_score"
+ 544 |             ]
+ 545 |         ]
+  ...
+ 574 | 
+ 575 |     print(
+ 576 |         "\nTopic-concept affinity:"
+ 577 |     )
+ 578 | 
+  ...
+ 583 | 
+ 584 |     print(
+ 585 |         "\nAll concept scores:"
+ 586 |     )
+ 587 | 
+ 588 |     print(
+ 589 |         score_file
+ 590 |     )
+ 591 | 
+ 592 | 
+ 593 |     print(
+ 594 |         "\nTop concepts:"
+ 595 |     )
+ 596 | 
+
+==============================================================================
+08_fuse_lda_lsa.py
+==============================================================================
+  16 | )
+  17 | 
+  18 | LDA_FILE = (
+  19 |     RESULT_DIR
+  20 |     / "lda_concept_scores.csv"
+  21 | )
+  22 | 
+  23 | LSA_FILE = (
+  24 |     RESULT_DIR
+  25 |     / "lsa_concept_scores.csv"
+  26 | )
+  27 | 
+  ...
+  41 | # =========================================================
+  42 | 
+  43 | # LSA giữ vai trò semantic matching chính
+  44 | LSA_WEIGHT = 0.60
+  45 | 
+  46 | # LDA cung cấp topic evidence
+  47 | LDA_WEIGHT = 0.40
+  48 | 
+  49 | 
+  50 | # =========================================================
+  51 | # 3. MIN-MAX NORMALIZATION
+  52 | # =========================================================
+  53 | 
+  54 | def normalize_series(series):
+  55 |     """
+  56 |     Chuẩn hóa một nhóm score về khoảng 0 -> 1.
+  ...
+  61 |         0.10
+  62 |         0.20
+  63 |         0.40
+  64 | 
+  65 |     normalized:
+  66 |         0.00
+  67 |         0.33
+  ...
+  69 |     """
+  70 | 
+  71 |     min_value = series.min()
+  72 |     max_value = series.max()
+  73 | 
+  74 |     # Nếu tất cả score giống nhau
+  75 |     if max_value == min_value:
+  76 |         return pd.Series(
+  77 |             0.0,
+  ...
+  80 | 
+  81 |     return (
+  82 |         series - min_value
+  83 |     ) / (
+  84 |         max_value - min_value
+  85 |     )
+  86 | 
+  ...
+  94 |     print("======================================")
+  95 |     print("MODULE 1 - BASELINE")
+  96 |     print("STEP 08 - FUSE LDA + LSA")
+  97 |     print("======================================")
+  98 | 
+  ...
+ 101 |     # =====================================================
+ 102 | 
+ 103 |     if not LDA_FILE.exists():
+ 104 | 
+ 105 |         print("Không tìm thấy LDA file:")
+ 106 |         print(LDA_FILE)
+ 107 | 
+ 108 |         return
+ 109 | 
+ 110 |     if not LSA_FILE.exists():
+ 111 | 
+ 112 |         print("Không tìm thấy LSA file:")
+ 113 |         print(LSA_FILE)
+ 114 | 
+ 115 |         return
+  ...
+ 120 |     # =====================================================
+ 121 | 
+ 122 |     lda = pd.read_csv(
+ 123 |         LDA_FILE
+ 124 |     )
+ 125 | 
+ 126 |     lsa = pd.read_csv(
+ 127 |         LSA_FILE
+ 128 |     )
+ 129 | 
+ 130 | 
+ 131 |     print(
+ 132 |         "Số dòng LDA:",
+ 133 |         len(lda)
+ 134 |     )
+ 135 | 
+ 136 |     print(
+ 137 |         "Số dòng LSA:",
+ 138 |         len(lsa)
+ 139 |     )
+ 140 | 
+ 141 | 
+ 142 |     # =====================================================
+ 143 |     # 7. MERGE LDA + LSA
+ 144 |     # =====================================================
+ 145 | 
+  ...
+ 155 | 
+ 156 | 
+ 157 |     merged = lda.merge(
+ 158 |         lsa,
+ 159 |         on=key_columns,
+ 160 |         how="inner"
+  ...
+ 171 | 
+ 172 |         print(
+ 173 |             "Không merge được LDA và LSA."
+ 174 |         )
+ 175 | 
+  ...
+ 178 | 
+ 179 |     # =====================================================
+ 180 |     # 8. NORMALIZE SCORE TRONG TỪNG CHUNK
+ 181 |     # =====================================================
+ 182 | 
+ 183 |     # Quan trọng:
+ 184 |     #
+ 185 |     # Không normalize toàn dataset.
+ 186 |     #
+ 187 |     # Mỗi chunk sẽ tự so sánh các concept
+  ...
+ 189 | 
+ 190 | 
+ 191 |     merged["lda_norm"] = (
+ 192 |         merged
+ 193 |         .groupby(
+  ...
+ 196 |                 "chunk_id"
+ 197 |             ]
+ 198 |         )["lda_score"]
+ 199 |         .transform(
+ 200 |             normalize_series
+ 201 |         )
+ 202 |     )
+ 203 | 
+ 204 | 
+ 205 |     merged["lsa_norm"] = (
+ 206 |         merged
+ 207 |         .groupby(
+  ...
+ 210 |                 "chunk_id"
+ 211 |             ]
+ 212 |         )["lsa_score"]
+ 213 |         .transform(
+ 214 |             normalize_series
+ 215 |         )
+ 216 |     )
+  ...
+ 223 |     merged["final_score"] = (
+ 224 | 
+ 225 |         LDA_WEIGHT
+ 226 |         * merged["lda_norm"]
+ 227 | 
+ 228 |         +
+ 229 | 
+ 230 |         LSA_WEIGHT
+ 231 |         * merged["lsa_norm"]
+ 232 |     )
+ 233 | 
+ 234 | 
+ 235 |     # Làm tròn để xem cho đẹp
+ 236 |     merged["lda_norm"] = (
+ 237 |         merged["lda_norm"]
+ 238 |         .round(4)
+ 239 |     )
+ 240 | 
+ 241 |     merged["lsa_norm"] = (
+ 242 |         merged["lsa_norm"]
+ 243 |         .round(4)
+ 244 |     )
+  ...
+ 319 | 
+ 320 |     # =====================================================
+ 321 |     # 14. TERMINAL PREVIEW
+ 322 |     # =====================================================
+ 323 | 
+  ...
+ 331 |         "chunk_id",
+ 332 |         "concept",
+ 333 |         "lda_score",
+ 334 |         "lsa_score",
+ 335 |         "lda_norm",
+ 336 |         "lsa_norm",
+ 337 |         "final_score",
+ 338 |         "rank"
+
+==============================================================================
+09_build_video_concept_evidence.py
+==============================================================================
+  66 |     chunk_counts = (
+  67 |         df
+  68 |         .groupby("video_id")["chunk_id"]
+  69 |         .nunique()
+  70 |         .to_dict()
+  ...
+  77 |     # -----------------------------------------------------
+  78 | 
+  79 |     grouped = df.groupby(
+  80 |         [
+  81 |             "video_id",
+  ...
+ 106 |         )
+ 107 | 
+ 108 |         mean_final = (
+ 109 |             group["final_score"]
+ 110 |             .mean()
+ 111 |         )
+ 112 | 
+  ...
+ 125 |         # =============================================
+ 126 | 
+ 127 |         top3_count = int(
+ 128 |             (
+ 129 |                 group["rank"] <= 3
+  ...
+ 137 |         )
+ 138 | 
+ 139 |         top3_ratio = (
+ 140 |             top3_count
+ 141 |             / num_chunks
+ 142 |         )
+  ...
+ 153 |         strongest = (
+ 154 |             group["final_score"]
+ 155 |             .nlargest(2)
+ 156 |         )
+ 157 | 
+ 158 |         top2_mean = (
+ 159 |             strongest.mean()
+ 160 |         )
+ 161 | 
+  ...
+ 197 |                 ),
+ 198 | 
+ 199 |             "mean_final_score":
+ 200 |                 round(
+ 201 |                     float(mean_final),
+ 202 |                     4
+ 203 |                 ),
+ 204 | 
+ 205 |             "top2_mean_score":
+ 206 |                 round(
+ 207 |                     float(top2_mean),
+ 208 |                     4
+ 209 |                 ),
+ 210 | 
+ 211 |             "top3_count":
+ 212 |                 top3_count,
+ 213 | 
+ 214 |             "top3_ratio":
+ 215 |                 round(
+ 216 |                     float(top3_ratio),
+ 217 |                     4
+ 218 |                 ),
+  ...
+ 270 |             [
+ 271 |                 "video_id",
+ 272 |                 "top2_mean_score",
+ 273 |                 "top3_ratio"
+ 274 |             ],
+ 275 |             ascending=[
+  ...
+ 306 |         "concept",
+ 307 |         "max_final_score",
+ 308 |         "top2_mean_score",
+ 309 |         "top3_count",
+ 310 |         "top3_ratio",
+ 311 |         "max_lsa_score",
+ 312 |         "max_lda_score"
+
+==============================================================================
+10_predict_evaluate_baseline.py
+==============================================================================
+  38 | 
+  39 | # =========================================================
+  40 | # PREDICTION THRESHOLD
+  41 | # =========================================================
+  42 | 
+  43 | PREDICTION_THRESHOLD = 0.40
+  44 | 
+  45 | 
+  ...
+  63 | def calculate_metrics(tp, fp, fn):
+  64 | 
+  65 |     precision = (
+  66 |         tp / (tp + fp)
+  67 |         if (tp + fp) > 0
+  ...
+  69 |     )
+  70 | 
+  71 |     recall = (
+  72 |         tp / (tp + fn)
+  73 |         if (tp + fn) > 0
+  ...
+  75 |     )
+  76 | 
+  77 |     f1 = (
+  78 |         2 * precision * recall
+  79 |         / (precision + recall)
+  80 |         if (precision + recall) > 0
+  81 |         else 0
+  82 |     )
+  83 | 
+  84 |     return (
+  85 |         precision,
+  86 |         recall,
+  87 |         f1
+  88 |     )
+  89 | 
+  ...
+ 174 |     predictions = evidence[
+ 175 |         evidence["top2_mean_score"]
+ 176 |         >= PREDICTION_THRESHOLD
+ 177 |     ].copy()
+ 178 | 
+  ...
+ 195 | 
+ 196 |     print(
+ 197 |         "\nPrediction threshold:",
+ 198 |         PREDICTION_THRESHOLD
+ 199 |     )
+ 200 | 
+  ...
+ 289 | 
+ 290 | 
+ 291 |         precision, recall, f1 = (
+ 292 |             calculate_metrics(
+ 293 |                 tp,
+  ...
+ 315 |                 "transcript_only",
+ 316 | 
+ 317 |             "threshold":
+ 318 |                 PREDICTION_THRESHOLD,
+ 319 | 
+ 320 |             "ground_truth_count":
+  ...
+ 333 |                 fn,
+ 334 | 
+ 335 |             "precision":
+ 336 |                 round(
+ 337 |                     precision,
+ 338 |                     4
+ 339 |                 ),
+ 340 | 
+ 341 |             "recall":
+ 342 |                 round(
+ 343 |                     recall,
+ 344 |                     4
+ 345 |                 ),
+ 346 | 
+ 347 |             "f1":
+ 348 |                 round(
+ 349 |                     f1,
+ 350 |                     4
+ 351 |                 ),
+  ...
+ 419 | 
+ 420 |     (
+ 421 |         overall_precision,
+ 422 |         overall_recall,
+ 423 |         overall_f1
+ 424 |     ) = calculate_metrics(
+ 425 |         total_tp,
+  ...
+ 440 |             "transcript_only",
+ 441 | 
+ 442 |         "threshold":
+ 443 |             PREDICTION_THRESHOLD,
+ 444 | 
+ 445 |         "ground_truth_count":
+  ...
+ 458 |             total_fn,
+ 459 | 
+ 460 |         "precision":
+ 461 |             round(
+ 462 |                 overall_precision,
+ 463 |                 4
+ 464 |             ),
+ 465 | 
+ 466 |         "recall":
+ 467 |             round(
+ 468 |                 overall_recall,
+ 469 |                 4
+ 470 |             ),
+ 471 | 
+ 472 |         "f1":
+ 473 |             round(
+ 474 |                 overall_f1,
+ 475 |                 4
+ 476 |             ),
+  ...
+ 542 |                 "FP",
+ 543 |                 "FN",
+ 544 |                 "precision",
+ 545 |                 "recall",
+ 546 |                 "f1"
+ 547 |             ]
+ 548 |         ]
+
+==============================================================================
+EXPLICIT CROSS-VALIDATION / TRAIN-TEST CONTROL SEARCH
+==============================================================================
+
+NO EXPLICIT CV / TRAIN-TEST CONTROL FOUND IN BASELINE FILES 04-10.

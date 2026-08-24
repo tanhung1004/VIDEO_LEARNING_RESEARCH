@@ -1,0 +1,199 @@
+﻿file,line_no,category,matched_pattern,code
+04_build_chunks.py,38,chunk_config,chunk,"/ ""transcript_chunks.csv"""
+04_build_chunks.py,42,chunk_config,chunk,# Mỗi chunk dài 60 giây
+04_build_chunks.py,43,chunk_config,chunk,CHUNK_SECONDS = 60
+04_build_chunks.py,47,chunk_config,chunk,# 2. CHIA TRANSCRIPT THÀNH CHUNK
+04_build_chunks.py,50,chunk_config,chunk,"def build_chunks(video_id, subject):"
+04_build_chunks.py,82,chunk_config,chunk,chunks = []
+04_build_chunks.py,84,chunk_config,chunk,chunk_id = 0
+04_build_chunks.py,89,chunk_config,chunk,end_time = start_time + CHUNK_SECONDS
+04_build_chunks.py,91,chunk_config,chunk,# Lấy transcript nằm trong khoảng thời gian chunk
+04_build_chunks.py,92,chunk_config,chunk,chunk_df = df[
+04_build_chunks.py,99,chunk_config,chunk,"chunk_df[""text""].tolist()"
+04_build_chunks.py,104,chunk_config,chunk,# Chỉ lưu chunk thực sự có text
+04_build_chunks.py,107,chunk_config,chunk,chunks.append({
+04_build_chunks.py,111,chunk_config,chunk,"""chunk_id"": chunk_id,"
+04_build_chunks.py,118,chunk_config,chunk,chunk_id += 1
+04_build_chunks.py,119,chunk_config,chunk,start_time += CHUNK_SECONDS
+04_build_chunks.py,121,chunk_config,chunk,return chunks
+04_build_chunks.py,132,chunk_config,chunk,"print(""STEP 04 - BUILD TRANSCRIPT CHUNKS"")"
+04_build_chunks.py,144,chunk_config,chunk,all_chunks = []
+04_build_chunks.py,152,chunk_config,chunk,"f""\nĐang chia chunk: {video_id} - {subject}"""
+04_build_chunks.py,155,chunk_config,chunk,chunks = build_chunks(
+04_build_chunks.py,160,chunk_config,chunk,all_chunks.extend(chunks)
+04_build_chunks.py,163,chunk_config,chunk,"""Số chunk:"","
+04_build_chunks.py,164,chunk_config,chunk,len(chunks)
+04_build_chunks.py,167,chunk_config,chunk,chunks_df = pd.DataFrame(all_chunks)
+04_build_chunks.py,169,chunk_config,chunk,chunks_df.to_csv(
+04_build_chunks.py,177,chunk_config,chunk,"print(""Tổng số chunk:"", len(chunks_df))"
+05_run_lda.py,29,chunk_config,chunk,"/ ""transcript_chunks.csv"""
+05_run_lda.py,53,lda,\bLDA\b,"print(""STEP 05 - LDA TOPIC MODELLING"")"
+05_run_lda.py,64,chunk_config,chunk,# 3. ĐỌC 51 CHUNK
+05_run_lda.py,79,chunk_config,chunk,"print(""Số document/chunk:"", len(documents))"
+05_run_lda.py,82,lda,\bLDA\b,# 4. TRAIN LDA
+05_run_lda.py,98,lsa,n_components,lda_model.n_components
+05_run_lda.py,124,lda,\bLDA\b,"print(""\n========== LDA TOPICS =========="")"
+05_run_lda.py,135,chunk_config,chunk,# 6. TOPIC CỦA TỪNG CHUNK
+05_run_lda.py,154,lsa,n_components,lda_model.n_components
+05_run_lda.py,161,chunk_config,chunk,chunk_file = (
+05_run_lda.py,163,chunk_config,chunk,"/ ""lda_chunk_topics.csv"""
+05_run_lda.py,167,chunk_config,chunk,"chunk_file,"
+05_run_lda.py,182,chunk_config,chunk,"print(""\nChunk topic file:"")"
+05_run_lda.py,183,chunk_config,chunk,print(chunk_file)
+06_run_lsa.py,24,chunk_config,chunk,CHUNK_FILE = (
+06_run_lsa.py,29,chunk_config,chunk,"/ ""transcript_chunks.csv"""
+06_run_lsa.py,60,lsa,\bLSA\b,"print(""STEP 06 - LSA SEMANTIC MATCHING"")"
+06_run_lsa.py,67,chunk_config,chunk,chunks = pd.read_csv(CHUNK_FILE)
+06_run_lsa.py,71,chunk_config,chunk,"chunks[""processed_text""] = ("
+06_run_lsa.py,72,chunk_config,chunk,"chunks[""processed_text""]"
+06_run_lsa.py,105,chunk_config,chunk,"chunks[""processed_text""].tolist()"
+06_run_lsa.py,115,chunk_config,chunk,"""Số transcript chunks:"","
+06_run_lsa.py,125,lsa,\bLSA\b,# 5. TRAIN LSA
+06_run_lsa.py,148,lsa,n_components,svd.n_components
+06_run_lsa.py,168,chunk_config,chunk,"for chunk_index, chunk in ("
+06_run_lsa.py,169,chunk_config,chunk,chunks.iterrows()
+06_run_lsa.py,172,chunk_config,chunk,"subject = chunk[""subject""]"
+06_run_lsa.py,184,chunk_config,chunk,"chunk_index,"
+06_run_lsa.py,189,chunk_config,chunk,"""video_id"": chunk[""video_id""],"
+06_run_lsa.py,193,chunk_config,chunk,"""chunk_id"": chunk[""chunk_id""],"
+06_run_lsa.py,194,chunk_config,chunk,"""start_sec"": chunk[""start_sec""],"
+06_run_lsa.py,195,chunk_config,chunk,"""end_sec"": chunk[""end_sec""],"
+06_run_lsa.py,225,chunk_config,chunk,# 9. LẤY TOP 3 CONCEPT MỖI CHUNK
+06_run_lsa.py,233,chunk_config,chunk,"""chunk_id"","
+06_run_lsa.py,245,chunk_config,chunk,"""chunk_id"""
+06_run_lsa.py,268,lsa,\bLSA\b,"""\n========== TOP LSA MATCHES =========="""
+06_run_lsa.py,275,chunk_config,chunk,"""chunk_id"","
+07_run_lda_concept_matching.py,41,chunk_config,chunk,CHUNK_FILE = (
+07_run_lda_concept_matching.py,46,chunk_config,chunk,"/ ""transcript_chunks.csv"""
+07_run_lda_concept_matching.py,84,lda,\bLDA\b,"""STEP 07 - LDA CONCEPT MATCHING"""
+07_run_lda_concept_matching.py,96,chunk_config,chunk,if not CHUNK_FILE.exists():
+07_run_lda_concept_matching.py,99,chunk_config,chunk,"""Không tìm thấy chunk file:"""
+07_run_lda_concept_matching.py,103,chunk_config,chunk,CHUNK_FILE
+07_run_lda_concept_matching.py,126,chunk_config,chunk,chunks = pd.read_csv(
+07_run_lda_concept_matching.py,127,chunk_config,chunk,CHUNK_FILE
+07_run_lda_concept_matching.py,139,chunk_config,chunk,"chunks[""processed_text""] = ("
+07_run_lda_concept_matching.py,140,chunk_config,chunk,"chunks[""processed_text""]"
+07_run_lda_concept_matching.py,204,chunk_config,chunk,chunks[
+07_run_lda_concept_matching.py,220,chunk_config,chunk,"""Transcript chunks:"","
+07_run_lda_concept_matching.py,231,lda,\bLDA\b,# 7. TRAIN LDA
+07_run_lda_concept_matching.py,253,lsa,n_components,lda_model.n_components
+07_run_lda_concept_matching.py,258,lda,\bLDA\b,# 8. SAVE LDA TOPICS
+07_run_lda_concept_matching.py,302,lsa,n_components,lda_model.n_components
+07_run_lda_concept_matching.py,351,chunk_config,chunk,# 10. CHUNK -> CONCEPT SCORE
+07_run_lda_concept_matching.py,369,chunk_config,chunk,"for chunk_index, chunk in ("
+07_run_lda_concept_matching.py,370,chunk_config,chunk,chunks.iterrows()
+07_run_lda_concept_matching.py,373,chunk_config,chunk,chunk_subject = str(
+07_run_lda_concept_matching.py,374,chunk_config,chunk,"chunk[""subject""]"
+07_run_lda_concept_matching.py,392,chunk_config,chunk,chunk_subject
+07_run_lda_concept_matching.py,400,chunk_config,chunk,"chunk_index,"
+07_run_lda_concept_matching.py,409,chunk_config,chunk,"chunk[""video_id""],"
+07_run_lda_concept_matching.py,412,chunk_config,chunk,"chunk_subject,"
+07_run_lda_concept_matching.py,417,chunk_config,chunk,"""chunk_id"":"
+07_run_lda_concept_matching.py,419,chunk_config,chunk,"chunk[""chunk_id""]"
+07_run_lda_concept_matching.py,423,chunk_config,chunk,"chunk[""start_sec""],"
+07_run_lda_concept_matching.py,426,chunk_config,chunk,"chunk[""end_sec""],"
+07_run_lda_concept_matching.py,446,lda,\bLDA\b,# 12. SAVE ALL LDA CONCEPT SCORES
+07_run_lda_concept_matching.py,463,chunk_config,chunk,# 13. TOP 3 CONCEPT CỦA MỖI CHUNK
+07_run_lda_concept_matching.py,471,chunk_config,chunk,"""chunk_id"","
+07_run_lda_concept_matching.py,485,chunk_config,chunk,"""chunk_id"""
+07_run_lda_concept_matching.py,515,lda,\bLDA\b,"""\n========== LDA TOPICS =========="""
+07_run_lda_concept_matching.py,533,lda,\bLDA\b,"""\n========== TOP LDA CONCEPTS =========="""
+07_run_lda_concept_matching.py,541,chunk_config,chunk,"""chunk_id"","
+08_fuse_lda_lsa.py,43,lsa,\bLSA\b,# LSA giữ vai trò semantic matching chính
+08_fuse_lda_lsa.py,44,fusion,0\.6,LSA_WEIGHT = 0.60
+08_fuse_lda_lsa.py,46,lda,\bLDA\b,# LDA cung cấp topic evidence
+08_fuse_lda_lsa.py,47,fusion,0\.4,LDA_WEIGHT = 0.40
+08_fuse_lda_lsa.py,47,threshold,0\.40,LDA_WEIGHT = 0.40
+08_fuse_lda_lsa.py,51,normalization,normalization,# 3. MIN-MAX NORMALIZATION
+08_fuse_lda_lsa.py,54,normalization,normalize,def normalize_series(series):
+08_fuse_lda_lsa.py,63,fusion,0\.4,0.40
+08_fuse_lda_lsa.py,63,threshold,0\.40,0.40
+08_fuse_lda_lsa.py,65,normalization,normalize,normalized:
+08_fuse_lda_lsa.py,96,lda,\bLDA\b,"print(""STEP 08 - FUSE LDA + LSA"")"
+08_fuse_lda_lsa.py,96,lsa,\bLSA\b,"print(""STEP 08 - FUSE LDA + LSA"")"
+08_fuse_lda_lsa.py,96,fusion,lda.*lsa,"print(""STEP 08 - FUSE LDA + LSA"")"
+08_fuse_lda_lsa.py,105,lda,\bLDA\b,"print(""Không tìm thấy LDA file:"")"
+08_fuse_lda_lsa.py,112,lsa,\bLSA\b,"print(""Không tìm thấy LSA file:"")"
+08_fuse_lda_lsa.py,122,lda,\bLDA\b,lda = pd.read_csv(
+08_fuse_lda_lsa.py,126,lsa,\bLSA\b,lsa = pd.read_csv(
+08_fuse_lda_lsa.py,132,lda,\bLDA\b,"""Số dòng LDA:"","
+08_fuse_lda_lsa.py,133,lda,\bLDA\b,len(lda)
+08_fuse_lda_lsa.py,137,lsa,\bLSA\b,"""Số dòng LSA:"","
+08_fuse_lda_lsa.py,138,lsa,\bLSA\b,len(lsa)
+08_fuse_lda_lsa.py,143,lda,\bLDA\b,# 7. MERGE LDA + LSA
+08_fuse_lda_lsa.py,143,lsa,\bLSA\b,# 7. MERGE LDA + LSA
+08_fuse_lda_lsa.py,143,fusion,lda.*lsa,# 7. MERGE LDA + LSA
+08_fuse_lda_lsa.py,150,chunk_config,chunk,"""chunk_id"","
+08_fuse_lda_lsa.py,157,lda,\bLDA\b,merged = lda.merge(
+08_fuse_lda_lsa.py,158,lsa,\bLSA\b,"lsa,"
+08_fuse_lda_lsa.py,173,lda,\bLDA\b,"""Không merge được LDA và LSA."""
+08_fuse_lda_lsa.py,173,lsa,\bLSA\b,"""Không merge được LDA và LSA."""
+08_fuse_lda_lsa.py,173,fusion,lda.*lsa,"""Không merge được LDA và LSA."""
+08_fuse_lda_lsa.py,180,chunk_config,chunk,# 8. NORMALIZE SCORE TRONG TỪNG CHUNK
+08_fuse_lda_lsa.py,180,normalization,normalize,# 8. NORMALIZE SCORE TRONG TỪNG CHUNK
+08_fuse_lda_lsa.py,185,normalization,normalize,# Không normalize toàn dataset.
+08_fuse_lda_lsa.py,187,chunk_config,chunk,# Mỗi chunk sẽ tự so sánh các concept
+08_fuse_lda_lsa.py,188,chunk_config,chunk,# thuộc chunk đó với nhau.
+08_fuse_lda_lsa.py,196,chunk_config,chunk,"""chunk_id"""
+08_fuse_lda_lsa.py,199,transform_operation,\.transform\s*\(,.transform(
+08_fuse_lda_lsa.py,200,normalization,normalize,normalize_series
+08_fuse_lda_lsa.py,210,chunk_config,chunk,"""chunk_id"""
+08_fuse_lda_lsa.py,213,transform_operation,\.transform\s*\(,.transform(
+08_fuse_lda_lsa.py,214,normalization,normalize,normalize_series
+08_fuse_lda_lsa.py,253,chunk_config,chunk,# 10. RANK CONCEPT TRONG TỪNG CHUNK
+08_fuse_lda_lsa.py,261,chunk_config,chunk,"""chunk_id"""
+08_fuse_lda_lsa.py,281,chunk_config,chunk,"""chunk_id"","
+08_fuse_lda_lsa.py,301,chunk_config,chunk,# 13. TOP 3 CONCEPT / CHUNK
+08_fuse_lda_lsa.py,331,chunk_config,chunk,"""chunk_id"","
+09_build_video_concept_evidence.py,63,chunk_config,chunk,# ĐẾM SỐ CHUNK CỦA MỖI VIDEO
+09_build_video_concept_evidence.py,66,chunk_config,chunk,chunk_counts = (
+09_build_video_concept_evidence.py,68,chunk_config,chunk,".groupby(""video_id"")[""chunk_id""]"
+09_build_video_concept_evidence.py,93,chunk_config,chunk,num_chunks = (
+09_build_video_concept_evidence.py,94,chunk_config,chunk,chunk_counts[
+09_build_video_concept_evidence.py,108,aggregation,mean,mean_final = (
+09_build_video_concept_evidence.py,110,aggregation,mean,.mean()
+09_build_video_concept_evidence.py,127,aggregation,top3,top3_count = int(
+09_build_video_concept_evidence.py,139,aggregation,top3,top3_ratio = (
+09_build_video_concept_evidence.py,140,aggregation,top3,top3_count
+09_build_video_concept_evidence.py,141,chunk_config,chunk,/ num_chunks
+09_build_video_concept_evidence.py,146,chunk_config,chunk,/ num_chunks
+09_build_video_concept_evidence.py,158,aggregation,top2,top2_mean = (
+09_build_video_concept_evidence.py,159,aggregation,mean,strongest.mean()
+09_build_video_concept_evidence.py,163,chunk_config,chunk,# BEST CHUNK
+09_build_video_concept_evidence.py,190,chunk_config,chunk,"""num_chunks"":"
+09_build_video_concept_evidence.py,191,chunk_config,chunk,"num_chunks,"
+09_build_video_concept_evidence.py,199,aggregation,mean,"""mean_final_score"":"
+09_build_video_concept_evidence.py,201,aggregation,mean,"float(mean_final),"
+09_build_video_concept_evidence.py,205,aggregation,top2,"""top2_mean_score"":"
+09_build_video_concept_evidence.py,207,aggregation,top2,"float(top2_mean),"
+09_build_video_concept_evidence.py,211,aggregation,top3,"""top3_count"":"
+09_build_video_concept_evidence.py,212,aggregation,top3,"top3_count,"
+09_build_video_concept_evidence.py,214,aggregation,top3,"""top3_ratio"":"
+09_build_video_concept_evidence.py,216,aggregation,top3,"float(top3_ratio),"
+09_build_video_concept_evidence.py,241,chunk_config,chunk,"""best_chunk_id"":"
+09_build_video_concept_evidence.py,243,chunk_config,chunk,"best_row[""chunk_id""]"
+09_build_video_concept_evidence.py,272,aggregation,top2,"""top2_mean_score"","
+09_build_video_concept_evidence.py,273,aggregation,top3,"""top3_ratio"""
+09_build_video_concept_evidence.py,308,aggregation,top2,"""top2_mean_score"","
+09_build_video_concept_evidence.py,309,aggregation,top3,"""top3_count"","
+09_build_video_concept_evidence.py,310,aggregation,top3,"""top3_ratio"","
+10_predict_evaluate_baseline.py,40,threshold,threshold,# PREDICTION THRESHOLD
+10_predict_evaluate_baseline.py,43,fusion,0\.4,PREDICTION_THRESHOLD = 0.40
+10_predict_evaluate_baseline.py,43,threshold,threshold,PREDICTION_THRESHOLD = 0.40
+10_predict_evaluate_baseline.py,47,normalization,normalize,# 2. NORMALIZE TEXT
+10_predict_evaluate_baseline.py,50,normalization,normalize,def normalize_text(value):
+10_predict_evaluate_baseline.py,135,normalization,normalize,# NORMALIZE
+10_predict_evaluate_baseline.py,140,normalization,normalize,.apply(normalize_text)
+10_predict_evaluate_baseline.py,145,normalization,normalize,.apply(normalize_text)
+10_predict_evaluate_baseline.py,150,normalization,normalize,.apply(normalize_text)
+10_predict_evaluate_baseline.py,156,normalization,normalize,.apply(normalize_text)
+10_predict_evaluate_baseline.py,161,normalization,normalize,.apply(normalize_text)
+10_predict_evaluate_baseline.py,166,normalization,normalize,.apply(normalize_text)
+10_predict_evaluate_baseline.py,175,aggregation,top2,"evidence[""top2_mean_score""]"
+10_predict_evaluate_baseline.py,176,threshold,threshold,>= PREDICTION_THRESHOLD
+10_predict_evaluate_baseline.py,197,threshold,threshold,"""\nPrediction threshold:"","
+10_predict_evaluate_baseline.py,198,threshold,threshold,PREDICTION_THRESHOLD
+10_predict_evaluate_baseline.py,317,threshold,threshold,"""threshold"":"
+10_predict_evaluate_baseline.py,318,threshold,threshold,"PREDICTION_THRESHOLD,"
+10_predict_evaluate_baseline.py,442,threshold,threshold,"""threshold"":"
+10_predict_evaluate_baseline.py,443,threshold,threshold,"PREDICTION_THRESHOLD,"
