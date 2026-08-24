@@ -1,0 +1,44 @@
+VIDEO ID: v22
+SUBJECT: Python
+TITLE: Range Function in Python Step-by-Step Tutorial
+URL: https://www.youtube.com/watch?v=Evycb99_XIc
+
+========================================================================
+TRANSCRIPT
+========================================================================
+
+[00:00:00 - 00:00:04] The next is range.
+[00:00:02 - 00:00:07] The range data type generates the
+[00:00:04 - 00:00:10] sequence of number.
+[00:00:07 - 00:00:12] It's commonly used in loops.
+[00:00:10 - 00:00:14] Let me give you an example. If you want
+[00:00:12 - 00:00:19] to write range, then you're supposed to
+[00:00:14 - 00:00:21] write range into the bracket 1,6.
+[00:00:19 - 00:00:25] Now, if you write range like this, and
+[00:00:21 - 00:00:28] this gives the output like this, 1 2 3 4
+[00:00:25 - 00:00:31] and 5. Here, you have noticed something
+[00:00:28 - 00:00:34] important. The end value is not
+[00:00:31 - 00:00:37] included. End value is 6, which is not
+[00:00:34 - 00:00:40] included here, right? So, remember that
+[00:00:37 - 00:00:42] in range, whatever end value you mention
+[00:00:40 - 00:00:45] over here, that will not be included.
+[00:00:42 - 00:00:47] And that is also the property of range.
+[00:00:45 - 00:00:52] Now, other important thing about range
+[00:00:47 - 00:00:56] is you can use range in step also.
+[00:00:52 - 00:00:59] For example, if I write range like this,
+[00:00:56 - 00:01:01] range 0,10,2.
+[00:00:59 - 00:01:04] Now, what does it indicates? First of
+[00:01:01 - 00:01:06] all, starting character, then ending
+[00:01:04 - 00:01:09] character, and then this is the step
+[00:01:06 - 00:01:11] size. And like this, if we run and
+[00:01:09 - 00:01:15] execute this thing, and this is the
+[00:01:11 - 00:01:19] output we get, 0 2 4 6 8.
+[00:01:15 - 00:01:21] And 10 is not included. Why? Because it
+[00:01:19 - 00:01:24] is end character. So, you need to
+[00:01:21 - 00:01:27] remember this thing that in range, this
+[00:01:24 - 00:01:29] end character is not included in output.
+[00:01:27 - 00:01:33] Now, there is one important thing about
+[00:01:29 - 00:01:36] this range is range is really, really
+[00:01:33 - 00:01:38] memory efficient. And it is widely used
+[00:01:36 - 00:01:42] for iteration purpose, right? So, this
+[00:01:38 - 00:01:42] is very important about range.

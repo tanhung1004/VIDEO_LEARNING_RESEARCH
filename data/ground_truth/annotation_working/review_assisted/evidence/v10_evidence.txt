@@ -1,0 +1,212 @@
+VIDEO ID: v10
+SUBJECT: SQL
+TITLE: GROUP BY and HAVING Clause in SELECT Command
+URL: https://www.youtube.com/watch?v=wsbp1J-AFhY
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: select
+DESCRIPTION: select data columns from a database table using SQL select query
+SEARCH ALIASES: select, select statement, select query
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:15 - 00:00:25
+  SECONDS: 15.9 - 25.46
+  MATCH: select
+  TEXT: discuss about the two more Clauses if select command that is a group by and having cross
+
+  HIT 2
+  TIME: 00:00:36 - 00:00:57
+  SECONDS: 36.48 - 57.18
+  MATCH: select, select statement
+  TEXT: will be used in select statement or select command select Command right and see this
+
+  HIT 3
+  TIME: 00:00:40 - 00:00:59
+  SECONDS: 40.74 - 59.94
+  MATCH: select
+  TEXT: select statement or select command select Command right and see this select the command is used to
+
+------------------------------------------------------------------------
+
+CONCEPT: where
+DESCRIPTION: filter database rows using a where condition
+SEARCH ALIASES: where, where clause
+DIRECT HIT COUNT (top max 3 shown): 2
+
+  HIT 1
+  TIME: 00:00:59 - 00:01:09
+  SECONDS: 59.94 - 69.96
+  MATCH: where
+  TEXT: the table so in this select command we have already seen the where class and the ordered by class so where class is
+
+  HIT 2
+  TIME: 00:01:03 - 00:01:11
+  SECONDS: 63.06 - 71.96
+  MATCH: where
+  TEXT: have already seen the where class and the ordered by class so where class is to get the data based upon the
+
+------------------------------------------------------------------------
+
+CONCEPT: group by
+DESCRIPTION: group database rows by one or more columns
+SEARCH ALIASES: group by
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:15 - 00:00:25
+  SECONDS: 15.9 - 25.46
+  MATCH: group by
+  TEXT: discuss about the two more Clauses if select command that is a group by and having cross
+
+  HIT 2
+  TIME: 00:00:20 - 00:00:29
+  SECONDS: 20.16 - 29.66
+  MATCH: group by
+  TEXT: having cross so Group by and having class
+
+  HIT 3
+  TIME: 00:01:18 - 00:01:31
+  SECONDS: 78.24 - 91.5
+  MATCH: group by
+  TEXT: either ascending order or the this any code similarly this group by Group by class is used to
+
+------------------------------------------------------------------------
+
+CONCEPT: having
+DESCRIPTION: filter grouped SQL results after aggregation
+SEARCH ALIASES: having, having clause
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:18 - 00:00:25
+  SECONDS: 18.24 - 25.46
+  MATCH: having
+  TEXT: select command that is a group by and having cross so Group by
+
+  HIT 2
+  TIME: 00:00:22 - 00:00:36
+  SECONDS: 22.32 - 36.48
+  MATCH: having
+  TEXT: so Group by and having class so these clauses
+
+  HIT 3
+  TIME: 00:01:28 - 00:01:40
+  SECONDS: 88.2 - 100.44
+  MATCH: having
+  TEXT: group the class group the rows so whatever the rows we are having so group the rows based upon the column
+
+------------------------------------------------------------------------
+
+CONCEPT: count
+DESCRIPTION: count rows or values using SQL aggregate function
+SEARCH ALIASES: count, count function
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:01:48 - 00:01:58
+  SECONDS: 108.84 - 118.68
+  MATCH: count
+  TEXT: functions like sum average minimum maximum count etcetera Etc we have seen these aggregate
+
+  HIT 2
+  TIME: 00:03:17 - 00:03:28
+  SECONDS: 197.64 - 208.92
+  MATCH: count
+  TEXT: gender that means male and a female so we can count okay how many number of students are male students and how many
+
+  HIT 3
+  TIME: 00:03:28 - 00:03:38
+  SECONDS: 208.92 - 218.1
+  MATCH: count
+  TEXT: done with the help of this group by so we'll use account method so count means which is an aggregate function grouped
+
+------------------------------------------------------------------------
+
+CONCEPT: aggregate function
+DESCRIPTION: perform SQL aggregation such as count sum average minimum maximum
+SEARCH ALIASES: aggregate function, aggregate functions, aggregation, sum, average, avg, minimum, maximum
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:01:42 - 00:01:48
+  SECONDS: 102.54 - 108.84
+  MATCH: aggregate functions
+  TEXT: here we are supposed to use the aggregate functions so which we have covered
+
+  HIT 2
+  TIME: 00:01:46 - 00:01:56
+  SECONDS: 106.98 - 116.88
+  MATCH: sum
+  TEXT: in the previous session aggregate functions like sum average minimum maximum count etcetera
+
+  HIT 3
+  TIME: 00:02:04 - 00:02:18
+  SECONDS: 124.74 - 138.02
+  MATCH: aggregate functions
+  TEXT: this having class here also we are going to use the aggregate functions and here
+
+------------------------------------------------------------------------
+
+CONCEPT: join
+DESCRIPTION: combine rows from multiple database tables
+SEARCH ALIASES: join, joins, joining
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: inner join
+DESCRIPTION: combine matching rows from two database tables using inner join
+SEARCH ALIASES: inner join
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: left join
+DESCRIPTION: keep all rows from the left table and matching rows from another table
+SEARCH ALIASES: left join, left outer join
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: subquery
+DESCRIPTION: use a query nested inside another SQL query
+SEARCH ALIASES: subquery, subqueries, nested query
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: order by
+DESCRIPTION: sort SQL query results by one or more columns
+SEARCH ALIASES: order by
+DIRECT HIT COUNT (top max 3 shown): 1
+
+  HIT 1
+  TIME: 00:01:09 - 00:01:20
+  SECONDS: 69.96 - 80.22
+  MATCH: order by
+  TEXT: conditions and the next one order by class is used to order I mean the getting the data in
+
+------------------------------------------------------------------------

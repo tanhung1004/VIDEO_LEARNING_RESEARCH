@@ -1,0 +1,182 @@
+VIDEO ID: v15
+SUBJECT: Python
+TITLE: Python 3 Programming Tutorial - For loop
+URL: https://www.youtube.com/watch?v=xtXexPSfcZg
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: for loop
+DESCRIPTION: repeat a block of Python code using a for loop
+SEARCH ALIASES: for loop, for loops
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:02 - 00:00:12
+  SECONDS: 2.32 - 12.48
+  MATCH: for loop
+  TEXT: another Python 3 tutorial. This tutorial is going to be covering the for loop. The for loop is used for pretty much the
+
+  HIT 2
+  TIME: 00:00:05 - 00:00:14
+  SECONDS: 5.2 - 14.72
+  MATCH: for loop
+  TEXT: is going to be covering the for loop. The for loop is used for pretty much the same tasks as the while loop. They're
+
+  HIT 3
+  TIME: 00:00:20 - 00:00:30
+  SECONDS: 20.32 - 30.08
+  MATCH: for loop
+  TEXT: but I suppose I would say finite or infinite uh tasks. And the for loop is usually used to be a little bit more
+
+------------------------------------------------------------------------
+
+CONCEPT: for
+DESCRIPTION: iterate through elements using the Python for statement
+SEARCH ALIASES: for statement, for loop, for in
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:02 - 00:00:12
+  SECONDS: 2.32 - 12.48
+  MATCH: for loop
+  TEXT: another Python 3 tutorial. This tutorial is going to be covering the for loop. The for loop is used for pretty much the
+
+  HIT 2
+  TIME: 00:00:05 - 00:00:14
+  SECONDS: 5.2 - 14.72
+  MATCH: for loop
+  TEXT: is going to be covering the for loop. The for loop is used for pretty much the same tasks as the while loop. They're
+
+  HIT 3
+  TIME: 00:00:20 - 00:00:30
+  SECONDS: 20.32 - 30.08
+  MATCH: for loop
+  TEXT: but I suppose I would say finite or infinite uh tasks. And the for loop is usually used to be a little bit more
+
+------------------------------------------------------------------------
+
+CONCEPT: iteration
+DESCRIPTION: repeatedly process elements in a sequence
+SEARCH ALIASES: iteration, iterations, iterate, iterating
+DIRECT HIT COUNT (top max 3 shown): 1
+
+  HIT 1
+  TIME: 00:01:21 - 00:01:29
+  SECONDS: 81.36 - 89.92
+  MATCH: iterate
+  TEXT: going to see the for loop being used to iterate through a list. And what iterate means is just go through a list. So,
+
+------------------------------------------------------------------------
+
+CONCEPT: range
+DESCRIPTION: generate a sequence of numbers for Python iteration
+SEARCH ALIASES: range, range function
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:06:31 - 00:06:43
+  SECONDS: 391.84 - 403.04
+  MATCH: range
+  TEXT: with the for loop you can do 4x in range. And range is a built-in function in Python. Um so first I'll just show
+
+  HIT 2
+  TIME: 00:06:50 - 00:07:01
+  SECONDS: 410.88 - 421.2
+  MATCH: range
+  TEXT: 2 3 4 5 6 7 8 9 10 not 11. And the way a range works, it starts at the first number and goes all the way up to the
+
+  HIT 3
+  TIME: 00:07:01 - 00:07:09
+  SECONDS: 421.2 - 429.36
+  MATCH: range
+  TEXT: a couple of uh or one thing to note, range is a built-in Python function. So you don't have to import it and it will
+
+------------------------------------------------------------------------
+
+CONCEPT: list
+DESCRIPTION: sore and process ordered Python elements in a list
+SEARCH ALIASES: list, lists
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:01:21 - 00:01:29
+  SECONDS: 81.36 - 89.92
+  MATCH: list
+  TEXT: going to see the for loop being used to iterate through a list. And what iterate means is just go through a list. So,
+
+  HIT 2
+  TIME: 00:01:23 - 00:01:32
+  SECONDS: 83.44 - 92.72
+  MATCH: list
+  TEXT: iterate through a list. And what iterate means is just go through a list. So, let's make an example list. So, we're
+
+  HIT 3
+  TIME: 00:01:25 - 00:01:35
+  SECONDS: 85.76 - 95.44
+  MATCH: list
+  TEXT: means is just go through a list. So, let's make an example list. So, we're going to name this example list. And
+
+------------------------------------------------------------------------
+
+CONCEPT: nested loop
+DESCRIPTION: use one loop inside another loop
+SEARCH ALIASES: nested loop, nested loops
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: index
+DESCRIPTION: access an element using its position or index
+SEARCH ALIASES: index, indexing, indices
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: break
+DESCRIPTION: stop a loop early using the break statement
+SEARCH ALIASES: break, break statement
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: continue
+DESCRIPTION: skip the current loop iteration using continue
+SEARCH ALIASES: continue, continue statement
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:04:12 - 00:04:23
+  SECONDS: 252.96 - 263.44
+  MATCH: continue
+  TEXT: here and um we'll just say print continue program like that. Run it. And you'll see here
+
+  HIT 2
+  TIME: 00:04:28 - 00:04:38
+  SECONDS: 268.64 - 278.16
+  MATCH: continue
+  TEXT: you indent this along with this for loop, you're going to see continue program for every number. So when we run
+
+  HIT 3
+  TIME: 00:04:35 - 00:04:44
+  SECONDS: 275.76 - 284.96
+  MATCH: continue
+  TEXT: this, you can see that at each step of the way it continue the program. So just keep that in mind that you're that's how
+
+------------------------------------------------------------------------

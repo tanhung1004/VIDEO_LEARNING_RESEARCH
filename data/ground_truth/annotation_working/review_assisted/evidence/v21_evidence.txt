@@ -1,0 +1,126 @@
+VIDEO ID: v21
+SUBJECT: Python
+TITLE: Python Tutorial: Nested Loops
+URL: https://www.youtube.com/watch?v=HVqcW9k9RPU
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: for loop
+DESCRIPTION: repeat a block of Python code using a for loop
+SEARCH ALIASES: for loop, for loops
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: for
+DESCRIPTION: iterate through elements using the Python for statement
+SEARCH ALIASES: for statement, for loop, for in
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: iteration
+DESCRIPTION: repeatedly process elements in a sequence
+SEARCH ALIASES: iteration, iterations, iterate, iterating
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: range
+DESCRIPTION: generate a sequence of numbers for Python iteration
+SEARCH ALIASES: range, range function
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: list
+DESCRIPTION: sore and process ordered Python elements in a list
+SEARCH ALIASES: list, lists
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: nested loop
+DESCRIPTION: use one loop inside another loop
+SEARCH ALIASES: nested loop, nested loops
+DIRECT HIT COUNT (top max 3 shown): 2
+
+  HIT 1
+  TIME: 00:00:02 - 00:00:12
+  SECONDS: 2.79 - 12.63
+  MATCH: nested loops
+  TEXT: rank and in this video we are going to talk about nested loops in Bai long so we'll begin by giving you an overview
+
+  HIT 2
+  TIME: 00:01:53 - 00:02:09
+  SECONDS: 113.82 - 129.21
+  MATCH: nested loops
+  TEXT: something that looked maybe like this okay using nested loops okay so if I was gonna do that okay here's what I could
+
+------------------------------------------------------------------------
+
+CONCEPT: index
+DESCRIPTION: access an element using its position or index
+SEARCH ALIASES: index, indexing, indices
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: break
+DESCRIPTION: stop a loop early using the break statement
+SEARCH ALIASES: break, break statement
+DIRECT HIT COUNT (top max 3 shown): 2
+
+  HIT 1
+  TIME: 00:02:38 - 00:02:49
+  SECONDS: 158.48 - 169.61
+  MATCH: break
+  TEXT: we take a look at this field of stars we can break this down into small pieces right so what you have are rows of stars
+
+  HIT 2
+  TIME: 00:08:49 - 00:09:01
+  SECONDS: 529.84 - 541.44
+  MATCH: break
+  TEXT: than zero no zeros not greater than zero so it's false would break out for any light character so now we've moved to
+
+------------------------------------------------------------------------
+
+CONCEPT: continue
+DESCRIPTION: skip the current loop iteration using continue
+SEARCH ALIASES: continue, continue statement
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------

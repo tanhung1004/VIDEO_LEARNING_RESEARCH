@@ -1,0 +1,453 @@
+VIDEO ID: v12
+SUBJECT: SQL
+TITLE: Joins in MySQL
+URL: https://www.youtube.com/watch?v=lXQzD09BOH0
+
+========================================================================
+TRANSCRIPT
+========================================================================
+
+[00:00:00 - 00:00:04] hello everybody in this lesson we're
+[00:00:02 - 00:00:07] gonna be taking a look at joins joins
+[00:00:04 - 00:00:09] allow you to combine two tables or more
+[00:00:07 - 00:00:12] together if they have a common column
+[00:00:09 - 00:00:14] that doesn't mean the column name has to
+[00:00:12 - 00:00:16] be the exact same but at least the data
+[00:00:14 - 00:00:18] within it are similar that you can use
+[00:00:16 - 00:00:20] there are several joins that we're going
+[00:00:18 - 00:00:23] to look at today like inner joins outer
+[00:00:20 - 00:00:24] joins and self joins these are the two
+[00:00:23 - 00:00:26] tables that we'll be working with the
+[00:00:24 - 00:00:28] most throughout this lesson we have the
+[00:00:26 - 00:00:30] employee demographics table as well as
+[00:00:28 - 00:00:32] the employee salary table now within the
+[00:00:30 - 00:00:35] employee demographics table we do have
+[00:00:32 - 00:00:37] this employee ID column if we look at
+[00:00:35 - 00:00:39] the employee salary we also have the
+[00:00:37 - 00:00:41] employee ID column so in this instance
+[00:00:39 - 00:00:43] the column name is actually the exact
+[00:00:41 - 00:00:46] same and of course the data inside of it
+[00:00:43 - 00:00:48] is also very similar so let's start by
+[00:00:46 - 00:00:49] writing out an inner join this is
+[00:00:48 - 00:00:52] probably one of the most common joins
+[00:00:49 - 00:00:54] one of the most simple joins as well an
+[00:00:52 - 00:00:56] inner join is going to return rows that
+[00:00:54 - 00:00:58] are the same in both columns from both
+[00:00:56 - 00:01:00] tables so let's see how we can actually
+[00:00:58 - 00:01:02] write out this join
+[00:01:00 - 00:01:04] let's come right down here and let's
+[00:01:02 - 00:01:06] copy this this will be the first table
+[00:01:04 - 00:01:08] that we start with and we'll join the
+[00:01:06 - 00:01:09] salary table onto this demographics
+[00:01:08 - 00:01:11] table
+[00:01:09 - 00:01:15] so what we need to do is we need to come
+[00:01:11 - 00:01:18] right here and we need to say join now
+[00:01:15 - 00:01:21] by default join represents an inner join
+[00:01:18 - 00:01:23] although we can write inner join here to
+[00:01:21 - 00:01:26] make it more explicit explicitly writing
+[00:01:23 - 00:01:28] out inner join then we're going to come
+[00:01:26 - 00:01:30] up here and we're going to say employee
+[00:01:28 - 00:01:33] salary so we're selecting everything
+[00:01:30 - 00:01:35] from the employee demographics and we're
+[00:01:33 - 00:01:38] doing an inner join on the employee
+[00:01:35 - 00:01:40] salary now we have to tell my sequel
+[00:01:38 - 00:01:42] exactly what columns we're supposed to
+[00:01:40 - 00:01:44] be joining on I'm going to hit enter and
+[00:01:42 - 00:01:47] I'm going to hit tab now you don't have
+[00:01:44 - 00:01:49] to hit tab it just looks more code-like
+[00:01:47 - 00:01:51] and it's easier to read and that's how
+[00:01:49 - 00:01:53] I've done it for other programming
+[00:01:51 - 00:01:54] languages as well so that's how I'm
+[00:01:53 - 00:01:57] going to show you how to do it what we
+[00:01:54 - 00:01:59] need to do is say on now this keyword is
+[00:01:57 - 00:02:01] going to allow us to say we're joining
+[00:01:59 - 00:02:04] the demographics table to the salary
+[00:02:01 - 00:02:06] table based on these two columns so from
+[00:02:04 - 00:02:09] the demographics table we're doing the
+[00:02:06 - 00:02:11] employee underscore ID is equal to and
+[00:02:09 - 00:02:14] then in the salary table it's also the
+[00:02:11 - 00:02:16] employee ID let's do employee
+[00:02:14 - 00:02:18] and you spell it right employee
+[00:02:16 - 00:02:21] underscore ID
+[00:02:18 - 00:02:21] now if we try to run this and let's do
+[00:02:21 - 00:02:24] this
+[00:02:21 - 00:02:26] we're gonna get an error and let's bring
+[00:02:24 - 00:02:28] this up it's going to say column
+[00:02:26 - 00:02:30] employee ID on the in-clause is
+[00:02:28 - 00:02:31] ambiguous now what does it mean
+[00:02:30 - 00:02:34] ambiguous
+[00:02:31 - 00:02:36] that means that it doesn't know what
+[00:02:34 - 00:02:38] table this employee ID is from is it
+[00:02:36 - 00:02:39] from the employee demographics table is
+[00:02:38 - 00:02:42] it from the employee's salary table we
+[00:02:39 - 00:02:45] don't know because it's ambiguous now
+[00:02:42 - 00:02:47] what we can do is we can specify it by
+[00:02:45 - 00:02:51] saying employee demographics
+[00:02:47 - 00:02:53] dot employee ID and then employee salary
+[00:02:51 - 00:02:55] dot employee ID
+[00:02:53 - 00:02:57] now if we run this
+[00:02:55 - 00:02:58] we're going to get the output that we're
+[00:02:57 - 00:03:00] looking for and let's take a look at
+[00:02:58 - 00:03:02] this real quick
+[00:03:00 - 00:03:04] let me bring this up
+[00:03:02 - 00:03:06] so we're pulling everything from the
+[00:03:04 - 00:03:08] employee demographics that right here
+[00:03:06 - 00:03:10] all the way through the birth date then
+[00:03:08 - 00:03:13] we're pulling the employee salary table
+[00:03:10 - 00:03:16] that's the employee ID all the way let's
+[00:03:13 - 00:03:18] scroll over through the department ID so
+[00:03:16 - 00:03:19] we're basically pulling in all of the
+[00:03:18 - 00:03:22] rows or all the columns from both tables
+[00:03:19 - 00:03:24] but we're not pulling in all of the rows
+[00:03:22 - 00:03:26] remember an inner join is only going to
+[00:03:24 - 00:03:29] bring over the rows that have the same
+[00:03:26 - 00:03:31] values in both columns that we're tying
+[00:03:29 - 00:03:34] on so in this employee ID we're missing
+[00:03:31 - 00:03:38] number two am I missing any other ones
+[00:03:34 - 00:03:40] no we're only missing number two let's
+[00:03:38 - 00:03:42] go back up and I'm going to run both of
+[00:03:40 - 00:03:44] these tables I'm going to take a look
+[00:03:42 - 00:03:46] so let's run this
+[00:03:44 - 00:03:48] so you'll notice in the employee's
+[00:03:46 - 00:03:51] salary table we have a number two right
+[00:03:48 - 00:03:53] here and that's Ron Swanson but in the
+[00:03:51 - 00:03:57] employee demographics table we don't
+[00:03:53 - 00:03:58] have that I believe that Ron Swanson did
+[00:03:57 - 00:04:01] this that Leslie Knope would not know
+[00:03:58 - 00:04:02] when his birthday was because he didn't
+[00:04:01 - 00:04:05] want to bring that information I think
+[00:04:02 - 00:04:07] that makes the most sense although Ron
+[00:04:05 - 00:04:10] was not willing to give a comment on
+[00:04:07 - 00:04:12] that now if we run this again
+[00:04:10 - 00:04:15] you'll notice that 2 is not in there
+[00:04:12 - 00:04:17] since 2 is not in the employee
+[00:04:15 - 00:04:19] demographics table the employee ID 2 is
+[00:04:17 - 00:04:21] not going to be populated or brought
+[00:04:19 - 00:04:23] over into this output from the
+[00:04:21 - 00:04:25] employee's salary table now really
+[00:04:23 - 00:04:27] quickly this is honestly giving me some
+[00:04:25 - 00:04:28] anxiety because this is so incredibly
+[00:04:27 - 00:04:30] long
+[00:04:28 - 00:04:31] something that I mentioned in The
+[00:04:30 - 00:04:33] Beginner's series is that you can use
+[00:04:31 - 00:04:35] something called aliasing when using
+[00:04:33 - 00:04:37] joins and it's really helpful this is
+[00:04:35 - 00:04:38] what I mean so right here we haven't
+[00:04:37 - 00:04:43] played demographics we're going to call
+[00:04:38 - 00:04:46] this DM you can also do as DM you can do
+[00:04:43 - 00:04:49] as Sal these are just short names for
+[00:04:46 - 00:04:52] demographics and short name for salary
+[00:04:49 - 00:04:57] and we can replace these and say DM dot
+[00:04:52 - 00:04:58] employee ID and Sal dot employee ID oh
+[00:04:57 - 00:05:00] that looks so much better now we're
+[00:04:58 - 00:05:02] going to run this and it'll be the exact
+[00:05:00 - 00:05:04] same output but now we're using these
+[00:05:02 - 00:05:07] aliases which just makes it so much
+[00:05:04 - 00:05:08] easier to read now one last thing that I
+[00:05:07 - 00:05:11] want to show you while we're just
+[00:05:08 - 00:05:13] looking at the inner join is selecting
+[00:05:11 - 00:05:16] the actual columns let's say we wanted
+[00:05:13 - 00:05:19] to select the employee ID
+[00:05:16 - 00:05:22] and we wanted to select age and then we
+[00:05:19 - 00:05:24] wanted to select their occupation
+[00:05:22 - 00:05:26] if we try to run this we're going to get
+[00:05:24 - 00:05:27] an error and it's going to be almost the
+[00:05:26 - 00:05:30] exact same error that we got before
+[00:05:27 - 00:05:34] which is column employee ID in field
+[00:05:30 - 00:05:35] list is ambiguous so in our field list
+[00:05:34 - 00:05:37] which is right up here in the select
+[00:05:35 - 00:05:40] statement we have this employee ID
+[00:05:37 - 00:05:42] it does not know which employee ID to
+[00:05:40 - 00:05:44] pull from whether it's the demographics
+[00:05:42 - 00:05:46] or the salary so we have to tell it
+[00:05:44 - 00:05:48] which one to pull from so let's pull it
+[00:05:46 - 00:05:51] from the demographics by saying
+[00:05:48 - 00:05:53] dem.employee ID now when we run this
+[00:05:51 - 00:05:56] we're able to get information from both
+[00:05:53 - 00:05:59] tables in our output without having all
+[00:05:56 - 00:06:01] of the information and if there are
+[00:05:59 - 00:06:04] columns that are similar in both tables
+[00:06:01 - 00:06:07] we have to denote that by using this
+[00:06:04 - 00:06:09] Alias or the table name alright so that
+[00:06:07 - 00:06:11] is inner joins now let's move down here
+[00:06:09 - 00:06:13] I'm going to copy this and we're going
+[00:06:11 - 00:06:15] to come right down here and we're going
+[00:06:13 - 00:06:18] to look at outer joins next
+[00:06:15 - 00:06:20] and let's put that right here now for
+[00:06:18 - 00:06:22] outer joins we have a left join and we
+[00:06:20 - 00:06:25] have a right join or a left outer and a
+[00:06:22 - 00:06:27] right outer join a left join is going to
+[00:06:25 - 00:06:29] take everything from the left table even
+[00:06:27 - 00:06:31] if there's no match in the join and then
+[00:06:29 - 00:06:33] it will only return the matches from the
+[00:06:31 - 00:06:36] right table the exact opposite is true
+[00:06:33 - 00:06:38] for a right join let's see how this
+[00:06:36 - 00:06:41] actually works let's start by changing
+[00:06:38 - 00:06:43] this to a left join or a left
+[00:06:41 - 00:06:46] outer join they're both the same and you
+[00:06:43 - 00:06:48] can use them uh similarly I'm just going
+[00:06:46 - 00:06:49] to say left join and we're joining it on
+[00:06:48 - 00:06:51] the exact same things and I'm going to
+[00:06:49 - 00:06:53] take everything so I think that'll be
+[00:06:51 - 00:06:55] easier to visualize and I'm going to run
+[00:06:53 - 00:06:58] this now you may notice that this looks
+[00:06:55 - 00:07:01] exactly the same and that's for a very
+[00:06:58 - 00:07:03] good reason it's because in the left
+[00:07:01 - 00:07:06] table which is the employee demographics
+[00:07:03 - 00:07:07] table the from statement that's our left
+[00:07:06 - 00:07:09] table
+[00:07:07 - 00:07:10] and then the join where we're actually
+[00:07:09 - 00:07:12] joining on that's our right table so
+[00:07:10 - 00:07:15] this is our right table so since we're
+[00:07:12 - 00:07:17] doing a left it's taking everything from
+[00:07:15 - 00:07:19] the employee demographics now remember
+[00:07:17 - 00:07:22] the employee demographics didn't have
+[00:07:19 - 00:07:25] Ron Swanson it had no information so
+[00:07:22 - 00:07:26] everything in the right table had a
+[00:07:25 - 00:07:29] match
+[00:07:26 - 00:07:31] well let's change this to a right join
+[00:07:29 - 00:07:32] and what this is going to do when I want
+[00:07:31 - 00:07:34] to make it all cap make it all the same
+[00:07:32 - 00:07:36] what this is going to do is it's going
+[00:07:34 - 00:07:39] to take everything from the employee's
+[00:07:36 - 00:07:41] salary table but if there is not a match
+[00:07:39 - 00:07:43] in the employee demographics it just
+[00:07:41 - 00:07:45] will have nulls let's go ahead and run
+[00:07:43 - 00:07:46] this
+[00:07:45 - 00:07:49] so now it looks a little bit different
+[00:07:46 - 00:07:51] now we're taking everything from the
+[00:07:49 - 00:07:54] employee salary so we're taking Ron
+[00:07:51 - 00:07:57] Swanson but if there is not a match it
+[00:07:54 - 00:07:59] will still populate that row but it'll
+[00:07:57 - 00:08:01] have all nulls in it then any of the
+[00:07:59 - 00:08:03] information that is overlapping or the
+[00:08:01 - 00:08:05] same it will bring over so employee ID
+[00:08:03 - 00:08:07] is matched to employee ID 1 then we'll
+[00:08:05 - 00:08:09] bring all that information over from the
+[00:08:07 - 00:08:12] left table and that's essentially what a
+[00:08:09 - 00:08:13] left and a right join is with a left
+[00:08:12 - 00:08:15] table you're taking everything from the
+[00:08:13 - 00:08:17] left table and then matches from the
+[00:08:15 - 00:08:18] right table if you do a right join
+[00:08:17 - 00:08:21] you're taking everything from the right
+[00:08:18 - 00:08:24] table but only matches on the left table
+[00:08:21 - 00:08:25] and again it populates it with nulls now
+[00:08:24 - 00:08:27] let's go down and look at our last type
+[00:08:25 - 00:08:29] of join that we're going to look at and
+[00:08:27 - 00:08:31] this is a self
+[00:08:29 - 00:08:34] let me spell that right a self-join now
+[00:08:31 - 00:08:37] what is a self-joint it is a join where
+[00:08:34 - 00:08:39] you tie the table to itself now why
+[00:08:37 - 00:08:42] would you want to do this let's take a
+[00:08:39 - 00:08:45] look at a very serious use case let's do
+[00:08:42 - 00:08:49] select everything and let's do this from
+[00:08:45 - 00:08:52] employee underscore salary and let's run
+[00:08:49 - 00:08:54] this now let's say it's December 1st and
+[00:08:52 - 00:08:58] the employee and Rex Department decided
+[00:08:54 - 00:09:00] to do a secret Santa and they wanted to
+[00:08:58 - 00:09:02] assign based off of their employee ID
+[00:09:00 - 00:09:05] the person who they're going to have as
+[00:09:02 - 00:09:08] a secret santa we can help orchestrate
+[00:09:05 - 00:09:10] this very easily using MySQL well very
+[00:09:08 - 00:09:12] easily and subjective I guess but let's
+[00:09:10 - 00:09:14] take a look at how we can do this so
+[00:09:12 - 00:09:15] just like any other join the first thing
+[00:09:14 - 00:09:18] we're going to do is Select everything
+[00:09:15 - 00:09:20] from employee's salary and then say join
+[00:09:18 - 00:09:22] and then we're going to say employee
+[00:09:20 - 00:09:26] salary again so we're tying it to itself
+[00:09:22 - 00:09:27] now when we come down here and let me do
+[00:09:26 - 00:09:32] this when we come down here and we say
+[00:09:27 - 00:09:34] on we have to specify which table we're
+[00:09:32 - 00:09:36] pulling from are we pulling from the
+[00:09:34 - 00:09:37] left table which is like the first table
+[00:09:36 - 00:09:39] we're pulling from are we pulling from
+[00:09:37 - 00:09:40] when we're joining on the right table we
+[00:09:39 - 00:09:43] need to be able to distinguish these two
+[00:09:40 - 00:09:46] tables because they are the same so I'm
+[00:09:43 - 00:09:49] going to say EMP one and I'm going to
+[00:09:46 - 00:09:51] say emp2 just to say this employee table
+[00:09:49 - 00:09:53] 1 and employee table 2. so we're going
+[00:09:51 - 00:09:55] to tie them based off the employee ID
+[00:09:53 - 00:09:56] because we know those will be the exact
+[00:09:55 - 00:09:57] same because we're pulling from the same
+[00:09:56 - 00:10:01] table
+[00:09:57 - 00:10:03] so we'll do mp1 dot employee
+[00:10:01 - 00:10:06] and just so you know if it populates
+[00:10:03 - 00:10:09] like this you can hit Tab and it'll Auto
+[00:10:06 - 00:10:13] finish that for you and emp2 Dot
+[00:10:09 - 00:10:15] employee underscore ID
+[00:10:13 - 00:10:16] now if we run this
+[00:10:15 - 00:10:18] let's do this
+[00:10:16 - 00:10:20] the output that we're going to get is
+[00:10:18 - 00:10:22] literally just a one for one match it's
+[00:10:20 - 00:10:24] all the columns and all the rows because
+[00:10:22 - 00:10:26] they all match exactly but now what
+[00:10:24 - 00:10:28] we're going to do is we're going to
+[00:10:26 - 00:10:29] assign an employee ID to the next
+[00:10:28 - 00:10:32] employee ID and that'll be their Secret
+[00:10:29 - 00:10:34] Santa so just keep it really simple the
+[00:10:32 - 00:10:37] next highest person with an employee ID
+[00:10:34 - 00:10:41] that is their Secret Santa so let's do
+[00:10:37 - 00:10:44] an employee ID plus one is equal to
+[00:10:41 - 00:10:46] employee2 dot employee ID so we're
+[00:10:44 - 00:10:48] adding one over here and we're saying
+[00:10:46 - 00:10:51] that's equal to this employee ID over
+[00:10:48 - 00:10:54] here let's run this
+[00:10:51 - 00:10:57] so now you can see Leslie Knope is now
+[00:10:54 - 00:10:58] going to be assigned to Ron Swanson who
+[00:10:57 - 00:11:01] has an idea of two
+[00:10:58 - 00:11:03] Ron Swanson is going to be assigned to
+[00:11:01 - 00:11:06] Tom Haverford which I'm sure he's really
+[00:11:03 - 00:11:08] happy about and so on and so forth now
+[00:11:06 - 00:11:10] let's bring this down here and what
+[00:11:08 - 00:11:12] we're going to do is try to simplify
+[00:11:10 - 00:11:14] this and simplify this output a little
+[00:11:12 - 00:11:16] bit because this is a little bit chaotic
+[00:11:14 - 00:11:18] down here so we're going to specify what
+[00:11:16 - 00:11:20] columns we want in our output what we're
+[00:11:18 - 00:11:23] going to want is the employee ID first
+[00:11:20 - 00:11:25] name last name and then employee ID
+[00:11:23 - 00:11:28] first name last name of the person who
+[00:11:25 - 00:11:32] they got for secret Santa so we're gonna
+[00:11:28 - 00:11:36] start with mp1 DOT employee
+[00:11:32 - 00:11:40] employee underscore ID and we can call
+[00:11:36 - 00:11:42] this we'll just say as EMP underscore
+[00:11:40 - 00:11:45] Santa then we'll do a comma and we'll
+[00:11:42 - 00:11:48] come down now I need a Spell employee
+[00:11:45 - 00:11:50] right so we have our employee ID and now
+[00:11:48 - 00:11:52] we need our first name and last name now
+[00:11:50 - 00:11:54] remember Leslie Knope is going to be the
+[00:11:52 - 00:11:56] secret Santa for Ron Swanson I don't
+[00:11:54 - 00:11:58] know if I made that clear but that's I
+[00:11:56 - 00:12:02] guess how it works so now we need to do
+[00:11:58 - 00:12:05] uh emp1 dots and we'll do first
+[00:12:02 - 00:12:08] underscore name and we'll do as
+[00:12:05 - 00:12:09] as first underscore name underscore
+[00:12:08 - 00:12:12] Santa
+[00:12:09 - 00:12:14] we could do a comma we'll do the exact
+[00:12:12 - 00:12:16] same thing
+[00:12:14 - 00:12:18] except for the last name so last
+[00:12:16 - 00:12:20] underscore name
+[00:12:18 - 00:12:23] as
+[00:12:20 - 00:12:26] last underscore name Santa now all we
+[00:12:23 - 00:12:28] have to do is do a copy all this bring
+[00:12:26 - 00:12:31] it down here and change this to two so
+[00:12:28 - 00:12:33] they're pulling from the second table
+[00:12:31 - 00:12:36] and it'll look just like this and get
+[00:12:33 - 00:12:37] rid of this comma and this is done let's
+[00:12:36 - 00:12:39] run it
+[00:12:37 - 00:12:42] and let's bring this up
+[00:12:39 - 00:12:45] so we have employee Santa
+[00:12:42 - 00:12:48] first name Santa Leslie last name Santa
+[00:12:45 - 00:12:49] nope that employee Santa and we actually
+[00:12:48 - 00:12:51] need to change these names that is one
+[00:12:49 - 00:12:56] thing we need to do we'll just change it
+[00:12:51 - 00:13:01] to employee name first name
+[00:12:56 - 00:13:01] employee and last name employee
+[00:13:02 - 00:13:05] and now when we run this we have our
+[00:13:03 - 00:13:07] Santa and then we just have the employee
+[00:13:05 - 00:13:09] who this person is going to be the Santa
+[00:13:07 - 00:13:11] for now this is kind of a silly way to
+[00:13:09 - 00:13:14] look at it but in essence this is
+[00:13:11 - 00:13:16] exactly how a self-join works now the
+[00:13:14 - 00:13:18] very very very last thing I promise you
+[00:13:16 - 00:13:20] last thing that I want to show you is
+[00:13:18 - 00:13:23] how we can join multiple tables together
+[00:13:20 - 00:13:25] so we're going to say joining multiple
+[00:13:23 - 00:13:29] can you spell it right
+[00:13:25 - 00:13:31] multiple tables together now not just
+[00:13:29 - 00:13:33] one table together to another table I'm
+[00:13:31 - 00:13:36] talking about one table to another table
+[00:13:33 - 00:13:39] to another table so let's go all the way
+[00:13:36 - 00:13:40] back up we're going to take this right
+[00:13:39 - 00:13:42] here
+[00:13:40 - 00:13:44] and bring it all the way down
+[00:13:42 - 00:13:46] and what we're now going to do is we're
+[00:13:44 - 00:13:48] going to tie in this table right here
+[00:13:46 - 00:13:51] the parks department let's actually look
+[00:13:48 - 00:13:52] at this table and let's select
+[00:13:51 - 00:13:54] everything real quick
+[00:13:52 - 00:13:56] and let's run this
+[00:13:54 - 00:13:58] now let's go down here and we're going
+[00:13:56 - 00:13:59] to say select everything we'll do this
+[00:13:58 - 00:14:03] from
+[00:13:59 - 00:14:04] Arc underscore departments and let's run
+[00:14:03 - 00:14:06] this
+[00:14:04 - 00:14:09] now this is something called a reference
+[00:14:06 - 00:14:12] table this is not a table that most
+[00:14:09 - 00:14:14] likely you'll ever add a bunch of
+[00:14:12 - 00:14:15] information to it's there to reference
+[00:14:14 - 00:14:18] that we have these Department names
+[00:14:15 - 00:14:20] tables like the salary table or employee
+[00:14:18 - 00:14:22] demographics table are going to change
+[00:14:20 - 00:14:24] pretty often as people get raises or as
+[00:14:22 - 00:14:26] they get older with their age those are
+[00:14:24 - 00:14:28] going to be updated fairly often whereas
+[00:14:26 - 00:14:30] this parks department table is just
+[00:14:28 - 00:14:32] there for reference now if we look down
+[00:14:30 - 00:14:35] here in the columns we have a department
+[00:14:32 - 00:14:38] ID then we have a department name so we
+[00:14:35 - 00:14:41] have the ID and the name of that ID if
+[00:14:38 - 00:14:44] we run our join and we scroll all the
+[00:14:41 - 00:14:47] way to the right you'll notice we have a
+[00:14:44 - 00:14:49] Dept ID this stands for Department ID
+[00:14:47 - 00:14:53] that's in the salary table so what we
+[00:14:49 - 00:14:55] want to do is join this department ID to
+[00:14:53 - 00:14:57] the department ID from the parks and rec
+[00:14:55 - 00:15:00] so what we can do is we're going to say
+[00:14:57 - 00:15:03] enter join and now we're going to join
+[00:15:00 - 00:15:06] let's scroll down just a hair there we
+[00:15:03 - 00:15:08] go now we're going to take this and do
+[00:15:06 - 00:15:10] it off this so we're going to call this
+[00:15:08 - 00:15:11] PD for short
+[00:15:10 - 00:15:15] and we're going to say we're joining it
+[00:15:11 - 00:15:17] on now we cannot join this parks
+[00:15:15 - 00:15:19] department to the employee demographics
+[00:15:17 - 00:15:21] table why is that well the employee
+[00:15:19 - 00:15:23] demographics table only has employee ID
+[00:15:21 - 00:15:27] all the way through birth date there's
+[00:15:23 - 00:15:29] no common column that we can tie to this
+[00:15:27 - 00:15:32] parks department the only table that has
+[00:15:29 - 00:15:34] a common column is this department ID in
+[00:15:32 - 00:15:37] the salary table so what we need to do
+[00:15:34 - 00:15:41] is actually take Sal so we'll say Sal
+[00:15:37 - 00:15:44] dot then we're going to say dep and
+[00:15:41 - 00:15:47] we'll say Department ID is equal to the
+[00:15:44 - 00:15:49] PD Dot and we need to take the
+[00:15:47 - 00:15:51] department ID now notice these are not
+[00:15:49 - 00:15:53] the exact same name they are a little
+[00:15:51 - 00:15:55] bit different but they have the same
+[00:15:53 - 00:15:57] values one thing I forgot to mention is
+[00:15:55 - 00:15:59] that in this parks department there's no
+[00:15:57 - 00:16:01] repeating that's why it's a reference
+[00:15:59 - 00:16:03] whereas in the salary the department ID
+[00:16:01 - 00:16:04] repeats several times because multiple
+[00:16:03 - 00:16:06] people are in the same department so
+[00:16:04 - 00:16:09] this reference table also usually does
+[00:16:06 - 00:16:11] not have duplicates just one other thing
+[00:16:09 - 00:16:14] to note but ads we have now tied it
+[00:16:11 - 00:16:17] successfully let's try to run this
+[00:16:14 - 00:16:18] and if we come down here go all the way
+[00:16:17 - 00:16:22] to the right we now have the department
+[00:16:18 - 00:16:24] ID 11111111 and the department ID and
+[00:16:22 - 00:16:26] Department name Parks and Recreation
+[00:16:24 - 00:16:28] Healthcare Public Works Finance Public
+[00:16:26 - 00:16:30] Works and Parks and Recreation so this
+[00:16:28 - 00:16:33] worked perfectly so this is how you can
+[00:16:30 - 00:16:36] tie multiple tables together if you have
+[00:16:33 - 00:16:38] common columns between them even though
+[00:16:36 - 00:16:39] employee demographics has no column
+[00:16:38 - 00:16:42] that's related to the parks department
+[00:16:39 - 00:16:44] table we can still tie them together
+[00:16:42 - 00:16:46] based through this employee's salary
+[00:16:44 - 00:16:49] because employee demographics can tie to
+[00:16:46 - 00:16:51] employee salary employees salary can tie
+[00:16:49 - 00:16:52] to the parks department and that really
+[00:16:51 - 00:16:54] is the majority of what you need to know
+[00:16:52 - 00:16:56] in order to use joins well now in the
+[00:16:54 - 00:16:59] next lesson we're going to be taking a
+[00:16:56 - 00:17:04] look at something called a union
+[00:16:59 - 00:17:07] [Music]
+[00:17:04 - 00:17:10] all right
+[00:17:07 - 00:17:10] [Music]

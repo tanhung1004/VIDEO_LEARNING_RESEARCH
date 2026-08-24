@@ -1,0 +1,157 @@
+VIDEO ID: v17
+SUBJECT: Python
+TITLE: Python For Loops - Programming for Beginners
+URL: https://www.youtube.com/watch?v=dHANJ4l6fwA
+
+========================================================================
+TRANSCRIPT
+========================================================================
+
+[00:00:00 - 00:00:03] hi everybody today we will talk about
+[00:00:02 - 00:00:06] for loops
+[00:00:03 - 00:00:09] a for loop is a control instruction
+[00:00:06 - 00:00:12] which we use for two main purposes
+[00:00:09 - 00:00:12] iteration and repetition let me show you
+[00:00:12 - 00:00:15] what i mean
+[00:00:12 - 00:00:17] with an example iteration means
+[00:00:15 - 00:00:20] performing the same action
+[00:00:17 - 00:00:23] on different items so if we have a list
+[00:00:20 - 00:00:25] of guitar strings for example and we
+[00:00:23 - 00:00:28] would like to print it to the console
+[00:00:25 - 00:00:31] item after item we can of course
+[00:00:28 - 00:00:34] manually type six print statements in
+[00:00:31 - 00:00:37] six separate lines of code
+[00:00:34 - 00:00:37] but why would we do that if python has a
+[00:00:37 - 00:00:40] much
+[00:00:37 - 00:00:41] easier and much more intuitive
+[00:00:40 - 00:00:44] alternative
+[00:00:41 - 00:00:45] the for loop so let's consider this code
+[00:00:44 - 00:00:48] example
+[00:00:45 - 00:00:50] to achieve the exact same results so as
+[00:00:48 - 00:00:52] you guys can probably guess
+[00:00:50 - 00:00:53] for loop statements begin with a keyword
+[00:00:52 - 00:00:55] for
+[00:00:53 - 00:00:57] right after we include a special
+[00:00:55 - 00:01:00] variable which
+[00:00:57 - 00:01:01] represents each of our list items one at
+[00:01:00 - 00:01:04] a time
+[00:01:01 - 00:01:05] we often call it the loop control
+[00:01:04 - 00:01:08] variable or
+[00:01:05 - 00:01:11] iteration variable and it is very common
+[00:01:08 - 00:01:12] to use the letter i when declaring it
+[00:01:11 - 00:01:14] and we of course
+[00:01:12 - 00:01:15] don't have to use the letter i we can
+[00:01:14 - 00:01:18] use
+[00:01:15 - 00:01:21] any other valid variable name such as
+[00:01:18 - 00:01:22] item for example so the naming part is
+[00:01:21 - 00:01:26] entirely
+[00:01:22 - 00:01:28] up to us next we include the in keyword
+[00:01:26 - 00:01:29] followed by the name of the list we
+[00:01:28 - 00:01:32] would like to loop over
+[00:01:29 - 00:01:33] the list of guitar strings and we will
+[00:01:32 - 00:01:36] finish this declaration
+[00:01:33 - 00:01:38] with a colon to indicate we're entering
+[00:01:36 - 00:01:40] the body of the for loop
+[00:01:38 - 00:01:42] now you guys may have noticed that the
+[00:01:40 - 00:01:45] body of our for loop is
+[00:01:42 - 00:01:47] indented meaning we added
+[00:01:45 - 00:01:48] a tab character or maybe three space
+[00:01:47 - 00:01:50] characters
+[00:01:48 - 00:01:52] in front of our commands and we
+[00:01:50 - 00:01:54] absolutely have to include this
+[00:01:52 - 00:01:57] indentation
+[00:01:54 - 00:02:00] otherwise our for loop will fail lastly
+[00:01:57 - 00:02:04] we include the iteration variable i
+[00:02:00 - 00:02:06] inside a single indented print statement
+[00:02:04 - 00:02:07] and then each time we pass through the
+[00:02:06 - 00:02:10] loop
+[00:02:07 - 00:02:11] a different list item will be printed
+[00:02:10 - 00:02:13] one after the other
+[00:02:11 - 00:02:14] let's look at another example where we
+[00:02:13 - 00:02:17] recreate
+[00:02:14 - 00:02:18] a very famous destiny's child song so
+[00:02:17 - 00:02:20] this time
+[00:02:18 - 00:02:22] we have a list of names and we
+[00:02:20 - 00:02:24] concatenate or add
+[00:02:22 - 00:02:25] the exact same sentence to each of the
+[00:02:24 - 00:02:27] names
+[00:02:25 - 00:02:30] since we have three names in our list
+[00:02:27 - 00:02:33] our for loop will repeat itself
+[00:02:30 - 00:02:33] three times and each time our iteration
+[00:02:33 - 00:02:36] variable
+[00:02:33 - 00:02:37] n will have a different value in the
+[00:02:36 - 00:02:40] first pass
+[00:02:37 - 00:02:41] through the loop n equals kelly in the
+[00:02:40 - 00:02:45] second pass through the loop
+[00:02:41 - 00:02:48] and equals michelle and in the last pass
+[00:02:45 - 00:02:50] it of course equals beyonce note
+[00:02:48 - 00:02:52] that we have an additional print
+[00:02:50 - 00:02:55] statement which we did not indent
+[00:02:52 - 00:02:56] there are no tabs or spaces in front of
+[00:02:55 - 00:02:59] it
+[00:02:56 - 00:03:02] this statement will not be repeated
+[00:02:59 - 00:03:02] because it's not inside the body of our
+[00:03:02 - 00:03:05] for loop
+[00:03:02 - 00:03:06] it's outside of our for loop and
+[00:03:05 - 00:03:09] therefore
+[00:03:06 - 00:03:09] on a different scope cool so this is how
+[00:03:09 - 00:03:12] you use
+[00:03:09 - 00:03:13] for loops to iterate over lists later on
+[00:03:12 - 00:03:15] this course
+[00:03:13 - 00:03:16] i'll show you how to do it with other
+[00:03:15 - 00:03:18] data structures
+[00:03:16 - 00:03:19] another purpose of for loops is
+[00:03:18 - 00:03:22] repetition
+[00:03:19 - 00:03:22] performing the same action more than
+[00:03:22 - 00:03:25] once
+[00:03:22 - 00:03:28] we often combine it with a range
+[00:03:25 - 00:03:31] function which we use to quickly create
+[00:03:28 - 00:03:34] lists of integers for example range
+[00:03:31 - 00:03:37] 10 will create a list that starts with 0
+[00:03:34 - 00:03:38] and ends with 9 while range 3 will
+[00:03:37 - 00:03:42] create a list
+[00:03:38 - 00:03:44] that also starts with 0 but ends in 2.
+[00:03:42 - 00:03:46] i won't go into too many details here as
+[00:03:44 - 00:03:48] i'm planning to cover range
+[00:03:46 - 00:03:50] much more extensively in future lessons
+[00:03:48 - 00:03:53] the important thing to know
+[00:03:50 - 00:03:56] is we can combine range when declaring
+[00:03:53 - 00:03:57] a for loop so let's say we want to
+[00:03:56 - 00:04:00] recreate
+[00:03:57 - 00:04:02] a famous nirvana song in this example
+[00:04:00 - 00:04:04] in the first pass through the loop our
+[00:04:02 - 00:04:07] iteration variable
+[00:04:04 - 00:04:08] i will equal 0. in a second pass it will
+[00:04:07 - 00:04:11] equal 1
+[00:04:08 - 00:04:13] and in the last pass it will equal 2.
+[00:04:11 - 00:04:15] now because we didn't include i
+[00:04:13 - 00:04:17] inside the body of our for loop we
+[00:04:15 - 00:04:20] cannot really see how it
+[00:04:17 - 00:04:20] changes from past to pass what we can
+[00:04:20 - 00:04:24] see
+[00:04:20 - 00:04:27] however is our indented print statement
+[00:04:24 - 00:04:30] repeats itself three times which is an
+[00:04:27 - 00:04:33] exact match to the argument we specified
+[00:04:30 - 00:04:35] in the range function so this is a cool
+[00:04:33 - 00:04:38] trick we can use to quickly repeat
+[00:04:35 - 00:04:40] lines of code and later on this course
+[00:04:38 - 00:04:42] i'll show you how to do the exact same
+[00:04:40 - 00:04:44] thing with while loops
+[00:04:42 - 00:04:46] and thank you so much for watching this
+[00:04:44 - 00:04:48] python basics tutorial
+[00:04:46 - 00:04:50] please let me know if you found this
+[00:04:48 - 00:04:52] video helpful or if you're looking for
+[00:04:50 - 00:04:54] something a little bit more advanced
+[00:04:52 - 00:04:56] i always appreciate your feedback and i
+[00:04:54 - 00:04:58] plan my lessons
+[00:04:56 - 00:05:00] accordingly if you guys like this video
+[00:04:58 - 00:05:02] you already know the drill
+[00:05:00 - 00:05:04] please leave it a like maybe a comment
+[00:05:02 - 00:05:06] maybe subscribe to my channel and turn
+[00:05:04 - 00:05:09] on the notification bell
+[00:05:06 - 00:05:10] if you want to be extra awesome please
+[00:05:09 - 00:05:11] share this video with your friends with
+[00:05:10 - 00:05:14] your family
+[00:05:11 - 00:05:15] with all the pythoneers you know and
+[00:05:14 - 00:05:20] they'll be very very happy
+[00:05:15 - 00:05:20] now thanks again and i'll see you soon

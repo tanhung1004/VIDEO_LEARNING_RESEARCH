@@ -1,0 +1,9 @@
+﻿video_id,title,url,select,where,group by,having,count,aggregate function,join,inner join,left join,subquery,order by,annotator,review_status
+v6,Learn Basic SQL Commands,https://www.youtube.com/watch?v=OlT3FispsMU,1,1,1,1,0,1,0,0,0,0,1,A1,completed
+v7,SQL SELECT Tutorial,https://www.youtube.com/watch?v=YufocuHbYZo,1,1,0,0,1,1,0,0,0,0,1,A1,completed
+v8,Learn Basic SQL in 15 Minutes,https://www.youtube.com/watch?v=kbKty5ZVKMY,1,1,1,1,1,1,1,1,0,0,1,A1,completed
+v9,Aggregate Functions in SQL,https://www.youtube.com/watch?v=RGIVS8RGBaI,0,0,0,0,1,1,0,0,0,0,0,A1,completed
+v10,GROUP BY and HAVING Clause in SELECT Command,https://www.youtube.com/watch?v=wsbp1J-AFhY,0,0,1,1,1,1,0,0,0,0,0,A1,completed
+v11,Subqueries in MySQL,https://www.youtube.com/watch?v=Vj6RqA_X-IE,1,1,1,0,1,1,0,0,0,1,0,A1,completed
+v12,Joins in MySQL,https://www.youtube.com/watch?v=lXQzD09BOH0,1,0,0,0,0,0,1,1,1,0,0,A1,completed
+v13,Beginner SQL - Analyzing Student Records,https://www.youtube.com/watch?v=_vxobA36UN4,1,1,1,1,1,1,1,0,1,0,1,A1,completed

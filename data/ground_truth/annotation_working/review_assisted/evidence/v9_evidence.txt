@@ -1,0 +1,202 @@
+VIDEO ID: v9
+SUBJECT: SQL
+TITLE: Aggregate Functions in SQL
+URL: https://www.youtube.com/watch?v=RGIVS8RGBaI
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: select
+DESCRIPTION: select data columns from a database table using SQL select query
+SEARCH ALIASES: select, select statement, select query
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:03:36 - 00:03:44
+  SECONDS: 216.04 - 224.72
+  MATCH: select
+  TEXT: and this user is providing a query. Select, he's using an aggregate function count. We need parentheses because this
+
+  HIT 2
+  TIME: 00:04:15 - 00:04:26
+  SECONDS: 255.6 - 266.68
+  MATCH: select
+  TEXT: providing a different command. Select count in parentheses age from student. So, what the user is mentioning
+
+  HIT 3
+  TIME: 00:05:05 - 00:05:15
+  SECONDS: 305.2 - 315.76
+  MATCH: select
+  TEXT: this. Rather, the user should use the command like this. Select count, the aggregate function, in parentheses,
+
+------------------------------------------------------------------------
+
+CONCEPT: where
+DESCRIPTION: filter database rows using a where condition
+SEARCH ALIASES: where, where clause
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: group by
+DESCRIPTION: group database rows by one or more columns
+SEARCH ALIASES: group by
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:02:29 - 00:02:36
+  SECONDS: 149.76 - 156.84
+  MATCH: group by
+  TEXT: the power of this aggregate functions can be enhanced with group by and having clause.
+
+  HIT 2
+  TIME: 00:02:34 - 00:02:40
+  SECONDS: 154.04 - 160.8
+  MATCH: group by
+  TEXT: clause. Don't worry about this group by and having clause. In the next presentation,
+
+  HIT 3
+  TIME: 00:02:39 - 00:02:47
+  SECONDS: 159.0 - 167.76
+  MATCH: group by
+  TEXT: we are going to exclusively focus on group by and having clause in SQL. So, we are done with the basics of aggregate
+
+------------------------------------------------------------------------
+
+CONCEPT: having
+DESCRIPTION: filter grouped SQL results after aggregation
+SEARCH ALIASES: having, having clause
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:02:29 - 00:02:36
+  SECONDS: 149.76 - 156.84
+  MATCH: having
+  TEXT: the power of this aggregate functions can be enhanced with group by and having clause.
+
+  HIT 2
+  TIME: 00:02:35 - 00:02:43
+  SECONDS: 155.16 - 163.84
+  MATCH: having, having clause
+  TEXT: Don't worry about this group by and having clause. In the next presentation, we are going to exclusively focus on
+
+  HIT 3
+  TIME: 00:02:39 - 00:02:47
+  SECONDS: 159.0 - 167.76
+  MATCH: having, having clause
+  TEXT: we are going to exclusively focus on group by and having clause in SQL. So, we are done with the basics of aggregate
+
+------------------------------------------------------------------------
+
+CONCEPT: count
+DESCRIPTION: count rows or values using SQL aggregate function
+SEARCH ALIASES: count, count function
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:02:22 - 00:02:31
+  SECONDS: 142.52 - 151.76
+  MATCH: count, count function
+  TEXT: is it ignores null values except for the count function. Anyway, when we see some examples, I will explain about this. And
+
+  HIT 2
+  TIME: 00:02:50 - 00:03:00
+  SECONDS: 170.04 - 180.12
+  MATCH: count
+  TEXT: five different aggregate functions in SQL. Number one, count. Number two, sum. Number three, average. Number four,
+
+  HIT 3
+  TIME: 00:03:00 - 00:03:08
+  SECONDS: 180.12 - 188.64
+  MATCH: count, count function
+  TEXT: We'll start with the first function, the count function. Talking about the count function, this function returns the
+
+------------------------------------------------------------------------
+
+CONCEPT: aggregate function
+DESCRIPTION: perform SQL aggregation such as count sum average minimum maximum
+SEARCH ALIASES: aggregate function, aggregate functions, aggregation, sum, average, avg, minimum, maximum
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:14 - 00:00:24
+  SECONDS: 14.0 - 24.16
+  MATCH: aggregate functions
+  TEXT: on the theoretical aspects about aggregate functions. Basically, these aggregate functions perform calculations
+
+  HIT 2
+  TIME: 00:00:37 - 00:00:46
+  SECONDS: 37.6 - 46.12
+  MATCH: aggregate functions
+  TEXT: single value. So, we will understand the need for aggregate functions now. I'll give you two different scenarios. When
+
+  HIT 3
+  TIME: 00:02:10 - 00:02:18
+  SECONDS: 130.32 - 138.76
+  MATCH: aggregate functions
+  TEXT: it in the database. From this, we can understand that aggregate functions are needed for day-to-day activities, and it
+
+------------------------------------------------------------------------
+
+CONCEPT: join
+DESCRIPTION: combine rows from multiple database tables
+SEARCH ALIASES: join, joins, joining
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: inner join
+DESCRIPTION: combine matching rows from two database tables using inner join
+SEARCH ALIASES: inner join
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: left join
+DESCRIPTION: keep all rows from the left table and matching rows from another table
+SEARCH ALIASES: left join, left outer join
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: subquery
+DESCRIPTION: use a query nested inside another SQL query
+SEARCH ALIASES: subquery, subqueries, nested query
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: order by
+DESCRIPTION: sort SQL query results by one or more columns
+SEARCH ALIASES: order by
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------

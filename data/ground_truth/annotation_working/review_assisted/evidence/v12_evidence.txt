@@ -1,0 +1,198 @@
+VIDEO ID: v12
+SUBJECT: SQL
+TITLE: Joins in MySQL
+URL: https://www.youtube.com/watch?v=lXQzD09BOH0
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: select
+DESCRIPTION: select data columns from a database table using SQL select query
+SEARCH ALIASES: select, select statement, select query
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:05:11 - 00:05:22
+  SECONDS: 311.22 - 322.68
+  MATCH: select
+  TEXT: the actual columns let's say we wanted to select the employee ID and we wanted to select age and then we
+
+  HIT 2
+  TIME: 00:05:13 - 00:05:24
+  SECONDS: 313.62 - 324.48
+  MATCH: select
+  TEXT: to select the employee ID and we wanted to select age and then we wanted to select their occupation
+
+  HIT 3
+  TIME: 00:05:16 - 00:05:26
+  SECONDS: 316.44 - 326.28
+  MATCH: select
+  TEXT: and we wanted to select age and then we wanted to select their occupation if we try to run this we're going to get
+
+------------------------------------------------------------------------
+
+CONCEPT: where
+DESCRIPTION: filter database rows using a where condition
+SEARCH ALIASES: where, where clause
+DIRECT HIT COUNT (top max 3 shown): 2
+
+  HIT 1
+  TIME: 00:07:06 - 00:07:12
+  SECONDS: 426.18 - 432.78
+  MATCH: where
+  TEXT: table and then the join where we're actually joining on that's our right table so
+
+  HIT 2
+  TIME: 00:08:29 - 00:08:39
+  SECONDS: 509.52 - 519.36
+  MATCH: where
+  TEXT: let me spell that right a self-join now what is a self-joint it is a join where you tie the table to itself now why
+
+------------------------------------------------------------------------
+
+CONCEPT: group by
+DESCRIPTION: group database rows by one or more columns
+SEARCH ALIASES: group by
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: having
+DESCRIPTION: filter grouped SQL results after aggregation
+SEARCH ALIASES: having, having clause
+DIRECT HIT COUNT (top max 3 shown): 1
+
+  HIT 1
+  TIME: 00:05:51 - 00:06:01
+  SECONDS: 351.0 - 361.32
+  MATCH: having
+  TEXT: we're able to get information from both tables in our output without having all of the information and if there are
+
+------------------------------------------------------------------------
+
+CONCEPT: count
+DESCRIPTION: count rows or values using SQL aggregate function
+SEARCH ALIASES: count, count function
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: aggregate function
+DESCRIPTION: perform SQL aggregation such as count sum average minimum maximum
+SEARCH ALIASES: aggregate function, aggregate functions, aggregation, sum, average, avg, minimum, maximum
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: join
+DESCRIPTION: combine rows from multiple database tables
+SEARCH ALIASES: join, joins, joining
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:00 - 00:00:09
+  SECONDS: 0.0 - 9.9
+  MATCH: joins
+  TEXT: hello everybody in this lesson we're gonna be taking a look at joins joins allow you to combine two tables or more
+
+  HIT 2
+  TIME: 00:00:14 - 00:00:23
+  SECONDS: 14.34 - 23.04
+  MATCH: joins
+  TEXT: within it are similar that you can use there are several joins that we're going to look at today like inner joins outer
+
+  HIT 3
+  TIME: 00:00:16 - 00:00:24
+  SECONDS: 16.68 - 24.54
+  MATCH: joins
+  TEXT: there are several joins that we're going to look at today like inner joins outer joins and self joins these are the two
+
+------------------------------------------------------------------------
+
+CONCEPT: inner join
+DESCRIPTION: combine matching rows from two database tables using inner join
+SEARCH ALIASES: inner join
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:43 - 00:00:52
+  SECONDS: 43.5 - 52.2
+  MATCH: inner join
+  TEXT: is also very similar so let's start by writing out an inner join this is probably one of the most common joins
+
+  HIT 2
+  TIME: 00:00:49 - 00:00:58
+  SECONDS: 49.56 - 58.68
+  MATCH: inner join
+  TEXT: one of the most simple joins as well an inner join is going to return rows that are the same in both columns from both
+
+  HIT 3
+  TIME: 00:01:11 - 00:01:23
+  SECONDS: 71.82 - 83.7
+  MATCH: inner join
+  TEXT: right here and we need to say join now by default join represents an inner join although we can write inner join here to
+
+------------------------------------------------------------------------
+
+CONCEPT: left join
+DESCRIPTION: keep all rows from the left table and matching rows from another table
+SEARCH ALIASES: left join, left outer join
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:06:15 - 00:06:25
+  SECONDS: 375.6 - 385.14
+  MATCH: left join
+  TEXT: and let's put that right here now for outer joins we have a left join and we have a right join or a left outer and a
+
+  HIT 2
+  TIME: 00:06:20 - 00:06:29
+  SECONDS: 380.4 - 389.4
+  MATCH: left join
+  TEXT: have a right join or a left outer and a right outer join a left join is going to take everything from the left table even
+
+  HIT 3
+  TIME: 00:06:36 - 00:06:46
+  SECONDS: 396.0 - 406.2
+  MATCH: left join
+  TEXT: actually works let's start by changing this to a left join or a left outer join they're both the same and you
+
+------------------------------------------------------------------------
+
+CONCEPT: subquery
+DESCRIPTION: use a query nested inside another SQL query
+SEARCH ALIASES: subquery, subqueries, nested query
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: order by
+DESCRIPTION: sort SQL query results by one or more columns
+SEARCH ALIASES: order by
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------

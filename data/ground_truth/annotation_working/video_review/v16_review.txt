@@ -1,0 +1,75 @@
+VIDEO ID: v16
+SUBJECT: Python
+TITLE: Python Lists
+URL: https://www.youtube.com/watch?v=ohCDWZgNIU0
+
+========================================================================
+TRANSCRIPT
+========================================================================
+
+[00:00:02 - 00:00:08] Order.. matters.. And in Python, lists make it easy to work with ordered data. Lists are
+[00:00:08 - 00:00:13] a built-in data structure for storing and accessing objects which belong in a specific
+[00:00:13 - 00:00:19] sequence. We will now learn how to create and use lists, and we will do so in a linear
+[00:00:19 - 00:00:21] and orderly fashion...
+[00:00:25 - 00:00:28] There are two ways to create a list. One way
+[00:00:28 - 00:00:34] is to use the list constructor. But a simpler and more common way is to use brackets.
+[00:00:34 - 00:00:39] When creating a list, you can also pre-populate it with values. For example, let’s create
+[00:00:39 - 00:00:42] a list with the first few prime numbers.
+[00:00:42 - 00:00:46] You can always add values later by using the “append” method which allows you to add
+[00:00:46 - 00:00:54] new values to the end of the list. Let’s append the next two prime numbers: 17… and
+[00:00:54 - 00:00:56] 19...
+[00:00:56 - 00:01:02] If you display the list, you will see it contains the new values. Notice how lists preserve
+[00:01:02 - 00:01:08] the order of the data - this is different from sets. In sets, the order is not important.
+[00:01:08 - 00:01:14] In lists, order is everything. You do not have to view the entire list. If
+[00:01:14 - 00:01:19] you want to see a specific value, you can access it by its index. In computer science,
+[00:01:19 - 00:01:26] you start counting with 0, not 1. So the elements in our list “primes” are indexed 0.. 1..
+[00:01:26 - 00:01:34] 2.. 3.. 4.. 5.. 6.. and 7.. To view the first item, you type the name
+[00:01:34 - 00:01:39] of the list, and the index in brackets. The first item is 2.
+[00:01:39 - 00:01:45] The second item has index 1, and the second item is 3.
+[00:01:45 - 00:01:47] And so on…
+[00:01:47 - 00:01:51] Notice how the indices increase by one as you go from left to right.
+[00:01:51 - 00:01:55] And they decrease by one when you go from right to left.
+[00:01:55 - 00:02:00] When you get to the beginning, the index is 0. If you decrease the index once more, you
+[00:02:00 - 00:02:09] get -1. Here, Python wraps back around to the end of the list. So the last item is -1,
+[00:02:09 - 00:02:14] the next to last is -2, and so on. This is convenient when you want to look at
+[00:02:14 - 00:02:19] the values at the end of a list. The last item is 19…
+[00:02:19 - 00:02:23] The next to last prime is 17…
+[00:02:23 - 00:02:26] And we reach the beginning of the list with index -8.
+[00:02:26 - 00:02:33] Be careful - you can only wrap around once. If you try to find the value of index -9,
+[00:02:33 - 00:02:34] you get an index error.
+[00:02:36 - 00:02:38] Another way to access values in a list is
+[00:02:38 - 00:02:43] by slicing. This lets you retrieve a range of values from your list.
+[00:02:43 - 00:02:46] We will continue to use our list of primes.
+[00:02:46 - 00:02:53] To slice this list, type the name of the list, bracket, a starting index, a colon, a stopping
+[00:02:53 - 00:02:59] index, then a closing bracket… The result is a sublist that starts at index 2, and continues
+[00:02:59 - 00:03:06] until it reaches index 5. Be careful. Slicing includes the value at the starting index,
+[00:03:06 - 00:03:13] but excludes the stopping index. The beginning value is included; the ending value is not.
+[00:03:13 - 00:03:20] One more slice… This will start at the beginning, which is index 0, and continue to index 6,
+[00:03:20 - 00:03:26] which is 17. It will not include the final number, so this slice includes the primes
+[00:03:26 - 00:03:28] from 2 through 13.
+[00:03:30 - 00:03:33] Lists can contain more than prime numbers.
+[00:03:33 - 00:03:40] They can contain integers…booleans… strings… floats… and even other lists.
+[00:03:40 - 00:03:46] Many languages require lists to contain values of the same type, but not Python. With Python,
+[00:03:46 - 00:03:50] you are free to insert multiple data types in the same list.
+[00:03:50 - 00:03:57] Lists can also contain duplicate values. Here is another way lists are different from sets.
+[00:03:57 - 00:04:02] For example, suppose you want to record the numbers you roll on a pair of dice. Pretend
+[00:04:02 - 00:04:13] you roll a 4.. 7.. 2.. 7.. 12.. 4 and 7.. If you look at the list, all the values are
+[00:04:13 - 00:04:15] there, even the repeated rolls.
+[00:04:16 - 00:04:19] You can also combine lists. To see how, create
+[00:04:19 - 00:04:22] two separate lists: A list of numbers…
+[00:04:22 - 00:04:28] And a list of letters… To combine these two lists into a single list,
+[00:04:28 - 00:04:36] use the plus sign. Numbers + letters equals 1, 2, 3 .. a, b, c...
+[00:04:36 - 00:04:39] But order matters. If you reverse this and
+[00:04:39 - 00:04:46] compute letters + numbers you get a, b, c.. 1, 2, 3..
+[00:04:46 - 00:04:49] Combining lists is called “concatenation”.
+[00:04:49 - 00:04:52] Observe. The list of numbers..
+[00:04:52 - 00:04:54] and the list of letters are unchanged.
+[00:04:56 - 00:04:58] There are many other methods for working with
+[00:04:58 - 00:05:03] lists. To see them all, pass any list to the directory function.
+[00:05:03 - 00:05:08] To learn how to use one of these methods, use the help function. For example, there
+[00:05:08 - 00:05:13] is a method for reversing a list. The help text gives full details on what it does and
+[00:05:13 - 00:05:15] how to use it.
+[00:05:17 - 00:05:21] Lists start at 0 and end… ... they end precisely
+[00:05:21 - 00:05:26] when you are finished. You can slice them… You can concatenate them… You can reverse
+[00:05:26 - 00:05:31] them… You can even clear them… If I were to make a list of all the uses of lists, I
+[00:05:31 - 00:05:39] would have a very, VERY long list…

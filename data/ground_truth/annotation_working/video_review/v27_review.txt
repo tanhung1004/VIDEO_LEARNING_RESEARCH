@@ -1,0 +1,235 @@
+VIDEO ID: v27
+SUBJECT: Java
+TITLE: #6.1 Java Tutorial | Inheritance
+URL: https://www.youtube.com/watch?v=_9R_in_7cT4
+
+========================================================================
+TRANSCRIPT
+========================================================================
+
+[00:00:00 - 00:00:03] [Music]
+[00:00:06 - 00:00:12] so once we got the idea about the basics
+[00:00:09 - 00:00:14] of java we have talked about arrays and
+[00:00:12 - 00:00:16] objects static keyword and all the stuff
+[00:00:14 - 00:00:18] now let's move towards the oops concept
+[00:00:16 - 00:00:20] so when you say oops it provides you
+[00:00:18 - 00:00:22] lots of features so I need to write you
+[00:00:20 - 00:00:24] inheritance abstraction data hiding and
+[00:00:22 - 00:00:27] capsulation so we start with the first
+[00:00:24 - 00:00:29] one which is in height in seer so we
+[00:00:27 - 00:00:31] talk about inheritance what exactly it
+[00:00:29 - 00:00:33] means is again we can go for some
+[00:00:31 - 00:00:35] complex example but I believe in making
+[00:00:33 - 00:00:36] thing or keep it simple right
+[00:00:35 - 00:00:38] what we'll do is we take a simple
+[00:00:36 - 00:00:40] example again which is very typical
+[00:00:38 - 00:00:42] example when talking about inheritance
+[00:00:40 - 00:00:45] we'll go for the same example here and
+[00:00:42 - 00:00:47] that is to create a calculator so what
+[00:00:45 - 00:00:49] we'll do is we create a class first
+[00:00:47 - 00:00:51] calculator okay so that's our class here
+[00:00:49 - 00:00:53] and in this class I want to perform some
+[00:00:51 - 00:00:55] operations and the only operation I want
+[00:00:53 - 00:00:57] to perform here is let's addition of two
+[00:00:55 - 00:01:00] numbers so what I will do I will say
+[00:00:57 - 00:01:02] public which returns int the method name
+[00:01:00 - 00:01:04] is add which takes parameter which is I
+[00:01:02 - 00:01:08] and the second parameter which is J it
+[00:01:04 - 00:01:11] returns I plus J quite simple right so
+[00:01:08 - 00:01:13] we got this calculator class here and
+[00:01:11 - 00:01:14] now let's create the object of it now
+[00:01:13 - 00:01:16] how do we get object of calculator we
+[00:01:14 - 00:01:20] simply say calculator we'll say this is
+[00:01:16 - 00:01:22] c1 equal to new calculator now what I
+[00:01:20 - 00:01:25] will do is I will simply create a
+[00:01:22 - 00:01:29] variable here I will say this is Inc
+[00:01:25 - 00:01:32] result equal to c1 dot add and if I pass
+[00:01:29 - 00:01:35] two values if I pass four five and four
+[00:01:32 - 00:01:37] and if I print the output here it will
+[00:01:35 - 00:01:38] print result so if I on this code we are
+[00:01:37 - 00:01:40] getting the output which we are
+[00:01:38 - 00:01:42] expecting here and that's our output
+[00:01:40 - 00:01:46] which is nine so this is one class white
+[00:01:42 - 00:01:48] so let's imagine in future in future if
+[00:01:46 - 00:01:50] let's say if I am creating this object
+[00:01:48 - 00:01:52] of calculator and and then I'm giving
+[00:01:50 - 00:01:53] this calculator object to my customer as
+[00:01:52 - 00:01:55] I develop I am giving this object to a
+[00:01:53 - 00:01:57] customer customer is very happy because
+[00:01:55 - 00:01:59] this character can perform one operation
+[00:01:57 - 00:02:01] and this code let's say this code code
+[00:01:59 - 00:02:04] belongs to some other class some other
+[00:02:01 - 00:02:06] file now in that scenario if this class
+[00:02:04 - 00:02:09] belongs some other file and let's say as
+[00:02:06 - 00:02:11] a developer you have deleted this file I
+[00:02:09 - 00:02:12] only have the class file I mean okay let
+[00:02:11 - 00:02:15] let me just let me just make it simple
+[00:02:12 - 00:02:18] let's say if a user comes to me and
+[00:02:15 - 00:02:20] okay I want one more feature now I want
+[00:02:18 - 00:02:23] this calculator to select also not just
+[00:02:20 - 00:02:25] add it it also wants to subtract it
+[00:02:23 - 00:02:26] I mean subtract two values but the
+[00:02:25 - 00:02:28] problem is due to some problem you
+[00:02:26 - 00:02:30] cannot make some changes here because we
+[00:02:28 - 00:02:32] don't have the source code of calculator
+[00:02:30 - 00:02:35] imagine imagine you don't have the
+[00:02:32 - 00:02:37] source code for calculator now what you
+[00:02:35 - 00:02:38] will do but you have the class file what
+[00:02:37 - 00:02:40] is class file so when you combine your
+[00:02:38 - 00:02:42] Java code you get the class files right
+[00:02:40 - 00:02:44] so let's imagine you don't have this
+[00:02:42 - 00:02:45] source code that means you don't have
+[00:02:44 - 00:02:47] the Java file but you have a class file
+[00:02:45 - 00:02:49] so what you can do is you can create one
+[00:02:47 - 00:02:52] more class in that scenario will name
+[00:02:49 - 00:02:54] this class as calculator advanced so
+[00:02:52 - 00:02:56] this is advanced Calcutta which should
+[00:02:54 - 00:02:58] have two features again since you are
+[00:02:56 - 00:03:00] creating a new class we need to define
+[00:02:58 - 00:03:02] that ad with a once again right so we'll
+[00:03:00 - 00:03:04] say public in fact when you want to
+[00:03:02 - 00:03:06] define it let's just copy paste copy and
+[00:03:04 - 00:03:07] paste I mean in real life we will you
+[00:03:06 - 00:03:10] will type it because it don't have the
+[00:03:07 - 00:03:11] source code and again you will paste it
+[00:03:10 - 00:03:13] but this time this should be sub and
+[00:03:11 - 00:03:16] this should be subtraction all right so
+[00:03:13 - 00:03:18] now we got a new class which has two
+[00:03:16 - 00:03:21] features one is addition and subtraction
+[00:03:18 - 00:03:24] so from your main method in shop hitting
+[00:03:21 - 00:03:27] object of calculator will create object
+[00:03:24 - 00:03:29] of calc advance so here we'll say result
+[00:03:27 - 00:03:32] one is the addition and we say end
+[00:03:29 - 00:03:34] result to is it will be subtraction now
+[00:03:32 - 00:03:37] so since we have the new class we can
+[00:03:34 - 00:03:39] perform the subtraction operation also
+[00:03:37 - 00:03:42] and let's print a result one and let's
+[00:03:39 - 00:03:44] print result two now this will be
+[00:03:42 - 00:03:46] resolved too so now if we run this code
+[00:03:44 - 00:03:48] it will work right because we have a new
+[00:03:46 - 00:03:52] class all together which has two methods
+[00:03:48 - 00:03:55] but hold on you already have the class
+[00:03:52 - 00:03:57] file off of calculator right can I use
+[00:03:55 - 00:03:59] this ad in this class why to write the
+[00:03:57 - 00:04:01] same code two times this is redundancy
+[00:03:59 - 00:04:04] right we are ripping the codes so will
+[00:04:01 - 00:04:06] not repeat the code will simply fetch
+[00:04:04 - 00:04:08] that feature will simply fetch this
+[00:04:06 - 00:04:11] feature of add in this class now how do
+[00:04:08 - 00:04:13] we fetch a feature by using the concept
+[00:04:11 - 00:04:16] of inheritance so we'll simply say
+[00:04:13 - 00:04:19] extends calculator now in this scenario
+[00:04:16 - 00:04:21] this class becomes a super class and
+[00:04:19 - 00:04:23] this class which is calc
+[00:04:21 - 00:04:25] advanced is called as surplus so
+[00:04:23 - 00:04:28] superclass will have only one method
+[00:04:25 - 00:04:30] called as ad but subclass will have to
+[00:04:28 - 00:04:32] methods one from this class itself which
+[00:04:30 - 00:04:34] is advanced calc and one method will be
+[00:04:32 - 00:04:37] coming from calculator so this is super
+[00:04:34 - 00:04:40] and this is sub so we got a superclass
+[00:04:37 - 00:04:41] and we got a surplus and now even if you
+[00:04:40 - 00:04:43] run this code now you can see it still
+[00:04:41 - 00:04:46] works we are getting this subtract
+[00:04:43 - 00:04:48] method from advanced calc itself but we
+[00:04:46 - 00:04:51] are getting this add method from
+[00:04:48 - 00:04:53] calculator okay it is that simple that's
+[00:04:51 - 00:04:56] how you use inheritance this is
+[00:04:53 - 00:04:58] basically a single level in items
+[00:04:56 - 00:04:59] because we have only one levels right so
+[00:04:58 - 00:05:01] this is your super and this is your sub
+[00:04:59 - 00:05:03] we can use some more terms in shops
+[00:05:01 - 00:05:05] simply saying super sub we can also say
+[00:05:03 - 00:05:07] this is a peasant class and then and
+[00:05:05 - 00:05:10] that scenario this becomes a child class
+[00:05:07 - 00:05:13] we can also say this is as a base class
+[00:05:10 - 00:05:16] so if this is a base class now this will
+[00:05:13 - 00:05:18] be called as or did I plus so in Java we
+[00:05:16 - 00:05:22] use a term colors event super and sub in
+[00:05:18 - 00:05:26] in the concept of oops we use parent and
+[00:05:22 - 00:05:28] child in the concept of seep of C++ we
+[00:05:26 - 00:05:30] use base and derive so in Java will be
+[00:05:28 - 00:05:32] using super and sir will not use this
+[00:05:30 - 00:05:34] two keywords but you can say that I mean
+[00:05:32 - 00:05:35] no one will kill you if you mention
+[00:05:34 - 00:05:37] parent and child
+[00:05:35 - 00:05:39] it's just that in Java we use super and
+[00:05:37 - 00:05:42] sub so that's how you create a single
+[00:05:39 - 00:05:44] level inheritance now we can also
+[00:05:42 - 00:05:46] achieve a multi-level inheritance here
+[00:05:44 - 00:05:48] now how to do that let's let me do it
+[00:05:46 - 00:05:51] one more calculator here we'll say this
+[00:05:48 - 00:05:53] is calc very advanced calculator okay
+[00:05:51 - 00:05:56] which will have which will have three
+[00:05:53 - 00:05:58] features the addition the subtraction
+[00:05:56 - 00:06:00] and one more thing which is
+[00:05:58 - 00:06:02] multiplication so ensure of creating
+[00:06:00 - 00:06:04] three methods here I will simply create
+[00:06:02 - 00:06:07] one methodology which is multi which
+[00:06:04 - 00:06:12] takes two parameters int I comma int J
+[00:06:07 - 00:06:16] and it returns I into J okay and I want
+[00:06:12 - 00:06:18] this class to extends calculator I mean
+[00:06:16 - 00:06:20] the Advanced calculator that's it
+[00:06:18 - 00:06:22] because if this class extends Advanced
+[00:06:20 - 00:06:25] calculator advanced capita extends
+[00:06:22 - 00:06:27] calculator so this class will have all
+[00:06:25 - 00:06:30] the features of advanced I mean as and
+[00:06:27 - 00:06:33] sub so if you imagine this is our
+[00:06:30 - 00:06:36] grandfather this is a father and this is
+[00:06:33 - 00:06:38] a child okay and now I'll show creating
+[00:06:36 - 00:06:40] object of cows we can create object of
+[00:06:38 - 00:06:41] advanced variation calc very advanced
+[00:06:40 - 00:06:43] and we can
+[00:06:41 - 00:06:45] call three methods here so the pay
+[00:06:43 - 00:06:49] streak this is result three and this
+[00:06:45 - 00:06:52] will be multi let us say this is 2 & 3
+[00:06:49 - 00:06:54] and let's also paint the third result so
+[00:06:52 - 00:06:56] we have achieved a mighty level in
+[00:06:54 - 00:06:58] height in Co so we have this first level
+[00:06:56 - 00:07:01] so if you talk about these two classes
+[00:06:58 - 00:07:03] this is first level in it is a single
+[00:07:01 - 00:07:04] level in heightens if you talk about all
+[00:07:03 - 00:07:07] these classes this is again this is
+[00:07:04 - 00:07:09] multi level but if we talk about only
+[00:07:07 - 00:07:11] this two this is again single okay
+[00:07:09 - 00:07:12] because we are talking about this - only
+[00:07:11 - 00:07:15] that is single
+[00:07:12 - 00:07:17] this - single and all this three there
+[00:07:15 - 00:07:20] are multi level so in Java we can
+[00:07:17 - 00:07:23] achieve single level inheritance we can
+[00:07:20 - 00:07:24] achieve multi-level inheritance but how
+[00:07:23 - 00:07:26] about multiple because if we talk about
+[00:07:24 - 00:07:29] oops concept it also provides you
+[00:07:26 - 00:07:31] multiple inheritance but unfortunately
+[00:07:29 - 00:07:32] Java doesn't support multiple
+[00:07:31 - 00:07:34] inheritance
+[00:07:32 - 00:07:35] why exactly doesn't support multiple
+[00:07:34 - 00:07:38] inheritance that we'll see in the next
+[00:07:35 - 00:07:42] video but time we remember we we we work
+[00:07:38 - 00:07:44] with inheritance like this again in
+[00:07:42 - 00:07:47] heightens has two things one is there
+[00:07:44 - 00:07:50] are two relationship in itens just to
+[00:07:47 - 00:07:53] let you know this is called as is a and
+[00:07:50 - 00:07:55] has a now what it means whenever you
+[00:07:53 - 00:07:58] have a class which extends another class
+[00:07:55 - 00:08:01] it is called as easy and whenever you
+[00:07:58 - 00:08:03] have a class which in which you are
+[00:08:01 - 00:08:06] creating the object of another class it
+[00:08:03 - 00:08:08] is called as has a example in heightens
+[00:08:06 - 00:08:10] demo can access the features of add
+[00:08:08 - 00:08:12] because we are creating the object of
+[00:08:10 - 00:08:15] calc very advanced I'm saying that in
+[00:08:12 - 00:08:18] this class I have the object so when I
+[00:08:15 - 00:08:21] say I has I have so that is has a
+[00:08:18 - 00:08:23] relationship and when you extend that is
+[00:08:21 - 00:08:27] easy example when you talk about dog is
+[00:08:23 - 00:08:29] dog is an animal so dog extends animal
+[00:08:27 - 00:08:31] but when you talk about a bathroom so
+[00:08:29 - 00:08:33] bathroom has it has a tub right so
+[00:08:31 - 00:08:35] that's a two difference I need in a
+[00:08:33 - 00:08:37] chance we have okay but time remember
+[00:08:35 - 00:08:40] only easy so yeah that's it that's about
+[00:08:37 - 00:08:42] inheritance single level and multi level
+[00:08:40 - 00:08:44] or in the next video we'll see why Java
+[00:08:42 - 00:08:47] doesn't support multiple inheritance
+[00:08:44 - 00:08:47] thank you so much

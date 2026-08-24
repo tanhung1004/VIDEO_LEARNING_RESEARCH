@@ -1,0 +1,175 @@
+VIDEO ID: v33
+SUBJECT: C++
+TITLE: C++ POINTERS - Introduction to C++ pointers for beginners
+URL: https://www.youtube.com/watch?v=eNofmKYzje4
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: variable
+DESCRIPTION: store and manipulate data using variables in C++ programs
+SEARCH ALIASES: variable, variables
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:44 - 00:00:55
+  SECONDS: 44.32 - 55.76
+  MATCH: variable
+  TEXT: is what are pointers. So we already have explained the concept of a variable and you should be familiar with that. So we
+
+  HIT 2
+  TIME: 00:00:50 - 00:01:00
+  SECONDS: 50.56 - 60.56
+  MATCH: variable
+  TEXT: you should be familiar with that. So we said that a variable is just a container. So a container that stores
+
+  HIT 3
+  TIME: 00:01:09 - 00:01:24
+  SECONDS: 69.6 - 84.24
+  MATCH: variable
+  TEXT: pointers work in Visual Studio. Let's create a variable of type int and I'm going to call it n and assign it a value
+
+------------------------------------------------------------------------
+
+CONCEPT: data type
+DESCRIPTION: define the type of values and variables using C++ data types
+SEARCH ALIASES: data type, data types, datatype
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: pointer
+DESCRIPTION: store and use memory addresses with C++ pointers
+SEARCH ALIASES: pointer, pointers, memory address
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:03 - 00:00:12
+  SECONDS: 3.44 - 12.88
+  MATCH: pointers
+  TEXT: this video, I want to talk about pointers. So I will go straight to the point. Uh pointers are very important
+
+  HIT 2
+  TIME: 00:00:10 - 00:00:20
+  SECONDS: 10.08 - 20.72
+  MATCH: pointers
+  TEXT: concept in C++ and they have many uses in C++. Now pointers are not limited only to C++. They exist in other
+
+  HIT 3
+  TIME: 00:00:30 - 00:00:39
+  SECONDS: 30.24 - 39.52
+  MATCH: pointers
+  TEXT: you can use them and you can create your own pointers and they can be pretty powerful if you know how to use them.
+
+------------------------------------------------------------------------
+
+CONCEPT: reference
+DESCRIPTION: refer to an existing C++ object or variable using a reference
+SEARCH ALIASES: reference, references
+DIRECT HIT COUNT (top max 3 shown): 1
+
+  HIT 1
+  TIME: 00:10:05 - 00:10:15
+  SECONDS: 605.12 - 615.52
+  MATCH: reference
+  TEXT: solve is you can use pointers in order to pass values by a reference to a function. And then you can use them to
+
+------------------------------------------------------------------------
+
+CONCEPT: class
+DESCRIPTION: define data and behavior using a C++ class
+SEARCH ALIASES: class, classes
+DIRECT HIT COUNT (top max 3 shown): 2
+
+  HIT 1
+  TIME: 00:10:26 - 00:10:38
+  SECONDS: 626.96 - 638.4
+  MATCH: class
+  TEXT: programming, you can use a pointer of a base class in order to access a object of derived class. And then there is this
+
+  HIT 2
+  TIME: 00:10:29 - 00:10:41
+  SECONDS: 629.68 - 641.52
+  MATCH: class
+  TEXT: base class in order to access a object of derived class. And then there is this concept of smart pointers which we are
+
+------------------------------------------------------------------------
+
+CONCEPT: object
+DESCRIPTION: create and use an instance of a C++ class
+SEARCH ALIASES: object, objects, instance, instantiate
+DIRECT HIT COUNT (top max 3 shown): 2
+
+  HIT 1
+  TIME: 00:10:22 - 00:10:33
+  SECONDS: 622.4 - 633.04
+  MATCH: object
+  TEXT: memory allocation. And then if you're familiar with OOP object-oriented programming, you can use a pointer of a
+
+  HIT 2
+  TIME: 00:10:26 - 00:10:38
+  SECONDS: 626.96 - 638.4
+  MATCH: object
+  TEXT: programming, you can use a pointer of a base class in order to access a object of derived class. And then there is this
+
+------------------------------------------------------------------------
+
+CONCEPT: constructor
+DESCRIPTION: initialize C++ objects using a class constructor
+SEARCH ALIASES: constructor, constructors
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: inheritance
+DESCRIPTION: reuse and extend behavior from a base class in C++
+SEARCH ALIASES: inheritance, inherit, base class, derived class
+DIRECT HIT COUNT (top max 3 shown): 2
+
+  HIT 1
+  TIME: 00:10:26 - 00:10:38
+  SECONDS: 626.96 - 638.4
+  MATCH: base class
+  TEXT: programming, you can use a pointer of a base class in order to access a object of derived class. And then there is this
+
+  HIT 2
+  TIME: 00:10:29 - 00:10:41
+  SECONDS: 629.68 - 641.52
+  MATCH: derived class
+  TEXT: base class in order to access a object of derived class. And then there is this concept of smart pointers which we are
+
+------------------------------------------------------------------------
+
+CONCEPT: polymorphism
+DESCRIPTION: use a common interface with different C++ object behaviors
+SEARCH ALIASES: polymorphism, polymorphic, virtual function, virtual functions
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: template
+DESCRIPTION: define generic C++ functions or classes using templates
+SEARCH ALIASES: template, templates, generic
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------

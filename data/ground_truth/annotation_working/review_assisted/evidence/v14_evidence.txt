@@ -1,0 +1,208 @@
+VIDEO ID: v14
+SUBJECT: Python
+TITLE: Python Tutorial for Beginners 7: Loops and Iterations - For/While Loops
+URL: https://www.youtube.com/watch?v=6iF8Xb7Z3wQ
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: for loop
+DESCRIPTION: repeat a block of Python code using a for loop
+SEARCH ALIASES: for loop, for loops
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:03 - 00:00:11
+  SECONDS: 3.32 - 11.68
+  MATCH: for loops
+  TEXT: and iterations specifically we'll be going over for loops and while Loops now we've seen Loops a couple of times in
+
+  HIT 2
+  TIME: 00:00:24 - 00:00:35
+  SECONDS: 24.72 - 35.16
+  MATCH: for loop
+  TEXT: through this list so to do this we're going to use a for Loop so we'll say for num in nums and within here I'm just
+
+  HIT 3
+  TIME: 00:02:15 - 00:02:23
+  SECONDS: 135.36 - 143.72
+  MATCH: for loop
+  TEXT: then our break statement broke out of the for Loop and when it broke out of the for Loop you can see that we didn't
+
+------------------------------------------------------------------------
+
+CONCEPT: for
+DESCRIPTION: iterate through elements using the Python for statement
+SEARCH ALIASES: for statement, for loop, for in
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:24 - 00:00:35
+  SECONDS: 24.72 - 35.16
+  MATCH: for loop
+  TEXT: through this list so to do this we're going to use a for Loop so we'll say for num in nums and within here I'm just
+
+  HIT 2
+  TIME: 00:02:15 - 00:02:23
+  SECONDS: 135.36 - 143.72
+  MATCH: for loop
+  TEXT: then our break statement broke out of the for Loop and when it broke out of the for Loop you can see that we didn't
+
+  HIT 3
+  TIME: 00:02:17 - 00:02:26
+  SECONDS: 137.6 - 146.88
+  MATCH: for loop
+  TEXT: the for Loop and when it broke out of the for Loop you can see that we didn't iterate through any more values so we
+
+------------------------------------------------------------------------
+
+CONCEPT: iteration
+DESCRIPTION: repeatedly process elements in a sequence
+SEARCH ALIASES: iteration, iterations, iterate, iterating
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:01 - 00:00:09
+  SECONDS: 1.68 - 9.8
+  MATCH: iterations
+  TEXT: this video we'll be learning about loops and iterations specifically we'll be going over for loops and while Loops now
+
+  HIT 2
+  TIME: 00:01:10 - 00:01:21
+  SECONDS: 70.28 - 81.08
+  MATCH: iteration
+  TEXT: of a loop and the continue keyword moves on to the next iteration of the loop so first let's look at the break statement
+
+  HIT 3
+  TIME: 00:02:19 - 00:02:30
+  SECONDS: 139.32 - 150.4
+  MATCH: iterate
+  TEXT: the for Loop you can see that we didn't iterate through any more values so we did not get through to values four or
+
+------------------------------------------------------------------------
+
+CONCEPT: range
+DESCRIPTION: generate a sequence of numbers for Python iteration
+SEARCH ALIASES: range, range function
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:05:14 - 00:05:23
+  SECONDS: 314.08 - 323.0
+  MATCH: range
+  TEXT: number of times and there's a built-in function called range that is really useful for this so let's say that we
+
+  HIT 2
+  TIME: 00:05:23 - 00:05:36
+  SECONDS: 323.0 - 336.56
+  MATCH: range
+  TEXT: times so to do this we can just say 4 I in range 10 and with in here we will just print out I so now if we run this
+
+  HIT 3
+  TIME: 00:05:42 - 00:05:52
+  SECONDS: 342.32 - 352.0
+  MATCH: range
+  TEXT: including this number that we passed into range now if we don't want to start at zero then we can also pass a starting
+
+------------------------------------------------------------------------
+
+CONCEPT: list
+DESCRIPTION: sore and process ordered Python elements in a list
+SEARCH ALIASES: list, lists
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:09 - 00:00:18
+  SECONDS: 9.8 - 18.32
+  MATCH: lists
+  TEXT: our previous videos when looping through strings or lists but there's some more functionality that we haven't gone over
+
+  HIT 2
+  TIME: 00:00:18 - 00:00:26
+  SECONDS: 18.32 - 26.68
+  MATCH: list
+  TEXT: first let's just do a quick recap so we've got a list of numbers here with numbers one through five so let's Loop
+
+  HIT 3
+  TIME: 00:00:22 - 00:00:32
+  SECONDS: 22.4 - 32.6
+  MATCH: list
+  TEXT: numbers one through five so let's Loop through this list so to do this we're going to use a for Loop so we'll say for
+
+------------------------------------------------------------------------
+
+CONCEPT: nested loop
+DESCRIPTION: use one loop inside another loop
+SEARCH ALIASES: nested loop, nested loops
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: index
+DESCRIPTION: access an element using its position or index
+SEARCH ALIASES: index, indexing, indices
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: break
+DESCRIPTION: stop a loop early using the break statement
+SEARCH ALIASES: break, break statement
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:01:02 - 00:01:13
+  SECONDS: 62.0 - 73.68
+  MATCH: break
+  TEXT: when working with loops and these are the break and continue keywords so the break keyword will completely break out
+
+  HIT 2
+  TIME: 00:01:05 - 00:01:16
+  SECONDS: 65.0 - 76.56
+  MATCH: break
+  TEXT: the break and continue keywords so the break keyword will completely break out of a loop and the continue keyword moves
+
+  HIT 3
+  TIME: 00:01:13 - 00:01:24
+  SECONDS: 73.68 - 84.04
+  MATCH: break, break statement
+  TEXT: on to the next iteration of the loop so first let's look at the break statement so let's say that we are looking for a
+
+------------------------------------------------------------------------
+
+CONCEPT: continue
+DESCRIPTION: skip the current loop iteration using continue
+SEARCH ALIASES: continue, continue statement
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:01:02 - 00:01:13
+  SECONDS: 62.0 - 73.68
+  MATCH: continue
+  TEXT: when working with loops and these are the break and continue keywords so the break keyword will completely break out
+
+  HIT 2
+  TIME: 00:01:07 - 00:01:18
+  SECONDS: 67.96 - 78.72
+  MATCH: continue
+  TEXT: break keyword will completely break out of a loop and the continue keyword moves on to the next iteration of the loop so
+
+  HIT 3
+  TIME: 00:01:21 - 00:01:29
+  SECONDS: 81.08 - 89.96
+  MATCH: continue
+  TEXT: certain number in our list and once we find it we don't need to continue looping through the rest of our values
+
+------------------------------------------------------------------------

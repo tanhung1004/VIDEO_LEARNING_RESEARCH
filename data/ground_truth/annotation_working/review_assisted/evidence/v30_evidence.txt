@@ -1,0 +1,194 @@
+VIDEO ID: v30
+SUBJECT: Java
+TITLE: When and How to Utilize Java Abstract Classes and Abstract Methods?
+URL: https://www.youtube.com/watch?v=ZRdgrLs-rRo
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: class
+DESCRIPTION: define objects and behavior using a Java class
+SEARCH ALIASES: class, classes
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:03 - 00:00:16
+  SECONDS: 3.77 - 16.19
+  MATCH: class
+  TEXT: to use abstract methods and abstract class here you can see class car which is abstract class and it has engine
+
+  HIT 2
+  TIME: 00:00:06 - 00:00:19
+  SECONDS: 6.14 - 19.28
+  MATCH: class
+  TEXT: class here you can see class car which is abstract class and it has engine method this engine method is abstract
+
+  HIT 3
+  TIME: 00:00:16 - 00:00:27
+  SECONDS: 16.19 - 27.17
+  MATCH: class
+  TEXT: method and here you can see Honda car which extends abstract class car and provide implementation of abstract
+
+------------------------------------------------------------------------
+
+CONCEPT: object
+DESCRIPTION: instance of a Java class
+SEARCH ALIASES: object, objects, instance
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:01:08 - 00:01:17
+  SECONDS: 68.34 - 77.82
+  MATCH: object
+  TEXT: behaviors at the top of an object-oriented programming class hierarchy and use its subclasses to
+
+  HIT 2
+  TIME: 00:01:36 - 00:01:48
+  SECONDS: 96.32 - 108.93
+  MATCH: object
+  TEXT: you our reference points to Honda car object using car reference I am calling engine
+
+  HIT 3
+  TIME: 00:01:42 - 00:01:51
+  SECONDS: 102.56 - 111.95
+  MATCH: object
+  TEXT: using car reference I am calling engine method it will call khandaker object engine method
+
+------------------------------------------------------------------------
+
+CONCEPT: method
+DESCRIPTION: define behavior using a Java method
+SEARCH ALIASES: method, methods
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:00 - 00:00:13
+  SECONDS: 0.29 - 13.52
+  MATCH: methods
+  TEXT: hi this video tutorial I will cover went to use abstract methods and abstract class here you can see class car which
+
+  HIT 2
+  TIME: 00:00:10 - 00:00:22
+  SECONDS: 10.4 - 22.28
+  MATCH: method
+  TEXT: is abstract class and it has engine method this engine method is abstract method and here you can see Honda car
+
+  HIT 3
+  TIME: 00:00:13 - 00:00:24
+  SECONDS: 13.52 - 24.98
+  MATCH: method
+  TEXT: method this engine method is abstract method and here you can see Honda car which extends abstract class car and
+
+------------------------------------------------------------------------
+
+CONCEPT: interface
+DESCRIPTION: define a Java interface containing method contracts
+SEARCH ALIASES: interface, interfaces
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: implements
+DESCRIPTION: implement a Java interface in a class
+SEARCH ALIASES: implements, implement interface, implementing interface
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: extends
+DESCRIPTION: extend a Java class through inheritance
+SEARCH ALIASES: extends, extend class
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:16 - 00:00:27
+  SECONDS: 16.19 - 27.17
+  MATCH: extends
+  TEXT: method and here you can see Honda car which extends abstract class car and provide implementation of abstract
+
+  HIT 2
+  TIME: 00:00:24 - 00:00:35
+  SECONDS: 24.98 - 35.15
+  MATCH: extends
+  TEXT: method engine here you can see Swift car which extends abstract class car and provide
+
+  HIT 3
+  TIME: 00:00:52 - 00:01:02
+  SECONDS: 52.05 - 62.19
+  MATCH: extends
+  TEXT: different ways through different implementation these subclasses extends the same abstract class and provide
+
+------------------------------------------------------------------------
+
+CONCEPT: inheritance
+DESCRIPTION: reuse and extend behavior from a parent Java class
+SEARCH ALIASES: inheritance, inherit, inherited
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: abstract class
+DESCRIPTION: define an abstract Java class that cannot be directly instantiated
+SEARCH ALIASES: abstract class, abstract classes
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:06 - 00:00:19
+  SECONDS: 6.14 - 19.28
+  MATCH: abstract class
+  TEXT: class here you can see class car which is abstract class and it has engine method this engine method is abstract
+
+  HIT 2
+  TIME: 00:00:16 - 00:00:27
+  SECONDS: 16.19 - 27.17
+  MATCH: abstract class
+  TEXT: method and here you can see Honda car which extends abstract class car and provide implementation of abstract
+
+  HIT 3
+  TIME: 00:00:27 - 00:00:38
+  SECONDS: 27.17 - 38.54
+  MATCH: abstract class
+  TEXT: here you can see Swift car which extends abstract class car and provide implementation of abstract method engine
+
+------------------------------------------------------------------------
+
+CONCEPT: abstract method
+DESCRIPTION: declare an abstract method that subclasses must implement
+SEARCH ALIASES: abstract method, abstract methods
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:00 - 00:00:13
+  SECONDS: 0.29 - 13.52
+  MATCH: abstract methods
+  TEXT: hi this video tutorial I will cover went to use abstract methods and abstract class here you can see class car which
+
+  HIT 2
+  TIME: 00:00:30 - 00:00:41
+  SECONDS: 30.02 - 41.15
+  MATCH: abstract method
+  TEXT: abstract class car and provide implementation of abstract method engine if you notice engine implementation of a
+
+  HIT 3
+  TIME: 00:00:41 - 00:00:52
+  SECONDS: 41.15 - 52.05
+  MATCH: abstract methods
+  TEXT: implementation of a Honda car abstract methods are usually declared where two or more subclasses are
+
+------------------------------------------------------------------------
