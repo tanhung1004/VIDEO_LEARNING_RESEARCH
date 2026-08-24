@@ -1,0 +1,6 @@
+﻿outer_fold,train_videos,heldout_videos,train_chunks,heldout_chunks,score_rows,expected_score_rows,lda_vocab_size,lda_topics,lsa_vocab_size,lsa_components,video_overlap,heldout_text_used_in_fit,ground_truth_used,alpha_selected,threshold_selected,status
+1,32,8,361,133,1280,1280,3000,6,5000,100,0,NO,NO,NO,NO,PASS
+2,32,8,420,74,746,746,3000,6,5000,100,0,NO,NO,NO,NO,PASS
+3,32,8,437,57,568,568,3000,6,5000,100,0,NO,NO,NO,NO,PASS
+4,32,8,370,124,1210,1210,3000,6,5000,100,0,NO,NO,NO,NO,PASS
+5,32,8,388,106,1049,1049,3000,6,5000,100,0,NO,NO,NO,NO,PASS
