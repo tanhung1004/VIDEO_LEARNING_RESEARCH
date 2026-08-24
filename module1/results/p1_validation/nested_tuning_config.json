@@ -1,0 +1,54 @@
+{
+  "outer_folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "inner_splits": 4,
+  "inner_split_method": "StratifiedKFold",
+  "inner_random_state": 42,
+  "alpha_grid": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "aggregation_grid": [
+    "max",
+    "mean",
+    "top2_mean",
+    "top3_mean"
+  ],
+  "threshold_grid": [
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7
+  ],
+  "primary_selection_metric": "mean video-level F1",
+  "secondary_selection_metric": "micro F1",
+  "tie_break_rule": [
+    "prefer frozen top2_mean aggregation",
+    "alpha closest to 0.40",
+    "threshold closest to 0.40",
+    "fixed deterministic ordering"
+  ],
+  "outer_test_used_for_tuning": false,
+  "fixed_concept_catalog_allowed_in_lsa_fit": true
+}

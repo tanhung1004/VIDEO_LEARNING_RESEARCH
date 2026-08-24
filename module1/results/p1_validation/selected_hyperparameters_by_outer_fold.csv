@@ -1,0 +1,6 @@
+﻿outer_fold,selected_alpha,selected_aggregation,selected_threshold,inner_macro_video_f1,inner_micro_f1,frozen_baseline_inner_macro_f1,frozen_baseline_inner_micro_f1,inner_cv_folds,outer_train_videos,outer_test_videos,outer_test_gt_used_for_selection,outer_test_text_used_for_inner_models,selection_metric,secondary_metric,status
+1,0.0,top2_mean,0.65,0.6592352092352092,0.6832740213523132,0.551731227471359,0.6104651162790697,4,32,8,NO,NO,macro_video_f1,micro_f1,PASS
+2,0.0,top3_mean,0.7,0.6564120826069355,0.6737588652482269,0.5774875389595784,0.6246575342465753,4,32,8,NO,NO,macro_video_f1,micro_f1,PASS
+3,0.0,mean,0.4,0.670281974969475,0.6446280991735537,0.5636054082334074,0.6203208556149733,4,32,8,NO,NO,macro_video_f1,micro_f1,PASS
+4,0.0,top2_mean,0.6,0.6480803096757044,0.6688524590163935,0.5840655310783986,0.632183908045977,4,32,8,NO,NO,macro_video_f1,micro_f1,PASS
+5,0.1,mean,0.5,0.6390376984126984,0.6108374384236454,0.5398133984071485,0.5892351274787535,4,32,8,NO,NO,macro_video_f1,micro_f1,PASS
