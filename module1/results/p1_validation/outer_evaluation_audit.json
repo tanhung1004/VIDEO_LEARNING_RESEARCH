@@ -1,0 +1,26 @@
+{
+  "evaluation_stage": "P1.8",
+  "dev_videos": 40,
+  "outer_folds": 5,
+  "heldout_videos_per_fold": 8,
+  "video_concept_pairs_per_variant": 390,
+  "positive_ground_truth_pairs": 153,
+  "model_variants": [
+    "nested_tuned",
+    "frozen_fixed"
+  ],
+  "nested_tuned_hyperparameters_source": "P1.7 inner CV on outer-training videos only",
+  "frozen_fixed_config": {
+    "alpha": 0.4,
+    "aggregation": "top2_mean",
+    "threshold": 0.4
+  },
+  "outer_test_used_for_hyperparameter_selection": false,
+  "outer_test_used_for_evaluation_only": true,
+  "primary_metric": "mean video-level F1",
+  "secondary_metrics": [
+    "micro precision",
+    "micro recall",
+    "micro F1"
+  ]
+}
