@@ -1,0 +1,14 @@
+{
+  "analysis_stage": "P1.9",
+  "sampling_unit": "video",
+  "paired_comparison": true,
+  "primary_metric": "video-level F1",
+  "primary_test": "two-sided Wilcoxon signed-rank",
+  "secondary_test": "paired t-test",
+  "effect_size": "Cohen's dz",
+  "confidence_interval": "95% percentile stratified video bootstrap",
+  "bootstrap_iterations": 10000,
+  "bootstrap_random_state": 42,
+  "bootstrap_stratification": "subject",
+  "multiple_testing_note": "Primary inferential test is limited to the pre-specified video-level F1 comparison."
+}
