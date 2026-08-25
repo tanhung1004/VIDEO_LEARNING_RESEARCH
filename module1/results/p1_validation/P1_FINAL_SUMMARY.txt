@@ -1,0 +1,68 @@
+P1 SCIENTIFIC VALIDATION FINAL SUMMARY
+======================================
+
+Status: PASS
+
+Dataset
+-------
+DEV videos: 40
+Subjects: 10 SQL / 10 Python / 10 Java / 10 C++
+Ground-truth positive pairs: 153
+
+Primary experiment
+------------------
+Chunk duration: 60 seconds
+Chunks: 494
+Outer CV: 5 folds
+Train/test per outer fold: 32 / 8 videos
+Leakage: none detected
+
+Nested tuning
+-------------
+Inner CV: 4 folds inside each outer-training set
+Outer-test data used for tuning: NO
+Outer-test GT used for tuning: NO
+
+Primary video-level F1
+----------------------
+Nested tuned : 0.607307
+Frozen fixed : 0.572958
+Delta        : 0.034349
+
+Paired statistical comparison
+-----------------------------
+95% bootstrap CI:
+[-0.039717,
+ 0.108696]
+
+Wilcoxon p:
+0.203127
+
+Wins / ties / losses:
+24 /
+4 /
+12
+
+Interpretation
+--------------
+Nested tuning produced a higher mean video-level F1
+on the 40-video development set, but the paired
+analysis did not establish a statistically significant
+improvement at alpha = 0.05.
+
+Chunk-size sensitivity
+----------------------
+30 / 60 / 90 / 120 seconds tested.
+60-second experiment reproduced exactly.
+Sensitivity results were NOT used to retroactively
+change the primary configuration.
+
+Scientific controls
+-------------------
+Ground truth created before model evaluation.
+Video-level splitting used.
+No train/held-out video overlap.
+Held-out transcript was transform-only.
+Outer-test GT was evaluation-only.
+Hyperparameters were selected by nested inner CV.
+Sensitivity results were descriptive only.

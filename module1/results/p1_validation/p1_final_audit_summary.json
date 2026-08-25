@@ -1,0 +1,29 @@
+{
+  "stage": "P1 Scientific Validation",
+  "status": "PASS",
+  "checks_passed": 45,
+  "checks_failed": 0,
+  "dev_videos": 40,
+  "ground_truth_positive_pairs": 153,
+  "primary_chunk_seconds": 60,
+  "primary_chunks": 494,
+  "outer_folds": 5,
+  "inner_folds_per_outer_fold": 4,
+  "nested_mean_video_f1": 0.6073071884256095,
+  "frozen_mean_video_f1": 0.5729583406789288,
+  "paired_mean_delta_f1": 0.0343488477466805,
+  "paired_wilcoxon_p": 0.2031266446500685,
+  "paired_ci_lower": -0.0397172052663538,
+  "paired_ci_upper": 0.1086963751977296,
+  "statistical_interpretation": "Nested tuning has higher mean video-level F1 on DEV, but the paired difference is not statistically significant at alpha=0.05.",
+  "chunk_sensitivity_seconds": [
+    30,
+    60,
+    90,
+    120
+  ],
+  "sensitivity_used_for_model_selection": false,
+  "outer_test_used_for_tuning": false,
+  "heldout_transcript_used_for_fit": false,
+  "problems": []
+}
