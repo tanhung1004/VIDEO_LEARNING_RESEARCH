@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "old_raw_scores_reused": [
+    30,
+    60,
+    90,
+    120
+  ],
+  "new_raw_scores_generated": [
+    150,
+    180
+  ],
+  "new_chunk_counts": {
+    "150": 209,
+    "180": 172
+  },
+  "all_chunk_sizes": [
+    30,
+    60,
+    90,
+    120,
+    150,
+    180
+  ],
+  "thresholds": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7
+  ],
+  "alphas": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "aggregations": [
+    "max",
+    "mean",
+    "top2_mean",
+    "top3_mean"
+  ],
+  "num_configurations": 3432,
+  "expected_configurations": 3432,
+  "same_five_dev_folds": true,
+  "video_level_split": true,
+  "heldout_text_used_for_fit": false,
+  "p_value_used_for_selection": false,
+  "final_test_used": false,
+  "selected_count": 1,
+  "changed_from_p1_12": true,
+  "further_grid_extension_allowed": false,
+  "reason_for_extension": "P1.13 found the P1.12 winner at the upper chunk boundary and lower threshold boundary."
+}

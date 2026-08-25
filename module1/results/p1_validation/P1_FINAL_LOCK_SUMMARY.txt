@@ -1,0 +1,30 @@
+==================================================================================
+P1.15 FINAL AUDIT + CONFIGURATION LOCK
+==================================================================================
+
+FINAL LOCKED CONFIGURATION
+chunk_seconds = 180
+alpha = 0.0
+lsa_weight = 1.0
+aggregation = max
+threshold = 0.5
+
+DEV macro video F1 = 0.727969
+DEV micro F1 = 0.752475
+DEV fold F1 std = 0.073601
+
+Search configurations evaluated = 3432
+Checks passed = 27
+Checks failed = 0
+
+Selection used DEV only.
+Final TEST was not used.
+No further DEV-driven hyperparameter tuning is allowed after this lock.
+180s remains the upper boundary of the one-time extended search and is documented as a limitation.
+P1.14 supplementary comparison was skipped; it was not required for selection or locking.
+
+Configuration SHA256 = bd89819f0c91aa2e6828f4815f11ffb88a0b8f7794e490e4cfe38b9f401d2bde
+
+P1.15 FINAL AUDIT + CONFIGURATION LOCK: PASS
+
+P1 STATUS: COMPLETE / LOCKED

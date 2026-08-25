@@ -1,0 +1,72 @@
+{
+  "stage": "P1.15 Final Configuration Lock",
+  "status": "LOCKED",
+  "chunk_seconds": 180,
+  "alpha": 0.0,
+  "lsa_weight": 1.0,
+  "aggregation": "max",
+  "threshold": 0.5,
+  "selection_stage": "P1.13b One-Time Boundary Extension",
+  "selected_on": "DEV",
+  "dev_video_count": 40,
+  "dev_macro_video_f1": 0.7279691223808871,
+  "dev_micro_f1": 0.7524752475247525,
+  "dev_fold_f1_std": 0.0736007835519313,
+  "selection_metric": "macro_video_f1",
+  "selection_rule": [
+    "highest macro video F1",
+    "highest micro F1",
+    "lowest fold F1 std",
+    "deterministic grid order"
+  ],
+  "evaluated_search_space": {
+    "chunk_seconds": [
+      30,
+      60,
+      90,
+      120,
+      150,
+      180
+    ],
+    "alpha": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "aggregation": [
+      "max",
+      "mean",
+      "top2_mean",
+      "top3_mean"
+    ],
+    "threshold": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7
+    ],
+    "num_configurations": 3432
+  },
+  "final_test_used": false,
+  "further_dev_tuning_allowed": false,
+  "p1_14_status": "SKIPPED_NOT_REQUIRED_FOR_SELECTION_OR_LOCK",
+  "remaining_limitation": "The selected chunk duration is 180s, the upper boundary of the one-time extended DEV search. Per the pre-declared stop rule, the search space is not extended further. The configuration is best among evaluated DEV configurations, not a claim of global optimum.",
+  "configuration_sha256": "bd89819f0c91aa2e6828f4815f11ffb88a0b8f7794e490e4cfe38b9f401d2bde"
+}

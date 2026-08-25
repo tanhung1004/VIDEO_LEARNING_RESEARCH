@@ -1,0 +1,36 @@
+{
+  "stage": "P1.13b One-Time Boundary Extension",
+  "status": "BOUNDARY_EXTENSION_COMPLETE",
+  "chunk_seconds": 180,
+  "alpha": 0.0,
+  "lsa_weight": 1.0,
+  "aggregation": "max",
+  "threshold": 0.5,
+  "macro_video_f1": 0.7279691223808871,
+  "micro_f1": 0.7524752475247525,
+  "fold_f1_std": 0.07360078355193136,
+  "original_p1_12": {
+    "chunk_seconds": 120,
+    "alpha": 0.0,
+    "aggregation": "mean",
+    "threshold": 0.2,
+    "macro_video_f1": 0.6997541592394534
+  },
+  "changed_from_p1_12": true,
+  "delta_macro_f1_vs_p1_12": 0.02821496314143368,
+  "boundary_status": {
+    "chunk_at_extended_upper_boundary": true,
+    "alpha_at_natural_lower_boundary": true,
+    "threshold_at_extended_lower_boundary": false
+  },
+  "selection_metric": "mean_video_level_f1",
+  "selection_rule": [
+    "highest macro video F1",
+    "highest micro F1",
+    "lowest fold F1 std",
+    "deterministic grid order"
+  ],
+  "development_only": true,
+  "final_test_used": false,
+  "extension_policy": "One pre-declared boundary extension only. No further grid expansion will be performed even if the selected configuration remains on an extended boundary."
+}
