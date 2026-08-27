@@ -1,0 +1,235 @@
+﻿topic_id,subject,concept,topic_concept_affinity
+0,SQL,select,0.0074
+0,SQL,where,0.0156
+0,SQL,group by,0.0575
+0,SQL,having,0.0078
+0,SQL,count,0.0103
+0,SQL,aggregate function,0.0708
+0,SQL,join,0.0123
+0,SQL,inner join,0.0922
+0,SQL,left join,0.0234
+0,SQL,subquery,0.0122
+0,SQL,order by,0.0536
+0,Python,for loop,0.3263
+0,Python,for,0.1318
+0,Python,iteration,0.0011
+0,Python,range,0.0732
+0,Python,list,0.001
+0,Python,nested loop,0.3635
+0,Python,index,0.0041
+0,Python,break,0.169
+0,Python,continue,0.1491
+0,Java,class,0.0041
+0,Java,object,0.0046
+0,Java,method,0.0041
+0,Java,interface,0.0013
+0,Java,implements,0.0063
+0,Java,extends,0.0033
+0,Java,inheritance,0.0032
+0,Java,abstract class,0.0014
+0,Java,abstract method,0.0015
+0,C++,variable,0.0111
+0,C++,data type,0.0056
+0,C++,pointer,0.0014
+0,C++,reference,0.0084
+0,C++,class,0.0041
+0,C++,object,0.0062
+0,C++,constructor,0.0041
+0,C++,inheritance,0.0032
+0,C++,polymorphism,0.0015
+0,C++,template,0.0047
+1,SQL,select,0.016
+1,SQL,where,0.0628
+1,SQL,group by,0.0921
+1,SQL,having,0.0047
+1,SQL,count,0.0606
+1,SQL,aggregate function,0.0402
+1,SQL,join,0.0088
+1,SQL,inner join,0.019
+1,SQL,left join,0.0028
+1,SQL,subquery,0.055
+1,SQL,order by,0.0974
+1,Python,for loop,0.2185
+1,Python,for,0.1928
+1,Python,iteration,0.0009
+1,Python,range,0.1098
+1,Python,list,0.0068
+1,Python,nested loop,0.0707
+1,Python,index,0.0284
+1,Python,break,0.0666
+1,Python,continue,0.0484
+1,Java,class,0.0285
+1,Java,object,0.0057
+1,Java,method,0.0259
+1,Java,interface,0.004
+1,Java,implements,0.0054
+1,Java,extends,0.0054
+1,Java,inheritance,0.0051
+1,Java,abstract class,0.0069
+1,Java,abstract method,0.0012
+1,C++,variable,0.0313
+1,C++,data type,0.0802
+1,C++,pointer,0.1158
+1,C++,reference,0.0299
+1,C++,class,0.0288
+1,C++,object,0.0966
+1,C++,constructor,0.0261
+1,C++,inheritance,0.0036
+1,C++,polymorphism,0.0824
+1,C++,template,0.1348
+2,SQL,select,0.0521
+2,SQL,where,0.021
+2,SQL,group by,0.0357
+2,SQL,having,0.0035
+2,SQL,count,0.0425
+2,SQL,aggregate function,0.0259
+2,SQL,join,0.0032
+2,SQL,inner join,0.0108
+2,SQL,left join,0.0051
+2,SQL,subquery,0.0633
+2,SQL,order by,0.0503
+2,Python,for loop,0.3059
+2,Python,for,0.2745
+2,Python,iteration,0.031
+2,Python,range,0.249
+2,Python,list,0.0774
+2,Python,nested loop,0.1607
+2,Python,index,0.0166
+2,Python,break,0.1045
+2,Python,continue,0.0868
+2,Java,class,0.032
+2,Java,object,0.0482
+2,Java,method,0.0725
+2,Java,interface,0.0372
+2,Java,implements,0.0141
+2,Java,extends,0.0127
+2,Java,inheritance,0.0126
+2,Java,abstract class,0.0094
+2,Java,abstract method,0.046
+2,C++,variable,0.2936
+2,C++,data type,0.2742
+2,C++,pointer,0.1673
+2,C++,reference,0.2724
+2,C++,class,0.0758
+2,C++,object,0.1255
+2,C++,constructor,0.0339
+2,C++,inheritance,0.0015
+2,C++,polymorphism,0.1197
+2,C++,template,0.0145
+3,SQL,select,0.0161
+3,SQL,where,0.0279
+3,SQL,group by,0.0405
+3,SQL,having,0.0025
+3,SQL,count,0.0574
+3,SQL,aggregate function,0.0294
+3,SQL,join,0.0029
+3,SQL,inner join,0.0166
+3,SQL,left join,0.0096
+3,SQL,subquery,0.0509
+3,SQL,order by,0.0533
+3,Python,for loop,0.2071
+3,Python,for,0.1848
+3,Python,iteration,0.0126
+3,Python,range,0.1333
+3,Python,list,0.105
+3,Python,nested loop,0.0984
+3,Python,index,0.073
+3,Python,break,0.0589
+3,Python,continue,0.0604
+3,Java,class,0.2296
+3,Java,object,0.192
+3,Java,method,0.0629
+3,Java,interface,0.0284
+3,Java,implements,0.1421
+3,Java,extends,0.1569
+3,Java,inheritance,0.1456
+3,Java,abstract class,0.1861
+3,Java,abstract method,0.0251
+3,C++,variable,0.0558
+3,C++,data type,0.0626
+3,C++,pointer,0.0704
+3,C++,reference,0.0625
+3,C++,class,0.2393
+3,C++,object,0.2835
+3,C++,constructor,0.1433
+3,C++,inheritance,0.1631
+3,C++,polymorphism,0.0939
+3,C++,template,0.0346
+4,SQL,select,0.3731
+4,SQL,where,0.1565
+4,SQL,group by,0.4273
+4,SQL,having,0.1296
+4,SQL,count,0.2011
+4,SQL,aggregate function,0.165
+4,SQL,join,0.1544
+4,SQL,inner join,0.1409
+4,SQL,left join,0.266
+4,SQL,subquery,0.1636
+4,SQL,order by,0.3237
+4,Python,for loop,0.1015
+4,Python,for,0.14
+4,Python,iteration,0.0004
+4,Python,range,0.0668
+4,Python,list,0.01
+4,Python,nested loop,0.029
+4,Python,index,0.0221
+4,Python,break,0.0307
+4,Python,continue,0.0207
+4,Java,class,0.0209
+4,Java,object,0.0011
+4,Java,method,0.0221
+4,Java,interface,0.0019
+4,Java,implements,0.0005
+4,Java,extends,0.0005
+4,Java,inheritance,0.0006
+4,Java,abstract class,0.0005
+4,Java,abstract method,0.0006
+4,C++,variable,0.0909
+4,C++,data type,0.1239
+4,C++,pointer,0.0556
+4,C++,reference,0.0251
+4,C++,class,0.0788
+4,C++,object,0.0533
+4,C++,constructor,0.0221
+4,C++,inheritance,0.0006
+4,C++,polymorphism,0.061
+4,C++,template,0.0433
+5,SQL,select,0.0082
+5,SQL,where,0.0197
+5,SQL,group by,0.0188
+5,SQL,having,0.0007
+5,SQL,count,0.0086
+5,SQL,aggregate function,0.0017
+5,SQL,join,0.0082
+5,SQL,inner join,0.0064
+5,SQL,left join,0.0009
+5,SQL,subquery,0.0343
+5,SQL,order by,0.0204
+5,Python,for loop,0.0387
+5,Python,for,0.0418
+5,Python,iteration,0.0006
+5,Python,range,0.0213
+5,Python,list,0.0248
+5,Python,nested loop,0.0273
+5,Python,index,0.0183
+5,Python,break,0.0085
+5,Python,continue,0.0082
+5,Java,class,0.5198
+5,Java,object,0.4991
+5,Java,method,0.3582
+5,Java,interface,0.3235
+5,Java,implements,0.4616
+5,Java,extends,0.3794
+5,Java,inheritance,0.3488
+5,Java,abstract class,0.5771
+5,Java,abstract method,0.3634
+5,C++,variable,0.0206
+5,C++,data type,0.0502
+5,C++,pointer,0.0275
+5,C++,reference,0.0659
+5,C++,class,0.5021
+5,C++,object,0.4672
+5,C++,constructor,0.2624
+5,C++,inheritance,0.3061
+5,C++,polymorphism,0.1904
+5,C++,template,0.0763

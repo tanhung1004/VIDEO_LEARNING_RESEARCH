@@ -1,0 +1,517 @@
+﻿video_id,subject,method,chunk_id,start_sec,end_sec,concept,lda_score
+v1,SQL,transcript_only,0,0,180,group by,0.4052
+v1,SQL,transcript_only,0,0,180,order by,0.2883
+v1,SQL,transcript_only,0,0,180,select,0.2664
+v1,SQL,transcript_only,1,180,360,group by,0.3402
+v1,SQL,transcript_only,1,180,360,select,0.2496
+v1,SQL,transcript_only,1,180,360,order by,0.249
+v1,SQL,transcript_only,2,360,540,group by,0.405
+v1,SQL,transcript_only,2,360,540,order by,0.2882
+v1,SQL,transcript_only,2,360,540,select,0.2663
+v1,SQL,transcript_only,3,540,720,group by,0.3708
+v1,SQL,transcript_only,3,540,720,order by,0.2675
+v1,SQL,transcript_only,3,540,720,select,0.2574
+v1,SQL,transcript_only,4,720,900,group by,0.3832
+v1,SQL,transcript_only,4,720,900,order by,0.2742
+v1,SQL,transcript_only,4,720,900,select,0.2537
+v10,SQL,transcript_only,0,0,180,group by,0.4052
+v10,SQL,transcript_only,0,0,180,order by,0.2884
+v10,SQL,transcript_only,0,0,180,select,0.2665
+v10,SQL,transcript_only,1,180,360,group by,0.3456
+v10,SQL,transcript_only,1,180,360,order by,0.2422
+v10,SQL,transcript_only,1,180,360,select,0.2269
+v10,SQL,transcript_only,2,360,540,group by,0.3444
+v10,SQL,transcript_only,2,360,540,order by,0.2413
+v10,SQL,transcript_only,2,360,540,select,0.2261
+v10,SQL,transcript_only,3,540,720,count,0.2607
+v10,SQL,transcript_only,3,540,720,aggregate function,0.2462
+v10,SQL,transcript_only,3,540,720,group by,0.1678
+v10,SQL,transcript_only,4,720,900,group by,0.3689
+v10,SQL,transcript_only,4,720,900,order by,0.2602
+v10,SQL,transcript_only,4,720,900,select,0.2423
+v10,SQL,transcript_only,5,900,1080,group by,0.405
+v10,SQL,transcript_only,5,900,1080,order by,0.2882
+v10,SQL,transcript_only,5,900,1080,select,0.2663
+v10,SQL,transcript_only,6,1080,1260,group by,0.4052
+v10,SQL,transcript_only,6,1080,1260,order by,0.2883
+v10,SQL,transcript_only,6,1080,1260,select,0.2664
+v11,SQL,transcript_only,0,0,180,left join,0.2636
+v11,SQL,transcript_only,0,0,180,inner join,0.1966
+v11,SQL,transcript_only,0,0,180,select,0.1857
+v11,SQL,transcript_only,1,180,360,left join,0.2565
+v11,SQL,transcript_only,1,180,360,inner join,0.19
+v11,SQL,transcript_only,1,180,360,select,0.1828
+v11,SQL,transcript_only,2,360,540,left join,0.2031
+v11,SQL,transcript_only,2,360,540,select,0.161
+v11,SQL,transcript_only,2,360,540,inner join,0.1404
+v11,SQL,transcript_only,3,540,720,group by,0.2087
+v11,SQL,transcript_only,3,540,720,select,0.1948
+v11,SQL,transcript_only,3,540,720,left join,0.1772
+v12,SQL,transcript_only,0,0,180,left join,0.2636
+v12,SQL,transcript_only,0,0,180,inner join,0.1966
+v12,SQL,transcript_only,0,0,180,select,0.1857
+v12,SQL,transcript_only,1,180,360,left join,0.2635
+v12,SQL,transcript_only,1,180,360,inner join,0.1966
+v12,SQL,transcript_only,1,180,360,select,0.1857
+v12,SQL,transcript_only,2,360,540,left join,0.2636
+v12,SQL,transcript_only,2,360,540,inner join,0.1966
+v12,SQL,transcript_only,2,360,540,select,0.1857
+v12,SQL,transcript_only,3,540,720,left join,0.2635
+v12,SQL,transcript_only,3,540,720,inner join,0.1966
+v12,SQL,transcript_only,3,540,720,select,0.1857
+v12,SQL,transcript_only,4,720,900,left join,0.2634
+v12,SQL,transcript_only,4,720,900,inner join,0.1965
+v12,SQL,transcript_only,4,720,900,select,0.1856
+v12,SQL,transcript_only,5,900,1080,left join,0.2632
+v12,SQL,transcript_only,5,900,1080,inner join,0.1963
+v12,SQL,transcript_only,5,900,1080,select,0.1856
+v13,SQL,transcript_only,0,0,180,group by,0.4055
+v13,SQL,transcript_only,0,0,180,order by,0.2885
+v13,SQL,transcript_only,0,0,180,select,0.2666
+v13,SQL,transcript_only,1,180,360,group by,0.1272
+v13,SQL,transcript_only,1,180,360,order by,0.1227
+v13,SQL,transcript_only,1,180,360,select,0.0958
+v13,SQL,transcript_only,2,360,540,group by,0.1978
+v13,SQL,transcript_only,2,360,540,order by,0.163
+v13,SQL,transcript_only,2,360,540,select,0.1284
+v13,SQL,transcript_only,3,540,720,group by,0.2198
+v13,SQL,transcript_only,3,540,720,order by,0.1769
+v13,SQL,transcript_only,3,540,720,select,0.1446
+v13,SQL,transcript_only,4,720,900,left join,0.1109
+v13,SQL,transcript_only,4,720,900,select,0.1018
+v13,SQL,transcript_only,4,720,900,order by,0.0854
+v13,SQL,transcript_only,5,900,1080,group by,0.255
+v13,SQL,transcript_only,5,900,1080,order by,0.1981
+v13,SQL,transcript_only,5,900,1080,select,0.1842
+v14,Python,transcript_only,0,0,180,for loop,0.4432
+v14,Python,transcript_only,0,0,180,for,0.3256
+v14,Python,transcript_only,0,0,180,nested loop,0.2777
+v14,Python,transcript_only,1,180,360,for loop,0.4431
+v14,Python,transcript_only,1,180,360,for,0.3256
+v14,Python,transcript_only,1,180,360,nested loop,0.2777
+v14,Python,transcript_only,2,360,540,for loop,0.443
+v14,Python,transcript_only,2,360,540,for,0.3254
+v14,Python,transcript_only,2,360,540,nested loop,0.2775
+v14,Python,transcript_only,3,540,720,for loop,0.4414
+v14,Python,transcript_only,3,540,720,for,0.3245
+v14,Python,transcript_only,3,540,720,nested loop,0.2765
+v15,Python,transcript_only,0,0,180,for loop,0.4169
+v15,Python,transcript_only,0,0,180,for,0.3089
+v15,Python,transcript_only,0,0,180,nested loop,0.2607
+v15,Python,transcript_only,1,180,360,for loop,0.443
+v15,Python,transcript_only,1,180,360,for,0.3255
+v15,Python,transcript_only,1,180,360,nested loop,0.2776
+v15,Python,transcript_only,2,360,540,for loop,0.443
+v15,Python,transcript_only,2,360,540,for,0.3255
+v15,Python,transcript_only,2,360,540,nested loop,0.2776
+v15,Python,transcript_only,3,540,720,for loop,0.4274
+v15,Python,transcript_only,3,540,720,for,0.3159
+v15,Python,transcript_only,3,540,720,nested loop,0.2668
+v16,Python,transcript_only,0,0,180,for loop,0.2106
+v16,Python,transcript_only,0,0,180,for,0.1885
+v16,Python,transcript_only,0,0,180,range,0.1405
+v16,Python,transcript_only,1,180,360,for loop,0.2557
+v16,Python,transcript_only,1,180,360,for,0.2138
+v16,Python,transcript_only,1,180,360,range,0.1661
+v17,Python,transcript_only,0,0,180,for loop,0.443
+v17,Python,transcript_only,0,0,180,for,0.3254
+v17,Python,transcript_only,0,0,180,nested loop,0.2775
+v17,Python,transcript_only,1,180,360,for loop,0.4428
+v17,Python,transcript_only,1,180,360,for,0.3253
+v17,Python,transcript_only,1,180,360,nested loop,0.2774
+v18,Python,transcript_only,0,0,180,for loop,0.443
+v18,Python,transcript_only,0,0,180,for,0.3255
+v18,Python,transcript_only,0,0,180,nested loop,0.2776
+v18,Python,transcript_only,1,180,360,for loop,0.3851
+v18,Python,transcript_only,1,180,360,for,0.2894
+v18,Python,transcript_only,1,180,360,range,0.2412
+v18,Python,transcript_only,2,360,540,for loop,0.3836
+v18,Python,transcript_only,2,360,540,for,0.2875
+v18,Python,transcript_only,2,360,540,range,0.2396
+v19,Python,transcript_only,0,0,180,for loop,0.4434
+v19,Python,transcript_only,0,0,180,for,0.3257
+v19,Python,transcript_only,0,0,180,nested loop,0.2778
+v19,Python,transcript_only,1,180,360,for loop,0.4434
+v19,Python,transcript_only,1,180,360,for,0.3257
+v19,Python,transcript_only,1,180,360,nested loop,0.2779
+v19,Python,transcript_only,2,360,540,for loop,0.4434
+v19,Python,transcript_only,2,360,540,for,0.3257
+v19,Python,transcript_only,2,360,540,nested loop,0.2778
+v19,Python,transcript_only,3,540,720,for loop,0.4417
+v19,Python,transcript_only,3,540,720,for,0.3247
+v19,Python,transcript_only,3,540,720,nested loop,0.2767
+v2,Python,transcript_only,0,0,180,for loop,0.4431
+v2,Python,transcript_only,0,0,180,for,0.3255
+v2,Python,transcript_only,0,0,180,nested loop,0.2776
+v2,Python,transcript_only,1,180,360,for loop,0.4429
+v2,Python,transcript_only,1,180,360,for,0.3254
+v2,Python,transcript_only,1,180,360,nested loop,0.2775
+v2,Python,transcript_only,2,360,540,for loop,0.4002
+v2,Python,transcript_only,2,360,540,for,0.2982
+v2,Python,transcript_only,2,360,540,nested loop,0.2502
+v2,Python,transcript_only,3,540,720,for loop,0.3857
+v2,Python,transcript_only,3,540,720,for,0.2886
+v2,Python,transcript_only,3,540,720,range,0.2409
+v2,Python,transcript_only,4,720,900,for loop,0.4428
+v2,Python,transcript_only,4,720,900,for,0.3253
+v2,Python,transcript_only,4,720,900,nested loop,0.2774
+v20,Python,transcript_only,0,0,180,for loop,0.443
+v20,Python,transcript_only,0,0,180,for,0.3255
+v20,Python,transcript_only,0,0,180,nested loop,0.2776
+v20,Python,transcript_only,1,180,360,for loop,0.4427
+v20,Python,transcript_only,1,180,360,for,0.3253
+v20,Python,transcript_only,1,180,360,nested loop,0.2773
+v20,Python,transcript_only,2,360,540,for loop,0.4429
+v20,Python,transcript_only,2,360,540,for,0.3254
+v20,Python,transcript_only,2,360,540,nested loop,0.2775
+v20,Python,transcript_only,3,540,720,for loop,0.4428
+v20,Python,transcript_only,3,540,720,for,0.3253
+v20,Python,transcript_only,3,540,720,nested loop,0.2774
+v20,Python,transcript_only,4,720,900,for loop,0.4428
+v20,Python,transcript_only,4,720,900,for,0.3253
+v20,Python,transcript_only,4,720,900,nested loop,0.2774
+v20,Python,transcript_only,5,900,1080,for loop,0.443
+v20,Python,transcript_only,5,900,1080,for,0.3254
+v20,Python,transcript_only,5,900,1080,nested loop,0.2775
+v20,Python,transcript_only,6,1080,1260,for loop,0.4424
+v20,Python,transcript_only,6,1080,1260,for,0.3251
+v20,Python,transcript_only,6,1080,1260,nested loop,0.2771
+v21,Python,transcript_only,0,0,180,for loop,0.3208
+v21,Python,transcript_only,0,0,180,for,0.2475
+v21,Python,transcript_only,0,0,180,nested loop,0.1993
+v21,Python,transcript_only,1,180,360,for loop,0.2311
+v21,Python,transcript_only,1,180,360,for,0.1902
+v21,Python,transcript_only,1,180,360,nested loop,0.1419
+v21,Python,transcript_only,2,360,540,for loop,0.2212
+v21,Python,transcript_only,2,360,540,for,0.1839
+v21,Python,transcript_only,2,360,540,nested loop,0.1356
+v21,Python,transcript_only,3,540,720,for loop,0.1962
+v21,Python,transcript_only,3,540,720,for,0.1679
+v21,Python,transcript_only,3,540,720,nested loop,0.1196
+v21,Python,transcript_only,4,720,900,for loop,0.237
+v21,Python,transcript_only,4,720,900,for,0.194
+v21,Python,transcript_only,4,720,900,nested loop,0.1457
+v21,Python,transcript_only,5,900,1080,for loop,0.2212
+v21,Python,transcript_only,5,900,1080,for,0.1839
+v21,Python,transcript_only,5,900,1080,nested loop,0.1356
+v21,Python,transcript_only,6,1080,1260,for loop,0.2051
+v21,Python,transcript_only,6,1080,1260,for,0.1736
+v21,Python,transcript_only,6,1080,1260,nested loop,0.1253
+v21,Python,transcript_only,7,1260,1440,for loop,0.219
+v21,Python,transcript_only,7,1260,1440,for,0.1825
+v21,Python,transcript_only,7,1260,1440,nested loop,0.1342
+v21,Python,transcript_only,8,1440,1620,for loop,0.3077
+v21,Python,transcript_only,8,1440,1620,for,0.2392
+v21,Python,transcript_only,8,1440,1620,nested loop,0.191
+v22,Python,transcript_only,0,0,180,for loop,0.4416
+v22,Python,transcript_only,0,0,180,for,0.3246
+v22,Python,transcript_only,0,0,180,nested loop,0.2766
+v23,Java,transcript_only,0,0,180,method,0.281
+v23,Java,transcript_only,0,0,180,object,0.2704
+v23,Java,transcript_only,0,0,180,class,0.2127
+v23,Java,transcript_only,1,180,360,object,0.2915
+v23,Java,transcript_only,1,180,360,method,0.2905
+v23,Java,transcript_only,1,180,360,class,0.2771
+v23,Java,transcript_only,2,360,540,class,0.2941
+v23,Java,transcript_only,2,360,540,abstract class,0.2859
+v23,Java,transcript_only,2,360,540,object,0.2732
+v23,Java,transcript_only,3,540,720,object,0.2886
+v23,Java,transcript_only,3,540,720,method,0.2847
+v23,Java,transcript_only,3,540,720,class,0.2799
+v23,Java,transcript_only,4,720,900,method,0.3482
+v23,Java,transcript_only,4,720,900,object,0.3207
+v23,Java,transcript_only,4,720,900,class,0.2504
+v23,Java,transcript_only,5,900,1080,method,0.3483
+v23,Java,transcript_only,5,900,1080,object,0.3208
+v23,Java,transcript_only,5,900,1080,class,0.2504
+v23,Java,transcript_only,6,1080,1260,method,0.3482
+v23,Java,transcript_only,6,1080,1260,object,0.3207
+v23,Java,transcript_only,6,1080,1260,class,0.2504
+v23,Java,transcript_only,7,1260,1440,method,0.3481
+v23,Java,transcript_only,7,1260,1440,object,0.3207
+v23,Java,transcript_only,7,1260,1440,class,0.2504
+v23,Java,transcript_only,8,1440,1620,method,0.3481
+v23,Java,transcript_only,8,1440,1620,object,0.3206
+v23,Java,transcript_only,8,1440,1620,class,0.2503
+v23,Java,transcript_only,9,1620,1800,object,0.1714
+v23,Java,transcript_only,9,1620,1800,method,0.149
+v23,Java,transcript_only,9,1620,1800,class,0.1387
+v23,Java,transcript_only,10,1800,1980,object,0.1733
+v23,Java,transcript_only,10,1800,1980,method,0.1697
+v23,Java,transcript_only,10,1800,1980,class,0.1404
+v24,Java,transcript_only,0,0,180,object,0.2636
+v24,Java,transcript_only,0,0,180,method,0.2478
+v24,Java,transcript_only,0,0,180,class,0.2325
+v24,Java,transcript_only,1,180,360,method,0.3482
+v24,Java,transcript_only,1,180,360,object,0.3207
+v24,Java,transcript_only,1,180,360,class,0.2504
+v24,Java,transcript_only,2,360,540,method,0.3481
+v24,Java,transcript_only,2,360,540,object,0.3207
+v24,Java,transcript_only,2,360,540,class,0.2504
+v24,Java,transcript_only,3,540,720,method,0.3475
+v24,Java,transcript_only,3,540,720,object,0.3202
+v24,Java,transcript_only,3,540,720,class,0.2501
+v25,Java,transcript_only,0,0,180,abstract class,0.3564
+v25,Java,transcript_only,0,0,180,class,0.322
+v25,Java,transcript_only,0,0,180,implements,0.3103
+v25,Java,transcript_only,1,180,360,abstract class,0.3562
+v25,Java,transcript_only,1,180,360,class,0.3218
+v25,Java,transcript_only,1,180,360,implements,0.3101
+v26,Java,transcript_only,0,0,180,abstract class,0.3394
+v26,Java,transcript_only,0,0,180,class,0.311
+v26,Java,transcript_only,0,0,180,implements,0.2948
+v26,Java,transcript_only,1,180,360,abstract class,0.3121
+v26,Java,transcript_only,1,180,360,class,0.2934
+v26,Java,transcript_only,1,180,360,implements,0.2701
+v27,Java,transcript_only,0,0,180,abstract class,0.2704
+v27,Java,transcript_only,0,0,180,class,0.2563
+v27,Java,transcript_only,0,0,180,implements,0.2359
+v27,Java,transcript_only,1,180,360,abstract class,0.3566
+v27,Java,transcript_only,1,180,360,class,0.3221
+v27,Java,transcript_only,1,180,360,implements,0.3105
+v27,Java,transcript_only,2,360,540,abstract class,0.3563
+v27,Java,transcript_only,2,360,540,class,0.3218
+v27,Java,transcript_only,2,360,540,implements,0.3102
+v28,Java,transcript_only,0,0,180,abstract class,0.1628
+v28,Java,transcript_only,0,0,180,class,0.16
+v28,Java,transcript_only,0,0,180,implements,0.1405
+v28,Java,transcript_only,1,180,360,method,0.1121
+v28,Java,transcript_only,1,180,360,object,0.0962
+v28,Java,transcript_only,1,180,360,class,0.0832
+v28,Java,transcript_only,2,360,540,class,0.1408
+v28,Java,transcript_only,2,360,540,abstract class,0.1311
+v28,Java,transcript_only,2,360,540,implements,0.1115
+v28,Java,transcript_only,3,540,720,method,0.1266
+v28,Java,transcript_only,3,540,720,object,0.1098
+v28,Java,transcript_only,3,540,720,class,0.0933
+v28,Java,transcript_only,4,720,900,class,0.0925
+v28,Java,transcript_only,4,720,900,abstract class,0.0829
+v28,Java,transcript_only,4,720,900,implements,0.0704
+v29,Java,transcript_only,0,0,180,abstract class,0.3564
+v29,Java,transcript_only,0,0,180,class,0.3219
+v29,Java,transcript_only,0,0,180,implements,0.3103
+v29,Java,transcript_only,1,180,360,abstract class,0.3563
+v29,Java,transcript_only,1,180,360,class,0.3218
+v29,Java,transcript_only,1,180,360,implements,0.3102
+v29,Java,transcript_only,2,360,540,abstract class,0.3562
+v29,Java,transcript_only,2,360,540,class,0.3218
+v29,Java,transcript_only,2,360,540,implements,0.3101
+v3,Java,transcript_only,0,0,180,abstract class,0.3568
+v3,Java,transcript_only,0,0,180,class,0.3223
+v3,Java,transcript_only,0,0,180,implements,0.3107
+v3,Java,transcript_only,1,180,360,abstract class,0.3568
+v3,Java,transcript_only,1,180,360,class,0.3223
+v3,Java,transcript_only,1,180,360,implements,0.3107
+v3,Java,transcript_only,2,360,540,abstract class,0.3552
+v3,Java,transcript_only,2,360,540,class,0.321
+v3,Java,transcript_only,2,360,540,implements,0.3093
+v30,Java,transcript_only,0,0,180,abstract class,0.34
+v30,Java,transcript_only,0,0,180,class,0.3154
+v30,Java,transcript_only,0,0,180,implements,0.2968
+v31,C++,transcript_only,0,0,180,data type,0.1499
+v31,C++,transcript_only,0,0,180,object,0.1399
+v31,C++,transcript_only,0,0,180,variable,0.1319
+v31,C++,transcript_only,1,180,360,class,0.1997
+v31,C++,transcript_only,1,180,360,object,0.1947
+v31,C++,transcript_only,1,180,360,variable,0.1732
+v31,C++,transcript_only,2,360,540,class,0.2135
+v31,C++,transcript_only,2,360,540,object,0.2036
+v31,C++,transcript_only,2,360,540,variable,0.1799
+v31,C++,transcript_only,3,540,720,class,0.2111
+v31,C++,transcript_only,3,540,720,object,0.1947
+v31,C++,transcript_only,3,540,720,variable,0.1684
+v31,C++,transcript_only,4,720,900,class,0.2462
+v31,C++,transcript_only,4,720,900,object,0.2274
+v31,C++,transcript_only,4,720,900,variable,0.1955
+v31,C++,transcript_only,5,900,1080,class,0.2282
+v31,C++,transcript_only,5,900,1080,object,0.2133
+v31,C++,transcript_only,5,900,1080,variable,0.1845
+v31,C++,transcript_only,6,1080,1260,class,0.2462
+v31,C++,transcript_only,6,1080,1260,object,0.2248
+v31,C++,transcript_only,6,1080,1260,variable,0.1958
+v31,C++,transcript_only,7,1260,1440,class,0.1894
+v31,C++,transcript_only,7,1260,1440,object,0.1881
+v31,C++,transcript_only,7,1260,1440,variable,0.1682
+v31,C++,transcript_only,8,1440,1620,object,0.1474
+v31,C++,transcript_only,8,1440,1620,data type,0.1465
+v31,C++,transcript_only,8,1440,1620,variable,0.1326
+v31,C++,transcript_only,9,1620,1800,data type,0.1559
+v31,C++,transcript_only,9,1620,1800,object,0.1115
+v31,C++,transcript_only,9,1620,1800,variable,0.1005
+v31,C++,transcript_only,10,1800,1980,data type,0.1593
+v31,C++,transcript_only,10,1800,1980,object,0.1082
+v31,C++,transcript_only,10,1800,1980,variable,0.1081
+v31,C++,transcript_only,11,1980,2160,object,0.1486
+v31,C++,transcript_only,11,1980,2160,data type,0.1473
+v31,C++,transcript_only,11,1980,2160,variable,0.1383
+v32,C++,transcript_only,0,0,180,data type,0.1633
+v32,C++,transcript_only,0,0,180,object,0.1447
+v32,C++,transcript_only,0,0,180,variable,0.1191
+v32,C++,transcript_only,1,180,360,data type,0.1592
+v32,C++,transcript_only,1,180,360,object,0.1084
+v32,C++,transcript_only,1,180,360,variable,0.1081
+v32,C++,transcript_only,2,360,540,data type,0.1592
+v32,C++,transcript_only,2,360,540,object,0.1084
+v32,C++,transcript_only,2,360,540,variable,0.1081
+v32,C++,transcript_only,3,540,720,data type,0.1592
+v32,C++,transcript_only,3,540,720,object,0.1085
+v32,C++,transcript_only,3,540,720,variable,0.1081
+v33,C++,transcript_only,0,0,180,class,0.2462
+v33,C++,transcript_only,0,0,180,object,0.2247
+v33,C++,transcript_only,0,0,180,variable,0.1957
+v33,C++,transcript_only,1,180,360,class,0.2462
+v33,C++,transcript_only,1,180,360,object,0.2248
+v33,C++,transcript_only,1,180,360,variable,0.1958
+v33,C++,transcript_only,2,360,540,class,0.2462
+v33,C++,transcript_only,2,360,540,object,0.2248
+v33,C++,transcript_only,2,360,540,variable,0.1958
+v33,C++,transcript_only,3,540,720,class,0.2189
+v33,C++,transcript_only,3,540,720,object,0.2072
+v33,C++,transcript_only,3,540,720,variable,0.1824
+v34,C++,transcript_only,0,0,180,object,0.2102
+v34,C++,transcript_only,0,0,180,reference,0.1758
+v34,C++,transcript_only,0,0,180,data type,0.1615
+v34,C++,transcript_only,1,180,360,object,0.2448
+v34,C++,transcript_only,1,180,360,reference,0.219
+v34,C++,transcript_only,1,180,360,class,0.1882
+v34,C++,transcript_only,2,360,540,object,0.2326
+v34,C++,transcript_only,2,360,540,reference,0.2056
+v34,C++,transcript_only,2,360,540,class,0.176
+v34,C++,transcript_only,3,540,720,object,0.1626
+v34,C++,transcript_only,3,540,720,data type,0.1535
+v34,C++,transcript_only,3,540,720,variable,0.1369
+v35,C++,transcript_only,0,0,180,object,0.1899
+v35,C++,transcript_only,0,0,180,data type,0.1581
+v35,C++,transcript_only,0,0,180,reference,0.1473
+v35,C++,transcript_only,1,180,360,object,0.2179
+v35,C++,transcript_only,1,180,360,reference,0.1829
+v35,C++,transcript_only,1,180,360,class,0.169
+v35,C++,transcript_only,2,360,540,object,0.2612
+v35,C++,transcript_only,2,360,540,class,0.2455
+v35,C++,transcript_only,2,360,540,reference,0.2008
+v36,C++,transcript_only,0,0,180,object,0.2101
+v36,C++,transcript_only,0,0,180,class,0.186
+v36,C++,transcript_only,0,0,180,data type,0.1357
+v36,C++,transcript_only,1,180,360,object,0.1645
+v36,C++,transcript_only,1,180,360,class,0.1226
+v36,C++,transcript_only,1,180,360,data type,0.1223
+v36,C++,transcript_only,2,360,540,object,0.1744
+v36,C++,transcript_only,2,360,540,class,0.1435
+v36,C++,transcript_only,2,360,540,data type,0.123
+v36,C++,transcript_only,3,540,720,object,0.1897
+v36,C++,transcript_only,3,540,720,class,0.1807
+v36,C++,transcript_only,3,540,720,variable,0.1382
+v36,C++,transcript_only,4,720,900,class,0.2512
+v36,C++,transcript_only,4,720,900,object,0.2301
+v36,C++,transcript_only,4,720,900,variable,0.1799
+v37,C++,transcript_only,0,0,180,object,0.171
+v37,C++,transcript_only,0,0,180,data type,0.1298
+v37,C++,transcript_only,0,0,180,class,0.1028
+v37,C++,transcript_only,1,180,360,object,0.1445
+v37,C++,transcript_only,1,180,360,data type,0.1214
+v37,C++,transcript_only,1,180,360,constructor,0.0862
+v37,C++,transcript_only,2,360,540,object,0.1446
+v37,C++,transcript_only,2,360,540,data type,0.1214
+v37,C++,transcript_only,2,360,540,constructor,0.0862
+v38,C++,transcript_only,0,0,180,class,0.2026
+v38,C++,transcript_only,0,0,180,object,0.1989
+v38,C++,transcript_only,0,0,180,data type,0.1373
+v38,C++,transcript_only,1,180,360,data type,0.1482
+v38,C++,transcript_only,1,180,360,object,0.1451
+v38,C++,transcript_only,1,180,360,variable,0.1353
+v39,C++,transcript_only,0,0,180,class,0.2463
+v39,C++,transcript_only,0,0,180,object,0.2248
+v39,C++,transcript_only,0,0,180,variable,0.1958
+v39,C++,transcript_only,1,180,360,class,0.2463
+v39,C++,transcript_only,1,180,360,object,0.2248
+v39,C++,transcript_only,1,180,360,variable,0.1959
+v39,C++,transcript_only,2,360,540,class,0.2463
+v39,C++,transcript_only,2,360,540,object,0.2248
+v39,C++,transcript_only,2,360,540,variable,0.1958
+v39,C++,transcript_only,3,540,720,class,0.2802
+v39,C++,transcript_only,3,540,720,object,0.2493
+v39,C++,transcript_only,3,540,720,inheritance,0.1691
+v4,SQL,transcript_only,0,0,180,group by,0.3488
+v4,SQL,transcript_only,0,0,180,order by,0.2491
+v4,SQL,transcript_only,0,0,180,select,0.2396
+v4,SQL,transcript_only,1,180,360,group by,0.4055
+v4,SQL,transcript_only,1,180,360,order by,0.2885
+v4,SQL,transcript_only,1,180,360,select,0.2666
+v4,SQL,transcript_only,2,360,540,group by,0.3809
+v4,SQL,transcript_only,2,360,540,order by,0.2736
+v4,SQL,transcript_only,2,360,540,select,0.26
+v40,C++,transcript_only,0,0,180,data type,0.1606
+v40,C++,transcript_only,0,0,180,object,0.1197
+v40,C++,transcript_only,0,0,180,variable,0.1116
+v40,C++,transcript_only,1,180,360,data type,0.1618
+v40,C++,transcript_only,1,180,360,object,0.1302
+v40,C++,transcript_only,1,180,360,variable,0.1148
+v40,C++,transcript_only,2,360,540,data type,0.1593
+v40,C++,transcript_only,2,360,540,object,0.1082
+v40,C++,transcript_only,2,360,540,variable,0.1081
+v40,C++,transcript_only,3,540,720,data type,0.1656
+v40,C++,transcript_only,3,540,720,object,0.1644
+v40,C++,transcript_only,3,540,720,reference,0.1318
+v40,C++,transcript_only,4,720,900,data type,0.1593
+v40,C++,transcript_only,4,720,900,variable,0.1081
+v40,C++,transcript_only,4,720,900,object,0.1081
+v40,C++,transcript_only,5,900,1080,data type,0.1593
+v40,C++,transcript_only,5,900,1080,object,0.1083
+v40,C++,transcript_only,5,900,1080,variable,0.1081
+v5,Java,transcript_only,0,0,180,abstract class,0.3566
+v5,Java,transcript_only,0,0,180,class,0.3221
+v5,Java,transcript_only,0,0,180,implements,0.3105
+v5,Java,transcript_only,1,180,360,abstract class,0.3564
+v5,Java,transcript_only,1,180,360,class,0.322
+v5,Java,transcript_only,1,180,360,implements,0.3103
+v5,Java,transcript_only,2,360,540,abstract class,0.3504
+v5,Java,transcript_only,2,360,540,class,0.3173
+v5,Java,transcript_only,2,360,540,implements,0.305
+v6,SQL,transcript_only,0,0,180,group by,0.4053
+v6,SQL,transcript_only,0,0,180,order by,0.2884
+v6,SQL,transcript_only,0,0,180,select,0.2665
+v6,SQL,transcript_only,1,180,360,group by,0.4053
+v6,SQL,transcript_only,1,180,360,order by,0.2884
+v6,SQL,transcript_only,1,180,360,select,0.2665
+v6,SQL,transcript_only,2,360,540,group by,0.4034
+v6,SQL,transcript_only,2,360,540,order by,0.2872
+v6,SQL,transcript_only,2,360,540,select,0.2654
+v7,SQL,transcript_only,0,0,180,group by,0.2583
+v7,SQL,transcript_only,0,0,180,select,0.2098
+v7,SQL,transcript_only,0,0,180,order by,0.199
+v7,SQL,transcript_only,1,180,360,group by,0.2669
+v7,SQL,transcript_only,1,180,360,select,0.2305
+v7,SQL,transcript_only,1,180,360,order by,0.2046
+v7,SQL,transcript_only,2,360,540,group by,0.2569
+v7,SQL,transcript_only,2,360,540,order by,0.2009
+v7,SQL,transcript_only,2,360,540,select,0.1735
+v8,SQL,transcript_only,0,0,180,group by,0.2796
+v8,SQL,transcript_only,0,0,180,order by,0.2112
+v8,SQL,transcript_only,0,0,180,select,0.1795
+v8,SQL,transcript_only,1,180,360,group by,0.2136
+v8,SQL,transcript_only,1,180,360,select,0.2007
+v8,SQL,transcript_only,1,180,360,left join,0.1781
+v8,SQL,transcript_only,2,360,540,group by,0.1213
+v8,SQL,transcript_only,2,360,540,order by,0.1147
+v8,SQL,transcript_only,2,360,540,select,0.1116
+v8,SQL,transcript_only,3,540,720,left join,0.1041
+v8,SQL,transcript_only,3,540,720,select,0.0889
+v8,SQL,transcript_only,3,540,720,inner join,0.0811
+v8,SQL,transcript_only,4,720,900,left join,0.1581
+v8,SQL,transcript_only,4,720,900,select,0.1575
+v8,SQL,transcript_only,4,720,900,group by,0.1395
+v8,SQL,transcript_only,5,900,1080,group by,0.2442
+v8,SQL,transcript_only,5,900,1080,order by,0.1911
+v8,SQL,transcript_only,5,900,1080,select,0.1595
+v9,SQL,transcript_only,0,0,180,group by,0.1826
+v9,SQL,transcript_only,0,0,180,count,0.1745
+v9,SQL,transcript_only,0,0,180,aggregate function,0.1504
+v9,SQL,transcript_only,1,180,360,count,0.2608
+v9,SQL,transcript_only,1,180,360,aggregate function,0.2464
+v9,SQL,transcript_only,1,180,360,group by,0.1678
+v9,SQL,transcript_only,2,360,540,count,0.2608
+v9,SQL,transcript_only,2,360,540,aggregate function,0.2463
+v9,SQL,transcript_only,2,360,540,group by,0.1678
+v9,SQL,transcript_only,3,540,720,count,0.2607
+v9,SQL,transcript_only,3,540,720,aggregate function,0.2463
+v9,SQL,transcript_only,3,540,720,group by,0.1678

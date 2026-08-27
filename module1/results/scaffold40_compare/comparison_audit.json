@@ -1,0 +1,45 @@
+{
+  "stage": "Scaffold40 OLD vs NEW comparison",
+  "status": "PASS",
+  "scope": "supplementary DEV whole-corpus scaffold comparison",
+  "same_40_dev_videos": true,
+  "same_390_video_concept_pairs": true,
+  "same_ground_truth": true,
+  "positive_gt_pairs": 153,
+  "final_test_used": false,
+  "new_hyperparameter_search_performed": false,
+  "winner_selection_metric": "macro_video_f1",
+  "p_value_used_for_selection": false,
+  "old_config": {
+    "chunk_seconds": 60,
+    "lda_weight": 0.4,
+    "lsa_weight": 0.6,
+    "aggregation": "top2_mean_score",
+    "threshold": 0.4
+  },
+  "new_config": {
+    "chunk_seconds": 180,
+    "lda_weight": 0.0,
+    "lsa_weight": 1.0,
+    "aggregation": "max_final_score",
+    "threshold": 0.5
+  },
+  "results": {
+    "old_macro_video_f1": 0.5662464889341825,
+    "new_macro_video_f1": 0.6629369241869242,
+    "delta_macro_video_f1": 0.09669043525274168,
+    "old_micro_f1": 0.619153674832962,
+    "new_micro_f1": 0.6892655367231639,
+    "delta_micro_f1": 0.07011186189020191,
+    "bootstrap_ci": [
+      0.045234722841872604,
+      0.15015476667295538
+    ],
+    "wilcoxon_p": 0.0022748596216056335,
+    "paired_t_p": 0.0014342062065091602,
+    "cohen_dz": 0.5425511264726088
+  },
+  "winner": "new",
+  "winner_reason": "NEW has higher primary metric macro video F1.",
+  "interpretation": "Development/supplementary comparison only. The scaffold fits representations using the whole DEV corpus and is not an unbiased generalization estimate. P1 leakage-free validation and locked final configuration remain authoritative."
+}

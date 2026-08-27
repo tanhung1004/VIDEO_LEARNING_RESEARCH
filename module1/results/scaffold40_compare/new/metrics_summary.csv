@@ -1,0 +1,2 @@
+﻿variant,dev_videos,evaluation_pairs,positive_gt_pairs,predicted_positive_pairs,chunk_seconds,lda_weight,lsa_weight,aggregation,threshold,tp,fp,fn,tn,micro_precision,micro_recall,micro_f1,micro_accuracy,macro_video_precision,macro_video_recall,macro_video_f1
+new,40,390,153,201,180,0.0,1.0,max_final_score,0.5,122,79,31,158,0.6069651741293532,0.7973856209150327,0.6892655367231639,0.717948717948718,0.6417839105339105,0.8529563492063492,0.6629369241869242

@@ -1,0 +1,2 @@
+﻿n_paired_videos,mean_old_f1,mean_new_f1,mean_delta_new_minus_old,bootstrap_method,bootstrap_replicates,bootstrap_seed,delta_95_ci_lower,delta_95_ci_upper,wilcoxon_statistic,wilcoxon_p_two_sided,paired_t_statistic,paired_t_p_two_sided,cohen_dz,selection_rule
+40,0.5662464889341825,0.6629369241869242,0.09669043525274175,paired stratified by subject,20000,42,0.045234722841872604,0.15015476667295538,119.0,0.0022748596216056335,3.43139461348704,0.0014342062065091602,0.5425511264726088,winner chosen by macro video F1; p-values are descriptive only
