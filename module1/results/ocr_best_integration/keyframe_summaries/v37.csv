@@ -1,0 +1,8 @@
+﻿video_id,subject,frame_id,timestamp_sec,duration_sec,frame_interval_sec,image_file,status,capture_method
+v37,C++,0,0,63.621,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v37\v37_00000s.png,success,fast
+v37,C++,1,10,63.621,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v37\v37_00010s.png,success,fast
+v37,C++,2,20,63.621,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v37\v37_00020s.png,success,fast
+v37,C++,3,30,63.621,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v37\v37_00030s.png,success,fast
+v37,C++,4,40,63.621,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v37\v37_00040s.png,success,fast
+v37,C++,5,50,63.621,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v37\v37_00050s.png,success,fast
+v37,C++,6,60,63.621,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v37\v37_00060s.png,success,fast

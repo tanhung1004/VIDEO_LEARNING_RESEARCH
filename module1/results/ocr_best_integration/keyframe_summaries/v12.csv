@@ -1,0 +1,2 @@
+﻿video_id,subject,frame_id,timestamp_sec,duration_sec,frame_interval_sec,image_file,status,capture_method
+v12,SQL,0,0,5.021,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v12\v12_00000s.png,success,fast
