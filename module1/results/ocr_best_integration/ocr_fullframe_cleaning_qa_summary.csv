@@ -1,0 +1,5 @@
+﻿subject,frames,raw_words,clean_words,mean_frame_reduction_pct,median_frame_reduction_pct,overall_word_reduction_pct,critical_term_losses
+C++,575,91933,70518,25.91,23.08,23.29,0
+Java,615,69646,55312,21.64,21.15,20.58,0
+Python,634,32991,24638,26.19,25.0,25.32,0
+SQL,574,76626,59734,22.93,21.57,22.04,0

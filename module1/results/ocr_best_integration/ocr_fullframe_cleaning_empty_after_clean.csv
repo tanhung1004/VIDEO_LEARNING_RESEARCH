@@ -1,0 +1,4 @@
+﻿video_id,subject,frame_id,timestamp_sec,image_file,ocr_status,ocr_char_count,ocr_word_count,ocr_text_raw,ocr_text_clean,raw_word_count,clean_word_count,word_reduction_pct,ui_phrase_removals,ui_cluster_tokens_removed,ocr_corrections,long_numbers_removed,clean_status
+v15,Python,9,90,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v15\v15_00090s.png,success,3,2,| |,,2,0,100.0,0,0,0,0,empty
+v38,C++,20,200,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00200s.png,success,5,3,‘ ‘ },,3,0,100.0,0,0,0,0,empty
+v38,C++,36,360,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00360s.png,success,3,2,| :,,2,0,100.0,0,0,0,0,empty
