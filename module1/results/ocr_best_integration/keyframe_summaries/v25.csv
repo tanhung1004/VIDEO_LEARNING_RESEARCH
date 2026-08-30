@@ -11,7 +11,7 @@ v25,Java,8,80,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best
 v25,Java,9,90,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00090s.png,success,fast
 v25,Java,10,100,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00100s.png,success,fast
 v25,Java,11,110,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00110s.png,success,fast
-v25,Java,12,120,375.401,10,,failed,failed
+v25,Java,12,120,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00120s.png,success,targeted_repair
 v25,Java,13,130,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00130s.png,success,fast
 v25,Java,14,140,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00140s.png,success,fast
 v25,Java,15,150,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00150s.png,success,fast
@@ -23,7 +23,7 @@ v25,Java,20,200,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_be
 v25,Java,21,210,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00210s.png,success,fast
 v25,Java,22,220,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00220s.png,success,fast
 v25,Java,23,230,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00230s.png,success,fast
-v25,Java,24,240,375.401,10,,failed,failed
+v25,Java,24,240,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00240s.png,success,recovery
 v25,Java,25,250,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00250s.png,success,fast
 v25,Java,26,260,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00260s.png,success,fast
 v25,Java,27,270,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00270s.png,success,fast
@@ -35,5 +35,5 @@ v25,Java,32,320,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_be
 v25,Java,33,330,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00330s.png,success,fast
 v25,Java,34,340,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00340s.png,success,fast
 v25,Java,35,350,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00350s.png,success,fast
-v25,Java,36,360,375.401,10,,failed,failed
-v25,Java,37,370,375.401,10,,failed,failed
+v25,Java,36,360,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00360s.png,success,targeted_repair
+v25,Java,37,370,375.401,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v25\v25_00370s.png,success,yt_dlp_ffmpeg_png

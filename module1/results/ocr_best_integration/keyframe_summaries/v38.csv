@@ -5,7 +5,7 @@ v38,C++,2,20,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_
 v38,C++,3,30,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00030s.png,success,fast
 v38,C++,4,40,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00040s.png,success,fast
 v38,C++,5,50,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00050s.png,success,fast
-v38,C++,6,60,479.681,10,,failed,failed
+v38,C++,6,60,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00060s.png,success,targeted_repair
 v38,C++,7,70,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00070s.png,success,fast
 v38,C++,8,80,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00080s.png,success,fast
 v38,C++,9,90,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00090s.png,success,fast
@@ -17,13 +17,13 @@ v38,C++,14,140,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_bes
 v38,C++,15,150,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00150s.png,success,fast
 v38,C++,16,160,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00160s.png,success,fast
 v38,C++,17,170,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00170s.png,success,fast
-v38,C++,18,180,479.681,10,,failed,failed
+v38,C++,18,180,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00180s.png,success,recovery
 v38,C++,19,190,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00190s.png,success,fast
 v38,C++,20,200,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00200s.png,success,fast
 v38,C++,21,210,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00210s.png,success,fast
 v38,C++,22,220,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00220s.png,success,fast
 v38,C++,23,230,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00230s.png,success,fast
-v38,C++,24,240,479.681,10,,failed,failed
+v38,C++,24,240,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00240s.png,success,recovery
 v38,C++,25,250,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00250s.png,success,fast
 v38,C++,26,260,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00260s.png,success,fast
 v38,C++,27,270,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00270s.png,success,fast
@@ -35,7 +35,7 @@ v38,C++,32,320,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_bes
 v38,C++,33,330,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00330s.png,success,fast
 v38,C++,34,340,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00340s.png,success,fast
 v38,C++,35,350,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00350s.png,success,fast
-v38,C++,36,360,479.681,10,,failed,failed
+v38,C++,36,360,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00360s.png,success,recovery
 v38,C++,37,370,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00370s.png,success,fast
 v38,C++,38,380,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00380s.png,success,fast
 v38,C++,39,390,479.681,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v38\v38_00390s.png,success,fast

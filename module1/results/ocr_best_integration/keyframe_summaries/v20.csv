@@ -35,8 +35,8 @@ v20,Python,32,320,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr
 v20,Python,33,330,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_00330s.png,success,fast
 v20,Python,34,340,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_00340s.png,success,fast
 v20,Python,35,350,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_00350s.png,success,fast
-v20,Python,36,360,1240.841,10,,failed,failed
-v20,Python,37,370,1240.841,10,,failed,failed
+v20,Python,36,360,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_00360s.png,success,recovery
+v20,Python,37,370,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_00370s.png,success,targeted_repair
 v20,Python,38,380,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_00380s.png,success,fast
 v20,Python,39,390,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_00390s.png,success,fast
 v20,Python,40,400,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_00400s.png,success,fast
@@ -102,7 +102,7 @@ v20,Python,99,990,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr
 v20,Python,100,1000,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_01000s.png,success,fast
 v20,Python,101,1010,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_01010s.png,success,fast
 v20,Python,102,1020,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_01020s.png,success,fast
-v20,Python,103,1030,1240.841,10,,failed,failed
+v20,Python,103,1030,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_01030s.png,success,recovery
 v20,Python,104,1040,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_01040s.png,success,fast
 v20,Python,105,1050,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_01050s.png,success,fast
 v20,Python,106,1060,1240.841,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v20\v20_01060s.png,success,fast

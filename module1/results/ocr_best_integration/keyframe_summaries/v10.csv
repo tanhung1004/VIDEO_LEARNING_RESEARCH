@@ -29,13 +29,13 @@ v10,SQL,26,260,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_be
 v10,SQL,27,270,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_00270s.png,success,fast
 v10,SQL,28,280,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_00280s.png,success,fast
 v10,SQL,29,290,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_00290s.png,success,fast
-v10,SQL,30,300,1254.541,10,,failed,failed
+v10,SQL,30,300,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_00300s.png,success,targeted_repair
 v10,SQL,31,310,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_00310s.png,success,fast
 v10,SQL,32,320,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_00320s.png,success,fast
 v10,SQL,33,330,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_00330s.png,success,fast
 v10,SQL,34,340,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_00340s.png,success,fast
 v10,SQL,35,350,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_00350s.png,success,fast
-v10,SQL,36,360,1254.541,10,,failed,failed
+v10,SQL,36,360,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_00360s.png,success,recovery
 v10,SQL,37,370,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_00370s.png,success,fast
 v10,SQL,38,380,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_00380s.png,success,fast
 v10,SQL,39,390,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_00390s.png,success,fast
@@ -107,7 +107,7 @@ v10,SQL,104,1040,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_
 v10,SQL,105,1050,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_01050s.png,success,fast
 v10,SQL,106,1060,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_01060s.png,success,fast
 v10,SQL,107,1070,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_01070s.png,success,fast
-v10,SQL,108,1080,1254.541,10,,failed,failed
+v10,SQL,108,1080,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_01080s.png,success,targeted_repair
 v10,SQL,109,1090,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_01090s.png,success,fast
 v10,SQL,110,1100,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_01100s.png,success,fast
 v10,SQL,111,1110,1254.541,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v10\v10_01110s.png,success,fast
