@@ -1,0 +1,3 @@
+﻿branch,chunk_seconds,expected_chunks,source_file
+OLD,60,494,C:\NCKH\VIDEO_LEARNING_RESEARCH\module1\results\scaffold40_compare\old\lda_chunk_topics.csv
+NEW,180,172,C:\NCKH\VIDEO_LEARNING_RESEARCH\module1\results\scaffold40_compare\new\lda_chunk_topics.csv

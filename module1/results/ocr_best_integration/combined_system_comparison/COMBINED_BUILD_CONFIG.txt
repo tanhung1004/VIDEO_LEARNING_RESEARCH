@@ -1,0 +1,19 @@
+STEP 12 - COMBINED SCORE BUILD
+
+OLD chunk file = C:\NCKH\VIDEO_LEARNING_RESEARCH\module1\results\scaffold40_compare\old\lda_chunk_topics.csv
+OLD chunks = 494
+OLD chunk seconds = 60
+OLD LDA weight = 0.4
+OLD LSA weight = 0.6
+
+NEW chunk file = C:\NCKH\VIDEO_LEARNING_RESEARCH\module1\results\scaffold40_compare\new\lda_chunk_topics.csv
+NEW chunks = 172
+NEW chunk seconds = 180
+NEW LDA weight = 0.0
+NEW LSA weight = 1.0
+NEW OCR F fusion = mean
+
+GT used = NO
+F1 calculated = NO
+Threshold used = NO
+DEV retuning = NO
