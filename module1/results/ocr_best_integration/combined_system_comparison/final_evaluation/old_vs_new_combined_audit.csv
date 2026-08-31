@@ -1,0 +1,10 @@
+﻿check,value,expected,pass
+DEV_videos,40,40,True
+concepts,39,39,True
+pairs,390,390,True
+GT_positives,153,153,True
+pair_duplicates,0,0,True
+missing_OLD_evidence,0,0,True
+missing_NEW_evidence,0,0,True
+OLD_score_rows,4853,4853,True
+NEW_score_rows,1689,1689,True
