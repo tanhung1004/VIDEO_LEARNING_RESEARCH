@@ -1,0 +1,107 @@
+VIDEO ID: v6
+SUBJECT: SQL
+TITLE: Learn Basic SQL Commands
+URL: https://www.youtube.com/watch?v=OlT3FispsMU
+
+========================================================================
+TRANSCRIPT
+========================================================================
+
+[00:00:02 - 00:00:07] Welcome to the SQL Tutorial, presented to you by 1Keydata.com.
+[00:00:07 - 00:00:12] In this tutorial, we will go over the basics of SQL, so you'll be able to use SQL to write
+[00:00:12 - 00:00:16] simple queries to get data from a relational database.
+[00:00:16 - 00:00:21] We will first provide some background information on how data gets stored in a relational database.
+[00:00:21 - 00:00:24] Next we will go over the basic SQL commands.
+[00:00:24 - 00:00:28] In particular, you will learn about:
+[00:00:28 - 00:00:30] SELECT / FROM WHERE
+[00:00:30 - 00:00:32] ORDER BY GROUP BY
+[00:00:32 - 00:00:34] HAVING
+[00:00:34 - 00:00:38] In a relational database, data is stored in tables.
+[00:00:38 - 00:00:40] Each table has a table name.
+[00:00:40 - 00:00:43] A table consists of columns and rows.
+[00:00:43 - 00:00:49] Each column is a field in a record, and there is a column name associated with each column.
+[00:00:49 - 00:00:51] Each row represents one record.
+[00:00:51 - 00:00:56] Usually when we say how many records we have, we are referring to the number of rows.
+[00:00:56 - 00:01:01] With this information, now we are ready to dive into SQL.
+[00:01:01 - 00:01:05] SQL is structured very much like the English language.
+[00:01:05 - 00:01:11] At the high level, the basic command for retrieving data from a database table is to SELECT data
+[00:01:11 - 00:01:12] FROM a table.
+[00:01:12 - 00:01:18] Not surprisingly, the keywords "SELECT" and "FROM" make up the core of the SQL statement.
+[00:01:18 - 00:01:26] In fact, the syntax for SELECT FROM is pretty straightforward: SELECT COLUMN_NAME FROM TABLE_NAME.
+[00:01:26 - 00:01:29] We can select one or more columns.
+[00:01:29 - 00:01:33] To select more than one column, we simply list all the column names we want to select
+[00:01:33 - 00:01:35] separated by comma.
+[00:01:35 - 00:01:40] If we want to select all columns, we say SELECT *.
+[00:01:40 - 00:01:45] If we want to select unique values, we add the keyword DISTINCT in front of the column
+[00:01:45 - 00:01:47] name.
+[00:01:47 - 00:01:49] Next we look at the WHERE keyword.
+[00:01:49 - 00:01:54] In the previous example, we are retrieving all records from a table.
+[00:01:54 - 00:01:59] While we do want to do this sometimes, more frequently we want to select only a subset
+[00:01:59 - 00:02:01] of the data.
+[00:02:01 - 00:02:06] When we want to filter our results, we use the WHERE keyword after the FROM keywords.
+[00:02:06 - 00:02:07] So the syntax becomes
+[00:02:07 - 00:02:14] SELECT COLUMN_NAME FROM TABLE_NAME WHERE [Condition]
+[00:02:14 - 00:02:17] Condition is where we specify how we want the data to be filtered.
+[00:02:17 - 00:02:24] For example, we may specify that only people whose first name starts with "A" is selected.
+[00:02:24 - 00:02:28] Now we turn our attention to the ORDER BY keyword.
+[00:02:28 - 00:02:33] Sometimes we want the output to be listed in a particular order, such as in ascending
+[00:02:33 - 00:02:36] order or in descending order.
+[00:02:36 - 00:02:39] To achieve this, we use the OREDER BY keyword.
+[00:02:39 - 00:02:43] The syntax for this will be something similar to the following:
+[00:02:43 - 00:02:54] SELECT COLUMN_NAME FROM TABLE_NAME WHERE [Condition] ORDER BY COLUMN_NAME either ASC or DESC
+[00:02:54 - 00:02:58] Notice that ORDER BY is at the end of the statement, because we want to specify the
+[00:02:58 - 00:03:03] ordering after we have specified what data we want to get.
+[00:03:03 - 00:03:10] To show results in ascending order, i.e., from A to Z or from smaller values to larger
+[00:03:10 - 00:03:14] values, we can add ASC at the end.
+[00:03:14 - 00:03:19] To show results in descending order, i.e., from Z to A or from larger values to smaller
+[00:03:19 - 00:03:23] values, we can add DESC at the end.
+[00:03:23 - 00:03:28] Usually if you do not specify this, the default is ascending.
+[00:03:28 - 00:03:31] Next we discuss the GROUP BY keyword.
+[00:03:31 - 00:03:36] Before we go into details about GROUP BY, I'd like to talk first about functions.
+[00:03:36 - 00:03:45] The typical mathematical functions you see in SQL are SUM, AVG, COUNT, MAX, and MIN.
+[00:03:45 - 00:03:49] Functions allow us to operate on the values of specific columns.
+[00:03:49 - 00:03:55] For example, the MAX function allows us to retrieve the largest value in a column.
+[00:03:55 - 00:04:01] Let's say we have a table that has three columns: Date, Store, and Sales Amount.
+[00:04:01 - 00:04:06] To find out what was the highest sales amount across all dates and all stores, we can simply
+[00:04:06 - 00:04:10] use SELECT MAX(Sales Amount).
+[00:04:10 - 00:04:15] On the other hand, if we want to find out the highest sales amount for each store, then
+[00:04:15 - 00:04:19] we'll need to retrieve both the Store column and the sales amount column, and our SELECT
+[00:04:19 - 00:04:21] statement becomes
+[00:04:21 - 00:04:25] SELECT Store, MAX(Sales Amount)
+[00:04:25 - 00:04:30] However, this SELECT statement by itself is not enough.
+[00:04:30 - 00:04:36] To allow SQL to correctly calculate what we want, we need to use the GROUP BY keyword.
+[00:04:36 - 00:04:38] Here, we will add
+[00:04:38 - 00:04:39] GROUP BY Store
+[00:04:39 - 00:04:44] to let SQL know that we want to calculate the maximum sales amount for each store.
+[00:04:44 - 00:04:50] So how the function is calculated is dependent on the column or columns specified in the
+[00:04:50 - 00:04:56] GROUP BY, not the column or columns specified in the SELECT.
+[00:04:56 - 00:05:01] Often the columns in the GROUP BY phrase are same as the columns in the SELECT statement,
+[00:05:01 - 00:05:04] but this is not always the case.
+[00:05:04 - 00:05:08] To recap, the general syntax for GROUP BY is
+[00:05:08 - 00:05:15] SELECT ¡§COLUMN_NAME1¡¨, FUNCTION(¡§COLUMN_NAME2¡¨) FROM ¡§TABLE_NAME¡¨
+[00:05:15 - 00:05:20] GROUP BY ¡§COLUMN_NAME1¡¨
+[00:05:20 - 00:05:25] Previously we had talked about using the WHERE keyword to filter results.
+[00:05:25 - 00:05:28] What if we want to filter based on the result of a function?
+[00:05:28 - 00:05:31] Can we also use WHERE for this?
+[00:05:31 - 00:05:36] The answer is no, and the reason is that we will need to specify the filtering condition
+[00:05:36 - 00:05:41] after SQL has calculated the function, and as a result any filtering condition based
+[00:05:41 - 00:05:45] on the function needs to be specified after the GROUP BY phrase.
+[00:05:45 - 00:05:50] So we cannot use the WHERE keyword because it is always used before GROUP BY.
+[00:05:50 - 00:05:52] This is where the HAVING keyword comes in.
+[00:05:52 - 00:05:54] The syntax for HAVING is
+[00:05:54 - 00:06:00] SELECT ¡§COLUMN NAME 1¡¨, FUNCTION(¡§COLUMN NAME 2¡¨)
+[00:06:00 - 00:06:04] FROM ¡§TABLE_NAME¡¨ GROUP BY ¡§COLUMN NAME 1¡¨
+[00:06:04 - 00:06:09] HAVING (Condition based on Function)
+[00:06:09 - 00:06:14] In the example we had previously mentioned, if we only want to show results where the
+[00:06:14 - 00:06:17] maximum sales amount is over 100, we will add
+[00:06:17 - 00:06:24] HAVING (sales Amount > 100) at the end of the SQL query.
+[00:06:24 - 00:06:30] In this tutorial we have introduced the SELECT FROM, WHERE, ORDER BY, GROUP BY, and HAVING
+[00:06:30 - 00:06:32] keywords.
+[00:06:32 - 00:06:35] In a SQL statement, what order do we put them?
+[00:06:35 - 00:06:42] The correct order is SELECT FROM, then WHERE, then GROUP BY, then HAVING, and finally ORDER
+[00:06:42 - 00:06:44] BY.
+[00:06:44 - 00:06:46] That concludes this SQL tutorial.
+[00:06:46 - 00:06:48] Thank you for viewing.
+[00:06:48 - 00:06:52] Now you have the knowledge to write basic SQL statements to get data out of a relational
+[00:06:52 - 00:06:54] database.
+[00:06:54 - 00:07:05] You can learn more about SQL by going to the 1Keydata SQL Tutorial at www.1keydata.com/sql/sql.html.

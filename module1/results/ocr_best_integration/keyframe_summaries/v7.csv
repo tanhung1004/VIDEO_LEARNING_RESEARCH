@@ -1,0 +1,3 @@
+﻿video_id,subject,frame_id,timestamp_sec,duration_sec,frame_interval_sec,image_file,status
+v7,SQL,0,0,15.061,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v7\v7_00000s.png,success
+v7,SQL,1,10,15.061,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v7\v7_00010s.png,success

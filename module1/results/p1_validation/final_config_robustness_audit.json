@@ -1,0 +1,55 @@
+{
+  "stage": "P1.13 Final Config Robustness Audit",
+  "status": "PASS",
+  "selected_configuration": {
+    "chunk_seconds": 120,
+    "alpha": 0.0,
+    "lsa_weight": 1.0,
+    "aggregation": "mean",
+    "threshold": 0.2
+  },
+  "reproduced_p1_12": true,
+  "overall_metrics": {
+    "macro_video_precision": 0.6500892857142857,
+    "macro_video_recall": 0.8677281746031745,
+    "macro_video_f1": 0.6997541592394534,
+    "micro_precision": 0.6542553191489362,
+    "micro_recall": 0.803921568627451,
+    "micro_f1": 0.7214076246334311,
+    "true_positive_labels": 153,
+    "predicted_positive_labels": 188
+  },
+  "macro_video_f1_ci_95": {
+    "lower": 0.642738352537985,
+    "upper": 0.7560596803115185,
+    "method": "subject-stratified video bootstrap",
+    "iterations": 10000,
+    "random_state": 42,
+    "interpretation": "descriptive DEV post-selection CI only"
+  },
+  "fold_stability": {
+    "mean": 0.6997541592394534,
+    "std": 0.061476899786138205,
+    "min": 0.6459776334776335,
+    "max": 0.7952651515151515,
+    "range": 0.14928751803751805
+  },
+  "search_plateau": {
+    "within_0.005_f1": 2,
+    "within_0.010_f1": 4,
+    "within_0.020_f1": 19
+  },
+  "boundary_flags": {
+    "chunk_at_lower_boundary": false,
+    "chunk_at_upper_boundary": true,
+    "alpha_at_lower_boundary": true,
+    "alpha_at_upper_boundary": false,
+    "threshold_at_lower_boundary": true,
+    "threshold_at_upper_boundary": false
+  },
+  "config_changed_after_selection": false,
+  "new_hyperparameters_searched": false,
+  "p_value_used_for_selection": false,
+  "final_test_used": false,
+  "note": "P1.13 audits the P1.12-selected configuration. It does not retune or replace the selected configuration."
+}

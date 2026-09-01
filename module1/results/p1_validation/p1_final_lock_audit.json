@@ -1,0 +1,219 @@
+{
+  "stage": "P1.15 Final Audit + Lock",
+  "status": "PASS",
+  "checks_passed": 27,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "check": "exactly_40_dev_videos",
+      "status": "PASS",
+      "detail": "rows=40, unique=40"
+    },
+    {
+      "check": "dev_video_ids_unique",
+      "status": "PASS",
+      "detail": "no duplicate DEV video_id allowed"
+    },
+    {
+      "check": "balanced_dev_subjects",
+      "status": "PASS",
+      "detail": "{'sql': 10, 'python': 10, 'java': 10, 'c++': 10}"
+    },
+    {
+      "check": "folds_cover_exact_dev_ids",
+      "status": "PASS",
+      "detail": "fold rows=40, fold IDs must equal DEV IDs"
+    },
+    {
+      "check": "five_expected_folds",
+      "status": "PASS",
+      "detail": "[np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5)]"
+    },
+    {
+      "check": "eight_videos_per_fold",
+      "status": "PASS",
+      "detail": "{1: 8, 2: 8, 3: 8, 4: 8, 5: 8}"
+    },
+    {
+      "check": "dev_gt_153_positive_pairs",
+      "status": "PASS",
+      "detail": "positive DEV pairs=153"
+    },
+    {
+      "check": "dev_gt_no_duplicate_pairs",
+      "status": "PASS",
+      "detail": "duplicate (video_id, concept) not allowed"
+    },
+    {
+      "check": "p1_13b_audit_pass",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "check": "p1_13b_final_test_not_used",
+      "status": "PASS",
+      "detail": "both P1.13b audit and config must say final_test_used=False"
+    },
+    {
+      "check": "one_time_extension_stop_rule",
+      "status": "PASS",
+      "detail": "P1.13b stop rule must forbid further grid extension"
+    },
+    {
+      "check": "search_has_3432_configs",
+      "status": "PASS",
+      "detail": "rows=3432, expected=3432"
+    },
+    {
+      "check": "search_chunk_grid_exact",
+      "status": "PASS",
+      "detail": "[30, 60, 90, 120, 150, 180]"
+    },
+    {
+      "check": "search_alpha_grid_exact",
+      "status": "PASS",
+      "detail": "[0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]"
+    },
+    {
+      "check": "search_aggregation_grid_exact",
+      "status": "PASS",
+      "detail": "['max', 'mean', 'top2_mean', 'top3_mean']"
+    },
+    {
+      "check": "search_threshold_grid_exact",
+      "status": "PASS",
+      "detail": "[0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7]"
+    },
+    {
+      "check": "exactly_one_selected_config",
+      "status": "PASS",
+      "detail": "selected rows=1"
+    },
+    {
+      "check": "selected_row_is_rank1_by_declared_rule",
+      "status": "PASS",
+      "detail": "selected_order=2868, best_order=2868"
+    },
+    {
+      "check": "json_config_matches_selected_row",
+      "status": "PASS",
+      "detail": "boundary config JSON must match selected search row"
+    },
+    {
+      "check": "raw_oof_contains_dev_only",
+      "status": "PASS",
+      "detail": "raw unique IDs=40; must equal exact DEV ID set"
+    },
+    {
+      "check": "raw_oof_has_all_six_chunk_sizes",
+      "status": "PASS",
+      "detail": "[np.int64(30), np.int64(60), np.int64(90), np.int64(120), np.int64(150), np.int64(180)]"
+    },
+    {
+      "check": "each_video_has_one_heldout_outer_fold",
+      "status": "PASS",
+      "detail": "every DEV video must belong to exactly one outer held-out fold"
+    },
+    {
+      "check": "raw_oof_folds_are_1_to_5",
+      "status": "PASS",
+      "detail": "[np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5)]"
+    },
+    {
+      "check": "no_non_dev_or_test_ids_in_selection_scores",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "final_config_status_locked",
+      "status": "PASS",
+      "detail": "LOCKED"
+    },
+    {
+      "check": "further_dev_tuning_disabled",
+      "status": "PASS",
+      "detail": "no more DEV-driven hyperparameter changes"
+    },
+    {
+      "check": "remaining_chunk_boundary_documented",
+      "status": "PASS",
+      "detail": "The selected chunk duration is 180s, the upper boundary of the one-time extended DEV search. Per the pre-declared stop rule, the search space is not extended further. The configuration is best among evaluated DEV configurations, not a claim of global optimum."
+    }
+  ],
+  "final_configuration": {
+    "stage": "P1.15 Final Configuration Lock",
+    "status": "LOCKED",
+    "chunk_seconds": 180,
+    "alpha": 0.0,
+    "lsa_weight": 1.0,
+    "aggregation": "max",
+    "threshold": 0.5,
+    "selection_stage": "P1.13b One-Time Boundary Extension",
+    "selected_on": "DEV",
+    "dev_video_count": 40,
+    "dev_macro_video_f1": 0.7279691223808871,
+    "dev_micro_f1": 0.7524752475247525,
+    "dev_fold_f1_std": 0.0736007835519313,
+    "selection_metric": "macro_video_f1",
+    "selection_rule": [
+      "highest macro video F1",
+      "highest micro F1",
+      "lowest fold F1 std",
+      "deterministic grid order"
+    ],
+    "evaluated_search_space": {
+      "chunk_seconds": [
+        30,
+        60,
+        90,
+        120,
+        150,
+        180
+      ],
+      "alpha": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "aggregation": [
+        "max",
+        "mean",
+        "top2_mean",
+        "top3_mean"
+      ],
+      "threshold": [
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6,
+        0.65,
+        0.7
+      ],
+      "num_configurations": 3432
+    },
+    "final_test_used": false,
+    "further_dev_tuning_allowed": false,
+    "p1_14_status": "SKIPPED_NOT_REQUIRED_FOR_SELECTION_OR_LOCK",
+    "remaining_limitation": "The selected chunk duration is 180s, the upper boundary of the one-time extended DEV search. Per the pre-declared stop rule, the search space is not extended further. The configuration is best among evaluated DEV configurations, not a claim of global optimum.",
+    "configuration_sha256": "bd89819f0c91aa2e6828f4815f11ffb88a0b8f7794e490e4cfe38b9f401d2bde"
+  },
+  "p1_14_required": false,
+  "p1_14_reason": "P1.14 was a proposed supplementary robustness comparison. It is not required to select or lock the final DEV configuration because P1.13b already completed the declared search and selection.",
+  "final_test_used": false,
+  "config_changed_after_lock": false
+}

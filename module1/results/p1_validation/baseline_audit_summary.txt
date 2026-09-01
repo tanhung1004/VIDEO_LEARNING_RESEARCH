@@ -1,0 +1,13 @@
+P1.1 FROZEN BASELINE STATIC AUDIT
+============================================================
+
+Baseline directory: module1\baseline
+Baseline files: 10/10
+Relevant source-code hits: 198
+
+Model fit operations detected: NO
+Cross-validation controls detected: NO
+
+SCIENTIFIC INTERPRETATION:
+Static audit alone is insufficient to conclude whether train/test leakage exists.
+Relevant fit and fold handling must be reviewed before implementing P1.

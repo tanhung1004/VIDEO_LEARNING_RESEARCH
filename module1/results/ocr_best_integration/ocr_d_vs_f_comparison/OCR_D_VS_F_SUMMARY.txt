@@ -1,0 +1,46 @@
+OCR D VS F COMPARISON
+=====================
+
+Dataset:
+40 DEV videos
+39 concepts
+390 video-concept pairs
+153 positive GT pairs
+
+Evaluation:
+Aggregation = top2_mean
+Threshold = 0.40
+No tuning performed in Step 11.
+
+OLD OCR D:
+Macro Video F1 = 0.515485
+Micro F1       = 0.556604
+
+NEW OCR F:
+Macro Video F1 = 0.536178
+Micro F1       = 0.579439
+
+Delta Macro F1 (F-D) = +0.020692
+Delta Micro F1 (F-D) = +0.022835
+
+Subject-stratified paired bootstrap 95% CI:
+[-0.001327, 0.044076]
+
+Wilcoxon p       = 0.135323
+Paired t-test p  = 0.099739
+Cohen dz         = 0.266615
+McNemar exact p  = 0.331750
+
+Per-video:
+Improved = 12
+Worse    = 8
+Tied     = 20
+
+Winner by primary Macro Video F1:
+NEW OCR F
+
+Scientific status:
+Development/supplementary OCR-only comparison.
+NEW OCR F was predefined before this evaluation.
+No threshold, aggregation, OCR method, or fusion retuning
+was performed using these comparison results.

@@ -1,0 +1,441 @@
+﻿video_id,subject,youtube_id,start_sec,end_sec,start_time,end_time,text
+v13,SQL,_vxobA36UN4,0.16,3.8,00:00:00,00:00:03,if there's one skill that virtually
+v13,SQL,_vxobA36UN4,1.8,6.2,00:00:01,00:00:06,every data professional swears by it's
+v13,SQL,_vxobA36UN4,3.8,8.28,00:00:03,00:00:08,SQL in this video I'll show you how
+v13,SQL,_vxobA36UN4,6.2,8.97,00:00:06,00:00:08,anyone can learn basic SQL in a matter
+v13,SQL,_vxobA36UN4,8.28,12.02,00:00:08,00:00:12,of
+v13,SQL,_vxobA36UN4,8.97,12.02,00:00:08,00:00:12,[Music]
+v13,SQL,_vxobA36UN4,14.48,18.48,00:00:14,00:00:18,minutes one great thing about SQL is
+v13,SQL,_vxobA36UN4,16.84,20.08,00:00:16,00:00:20,that it's used in so many different data
+v13,SQL,_vxobA36UN4,18.48,22.44,00:00:18,00:00:22,rules and while it's often not the
+v13,SQL,_vxobA36UN4,20.08,24.4,00:00:20,00:00:24,primary tool used it's by far the most
+v13,SQL,_vxobA36UN4,22.44,26.28,00:00:22,00:00:26,popular supporting language in this
+v13,SQL,_vxobA36UN4,24.4,28.2,00:00:24,00:00:28,video we'll cover some foundational SQL
+v13,SQL,_vxobA36UN4,26.28,30.88,00:00:26,00:00:30,Concepts including terms like relational
+v13,SQL,_vxobA36UN4,28.2,32.04,00:00:28,00:00:32,databases queries and my SQL then we'll
+v13,SQL,_vxobA36UN4,30.88,34.08,00:00:30,00:00:34,spend the majority of our time
+v13,SQL,_vxobA36UN4,32.04,35.72,00:00:32,00:00:35,demonstrating the big six which are six
+v13,SQL,_vxobA36UN4,34.08,37.68,00:00:34,00:00:37,common keywords that you'll see again
+v13,SQL,_vxobA36UN4,35.72,39.64,00:00:35,00:00:39,and again when writing SQL code we'll
+v13,SQL,_vxobA36UN4,37.68,41.56,00:00:37,00:00:41,also introduce the basics of multi-table
+v13,SQL,_vxobA36UN4,39.64,43.48,00:00:39,00:00:43,analysis using a technique called a left
+v13,SQL,_vxobA36UN4,41.56,45.04,00:00:41,00:00:45,join by the end of this video you'll
+v13,SQL,_vxobA36UN4,43.48,46.84,00:00:43,00:00:46,know enough Basics to start writing
+v13,SQL,_vxobA36UN4,45.04,49.24,00:00:45,00:00:49,queries and exploring data sets on your
+v13,SQL,_vxobA36UN4,46.84,51.24,00:00:46,00:00:51,own let's start with the basics SQL
+v13,SQL,_vxobA36UN4,49.24,53.04,00:00:49,00:00:53,stands for structured query language
+v13,SQL,_vxobA36UN4,51.24,54.6,00:00:51,00:00:54,we'll break this down in just a bit but
+v13,SQL,_vxobA36UN4,53.04,56.56,00:00:53,00:00:56,in short it's the language that you
+v13,SQL,_vxobA36UN4,54.6,58.52,00:00:54,00:00:58,would use to talk to a database so what
+v13,SQL,_vxobA36UN4,56.56,60.96,00:00:56,00:01:00,is a database exactly it's a place to
+v13,SQL,_vxobA36UN4,58.52,62.44,00:00:58,00:01:02,store data in an organizer way now
+v13,SQL,_vxobA36UN4,60.96,64.52,00:01:00,00:01:04,imagine you have a piece of data which
+v13,SQL,_vxobA36UN4,62.44,66.64,00:01:02,00:01:06,is represented by this Lego piece if you
+v13,SQL,_vxobA36UN4,64.52,69.16,00:01:04,00:01:09,were to collect a ton of data you would
+v13,SQL,_vxobA36UN4,66.64,70.68,00:01:06,00:01:10,have this whole pile of Lego pieces but
+v13,SQL,_vxobA36UN4,69.16,72.88,00:01:09,00:01:12,that's hard to sift through so you would
+v13,SQL,_vxobA36UN4,70.68,75.08,00:01:10,00:01:15,have to organize it in some way such as
+v13,SQL,_vxobA36UN4,72.88,77.84,00:01:12,00:01:17,this you can think of the storage system
+v13,SQL,_vxobA36UN4,75.08,79.68,00:01:15,00:01:19,for Lego pieces as a database for data
+v13,SQL,_vxobA36UN4,77.84,82.04,00:01:17,00:01:22,everything is now neatly sorted and easy
+v13,SQL,_vxobA36UN4,79.68,84.16,00:01:19,00:01:24,to find and just like there are many
+v13,SQL,_vxobA36UN4,82.04,86.28,00:01:22,00:01:26,ways to organize Lego pieces there are
+v13,SQL,_vxobA36UN4,84.16,87.88,00:01:24,00:01:27,many ways to organize data the most
+v13,SQL,_vxobA36UN4,86.28,89.92,00:01:26,00:01:29,common way is to use tables that are
+v13,SQL,_vxobA36UN4,87.88,91.68,00:01:27,00:01:31,connected to one another these tables
+v13,SQL,_vxobA36UN4,89.92,92.72,00:01:29,00:01:32,are also called relations which is why
+v13,SQL,_vxobA36UN4,91.68,94.52,00:01:31,00:01:34,you'll sometimes hear this
+v13,SQL,_vxobA36UN4,92.72,96.6,00:01:32,00:01:36,organizational structure called a
+v13,SQL,_vxobA36UN4,94.52,98.28,00:01:34,00:01:38,relational database now to interact with
+v13,SQL,_vxobA36UN4,96.6,100.12,00:01:36,00:01:40,a relational database you can ask
+v13,SQL,_vxobA36UN4,98.28,102.36,00:01:38,00:01:42,queries to return the information that
+v13,SQL,_vxobA36UN4,100.12,105.32,00:01:40,00:01:45,you want these queries take the format
+v13,SQL,_vxobA36UN4,102.36,107.36,00:01:42,00:01:47,select star from my table in English
+v13,SQL,_vxobA36UN4,105.32,109.6,00:01:45,00:01:49,this is saying show me all the data
+v13,SQL,_vxobA36UN4,107.36,111.64,00:01:47,00:01:51,within my table now bringing it all
+v13,SQL,_vxobA36UN4,109.6,114.2,00:01:49,00:01:54,together you now know each part of the
+v13,SQL,_vxobA36UN4,111.64,115.96,00:01:51,00:01:55,SQL acronym s stands for structured and
+v13,SQL,_vxobA36UN4,114.2,117.68,00:01:54,00:01:57,it refers to the highly structured way
+v13,SQL,_vxobA36UN4,115.96,119.96,00:01:55,00:01:59,that data is stored in relational
+v13,SQL,_vxobA36UN4,117.68,121.44,00:01:57,00:02:01,databases Q is for query which which
+v13,SQL,_vxobA36UN4,119.96,123.64,00:01:59,00:02:03,refers to the way that you can ask the
+v13,SQL,_vxobA36UN4,121.44,125.4,00:02:01,00:02:05,database to return data to you and
+v13,SQL,_vxobA36UN4,123.64,127.28,00:02:03,00:02:07,finally L stands for language which
+v13,SQL,_vxobA36UN4,125.4,129.16,00:02:05,00:02:09,refers to the SQL syntax that we'll be
+v13,SQL,_vxobA36UN4,127.28,131.44,00:02:07,00:02:11,introducing in this video now that we've
+v13,SQL,_vxobA36UN4,129.16,133.48,00:02:09,00:02:13,covered the basic terminology let's talk
+v13,SQL,_vxobA36UN4,131.44,135.08,00:02:11,00:02:15,about how to query a database first we
+v13,SQL,_vxobA36UN4,133.48,137.28,00:02:13,00:02:17,need an editor where we can write and
+v13,SQL,_vxobA36UN4,135.08,139.16,00:02:15,00:02:19,run our SQL code there are all sorts of
+v13,SQL,_vxobA36UN4,137.28,141.52,00:02:17,00:02:21,editors out there many of which are free
+v13,SQL,_vxobA36UN4,139.16,143.2,00:02:19,00:02:23,to use including my SQL workbench which
+v13,SQL,_vxobA36UN4,141.52,144.92,00:02:21,00:02:24,is what we'll be using for this demo
+v13,SQL,_vxobA36UN4,143.2,146.92,00:02:23,00:02:26,next we'll need some data in this case
+v13,SQL,_vxobA36UN4,144.92,148.56,00:02:24,00:02:28,we'll be running this block of SQL code
+v13,SQL,_vxobA36UN4,146.92,150.6,00:02:26,00:02:30,that creates a few tables with student
+v13,SQL,_vxobA36UN4,148.56,152.76,00:02:28,00:02:32,data if you'd like to follow along you
+v13,SQL,_vxobA36UN4,150.6,154.52,00:02:30,00:02:34,can download the code or CSV files in
+v13,SQL,_vxobA36UN4,152.76,156.48,00:02:32,00:02:36,the description now that we have
+v13,SQL,_vxobA36UN4,154.52,159.52,00:02:34,00:02:39,everything we need let's write our first
+v13,SQL,_vxobA36UN4,156.48,161.56,00:02:36,00:02:41,SQL query to write SQL code I'm
+v13,SQL,_vxobA36UN4,159.52,163.4,00:02:39,00:02:43,specifically using my SQL workbench but
+v13,SQL,_vxobA36UN4,161.56,164.88,00:02:41,00:02:44,you can use the editor of your choice
+v13,SQL,_vxobA36UN4,163.4,166.96,00:02:43,00:02:46,and the first thing I'm going to do is
+v13,SQL,_vxobA36UN4,164.88,168.44,00:02:44,00:02:48,view my table so the table that we're
+v13,SQL,_vxobA36UN4,166.96,170.6,00:02:46,00:02:50,going to be working with today is called
+v13,SQL,_vxobA36UN4,168.44,173.56,00:02:48,00:02:53,students so I'm going to do a select
+v13,SQL,_vxobA36UN4,170.6,175.2,00:02:50,00:02:55,star from students this is saying show
+v13,SQL,_vxobA36UN4,173.56,177.16,00:02:53,00:02:57,me all the data within the students
+v13,SQL,_vxobA36UN4,175.2,179.12,00:02:55,00:02:59,table and if I click this execute button
+v13,SQL,_vxobA36UN4,177.16,180.64,00:02:57,00:03:00,up here that will run this query and
+v13,SQL,_vxobA36UN4,179.12,182.92,00:02:59,00:03:02,then you can see the data in the output
+v13,SQL,_vxobA36UN4,180.64,186.52,00:03:00,00:03:06,down here you can see Abby here is in
+v13,SQL,_vxobA36UN4,182.92,189.04,00:03:02,00:03:09,the 10th grade she has a GPA 3.1 she
+v13,SQL,_vxobA36UN4,186.52,191.12,00:03:06,00:03:11,does get school lunch and so on and if
+v13,SQL,_vxobA36UN4,189.04,193.72,00:03:09,00:03:13,we go back up here to our first SQL
+v13,SQL,_vxobA36UN4,191.12,196.76,00:03:11,00:03:16,query what we've done is we've selected
+v13,SQL,_vxobA36UN4,193.72,198.8,00:03:13,00:03:18,all the columns from this students table
+v13,SQL,_vxobA36UN4,196.76,201.56,00:03:16,00:03:21,and we did that by specifying a select
+v13,SQL,_vxobA36UN4,198.8,203.88,00:03:18,00:03:23,clause and a from Clause now this star
+v13,SQL,_vxobA36UN4,201.56,205.72,00:03:21,00:03:25,means all columns but we can also
+v13,SQL,_vxobA36UN4,203.88,208.4,00:03:23,00:03:28,specify the exact columns we want to
+v13,SQL,_vxobA36UN4,205.72,211.4,00:03:25,00:03:31,display so for example we can say we
+v13,SQL,_vxobA36UN4,208.4,213.36,00:03:28,00:03:33,want to see the student name the GPA and
+v13,SQL,_vxobA36UN4,211.4,215.0,00:03:31,00:03:35,whether someone gets school lunch or not
+v13,SQL,_vxobA36UN4,213.36,215.96,00:03:33,00:03:35,now I'm going to run this query again
+v13,SQL,_vxobA36UN4,215.0,218.08,00:03:35,00:03:38,and this time I'm going to use a
+v13,SQL,_vxobA36UN4,215.96,220.36,00:03:35,00:03:40,shortcut so I'm going to do a command
+v13,SQL,_vxobA36UN4,218.08,222.6,00:03:38,00:03:42,enter on my Mac and that will run that
+v13,SQL,_vxobA36UN4,220.36,225.2,00:03:40,00:03:45,code for me so now you can see here this
+v13,SQL,_vxobA36UN4,222.6,227.4,00:03:42,00:03:47,is a lot cleaner I only see these three
+v13,SQL,_vxobA36UN4,225.2,229.24,00:03:45,00:03:49,columns of data so with this first query
+v13,SQL,_vxobA36UN4,227.4,231.44,00:03:47,00:03:51,here we've been able to display three
+v13,SQL,_vxobA36UN4,229.24,233.92,00:03:49,00:03:53,columns of data from our students table
+v13,SQL,_vxobA36UN4,231.44,236.24,00:03:51,00:03:56,now next let's only show students who
+v13,SQL,_vxobA36UN4,233.92,238.6,00:03:53,00:03:58,get school lunch so you can see here
+v13,SQL,_vxobA36UN4,236.24,241.0,00:03:56,00:04:01,that Abby and Katherine get school lunch
+v13,SQL,_vxobA36UN4,238.6,243.44,00:03:58,00:04:03,but Bob does not so let's filter our
+v13,SQL,_vxobA36UN4,241.0,246.68,00:04:01,00:04:06,data to only the rows where school lunch
+v13,SQL,_vxobA36UN4,243.44,250.36,00:04:03,00:04:10,is equal to yes so to do that I am going
+v13,SQL,_vxobA36UN4,246.68,252.68,00:04:06,00:04:12,to copy my query from up here down here
+v13,SQL,_vxobA36UN4,250.36,254.92,00:04:10,00:04:14,and I'm going to add one more clause and
+v13,SQL,_vxobA36UN4,252.68,257.44,00:04:12,00:04:17,it's called the wear clause and I'm
+v13,SQL,_vxobA36UN4,254.92,262.08,00:04:14,00:04:22,going to say I only want to see the rows
+v13,SQL,_vxobA36UN4,257.44,264.08,00:04:17,00:04:24,where school lunch is equal to yes and
+v13,SQL,_vxobA36UN4,262.08,266.84,00:04:22,00:04:26,I'm going to do a command enter to run
+v13,SQL,_vxobA36UN4,264.08,269.36,00:04:24,00:04:29,that again and now you can see that only
+v13,SQL,_vxobA36UN4,266.84,270.76,00:04:26,00:04:30,the rows that contain yes are displayed
+v13,SQL,_vxobA36UN4,269.36,273.04,00:04:29,00:04:33,and the nice thing about this wear
+v13,SQL,_vxobA36UN4,270.76,275.48,00:04:30,00:04:35,Clause is you can actually add on
+v13,SQL,_vxobA36UN4,273.04,278.2,00:04:33,00:04:38,additional filters so let's say I only
+v13,SQL,_vxobA36UN4,275.48,281.12,00:04:35,00:04:41,want to see situations where the GPA was
+v13,SQL,_vxobA36UN4,278.2,283.64,00:04:38,00:04:43,greater than 3.3 now if I run this one
+v13,SQL,_vxobA36UN4,281.12,286.88,00:04:41,00:04:46,more time you can see these are students
+v13,SQL,_vxobA36UN4,283.64,289.0,00:04:43,00:04:49,who get school lunch and have a high GPA
+v13,SQL,_vxobA36UN4,286.88,292.04,00:04:46,00:04:52,and we were able to filter that by using
+v13,SQL,_vxobA36UN4,289.0,293.92,00:04:49,00:04:53,our wear Clause so moving on let's try
+v13,SQL,_vxobA36UN4,292.04,295.44,00:04:52,00:04:55,to sort the students so what we're going
+v13,SQL,_vxobA36UN4,293.92,298.24,00:04:53,00:04:58,to do is we're going to take this query
+v13,SQL,_vxobA36UN4,295.44,300.32,00:04:55,00:05:00,from up here copy it down here and we
+v13,SQL,_vxobA36UN4,298.24,303.28,00:04:58,00:05:03,are going to sort these students by
+v13,SQL,_vxobA36UN4,300.32,306.32,00:05:00,00:05:06,their GPA I'm going to add on an order
+v13,SQL,_vxobA36UN4,303.28,308.52,00:05:03,00:05:08,by Clause I'm going to say order by GPA
+v13,SQL,_vxobA36UN4,306.32,310.8,00:05:06,00:05:10,so if I run this again you can see that
+v13,SQL,_vxobA36UN4,308.52,313.52,00:05:08,00:05:13,the GPA is going from lowest to highest
+v13,SQL,_vxobA36UN4,310.8,315.72,00:05:10,00:05:15,here so in ascending order now if I want
+v13,SQL,_vxobA36UN4,313.52,317.92,00:05:13,00:05:17,to reverse that I can add a descending
+v13,SQL,_vxobA36UN4,315.72,320.4,00:05:15,00:05:20,here and that will make my GPA go from
+v13,SQL,_vxobA36UN4,317.92,322.28,00:05:17,00:05:22,highest to lowest so with this example
+v13,SQL,_vxobA36UN4,320.4,325.16,00:05:20,00:05:25,you were able to see what an order bu
+v13,SQL,_vxobA36UN4,322.28,327.16,00:05:22,00:05:27,does which is sort your data so at this
+v13,SQL,_vxobA36UN4,325.16,329.4,00:05:25,00:05:29,point we have gone through four Clauses
+v13,SQL,_vxobA36UN4,327.16,331.84,00:05:27,00:05:31,that you'll see again and again select
+v13,SQL,_vxobA36UN4,329.4,333.56,00:05:29,00:05:33,from from where in order by the next two
+v13,SQL,_vxobA36UN4,331.84,335.84,00:05:31,00:05:35,closets that we're going to go over are
+v13,SQL,_vxobA36UN4,333.56,337.36,00:05:33,00:05:37,a bit more complex but stick with me
+v13,SQL,_vxobA36UN4,335.84,339.36,00:05:35,00:05:39,we're going to go through this step by
+v13,SQL,_vxobA36UN4,337.36,341.8,00:05:37,00:05:41,step so the next thing we're going to do
+v13,SQL,_vxobA36UN4,339.36,344.24,00:05:39,00:05:44,is try to look at the average GPA for
+v13,SQL,_vxobA36UN4,341.8,346.4,00:05:41,00:05:46,each grade level to do that I'm going to
+v13,SQL,_vxobA36UN4,344.24,349.44,00:05:44,00:05:49,start a fresh query I'm going to say
+v13,SQL,_vxobA36UN4,346.4,352.44,00:05:46,00:05:52,select all from students again and if I
+v13,SQL,_vxobA36UN4,349.44,355.6,00:05:49,00:05:55,run that here is my student data and I
+v13,SQL,_vxobA36UN4,352.44,358.36,00:05:52,00:05:58,want to know the average GPA for each
+v13,SQL,_vxobA36UN4,355.6,362.12,00:05:55,00:06:02,grade level let's just start by looking
+v13,SQL,_vxobA36UN4,358.36,364.76,00:05:58,00:06:04,at grade level and GPA I see all these
+v13,SQL,_vxobA36UN4,362.12,367.32,00:06:02,00:06:07,grade levels here and all these GPA here
+v13,SQL,_vxobA36UN4,364.76,371.24,00:06:04,00:06:11,and what I want as my output is a grade
+v13,SQL,_vxobA36UN4,367.32,373.2,00:06:07,00:06:13,level column so 9 10 11 12 and then for
+v13,SQL,_vxobA36UN4,371.24,376.48,00:06:11,00:06:16,each grade level I want to know the
+v13,SQL,_vxobA36UN4,373.2,378.68,00:06:13,00:06:18,average GPA so to do this in Sequel the
+v13,SQL,_vxobA36UN4,376.48,381.0,00:06:16,00:06:21,first question I ask myself is what do I
+v13,SQL,_vxobA36UN4,378.68,383.28,00:06:18,00:06:23,want each row to represent and in this
+v13,SQL,_vxobA36UN4,381.0,385.76,00:06:21,00:06:25,case I want each row to represent a
+v13,SQL,_vxobA36UN4,383.28,388.08,00:06:23,00:06:28,grade level so what I'm going to do here
+v13,SQL,_vxobA36UN4,385.76,389.88,00:06:25,00:06:29,is add another Clause called a group by
+v13,SQL,_vxobA36UN4,388.08,391.6,00:06:28,00:06:31,and I'm going to put in grade level
+v13,SQL,_vxobA36UN4,389.88,393.92,00:06:29,00:06:33,because that's what I want each row to
+v13,SQL,_vxobA36UN4,391.6,395.72,00:06:31,00:06:35,represent now that I've specified what I
+v13,SQL,_vxobA36UN4,393.92,397.76,00:06:33,00:06:37,want each row to look like I'm going to
+v13,SQL,_vxobA36UN4,395.72,400.04,00:06:35,00:06:40,go back up to my select Clause to
+v13,SQL,_vxobA36UN4,397.76,401.8,00:06:37,00:06:41,specify which columns I want to display
+v13,SQL,_vxobA36UN4,400.04,403.92,00:06:40,00:06:43,so the First Column I want to display is
+v13,SQL,_vxobA36UN4,401.8,407.08,00:06:41,00:06:47,grade level and then the second column I
+v13,SQL,_vxobA36UN4,403.92,409.72,00:06:43,00:06:49,want to display is not just GPA but the
+v13,SQL,_vxobA36UN4,407.08,412.04,00:06:47,00:06:52,average GPA for each grade level so what
+v13,SQL,_vxobA36UN4,409.72,414.56,00:06:49,00:06:54,I'm going to do here is add an average
+v13,SQL,_vxobA36UN4,412.04,417.2,00:06:52,00:06:57,function around this and now if I run
+v13,SQL,_vxobA36UN4,414.56,419.84,00:06:54,00:06:59,this query here you can see now I have
+v13,SQL,_vxobA36UN4,417.2,422.12,00:06:57,00:07:02,for each grade level what is the average
+v13,SQL,_vxobA36UN4,419.84,424.68,00:06:59,00:07:04,GPA and to make this look a little bit
+v13,SQL,_vxobA36UN4,422.12,427.64,00:07:02,00:07:07,nicer I'm also going to sort this grade
+v13,SQL,_vxobA36UN4,424.68,429.6,00:07:04,00:07:09,level column and I can do that by adding
+v13,SQL,_vxobA36UN4,427.64,432.48,00:07:07,00:07:12,an order by grade
+v13,SQL,_vxobA36UN4,429.6,434.48,00:07:09,00:07:14,level and if I run that one more time I
+v13,SQL,_vxobA36UN4,432.48,436.76,00:07:12,00:07:16,get this clean output where I see for
+v13,SQL,_vxobA36UN4,434.48,439.64,00:07:14,00:07:19,every grade level this is the average
+v13,SQL,_vxobA36UN4,436.76,442.04,00:07:16,00:07:22,GPA and I was able to do that by using a
+v13,SQL,_vxobA36UN4,439.64,444.2,00:07:19,00:07:24,group by Clause now again the group by
+v13,SQL,_vxobA36UN4,442.04,446.24,00:07:22,00:07:26,Clause is a bit on the tricky side but
+v13,SQL,_vxobA36UN4,444.2,448.04,00:07:24,00:07:28,the way I like to think about it is I'm
+v13,SQL,_vxobA36UN4,446.24,450.72,00:07:26,00:07:30,grouping by whatever I want to see in
+v13,SQL,_vxobA36UN4,448.04,453.24,00:07:28,00:07:33,each row and then I select whatever I'm
+v13,SQL,_vxobA36UN4,450.72,455.32,00:07:30,00:07:35,grouping by along with some way that I'm
+v13,SQL,_vxobA36UN4,453.24,457.72,00:07:33,00:07:37,aggregating the data for each group so
+v13,SQL,_vxobA36UN4,455.32,460.24,00:07:35,00:07:40,in this case I used an average you can
+v13,SQL,_vxobA36UN4,457.72,462.96,00:07:37,00:07:42,also use other keywords like a count or
+v13,SQL,_vxobA36UN4,460.24,465.48,00:07:40,00:07:45,a min max and so on so this was an
+v13,SQL,_vxobA36UN4,462.96,467.32,00:07:42,00:07:47,example of a group buy now I'm going to
+v13,SQL,_vxobA36UN4,465.48,469.96,00:07:45,00:07:49,build on top of this group by so I'm
+v13,SQL,_vxobA36UN4,467.32,473.16,00:07:47,00:07:53,going to take all this code here paste
+v13,SQL,_vxobA36UN4,469.96,475.6,00:07:49,00:07:55,it down here and what I want to do now
+v13,SQL,_vxobA36UN4,473.16,478.72,00:07:53,00:07:58,is show the grade levels with an average
+v13,SQL,_vxobA36UN4,475.6,481.08,00:07:55,00:08:01,GPA below 3.3 so if I run our current
+v13,SQL,_vxobA36UN4,478.72,483.68,00:07:58,00:08:03,code you you can see here these are all
+v13,SQL,_vxobA36UN4,481.08,486.24,00:08:01,00:08:06,the average GPA but what I want to do
+v13,SQL,_vxobA36UN4,483.68,489.6,00:08:03,00:08:09,now is only return the ones where the
+v13,SQL,_vxobA36UN4,486.24,491.92,00:08:06,00:08:11,GPA is less than 3.3 so I only want to
+v13,SQL,_vxobA36UN4,489.6,493.72,00:08:09,00:08:13,return these three rows here now the way
+v13,SQL,_vxobA36UN4,491.92,496.08,00:08:11,00:08:16,that I'm going to do that is by using
+v13,SQL,_vxobA36UN4,493.72,497.84,00:08:13,00:08:17,something called the having Clause so at
+v13,SQL,_vxobA36UN4,496.08,499.96,00:08:16,00:08:19,this point you might be thinking why am
+v13,SQL,_vxobA36UN4,497.84,502.6,00:08:17,00:08:22,I not just using the wear Clause all I'm
+v13,SQL,_vxobA36UN4,499.96,504.44,00:08:19,00:08:24,trying to do is filter the data here
+v13,SQL,_vxobA36UN4,502.6,506.68,00:08:22,00:08:26,however in this case I'm not just
+v13,SQL,_vxobA36UN4,504.44,508.68,00:08:24,00:08:28,filtering my raw data I'm filtering my
+v13,SQL,_vxobA36UN4,506.68,510.8,00:08:26,00:08:30,group by data and anytime you're
+v13,SQL,_vxobA36UN4,508.68,513.4,00:08:28,00:08:33,filtering group by data you're going to
+v13,SQL,_vxobA36UN4,510.8,516.4,00:08:30,00:08:36,use a having Clause so right after I
+v13,SQL,_vxobA36UN4,513.4,519.48,00:08:33,00:08:39,group my data I can add a having Clause
+v13,SQL,_vxobA36UN4,516.4,522.4,00:08:36,00:08:42,where I filter this data by average GPA
+v13,SQL,_vxobA36UN4,519.48,524.32,00:08:39,00:08:44,less than 3.3 now before I do that I'm
+v13,SQL,_vxobA36UN4,522.4,526.68,00:08:42,00:08:46,going to actually make one more tweak up
+v13,SQL,_vxobA36UN4,524.32,528.68,00:08:44,00:08:48,here so right now this says average GPA
+v13,SQL,_vxobA36UN4,526.68,530.8,00:08:46,00:08:50,with these parentheses here and down
+v13,SQL,_vxobA36UN4,528.68,532.72,00:08:48,00:08:52,here we also see that average GPA with
+v13,SQL,_vxobA36UN4,530.8,534.12,00:08:50,00:08:54,parenthesis so I'm going to rename this
+v13,SQL,_vxobA36UN4,532.72,536.12,00:08:52,00:08:56,so that it's all lowercase with an
+v13,SQL,_vxobA36UN4,534.12,538.12,00:08:54,00:08:58,underscore which is a standard way to
+v13,SQL,_vxobA36UN4,536.12,540.36,00:08:56,00:09:00,name columns in SQL and I'm going to
+v13,SQL,_vxobA36UN4,538.12,542.84,00:08:58,00:09:02,delete this having temporarily
+v13,SQL,_vxobA36UN4,540.36,545.12,00:09:00,00:09:05,now if I run this you can see that the
+v13,SQL,_vxobA36UN4,542.84,548.32,00:09:02,00:09:08,only thing that's changed is this column
+v13,SQL,_vxobA36UN4,545.12,551.04,00:09:05,00:09:11,name is now called average GPA so now
+v13,SQL,_vxobA36UN4,548.32,553.32,00:09:08,00:09:13,I'm going to use that with my having I'm
+v13,SQL,_vxobA36UN4,551.04,558.16,00:09:11,00:09:18,going to say I only want to return the
+v13,SQL,_vxobA36UN4,553.32,561.28,00:09:13,00:09:21,rows where average GPA is less than 3.3
+v13,SQL,_vxobA36UN4,558.16,563.56,00:09:18,00:09:23,and if I run that you can see I only get
+v13,SQL,_vxobA36UN4,561.28,566.32,00:09:21,00:09:26,the three remaining rows here so the
+v13,SQL,_vxobA36UN4,563.56,568.24,00:09:23,00:09:28,main takeaway here is that having is a
+v13,SQL,_vxobA36UN4,566.32,570.64,00:09:26,00:09:30,clause that allows you to filter any
+v13,SQL,_vxobA36UN4,568.24,572.52,00:09:28,00:09:32,Group by data to summarize everything
+v13,SQL,_vxobA36UN4,570.64,574.32,00:09:30,00:09:34,we've gone through so far we're going to
+v13,SQL,_vxobA36UN4,572.52,577.24,00:09:32,00:09:37,call all these Clauses we've just
+v13,SQL,_vxobA36UN4,574.32,578.84,00:09:34,00:09:38,covered the big six these are six key
+v13,SQL,_vxobA36UN4,577.24,581.04,00:09:37,00:09:41,words that you're going to be using
+v13,SQL,_vxobA36UN4,578.84,583.08,00:09:38,00:09:43,again and again when writing SQL code
+v13,SQL,_vxobA36UN4,581.04,585.72,00:09:41,00:09:45,remember select lets you choose which
+v13,SQL,_vxobA36UN4,583.08,587.92,00:09:43,00:09:47,columns to display from allows you to
+v13,SQL,_vxobA36UN4,585.72,590.12,00:09:45,00:09:50,choose which tables you're looking at
+v13,SQL,_vxobA36UN4,587.92,592.36,00:09:47,00:09:52,where allows you to filter your data
+v13,SQL,_vxobA36UN4,590.12,594.28,00:09:50,00:09:54,Group by allows you to group rows of
+v13,SQL,_vxobA36UN4,592.36,596.6,00:09:52,00:09:56,data within your table and aggregate
+v13,SQL,_vxobA36UN4,594.28,598.84,00:09:54,00:09:58,them in some way having allows you to
+v13,SQL,_vxobA36UN4,596.6,601.28,00:09:56,00:10:01,filter your group by data and then
+v13,SQL,_vxobA36UN4,598.84,604.08,00:09:58,00:10:04,finally order bu allows you to sort your
+v13,SQL,_vxobA36UN4,601.28,606.2,00:10:01,00:10:06,data so one interesting thing about SQL
+v13,SQL,_vxobA36UN4,604.08,608.04,00:10:04,00:10:08,is when you're writing your SQL queries
+v13,SQL,_vxobA36UN4,606.2,610.16,00:10:06,00:10:10,your Clauses always have to be in this
+v13,SQL,_vxobA36UN4,608.04,611.84,00:10:08,00:10:11,order now you don't have to include all
+v13,SQL,_vxobA36UN4,610.16,614.36,00:10:10,00:10:14,the Clauses in each one of your SQL
+v13,SQL,_vxobA36UN4,611.84,616.56,00:10:11,00:10:16,queries but whatever you do include has
+v13,SQL,_vxobA36UN4,614.36,619.08,00:10:14,00:10:19,to be in this order so let's say we just
+v13,SQL,_vxobA36UN4,616.56,622.64,00:10:16,00:10:22,wanted to view all the data in our table
+v13,SQL,_vxobA36UN4,619.08,625.44,00:10:19,00:10:25,and sort that data we would use select
+v13,SQL,_vxobA36UN4,622.64,627.28,00:10:22,00:10:27,from an order by specifically in that
+v13,SQL,_vxobA36UN4,625.44,629.2,00:10:25,00:10:29,order to get the output we're looking
+v13,SQL,_vxobA36UN4,627.28,630.88,00:10:27,00:10:30,for now that you've been introduced to
+v13,SQL,_vxobA36UN4,629.2,632.32,00:10:29,00:10:32,the the big six which are the key words
+v13,SQL,_vxobA36UN4,630.88,634.16,00:10:30,00:10:34,you're going to be using in the majority
+v13,SQL,_vxobA36UN4,632.32,636.28,00:10:32,00:10:36,of your SQL queries I just want to
+v13,SQL,_vxobA36UN4,634.16,639.04,00:10:34,00:10:39,introduce a few more SQL Concepts to
+v13,SQL,_vxobA36UN4,636.28,640.76,00:10:36,00:10:40,round out this intro video so first I
+v13,SQL,_vxobA36UN4,639.04,643.16,00:10:39,00:10:43,want to introduce three keywords that
+v13,SQL,_vxobA36UN4,640.76,645.48,00:10:40,00:10:45,are used very often outside of the big
+v13,SQL,_vxobA36UN4,643.16,647.88,00:10:43,00:10:47,six so I'm going to use these to modify
+v13,SQL,_vxobA36UN4,645.48,650.12,00:10:45,00:10:50,some of our existing queries let's start
+v13,SQL,_vxobA36UN4,647.88,652.68,00:10:47,00:10:52,with limit if we scroll all the way back
+v13,SQL,_vxobA36UN4,650.12,654.88,00:10:50,00:10:54,up to the top if I run this first query
+v13,SQL,_vxobA36UN4,652.68,657.48,00:10:52,00:10:57,where we viewed our table you can see
+v13,SQL,_vxobA36UN4,654.88,658.96,00:10:54,00:10:58,that a lot of rows of data were returned
+v13,SQL,_vxobA36UN4,657.48,661.36,00:10:57,00:11:01,but let's say we didn't want to see all
+v13,SQL,_vxobA36UN4,658.96,664.6,00:10:58,00:11:04,the r of data we want to limit our
+v13,SQL,_vxobA36UN4,661.36,666.52,00:11:01,00:11:06,results so what I can do is add on a
+v13,SQL,_vxobA36UN4,664.6,668.92,00:11:04,00:11:08,limit keyword here and I'm just going to
+v13,SQL,_vxobA36UN4,666.52,671.8,00:11:06,00:11:11,limit our output to five rows so now if
+v13,SQL,_vxobA36UN4,668.92,674.72,00:11:08,00:11:14,I run that you can see I just get five
+v13,SQL,_vxobA36UN4,671.8,677.64,00:11:11,00:11:17,rows of data here so that is the limit
+v13,SQL,_vxobA36UN4,674.72,679.68,00:11:14,00:11:19,keyword next I'd like to introduce count
+v13,SQL,_vxobA36UN4,677.64,682.04,00:11:17,00:11:22,and to do that I'm going to run this
+v13,SQL,_vxobA36UN4,679.68,684.16,00:11:19,00:11:24,second query so if you remember from
+v13,SQL,_vxobA36UN4,682.04,686.36,00:11:22,00:11:26,before with this second query what we
+v13,SQL,_vxobA36UN4,684.16,689.4,00:11:24,00:11:29,did is we looked at students who receive
+v13,SQL,_vxobA36UN4,686.36,691.08,00:11:26,00:11:31,school lunch and also have a high GPA
+v13,SQL,_vxobA36UN4,689.4,693.0,00:11:29,00:11:33,now let's say we didn't want to see all
+v13,SQL,_vxobA36UN4,691.08,694.52,00:11:31,00:11:34,the information in the output here and
+v13,SQL,_vxobA36UN4,693.0,696.84,00:11:33,00:11:36,we just wanted to see the number of
+v13,SQL,_vxobA36UN4,694.52,701.04,00:11:34,00:11:41,students who meet both requirements here
+v13,SQL,_vxobA36UN4,696.84,702.84,00:11:36,00:11:42,what we can do is account star and I'm
+v13,SQL,_vxobA36UN4,701.04,705.48,00:11:41,00:11:45,just going to comment everything to the
+v13,SQL,_vxobA36UN4,702.84,707.32,00:11:42,00:11:47,right here so now only this code here on
+v13,SQL,_vxobA36UN4,705.48,710.4,00:11:45,00:11:50,the left is going to run now if I run
+v13,SQL,_vxobA36UN4,707.32,712.84,00:11:47,00:11:52,this code you can see count star counts
+v13,SQL,_vxobA36UN4,710.4,715.04,00:11:50,00:11:55,the number of rows in that output and
+v13,SQL,_vxobA36UN4,712.84,717.04,00:11:52,00:11:57,now this output is telling me that four
+v13,SQL,_vxobA36UN4,715.04,719.4,00:11:55,00:11:59,students receive a school lunch and also
+v13,SQL,_vxobA36UN4,717.04,722.4,00:11:57,00:12:02,have a high GPA and that's the power of
+v13,SQL,_vxobA36UN4,719.4,725.24,00:11:59,00:12:05,count and finally I want to show you how
+v13,SQL,_vxobA36UN4,722.4,726.92,00:12:02,00:12:06,the distinct keyword works so to do that
+v13,SQL,_vxobA36UN4,725.24,729.28,00:12:05,00:12:09,we're going to go back to this query
+v13,SQL,_vxobA36UN4,726.92,731.64,00:12:06,00:12:11,here where we used an order by and if I
+v13,SQL,_vxobA36UN4,729.28,733.64,00:12:09,00:12:13,run that one more time you can see in
+v13,SQL,_vxobA36UN4,731.64,736.04,00:12:11,00:12:16,this case I'm ordering my gpa's
+v13,SQL,_vxobA36UN4,733.64,738.36,00:12:13,00:12:18,descending now what I'm going to do is
+v13,SQL,_vxobA36UN4,736.04,739.2,00:12:16,00:12:19,modify this query so we're only looking
+v13,SQL,_vxobA36UN4,738.36,742.08,00:12:18,00:12:22,at
+v13,SQL,_vxobA36UN4,739.2,744.24,00:12:19,00:12:24,GPA so let's delete all these other
+v13,SQL,_vxobA36UN4,742.08,746.72,00:12:22,00:12:26,columns up here so I'm only looking at
+v13,SQL,_vxobA36UN4,744.24,748.48,00:12:24,00:12:28,GPA and I don't want to filter the data
+v13,SQL,_vxobA36UN4,746.72,751.0,00:12:26,00:12:31,at all so I'm going to delete that now
+v13,SQL,_vxobA36UN4,748.48,754.52,00:12:28,00:12:34,if I run this here you can see that I
+v13,SQL,_vxobA36UN4,751.0,756.8,00:12:31,00:12:36,have all the GPA values descending and
+v13,SQL,_vxobA36UN4,754.52,758.68,00:12:34,00:12:38,some of these values are repeats so
+v13,SQL,_vxobA36UN4,756.8,762.12,00:12:36,00:12:42,let's say I wanted to only look at the
+v13,SQL,_vxobA36UN4,758.68,764.32,00:12:38,00:12:44,unique GPA values to do that I can add
+v13,SQL,_vxobA36UN4,762.12,767.2,00:12:42,00:12:47,an extra keyword up here so I'm going to
+v13,SQL,_vxobA36UN4,764.32,769.8,00:12:44,00:12:49,add a distinct keyword up here and if I
+v13,SQL,_vxobA36UN4,767.2,771.84,00:12:47,00:12:51,run this query here I no longer have
+v13,SQL,_vxobA36UN4,769.8,774.4,00:12:49,00:12:54,those repeats or those duplicates and
+v13,SQL,_vxobA36UN4,771.84,776.44,00:12:51,00:12:56,I'm left with just a unique GPA values
+v13,SQL,_vxobA36UN4,774.4,778.16,00:12:54,00:12:58,so scrolling down to the bottom again
+v13,SQL,_vxobA36UN4,776.44,780.68,00:12:56,00:13:00,the key words that we just covered were
+v13,SQL,_vxobA36UN4,778.16,782.76,00:12:58,00:13:02,limit count and distinct and these are
+v13,SQL,_vxobA36UN4,780.68,784.92,00:13:00,00:13:04,really commonly used in addition to the
+v13,SQL,_vxobA36UN4,782.76,786.8,00:13:02,00:13:06,big six that you see up here now the
+v13,SQL,_vxobA36UN4,784.92,788.76,00:13:04,00:13:08,last concept that I want to cover is a
+v13,SQL,_vxobA36UN4,786.8,791.12,00:13:06,00:13:11,more intermediate topic and it's
+v13,SQL,_vxobA36UN4,788.76,793.48,00:13:08,00:13:13,something called a join so what a join
+v13,SQL,_vxobA36UN4,791.12,796.32,00:13:11,00:13:16,allows you to do is work with multiple
+v13,SQL,_vxobA36UN4,793.48,798.8,00:13:13,00:13:18,tables so far we've only worked with one
+v13,SQL,_vxobA36UN4,796.32,800.6,00:13:16,00:13:20,table the students table so let me just
+v13,SQL,_vxobA36UN4,798.8,803.04,00:13:18,00:13:23,show you all the data in the students
+v13,SQL,_vxobA36UN4,800.6,804.64,00:13:20,00:13:24,table one more time and you can see
+v13,SQL,_vxobA36UN4,803.04,806.72,00:13:23,00:13:26,here's the students table that we've
+v13,SQL,_vxobA36UN4,804.64,809.28,00:13:24,00:13:29,become really familiar with now in
+v13,SQL,_vxobA36UN4,806.72,811.36,00:13:26,00:13:31,addition to a students table we also Al
+v13,SQL,_vxobA36UN4,809.28,813.44,00:13:29,00:13:33,have a student grades table so if we
+v13,SQL,_vxobA36UN4,811.36,815.48,00:13:31,00:13:35,take a look at that you can see we have
+v13,SQL,_vxobA36UN4,813.44,818.24,00:13:33,00:13:38,some different information here we can
+v13,SQL,_vxobA36UN4,815.48,821.32,00:13:35,00:13:41,see that for this semester for this
+v13,SQL,_vxobA36UN4,818.24,824.28,00:13:38,00:13:44,class this particular student got this
+v13,SQL,_vxobA36UN4,821.32,827.16,00:13:41,00:13:47,grade here and this is a much larger
+v13,SQL,_vxobA36UN4,824.28,829.56,00:13:44,00:13:49,table here what you'll notice is that
+v13,SQL,_vxobA36UN4,827.16,831.8,00:13:47,00:13:51,these two tables are connected by a
+v13,SQL,_vxobA36UN4,829.56,833.8,00:13:49,00:13:53,student ID so in this student grades
+v13,SQL,_vxobA36UN4,831.8,836.24,00:13:51,00:13:56,table here you can see this column has
+v13,SQL,_vxobA36UN4,833.8,838.76,00:13:53,00:13:58,student ID and then if I go back to the
+v13,SQL,_vxobA36UN4,836.24,841.24,00:13:56,00:14:01,students table here you can see that our
+v13,SQL,_vxobA36UN4,838.76,843.36,00:13:58,00:14:03,very very first column the ID column
+v13,SQL,_vxobA36UN4,841.24,845.6,00:14:01,00:14:05,also had a student ID so what we're
+v13,SQL,_vxobA36UN4,843.36,848.24,00:14:03,00:14:08,going to do here is join together these
+v13,SQL,_vxobA36UN4,845.6,850.64,00:14:05,00:14:10,two tables so that we can show the final
+v13,SQL,_vxobA36UN4,848.24,852.08,00:14:08,00:14:12,grades for each student so the way that
+v13,SQL,_vxobA36UN4,850.64,854.92,00:14:10,00:14:14,I'm going to do that is I'm going to
+v13,SQL,_vxobA36UN4,852.08,856.64,00:14:12,00:14:16,start with the select star from and up
+v13,SQL,_vxobA36UN4,854.92,859.28,00:14:14,00:14:19,to this point we've only been working
+v13,SQL,_vxobA36UN4,856.64,860.64,00:14:16,00:14:20,with one table the students table and
+v13,SQL,_vxobA36UN4,859.28,862.4,00:14:19,00:14:22,now we're going to add in the student
+v13,SQL,_vxobA36UN4,860.64,866.12,00:14:20,00:14:26,grades information as well so I'm going
+v13,SQL,_vxobA36UN4,862.4,868.12,00:14:22,00:14:28,to do a left join student grades and
+v13,SQL,_vxobA36UN4,866.12,870.04,00:14:26,00:14:30,that's going to combine all the data in
+v13,SQL,_vxobA36UN4,868.12,871.92,00:14:28,00:14:31,the students table with the student
+v13,SQL,_vxobA36UN4,870.04,874.68,00:14:30,00:14:34,grades table and whenever you're doing a
+v13,SQL,_vxobA36UN4,871.92,876.52,00:14:31,00:14:36,join you have to specify what columns
+v13,SQL,_vxobA36UN4,874.68,877.76,00:14:34,00:14:37,those two tables have in common and
+v13,SQL,_vxobA36UN4,876.52,880.4,00:14:36,00:14:40,that's what you're going to join the two
+v13,SQL,_vxobA36UN4,877.76,882.92,00:14:37,00:14:42,tables on so in this case we have our
+v13,SQL,_vxobA36UN4,880.4,884.72,00:14:40,00:14:44,students table with the ID column and
+v13,SQL,_vxobA36UN4,882.92,887.76,00:14:42,00:14:47,that's going to match the student grades
+v13,SQL,_vxobA36UN4,884.72,889.48,00:14:44,00:14:49,table with the student ID column so I'm
+v13,SQL,_vxobA36UN4,887.76,891.56,00:14:47,00:14:51,going to add a semicolon at the end and
+v13,SQL,_vxobA36UN4,889.48,893.44,00:14:49,00:14:53,run this code here and you can see in
+v13,SQL,_vxobA36UN4,891.56,896.0,00:14:51,00:14:56,our output that we have a ton of
+v13,SQL,_vxobA36UN4,893.44,898.48,00:14:53,00:14:58,information now we have all the students
+v13,SQL,_vxobA36UN4,896.0,901.0,00:14:56,00:15:01,all their detailed info as well as their
+v13,SQL,_vxobA36UN4,898.48,903.0,00:14:58,00:15:03,grades now this is a lot of information
+v13,SQL,_vxobA36UN4,901.0,905.52,00:15:01,00:15:05,so I'm just going to select a few
+v13,SQL,_vxobA36UN4,903.0,908.16,00:15:03,00:15:08,columns I'm going to select from the
+v13,SQL,_vxobA36UN4,905.52,910.52,00:15:05,00:15:10,students table the ID column and then
+v13,SQL,_vxobA36UN4,908.16,913.16,00:15:08,00:15:13,also from the students table the student
+v13,SQL,_vxobA36UN4,910.52,916.72,00:15:10,00:15:16,name and then from the student grades
+v13,SQL,_vxobA36UN4,913.16,918.56,00:15:13,00:15:18,table I'm going to select the class name
+v13,SQL,_vxobA36UN4,916.72,922.16,00:15:16,00:15:22,and the final grade so I'm going to do
+v13,SQL,_vxobA36UN4,918.56,925.24,00:15:18,00:15:25,class name and then student grades final
+v13,SQL,_vxobA36UN4,922.16,927.6,00:15:22,00:15:27,grade and if I run that code here you
+v13,SQL,_vxobA36UN4,925.24,929.96,00:15:25,00:15:29,can see this much cleaner table where I
+v13,SQL,_vxobA36UN4,927.6,932.28,00:15:27,00:15:32,have for each student the grade they got
+v13,SQL,_vxobA36UN4,929.96,934.76,00:15:29,00:15:34,in all their classes that semester and I
+v13,SQL,_vxobA36UN4,932.28,937.16,00:15:32,00:15:37,was able to do this by joining these two
+v13,SQL,_vxobA36UN4,934.76,939.52,00:15:34,00:15:39,tables and specifically I use something
+v13,SQL,_vxobA36UN4,937.16,941.36,00:15:37,00:15:41,called a left join here which will keep
+v13,SQL,_vxobA36UN4,939.52,943.52,00:15:39,00:15:43,all the student information from this
+v13,SQL,_vxobA36UN4,941.36,945.8,00:15:41,00:15:45,left table now this is just an
+v13,SQL,_vxobA36UN4,943.52,947.48,00:15:43,00:15:47,introduction to joins there's so much
+v13,SQL,_vxobA36UN4,945.8,949.68,00:15:45,00:15:49,more you can do with joints including
+v13,SQL,_vxobA36UN4,947.48,952.0,00:15:47,00:15:52,making this code cleaner using different
+v13,SQL,_vxobA36UN4,949.68,953.68,00:15:49,00:15:53,types of joints and so on but the main
+v13,SQL,_vxobA36UN4,952.0,956.44,00:15:52,00:15:56,takeaways that I want you to leave with
+v13,SQL,_vxobA36UN4,953.68,958.4,00:15:53,00:15:58,here are these big six Clauses along
+v13,SQL,_vxobA36UN4,956.44,960.28,00:15:56,00:16:00,with these keywords down here and those
+v13,SQL,_vxobA36UN4,958.4,962.44,00:15:58,00:16:02,are the basic SQL Concepts you need to
+v13,SQL,_vxobA36UN4,960.28,964.76,00:16:00,00:16:04,know to start reading and writing SQL
+v13,SQL,_vxobA36UN4,962.44,966.2,00:16:02,00:16:06,queries on your own so there you have it
+v13,SQL,_vxobA36UN4,964.76,968.56,00:16:04,00:16:08,in just a short amount of time we've
+v13,SQL,_vxobA36UN4,966.2,971.08,00:16:06,00:16:11,covered basic SQL terminology the big
+v13,SQL,_vxobA36UN4,968.56,972.6,00:16:08,00:16:12,six keywords table joints and more now
+v13,SQL,_vxobA36UN4,971.08,973.88,00:16:11,00:16:13,that you've gotten a taste of the basics
+v13,SQL,_vxobA36UN4,972.6,975.88,00:16:12,00:16:15,I hope you're excited to practice
+v13,SQL,_vxobA36UN4,973.88,977.48,00:16:13,00:16:17,writing more SQL queries on your own you
+v13,SQL,_vxobA36UN4,975.88,979.4,00:16:15,00:16:19,can start right away with our restaurant
+v13,SQL,_vxobA36UN4,977.48,981.4,00:16:17,00:16:21,orders analysis guided project which
+v13,SQL,_vxobA36UN4,979.4,983.2,00:16:19,00:16:23,includes a dozen real world tasks with
+v13,SQL,_vxobA36UN4,981.4,985.0,00:16:21,00:16:25,expert-led solution walkthroughs and if
+v13,SQL,_vxobA36UN4,983.2,987.48,00:16:23,00:16:27,you'd like to dive deeper check out our
+v13,SQL,_vxobA36UN4,985.0,989.84,00:16:25,00:16:29,self-paced courses guided projects and
+v13,SQL,_vxobA36UN4,987.48,991.16,00:16:27,00:16:31,portfolio showcase at maven analytics
+v13,SQL,_vxobA36UN4,989.84,993.12,00:16:29,00:16:33,and create your own personalized
+v13,SQL,_vxobA36UN4,991.16,995.36,00:16:31,00:16:35,learning plan for free thank you so much
+v13,SQL,_vxobA36UN4,993.12,997.24,00:16:33,00:16:37,for watching and as always make sure to
+v13,SQL,_vxobA36UN4,995.36,1001.84,00:16:35,00:16:41,like And subscribe for more data content
+v13,SQL,_vxobA36UN4,997.24,1001.84,00:16:37,00:16:41,just like this see you in the next one
+v13,SQL,_vxobA36UN4,1002.23,1005.39,00:16:42,00:16:45,[Music]

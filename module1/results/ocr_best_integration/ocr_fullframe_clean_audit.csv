@@ -1,0 +1,6 @@
+﻿check,value,expected,pass
+input_rows,2398,2398,True
+output_rows,2398,2398,True
+video_count,40,40,True
+duplicate_video_timestamp,0,0,True
+status_accounted,2398,2398,True

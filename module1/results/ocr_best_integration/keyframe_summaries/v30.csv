@@ -1,0 +1,16 @@
+﻿video_id,subject,frame_id,timestamp_sec,duration_sec,frame_interval_sec,image_file,status,capture_method
+v30,Java,0,0,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00000s.png,success,fast
+v30,Java,1,10,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00010s.png,success,fast
+v30,Java,2,20,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00020s.png,success,fast
+v30,Java,3,30,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00030s.png,success,fast
+v30,Java,4,40,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00040s.png,success,fast
+v30,Java,5,50,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00050s.png,success,fast
+v30,Java,6,60,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00060s.png,success,recovery
+v30,Java,7,70,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00070s.png,success,fast
+v30,Java,8,80,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00080s.png,success,fast
+v30,Java,9,90,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00090s.png,success,fast
+v30,Java,10,100,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00100s.png,success,fast
+v30,Java,11,110,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00110s.png,success,fast
+v30,Java,12,120,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00120s.png,success,targeted_repair
+v30,Java,13,130,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00130s.png,success,fast
+v30,Java,14,140,149.001,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v30\v30_00140s.png,success,fast

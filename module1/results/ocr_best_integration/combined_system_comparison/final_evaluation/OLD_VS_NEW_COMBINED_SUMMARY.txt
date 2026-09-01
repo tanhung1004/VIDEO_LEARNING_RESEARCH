@@ -1,0 +1,54 @@
+FINAL OLD VS NEW COMBINED SYSTEM COMPARISON
+===========================================
+
+Dataset:
+40 DEV videos
+39 concepts
+390 video-concept pairs
+153 positive GT pairs
+
+OLD COMBINED:
+Transcript OLD + OCR D
+60s | LDA=.40 | LSA=.60
+Aggregation = top2_mean
+Threshold = 0.40
+
+NEW COMBINED:
+Transcript NEW + OCR F
+180s | LDA=0 | LSA=1
+OCR F = mean score fusion of D and E branches
+Aggregation = max
+Threshold = 0.50
+
+PRIMARY:
+OLD Macro Video F1 = 0.573430
+NEW Macro Video F1 = 0.668124
+Delta NEW-OLD      = +0.094694
+
+SECONDARY:
+OLD Micro F1 = 0.621810
+NEW Micro F1 = 0.666667
+Delta        = +0.044857
+
+Subject-stratified paired bootstrap 95% CI:
+[0.038772, 0.153846]
+
+Wilcoxon p      = 0.001676
+Paired t-test p = 0.004335
+Cohen dz        = 0.478965
+McNemar exact p = 0.000001
+
+Per-video:
+Improved = 24
+Worse    = 8
+Tied     = 8
+
+Winner by primary Macro Video F1:
+NEW COMBINED F
+
+Scientific status:
+This is a locked DEV system comparison.
+No threshold, aggregation, OCR strategy,
+or model configuration was retuned in Step 13.
+
+The final unseen TEST v41-v60 remains untouched.

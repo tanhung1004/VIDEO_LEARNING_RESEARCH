@@ -1,0 +1,6 @@
+﻿check,value,expected,pass
+rows,2398,2398,True
+videos,40,40,True
+duplicates,0,0,True
+status_accounted,2398,2398,True
+critical_term_losses,0,0,True

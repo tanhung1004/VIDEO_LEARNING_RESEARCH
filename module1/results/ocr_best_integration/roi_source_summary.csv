@@ -1,0 +1,10 @@
+﻿subject,roi_source,frames
+C++,global_default,575
+Java,subject_default,535
+Java,video_specific,80
+Python,context,7
+Python,subject_default,538
+Python,video_specific,89
+SQL,context,21
+SQL,subject_default,431
+SQL,video_specific,122

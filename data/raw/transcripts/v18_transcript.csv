@@ -1,0 +1,143 @@
+﻿video_id,subject,youtube_id,start_sec,end_sec,start_time,end_time,text
+v18,Python,VL_g3LjsFqs,0.2,5.44,00:00:00,00:00:05,hey everybody so today I got to talk
+v18,Python,VL_g3LjsFqs,2.16,8.2,00:00:02,00:00:08,about iterables in Python and iterable
+v18,Python,VL_g3LjsFqs,5.44,10.32,00:00:05,00:00:10,it's a category any object or collection
+v18,Python,VL_g3LjsFqs,8.2,13.12,00:00:08,00:00:13,that can return its elements one at a
+v18,Python,VL_g3LjsFqs,10.32,15.28,00:00:10,00:00:15,time is considered an iterable if an
+v18,Python,VL_g3LjsFqs,13.12,17.96,00:00:13,00:00:17,object or a collection is considered an
+v18,Python,VL_g3LjsFqs,15.28,20.36,00:00:15,00:00:20,iterable then it can be iterated over in
+v18,Python,VL_g3LjsFqs,17.96,21.04,00:00:17,00:00:21,a loop for example let's create a list
+v18,Python,VL_g3LjsFqs,20.36,24.32,00:00:20,00:00:24,of
+v18,Python,VL_g3LjsFqs,21.04,26.28,00:00:21,00:00:26,numbers numbers equals a list I'll add
+v18,Python,VL_g3LjsFqs,24.32,30.04,00:00:24,00:00:30,the numbers 1 through 5 to keep it
+v18,Python,VL_g3LjsFqs,26.28,32.72,00:00:26,00:00:32,simple lists are considered iterable we
+v18,Python,VL_g3LjsFqs,30.04,34.96,00:00:30,00:00:34,use them within a for Loop in the
+v18,Python,VL_g3LjsFqs,32.72,37.6,00:00:32,00:00:37,context of a for loop we're going to be
+v18,Python,VL_g3LjsFqs,34.96,39.88,00:00:34,00:00:39,given each element one at a
+v18,Python,VL_g3LjsFqs,37.6,42.92,00:00:37,00:00:42,time each element that we're working
+v18,Python,VL_g3LjsFqs,39.88,46.76,00:00:39,00:00:46,with we can give a temporary nickname
+v18,Python,VL_g3LjsFqs,42.92,49.88,00:00:42,00:00:49,let's say number for every number in my
+v18,Python,VL_g3LjsFqs,46.76,52.12,00:00:46,00:00:52,iterable of numbers let's just print
+v18,Python,VL_g3LjsFqs,49.88,52.12,00:00:49,00:00:52,each
+v18,Python,VL_g3LjsFqs,52.72,58.88,00:00:52,00:00:58,number this will give us 1 through
+v18,Python,VL_g3LjsFqs,56.16,61.12,00:00:56,00:01:01,5 the name of the current element in our
+v18,Python,VL_g3LjsFqs,58.88,63.24,00:00:58,00:01:03,iterable should should be descriptive of
+v18,Python,VL_g3LjsFqs,61.12,65.24,00:01:01,00:01:05,what we're iterating over for example I
+v18,Python,VL_g3LjsFqs,63.24,66.76,00:01:03,00:01:06,don't want to rename the current number
+v18,Python,VL_g3LjsFqs,65.24,68.6,00:01:05,00:01:08,that we're working with as something
+v18,Python,VL_g3LjsFqs,66.76,71.36,00:01:06,00:01:11,like blah blah
+v18,Python,VL_g3LjsFqs,68.6,73.44,00:01:08,00:01:13,blah you know this would work but other
+v18,Python,VL_g3LjsFqs,71.36,75.12,00:01:11,00:01:15,people looking over your code might not
+v18,Python,VL_g3LjsFqs,73.44,77.8,00:01:13,00:01:17,understand what a blah blah blah is and
+v18,Python,VL_g3LjsFqs,75.12,80.32,00:01:15,00:01:20,I don't blame them each element that
+v18,Python,VL_g3LjsFqs,77.8,82.2,00:01:17,00:01:22,we're given from our iterable the name
+v18,Python,VL_g3LjsFqs,80.32,86.08,00:01:20,00:01:26,should be descriptive of what we're
+v18,Python,VL_g3LjsFqs,82.2,89.6,00:01:22,00:01:29,given or you might see item for every
+v18,Python,VL_g3LjsFqs,86.08,90.92,00:01:26,00:01:30,item in numbers print each item that's
+v18,Python,VL_g3LjsFqs,89.6,93.16,00:01:29,00:01:33,also a good
+v18,Python,VL_g3LjsFqs,90.92,95.72,00:01:30,00:01:35,choice now you could even iterate
+v18,Python,VL_g3LjsFqs,93.16,98.0,00:01:33,00:01:38,backwards by enclosing our iterable
+v18,Python,VL_g3LjsFqs,95.72,101.64,00:01:35,00:01:41,within the Reversed
+v18,Python,VL_g3LjsFqs,98.0,104.84,00:01:38,00:01:44,function so take our iterable of numbers
+v18,Python,VL_g3LjsFqs,101.64,108.52,00:01:41,00:01:48,and reverse it then we get the numbers 5
+v18,Python,VL_g3LjsFqs,104.84,110.64,00:01:44,00:01:50,4 3 2 1 if you would rather not print
+v18,Python,VL_g3LjsFqs,108.52,112.36,00:01:48,00:01:52,each element on a new line we can
+v18,Python,VL_g3LjsFqs,110.64,113.68,00:01:50,00:01:53,replace the new line character at the
+v18,Python,VL_g3LjsFqs,112.36,116.6,00:01:52,00:01:56,end of print statements with something
+v18,Python,VL_g3LjsFqs,113.68,119.4,00:01:53,00:01:59,else print is a function we can pass in
+v18,Python,VL_g3LjsFqs,116.6,122.04,00:01:56,00:02:02,a keyword argument of end rather than
+v18,Python,VL_g3LjsFqs,119.4,123.56,00:01:59,00:02:03,end each line with a new line character
+v18,Python,VL_g3LjsFqs,122.04,125.8,00:02:02,00:02:05,let's end with a
+v18,Python,VL_g3LjsFqs,123.56,127.68,00:02:03,00:02:07,space this will space out each of the
+v18,Python,VL_g3LjsFqs,125.8,131.4,00:02:05,00:02:11,elements or we could replace it with
+v18,Python,VL_g3LjsFqs,127.68,135.24,00:02:07,00:02:15,something else or what about a
+v18,Python,VL_g3LjsFqs,131.4,137.32,00:02:11,00:02:17,dash after each element append a dash
+v18,Python,VL_g3LjsFqs,135.24,140.04,00:02:15,00:02:20,character we could even add multiple
+v18,Python,VL_g3LjsFqs,137.32,141.92,00:02:17,00:02:21,characters such as a space a dash and a
+v18,Python,VL_g3LjsFqs,140.04,144.12,00:02:20,00:02:24,space if we so
+v18,Python,VL_g3LjsFqs,141.92,146.68,00:02:21,00:02:26,choose it's up to
+v18,Python,VL_g3LjsFqs,144.12,149.04,00:02:24,00:02:29,you tles are also
+v18,Python,VL_g3LjsFqs,146.68,150.92,00:02:26,00:02:30,iterable let's convert our list to a
+v18,Python,VL_g3LjsFqs,149.04,153.0,00:02:29,00:02:33,tupple by enclosing our numbers within a
+v18,Python,VL_g3LjsFqs,150.92,155.44,00:02:30,00:02:35,set of
+v18,Python,VL_g3LjsFqs,153.0,159.24,00:02:33,00:02:39,parentheses and I no longer want this
+v18,Python,VL_g3LjsFqs,155.44,162.44,00:02:35,00:02:42,reversed for every number in my iterable
+v18,Python,VL_g3LjsFqs,159.24,165.16,00:02:39,00:02:45,of numbers print each number then again
+v18,Python,VL_g3LjsFqs,162.44,167.52,00:02:42,00:02:47,we get the numbers one through
+v18,Python,VL_g3LjsFqs,165.16,171.0,00:02:45,00:02:51,five let's cover
+v18,Python,VL_g3LjsFqs,167.52,172.28,00:02:47,00:02:52,sets I will create a set of fruit which
+v18,Python,VL_g3LjsFqs,171.0,174.92,00:02:51,00:02:54,I will name
+v18,Python,VL_g3LjsFqs,172.28,177.6,00:02:52,00:02:57,fruits for a set enclose any values
+v18,Python,VL_g3LjsFqs,174.92,182.44,00:02:54,00:03:02,within a set of curly braces let's add a
+v18,Python,VL_g3LjsFqs,177.6,183.76,00:02:57,00:03:03,string of Apple a string of orange a
+v18,Python,VL_g3LjsFqs,182.44,187.36,00:03:02,00:03:07,string of
+v18,Python,VL_g3LjsFqs,183.76,190.04,00:03:03,00:03:10,banana and a string of
+v18,Python,VL_g3LjsFqs,187.36,195.08,00:03:07,00:03:15,coconut so with our for Loop let's say
+v18,Python,VL_g3LjsFqs,190.04,197.32,00:03:10,00:03:17,for every fruit in my iterable of fruits
+v18,Python,VL_g3LjsFqs,195.08,200.28,00:03:15,00:03:20,I will print each
+v18,Python,VL_g3LjsFqs,197.32,201.28,00:03:17,00:03:21,fruit that would give me apple banana
+v18,Python,VL_g3LjsFqs,200.28,204.6,00:03:20,00:03:24,orange
+v18,Python,VL_g3LjsFqs,201.28,207.36,00:03:21,00:03:27,coconut now sets they're actually not
+v18,Python,VL_g3LjsFqs,204.6,209.48,00:03:24,00:03:29,reversible I will attempt to enclose our
+v18,Python,VL_g3LjsFqs,207.36,211.28,00:03:27,00:03:31,iterable of fruits within the Reversed
+v18,Python,VL_g3LjsFqs,209.48,214.48,00:03:29,00:03:34,function
+v18,Python,VL_g3LjsFqs,211.28,216.2,00:03:31,00:03:36,here's what happens we have a type error
+v18,Python,VL_g3LjsFqs,214.48,219.16,00:03:34,00:03:39,set object is not
+v18,Python,VL_g3LjsFqs,216.2,222.04,00:03:36,00:03:42,reversible sets you can't
+v18,Python,VL_g3LjsFqs,219.16,224.64,00:03:39,00:03:44,reverse let's cover strings I will
+v18,Python,VL_g3LjsFqs,222.04,227.88,00:03:42,00:03:47,create a string of name type in your
+v18,Python,VL_g3LjsFqs,224.64,232.32,00:03:44,00:03:52,full name I'll use my YouTube channel
+v18,Python,VL_g3LjsFqs,227.88,235.32,00:03:47,00:03:55,name for every character in my iterable
+v18,Python,VL_g3LjsFqs,232.32,238.32,00:03:52,00:03:58,of name I would like to print each
+v18,Python,VL_g3LjsFqs,235.32,238.32,00:03:55,00:03:58,character
+v18,Python,VL_g3LjsFqs,240.16,244.68,00:04:00,00:04:04,maybe I would rather not have each
+v18,Python,VL_g3LjsFqs,241.8,248.76,00:04:01,00:04:08,character end with a new line I will set
+v18,Python,VL_g3LjsFqs,244.68,248.76,00:04:04,00:04:08,the keyword argument of end to be a
+v18,Python,VL_g3LjsFqs,249.6,253.0,00:04:09,00:04:13,space last we have dictionaries which
+v18,Python,VL_g3LjsFqs,251.96,255.36,00:04:11,00:04:15,are the most
+v18,Python,VL_g3LjsFqs,253.0,257.28,00:04:13,00:04:17,complicated let's name this dictionary
+v18,Python,VL_g3LjsFqs,255.36,259.52,00:04:15,00:04:19,my
+v18,Python,VL_g3LjsFqs,257.28,262.72,00:04:17,00:04:22,dictionary dictionaries you enclose with
+v18,Python,VL_g3LjsFqs,259.52,265.76,00:04:19,00:04:25,a set of krly braces kind of like a set
+v18,Python,VL_g3LjsFqs,262.72,268.96,00:04:22,00:04:28,but each element is a key value pair I
+v18,Python,VL_g3LjsFqs,265.76,270.64,00:04:25,00:04:30,will add a key of A with an Associated
+v18,Python,VL_g3LjsFqs,268.96,275.08,00:04:28,00:04:35,value of one
+v18,Python,VL_g3LjsFqs,270.64,278.6,00:04:30,00:04:38,a key of B which has a value of two a
+v18,Python,VL_g3LjsFqs,275.08,281.96,00:04:35,00:04:41,key of C which has a value of
+v18,Python,VL_g3LjsFqs,278.6,283.96,00:04:38,00:04:43,three if you iterate over a dictionary
+v18,Python,VL_g3LjsFqs,281.96,286.52,00:04:41,00:04:46,the dictionary is going to return all
+v18,Python,VL_g3LjsFqs,283.96,292.0,00:04:43,00:04:52,the keys but not the values we'll test
+v18,Python,VL_g3LjsFqs,286.52,294.8,00:04:46,00:04:54,that for every key in my iterable of my
+v18,Python,VL_g3LjsFqs,292.0,298.8,00:04:52,00:04:58,dictionary let's print each
+v18,Python,VL_g3LjsFqs,294.8,302.84,00:04:54,00:05:02,key this would give me the keys of a b
+v18,Python,VL_g3LjsFqs,298.8,305.76,00:04:58,00:05:05,and c but none of the values 1 2 or
+v18,Python,VL_g3LjsFqs,302.84,308.68,00:05:02,00:05:08,three if you need the values we're going
+v18,Python,VL_g3LjsFqs,305.76,311.56,00:05:05,00:05:11,to follow this iterable of my dictionary
+v18,Python,VL_g3LjsFqs,308.68,314.2,00:05:08,00:05:14,use the built-in values
+v18,Python,VL_g3LjsFqs,311.56,317.24,00:05:11,00:05:17,method this will return all the values
+v18,Python,VL_g3LjsFqs,314.2,320.68,00:05:14,00:05:20,of your dictionary as an iterable but
+v18,Python,VL_g3LjsFqs,317.24,322.84,00:05:17,00:05:22,let's rename a key as value because now
+v18,Python,VL_g3LjsFqs,320.68,326.16,00:05:20,00:05:26,we're working with the
+v18,Python,VL_g3LjsFqs,322.84,329.44,00:05:22,00:05:29,values then we're given all the values 1
+v18,Python,VL_g3LjsFqs,326.16,331.72,00:05:26,00:05:31,2 and three if you need both the keys
+v18,Python,VL_g3LjsFqs,329.44,334.16,00:05:29,00:05:34,and the values you're going to use the
+v18,Python,VL_g3LjsFqs,331.72,334.16,00:05:31,00:05:34,items
+v18,Python,VL_g3LjsFqs,334.2,340.08,00:05:34,00:05:40,method we'll be given both a key and a
+v18,Python,VL_g3LjsFqs,337.84,342.04,00:05:37,00:05:42,value make sure that the value and the
+v18,Python,VL_g3LjsFqs,340.08,345.12,00:05:40,00:05:45,key is separated with the
+v18,Python,VL_g3LjsFqs,342.04,346.36,00:05:42,00:05:46,comma let's print each key followed by
+v18,Python,VL_g3LjsFqs,345.12,350.12,00:05:45,00:05:50,the
+v18,Python,VL_g3LjsFqs,346.36,354.12,00:05:46,00:05:54,value we get the key of A with its value
+v18,Python,VL_g3LjsFqs,350.12,357.0,00:05:50,00:05:57,of 1 b 2 c
+v18,Python,VL_g3LjsFqs,354.12,360.08,00:05:54,00:06:00,3 we can reformat the output however we
+v18,Python,VL_g3LjsFqs,357.0,363.92,00:05:57,00:06:03,want let's use an F string I I will add
+v18,Python,VL_g3LjsFqs,360.08,366.6,00:06:00,00:06:06,two placeholders let's print each key
+v18,Python,VL_g3LjsFqs,363.92,371.32,00:06:03,00:06:11,equals then the
+v18,Python,VL_g3LjsFqs,366.6,374.6,00:06:06,00:06:14,value a = 1 b = 2 c =
+v18,Python,VL_g3LjsFqs,371.32,376.88,00:06:11,00:06:16,3 okay everybody so those are iterables
+v18,Python,VL_g3LjsFqs,374.6,379.36,00:06:14,00:06:19,an object or collection that can return
+v18,Python,VL_g3LjsFqs,376.88,381.8,00:06:16,00:06:21,its elements one at a time is considered
+v18,Python,VL_g3LjsFqs,379.36,384.64,00:06:19,00:06:24,an iterable meaning that object or
+v18,Python,VL_g3LjsFqs,381.8,387.2,00:06:21,00:06:27,collection can be iterated over using a
+v18,Python,VL_g3LjsFqs,384.64,391.2,00:06:24,00:06:31,loop and well everybody those are
+v18,Python,VL_g3LjsFqs,387.2,391.2,00:06:27,00:06:31,iterables in Python

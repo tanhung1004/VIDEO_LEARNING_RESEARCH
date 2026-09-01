@@ -1,0 +1,306 @@
+VIDEO ID: v9
+SUBJECT: SQL
+TITLE: Aggregate Functions in SQL
+URL: https://www.youtube.com/watch?v=RGIVS8RGBaI
+
+========================================================================
+TRANSCRIPT
+========================================================================
+
+[00:00:06 - 00:00:11] Hello everyone. Welcome back. In this
+[00:00:08 - 00:00:14] presentation, we will focus on aggregate
+[00:00:11 - 00:00:15] functions in SQL. At first, let's focus
+[00:00:14 - 00:00:18] on the theoretical aspects about
+[00:00:15 - 00:00:21] aggregate functions. Basically, these
+[00:00:18 - 00:00:24] aggregate functions perform calculations
+[00:00:21 - 00:00:26] on multiple values. Let's say if we have
+[00:00:24 - 00:00:28] a group of values, then aggregate
+[00:00:26 - 00:00:31] functions takes these group of values as
+[00:00:28 - 00:00:33] an input and then it returns a single
+[00:00:31 - 00:00:35] value as an output. You may be wondering
+[00:00:33 - 00:00:37] why we need these kind of functions
+[00:00:35 - 00:00:39] which takes multiple values and return a
+[00:00:37 - 00:00:42] single value. So, we will understand the
+[00:00:39 - 00:00:44] need for aggregate functions now. I'll
+[00:00:42 - 00:00:46] give you two different scenarios. When
+[00:00:44 - 00:00:47] we are using Google Maps and we have set
+[00:00:46 - 00:00:50] our source and destination and we are
+[00:00:47 - 00:00:52] traveling, we can notice the estimated
+[00:00:50 - 00:00:55] time, the ETA to reach the destination.
+[00:00:52 - 00:00:57] How this estimated time is calculated?
+[00:00:55 - 00:01:00] The Google Maps server collects data
+[00:00:57 - 00:01:02] from various sources and it aggregates
+[00:01:00 - 00:01:05] all the values and later it provides us
+[00:01:02 - 00:01:07] with a single ETA value.
+[00:01:05 - 00:01:10] So, basically the single ETA value is
+[00:01:07 - 00:01:12] not decided based on one value. So, a
+[00:01:10 - 00:01:14] group of values are taken and Google
+[00:01:12 - 00:01:17] Maps server performs calculation on
+[00:01:14 - 00:01:19] these group of values and it provides us
+[00:01:17 - 00:01:21] a single ETA value. I'll give you one
+[00:01:19 - 00:01:23] more real-time situation also. Let's say
+[00:01:21 - 00:01:25] there is a chemical plant and there is a
+[00:01:23 - 00:01:27] sensor installed in the chemical plant
+[00:01:25 - 00:01:29] to note the temperature of the chemical
+[00:01:27 - 00:01:31] plant. Let's assume if the temperature
+[00:01:29 - 00:01:34] of the chemical plant exceeds beyond the
+[00:01:31 - 00:01:36] threshold, then it should notify someone
+[00:01:34 - 00:01:38] about the situation. In order to carry
+[00:01:36 - 00:01:40] out this operation, the temperature
+[00:01:38 - 00:01:42] sensor reads the temperature value of
+[00:01:40 - 00:01:45] the plant and then it stores all the
+[00:01:42 - 00:01:47] values in the database. Now, the problem
+[00:01:45 - 00:01:49] is for every millisecond, temperature
+[00:01:47 - 00:01:52] will be obviously varying, right? Maybe
+[00:01:49 - 00:01:55] this particular second it may be 38.2,
+[00:01:52 - 00:01:57] the next second it may be 38.3 or 38.1
+[00:01:55 - 00:01:59] or even anything. But, the biggest
+[00:01:57 - 00:02:01] problem is if the sensor stores all the
+[00:01:59 - 00:02:03] values into the database, soon the
+[00:02:01 - 00:02:05] database memory will exhaust. So, what
+[00:02:03 - 00:02:08] can be done effectively? Instead of
+[00:02:05 - 00:02:10] storing all the values, we can aggregate
+[00:02:08 - 00:02:12] the value into a single value and store
+[00:02:10 - 00:02:14] it in the database. From this, we can
+[00:02:12 - 00:02:16] understand that aggregate functions are
+[00:02:14 - 00:02:18] needed for day-to-day activities, and it
+[00:02:16 - 00:02:20] actually takes multiple values and
+[00:02:18 - 00:02:22] returns a single value. And the
+[00:02:20 - 00:02:25] important thing about aggregate function
+[00:02:22 - 00:02:27] is it ignores null values except for the
+[00:02:25 - 00:02:29] count function. Anyway, when we see some
+[00:02:27 - 00:02:31] examples, I will explain about this. And
+[00:02:29 - 00:02:34] the power of this aggregate functions
+[00:02:31 - 00:02:35] can be enhanced with group by and having
+[00:02:34 - 00:02:36] clause.
+[00:02:35 - 00:02:39] Don't worry about this group by and
+[00:02:36 - 00:02:40] having clause. In the next presentation,
+[00:02:39 - 00:02:43] we are going to exclusively focus on
+[00:02:40 - 00:02:45] group by and having clause in SQL. So,
+[00:02:43 - 00:02:47] we are done with the basics of aggregate
+[00:02:45 - 00:02:50] functions. Let's see the various
+[00:02:47 - 00:02:51] aggregate functions in SQL. There are
+[00:02:50 - 00:02:55] five different aggregate functions in
+[00:02:51 - 00:02:57] SQL. Number one, count. Number two, sum.
+[00:02:55 - 00:03:00] Number three, average. Number four,
+[00:02:57 - 00:03:02] minimum. And number five, maximum.
+[00:03:00 - 00:03:04] We'll start with the first function, the
+[00:03:02 - 00:03:06] count function. Talking about the count
+[00:03:04 - 00:03:08] function, this function returns the
+[00:03:06 - 00:03:10] number of rows in a database table. For
+[00:03:08 - 00:03:13] example, we have a database, and this
+[00:03:10 - 00:03:15] database may contain n number of tables.
+[00:03:13 - 00:03:17] When we apply this count function for a
+[00:03:15 - 00:03:20] table, it returns the number of rows.
+[00:03:17 - 00:03:22] Will it be applied on any data type?
+[00:03:20 - 00:03:24] Actually, count can work on both numeric
+[00:03:22 - 00:03:27] and non-numeric data type. Let's say
+[00:03:24 - 00:03:29] there is a table. The name of the table
+[00:03:27 - 00:03:31] be student, and it has ID, name, age,
+[00:03:29 - 00:03:33] salary, and gender as a column. And
+[00:03:31 - 00:03:36] let's say this table is populated with
+[00:03:33 - 00:03:38] some data. Let's assume there is a user,
+[00:03:36 - 00:03:40] and this user is providing a query.
+[00:03:38 - 00:03:42] Select, he's using an aggregate function
+[00:03:40 - 00:03:44] count. We need parentheses because this
+[00:03:42 - 00:03:46] is a function. And here, inside this
+[00:03:44 - 00:03:49] parenthesis, let's assume this user is
+[00:03:46 - 00:03:51] mentioning asterisk. It means all. From
+[00:03:49 - 00:03:53] student. Now, what this query will
+[00:03:51 - 00:03:56] return? This query will return the
+[00:03:53 - 00:03:58] number of rows as the output. How many
+[00:03:56 - 00:04:01] rows are here? 1
+[00:03:58 - 00:04:05] 2 3 and 4. So, this query will return
+[00:04:01 - 00:04:07] the output as 4. If you see, this count
+[00:04:05 - 00:04:10] aggregate function takes a group of
+[00:04:07 - 00:04:12] values or multiple values and it returns
+[00:04:10 - 00:04:13] a single value, which is four.
+[00:04:12 - 00:04:15] Let's see the variation of this count
+[00:04:13 - 00:04:17] function. Let's assume this user is
+[00:04:15 - 00:04:21] providing a different command.
+[00:04:17 - 00:04:23] Select count in parentheses age from
+[00:04:21 - 00:04:26] student. So, what the user is mentioning
+[00:04:23 - 00:04:29] is he wants to count how many values are
+[00:04:26 - 00:04:31] there in the age column. In this table
+[00:04:29 - 00:04:33] student, that is this table student
+[00:04:31 - 00:04:35] contains an age column or an age
+[00:04:33 - 00:04:37] attribute and this may contain end
+[00:04:35 - 00:04:39] number of values. So, what the user is
+[00:04:37 - 00:04:42] going to do is going to count how many
+[00:04:39 - 00:04:44] values are there in age. You can clearly
+[00:04:42 - 00:04:46] notice that 1 2 3 and 4 values are
+[00:04:44 - 00:04:48] there. So, the output is going to be
+[00:04:46 - 00:04:50] obviously four. But, the intention of
+[00:04:48 - 00:04:52] user is he wanted to know how many
+[00:04:50 - 00:04:56] unique values are there in the age
+[00:04:52 - 00:04:57] column. Let's see, 25 is repeated twice,
+[00:04:56 - 00:05:01] right? So, how many unique values are
+[00:04:57 - 00:05:03] there? 25, 24, and 32. Only three unique
+[00:05:01 - 00:05:05] values are there. In order to achieve
+[00:05:03 - 00:05:07] this, user should not use query like
+[00:05:05 - 00:05:10] this. Rather, the user should use the
+[00:05:07 - 00:05:12] command like this. Select count, the
+[00:05:10 - 00:05:15] aggregate function, in parentheses,
+[00:05:12 - 00:05:18] distinct age, the column what he wants,
+[00:05:15 - 00:05:20] and the distinct keyword from the table
+[00:05:18 - 00:05:22] name, which is student here. So, when he
+[00:05:20 - 00:05:25] gives this query, obviously the result
+[00:05:22 - 00:05:27] will be three because how many unique
+[00:05:25 - 00:05:30] values are there in age column? Three
+[00:05:27 - 00:05:33] unique values. What are they? 25, 24,
+[00:05:30 - 00:05:35] and 32. I'm mentioning the word unique
+[00:05:33 - 00:05:38] for easy understanding, but in SQL we
+[00:05:35 - 00:05:40] have a separate keyword called unique to
+[00:05:38 - 00:05:42] maintain the uniqueness in the column.
+[00:05:40 - 00:05:44] So, what I mentioned here as unique is
+[00:05:42 - 00:05:46] for distinct values only. I'm not
+[00:05:44 - 00:05:48] talking about the unique constraint. So,
+[00:05:46 - 00:05:50] this is about the first aggregate
+[00:05:48 - 00:05:52] function, count. Let's move on to the
+[00:05:50 - 00:05:54] second aggregate function, sum. The name
+[00:05:52 - 00:05:57] itself says that it's going to sum the
+[00:05:54 - 00:05:59] entire column. So, it returns the sum of
+[00:05:57 - 00:06:01] the selected columns. As the name says,
+[00:05:59 - 00:06:03] it's going to produce the summation as
+[00:06:01 - 00:06:06] the result. So, obviously, it cannot
+[00:06:03 - 00:06:09] work on all data types. Rather, this sum
+[00:06:06 - 00:06:10] works only on numeric data type. Let's
+[00:06:09 - 00:06:12] take the same table which we have used
+[00:06:10 - 00:06:14] in the previous example, the same
+[00:06:12 - 00:06:16] student table. Let's say there is a
+[00:06:14 - 00:06:18] user. If the user wants to get the
+[00:06:16 - 00:06:21] summation of a specified column, let's
+[00:06:18 - 00:06:23] say the user is giving a query, select
+[00:06:21 - 00:06:26] sum of salary. Sum, the aggregate
+[00:06:23 - 00:06:27] function, in parentheses is mentioning
+[00:06:26 - 00:06:30] the column name as an input or a
+[00:06:27 - 00:06:34] parameter. So, sum function takes column
+[00:06:30 - 00:06:35] name as a parameter from the table name.
+[00:06:34 - 00:06:38] Which column the user is referring? The
+[00:06:35 - 00:06:40] salary column. There may be n rows in
+[00:06:38 - 00:06:43] this table. To be precise, there may be
+[00:06:40 - 00:06:45] multiple values in this column, salary.
+[00:06:43 - 00:06:48] But what the user wants, he wants the
+[00:06:45 - 00:06:50] summation of the entire salary column.
+[00:06:48 - 00:06:52] So, when he provides this query, he'll
+[00:06:50 - 00:06:55] be getting the result, the summation of
+[00:06:52 - 00:06:56] all the values in this particular
+[00:06:55 - 00:06:58] column.
+[00:06:56 - 00:07:00] Which is 213,000.
+[00:06:58 - 00:07:02] Now, you may be asking me a question,
+[00:07:00 - 00:07:04] will it take distinct values or all
+[00:07:02 - 00:07:06] values? Here, we did not give any
+[00:07:04 - 00:07:08] keyword like distinct. So, it takes all
+[00:07:06 - 00:07:10] the values. In case user wants the
+[00:07:08 - 00:07:13] summation of unique values only or
+[00:07:10 - 00:07:15] distinct values only. In that case, the
+[00:07:13 - 00:07:18] query should be modified like this.
+[00:07:15 - 00:07:19] Select sum, the aggregate function. We
+[00:07:18 - 00:07:22] will be providing column name as the
+[00:07:19 - 00:07:24] parameter. But before that, add distinct
+[00:07:22 - 00:07:26] keyword so that we will be getting the
+[00:07:24 - 00:07:28] summation for the distinct values. Here,
+[00:07:26 - 00:07:32] what column I have chosen? Age. So, when
+[00:07:28 - 00:07:35] you add the age values, 25 + 24 + 25 +
+[00:07:32 - 00:07:37] 32, we'll be getting a number. So, we
+[00:07:35 - 00:07:39] will be getting 106 if we don't use
+[00:07:37 - 00:07:42] distinct keyword. But if we use distinct
+[00:07:39 - 00:07:46] keyword, we will be getting 81 only. The
+[00:07:42 - 00:07:48] reason is it takes 25, 24, it skips this
+[00:07:46 - 00:07:51] 25 because we have mentioned it is
+[00:07:48 - 00:07:54] distinct. So, it skips this 25. So, the
+[00:07:51 - 00:07:57] answer here will be 25 + 24 + 32, which
+[00:07:54 - 00:07:59] is exactly 81. We are done with the
+[00:07:57 - 00:08:01] second aggregate function sum. Let's
+[00:07:59 - 00:08:03] move on to the third function average.
+[00:08:01 - 00:08:05] So, the name itself says that it's going
+[00:08:03 - 00:08:07] to return the average value of the
+[00:08:05 - 00:08:10] selected columns. And this average
+[00:08:07 - 00:08:12] function works on both numeric and
+[00:08:10 - 00:08:15] non-null values only. Let's take the
+[00:08:12 - 00:08:18] same example. Let's assume the user is
+[00:08:15 - 00:08:21] supplying a query, select average of age
+[00:08:18 - 00:08:24] from student. This user wants to know
+[00:08:21 - 00:08:28] the average of this particular column
+[00:08:24 - 00:08:31] age. This is 25 + 24 + 25 + 32 divided
+[00:08:28 - 00:08:33] by 4, the number of values. So, here we
+[00:08:31 - 00:08:35] have four rows, so all values are taken,
+[00:08:33 - 00:08:37] they are added, and the average is
+[00:08:35 - 00:08:40] taken. So, the answer for this query
+[00:08:37 - 00:08:42] will be 26. So, obviously 26 is the
+[00:08:40 - 00:08:44] average for all these four values. Let's
+[00:08:42 - 00:08:46] assume if the user wants the average for
+[00:08:44 - 00:08:49] distinct values. So, in this case the
+[00:08:46 - 00:08:51] user can simply change the query by
+[00:08:49 - 00:08:53] inserting the distinct keyword before
+[00:08:51 - 00:08:55] the column name. So, in this case the
+[00:08:53 - 00:08:58] output is going to be varying. For this
+[00:08:55 - 00:09:00] the output is going to be 27. The reason
+[00:08:58 - 00:09:04] is we have taken only distinct values. I
+[00:09:00 - 00:09:06] mean 25, 24, 32 only. We are skipping
+[00:09:04 - 00:09:09] this 25 because already we have taken
+[00:09:06 - 00:09:11] this. We are done with the third
+[00:09:09 - 00:09:13] aggregate function average. Now, let's
+[00:09:11 - 00:09:15] move on to the fourth aggregate function
+[00:09:13 - 00:09:16] minimum.
+[00:09:15 - 00:09:18] So, from the name itself we can easily
+[00:09:16 - 00:09:21] witness that this is going to return the
+[00:09:18 - 00:09:23] lowest value or the minimum value in the
+[00:09:21 - 00:09:26] selected columns. And this minimum
+[00:09:23 - 00:09:29] function will work on non-null values
+[00:09:26 - 00:09:30] only. Let's take the same example. In
+[00:09:29 - 00:09:33] this example, let's assume the user is
+[00:09:30 - 00:09:36] supplying a query, select minimum in the
+[00:09:33 - 00:09:38] salary column from student table. So, we
+[00:09:36 - 00:09:40] are referring this table, student, and
+[00:09:38 - 00:09:43] this particular column, salary. So, what
+[00:09:40 - 00:09:45] the user is expecting? The minimum value
+[00:09:43 - 00:09:48] from this column. So, that is why he has
+[00:09:45 - 00:09:50] given min, which is for minimum, from
+[00:09:48 - 00:09:53] the column, salary. So, the output is
+[00:09:50 - 00:09:55] going to be obviously 35,000, because
+[00:09:53 - 00:09:57] 35,000 is the minimum value in that
+[00:09:55 - 00:09:59] particular column. And coming to the
+[00:09:57 - 00:10:02] last aggregate function, max, this is
+[00:09:59 - 00:10:04] going to return the highest value in the
+[00:10:02 - 00:10:06] selected columns, which means the
+[00:10:04 - 00:10:09] biggest number or the maximum value.
+[00:10:06 - 00:10:11] Like minimum, this is also going to work
+[00:10:09 - 00:10:14] on non-null values only. I'm bringing in
+[00:10:11 - 00:10:16] the same example. Let's assume the user
+[00:10:14 - 00:10:19] is giving the query, select max, the
+[00:10:16 - 00:10:22] column name salary, from student. What
+[00:10:19 - 00:10:24] do we mean by this? The user is intended
+[00:10:22 - 00:10:27] to get the maximum value in the salary
+[00:10:24 - 00:10:29] column from the table student. So, from
+[00:10:27 - 00:10:31] this table student, there is a column
+[00:10:29 - 00:10:32] called salary, and what's the maximum
+[00:10:31 - 00:10:35] value here?
+[00:10:32 - 00:10:37] 68,000, and user wants to know the
+[00:10:35 - 00:10:39] maximum value from this column.
+[00:10:37 - 00:10:41] So, aggregate functions are really
+[00:10:39 - 00:10:44] helpful when we deal with group by and
+[00:10:41 - 00:10:45] having clauses. At the same time, when
+[00:10:44 - 00:10:48] we have a database which contains only
+[00:10:45 - 00:10:50] 100 or 200 rows, it's easy to manually
+[00:10:48 - 00:10:52] go and search. But think about an
+[00:10:50 - 00:10:54] organization which contains thousands
+[00:10:52 - 00:10:56] and thousands of data. In that case, we
+[00:10:54 - 00:10:59] cannot go and manually search for the
+[00:10:56 - 00:11:01] minimum value or the maximum value or
+[00:10:59 - 00:11:04] doing summation or finding the average
+[00:11:01 - 00:11:06] or counting the rows. In those cases,
+[00:11:04 - 00:11:09] these aggregate functions are the savior
+[00:11:06 - 00:11:10] from spending a lot of time and effort.
+[00:11:09 - 00:11:12] So, what we have learned in this
+[00:11:10 - 00:11:15] presentation? We have learned about the
+[00:11:12 - 00:11:17] various aggregate functions, count, sum,
+[00:11:15 - 00:11:19] average, minimum, and maximum. In the
+[00:11:17 - 00:11:21] next presentation, we will deal much
+[00:11:19 - 00:11:23] more powerful things that we can do with
+[00:11:21 - 00:11:25] these aggregate functions with the
+[00:11:23 - 00:11:27] combination of group by and having
+[00:11:25 - 00:11:29] clause. I hope you guys enjoyed this
+[00:11:27 - 00:11:31] presentation, and thank you for
+[00:11:29 - 00:11:31] watching.
+[00:11:35 - 00:11:37] Woo!

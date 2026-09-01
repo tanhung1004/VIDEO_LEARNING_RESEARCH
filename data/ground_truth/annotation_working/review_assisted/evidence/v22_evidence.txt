@@ -1,0 +1,126 @@
+VIDEO ID: v22
+SUBJECT: Python
+TITLE: Range Function in Python Step-by-Step Tutorial
+URL: https://www.youtube.com/watch?v=Evycb99_XIc
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: for loop
+DESCRIPTION: repeat a block of Python code using a for loop
+SEARCH ALIASES: for loop, for loops
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: for
+DESCRIPTION: iterate through elements using the Python for statement
+SEARCH ALIASES: for statement, for loop, for in
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: iteration
+DESCRIPTION: repeatedly process elements in a sequence
+SEARCH ALIASES: iteration, iterations, iterate, iterating
+DIRECT HIT COUNT (top max 3 shown): 1
+
+  HIT 1
+  TIME: 00:01:33 - 00:01:42
+  SECONDS: 93.04 - 102.56
+  MATCH: iteration
+  TEXT: memory efficient. And it is widely used for iteration purpose, right? So, this is very important about range.
+
+------------------------------------------------------------------------
+
+CONCEPT: range
+DESCRIPTION: generate a sequence of numbers for Python iteration
+SEARCH ALIASES: range, range function
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:00 - 00:00:07
+  SECONDS: 0.32 - 7.48
+  MATCH: range
+  TEXT: The next is range. The range data type generates the
+
+  HIT 2
+  TIME: 00:00:10 - 00:00:21
+  SECONDS: 10.4 - 21.76
+  MATCH: range
+  TEXT: Let me give you an example. If you want to write range, then you're supposed to write range into the bracket 1,6.
+
+  HIT 3
+  TIME: 00:00:12 - 00:00:25
+  SECONDS: 12.72 - 25.52
+  MATCH: range
+  TEXT: to write range, then you're supposed to write range into the bracket 1,6. Now, if you write range like this, and
+
+------------------------------------------------------------------------
+
+CONCEPT: list
+DESCRIPTION: sore and process ordered Python elements in a list
+SEARCH ALIASES: list, lists
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: nested loop
+DESCRIPTION: use one loop inside another loop
+SEARCH ALIASES: nested loop, nested loops
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: index
+DESCRIPTION: access an element using its position or index
+SEARCH ALIASES: index, indexing, indices
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: break
+DESCRIPTION: stop a loop early using the break statement
+SEARCH ALIASES: break, break statement
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: continue
+DESCRIPTION: skip the current loop iteration using continue
+SEARCH ALIASES: continue, continue statement
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------

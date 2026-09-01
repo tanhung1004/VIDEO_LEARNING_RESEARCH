@@ -1,0 +1,218 @@
+VIDEO ID: v6
+SUBJECT: SQL
+TITLE: Learn Basic SQL Commands
+URL: https://www.youtube.com/watch?v=OlT3FispsMU
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: select
+DESCRIPTION: select data columns from a database table using SQL select query
+SEARCH ALIASES: select, select statement, select query
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:24 - 00:00:32
+  SECONDS: 24.68 - 32.56
+  MATCH: select
+  TEXT: In particular, you will learn about: SELECT / FROM WHERE ORDER BY GROUP BY
+
+  HIT 2
+  TIME: 00:01:01 - 00:01:12
+  SECONDS: 61.94 - 72.21
+  MATCH: select
+  TEXT: SQL is structured very much like the English language. At the high level, the basic command for retrieving data from a database table is to SELECT data FROM a table.
+
+  HIT 3
+  TIME: 00:01:11 - 00:01:26
+  SECONDS: 71.21 - 86.7
+  MATCH: select
+  TEXT: FROM a table. Not surprisingly, the keywords "SELECT" and "FROM" make up the core of the SQL statement. In fact, the syntax for SELECT FROM is pretty straightforward: SELECT COLUMN_NAME FROM TABLE_NAME.
+
+------------------------------------------------------------------------
+
+CONCEPT: where
+DESCRIPTION: filter database rows using a where condition
+SEARCH ALIASES: where, where clause
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:24 - 00:00:32
+  SECONDS: 24.68 - 32.56
+  MATCH: where
+  TEXT: In particular, you will learn about: SELECT / FROM WHERE ORDER BY GROUP BY
+
+  HIT 2
+  TIME: 00:01:45 - 00:01:54
+  SECONDS: 105.38 - 114.2
+  MATCH: where
+  TEXT: name. Next we look at the WHERE keyword. In the previous example, we are retrieving all records from a table.
+
+  HIT 3
+  TIME: 00:01:59 - 00:02:07
+  SECONDS: 119.49 - 127.88
+  MATCH: where
+  TEXT: of the data. When we want to filter our results, we use the WHERE keyword after the FROM keywords. So the syntax becomes
+
+------------------------------------------------------------------------
+
+CONCEPT: group by
+DESCRIPTION: group database rows by one or more columns
+SEARCH ALIASES: group by
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:28 - 00:00:34
+  SECONDS: 28.09 - 34.95
+  MATCH: group by
+  TEXT: SELECT / FROM WHERE ORDER BY GROUP BY HAVING
+
+  HIT 2
+  TIME: 00:03:23 - 00:03:36
+  SECONDS: 203.64 - 216.98
+  MATCH: group by
+  TEXT: Usually if you do not specify this, the default is ascending. Next we discuss the GROUP BY keyword. Before we go into details about GROUP BY, I'd like to talk first about functions.
+
+  HIT 3
+  TIME: 00:03:28 - 00:03:45
+  SECONDS: 208.47 - 225.52
+  MATCH: group by
+  TEXT: Next we discuss the GROUP BY keyword. Before we go into details about GROUP BY, I'd like to talk first about functions. The typical mathematical functions you see in SQL are SUM, AVG, COUNT, MAX, and MIN.
+
+------------------------------------------------------------------------
+
+CONCEPT: having
+DESCRIPTION: filter grouped SQL results after aggregation
+SEARCH ALIASES: having, having clause
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:30 - 00:00:38
+  SECONDS: 30.14 - 38.73
+  MATCH: having
+  TEXT: ORDER BY GROUP BY HAVING In a relational database, data is stored in tables.
+
+  HIT 2
+  TIME: 00:05:45 - 00:05:54
+  SECONDS: 345.79 - 354.87
+  MATCH: having
+  TEXT: So we cannot use the WHERE keyword because it is always used before GROUP BY. This is where the HAVING keyword comes in. The syntax for HAVING is
+
+  HIT 3
+  TIME: 00:05:50 - 00:06:00
+  SECONDS: 350.61 - 360.06
+  MATCH: having
+  TEXT: This is where the HAVING keyword comes in. The syntax for HAVING is SELECT ¡§COLUMN NAME 1¡¨, FUNCTION(¡§COLUMN NAME 2¡¨)
+
+------------------------------------------------------------------------
+
+CONCEPT: count
+DESCRIPTION: count rows or values using SQL aggregate function
+SEARCH ALIASES: count, count function
+DIRECT HIT COUNT (top max 3 shown): 1
+
+  HIT 1
+  TIME: 00:03:31 - 00:03:49
+  SECONDS: 211.81 - 229.98
+  MATCH: count
+  TEXT: Before we go into details about GROUP BY, I'd like to talk first about functions. The typical mathematical functions you see in SQL are SUM, AVG, COUNT, MAX, and MIN. Functions allow us to operate on the values of specific columns.
+
+------------------------------------------------------------------------
+
+CONCEPT: aggregate function
+DESCRIPTION: perform SQL aggregation such as count sum average minimum maximum
+SEARCH ALIASES: aggregate function, aggregate functions, aggregation, sum, average, avg, minimum, maximum
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:03:31 - 00:03:49
+  SECONDS: 211.81 - 229.98
+  MATCH: sum, avg
+  TEXT: Before we go into details about GROUP BY, I'd like to talk first about functions. The typical mathematical functions you see in SQL are SUM, AVG, COUNT, MAX, and MIN. Functions allow us to operate on the values of specific columns.
+
+  HIT 2
+  TIME: 00:04:38 - 00:04:50
+  SECONDS: 278.0 - 290.46
+  MATCH: maximum
+  TEXT: GROUP BY Store to let SQL know that we want to calculate the maximum sales amount for each store. So how the function is calculated is dependent on the column or columns specified in the
+
+  HIT 3
+  TIME: 00:06:09 - 00:06:24
+  SECONDS: 369.49 - 384.0
+  MATCH: maximum
+  TEXT: In the example we had previously mentioned, if we only want to show results where the maximum sales amount is over 100, we will add HAVING (sales Amount > 100) at the end of the SQL query.
+
+------------------------------------------------------------------------
+
+CONCEPT: join
+DESCRIPTION: combine rows from multiple database tables
+SEARCH ALIASES: join, joins, joining
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: inner join
+DESCRIPTION: combine matching rows from two database tables using inner join
+SEARCH ALIASES: inner join
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: left join
+DESCRIPTION: keep all rows from the left table and matching rows from another table
+SEARCH ALIASES: left join, left outer join
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: subquery
+DESCRIPTION: use a query nested inside another SQL query
+SEARCH ALIASES: subquery, subqueries, nested query
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: order by
+DESCRIPTION: sort SQL query results by one or more columns
+SEARCH ALIASES: order by
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:28 - 00:00:34
+  SECONDS: 28.09 - 34.95
+  MATCH: order by
+  TEXT: SELECT / FROM WHERE ORDER BY GROUP BY HAVING
+
+  HIT 2
+  TIME: 00:02:17 - 00:02:33
+  SECONDS: 137.95 - 153.18
+  MATCH: order by
+  TEXT: For example, we may specify that only people whose first name starts with "A" is selected. Now we turn our attention to the ORDER BY keyword. Sometimes we want the output to be listed in a particular order, such as in ascending
+
+  HIT 3
+  TIME: 00:02:39 - 00:02:58
+  SECONDS: 159.24 - 178.55
+  MATCH: order by
+  TEXT: The syntax for this will be something similar to the following: SELECT COLUMN_NAME FROM TABLE_NAME WHERE [Condition] ORDER BY COLUMN_NAME either ASC or DESC Notice that ORDER BY is at the end of the statement, because we want to specify the
+
+------------------------------------------------------------------------

@@ -1,0 +1,31 @@
+{
+  "analysis_stage": "P1.10",
+  "purpose": "chunk-size sensitivity analysis",
+  "chunk_sizes_seconds": [
+    30,
+    60,
+    90,
+    120
+  ],
+  "primary_pre_specified_chunk_size": 60,
+  "only_factor_changed": "chunk duration",
+  "fixed_alpha": 0.4,
+  "fixed_aggregation": "top2_mean",
+  "fixed_threshold": 0.4,
+  "same_outer_folds": true,
+  "fit_policy": "outer-train fit; outer-held-out transform only",
+  "heldout_text_used_in_fit": false,
+  "used_for_hyperparameter_selection": false,
+  "best_chunk_size_promoted": false,
+  "chunk_counts": {
+    "30": 965,
+    "60": 494,
+    "90": 331,
+    "120": 257
+  },
+  "60s_expected_chunks": 494,
+  "60s_reproduces_p18_frozen_predictions": true,
+  "60s_max_video_score_difference": 0.0,
+  "60s_p18_macro_video_f1": 0.5729583406789289,
+  "60s_sensitivity_macro_video_f1": 0.5729583406789289
+}

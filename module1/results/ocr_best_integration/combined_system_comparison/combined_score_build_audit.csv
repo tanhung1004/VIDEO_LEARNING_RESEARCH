@@ -1,0 +1,12 @@
+﻿check,value,expected,pass
+OLD_frozen_chunks,494.0,494.0,True
+NEW_frozen_chunks,172.0,172.0,True
+OLD_combined_chunks,494.0,494.0,True
+NEW_D_combined_chunks,172.0,172.0,True
+NEW_E_combined_chunks,172.0,172.0,True
+NEW_D_E_chunk_mismatch,0.0,0.0,True
+OLD_score_rows,4853.0,4853.0,True
+NEW_D_score_rows,1689.0,1689.0,True
+NEW_E_score_rows,1689.0,1689.0,True
+NEW_F_score_rows,1689.0,1689.0,True
+NEW_F_formula_error,0.0,0.0,True

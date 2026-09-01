@@ -1,0 +1,241 @@
+VIDEO ID: v15
+SUBJECT: Python
+TITLE: Python 3 Programming Tutorial - For loop
+URL: https://www.youtube.com/watch?v=xtXexPSfcZg
+
+========================================================================
+TRANSCRIPT
+========================================================================
+
+[00:00:00 - 00:00:05] Hello guys and girls and welcome to
+[00:00:02 - 00:00:07] another Python 3 tutorial. This tutorial
+[00:00:05 - 00:00:10] is going to be covering the for loop.
+[00:00:07 - 00:00:12] The for loop is used for pretty much the
+[00:00:10 - 00:00:14] same tasks as the while loop. They're
+[00:00:12 - 00:00:16] completely interchangeable. Typically,
+[00:00:14 - 00:00:20] you're going to see the while loop uh
+[00:00:16 - 00:00:22] being used for um sounds kind of funny,
+[00:00:20 - 00:00:26] but I suppose I would say finite or
+[00:00:22 - 00:00:28] infinite uh tasks. And the for loop is
+[00:00:26 - 00:00:30] usually used to be a little bit more
+[00:00:28 - 00:00:31] variable and for like uncertain kind of
+[00:00:30 - 00:00:34] time frames and stuff like that. But
+[00:00:31 - 00:00:36] that said, uh the for loop can actually
+[00:00:34 - 00:00:39] be used for the same tasks as the while
+[00:00:36 - 00:00:40] loop. Um and the while loop can do all
+[00:00:39 - 00:00:42] of the things a for loop can do. I mean
+[00:00:40 - 00:00:44] they're completely interchangeable
+[00:00:42 - 00:00:48] performance wise, uh action-wise, and
+[00:00:44 - 00:00:50] all of that. So uh for this reason, I I
+[00:00:48 - 00:00:52] I will just say that it just comes down
+[00:00:50 - 00:00:54] to personal preference. Um I prefer the
+[00:00:52 - 00:00:57] for loop myself. A lot of times a for
+[00:00:54 - 00:01:00] loop is much more condensed or
+[00:00:57 - 00:01:01] condensible than the while loop. Uh but
+[00:01:00 - 00:01:02] again, it really just comes down to
+[00:01:01 - 00:01:05] personal preference and it just doesn't
+[00:01:02 - 00:01:07] matter. So anyway, uh what I'd like to
+[00:01:05 - 00:01:09] do now is show you guys some examples of
+[00:01:07 - 00:01:10] the for loop and where you're going to
+[00:01:09 - 00:01:12] most often see it cuz some people really
+[00:01:10 - 00:01:15] like myself included. I do actually use
+[00:01:12 - 00:01:18] both. Um it just depends, you know, what
+[00:01:15 - 00:01:19] the situation is. So anyways, uh let's
+[00:01:18 - 00:01:21] go ahead and get started. So, first what
+[00:01:19 - 00:01:23] we're going to want is generally you're
+[00:01:21 - 00:01:25] going to see the for loop being used to
+[00:01:23 - 00:01:28] iterate through a list. And what iterate
+[00:01:25 - 00:01:29] means is just go through a list. So,
+[00:01:28 - 00:01:32] let's make an example list. So, we're
+[00:01:29 - 00:01:35] going to name this example list. And
+[00:01:32 - 00:01:36] we're going to uh enase this list. And
+[00:01:35 - 00:01:38] I'm just going to type in random values.
+[00:01:36 - 00:01:39] You can do the same. You could try and
+[00:01:38 - 00:01:42] copy my values if you want, but it's not
+[00:01:39 - 00:01:45] necessary. I'm just putting some
+[00:01:42 - 00:01:48] variables or some values in here.
+[00:01:45 - 00:01:50] So, in a previous tutorial, um, with the
+[00:01:48 - 00:01:52] variables, I was showing you guys, uh,
+[00:01:50 - 00:01:55] that if you add like multiple variables
+[00:01:52 - 00:01:56] here, uh, it's going to unpack, right?
+[00:01:55 - 00:01:59] And so, it's going to try to unpack all
+[00:01:56 - 00:02:00] of these values, right? Uh, but if you
+[00:01:59 - 00:02:02] just have one and like if you didn't
+[00:02:00 - 00:02:04] have enough on either side, if they
+[00:02:02 - 00:02:06] weren't equal, it would it would throw
+[00:02:04 - 00:02:08] an error. But if you're just assigning a
+[00:02:06 - 00:02:10] single VA uh, variable here, this is
+[00:02:08 - 00:02:13] totally fine to do. It's going to assign
+[00:02:10 - 00:02:16] this entire list to this variable. But
+[00:02:13 - 00:02:17] if you did like example list var that
+[00:02:16 - 00:02:19] would throw an error. You would need as
+[00:02:17 - 00:02:21] many variables as here because it's
+[00:02:19 - 00:02:23] going to try and unpack the list. Um
+[00:02:21 - 00:02:25] just as a quick aside. So now what we're
+[00:02:23 - 00:02:28] going to do is we're going to say for x
+[00:02:25 - 00:02:30] in example list what do we want to do?
+[00:02:28 - 00:02:32] So the way to think about this is
+[00:02:30 - 00:02:33] basically for each it. So maybe what
+[00:02:32 - 00:02:36] I'll do is actually uh to make it a
+[00:02:33 - 00:02:40] little more uh understandable for each
+[00:02:36 - 00:02:42] uh number in example list what do we
+[00:02:40 - 00:02:44] want to do? So what it's doing is it's
+[00:02:42 - 00:02:47] creating a variable here, right? Each
+[00:02:44 - 00:02:50] number now becomes a variable that each
+[00:02:47 - 00:02:52] step of the way these numbers are being
+[00:02:50 - 00:02:54] assigned to this variable each number.
+[00:02:52 - 00:02:56] And obviously example list is
+[00:02:54 - 00:02:59] corresponding to example list. So we'll
+[00:02:56 - 00:03:00] hit enter. And if you didn't notice
+[00:02:59 - 00:03:02] already by now with like the while loop
+[00:03:00 - 00:03:04] and all that, when you make one of these
+[00:03:02 - 00:03:06] loops and you hit enter, it
+[00:03:04 - 00:03:08] automatically tabs it over for you. So
+[00:03:06 - 00:03:10] if you're coming from like maybe another
+[00:03:08 - 00:03:12] language um or not at all from any
+[00:03:10 - 00:03:15] programming language you have to usually
+[00:03:12 - 00:03:17] do this uh or actually you don't have to
+[00:03:15 - 00:03:19] really do it in Python you have to do it
+[00:03:17 - 00:03:21] you must have this space here in other
+[00:03:19 - 00:03:23] languages typically you've got like
+[00:03:21 - 00:03:25] curly braces and you come down and you
+[00:03:23 - 00:03:27] just you could put all you wanted over
+[00:03:25 - 00:03:28] here and then most people say you should
+[00:03:27 - 00:03:31] have good standards and you should
+[00:03:28 - 00:03:33] automatically indent it yourself. Uh but
+[00:03:31 - 00:03:35] it is not necessary in other languages.
+[00:03:33 - 00:03:37] in Python it is, but luckily usually
+[00:03:35 - 00:03:39] it's going to automatically indent for
+[00:03:37 - 00:03:41] you. So it is just fine. So it makes
+[00:03:39 - 00:03:44] your code pretty automatically. Um, so
+[00:03:41 - 00:03:46] that's kind of nice. Anyway, so you must
+[00:03:44 - 00:03:48] have that indentation and and and this
+[00:03:46 - 00:03:51] indentation will apply throughout the
+[00:03:48 - 00:03:53] entire loop. So in order to get out of
+[00:03:51 - 00:03:54] that loop, I'll show you in a moment um
+[00:03:53 - 00:03:59] what you would need to do, but for now,
+[00:03:54 - 00:04:01] let's just say print uh each number.
+[00:03:59 - 00:04:03] So we'll save and run that. And as you
+[00:04:01 - 00:04:07] can see, it just iterated through the
+[00:04:03 - 00:04:11] entire list in order. 1 5 6 1 6 7 8 9
+[00:04:07 - 00:04:12] 345 535. Pretty cool. Uh, but now what
+[00:04:11 - 00:04:15] you can do too is then you come down
+[00:04:12 - 00:04:18] here and
+[00:04:15 - 00:04:21] um we'll just say print continue program
+[00:04:18 - 00:04:23] like that. Run it. And you'll see here
+[00:04:21 - 00:04:25] that it it continues the program after
+[00:04:23 - 00:04:28] the for loop because it's not under the
+[00:04:25 - 00:04:31] same indentation. But if you hit tab and
+[00:04:28 - 00:04:33] you indent this along with this for
+[00:04:31 - 00:04:35] loop, you're going to see continue
+[00:04:33 - 00:04:38] program for every number. So when we run
+[00:04:35 - 00:04:40] this, you can see that at each step of
+[00:04:38 - 00:04:42] the way it continue the program. So just
+[00:04:40 - 00:04:44] keep that in mind that you're that's how
+[00:04:42 - 00:04:46] your indentation really matters. Uh
+[00:04:44 - 00:04:50] another quick thing I'll show you guys
+[00:04:46 - 00:04:53] real uh real fast is um first what can
+[00:04:50 - 00:04:55] happen sometimes if is this, right?
+[00:04:53 - 00:04:57] you've copy and pasted a lot of code
+[00:04:55 - 00:04:59] maybe and it's not indented. So what you
+[00:04:57 - 00:05:01] can do though is you can highlight all
+[00:04:59 - 00:05:03] the code like the what's called a block
+[00:05:01 - 00:05:05] of code and you can highlight it and
+[00:05:03 - 00:05:08] then hit tab and it will tab the code
+[00:05:05 - 00:05:10] over. By that same token if you're uh
+[00:05:08 - 00:05:12] code is too far tabbed over that also
+[00:05:10 - 00:05:15] will not work. It literally won't run.
+[00:05:12 - 00:05:17] Well, Python 3 just keeps throwing me
+[00:05:15 - 00:05:18] for a loop. Apparently that's okay. It's
+[00:05:17 - 00:05:20] going to go ahead and run. Hold on. Let
+[00:05:18 - 00:05:24] me try something else. Uh we'll come
+[00:05:20 - 00:05:27] down here. paste and then let's do this.
+[00:05:24 - 00:05:30] All right, Python 3. That was okay as
+[00:05:27 - 00:05:32] well. Well, at least in Python 2.7, you
+[00:05:30 - 00:05:35] can't do that. But anyway, I'll tell you
+[00:05:32 - 00:05:38] anyways how you can fix this. Uh just so
+[00:05:35 - 00:05:41] it does look right because even though
+[00:05:38 - 00:05:44] apparently Python 3 is more accepting of
+[00:05:41 - 00:05:46] improper standards than Python 2.7, you
+[00:05:44 - 00:05:49] should still try your best to give good
+[00:05:46 - 00:05:51] standards. So, cuz it gets very messy uh
+[00:05:49 - 00:05:53] when you want to do maybe another for
+[00:05:51 - 00:05:55] loop down here and do some stuff, right?
+[00:05:53 - 00:05:57] Uh so, anyways, what you can do to move
+[00:05:55 - 00:06:01] a block the other way is highlight it,
+[00:05:57 - 00:06:03] hold control, and it's uh the open
+[00:06:01 - 00:06:04] bracket. So, you can hit that a couple
+[00:06:03 - 00:06:06] times and it tabs it over. If you don't
+[00:06:04 - 00:06:08] know what I'm talking about, it's this
+[00:06:06 - 00:06:09] symbol right here, like this key. You
+[00:06:08 - 00:06:12] hit that while holding control and
+[00:06:09 - 00:06:14] that'll shift it over. So, that's that.
+[00:06:12 - 00:06:16] But now, uh back to some more stuff
+[00:06:14 - 00:06:18] about the for loop. Uh I was telling you
+[00:06:16 - 00:06:21] guys that you can use the for loop much
+[00:06:18 - 00:06:23] like you use while loop as a counter and
+[00:06:21 - 00:06:25] it's much better as a counter. Uh and
+[00:06:23 - 00:06:27] here's why. So if you remember the for
+[00:06:25 - 00:06:29] loop that we wrote uh or the while loop
+[00:06:27 - 00:06:31] rather I believe that came out to be
+[00:06:29 - 00:06:34] four total lines of code but instead
+[00:06:31 - 00:06:36] with the for loop you can do 4x in
+[00:06:34 - 00:06:40] range. And range is a built-in function
+[00:06:36 - 00:06:43] in Python. Um so first I'll just show
+[00:06:40 - 00:06:44] you guys what it's going to do. 1 and
+[00:06:43 - 00:06:46] all we want to do is just print x for
+[00:06:44 - 00:06:48] now. So let's run that real quick. And
+[00:06:46 - 00:06:50] you'll see that what it did is obviously
+[00:06:48 - 00:06:54] our previous program, but then it did 1
+[00:06:50 - 00:06:55] 2 3 4 5 6 7 8 9 10 not 11. And the way a
+[00:06:54 - 00:06:57] range works, it starts at the first
+[00:06:55 - 00:07:01] number and goes all the way up to the
+[00:06:57 - 00:07:03] ending number or whatever it is. Now um
+[00:07:01 - 00:07:06] a couple of uh or one thing to note,
+[00:07:03 - 00:07:07] range is a built-in Python function. So
+[00:07:06 - 00:07:09] you don't have to import it and it will
+[00:07:07 - 00:07:13] literally make that range of numbers for
+[00:07:09 - 00:07:16] you. In Python 27, Python's 3 point or
+[00:07:13 - 00:07:18] Python 3.3's
+[00:07:16 - 00:07:22] um version of range here has actually
+[00:07:18 - 00:07:25] been backported to Python 2.7. Um and it
+[00:07:22 - 00:07:28] is X range. It's known as X-range in
+[00:07:25 - 00:07:31] Python 2.7. So X-range like that. And
+[00:07:28 - 00:07:34] what is beneficial about this range
+[00:07:31 - 00:07:38] function over the Python 2.7's range
+[00:07:34 - 00:07:42] function is when you do something like
+[00:07:38 - 00:07:46] um in Python 33 and you say range one
+[00:07:42 - 00:07:49] and like this number what it's going to
+[00:07:46 - 00:07:52] do in Python 2.7 is literally generated
+[00:07:49 - 00:07:56] a list that is this from one to this
+[00:07:52 - 00:07:58] number whatever it is. Um, and obviously
+[00:07:56 - 00:08:01] that's going to use a lot of your
+[00:07:58 - 00:08:02] virtual memory, so your RAM, and it's
+[00:08:01 - 00:08:05] probably going to max out your RAM
+[00:08:02 - 00:08:08] before it completes the operation.
+[00:08:05 - 00:08:11] But in Python 33, or if you use what's
+[00:08:08 - 00:08:13] called Xrange in Python 2.7, it turns
+[00:08:11 - 00:08:15] this into what's known as a generator.
+[00:08:13 - 00:08:17] And eventually, we'll talk more about
+[00:08:15 - 00:08:19] generators later on, but what a
+[00:08:17 - 00:08:21] generator does is it only visits that
+[00:08:19 - 00:08:23] operation once. it doesn't store it into
+[00:08:21 - 00:08:27] memory, but it it will count through.
+[00:08:23 - 00:08:29] So, um pretty interesting stuff there.
+[00:08:27 - 00:08:31] Uh but more on that kind of stuff later
+[00:08:29 - 00:08:32] since uh this is meant to just be
+[00:08:31 - 00:08:36] basics.
+[00:08:32 - 00:08:37] So, that pretty much covers uh the for
+[00:08:36 - 00:08:39] loop. A couple of examples of the for
+[00:08:37 - 00:08:42] loop here, both as a counter and then
+[00:08:39 - 00:08:44] also as an iterator through a list. Um
+[00:08:42 - 00:08:46] but really this iterated through a list
+[00:08:44 - 00:08:50] only actually used a generator function
+[00:08:46 - 00:08:52] to do so. Um, so anyways, uh, that is
+[00:08:50 - 00:08:54] that. Uh, so hopefully you guys learned
+[00:08:52 - 00:08:56] something new. Hopefully you guys are
+[00:08:54 - 00:08:58] enjoying my tutorials. If you have any
+[00:08:56 - 00:09:00] questions, feel free to post them below.
+[00:08:58 - 00:09:02] Uh, otherwise, as always, thanks for
+[00:09:00 - 00:09:06] watching. Thanks for all the support and
+[00:09:02 - 00:09:06] the subscriptions. And until the next

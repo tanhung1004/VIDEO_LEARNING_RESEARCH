@@ -1,0 +1,517 @@
+﻿video_id,subject,method,chunk_id,start_sec,end_sec,concept,lda_score,lsa_score,lda_norm,lsa_norm,final_score,rank
+v1,SQL,transcript_only,0,0,180,select,0.2664,0.2089,0.5808,1.0,1.0,1
+v1,SQL,transcript_only,0,0,180,left join,0.1202,0.1019,0.1392,0.4929,0.4929,2
+v1,SQL,transcript_only,0,0,180,order by,0.2883,0.0843,0.6469,0.4095,0.4095,3
+v1,SQL,transcript_only,1,180,360,inner join,0.0995,0.3931,0.0306,1.0,1.0,1
+v1,SQL,transcript_only,1,180,360,left join,0.1499,0.2777,0.2336,0.6975,0.6975,2
+v1,SQL,transcript_only,1,180,360,join,0.0983,0.2309,0.0258,0.5748,0.5748,3
+v1,SQL,transcript_only,2,360,540,group by,0.405,0.2672,1.0,1.0,1.0,1
+v1,SQL,transcript_only,2,360,540,left join,0.1201,0.1434,0.1393,0.5406,0.5406,2
+v1,SQL,transcript_only,2,360,540,where,0.1538,0.1251,0.2411,0.4727,0.4727,3
+v1,SQL,transcript_only,3,540,720,where,0.143,0.1175,0.1959,1.0,1.0,1
+v1,SQL,transcript_only,3,540,720,subquery,0.1433,0.0979,0.197,0.8575,0.8575,2
+v1,SQL,transcript_only,3,540,720,select,0.2574,0.0959,0.5997,0.8429,0.8429,3
+v1,SQL,transcript_only,4,720,900,subquery,0.1452,0.1841,0.234,1.0,1.0,1
+v1,SQL,transcript_only,4,720,900,having,0.1357,0.0892,0.2034,0.5498,0.5498,2
+v1,SQL,transcript_only,4,720,900,order by,0.2742,0.0501,0.6492,0.3643,0.3643,3
+v10,SQL,transcript_only,0,0,180,group by,0.4052,0.5231,1.0,1.0,1.0,1
+v10,SQL,transcript_only,0,0,180,aggregate function,0.1082,0.1704,0.103,0.3753,0.3753,2
+v10,SQL,transcript_only,0,0,180,select,0.2665,0.143,0.5811,0.3268,0.3268,3
+v10,SQL,transcript_only,1,180,360,group by,0.3456,0.5467,1.0,1.0,1.0,1
+v10,SQL,transcript_only,1,180,360,join,0.0798,0.143,0.0661,0.2756,0.2756,2
+v10,SQL,transcript_only,1,180,360,having,0.1126,0.1407,0.1813,0.2715,0.2715,3
+v10,SQL,transcript_only,2,360,540,group by,0.3444,0.4234,1.0,1.0,1.0,1
+v10,SQL,transcript_only,2,360,540,select,0.2261,0.1205,0.5829,0.2908,0.2908,2
+v10,SQL,transcript_only,2,360,540,count,0.1771,0.0913,0.4101,0.2224,0.2224,3
+v10,SQL,transcript_only,3,540,720,aggregate function,0.2462,0.1318,0.9408,1.0,1.0,1
+v10,SQL,transcript_only,3,540,720,group by,0.1678,0.102,0.6207,0.8125,0.8125,2
+v10,SQL,transcript_only,3,540,720,subquery,0.081,0.0876,0.2662,0.7218,0.7218,3
+v10,SQL,transcript_only,4,720,900,group by,0.3689,0.2895,1.0,1.0,1.0,1
+v10,SQL,transcript_only,4,720,900,aggregate function,0.1293,0.0951,0.2087,0.3386,0.3386,2
+v10,SQL,transcript_only,4,720,900,order by,0.2602,0.0906,0.641,0.3232,0.3232,3
+v10,SQL,transcript_only,5,900,1080,aggregate function,0.1081,0.1051,0.103,1.0,1.0,1
+v10,SQL,transcript_only,5,900,1080,having,0.145,0.0822,0.2145,0.7895,0.7895,2
+v10,SQL,transcript_only,5,900,1080,group by,0.405,0.0302,1.0,0.3116,0.3116,3
+v10,SQL,transcript_only,6,1080,1260,aggregate function,0.1082,0.0913,0.103,1.0,1.0,1
+v10,SQL,transcript_only,6,1080,1260,select,0.2664,0.0653,0.5808,0.8012,0.8012,2
+v10,SQL,transcript_only,6,1080,1260,having,0.1451,0.0484,0.2144,0.672,0.672,3
+v11,SQL,transcript_only,0,0,180,subquery,0.0788,0.2473,0.2898,1.0,1.0,1
+v11,SQL,transcript_only,0,0,180,select,0.1857,0.221,0.7006,0.9028,0.9028,2
+v11,SQL,transcript_only,0,0,180,order by,0.0995,0.1213,0.3693,0.5344,0.5344,3
+v11,SQL,transcript_only,1,180,360,select,0.1828,0.2214,0.7082,1.0,1.0,1
+v11,SQL,transcript_only,1,180,360,subquery,0.0789,0.1468,0.2969,0.6945,0.6945,2
+v11,SQL,transcript_only,1,180,360,group by,0.096,0.1268,0.3646,0.6126,0.6126,3
+v11,SQL,transcript_only,2,360,540,group by,0.1172,0.1798,0.5611,1.0,1.0,1
+v11,SQL,transcript_only,2,360,540,select,0.161,0.179,0.7849,0.9962,0.9962,2
+v11,SQL,transcript_only,2,360,540,left join,0.2031,0.1267,1.0,0.7454,0.7454,3
+v11,SQL,transcript_only,3,540,720,group by,0.2087,0.2973,1.0,1.0,1.0,1
+v11,SQL,transcript_only,3,540,720,left join,0.1772,0.0922,0.7999,0.401,0.401,2
+v11,SQL,transcript_only,3,540,720,order by,0.1608,0.0727,0.6957,0.344,0.344,3
+v12,SQL,transcript_only,0,0,180,inner join,0.1966,0.314,0.7425,1.0,1.0,1
+v12,SQL,transcript_only,0,0,180,join,0.1211,0.1975,0.4523,0.6438,0.6438,2
+v12,SQL,transcript_only,0,0,180,left join,0.2636,0.1794,1.0,0.5885,0.5885,3
+v12,SQL,transcript_only,1,180,360,inner join,0.1966,0.1487,0.7428,1.0,1.0,1
+v12,SQL,transcript_only,1,180,360,select,0.1857,0.1127,0.7009,0.7714,0.7714,2
+v12,SQL,transcript_only,1,180,360,join,0.1211,0.0958,0.4525,0.6641,0.6641,3
+v12,SQL,transcript_only,2,360,540,left join,0.2636,0.7348,1.0,1.0,1.0,1
+v12,SQL,transcript_only,2,360,540,inner join,0.1966,0.2357,0.7425,0.3305,0.3305,2
+v12,SQL,transcript_only,2,360,540,join,0.1211,0.1132,0.4523,0.1662,0.1662,3
+v12,SQL,transcript_only,3,540,720,left join,0.2635,0.082,1.0,1.0,1.0,1
+v12,SQL,transcript_only,3,540,720,select,0.1857,0.0357,0.7009,0.564,0.564,2
+v12,SQL,transcript_only,3,540,720,count,0.0257,0.0317,0.0857,0.5264,0.5264,3
+v12,SQL,transcript_only,4,720,900,left join,0.2634,0.2166,1.0,1.0,1.0,1
+v12,SQL,transcript_only,4,720,900,join,0.121,0.1719,0.4523,0.8096,0.8096,2
+v12,SQL,transcript_only,4,720,900,inner join,0.1965,0.0895,0.7427,0.4587,0.4587,3
+v12,SQL,transcript_only,5,900,1080,join,0.1209,0.1225,0.4521,1.0,1.0,1
+v12,SQL,transcript_only,5,900,1080,left join,0.2632,0.0595,1.0,0.5312,0.5312,2
+v12,SQL,transcript_only,5,900,1080,inner join,0.1963,0.0314,0.7424,0.3222,0.3222,3
+v13,SQL,transcript_only,0,0,180,select,0.2666,0.4397,0.5809,1.0,1.0,1
+v13,SQL,transcript_only,0,0,180,subquery,0.1514,0.3256,0.2333,0.7059,0.7059,2
+v13,SQL,transcript_only,0,0,180,order by,0.2885,0.2468,0.647,0.5027,0.5027,3
+v13,SQL,transcript_only,1,180,360,order by,0.1227,0.2658,0.9528,1.0,1.0,1
+v13,SQL,transcript_only,1,180,360,subquery,0.0829,0.1527,0.5356,0.5436,0.5436,2
+v13,SQL,transcript_only,1,180,360,select,0.0958,0.1491,0.6709,0.5291,0.5291,3
+v13,SQL,transcript_only,2,360,540,group by,0.1978,0.2155,1.0,1.0,1.0,1
+v13,SQL,transcript_only,2,360,540,select,0.1284,0.1097,0.5662,0.5376,0.5376,2
+v13,SQL,transcript_only,2,360,540,aggregate function,0.0616,0.0995,0.1488,0.493,0.493,3
+v13,SQL,transcript_only,3,540,720,order by,0.1769,0.2652,0.7593,1.0,1.0,1
+v13,SQL,transcript_only,3,540,720,having,0.0722,0.2549,0.1717,0.9503,0.9503,2
+v13,SQL,transcript_only,3,540,720,count,0.094,0.2254,0.2941,0.8079,0.8079,3
+v13,SQL,transcript_only,4,720,900,left join,0.1109,0.2377,1.0,1.0,1.0,1
+v13,SQL,transcript_only,4,720,900,join,0.0532,0.1583,0.4436,0.6883,0.6883,2
+v13,SQL,transcript_only,4,720,900,inner join,0.0771,0.1067,0.6741,0.4857,0.4857,3
+v13,SQL,transcript_only,5,900,1080,left join,0.1026,0.2682,0.1811,1.0,1.0,1
+v13,SQL,transcript_only,5,900,1080,select,0.1842,0.1931,0.6196,0.7295,0.7295,2
+v13,SQL,transcript_only,5,900,1080,order by,0.1981,0.0631,0.6943,0.2612,0.2612,3
+v14,Python,transcript_only,0,0,180,break,0.1833,0.6357,0.3656,1.0,1.0,1
+v14,Python,transcript_only,0,0,180,continue,0.1601,0.3397,0.309,0.565,0.565,2
+v14,Python,transcript_only,0,0,180,nested loop,0.2777,0.2296,0.596,0.4031,0.4031,3
+v14,Python,transcript_only,1,180,360,nested loop,0.2777,0.2621,0.5963,1.0,1.0,1
+v14,Python,transcript_only,1,180,360,break,0.1832,0.2027,0.3656,0.7919,0.7919,2
+v14,Python,transcript_only,1,180,360,continue,0.16,0.198,0.309,0.7754,0.7754,3
+v14,Python,transcript_only,2,360,540,break,0.1831,0.5987,0.3655,1.0,1.0,1
+v14,Python,transcript_only,2,360,540,nested loop,0.2775,0.3561,0.5959,0.6094,0.6094,2
+v14,Python,transcript_only,2,360,540,for loop,0.443,0.2553,1.0,0.4471,0.4471,3
+v14,Python,transcript_only,3,540,720,continue,0.1593,0.1031,0.3087,1.0,1.0,1
+v14,Python,transcript_only,3,540,720,for loop,0.4414,0.0843,1.0,0.8421,0.8421,2
+v14,Python,transcript_only,3,540,720,nested loop,0.2765,0.0588,0.5959,0.628,0.628,3
+v15,Python,transcript_only,0,0,180,for loop,0.4169,0.559,1.0,1.0,1.0,1
+v15,Python,transcript_only,0,0,180,nested loop,0.2607,0.3295,0.5952,0.6198,0.6198,2
+v15,Python,transcript_only,0,0,180,list,0.0928,0.3051,0.1601,0.5794,0.5794,3
+v15,Python,transcript_only,1,180,360,for loop,0.443,0.5676,1.0,1.0,1.0,1
+v15,Python,transcript_only,1,180,360,continue,0.16,0.2143,0.3091,0.4416,0.4416,2
+v15,Python,transcript_only,1,180,360,list,0.0999,0.1774,0.1624,0.3833,0.3833,3
+v15,Python,transcript_only,2,360,540,for loop,0.443,0.4992,1.0,1.0,1.0,1
+v15,Python,transcript_only,2,360,540,range,0.2761,0.4095,0.5925,0.827,0.827,2
+v15,Python,transcript_only,2,360,540,nested loop,0.2776,0.2223,0.5962,0.466,0.466,3
+v15,Python,transcript_only,3,540,720,range,0.2664,0.0462,0.5929,1.0,1.0,1
+v15,Python,transcript_only,3,540,720,for,0.3159,0.038,0.7181,0.9056,0.9056,2
+v15,Python,transcript_only,3,540,720,for loop,0.4274,0.0153,1.0,0.6444,0.6444,3
+v16,Python,transcript_only,0,0,180,index,0.0473,0.5694,0.1761,1.0,1.0,1
+v16,Python,transcript_only,0,0,180,list,0.1103,0.4154,0.4939,0.728,0.728,2
+v16,Python,transcript_only,0,0,180,iteration,0.0124,0.0695,0.0,0.1169,0.1169,3
+v16,Python,transcript_only,1,180,360,list,0.1034,0.3237,0.3636,1.0,1.0,1
+v16,Python,transcript_only,1,180,360,index,0.0439,0.2414,0.1149,0.7838,0.7838,2
+v16,Python,transcript_only,1,180,360,range,0.1661,0.0779,0.6256,0.3542,0.3542,3
+v17,Python,transcript_only,0,0,180,for loop,0.443,0.5905,1.0,1.0,1.0,1
+v17,Python,transcript_only,0,0,180,nested loop,0.2775,0.3052,0.5959,0.5494,0.5494,2
+v17,Python,transcript_only,0,0,180,continue,0.16,0.2102,0.3091,0.3993,0.3993,3
+v17,Python,transcript_only,1,180,360,for loop,0.4428,0.3337,1.0,1.0,1.0,1
+v17,Python,transcript_only,1,180,360,for,0.3253,0.1609,0.713,0.5177,0.5177,2
+v17,Python,transcript_only,1,180,360,nested loop,0.2774,0.1566,0.596,0.5057,0.5057,3
+v18,Python,transcript_only,0,0,180,index,0.0381,0.208,0.0115,1.0,1.0,1
+v18,Python,transcript_only,0,0,180,for loop,0.443,0.1442,1.0,0.69,0.69,2
+v18,Python,transcript_only,0,0,180,range,0.2761,0.1418,0.5925,0.6783,0.6783,3
+v18,Python,transcript_only,1,180,360,for loop,0.3851,0.0532,1.0,1.0,1.0,1
+v18,Python,transcript_only,1,180,360,nested loop,0.235,0.0351,0.5796,0.7388,0.7388,2
+v18,Python,transcript_only,1,180,360,continue,0.1347,0.0312,0.2986,0.6825,0.6825,3
+v18,Python,transcript_only,2,360,540,list,0.0903,0.1612,0.1754,1.0,1.0,1
+v18,Python,transcript_only,2,360,540,for,0.2875,0.1554,0.7298,0.9649,0.9649,2
+v18,Python,transcript_only,2,360,540,nested loop,0.2335,0.107,0.578,0.6719,0.6719,3
+v19,Python,transcript_only,0,0,180,nested loop,0.2778,0.1466,0.596,1.0,1.0,1
+v19,Python,transcript_only,0,0,180,for loop,0.4434,0.137,1.0,0.9331,0.9331,2
+v19,Python,transcript_only,0,0,180,break,0.1833,0.0626,0.3655,0.4142,0.4142,3
+v19,Python,transcript_only,1,180,360,break,0.1834,0.1666,0.3657,1.0,1.0,1
+v19,Python,transcript_only,1,180,360,continue,0.1602,0.0836,0.3091,0.5276,0.5276,2
+v19,Python,transcript_only,1,180,360,for loop,0.4434,0.0577,1.0,0.3802,0.3802,3
+v19,Python,transcript_only,2,360,540,continue,0.1601,0.2952,0.3089,1.0,1.0,1
+v19,Python,transcript_only,2,360,540,for,0.3257,0.062,0.7129,0.2644,0.2644,2
+v19,Python,transcript_only,2,360,540,for loop,0.4434,0.0494,1.0,0.2246,0.2246,3
+v19,Python,transcript_only,3,540,720,for loop,0.4417,0.1442,1.0,1.0,1.0,1
+v19,Python,transcript_only,3,540,720,break,0.1825,0.0644,0.3653,0.5292,0.5292,2
+v19,Python,transcript_only,3,540,720,range,0.2753,0.0347,0.5926,0.354,0.354,3
+v2,Python,transcript_only,0,0,180,for loop,0.4431,0.1553,1.0,1.0,1.0,1
+v2,Python,transcript_only,0,0,180,nested loop,0.2776,0.0803,0.596,0.6114,0.6114,2
+v2,Python,transcript_only,0,0,180,range,0.2762,0.072,0.5926,0.5684,0.5684,3
+v2,Python,transcript_only,1,180,360,break,0.1831,0.3102,0.3656,1.0,1.0,1
+v2,Python,transcript_only,1,180,360,for loop,0.4429,0.169,1.0,0.5806,0.5806,2
+v2,Python,transcript_only,1,180,360,for,0.3254,0.1688,0.7131,0.58,0.58,3
+v2,Python,transcript_only,2,360,540,nested loop,0.2502,0.6331,0.5959,1.0,1.0,1
+v2,Python,transcript_only,2,360,540,for loop,0.4002,0.3436,1.0,0.5408,0.5408,2
+v2,Python,transcript_only,2,360,540,continue,0.143,0.3436,0.3071,0.5408,0.5408,3
+v2,Python,transcript_only,3,540,720,range,0.2409,0.3652,0.5951,1.0,1.0,1
+v2,Python,transcript_only,3,540,720,list,0.0908,0.1878,0.1753,0.5679,0.5679,2
+v2,Python,transcript_only,3,540,720,for,0.2886,0.1452,0.7285,0.4642,0.4642,3
+v2,Python,transcript_only,4,720,900,range,0.276,0.1778,0.5926,1.0,1.0,1
+v2,Python,transcript_only,4,720,900,for loop,0.4428,0.1687,1.0,0.9549,0.9549,2
+v2,Python,transcript_only,4,720,900,for,0.3253,0.1306,0.713,0.7662,0.7662,3
+v20,Python,transcript_only,0,0,180,for loop,0.443,0.3525,1.0,1.0,1.0,1
+v20,Python,transcript_only,0,0,180,for,0.3255,0.2734,0.7131,0.7969,0.7969,2
+v20,Python,transcript_only,0,0,180,list,0.0999,0.1583,0.1624,0.5014,0.5014,3
+v20,Python,transcript_only,1,180,360,for loop,0.4427,0.2524,1.0,1.0,1.0,1
+v20,Python,transcript_only,1,180,360,nested loop,0.2773,0.1468,0.5959,0.6341,0.6341,2
+v20,Python,transcript_only,1,180,360,break,0.183,0.1011,0.3655,0.4757,0.4757,3
+v20,Python,transcript_only,2,360,540,index,0.0381,0.3224,0.0115,1.0,1.0,1
+v20,Python,transcript_only,2,360,540,range,0.276,0.2857,0.5924,0.8867,0.8867,2
+v20,Python,transcript_only,2,360,540,for loop,0.4429,0.2329,1.0,0.7237,0.7237,3
+v20,Python,transcript_only,3,540,720,index,0.0381,0.2468,0.0115,1.0,1.0,1
+v20,Python,transcript_only,3,540,720,list,0.0999,0.1676,0.1624,0.6927,0.6927,2
+v20,Python,transcript_only,3,540,720,for loop,0.4428,0.071,1.0,0.3178,0.3178,3
+v20,Python,transcript_only,4,720,900,for loop,0.4428,0.345,1.0,1.0,1.0,1
+v20,Python,transcript_only,4,720,900,break,0.1831,0.257,0.3657,0.7533,0.7533,2
+v20,Python,transcript_only,4,720,900,nested loop,0.2774,0.1429,0.596,0.4334,0.4334,3
+v20,Python,transcript_only,5,900,1080,continue,0.16,0.2037,0.3091,1.0,1.0,1
+v20,Python,transcript_only,5,900,1080,range,0.2761,0.1491,0.5925,0.7052,0.7052,2
+v20,Python,transcript_only,5,900,1080,for loop,0.443,0.0721,1.0,0.2894,0.2894,3
+v20,Python,transcript_only,6,1080,1260,nested loop,0.2771,0.5121,0.5958,1.0,1.0,1
+v20,Python,transcript_only,6,1080,1260,for loop,0.4424,0.3817,1.0,0.7603,0.7603,2
+v20,Python,transcript_only,6,1080,1260,continue,0.1597,0.3171,0.3088,0.6416,0.6416,3
+v21,Python,transcript_only,0,0,180,nested loop,0.1993,0.5748,0.5953,1.0,1.0,1
+v21,Python,transcript_only,0,0,180,for loop,0.3208,0.274,1.0,0.5044,0.5044,2
+v21,Python,transcript_only,0,0,180,break,0.1297,0.1304,0.3634,0.2678,0.2678,3
+v21,Python,transcript_only,1,180,360,list,0.0384,0.0362,0.1237,1.0,1.0,1
+v21,Python,transcript_only,1,180,360,for,0.1902,0.0243,0.814,0.8374,0.8374,2
+v21,Python,transcript_only,1,180,360,range,0.1328,0.0222,0.553,0.8087,0.8087,3
+v21,Python,transcript_only,2,360,540,nested loop,0.1356,0.2998,0.5943,1.0,1.0,1
+v21,Python,transcript_only,2,360,540,for loop,0.2212,0.2417,1.0,0.8106,0.8106,2
+v21,Python,transcript_only,2,360,540,break,0.0862,0.1377,0.3602,0.4715,0.4715,3
+v21,Python,transcript_only,3,540,720,nested loop,0.1196,0.422,0.5938,1.0,1.0,1
+v21,Python,transcript_only,3,540,720,for loop,0.1962,0.2601,1.0,0.6439,0.6439,2
+v21,Python,transcript_only,3,540,720,break,0.0752,0.1454,0.3584,0.3917,0.3917,3
+v21,Python,transcript_only,4,720,900,nested loop,0.1457,0.2852,0.5946,1.0,1.0,1
+v21,Python,transcript_only,4,720,900,for loop,0.237,0.2452,1.0,0.8668,0.8668,2
+v21,Python,transcript_only,4,720,900,break,0.093,0.1352,0.3606,0.5007,0.5007,3
+v21,Python,transcript_only,5,900,1080,range,0.1262,0.1716,0.5498,1.0,1.0,1
+v21,Python,transcript_only,5,900,1080,for loop,0.2212,0.089,1.0,0.5801,0.5801,2
+v21,Python,transcript_only,5,900,1080,for,0.1839,0.0532,0.8232,0.3981,0.3981,3
+v21,Python,transcript_only,6,1080,1260,for loop,0.2051,0.2767,1.0,1.0,1.0,1
+v21,Python,transcript_only,6,1080,1260,nested loop,0.1253,0.2265,0.5941,0.8284,0.8284,2
+v21,Python,transcript_only,6,1080,1260,range,0.1152,0.0758,0.5427,0.3134,0.3134,3
+v21,Python,transcript_only,7,1260,1440,nested loop,0.1342,0.1939,0.5943,1.0,1.0,1
+v21,Python,transcript_only,7,1260,1440,for loop,0.219,0.1786,1.0,0.9258,0.9258,2
+v21,Python,transcript_only,7,1260,1440,break,0.0852,0.0937,0.3598,0.5141,0.5141,3
+v21,Python,transcript_only,8,1440,1620,nested loop,0.191,0.21,0.5954,1.0,1.0,1
+v21,Python,transcript_only,8,1440,1620,for loop,0.3077,0.1532,1.0,0.7597,0.7597,2
+v21,Python,transcript_only,8,1440,1620,iteration,0.0193,0.0609,0.0,0.3693,0.3693,3
+v22,Python,transcript_only,0,0,180,range,0.2752,0.3353,0.5925,1.0,1.0,1
+v22,Python,transcript_only,0,0,180,iteration,0.0333,0.0519,0.0,0.2927,0.2927,2
+v22,Python,transcript_only,0,0,180,continue,0.1594,0.0089,0.3088,0.1854,0.1854,3
+v23,Java,transcript_only,0,0,180,object,0.2704,0.0823,0.9321,1.0,1.0,1
+v23,Java,transcript_only,0,0,180,abstract method,0.1829,0.0796,0.3716,0.9655,0.9655,2
+v23,Java,transcript_only,0,0,180,class,0.2127,0.0619,0.5625,0.7391,0.7391,3
+v23,Java,transcript_only,1,180,360,object,0.2915,0.3261,1.0,1.0,1.0,1
+v23,Java,transcript_only,1,180,360,class,0.2771,0.1315,0.8807,0.3089,0.3089,2
+v23,Java,transcript_only,1,180,360,method,0.2905,0.1137,0.9917,0.2457,0.2457,3
+v23,Java,transcript_only,2,360,540,object,0.2732,0.2645,0.8068,1.0,1.0,1
+v23,Java,transcript_only,2,360,540,class,0.2941,0.1368,1.0,0.5312,0.5312,2
+v23,Java,transcript_only,2,360,540,abstract class,0.2859,0.1045,0.9242,0.4126,0.4126,3
+v23,Java,transcript_only,3,540,720,object,0.2886,0.4147,1.0,1.0,1.0,1
+v23,Java,transcript_only,3,540,720,class,0.2799,0.1763,0.9245,0.3458,0.3458,2
+v23,Java,transcript_only,3,540,720,method,0.2847,0.1493,0.9662,0.2717,0.2717,3
+v23,Java,transcript_only,4,720,900,method,0.3482,0.1976,1.0,1.0,1.0,1
+v23,Java,transcript_only,4,720,900,object,0.3207,0.1267,0.8633,0.5618,0.5618,2
+v23,Java,transcript_only,4,720,900,abstract method,0.2267,0.1188,0.3958,0.513,0.513,3
+v23,Java,transcript_only,5,900,1080,method,0.3483,0.207,1.0,1.0,1.0,1
+v23,Java,transcript_only,5,900,1080,object,0.3208,0.1445,0.8633,0.5936,0.5936,2
+v23,Java,transcript_only,5,900,1080,class,0.2504,0.1288,0.5134,0.4915,0.4915,3
+v23,Java,transcript_only,6,1080,1260,object,0.3207,0.2558,0.8633,1.0,1.0,1
+v23,Java,transcript_only,6,1080,1260,class,0.2504,0.1703,0.5137,0.5909,0.5909,2
+v23,Java,transcript_only,6,1080,1260,method,0.3482,0.1574,1.0,0.5292,0.5292,3
+v23,Java,transcript_only,7,1260,1440,object,0.3207,0.1331,0.8637,1.0,1.0,1
+v23,Java,transcript_only,7,1260,1440,method,0.3481,0.1102,1.0,0.8494,0.8494,2
+v23,Java,transcript_only,7,1260,1440,abstract method,0.2266,0.0843,0.3955,0.6792,0.6792,3
+v23,Java,transcript_only,8,1440,1620,method,0.3481,0.2179,1.0,1.0,1.0,1
+v23,Java,transcript_only,8,1440,1620,interface,0.1814,0.1324,0.1711,0.5959,0.5959,2
+v23,Java,transcript_only,8,1440,1620,abstract method,0.2266,0.1324,0.3958,0.5959,0.5959,3
+v23,Java,transcript_only,9,1620,1800,object,0.1714,0.1586,1.0,1.0,1.0,1
+v23,Java,transcript_only,9,1620,1800,extends,0.083,0.1275,0.0626,0.8003,0.8003,2
+v23,Java,transcript_only,9,1620,1800,abstract class,0.1014,0.1092,0.2577,0.6827,0.6827,3
+v23,Java,transcript_only,10,1800,1980,method,0.1697,0.0582,0.9609,1.0,1.0,1
+v23,Java,transcript_only,10,1800,1980,abstract class,0.0998,0.0475,0.202,0.7704,0.7704,2
+v23,Java,transcript_only,10,1800,1980,implements,0.0895,0.0464,0.0901,0.7468,0.7468,3
+v24,Java,transcript_only,0,0,180,method,0.2478,0.3755,0.8832,1.0,1.0,1
+v24,Java,transcript_only,0,0,180,abstract method,0.1595,0.2901,0.2306,0.8095,0.8095,2
+v24,Java,transcript_only,0,0,180,interface,0.1283,0.1619,0.0,0.5235,0.5235,3
+v24,Java,transcript_only,1,180,360,method,0.3482,0.2603,1.0,1.0,1.0,1
+v24,Java,transcript_only,1,180,360,abstract method,0.2267,0.1715,0.3958,0.712,0.712,2
+v24,Java,transcript_only,1,180,360,interface,0.1815,0.1154,0.1711,0.53,0.53,3
+v24,Java,transcript_only,2,360,540,method,0.3481,0.1685,1.0,1.0,1.0,1
+v24,Java,transcript_only,2,360,540,abstract method,0.2266,0.1454,0.3955,0.8693,0.8693,2
+v24,Java,transcript_only,2,360,540,interface,0.1815,0.0799,0.1711,0.4989,0.4989,3
+v24,Java,transcript_only,3,540,720,abstract method,0.2263,0.1955,0.3958,1.0,1.0,1
+v24,Java,transcript_only,3,540,720,method,0.3475,0.1343,1.0,0.7102,0.7102,2
+v24,Java,transcript_only,3,540,720,interface,0.1812,0.0626,0.171,0.3707,0.3707,3
+v25,Java,transcript_only,0,0,180,interface,0.2043,0.3364,0.0663,1.0,1.0,1
+v25,Java,transcript_only,0,0,180,implements,0.3103,0.2504,0.717,0.7541,0.7541,2
+v25,Java,transcript_only,0,0,180,object,0.2424,0.075,0.3002,0.2525,0.2525,3
+v25,Java,transcript_only,1,180,360,interface,0.2042,0.4709,0.0663,1.0,1.0,1
+v25,Java,transcript_only,1,180,360,implements,0.3101,0.3814,0.7168,0.7968,0.7968,2
+v25,Java,transcript_only,1,180,360,method,0.1934,0.1362,0.0,0.24,0.24,3
+v26,Java,transcript_only,0,0,180,interface,0.1879,0.5948,0.0519,1.0,1.0,1
+v26,Java,transcript_only,0,0,180,implements,0.2948,0.4289,0.7209,0.6749,0.6749,2
+v26,Java,transcript_only,0,0,180,abstract method,0.1946,0.2763,0.0939,0.3759,0.3759,3
+v26,Java,transcript_only,1,180,360,interface,0.1618,0.2628,0.0272,1.0,1.0,1
+v26,Java,transcript_only,1,180,360,abstract class,0.3121,0.1137,1.0,0.4324,0.4324,2
+v26,Java,transcript_only,1,180,360,method,0.1576,0.094,0.0,0.3574,0.3574,3
+v27,Java,transcript_only,0,0,180,object,0.2031,0.1693,0.3859,1.0,1.0,1
+v27,Java,transcript_only,0,0,180,abstract class,0.2704,0.1645,1.0,0.9718,0.9718,2
+v27,Java,transcript_only,0,0,180,class,0.2563,0.1467,0.8714,0.8672,0.8672,3
+v27,Java,transcript_only,1,180,360,extends,0.2287,0.1933,0.2158,1.0,1.0,1
+v27,Java,transcript_only,1,180,360,class,0.3221,0.1424,0.7885,0.6375,0.6375,2
+v27,Java,transcript_only,1,180,360,inheritance,0.2108,0.1421,0.1061,0.6353,0.6353,3
+v27,Java,transcript_only,2,360,540,extends,0.2285,0.3842,0.2155,1.0,1.0,1
+v27,Java,transcript_only,2,360,540,inheritance,0.2106,0.1517,0.1056,0.417,0.417,2
+v27,Java,transcript_only,2,360,540,object,0.2423,0.1237,0.3002,0.3468,0.3468,3
+v28,Java,transcript_only,0,0,180,extends,0.1091,0.2802,0.3245,1.0,1.0,1
+v28,Java,transcript_only,0,0,180,class,0.16,0.1991,0.9648,0.7086,0.7086,2
+v28,Java,transcript_only,0,0,180,inheritance,0.1007,0.1966,0.2189,0.6996,0.6996,3
+v28,Java,transcript_only,1,180,360,class,0.0832,0.1378,0.5706,1.0,1.0,1
+v28,Java,transcript_only,1,180,360,abstract class,0.0545,0.1229,0.1441,0.8819,0.8819,2
+v28,Java,transcript_only,1,180,360,extends,0.0451,0.0833,0.0045,0.5681,0.5681,3
+v28,Java,transcript_only,2,360,540,abstract class,0.1311,0.2171,0.8927,1.0,1.0,1
+v28,Java,transcript_only,2,360,540,class,0.1408,0.2001,1.0,0.907,0.907,2
+v28,Java,transcript_only,2,360,540,inheritance,0.0872,0.1749,0.4071,0.7691,0.7691,3
+v28,Java,transcript_only,3,540,720,object,0.1098,0.1855,0.7778,1.0,1.0,1
+v28,Java,transcript_only,3,540,720,abstract class,0.0618,0.1158,0.1429,0.5943,0.5943,2
+v28,Java,transcript_only,3,540,720,class,0.0933,0.1084,0.5595,0.5512,0.5512,3
+v28,Java,transcript_only,4,720,900,extends,0.0593,0.1449,0.4485,1.0,1.0,1
+v28,Java,transcript_only,4,720,900,object,0.0642,0.1241,0.5299,0.8321,0.8321,2
+v28,Java,transcript_only,4,720,900,abstract class,0.0829,0.1017,0.8405,0.6513,0.6513,3
+v29,Java,transcript_only,0,0,180,abstract class,0.3564,0.6504,1.0,1.0,1.0,1
+v29,Java,transcript_only,0,0,180,abstract method,0.2115,0.3824,0.1105,0.5824,0.5824,2
+v29,Java,transcript_only,0,0,180,class,0.3219,0.1652,0.7882,0.244,0.244,3
+v29,Java,transcript_only,1,180,360,abstract method,0.2114,0.6027,0.1105,1.0,1.0,1
+v29,Java,transcript_only,1,180,360,abstract class,0.3563,0.3603,1.0,0.6123,0.6123,2
+v29,Java,transcript_only,1,180,360,method,0.1934,0.1611,0.0,0.2938,0.2938,3
+v29,Java,transcript_only,2,360,540,interface,0.2041,0.4504,0.0657,1.0,1.0,1
+v29,Java,transcript_only,2,360,540,abstract class,0.3562,0.3869,1.0,0.8586,0.8586,2
+v29,Java,transcript_only,2,360,540,abstract method,0.2113,0.3621,0.11,0.8033,0.8033,3
+v3,Java,transcript_only,0,0,180,abstract class,0.3568,0.5815,1.0,1.0,1.0,1
+v3,Java,transcript_only,0,0,180,abstract method,0.2117,0.5016,0.1109,0.8586,0.8586,2
+v3,Java,transcript_only,0,0,180,class,0.3223,0.1821,0.7886,0.2932,0.2932,3
+v3,Java,transcript_only,1,180,360,abstract method,0.2117,0.5096,0.1109,1.0,1.0,1
+v3,Java,transcript_only,1,180,360,implements,0.3107,0.3363,0.7175,0.644,0.644,2
+v3,Java,transcript_only,1,180,360,abstract class,0.3568,0.3163,1.0,0.6029,0.6029,3
+v3,Java,transcript_only,2,360,540,abstract class,0.3552,0.3363,1.0,1.0,1.0,1
+v3,Java,transcript_only,2,360,540,interface,0.2036,0.2233,0.0654,0.6802,0.6802,2
+v3,Java,transcript_only,2,360,540,implements,0.3093,0.2169,0.717,0.6621,0.6621,3
+v30,Java,transcript_only,0,0,180,abstract method,0.2127,0.6812,0.0769,1.0,1.0,1
+v30,Java,transcript_only,0,0,180,abstract class,0.34,0.5612,1.0,0.8247,0.8247,2
+v30,Java,transcript_only,0,0,180,extends,0.2212,0.1182,0.1385,0.1775,0.1775,3
+v31,C++,transcript_only,0,0,180,data type,0.1499,0.4504,1.0,1.0,1.0,1
+v31,C++,transcript_only,0,0,180,variable,0.1319,0.2679,0.8202,0.646,0.646,2
+v31,C++,transcript_only,0,0,180,class,0.1148,0.0961,0.6494,0.3128,0.3128,3
+v31,C++,transcript_only,1,180,360,data type,0.1337,0.1503,0.6022,1.0,1.0,1
+v31,C++,transcript_only,1,180,360,variable,0.1732,0.1406,0.8403,0.9405,0.9405,2
+v31,C++,transcript_only,1,180,360,reference,0.1101,0.0489,0.4599,0.3775,0.3775,3
+v31,C++,transcript_only,2,360,540,variable,0.1799,0.0702,0.8165,1.0,1.0,1
+v31,C++,transcript_only,2,360,540,reference,0.1155,0.0608,0.4648,0.884,0.884,2
+v31,C++,transcript_only,2,360,540,polymorphism,0.0639,0.014,0.183,0.3062,0.3062,3
+v31,C++,transcript_only,3,540,720,variable,0.1684,0.0635,0.7748,1.0,1.0,1
+v31,C++,transcript_only,3,540,720,reference,0.1115,0.0331,0.4747,0.533,0.533,2
+v31,C++,transcript_only,3,540,720,polymorphism,0.0562,0.0326,0.183,0.5253,0.5253,3
+v31,C++,transcript_only,4,720,900,data type,0.1261,0.0586,0.4641,1.0,1.0,1
+v31,C++,transcript_only,4,720,900,variable,0.1955,0.048,0.7738,0.8492,0.8492,2
+v31,C++,transcript_only,4,720,900,object,0.2274,0.0321,0.9161,0.623,0.623,3
+v31,C++,transcript_only,5,900,1080,variable,0.1845,0.217,0.7815,1.0,1.0,1
+v31,C++,transcript_only,5,900,1080,polymorphism,0.0635,0.0442,0.1765,0.2773,0.2773,2
+v31,C++,transcript_only,5,900,1080,data type,0.1284,0.0411,0.501,0.2643,0.2643,3
+v31,C++,transcript_only,6,1080,1260,variable,0.1958,0.1219,0.775,1.0,1.0,1
+v31,C++,transcript_only,6,1080,1260,polymorphism,0.0594,0.0523,0.1661,0.517,0.517,2
+v31,C++,transcript_only,6,1080,1260,reference,0.1283,0.0512,0.4737,0.5094,0.5094,3
+v31,C++,transcript_only,7,1260,1440,data type,0.1356,0.2767,0.6484,1.0,1.0,1
+v31,C++,transcript_only,7,1260,1440,variable,0.1682,0.2202,0.8614,0.8301,0.8301,2
+v31,C++,transcript_only,7,1260,1440,reference,0.1061,0.05,0.4556,0.3184,0.3184,3
+v31,C++,transcript_only,8,1440,1620,data type,0.1465,0.3302,0.9906,1.0,1.0,1
+v31,C++,transcript_only,8,1440,1620,variable,0.1326,0.2111,0.8458,0.6731,0.6731,2
+v31,C++,transcript_only,8,1440,1620,pointer,0.1161,0.1245,0.674,0.4354,0.4354,3
+v31,C++,transcript_only,9,1620,1800,pointer,0.0881,0.1065,0.5301,1.0,1.0,1
+v31,C++,transcript_only,9,1620,1800,data type,0.1559,0.0846,1.0,0.7987,0.7987,2
+v31,C++,transcript_only,9,1620,1800,polymorphism,0.0827,0.0401,0.4927,0.3897,0.3897,3
+v31,C++,transcript_only,10,1800,1980,data type,0.1593,0.2629,1.0,1.0,1.0,1
+v31,C++,transcript_only,10,1800,1980,variable,0.1081,0.0682,0.6596,0.2572,0.2572,2
+v31,C++,transcript_only,10,1800,1980,class,0.0658,0.0464,0.3783,0.174,0.174,3
+v31,C++,transcript_only,11,1980,2160,variable,0.1383,0.0864,0.8937,1.0,1.0,1
+v31,C++,transcript_only,11,1980,2160,pointer,0.1202,0.0247,0.7069,0.4762,0.4762,2
+v31,C++,transcript_only,11,1980,2160,data type,0.1473,0.0195,0.9866,0.4321,0.4321,3
+v32,C++,transcript_only,0,0,180,variable,0.1191,0.3187,0.6774,1.0,1.0,1
+v32,C++,transcript_only,0,0,180,data type,0.1633,0.2733,1.0,0.8622,0.8622,2
+v32,C++,transcript_only,0,0,180,pointer,0.0878,0.1119,0.4489,0.3722,0.3722,3
+v32,C++,transcript_only,1,180,360,variable,0.1081,0.1759,0.6596,1.0,1.0,1
+v32,C++,transcript_only,1,180,360,pointer,0.093,0.0994,0.559,0.6334,0.6334,2
+v32,C++,transcript_only,1,180,360,data type,0.1592,0.0976,1.0,0.6248,0.6248,3
+v32,C++,transcript_only,2,360,540,data type,0.1592,0.4495,1.0,1.0,1.0,1
+v32,C++,transcript_only,2,360,540,variable,0.1081,0.1579,0.6598,0.4262,0.4262,2
+v32,C++,transcript_only,2,360,540,reference,0.0577,0.1354,0.3242,0.3819,0.3819,3
+v32,C++,transcript_only,3,540,720,data type,0.1592,0.4833,1.0,1.0,1.0,1
+v32,C++,transcript_only,3,540,720,pointer,0.093,0.1768,0.5587,0.3773,0.3773,2
+v32,C++,transcript_only,3,540,720,variable,0.1081,0.1763,0.6593,0.3763,0.3763,3
+v33,C++,transcript_only,0,0,180,pointer,0.1721,0.3538,0.6692,1.0,1.0,1
+v33,C++,transcript_only,0,0,180,variable,0.1957,0.1027,0.7746,0.3225,0.3225,2
+v33,C++,transcript_only,0,0,180,data type,0.1248,0.0488,0.458,0.177,0.177,3
+v33,C++,transcript_only,1,180,360,pointer,0.1722,0.2276,0.6696,1.0,1.0,1
+v33,C++,transcript_only,1,180,360,template,0.0222,0.0241,0.0,0.1646,0.1646,2
+v33,C++,transcript_only,1,180,360,data type,0.1248,0.0212,0.458,0.1527,0.1527,3
+v33,C++,transcript_only,2,360,540,pointer,0.1722,0.3418,0.6696,1.0,1.0,1
+v33,C++,transcript_only,2,360,540,data type,0.1248,0.1289,0.458,0.3955,0.3955,2
+v33,C++,transcript_only,2,360,540,variable,0.1958,0.069,0.775,0.2254,0.2254,3
+v33,C++,transcript_only,3,540,720,pointer,0.1601,0.5569,0.6904,1.0,1.0,1
+v33,C++,transcript_only,3,540,720,polymorphism,0.0632,0.108,0.1801,0.1974,0.1974,2
+v33,C++,transcript_only,3,540,720,reference,0.1176,0.084,0.4666,0.1545,0.1545,3
+v34,C++,transcript_only,0,0,180,reference,0.1758,0.4391,0.7943,1.0,1.0,1
+v34,C++,transcript_only,0,0,180,pointer,0.0973,0.3623,0.3248,0.8413,0.8413,2
+v34,C++,transcript_only,0,0,180,variable,0.1493,0.0932,0.6358,0.2853,0.2853,3
+v34,C++,transcript_only,1,180,360,pointer,0.0952,0.2908,0.2849,1.0,1.0,1
+v34,C++,transcript_only,1,180,360,variable,0.1614,0.1128,0.6013,0.4962,0.4962,2
+v34,C++,transcript_only,1,180,360,reference,0.219,0.0754,0.8767,0.3903,0.3903,3
+v34,C++,transcript_only,2,360,540,reference,0.2056,0.5481,0.8608,1.0,1.0,1
+v34,C++,transcript_only,2,360,540,pointer,0.0937,0.2207,0.2837,0.4229,0.4229,2
+v34,C++,transcript_only,2,360,540,object,0.2326,0.0216,1.0,0.0719,0.0719,3
+v34,C++,transcript_only,3,540,720,pointer,0.1083,0.1365,0.5126,1.0,1.0,1
+v34,C++,transcript_only,3,540,720,data type,0.1535,0.0748,0.9183,0.5991,0.5991,2
+v34,C++,transcript_only,3,540,720,polymorphism,0.0871,0.0291,0.3223,0.3021,0.3021,3
+v35,C++,transcript_only,0,0,180,reference,0.1473,0.2958,0.7029,1.0,1.0,1
+v35,C++,transcript_only,0,0,180,data type,0.1581,0.1143,0.7782,0.4592,0.4592,2
+v35,C++,transcript_only,0,0,180,variable,0.1442,0.0774,0.6813,0.3492,0.3492,3
+v35,C++,transcript_only,1,180,360,reference,0.1829,0.2012,0.8025,1.0,1.0,1
+v35,C++,transcript_only,1,180,360,variable,0.1535,0.1673,0.6366,0.8485,0.8485,2
+v35,C++,transcript_only,1,180,360,data type,0.1605,0.1145,0.6761,0.6124,0.6124,3
+v35,C++,transcript_only,2,360,540,reference,0.2008,0.6731,0.7479,1.0,1.0,1
+v35,C++,transcript_only,2,360,540,pointer,0.1387,0.1069,0.4887,0.1794,0.1794,2
+v35,C++,transcript_only,2,360,540,variable,0.1913,0.0731,0.7083,0.1304,0.1304,3
+v36,C++,transcript_only,0,0,180,polymorphism,0.0843,0.2993,0.2774,1.0,1.0,1
+v36,C++,transcript_only,0,0,180,object,0.2101,0.2947,1.0,0.9855,0.9855,2
+v36,C++,transcript_only,0,0,180,class,0.186,0.2712,0.8616,0.9113,0.9113,3
+v36,C++,transcript_only,1,180,360,object,0.1645,0.0769,1.0,1.0,1.0,1
+v36,C++,transcript_only,1,180,360,class,0.1226,0.059,0.6814,0.7669,0.7669,2
+v36,C++,transcript_only,1,180,360,constructor,0.0929,0.0371,0.4555,0.4818,0.4818,3
+v36,C++,transcript_only,2,360,540,class,0.1435,0.044,0.7838,1.0,1.0,1
+v36,C++,transcript_only,2,360,540,template,0.0315,0.0223,0.0,0.7376,0.7376,2
+v36,C++,transcript_only,2,360,540,inheritance,0.0837,0.0211,0.3653,0.7231,0.7231,3
+v36,C++,transcript_only,3,540,720,object,0.1897,0.0972,1.0,1.0,1.0,1
+v36,C++,transcript_only,3,540,720,class,0.1807,0.0606,0.9433,0.6481,0.6481,2
+v36,C++,transcript_only,3,540,720,polymorphism,0.064,0.0518,0.2074,0.5635,0.5635,3
+v36,C++,transcript_only,4,720,900,data type,0.1238,0.0385,0.4251,1.0,1.0,1
+v36,C++,transcript_only,4,720,900,constructor,0.1178,0.0115,0.398,0.6322,0.6322,2
+v36,C++,transcript_only,4,720,900,template,0.0296,0.0069,0.0,0.5695,0.5695,3
+v37,C++,transcript_only,0,0,180,constructor,0.0946,0.3713,0.4403,1.0,1.0,1
+v37,C++,transcript_only,0,0,180,object,0.171,0.1425,1.0,0.4162,0.4162,2
+v37,C++,transcript_only,0,0,180,polymorphism,0.0793,0.1148,0.3282,0.3455,0.3455,3
+v37,C++,transcript_only,1,180,360,constructor,0.0862,0.1175,0.5202,1.0,1.0,1
+v37,C++,transcript_only,1,180,360,inheritance,0.0386,0.0609,0.1284,0.65,0.65,2
+v37,C++,transcript_only,1,180,360,object,0.1445,0.0579,1.0,0.6314,0.6314,3
+v37,C++,transcript_only,2,360,540,constructor,0.0862,0.1374,0.5197,1.0,1.0,1
+v37,C++,transcript_only,2,360,540,class,0.0818,0.0352,0.4836,0.4572,0.4572,2
+v37,C++,transcript_only,2,360,540,object,0.1446,0.024,1.0,0.3978,0.3978,3
+v38,C++,transcript_only,0,0,180,inheritance,0.1051,0.297,0.3129,1.0,1.0,1
+v38,C++,transcript_only,0,0,180,class,0.2026,0.1486,1.0,0.5348,0.5348,2
+v38,C++,transcript_only,0,0,180,object,0.1989,0.1085,0.9739,0.4091,0.4091,3
+v38,C++,transcript_only,1,180,360,class,0.1227,0.1148,0.7319,1.0,1.0,1
+v38,C++,transcript_only,1,180,360,data type,0.1482,0.0856,1.0,0.8176,0.8176,2
+v38,C++,transcript_only,1,180,360,constructor,0.0542,0.0561,0.0116,0.6334,0.6334,3
+v39,C++,transcript_only,0,0,180,class,0.2463,0.1782,1.0,1.0,1.0,1
+v39,C++,transcript_only,0,0,180,inheritance,0.1592,0.1495,0.6113,0.846,0.846,2
+v39,C++,transcript_only,0,0,180,template,0.0222,0.1004,0.0,0.5826,0.5826,3
+v39,C++,transcript_only,1,180,360,class,0.2463,0.15,1.0,1.0,1.0,1
+v39,C++,transcript_only,1,180,360,inheritance,0.1592,0.0845,0.6113,0.6064,0.6064,2
+v39,C++,transcript_only,1,180,360,object,0.2248,0.0569,0.9041,0.4405,0.4405,3
+v39,C++,transcript_only,2,360,540,class,0.2463,0.242,1.0,1.0,1.0,1
+v39,C++,transcript_only,2,360,540,inheritance,0.1592,0.1807,0.6113,0.7471,0.7471,2
+v39,C++,transcript_only,2,360,540,object,0.2248,0.1452,0.9041,0.6007,0.6007,3
+v39,C++,transcript_only,3,540,720,class,0.2802,0.3962,1.0,1.0,1.0,1
+v39,C++,transcript_only,3,540,720,inheritance,0.1691,0.3048,0.5336,0.794,0.794,2
+v39,C++,transcript_only,3,540,720,object,0.2493,0.173,0.8703,0.4968,0.4968,3
+v4,SQL,transcript_only,0,0,180,group by,0.3488,0.5201,1.0,1.0,1.0,1
+v4,SQL,transcript_only,0,0,180,count,0.1525,0.2579,0.2759,0.4769,0.4769,2
+v4,SQL,transcript_only,0,0,180,left join,0.1265,0.1468,0.18,0.2552,0.2552,3
+v4,SQL,transcript_only,1,180,360,group by,0.4055,0.4214,1.0,1.0,1.0,1
+v4,SQL,transcript_only,1,180,360,having,0.1452,0.1965,0.2145,0.4769,0.4769,2
+v4,SQL,transcript_only,1,180,360,where,0.154,0.1576,0.2411,0.3864,0.3864,3
+v4,SQL,transcript_only,2,360,540,count,0.1388,0.3284,0.1862,1.0,1.0,1
+v4,SQL,transcript_only,2,360,540,group by,0.3809,0.215,1.0,0.6335,0.6335,2
+v4,SQL,transcript_only,2,360,540,where,0.1462,0.15,0.2111,0.4234,0.4234,3
+v40,C++,transcript_only,0,0,180,template,0.065,0.5792,0.3461,1.0,1.0,1
+v40,C++,transcript_only,0,0,180,data type,0.1606,0.063,1.0,0.1617,0.1617,2
+v40,C++,transcript_only,0,0,180,polymorphism,0.0882,0.0569,0.5048,0.1518,0.1518,3
+v40,C++,transcript_only,1,180,360,template,0.063,0.34,0.3062,1.0,1.0,1
+v40,C++,transcript_only,1,180,360,data type,0.1618,0.2647,1.0,0.7888,0.7888,2
+v40,C++,transcript_only,1,180,360,polymorphism,0.0918,0.0523,0.5084,0.193,0.193,3
+v40,C++,transcript_only,2,360,540,template,0.0673,0.199,0.3883,1.0,1.0,1
+v40,C++,transcript_only,2,360,540,data type,0.1593,0.1884,1.0,0.9483,0.9483,2
+v40,C++,transcript_only,2,360,540,class,0.0657,0.0767,0.3777,0.4037,0.4037,3
+v40,C++,transcript_only,3,540,720,template,0.0563,0.2496,0.1592,1.0,1.0,1
+v40,C++,transcript_only,3,540,720,class,0.1073,0.0751,0.5515,0.3141,0.3141,2
+v40,C++,transcript_only,3,540,720,data type,0.1656,0.0558,1.0,0.2382,0.2382,3
+v40,C++,transcript_only,4,720,900,template,0.0673,0.4019,0.3883,1.0,1.0,1
+v40,C++,transcript_only,4,720,900,data type,0.1593,0.0752,1.0,0.2175,0.2175,2
+v40,C++,transcript_only,4,720,900,class,0.0656,0.0636,0.377,0.1897,0.1897,3
+v40,C++,transcript_only,5,900,1080,template,0.0673,0.3335,0.3879,1.0,1.0,1
+v40,C++,transcript_only,5,900,1080,object,0.1083,0.0393,0.6607,0.2096,0.2096,2
+v40,C++,transcript_only,5,900,1080,constructor,0.0268,0.0186,0.1184,0.1539,0.1539,3
+v5,Java,transcript_only,0,0,180,interface,0.2044,0.3454,0.0663,1.0,1.0,1
+v5,Java,transcript_only,0,0,180,implements,0.3105,0.3069,0.7172,0.794,0.794,2
+v5,Java,transcript_only,0,0,180,abstract class,0.3566,0.2774,1.0,0.6362,0.6362,3
+v5,Java,transcript_only,1,180,360,interface,0.2043,0.1925,0.0663,1.0,1.0,1
+v5,Java,transcript_only,1,180,360,abstract method,0.2115,0.1738,0.1105,0.9017,0.9017,2
+v5,Java,transcript_only,1,180,360,implements,0.3103,0.128,0.717,0.6609,0.6609,3
+v5,Java,transcript_only,2,360,540,method,0.1911,0.2647,0.0,1.0,1.0,1
+v5,Java,transcript_only,2,360,540,abstract class,0.3504,0.2404,1.0,0.915,0.915,2
+v5,Java,transcript_only,2,360,540,class,0.3173,0.1841,0.7922,0.718,0.718,3
+v6,SQL,transcript_only,0,0,180,select,0.2665,0.5568,0.5809,1.0,1.0,1
+v6,SQL,transcript_only,0,0,180,where,0.1539,0.286,0.2409,0.5037,0.5037,2
+v6,SQL,transcript_only,0,0,180,order by,0.2884,0.2494,0.647,0.4366,0.4366,3
+v6,SQL,transcript_only,1,180,360,group by,0.4053,0.3988,1.0,1.0,1.0,1
+v6,SQL,transcript_only,1,180,360,select,0.2665,0.2475,0.5809,0.6361,0.6361,2
+v6,SQL,transcript_only,1,180,360,order by,0.2884,0.2245,0.647,0.5808,0.5808,3
+v6,SQL,transcript_only,2,360,540,order by,0.2872,0.4673,0.6473,1.0,1.0,1
+v6,SQL,transcript_only,2,360,540,group by,0.4034,0.3005,1.0,0.6411,0.6411,2
+v6,SQL,transcript_only,2,360,540,select,0.2654,0.2983,0.5812,0.6364,0.6364,3
+v7,SQL,transcript_only,0,0,180,select,0.2098,0.624,0.7378,1.0,1.0,1
+v7,SQL,transcript_only,0,0,180,join,0.0908,0.172,0.0946,0.3143,0.3143,2
+v7,SQL,transcript_only,0,0,180,group by,0.2583,0.1642,1.0,0.3025,0.3025,3
+v7,SQL,transcript_only,1,180,360,select,0.2305,0.4522,0.8118,1.0,1.0,1
+v7,SQL,transcript_only,1,180,360,count,0.094,0.375,0.106,0.8372,0.8372,2
+v7,SQL,transcript_only,1,180,360,left join,0.1836,0.2382,0.5693,0.5487,0.5487,3
+v7,SQL,transcript_only,2,360,540,order by,0.2009,0.4778,0.7319,1.0,1.0,1
+v7,SQL,transcript_only,2,360,540,group by,0.2569,0.2192,1.0,0.496,0.496,2
+v7,SQL,transcript_only,2,360,540,subquery,0.1157,0.1911,0.3241,0.4412,0.4412,3
+v8,SQL,transcript_only,0,0,180,select,0.1795,0.179,0.5598,1.0,1.0,1
+v8,SQL,transcript_only,0,0,180,having,0.0915,0.1722,0.1728,0.9595,0.9595,2
+v8,SQL,transcript_only,0,0,180,subquery,0.117,0.1525,0.285,0.842,0.842,3
+v8,SQL,transcript_only,1,180,360,select,0.2007,0.478,0.9165,1.0,1.0,1
+v8,SQL,transcript_only,1,180,360,left join,0.1781,0.199,0.7702,0.3856,0.3856,2
+v8,SQL,transcript_only,1,180,360,subquery,0.1053,0.122,0.299,0.216,0.216,3
+v8,SQL,transcript_only,2,360,540,where,0.0615,0.1381,0.4014,1.0,1.0,1
+v8,SQL,transcript_only,2,360,540,group by,0.1213,0.0707,1.0,0.6155,0.6155,2
+v8,SQL,transcript_only,2,360,540,join,0.0527,0.0676,0.3133,0.5978,0.5978,3
+v8,SQL,transcript_only,3,540,720,order by,0.0771,0.1656,0.7284,1.0,1.0,1
+v8,SQL,transcript_only,3,540,720,left join,0.1041,0.106,1.0,0.6557,0.6557,2
+v8,SQL,transcript_only,3,540,720,select,0.0889,0.0646,0.8471,0.4165,0.4165,3
+v8,SQL,transcript_only,4,720,900,inner join,0.1162,0.1631,0.6618,1.0,1.0,1
+v8,SQL,transcript_only,4,720,900,join,0.0808,0.1295,0.3761,0.8195,0.8195,2
+v8,SQL,transcript_only,4,720,900,left join,0.1581,0.1233,1.0,0.7861,0.7861,3
+v8,SQL,transcript_only,5,900,1080,order by,0.1911,0.2562,0.7321,1.0,1.0,1
+v8,SQL,transcript_only,5,900,1080,group by,0.2442,0.2314,1.0,0.9215,0.9215,2
+v8,SQL,transcript_only,5,900,1080,having,0.0806,0.1955,0.1746,0.8079,0.8079,3
+v9,SQL,transcript_only,0,0,180,count,0.1745,0.2471,0.9468,1.0,1.0,1
+v9,SQL,transcript_only,0,0,180,aggregate function,0.1504,0.2284,0.7886,0.928,0.928,2
+v9,SQL,transcript_only,0,0,180,group by,0.1826,0.1768,1.0,0.7295,0.7295,3
+v9,SQL,transcript_only,1,180,360,count,0.2608,0.4597,1.0,1.0,1.0,1
+v9,SQL,transcript_only,1,180,360,aggregate function,0.2464,0.2588,0.9412,0.5549,0.5549,2
+v9,SQL,transcript_only,1,180,360,select,0.109,0.1997,0.3804,0.424,0.424,3
+v9,SQL,transcript_only,2,360,540,aggregate function,0.2463,0.1682,0.9408,1.0,1.0,1
+v9,SQL,transcript_only,2,360,540,count,0.2608,0.1387,1.0,0.8418,0.8418,2
+v9,SQL,transcript_only,2,360,540,subquery,0.081,0.086,0.2661,0.5592,0.5592,3
+v9,SQL,transcript_only,3,540,720,aggregate function,0.2463,0.525,0.9412,1.0,1.0,1
+v9,SQL,transcript_only,3,540,720,count,0.2607,0.1725,1.0,0.3461,0.3461,2
+v9,SQL,transcript_only,3,540,720,group by,0.1678,0.127,0.6207,0.2617,0.2617,3

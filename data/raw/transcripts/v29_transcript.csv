@@ -1,0 +1,178 @@
+﻿video_id,subject,youtube_id,start_sec,end_sec,start_time,end_time,text
+v29,Java,52frlN8webg,0.0,3.42,00:00:00,00:00:03,hey how's it going you're probably
+v29,Java,52frlN8webg,1.62,4.5,00:00:01,00:00:04,confused about abstract classes right
+v29,Java,52frlN8webg,3.42,7.17,00:00:03,00:00:07,now which is why you click this video
+v29,Java,52frlN8webg,4.5,9.0,00:00:04,00:00:09,but I'm here to tell you that you will
+v29,Java,52frlN8webg,7.17,11.07,00:00:07,00:00:11,not regret that because we're gonna walk
+v29,Java,52frlN8webg,9.0,12.42,00:00:09,00:00:12,through abstract classes and get it
+v29,Java,52frlN8webg,11.07,13.89,00:00:11,00:00:13,working for you but I know for me
+v29,Java,52frlN8webg,12.42,16.47,00:00:12,00:00:16,abstract classes were pretty confusing
+v29,Java,52frlN8webg,13.89,18.48,00:00:13,00:00:18,yeah I'm pretty sure I didn't know what
+v29,Java,52frlN8webg,16.47,20.16,00:00:16,00:00:20,abstract meant when I learned him my
+v29,Java,52frlN8webg,18.48,21.99,00:00:18,00:00:21,name is Alex I make a Java tutorial on
+v29,Java,52frlN8webg,20.16,23.07,00:00:20,00:00:23,this channel every single week so if
+v29,Java,52frlN8webg,21.99,24.72,00:00:21,00:00:24,you're new here and you might be
+v29,Java,52frlN8webg,23.07,26.82,00:00:23,00:00:26,interested in seeing that then please
+v29,Java,52frlN8webg,24.72,29.04,00:00:24,00:00:29,consider subscribing let's start getting
+v29,Java,52frlN8webg,26.82,32.33,00:00:26,00:00:32,an abstract class here by going to file
+v29,Java,52frlN8webg,29.04,37.53,00:00:29,00:00:37,new Java project call it something like
+v29,Java,52frlN8webg,32.33,41.13,00:00:32,00:00:41,abstraction and then hit finish and on
+v29,Java,52frlN8webg,37.53,45.69,00:00:37,00:00:45,the source folder go into new class I'm
+v29,Java,52frlN8webg,41.13,47.4,00:00:41,00:00:47,gonna call it abstract tutorial hit this
+v29,Java,52frlN8webg,45.69,49.95,00:00:45,00:00:49,main method check box and then hit
+v29,Java,52frlN8webg,47.4,53.13,00:00:47,00:00:53,finish an abstract class is basically a
+v29,Java,52frlN8webg,49.95,56.91,00:00:49,00:00:56,bunch of variables and methods that can
+v29,Java,52frlN8webg,53.13,59.96,00:00:53,00:00:59,be used to create other classes so here
+v29,Java,52frlN8webg,56.91,63.66,00:00:56,00:01:03,we can make an abstract class by suing
+v29,Java,52frlN8webg,59.96,68.07,00:00:59,00:01:08,abstract class name is something like
+v29,Java,52frlN8webg,63.66,70.86,00:01:03,00:01:10,dog and what are some values for a dog
+v29,Java,52frlN8webg,68.07,73.47,00:01:08,00:01:13,well we could have like breed or
+v29,Java,52frlN8webg,70.86,75.81,00:01:10,00:01:15,something and what kind of dog do well
+v29,Java,52frlN8webg,73.47,77.58,00:01:13,00:01:17,we could say bark well have it be a
+v29,Java,52frlN8webg,75.81,80.91,00:01:15,00:01:20,normal method and we'll actually
+v29,Java,52frlN8webg,77.58,88.04,00:01:17,00:01:28,implement it too so we could say public
+v29,Java,52frlN8webg,80.91,91.56,00:01:20,00:01:31,void bark method will print out bark
+v29,Java,52frlN8webg,88.04,95.19,00:01:28,00:01:35,like that so we can try to use this
+v29,Java,52frlN8webg,91.56,98.01,00:01:31,00:01:38,abstract class by doing dog D equals
+v29,Java,52frlN8webg,95.19,102.51,00:01:35,00:01:42,near dog and then trying to use it just
+v29,Java,52frlN8webg,98.01,104.22,00:01:38,00:01:44,like any other class a dot bark but it's
+v29,Java,52frlN8webg,102.51,107.82,00:01:42,00:01:47,looking like we got some red underlines
+v29,Java,52frlN8webg,104.22,110.49,00:01:44,00:01:50,and let's see what the error is cannot
+v29,Java,52frlN8webg,107.82,115.05,00:01:47,00:01:55,instantiate the type dog if this was a
+v29,Java,52frlN8webg,110.49,118.08,00:01:50,00:01:58,regular class class dog then you would
+v29,Java,52frlN8webg,115.05,121.2,00:01:55,00:02:01,see that underlines go away and we could
+v29,Java,52frlN8webg,118.08,123.51,00:01:58,00:02:03,do D bark and that would call it bark
+v29,Java,52frlN8webg,121.2,127.53,00:02:01,00:02:07,but as soon as we turn this into an
+v29,Java,52frlN8webg,123.51,129.72,00:02:03,00:02:09,abstract class we cannot use it that's
+v29,Java,52frlN8webg,127.53,132.09,00:02:07,00:02:12,because you can't use an abstract class
+v29,Java,52frlN8webg,129.72,133.87,00:02:09,00:02:13,like a regular class an abstract class
+v29,Java,52frlN8webg,132.09,137.62,00:02:12,00:02:17,helps make regular
+v29,Java,52frlN8webg,133.87,143.97,00:02:13,00:02:23,is that you use there so we can create a
+v29,Java,52frlN8webg,137.62,152.56,00:02:17,00:02:32,new class class Chihuahua Chihuahua
+v29,Java,52frlN8webg,143.97,156.06,00:02:23,00:02:36,class okay and say extends dot so now we
+v29,Java,52frlN8webg,152.56,161.89,00:02:32,00:02:41,can use these through the Chihuahua
+v29,Java,52frlN8webg,156.06,165.78,00:02:36,00:02:45,so we could say Chihuahua D equals new
+v29,Java,52frlN8webg,161.89,170.5,00:02:41,00:02:50,Chihuahua and I'll name it c4 Chihuahua
+v29,Java,52frlN8webg,165.78,173.23,00:02:45,00:02:53,and now if we do that it'll work because
+v29,Java,52frlN8webg,170.5,176.98,00:02:50,00:02:56,now the Chihuahua object is an extension
+v29,Java,52frlN8webg,173.23,178.75,00:02:53,00:02:58,of dog so if it's an extension then it
+v29,Java,52frlN8webg,176.98,180.85,00:02:56,00:03:00,already has what the dog comes with and
+v29,Java,52frlN8webg,178.75,183.19,00:02:58,00:03:03,a little more we just decided not to
+v29,Java,52frlN8webg,180.85,187.03,00:03:00,00:03:07,anything so the things it already comes
+v29,Java,52frlN8webg,183.19,194.58,00:03:03,00:03:14,with is a breed and a bark so we can
+v29,Java,52frlN8webg,187.03,197.11,00:03:07,00:03:17,also print out C breed if we want it to
+v29,Java,52frlN8webg,194.58,199.54,00:03:14,00:03:19,this is no because we're not setting it
+v29,Java,52frlN8webg,197.11,202.9,00:03:17,00:03:22,or using it yet and let's actually get
+v29,Java,52frlN8webg,199.54,204.94,00:03:19,00:03:24,rid of that together because this is the
+v29,Java,52frlN8webg,202.9,207.76,00:03:22,00:03:27,most important part about abstract
+v29,Java,52frlN8webg,204.94,209.71,00:03:24,00:03:29,classes in Java its abstract methods
+v29,Java,52frlN8webg,207.76,211.9,00:03:27,00:03:31,I'll close this up so we can see
+v29,Java,52frlN8webg,209.71,214.33,00:03:29,00:03:34,everything a little better an abstract
+v29,Java,52frlN8webg,211.9,217.36,00:03:31,00:03:37,method is a method that isn't
+v29,Java,52frlN8webg,214.33,219.46,00:03:34,00:03:39,implemented yet so implemented means you
+v29,Java,52frlN8webg,217.36,221.17,00:03:37,00:03:41,put code inside the curly braces we're
+v29,Java,52frlN8webg,219.46,222.37,00:03:39,00:03:42,gonna make an abstract method which
+v29,Java,52frlN8webg,221.17,224.02,00:03:41,00:03:44,means we're not going to put code inside
+v29,Java,52frlN8webg,222.37,227.35,00:03:42,00:03:47,the curly braces so it's the same as
+v29,Java,52frlN8webg,224.02,230.68,00:03:44,00:03:50,before public except we add this new
+v29,Java,52frlN8webg,227.35,236.14,00:03:47,00:03:56,keyword abstract public abstract
+v29,Java,52frlN8webg,230.68,241.33,00:03:50,00:04:01,lloyd bark so we want to do it this way
+v29,Java,52frlN8webg,236.14,243.34,00:03:56,00:04:03,actually we'll change it to poop now we
+v29,Java,52frlN8webg,241.33,245.62,00:04:01,00:04:05,get a red underline under Chihuahua
+v29,Java,52frlN8webg,243.34,248.26,00:04:03,00:04:08,because it needs to now have the poop
+v29,Java,52frlN8webg,245.62,249.97,00:04:05,00:04:09,method since we're extending it we don't
+v29,Java,52frlN8webg,248.26,251.44,00:04:08,00:04:11,have to add the bark because it's
+v29,Java,52frlN8webg,249.97,253.69,00:04:09,00:04:13,already implemented here there's already
+v29,Java,52frlN8webg,251.44,255.85,00:04:11,00:04:15,code it knows what to do but now we have
+v29,Java,52frlN8webg,253.69,257.92,00:04:13,00:04:17,this abstract method which doesn't know
+v29,Java,52frlN8webg,255.85,259.69,00:04:15,00:04:19,what to do when you call it so we have
+v29,Java,52frlN8webg,257.92,265.89,00:04:17,00:04:25,to say what it does when you call it so
+v29,Java,52frlN8webg,259.69,265.89,00:04:19,00:04:25,we can now say public void poop
+v29,Java,52frlN8webg,266.52,280.3,00:04:26,00:04:40,and we want to print out dog pooped okay
+v29,Java,52frlN8webg,277.27,285.79,00:04:37,00:04:45,so now if we do cedar bark and see that
+v29,Java,52frlN8webg,280.3,289.36,00:04:40,00:04:49,poop then we'll see both of those
+v29,Java,52frlN8webg,285.79,291.97,00:04:45,00:04:51,messages so Chihuahua knows how to bark
+v29,Java,52frlN8webg,289.36,293.83,00:04:49,00:04:53,because it extends dog it knows
+v29,Java,52frlN8webg,291.97,297.1,00:04:51,00:04:57,everything inside of here which is why
+v29,Java,52frlN8webg,293.83,299.74,00:04:53,00:04:59,we can call Chihuahua bark it also knows
+v29,Java,52frlN8webg,297.1,301.78,00:04:57,00:05:01,that it needs to poop but it doesn't
+v29,Java,52frlN8webg,299.74,303.94,00:04:59,00:05:03,know what to do since it's not
+v29,Java,52frlN8webg,301.78,305.47,00:05:01,00:05:05,implemented and that's what an abstract
+v29,Java,52frlN8webg,303.94,307.81,00:05:03,00:05:07,method is it's abstract
+v29,Java,52frlN8webg,305.47,310.21,00:05:05,00:05:10,it's an idea it has to have the poop
+v29,Java,52frlN8webg,307.81,311.86,00:05:07,00:05:11,method but it doesn't know what to do so
+v29,Java,52frlN8webg,310.21,314.17,00:05:10,00:05:14,you need to implement it which just
+v29,Java,52frlN8webg,311.86,316.0,00:05:11,00:05:16,means make the method poop and put code
+v29,Java,52frlN8webg,314.17,319.11,00:05:14,00:05:19,in it and that's why it works we could
+v29,Java,52frlN8webg,316.0,323.05,00:05:16,00:05:23,get rid of this abstract method and just
+v29,Java,52frlN8webg,319.11,325.45,00:05:19,00:05:25,add it like this so if we ran it it
+v29,Java,52frlN8webg,323.05,329.65,00:05:23,00:05:29,would still work then you'd be like well
+v29,Java,52frlN8webg,325.45,337.87,00:05:25,00:05:37,why do we even have that abstract method
+v29,Java,52frlN8webg,329.65,342.13,00:05:29,00:05:42,in the first place here well abstract
+v29,Java,52frlN8webg,337.87,344.17,00:05:37,00:05:44,classes help us organize what a dog
+v29,Java,52frlN8webg,342.13,346.33,00:05:42,00:05:46,should have what should this class be
+v29,Java,52frlN8webg,344.17,349.3,00:05:44,00:05:49,able to do so we can just list out and
+v29,Java,52frlN8webg,346.33,351.85,00:05:46,00:05:51,make sure make 100% sure that every
+v29,Java,52frlN8webg,349.3,353.26,00:05:49,00:05:53,single dog has to have this method it
+v29,Java,52frlN8webg,351.85,355.57,00:05:51,00:05:55,might be different for other dogs so
+v29,Java,52frlN8webg,353.26,358.27,00:05:53,00:05:58,that's why we make it abstract so each
+v29,Java,52frlN8webg,355.57,360.76,00:05:55,00:06:00,specific dog can poop a little
+v29,Java,52frlN8webg,358.27,362.47,00:05:58,00:06:02,differently or bark a little differently
+v29,Java,52frlN8webg,360.76,364.78,00:06:00,00:06:04,basically it's saying you have to
+v29,Java,52frlN8webg,362.47,366.7,00:06:02,00:06:06,implement your own poop method but all
+v29,Java,52frlN8webg,364.78,369.37,00:06:04,00:06:09,dogs all these dogs will bark the same
+v29,Java,52frlN8webg,366.7,371.58,00:06:06,00:06:11,is is what this example is so how is
+v29,Java,52frlN8webg,369.37,375.4,00:06:09,00:06:15,this different than an interface an
+v29,Java,52frlN8webg,371.58,380.77,00:06:11,00:06:20,interface is like this you type the
+v29,Java,52frlN8webg,375.4,384.97,00:06:15,00:06:24,interface and say dog interface for
+v29,Java,52frlN8webg,380.77,388.59,00:06:20,00:06:28,example an interface is just a list of
+v29,Java,52frlN8webg,384.97,391.59,00:06:24,00:06:31,variables and methods - so we could have
+v29,Java,52frlN8webg,388.59,391.59,00:06:28,00:06:31,bark
+v29,Java,52frlN8webg,392.23,404.97,00:06:32,00:06:44,and poop would poop but we don't have to
+v29,Java,52frlN8webg,398.95,407.38,00:06:38,00:06:47,put abstract here we can but an
+v29,Java,52frlN8webg,404.97,409.45,00:06:44,00:06:49,interface assumes that all of them will
+v29,Java,52frlN8webg,407.38,412.87,00:06:47,00:06:52,be abstract which means unimplemented
+v29,Java,52frlN8webg,409.45,416.2,00:06:49,00:06:56,here if we try to implement it here just
+v29,Java,52frlN8webg,412.87,418.48,00:06:52,00:06:58,like in the abstract class we try to do
+v29,Java,52frlN8webg,416.2,421.57,00:06:56,00:07:01,that inside of an interface it wouldn't
+v29,Java,52frlN8webg,418.48,423.97,00:06:58,00:07:03,work because look at the message here it
+v29,Java,52frlN8webg,421.57,427.87,00:07:01,00:07:07,says abstract methods do not specify a
+v29,Java,52frlN8webg,423.97,430.75,00:07:03,00:07:10,body why is that message showing up here
+v29,Java,52frlN8webg,427.87,433.0,00:07:07,00:07:12,when the exact same code is right here
+v29,Java,52frlN8webg,430.75,435.31,00:07:10,00:07:15,it's because an interface assumes that
+v29,Java,52frlN8webg,433.0,437.29,00:07:12,00:07:17,all the methods are abstract which means
+v29,Java,52frlN8webg,435.31,440.8,00:07:15,00:07:20,not implemented there's no code inside
+v29,Java,52frlN8webg,437.29,443.47,00:07:17,00:07:23,it's just a list but an abstract class
+v29,Java,52frlN8webg,440.8,446.71,00:07:20,00:07:26,is different because you can have a list
+v29,Java,52frlN8webg,443.47,448.06,00:07:23,00:07:28,of methods and ones that are already
+v29,Java,52frlN8webg,446.71,449.97,00:07:26,00:07:29,implemented so that's the huge
+v29,Java,52frlN8webg,448.06,452.86,00:07:28,00:07:32,difference between interfaces and
+v29,Java,52frlN8webg,449.97,454.63,00:07:29,00:07:34,abstract classes you can't have any
+v29,Java,52frlN8webg,452.86,457.51,00:07:32,00:07:37,implemented methods inside of an
+v29,Java,52frlN8webg,454.63,460.48,00:07:34,00:07:40,interface but you can have both abstract
+v29,Java,52frlN8webg,457.51,461.59,00:07:37,00:07:41,methods and implemented methods inside
+v29,Java,52frlN8webg,460.48,465.4,00:07:40,00:07:45,of an abstract class
+v29,Java,52frlN8webg,461.59,467.74,00:07:41,00:07:47,whew that is a lot of weird words that
+v29,Java,52frlN8webg,465.4,469.45,00:07:45,00:07:49,only programming nerds know I really
+v29,Java,52frlN8webg,467.74,472.06,00:07:47,00:07:52,hope it makes sense to you though if we
+v29,Java,52frlN8webg,469.45,474.25,00:07:49,00:07:54,want to use the dog interface instead of
+v29,Java,52frlN8webg,472.06,477.88,00:07:52,00:07:57,an abstract method we would have to type
+v29,Java,52frlN8webg,474.25,481.72,00:07:54,00:08:01,dog interface and change this from
+v29,Java,52frlN8webg,477.88,483.28,00:07:57,00:08:03,extends to implements because we're
+v29,Java,52frlN8webg,481.72,485.59,00:08:01,00:08:05,implementing the methods from the
+v29,Java,52frlN8webg,483.28,487.81,00:08:03,00:08:07,interface because we know that we're not
+v29,Java,52frlN8webg,485.59,489.91,00:08:05,00:08:09,extending it because extending means
+v29,Java,52frlN8webg,487.81,491.56,00:08:07,00:08:11,adding on to previously implemented
+v29,Java,52frlN8webg,489.91,492.82,00:08:09,00:08:12,methods is that make sense we're
+v29,Java,52frlN8webg,491.56,495.82,00:08:11,00:08:15,implementing all the methods in the
+v29,Java,52frlN8webg,492.82,498.52,00:08:12,00:08:18,interface but we're extending what's
+v29,Java,52frlN8webg,495.82,501.82,00:08:15,00:08:21,already there and also maybe
+v29,Java,52frlN8webg,498.52,506.2,00:08:18,00:08:26,implementing what's in the dog abstract
+v29,Java,52frlN8webg,501.82,508.18,00:08:21,00:08:28,class let me know if this was helpful I
+v29,Java,52frlN8webg,506.2,509.56,00:08:26,00:08:29,wish you the best on your project please
+v29,Java,52frlN8webg,508.18,511.12,00:08:28,00:08:31,let me know if there's anything I can
+v29,Java,52frlN8webg,509.56,512.89,00:08:29,00:08:32,improve on or if I didn't explain
+v29,Java,52frlN8webg,511.12,514.51,00:08:31,00:08:34,correctly thank you have a great rest of
+v29,Java,52frlN8webg,512.89,515.92,00:08:32,00:08:35,your day and I'll see you in the next
+v29,Java,52frlN8webg,514.51,519.14,00:08:34,00:08:39,video
+v29,Java,52frlN8webg,515.92,519.14,00:08:35,00:08:39,[Music]

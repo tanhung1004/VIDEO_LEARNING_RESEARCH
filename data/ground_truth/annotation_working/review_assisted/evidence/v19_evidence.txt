@@ -1,0 +1,168 @@
+VIDEO ID: v19
+SUBJECT: Python
+TITLE: Python Tutorial for Beginners - Break Continue Pass
+URL: https://www.youtube.com/watch?v=yCZBnjF4_tU
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: for loop
+DESCRIPTION: repeat a block of Python code using a for loop
+SEARCH ALIASES: for loop, for loops
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:09 - 00:00:18
+  SECONDS: 9.57 - 18.72
+  MATCH: for loop
+  TEXT: about loops right we have talked about for loop and while loop in this video we'll talk about three keywords break
+
+  HIT 2
+  TIME: 00:01:07 - 00:01:14
+  SECONDS: 67.62 - 74.4
+  MATCH: for loop
+  TEXT: loop so we'll use a while loop here again you can use for loop that's your choice okay but I love for a while loop
+
+  HIT 3
+  TIME: 00:05:57 - 00:06:06
+  SECONDS: 357.95 - 366.35
+  MATCH: for loop
+  TEXT: want to print 0 so just let me start with one ok so that's my for loop and then I just want to print the value of I
+
+------------------------------------------------------------------------
+
+CONCEPT: for
+DESCRIPTION: iterate through elements using the Python for statement
+SEARCH ALIASES: for statement, for loop, for in
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:09 - 00:00:18
+  SECONDS: 9.57 - 18.72
+  MATCH: for loop
+  TEXT: about loops right we have talked about for loop and while loop in this video we'll talk about three keywords break
+
+  HIT 2
+  TIME: 00:01:07 - 00:01:14
+  SECONDS: 67.62 - 74.4
+  MATCH: for loop
+  TEXT: loop so we'll use a while loop here again you can use for loop that's your choice okay but I love for a while loop
+
+  HIT 3
+  TIME: 00:05:57 - 00:06:06
+  SECONDS: 357.95 - 366.35
+  MATCH: for loop
+  TEXT: want to print 0 so just let me start with one ok so that's my for loop and then I just want to print the value of I
+
+------------------------------------------------------------------------
+
+CONCEPT: iteration
+DESCRIPTION: repeatedly process elements in a sequence
+SEARCH ALIASES: iteration, iterations, iterate, iterating
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: range
+DESCRIPTION: generate a sequence of numbers for Python iteration
+SEARCH ALIASES: range, range function
+DIRECT HIT COUNT (top max 3 shown): 1
+
+  HIT 1
+  TIME: 00:06:42 - 00:06:54
+  SECONDS: 402.66 - 414.15
+  MATCH: range
+  TEXT: so what will happen now is when you say for I in range 1 200 every time you say if it is 3 in that case I don't want to
+
+------------------------------------------------------------------------
+
+CONCEPT: list
+DESCRIPTION: sore and process ordered Python elements in a list
+SEARCH ALIASES: list, lists
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: nested loop
+DESCRIPTION: use one loop inside another loop
+SEARCH ALIASES: nested loop, nested loops
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: index
+DESCRIPTION: access an element using its position or index
+SEARCH ALIASES: index, indexing, indices
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: break
+DESCRIPTION: stop a loop early using the break statement
+SEARCH ALIASES: break, break statement
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:11 - 00:00:20
+  SECONDS: 11.07 - 20.49
+  MATCH: break
+  TEXT: for loop and while loop in this video we'll talk about three keywords break continue and pass again why do we need
+
+  HIT 2
+  TIME: 00:03:38 - 00:03:47
+  SECONDS: 218.55 - 227.19
+  MATCH: break
+  TEXT: way you can do that is by using a statement called as break the moment you say break it means hey just could just
+
+  HIT 3
+  TIME: 00:03:40 - 00:03:48
+  SECONDS: 220.65 - 228.75
+  MATCH: break
+  TEXT: statement called as break the moment you say break it means hey just could just jump out of the loop right so let me
+
+------------------------------------------------------------------------
+
+CONCEPT: continue
+DESCRIPTION: skip the current loop iteration using continue
+SEARCH ALIASES: continue, continue statement
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:13 - 00:00:22
+  SECONDS: 13.71 - 22.2
+  MATCH: continue
+  TEXT: we'll talk about three keywords break continue and pass again why do we need that let's see in the code itself
+
+  HIT 2
+  TIME: 00:04:53 - 00:05:01
+  SECONDS: 293.99 - 301.64
+  MATCH: continue
+  TEXT: break statement works the next statement we have is continue so the question is so in the last video I have given you
+
+  HIT 3
+  TIME: 00:06:48 - 00:06:59
+  SECONDS: 408.15 - 419.52
+  MATCH: continue
+  TEXT: if it is 3 in that case I don't want to print I I just want it to continue with the loop let me just run this code for
+
+------------------------------------------------------------------------

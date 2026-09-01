@@ -1,0 +1,48 @@
+﻿video_id,subject,youtube_id,start_sec,end_sec,start_time,end_time,text
+v30,Java,ZRdgrLs-rRo,0.29,6.14,00:00:00,00:00:06,hi this video tutorial I will cover went
+v30,Java,ZRdgrLs-rRo,3.77,10.4,00:00:03,00:00:10,to use abstract methods and abstract
+v30,Java,ZRdgrLs-rRo,6.14,13.52,00:00:06,00:00:13,class here you can see class car which
+v30,Java,ZRdgrLs-rRo,10.4,16.19,00:00:10,00:00:16,is abstract class and it has engine
+v30,Java,ZRdgrLs-rRo,13.52,19.28,00:00:13,00:00:19,method this engine method is abstract
+v30,Java,ZRdgrLs-rRo,16.19,22.28,00:00:16,00:00:22,method and here you can see Honda car
+v30,Java,ZRdgrLs-rRo,19.28,24.98,00:00:19,00:00:24,which extends abstract class car and
+v30,Java,ZRdgrLs-rRo,22.28,27.17,00:00:22,00:00:27,provide implementation of abstract
+v30,Java,ZRdgrLs-rRo,24.98,30.02,00:00:24,00:00:30,method engine
+v30,Java,ZRdgrLs-rRo,27.17,32.54,00:00:27,00:00:32,here you can see Swift car which extends
+v30,Java,ZRdgrLs-rRo,30.02,35.15,00:00:30,00:00:35,abstract class car and provide
+v30,Java,ZRdgrLs-rRo,32.54,38.54,00:00:32,00:00:38,implementation of abstract method engine
+v30,Java,ZRdgrLs-rRo,35.15,41.15,00:00:35,00:00:41,if you notice engine implementation of a
+v30,Java,ZRdgrLs-rRo,38.54,44.86,00:00:38,00:00:44,supercar is different from engine
+v30,Java,ZRdgrLs-rRo,41.15,44.86,00:00:41,00:00:44,implementation of a Honda car
+v30,Java,ZRdgrLs-rRo,44.87,49.82,00:00:44,00:00:49,abstract methods are usually declared
+v30,Java,ZRdgrLs-rRo,47.37,52.05,00:00:47,00:00:52,where two or more subclasses are
+v30,Java,ZRdgrLs-rRo,49.82,54.12,00:00:49,00:00:54,expected to do a similar thing in
+v30,Java,ZRdgrLs-rRo,52.05,57.21,00:00:52,00:00:57,different ways through different
+v30,Java,ZRdgrLs-rRo,54.12,60.06,00:00:54,00:01:00,implementation these subclasses extends
+v30,Java,ZRdgrLs-rRo,57.21,62.19,00:00:57,00:01:02,the same abstract class and provide
+v30,Java,ZRdgrLs-rRo,60.06,66.45,00:01:00,00:01:06,different implementations for the
+v30,Java,ZRdgrLs-rRo,62.19,68.34,00:01:02,00:01:08,abstract methods abstract classes are
+v30,Java,ZRdgrLs-rRo,66.45,70.5,00:01:06,00:01:10,used to define generic types of
+v30,Java,ZRdgrLs-rRo,68.34,72.24,00:01:08,00:01:12,behaviors at the top of an
+v30,Java,ZRdgrLs-rRo,70.5,75.15,00:01:10,00:01:15,object-oriented programming class
+v30,Java,ZRdgrLs-rRo,72.24,77.82,00:01:12,00:01:17,hierarchy and use its subclasses to
+v30,Java,ZRdgrLs-rRo,75.15,81.33,00:01:15,00:01:21,provide implementation details of the
+v30,Java,ZRdgrLs-rRo,77.82,84.62,00:01:17,00:01:24,abstract class here I have defined
+v30,Java,ZRdgrLs-rRo,81.33,84.62,00:01:21,00:01:24,abstract class car
+v30,Java,ZRdgrLs-rRo,86.01,92.65,00:01:26,00:01:32,here i have defined up
+v30,Java,ZRdgrLs-rRo,88.45,96.21,00:01:28,00:01:36,lastest it has main method i am running
+v30,Java,ZRdgrLs-rRo,92.65,96.21,00:01:32,00:01:36,this program in debug mode
+v30,Java,ZRdgrLs-rRo,96.32,98.38,00:01:36,00:01:38,you
+v30,Java,ZRdgrLs-rRo,99.53,105.72,00:01:39,00:01:45,our reference points to Honda car object
+v30,Java,ZRdgrLs-rRo,102.56,108.93,00:01:42,00:01:48,using car reference I am calling engine
+v30,Java,ZRdgrLs-rRo,105.72,111.95,00:01:45,00:01:51,method it will call khandaker object
+v30,Java,ZRdgrLs-rRo,108.93,111.95,00:01:48,00:01:51,engine method
+v30,Java,ZRdgrLs-rRo,117.33,119.39,00:01:57,00:01:59,you
+v30,Java,ZRdgrLs-rRo,120.02,125.05,00:02:00,00:02:05,now car reference points to Swift car
+v30,Java,ZRdgrLs-rRo,122.69,127.96,00:02:02,00:02:07,object you sink
+v30,Java,ZRdgrLs-rRo,125.05,130.42,00:02:05,00:02:10,reference I am calling engine method it
+v30,Java,ZRdgrLs-rRo,127.96,132.78,00:02:07,00:02:12,will call Swift core object engine
+v30,Java,ZRdgrLs-rRo,130.42,132.78,00:02:10,00:02:12,method
+v30,Java,ZRdgrLs-rRo,136.87,143.22,00:02:16,00:02:23,here you can see the output and this is
+v30,Java,ZRdgrLs-rRo,140.27,147.86,00:02:20,00:02:27,when to use abstract methods and
+v30,Java,ZRdgrLs-rRo,143.22,147.86,00:02:23,00:02:27,abstract class and thanks for watching

@@ -1,0 +1,6 @@
+﻿fold,train_videos,heldout_videos,train_chunks,heldout_chunks,video_overlap,lda_vocab_size,lda_topics,lsa_vocab_size,lsa_components,concept_count,lda_fit_scope,lda_heldout_operation,lsa_fit_scope,lsa_heldout_operation,heldout_text_used_in_fit,status
+1,32,8,361,133,0,3000,6,5000,100,39,train_only,transform_only,train_plus_fixed_concepts,transform_only,NO,PASS
+2,32,8,420,74,0,3000,6,5000,100,39,train_only,transform_only,train_plus_fixed_concepts,transform_only,NO,PASS
+3,32,8,437,57,0,3000,6,5000,100,39,train_only,transform_only,train_plus_fixed_concepts,transform_only,NO,PASS
+4,32,8,370,124,0,3000,6,5000,100,39,train_only,transform_only,train_plus_fixed_concepts,transform_only,NO,PASS
+5,32,8,388,106,0,3000,6,5000,100,39,train_only,transform_only,train_plus_fixed_concepts,transform_only,NO,PASS

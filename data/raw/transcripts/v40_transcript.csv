@@ -1,0 +1,516 @@
+﻿video_id,subject,youtube_id,start_sec,end_sec,start_time,end_time,text
+v40,C++,I-hZkUa9mIs,0.0,3.36,00:00:00,00:00:03,hey what's up guys my name is Jonah and
+v40,C++,I-hZkUa9mIs,1.74,5.43,00:00:01,00:00:05,welcome back to my safe loss loss series
+v40,C++,I-hZkUa9mIs,3.36,7.02,00:00:03,00:00:07,so today we're going to be talking all
+v40,C++,I-hZkUa9mIs,5.43,8.31,00:00:05,00:00:08,about templates and I know that you guys
+v40,C++,I-hZkUa9mIs,7.02,10.35,00:00:07,00:00:10,have been requesting this for a while
+v40,C++,I-hZkUa9mIs,8.31,11.79,00:00:08,00:00:11,but it is kind of an advanced topic so I
+v40,C++,I-hZkUa9mIs,10.35,14.4,00:00:10,00:00:14,didn't want to jump into it too quickly
+v40,C++,I-hZkUa9mIs,11.79,16.83,00:00:11,00:00:16,but today we're finally going to start
+v40,C++,I-hZkUa9mIs,14.4,19.62,00:00:14,00:00:19,off with a fairly gentle introduction to
+v40,C++,I-hZkUa9mIs,16.83,21.51,00:00:16,00:00:21,templates in C++ so first of all what is
+v40,C++,I-hZkUa9mIs,19.62,23.79,00:00:19,00:00:23,a template well those of you familiar
+v40,C++,I-hZkUa9mIs,21.51,26.25,00:00:21,00:00:26,with other languages might see this as
+v40,C++,I-hZkUa9mIs,23.79,27.83,00:00:23,00:00:27,kind of generics Riesling Java or C
+v40,C++,I-hZkUa9mIs,26.25,30.24,00:00:26,00:00:30,sharp they're kind of called generic
+v40,C++,I-hZkUa9mIs,27.83,32.04,00:00:27,00:00:32,templates are completely different well
+v40,C++,I-hZkUa9mIs,30.24,34.41,00:00:30,00:00:34,they're not completely different but
+v40,C++,I-hZkUa9mIs,32.04,36.93,00:00:32,00:00:36,they are like infinitely more powerful
+v40,C++,I-hZkUa9mIs,34.41,40.14,00:00:34,00:00:40,than generics in those managed languages
+v40,C++,I-hZkUa9mIs,36.93,42.42,00:00:36,00:00:42,right templates are almost like a bit of
+v40,C++,I-hZkUa9mIs,40.14,44.49,00:00:40,00:00:44,a macro they let you do pretty much
+v40,C++,I-hZkUa9mIs,42.42,46.53,00:00:42,00:00:46,anything whereas generics is very
+v40,C++,I-hZkUa9mIs,44.49,49.35,00:00:44,00:00:49,heavily limited by the type system and
+v40,C++,I-hZkUa9mIs,46.53,52.53,00:00:46,00:00:52,by a lot of other factors templates
+v40,C++,I-hZkUa9mIs,49.35,53.7,00:00:49,00:00:53,specifically are much more powerful and
+v40,C++,I-hZkUa9mIs,52.53,55.35,00:00:52,00:00:55,we're gonna see this as we go along
+v40,C++,I-hZkUa9mIs,53.7,56.97,00:00:53,00:00:56,don't worry I'm gonna probably end up
+v40,C++,I-hZkUa9mIs,55.35,59.49,00:00:55,00:00:59,having like dozens of videos on
+v40,C++,I-hZkUa9mIs,56.97,61.56,00:00:56,00:01:01,templates or something like that so by
+v40,C++,I-hZkUa9mIs,59.49,63.3,00:00:59,00:01:03,no means is this gonna be the only video
+v40,C++,I-hZkUa9mIs,61.56,65.45,00:01:01,00:01:05,I make on templates templates are such a
+v40,C++,I-hZkUa9mIs,63.3,68.4,00:01:03,00:01:08,huge and complex topic and can be
+v40,C++,I-hZkUa9mIs,65.45,69.93,00:01:05,00:01:09,incredibly crazy so we're gonna be
+v40,C++,I-hZkUa9mIs,68.4,71.7,00:01:08,00:01:11,exploring all of that as a serious goes
+v40,C++,I-hZkUa9mIs,69.93,74.22,00:01:09,00:01:14,on so first of all well what is a
+v40,C++,I-hZkUa9mIs,71.7,77.37,00:01:11,00:01:17,template a template basically allows you
+v40,C++,I-hZkUa9mIs,74.22,81.45,00:01:14,00:01:21,to define a template that will be
+v40,C++,I-hZkUa9mIs,77.37,83.19,00:01:17,00:01:23,compiled but like by your usage if that
+v40,C++,I-hZkUa9mIs,81.45,85.5,00:01:21,00:01:25,makes sense you can get the compiler to
+v40,C++,I-hZkUa9mIs,83.19,87.21,00:01:23,00:01:27,write code for you based on a set of
+v40,C++,I-hZkUa9mIs,85.5,89.43,00:01:25,00:01:29,rules that's really what a template is
+v40,C++,I-hZkUa9mIs,87.21,90.9,00:01:27,00:01:30,just the compiler writing code for you
+v40,C++,I-hZkUa9mIs,89.43,93.03,00:01:29,00:01:33,based on the rules that you've given it
+v40,C++,I-hZkUa9mIs,90.9,95.46,00:01:30,00:01:35,when I write a function for example and
+v40,C++,I-hZkUa9mIs,93.03,96.78,00:01:33,00:01:36,I use a template in that function what
+v40,C++,I-hZkUa9mIs,95.46,98.94,00:01:35,00:01:38,I'm actually doing is creating almost
+v40,C++,I-hZkUa9mIs,96.78,100.44,00:01:36,00:01:40,like a blueprint so that what I decide
+v40,C++,I-hZkUa9mIs,98.94,102.57,00:01:38,00:01:42,to call that function I can specify
+v40,C++,I-hZkUa9mIs,100.44,104.64,00:01:40,00:01:44,certain parameters which determine what
+v40,C++,I-hZkUa9mIs,102.57,106.8,00:01:42,00:01:46,code actually gets put into the template
+v40,C++,I-hZkUa9mIs,104.64,108.18,00:01:44,00:01:48,and that is all kind of determined by
+v40,C++,I-hZkUa9mIs,106.8,110.1,00:01:46,00:01:50,the way that I actually use that
+v40,C++,I-hZkUa9mIs,108.18,112.44,00:01:48,00:01:52,function again it's a little bit
+v40,C++,I-hZkUa9mIs,110.1,114.15,00:01:50,00:01:54,difficult to explain and in fact I could
+v40,C++,I-hZkUa9mIs,112.44,116.19,00:01:52,00:01:56,just give you the definition that's on
+v40,C++,I-hZkUa9mIs,114.15,118.11,00:01:54,00:01:58,like say BP reference or on Wikipedia
+v40,C++,I-hZkUa9mIs,116.19,120.21,00:01:56,00:02:00,I'm trying not to do that obviously I
+v40,C++,I-hZkUa9mIs,118.11,121.59,00:01:58,00:02:01,think the best way is just gonna be to
+v40,C++,I-hZkUa9mIs,120.21,123.27,00:02:00,00:02:03,show you what it actually looks like in
+v40,C++,I-hZkUa9mIs,121.59,125.31,00:02:01,00:02:05,the code so a good example of why I
+v40,C++,I-hZkUa9mIs,123.27,127.14,00:02:03,00:02:07,might want to use a template is if I
+v40,C++,I-hZkUa9mIs,125.31,129.3,00:02:05,00:02:09,want to create a function that is
+v40,C++,I-hZkUa9mIs,127.14,131.58,00:02:07,00:02:11,largely going to be the same but may
+v40,C++,I-hZkUa9mIs,129.3,132.32,00:02:09,00:02:12,take in different types maybe I have a
+v40,C++,I-hZkUa9mIs,131.58,134.72,00:02:11,00:02:14,print
+v40,C++,I-hZkUa9mIs,132.32,137.09,00:02:12,00:02:17,that I want to use to print integers so
+v40,C++,I-hZkUa9mIs,134.72,138.44,00:02:14,00:02:18,I might do something like print in value
+v40,C++,I-hZkUa9mIs,137.09,140.69,00:02:17,00:02:20,and all this is gonna do is see out my
+v40,C++,I-hZkUa9mIs,138.44,142.79,00:02:18,00:02:22,value and if I go back down to main I
+v40,C++,I-hZkUa9mIs,140.69,145.22,00:02:20,00:02:25,can call print with a value such as five
+v40,C++,I-hZkUa9mIs,142.79,146.54,00:02:22,00:02:26,and everything will be fine now what if
+v40,C++,I-hZkUa9mIs,145.22,149.06,00:02:25,00:02:29,I want to actually use a string there
+v40,C++,I-hZkUa9mIs,146.54,150.32,00:02:26,00:02:30,instead like Hello so suddenly I need to
+v40,C++,I-hZkUa9mIs,149.06,152.24,00:02:29,00:02:32,actually define another overload for
+v40,C++,I-hZkUa9mIs,150.32,156.2,00:02:30,00:02:36,this function which actually takes in a
+v40,C++,I-hZkUa9mIs,152.24,157.52,00:02:32,00:02:37,string so just like this note that I'm
+v40,C++,I-hZkUa9mIs,156.2,159.29,00:02:36,00:02:39,actually passing this string by value
+v40,C++,I-hZkUa9mIs,157.52,161.03,00:02:37,00:02:41,here because I want to kind of have it
+v40,C++,I-hZkUa9mIs,159.29,162.74,00:02:39,00:02:42,be the same as my print function here
+v40,C++,I-hZkUa9mIs,161.03,164.63,00:02:41,00:02:44,which also takes in the integer by value
+v40,C++,I-hZkUa9mIs,162.74,167.27,00:02:42,00:02:47,then I'm going to basically end up
+v40,C++,I-hZkUa9mIs,164.63,168.62,00:02:44,00:02:48,copying and pasting this code this works
+v40,C++,I-hZkUa9mIs,167.27,170.18,00:02:47,00:02:50,fine in order for this to actually
+v40,C++,I-hZkUa9mIs,168.62,174.41,00:02:48,00:02:54,compile though we do need to include
+v40,C++,I-hZkUa9mIs,170.18,176.69,00:02:50,00:02:56,string now what if I want to print a
+v40,C++,I-hZkUa9mIs,174.41,178.16,00:02:54,00:02:58,float well you kind of are seeing the
+v40,C++,I-hZkUa9mIs,176.69,180.23,00:02:56,00:03:00,picture here I hope if I want to print a
+v40,C++,I-hZkUa9mIs,178.16,181.91,00:02:58,00:03:01,float like five point five then I also
+v40,C++,I-hZkUa9mIs,180.23,183.62,00:03:00,00:03:03,need to basically copy and paste this
+v40,C++,I-hZkUa9mIs,181.91,185.6,00:03:01,00:03:05,function again so now I have three
+v40,C++,I-hZkUa9mIs,183.62,187.46,00:03:03,00:03:07,different functions here which basically
+v40,C++,I-hZkUa9mIs,185.6,189.29,00:03:05,00:03:09,the only thing that changes here is the
+v40,C++,I-hZkUa9mIs,187.46,191.69,00:03:07,00:03:11,actual type of data I'm passing in
+v40,C++,I-hZkUa9mIs,189.29,195.02,00:03:09,00:03:15,because C out can of course accept any
+v40,C++,I-hZkUa9mIs,191.69,197.0,00:03:11,00:03:17,kind of primitive or or built-in C++
+v40,C++,I-hZkUa9mIs,195.02,199.31,00:03:15,00:03:19,type that we're actually using here so
+v40,C++,I-hZkUa9mIs,197.0,201.23,00:03:17,00:03:21,what we've ended up with is manually
+v40,C++,I-hZkUa9mIs,199.31,204.41,00:03:19,00:03:24,defining three different overloads for a
+v40,C++,I-hZkUa9mIs,201.23,206.51,00:03:21,00:03:26,print function that's okay some people
+v40,C++,I-hZkUa9mIs,204.41,207.41,00:03:24,00:03:27,actually prefer to do it this way but
+v40,C++,I-hZkUa9mIs,206.51,210.44,00:03:26,00:03:30,what if we could just define that
+v40,C++,I-hZkUa9mIs,207.41,212.48,00:03:27,00:03:32,function once a good goal for software
+v40,C++,I-hZkUa9mIs,210.44,214.88,00:03:30,00:03:34,engineering in general really is to kind
+v40,C++,I-hZkUa9mIs,212.48,216.92,00:03:32,00:03:36,of avoid code duplication right because
+v40,C++,I-hZkUa9mIs,214.88,218.6,00:03:34,00:03:38,if we decide to actually change one of
+v40,C++,I-hZkUa9mIs,216.92,221.12,00:03:36,00:03:41,these print functions to do something
+v40,C++,I-hZkUa9mIs,218.6,223.13,00:03:38,00:03:43,extraordinary we decide to go from using
+v40,C++,I-hZkUa9mIs,221.12,225.2,00:03:41,00:03:45,C out to print air for one of our own
+v40,C++,I-hZkUa9mIs,223.13,226.55,00:03:43,00:03:46,custom logging functions we have to
+v40,C++,I-hZkUa9mIs,225.2,228.38,00:03:45,00:03:48,change it in all of the places that
+v40,C++,I-hZkUa9mIs,226.55,230.39,00:03:46,00:03:50,we've actually defined that right so in
+v40,C++,I-hZkUa9mIs,228.38,232.52,00:03:48,00:03:52,this case in all three print functions
+v40,C++,I-hZkUa9mIs,230.39,233.78,00:03:50,00:03:53,we have to actually just occurred what
+v40,C++,I-hZkUa9mIs,232.52,236.96,00:03:52,00:03:56,if we could just write that code once
+v40,C++,I-hZkUa9mIs,233.78,239.99,00:03:53,00:03:59,and then somehow be able to fill in the
+v40,C++,I-hZkUa9mIs,236.96,242.03,00:03:56,00:04:02,blank for the type that's where we can
+v40,C++,I-hZkUa9mIs,239.99,243.56,00:03:59,00:04:03,use a template so instead of writing
+v40,C++,I-hZkUa9mIs,242.03,245.51,00:04:02,00:04:05,this code this many times what I'm
+v40,C++,I-hZkUa9mIs,243.56,247.7,00:04:03,00:04:07,actually going to do is just convert
+v40,C++,I-hZkUa9mIs,245.51,249.44,00:04:05,00:04:09,this into being a template the way that
+v40,C++,I-hZkUa9mIs,247.7,252.83,00:04:07,00:04:12,we do this in tactically is before the
+v40,C++,I-hZkUa9mIs,249.44,256.58,00:04:09,00:04:16,return type we write template then open
+v40,C++,I-hZkUa9mIs,252.83,257.54,00:04:12,00:04:17,an angular bracket type name and then
+v40,C++,I-hZkUa9mIs,256.58,259.94,00:04:16,00:04:19,give it a name
+v40,C++,I-hZkUa9mIs,257.54,261.8,00:04:17,00:04:21,typically T is used and then finally we
+v40,C++,I-hZkUa9mIs,259.94,264.41,00:04:19,00:04:24,can use T instead of our actual type
+v40,C++,I-hZkUa9mIs,261.8,265.45,00:04:21,00:04:25,over here so this becomes void print T
+v40,C++,I-hZkUa9mIs,264.41,267.25,00:04:24,00:04:27,value
+v40,C++,I-hZkUa9mIs,265.45,269.53,00:04:25,00:04:29,suddenly if I actually compile this code
+v40,C++,I-hZkUa9mIs,267.25,271.33,00:04:27,00:04:31,by hitting ctrl f7 you can see it
+v40,C++,I-hZkUa9mIs,269.53,273.4,00:04:29,00:04:33,compiles just fine and if in fact if I
+v40,C++,I-hZkUa9mIs,271.33,275.26,00:04:31,00:04:35,run my try by hitting f5 look at that
+v40,C++,I-hZkUa9mIs,273.4,277.51,00:04:33,00:04:37,all three all three functions actually
+v40,C++,I-hZkUa9mIs,275.26,279.85,00:04:35,00:04:39,work even though we've just written one
+v40,C++,I-hZkUa9mIs,277.51,281.62,00:04:37,00:04:41,function so how on earth does this work
+v40,C++,I-hZkUa9mIs,279.85,282.94,00:04:39,00:04:42,and what's actually happening here well
+v40,C++,I-hZkUa9mIs,281.62,284.86,00:04:41,00:04:44,the first thing that gives away that
+v40,C++,I-hZkUa9mIs,282.94,287.17,00:04:42,00:04:47,this is an actual template is well the
+v40,C++,I-hZkUa9mIs,284.86,289.3,00:04:44,00:04:49,word template right this means that this
+v40,C++,I-hZkUa9mIs,287.17,291.37,00:04:47,00:04:51,is a template that will be evaluated at
+v40,C++,I-hZkUa9mIs,289.3,293.65,00:04:49,00:04:53,compile time so basically this is an
+v40,C++,I-hZkUa9mIs,291.37,296.41,00:04:51,00:04:56,actual code this isn't actually a real
+v40,C++,I-hZkUa9mIs,293.65,298.48,00:04:53,00:04:58,function this only gets created when we
+v40,C++,I-hZkUa9mIs,296.41,300.91,00:04:56,00:05:00,actually call it and when we call it
+v40,C++,I-hZkUa9mIs,298.48,303.16,00:04:58,00:05:03,based on how we call it with what types
+v40,C++,I-hZkUa9mIs,300.91,305.38,00:05:00,00:05:05,does this actually get created and
+v40,C++,I-hZkUa9mIs,303.16,306.76,00:05:03,00:05:06,compiled as source code now this next
+v40,C++,I-hZkUa9mIs,305.38,308.98,00:05:05,00:05:08,part is something called a template
+v40,C++,I-hZkUa9mIs,306.76,311.29,00:05:06,00:05:11,parameter in this case we've chosen to
+v40,C++,I-hZkUa9mIs,308.98,314.26,00:05:08,00:05:14,use type name as the type of template
+v40,C++,I-hZkUa9mIs,311.29,315.46,00:05:11,00:05:15,parameter and then T is just a name so
+v40,C++,I-hZkUa9mIs,314.26,317.47,00:05:14,00:05:17,this could be anything we could call
+v40,C++,I-hZkUa9mIs,315.46,318.85,00:05:15,00:05:18,this type with the call this churn over
+v40,C++,I-hZkUa9mIs,317.47,321.39,00:05:17,00:05:21,the course anything we really wanted to
+v40,C++,I-hZkUa9mIs,318.85,323.71,00:05:18,00:05:23,and so what happens is this specific
+v40,C++,I-hZkUa9mIs,321.39,326.14,00:05:21,00:05:26,variable name this template kind of
+v40,C++,I-hZkUa9mIs,323.71,328.3,00:05:23,00:05:28,argument name we can use that throughout
+v40,C++,I-hZkUa9mIs,326.14,331.12,00:05:26,00:05:31,our actual template code to substitute
+v40,C++,I-hZkUa9mIs,328.3,332.77,00:05:28,00:05:32,whatever type in this case gets used so
+v40,C++,I-hZkUa9mIs,331.12,335.56,00:05:31,00:05:35,what we've done is instead of just
+v40,C++,I-hZkUa9mIs,332.77,337.81,00:05:32,00:05:37,writing int value like that where we've
+v40,C++,I-hZkUa9mIs,335.56,340.3,00:05:35,00:05:40,written T value which means that when we
+v40,C++,I-hZkUa9mIs,337.81,342.61,00:05:37,00:05:42,actually call this code whatever type we
+v40,C++,I-hZkUa9mIs,340.3,345.16,00:05:40,00:05:45,specify here is the type that actually
+v40,C++,I-hZkUa9mIs,342.61,346.78,00:05:42,00:05:46,goes into this argument now this is a
+v40,C++,I-hZkUa9mIs,345.16,348.19,00:05:45,00:05:48,little bit harder to read in this case
+v40,C++,I-hZkUa9mIs,346.78,350.32,00:05:46,00:05:50,because when I actually specifying the
+v40,C++,I-hZkUa9mIs,348.19,352.42,00:05:48,00:05:52,type explicitly it's just kind of
+v40,C++,I-hZkUa9mIs,350.32,354.46,00:05:50,00:05:54,getting it implicitly from the actual
+v40,C++,I-hZkUa9mIs,352.42,356.35,00:05:52,00:05:56,parameters here in this case but what we
+v40,C++,I-hZkUa9mIs,354.46,358.42,00:05:54,00:05:58,can do is when we call print we can
+v40,C++,I-hZkUa9mIs,356.35,359.98,00:05:56,00:05:59,actually specify using angular brackets
+v40,C++,I-hZkUa9mIs,358.42,362.05,00:05:58,00:06:02,here the type that we want so for
+v40,C++,I-hZkUa9mIs,359.98,363.79,00:05:59,00:06:03,example print int if I let's just get
+v40,C++,I-hZkUa9mIs,362.05,365.65,00:06:02,00:06:05,rid of these and keep it real simple for
+v40,C++,I-hZkUa9mIs,363.79,367.96,00:06:03,00:06:07,now so what we've done here is we've
+v40,C++,I-hZkUa9mIs,365.65,371.02,00:06:05,00:06:11,pulled the print function with the type
+v40,C++,I-hZkUa9mIs,367.96,373.06,00:06:07,00:06:13,int this this template argument here
+v40,C++,I-hZkUa9mIs,371.02,375.25,00:06:11,00:06:15,accepts a type name now you can also
+v40,C++,I-hZkUa9mIs,373.06,377.5,00:06:13,00:06:17,write this as class by the way it is
+v40,C++,I-hZkUa9mIs,375.25,380.29,00:06:15,00:06:20,exactly the same synonymous right class
+v40,C++,I-hZkUa9mIs,377.5,382.63,00:06:17,00:06:22,class type name I tend to use type name
+v40,C++,I-hZkUa9mIs,380.29,384.49,00:06:20,00:06:24,because class by just reading the code
+v40,C++,I-hZkUa9mIs,382.63,387.43,00:06:22,00:06:27,class kind of implies that it has to be
+v40,C++,I-hZkUa9mIs,384.49,388.78,00:06:24,00:06:28,a class type that's not true as you can
+v40,C++,I-hZkUa9mIs,387.43,391.51,00:06:27,00:06:31,see this coastal compiles even though
+v40,C++,I-hZkUa9mIs,388.78,393.85,00:06:28,00:06:33,I'm using int so because of that I tend
+v40,C++,I-hZkUa9mIs,391.51,394.5,00:06:31,00:06:34,to just use type name because it just
+v40,C++,I-hZkUa9mIs,393.85,397.14,00:06:33,00:06:37,makes more
+v40,C++,I-hZkUa9mIs,394.5,398.61,00:06:34,00:06:38,so we write type name T which means that
+v40,C++,I-hZkUa9mIs,397.14,401.16,00:06:37,00:06:41,the first half of that argument that we
+v40,C++,I-hZkUa9mIs,398.61,403.56,00:06:38,00:06:43,have here is an actual type so we can
+v40,C++,I-hZkUa9mIs,401.16,405.15,00:06:41,00:06:45,write end here we can write STD string
+v40,C++,I-hZkUa9mIs,403.56,407.01,00:06:43,00:06:47,we can write whatever we want obviously
+v40,C++,I-hZkUa9mIs,405.15,408.78,00:06:45,00:06:48,if we write STD string then what
+v40,C++,I-hZkUa9mIs,407.01,411.03,00:06:47,00:06:51,actually happens as T gets replaced with
+v40,C++,I-hZkUa9mIs,408.78,412.98,00:06:48,00:06:52,the type that we've specified STD string
+v40,C++,I-hZkUa9mIs,411.03,415.77,00:06:51,00:06:55,which means that we are obviously are
+v40,C++,I-hZkUa9mIs,412.98,417.27,00:06:52,00:06:57,taking in a string value hence why this
+v40,C++,I-hZkUa9mIs,415.77,419.55,00:06:55,00:06:59,code is not compiling so we actually
+v40,C++,I-hZkUa9mIs,417.27,421.23,00:06:57,00:07:01,have to write something here like China
+v40,C++,I-hZkUa9mIs,419.55,424.98,00:06:59,00:07:04,or something now if we go back to our
+v40,C++,I-hZkUa9mIs,421.23,427.26,00:07:01,00:07:07,five example we can specify int here but
+v40,C++,I-hZkUa9mIs,424.98,429.57,00:07:04,00:07:09,we don't have to if it's possible for
+v40,C++,I-hZkUa9mIs,427.26,431.88,00:07:07,00:07:11,the type to actually be worked out by
+v40,C++,I-hZkUa9mIs,429.57,433.92,00:07:09,00:07:13,the argument that we use here either by
+v40,C++,I-hZkUa9mIs,431.88,436.47,00:07:11,00:07:16,the return value which which we can talk
+v40,C++,I-hZkUa9mIs,433.92,438.3,00:07:13,00:07:18,about later or by the actual parameter
+v40,C++,I-hZkUa9mIs,436.47,440.46,00:07:16,00:07:20,here so in other words a plus boss knows
+v40,C++,I-hZkUa9mIs,438.3,442.59,00:07:18,00:07:22,that five is an integer it can
+v40,C++,I-hZkUa9mIs,440.46,444.54,00:07:20,00:07:24,automatically deduce what type T should
+v40,C++,I-hZkUa9mIs,442.59,446.22,00:07:22,00:07:26,be which is why we don't actually have
+v40,C++,I-hZkUa9mIs,444.54,448.26,00:07:24,00:07:28,to specify it using those angular
+v40,C++,I-hZkUa9mIs,446.22,450.03,00:07:26,00:07:30,brackets which makes our job a bit even
+v40,C++,I-hZkUa9mIs,448.26,452.1,00:07:28,00:07:32,easier now that being said let me show
+v40,C++,I-hZkUa9mIs,450.03,454.35,00:07:30,00:07:34,you explicitly what actually happens if
+v40,C++,I-hZkUa9mIs,452.1,457.2,00:07:32,00:07:37,you do not write anything so I'm not
+v40,C++,I-hZkUa9mIs,454.35,459.21,00:07:34,00:07:39,using this print function at all this
+v40,C++,I-hZkUa9mIs,457.2,461.73,00:07:37,00:07:41,print function does not really exist
+v40,C++,I-hZkUa9mIs,459.21,464.52,00:07:39,00:07:44,this print function is just a template
+v40,C++,I-hZkUa9mIs,461.73,466.26,00:07:41,00:07:46,which actually gets created when we call
+v40,C++,I-hZkUa9mIs,464.52,468.09,00:07:44,00:07:48,the print function with the given
+v40,C++,I-hZkUa9mIs,466.26,470.31,00:07:46,00:07:50,template argument and I can even prove
+v40,C++,I-hZkUa9mIs,468.09,472.32,00:07:48,00:07:52,this by making a syntax error here so
+v40,C++,I-hZkUa9mIs,470.31,474.45,00:07:50,00:07:54,let's just say instead of value I forget
+v40,C++,I-hZkUa9mIs,472.32,475.95,00:07:52,00:07:55,not a know the e or something so I'm
+v40,C++,I-hZkUa9mIs,474.45,477.9,00:07:54,00:07:57,just printing value now clearly this is
+v40,C++,I-hZkUa9mIs,475.95,480.09,00:07:55,00:08:00,an error because there is no variable
+v40,C++,I-hZkUa9mIs,477.9,482.16,00:07:57,00:08:02,called value so if I hit control f7 to
+v40,C++,I-hZkUa9mIs,480.09,483.96,00:08:00,00:08:03,compile my code look at that it compiles
+v40,C++,I-hZkUa9mIs,482.16,486.3,00:08:02,00:08:06,just fine and that's because the
+v40,C++,I-hZkUa9mIs,483.96,488.7,00:08:03,00:08:08,template doesn't really exist until we
+v40,C++,I-hZkUa9mIs,486.3,490.5,00:08:06,00:08:10,call it if I go back to my code and I
+v40,C++,I-hZkUa9mIs,488.7,492.69,00:08:08,00:08:12,actually try and call print with like
+v40,C++,I-hZkUa9mIs,490.5,493.2,00:08:10,00:08:13,the value 5 or something and hit control
+v40,C++,I-hZkUa9mIs,492.69,496.02,00:08:12,00:08:16,f7
+v40,C++,I-hZkUa9mIs,493.2,498.33,00:08:13,00:08:18,at that point you can see I actually do
+v40,C++,I-hZkUa9mIs,496.02,500.52,00:08:16,00:08:20,get an error here telling me the value
+v40,C++,I-hZkUa9mIs,498.33,502.2,00:08:18,00:08:22,is an undeclared identifier and again
+v40,C++,I-hZkUa9mIs,500.52,504.84,00:08:20,00:08:24,that's because the template only gets
+v40,C++,I-hZkUa9mIs,502.2,506.52,00:08:22,00:08:26,created when we actually call it because
+v40,C++,I-hZkUa9mIs,504.84,509.13,00:08:24,00:08:29,it's just a template it's not actual
+v40,C++,I-hZkUa9mIs,506.52,511.53,00:08:26,00:08:31,card it gets materialized I guess into
+v40,C++,I-hZkUa9mIs,509.13,513.78,00:08:29,00:08:33,real code that gets sent to the compiler
+v40,C++,I-hZkUa9mIs,511.53,516.93,00:08:31,00:08:36,and compiled based on the usage of the
+v40,C++,I-hZkUa9mIs,513.78,518.64,00:08:33,00:08:38,template now MSV c won't tell you about
+v40,C++,I-hZkUa9mIs,516.93,520.95,00:08:36,00:08:40,errors in templates that you're not
+v40,C++,I-hZkUa9mIs,518.64,523.24,00:08:38,00:08:43,actually using some compilers like clang
+v40,C++,I-hZkUa9mIs,520.95,525.04,00:08:40,00:08:45,actually will so it is kind of compiled
+v40,C++,I-hZkUa9mIs,523.24,526.84,00:08:43,00:08:46,dependent but in this case you can see
+v40,C++,I-hZkUa9mIs,525.04,528.43,00:08:45,00:08:48,we don't actually get any errors we've
+v40,C++,I-hZkUa9mIs,526.84,530.26,00:08:46,00:08:50,written code that's not really correct
+v40,C++,I-hZkUa9mIs,528.43,531.61,00:08:48,00:08:51,but until we call the template it
+v40,C++,I-hZkUa9mIs,530.26,533.23,00:08:50,00:08:53,doesn't exist so we don't get any
+v40,C++,I-hZkUa9mIs,531.61,536.47,00:08:51,00:08:56,compiler errors so what actually happens
+v40,C++,I-hZkUa9mIs,533.23,538.0,00:08:53,00:08:58,when we compile this template is it
+v40,C++,I-hZkUa9mIs,536.47,540.01,00:08:56,00:09:00,knows in this case that we have used
+v40,C++,I-hZkUa9mIs,538.0,543.4,00:08:58,00:09:03,five here right which means that the
+v40,C++,I-hZkUa9mIs,540.01,545.71,00:09:00,00:09:05,type name is actually an integer so what
+v40,C++,I-hZkUa9mIs,543.4,547.93,00:09:03,00:09:07,happens is it basically fills in the
+v40,C++,I-hZkUa9mIs,545.71,549.82,00:09:05,00:09:09,blanks here so it would be equivalent as
+v40,C++,I-hZkUa9mIs,547.93,552.58,00:09:07,00:09:12,to if we just copied and pasted this
+v40,C++,I-hZkUa9mIs,549.82,554.02,00:09:09,00:09:14,method and then replace T with an actual
+v40,C++,I-hZkUa9mIs,552.58,556.48,00:09:12,00:09:16,int because that's what we're calling
+v40,C++,I-hZkUa9mIs,554.02,558.37,00:09:14,00:09:18,here and now this is a real function
+v40,C++,I-hZkUa9mIs,556.48,560.38,00:09:16,00:09:20,that has to get linked and everything
+v40,C++,I-hZkUa9mIs,558.37,562.27,00:09:18,00:09:22,when we actually compile and Link this
+v40,C++,I-hZkUa9mIs,560.38,563.86,00:09:20,00:09:23,code so let's just fix that syntax error
+v40,C++,I-hZkUa9mIs,562.27,566.2,00:09:22,00:09:26,we had there and that is actually what
+v40,C++,I-hZkUa9mIs,563.86,568.36,00:09:23,00:09:28,happens in this case now when we call
+v40,C++,I-hZkUa9mIs,566.2,571.06,00:09:26,00:09:31,print with a different argument like a
+v40,C++,I-hZkUa9mIs,568.36,572.92,00:09:28,00:09:32,flirt for example another version of
+v40,C++,I-hZkUa9mIs,571.06,574.81,00:09:31,00:09:34,this template actually gets created so
+v40,C++,I-hZkUa9mIs,572.92,576.7,00:09:32,00:09:36,this gets copied and pasted and then
+v40,C++,I-hZkUa9mIs,574.81,578.95,00:09:34,00:09:38,instead of T this time we're using a
+v40,C++,I-hZkUa9mIs,576.7,580.87,00:09:36,00:09:40,flirt so you kind of get the picture
+v40,C++,I-hZkUa9mIs,578.95,583.09,00:09:38,00:09:43,really all this is is a template
+v40,C++,I-hZkUa9mIs,580.87,585.04,00:09:40,00:09:45,specifying how to create methods and
+v40,C++,I-hZkUa9mIs,583.09,586.9,00:09:43,00:09:46,these methods all these functions can be
+v40,C++,I-hZkUa9mIs,585.04,589.24,00:09:45,00:09:49,created or automatically by the compiler
+v40,C++,I-hZkUa9mIs,586.9,591.28,00:09:46,00:09:51,based on your usage of them which is
+v40,C++,I-hZkUa9mIs,589.24,593.2,00:09:49,00:09:53,pretty cool now templates are by no
+v40,C++,I-hZkUa9mIs,591.28,594.82,00:09:51,00:09:54,means just limited to types or anything
+v40,C++,I-hZkUa9mIs,593.2,596.56,00:09:53,00:09:56,like that and they're not limited to
+v40,C++,I-hZkUa9mIs,594.82,599.05,00:09:54,00:09:59,functions either you can actually create
+v40,C++,I-hZkUa9mIs,596.56,601.42,00:09:56,00:10:01,entire classes based on templates and in
+v40,C++,I-hZkUa9mIs,599.05,604.15,00:09:59,00:10:04,fact that's a lot of what the standard
+v40,C++,I-hZkUa9mIs,601.42,606.67,00:10:01,00:10:06,template library actually is in C++ it's
+v40,C++,I-hZkUa9mIs,604.15,607.99,00:10:04,00:10:07,just completely using templates let's
+v40,C++,I-hZkUa9mIs,606.67,609.82,00:10:06,00:10:09,take a look at an example where we're
+v40,C++,I-hZkUa9mIs,607.99,612.04,00:10:07,00:10:12,not actually using a type as a template
+v40,C++,I-hZkUa9mIs,609.82,613.63,00:10:09,00:10:13,argument and let's do it for a class
+v40,C++,I-hZkUa9mIs,612.04,615.37,00:10:12,00:10:15,instead of for a function let's just get
+v40,C++,I-hZkUa9mIs,613.63,616.87,00:10:13,00:10:16,rid of this print function that we've
+v40,C++,I-hZkUa9mIs,615.37,618.22,00:10:15,00:10:18,created over here and let's create a
+v40,C++,I-hZkUa9mIs,616.87,620.86,00:10:16,00:10:20,class suppose that I wanted to create an
+v40,C++,I-hZkUa9mIs,618.22,622.81,00:10:18,00:10:22,array but I wanted this array class to
+v40,C++,I-hZkUa9mIs,620.86,624.46,00:10:20,00:10:24,actually be created on the stack so what
+v40,C++,I-hZkUa9mIs,622.81,626.47,00:10:22,00:10:26,I basically mean is let's just create a
+v40,C++,I-hZkUa9mIs,624.46,629.11,00:10:24,00:10:29,class called array and then over here
+v40,C++,I-hZkUa9mIs,626.47,631.48,00:10:26,00:10:31,maybe it's an integer array in this case
+v40,C++,I-hZkUa9mIs,629.11,634.21,00:10:29,00:10:34,I actually want to have an array that
+v40,C++,I-hZkUa9mIs,631.48,637.15,00:10:31,00:10:37,has some kind of size that is determined
+v40,C++,I-hZkUa9mIs,634.21,639.55,00:10:34,00:10:39,at compile time now I can't just kind of
+v40,C++,I-hZkUa9mIs,637.15,641.38,00:10:37,00:10:41,put in a variable size or anything like
+v40,C++,I-hZkUa9mIs,639.55,643.3,00:10:39,00:10:43,that because since this is a stack
+v40,C++,I-hZkUa9mIs,641.38,644.98,00:10:41,00:10:44,allocated array it actually has to be
+v40,C++,I-hZkUa9mIs,643.3,646.51,00:10:43,00:10:46,known at compile time now obviously we
+v40,C++,I-hZkUa9mIs,644.98,648.52,00:10:44,00:10:48,could use alakay or something like that
+v40,C++,I-hZkUa9mIs,646.51,650.05,00:10:46,00:10:50,to grow the stack dynamically we're not
+v40,C++,I-hZkUa9mIs,648.52,652.66,00:10:48,00:10:52,going to use any of that in this example
+v40,C++,I-hZkUa9mIs,650.05,653.29,00:10:50,00:10:53,we just want to basically create a
+v40,C++,I-hZkUa9mIs,652.66,655.6,00:10:52,00:10:55,normal
+v40,C++,I-hZkUa9mIs,653.29,657.34,00:10:53,00:10:57,kind of see style array on the stack so
+v40,C++,I-hZkUa9mIs,655.6,659.41,00:10:55,00:10:59,this size value does in fact have to be
+v40,C++,I-hZkUa9mIs,657.34,661.27,00:10:57,00:11:01,known at compile time now templates are
+v40,C++,I-hZkUa9mIs,659.41,663.25,00:10:59,00:11:03,evaluated at compile time so this is
+v40,C++,I-hZkUa9mIs,661.27,665.38,00:11:01,00:11:05,perfect what I can do is convert this
+v40,C++,I-hZkUa9mIs,663.25,667.66,00:11:03,00:11:07,class into being a template but instead
+v40,C++,I-hZkUa9mIs,665.38,670.33,00:11:05,00:11:10,of using type name as it as my template
+v40,C++,I-hZkUa9mIs,667.66,673.18,00:11:07,00:11:13,argument I can actually use just an
+v40,C++,I-hZkUa9mIs,670.33,675.01,00:11:10,00:11:15,integer right I'll call this n which is
+v40,C++,I-hZkUa9mIs,673.18,676.51,00:11:13,00:11:16,basically just as for number and then
+v40,C++,I-hZkUa9mIs,675.01,678.55,00:11:15,00:11:18,instead of size over here I'm going to
+v40,C++,I-hZkUa9mIs,676.51,680.38,00:11:16,00:11:20,write n and then finally I'll just add
+v40,C++,I-hZkUa9mIs,678.55,681.88,00:11:18,00:11:21,one public function to this array which
+v40,C++,I-hZkUa9mIs,680.38,683.8,00:11:20,00:11:23,is just going to return the size of the
+v40,C++,I-hZkUa9mIs,681.88,686.8,00:11:21,00:11:26,array so I'll write int get size and
+v40,C++,I-hZkUa9mIs,683.8,688.84,00:11:23,00:11:28,then I'll just return and okay so what's
+v40,C++,I-hZkUa9mIs,686.8,690.61,00:11:26,00:11:30,going to happen here is exactly the same
+v40,C++,I-hZkUa9mIs,688.84,693.07,00:11:28,00:11:33,thing that actually happened with our
+v40,C++,I-hZkUa9mIs,690.61,696.31,00:11:30,00:11:36,function when we call this array and we
+v40,C++,I-hZkUa9mIs,693.07,699.4,00:11:33,00:11:39,specify a size like five and I'll just
+v40,C++,I-hZkUa9mIs,696.31,701.8,00:11:36,00:11:41,call this array what happens is if this
+v40,C++,I-hZkUa9mIs,699.4,703.15,00:11:39,00:11:43,card gets compiled based on its usage so
+v40,C++,I-hZkUa9mIs,701.8,705.19,00:11:41,00:11:45,in this case five is the template
+v40,C++,I-hZkUa9mIs,703.15,707.92,00:11:43,00:11:47,argument which means that a version of
+v40,C++,I-hZkUa9mIs,705.19,710.62,00:11:45,00:11:50,this class gets created which replaces n
+v40,C++,I-hZkUa9mIs,707.92,712.48,00:11:47,00:11:52,with five like that and like that so
+v40,C++,I-hZkUa9mIs,710.62,714.67,00:11:50,00:11:54,this is actually what we end up with
+v40,C++,I-hZkUa9mIs,712.48,716.98,00:11:52,00:11:56,this is the code that we end up with and
+v40,C++,I-hZkUa9mIs,714.67,719.41,00:11:54,00:11:59,then of course if I call a raid or get
+v40,C++,I-hZkUa9mIs,716.98,720.73,00:11:56,00:12:00,size here and print that to the console
+v40,C++,I-hZkUa9mIs,719.41,722.98,00:11:59,00:12:02,or get rid of this extra copy I've
+v40,C++,I-hZkUa9mIs,720.73,725.05,00:12:00,00:12:05,created here that's my card let's hit f5
+v40,C++,I-hZkUa9mIs,722.98,726.73,00:12:02,00:12:06,you can see that I get five printing so
+v40,C++,I-hZkUa9mIs,725.05,728.14,00:12:05,00:12:08,that's how it works so you can see that
+v40,C++,I-hZkUa9mIs,726.73,730.81,00:12:06,00:12:10,we don't just have to use types we can
+v40,C++,I-hZkUa9mIs,728.14,732.4,00:12:08,00:12:12,even use integers or other data types to
+v40,C++,I-hZkUa9mIs,730.81,734.77,00:12:10,00:12:14,basically specify how we want to
+v40,C++,I-hZkUa9mIs,732.4,737.17,00:12:12,00:12:17,generate a class an entire class in this
+v40,C++,I-hZkUa9mIs,734.77,738.31,00:12:14,00:12:18,case let's go one step further suppose
+v40,C++,I-hZkUa9mIs,737.17,740.23,00:12:17,00:12:20,it is said of this being an INT
+v40,C++,I-hZkUa9mIs,738.31,742.72,00:12:18,00:12:22,explicitly oh I also wanted to make the
+v40,C++,I-hZkUa9mIs,740.23,744.88,00:12:20,00:12:24,type actually variable so I wanted to be
+v40,C++,I-hZkUa9mIs,742.72,747.64,00:12:22,00:12:27,able to specify what type this array
+v40,C++,I-hZkUa9mIs,744.88,749.32,00:12:24,00:12:29,actually contains at compile time well I
+v40,C++,I-hZkUa9mIs,747.64,751.24,00:12:27,00:12:31,can add another template arguments let's
+v40,C++,I-hZkUa9mIs,749.32,754.36,00:12:29,00:12:34,add this one before the number so I'll
+v40,C++,I-hZkUa9mIs,751.24,756.43,00:12:31,00:12:36,just write type name T and then int n
+v40,C++,I-hZkUa9mIs,754.36,758.8,00:12:34,00:12:38,right so now I'm going to replace this
+v40,C++,I-hZkUa9mIs,756.43,761.53,00:12:36,00:12:41,int with T and suddenly what I've got is
+v40,C++,I-hZkUa9mIs,758.8,764.17,00:12:38,00:12:44,an array of type T which is specified at
+v40,C++,I-hZkUa9mIs,761.53,766.03,00:12:41,00:12:46,compile time by the template that is of
+v40,C++,I-hZkUa9mIs,764.17,767.62,00:12:44,00:12:47,size n which is also specified by
+v40,C++,I-hZkUa9mIs,766.03,769.33,00:12:46,00:12:49,compile times so now over here what I
+v40,C++,I-hZkUa9mIs,767.62,771.82,00:12:47,00:12:51,actually call this array I have to
+v40,C++,I-hZkUa9mIs,769.33,773.68,00:12:49,00:12:53,specify int as an example and five for
+v40,C++,I-hZkUa9mIs,771.82,775.51,00:12:51,00:12:55,my size and I can obviously change this
+v40,C++,I-hZkUa9mIs,773.68,778.21,00:12:53,00:12:58,to be anything I want like SAEs string
+v40,C++,I-hZkUa9mIs,775.51,779.65,00:12:55,00:12:59,and 50 or whatever and you can see that
+v40,C++,I-hZkUa9mIs,778.21,781.81,00:12:58,00:13:01,what I've created is kind of a class
+v40,C++,I-hZkUa9mIs,779.65,783.91,00:12:59,00:13:03,that gets automatically created every
+v40,C++,I-hZkUa9mIs,781.81,784.93,00:13:01,00:13:04,time I actually use this array so that's
+v40,C++,I-hZkUa9mIs,783.91,785.68,00:13:03,00:13:05,pretty cool and what we've actually
+v40,C++,I-hZkUa9mIs,784.93,787.66,00:13:04,00:13:07,created
+v40,C++,I-hZkUa9mIs,785.68,789.16,00:13:05,00:13:09,is very similar to how the standard
+v40,C++,I-hZkUa9mIs,787.66,791.14,00:13:07,00:13:11,array class actually works in the
+v40,C++,I-hZkUa9mIs,789.16,792.94,00:13:09,00:13:12,standard template library that say the
+v40,C++,I-hZkUa9mIs,791.14,795.16,00:13:11,00:13:15,say plus plus right it just has two
+v40,C++,I-hZkUa9mIs,792.94,796.72,00:13:12,00:13:16,template arguments type and size and it
+v40,C++,I-hZkUa9mIs,795.16,798.37,00:13:15,00:13:18,creates an array very similar to the way
+v40,C++,I-hZkUa9mIs,796.72,800.71,00:13:16,00:13:20,that we've actually done it here now
+v40,C++,I-hZkUa9mIs,798.37,802.69,00:13:18,00:13:22,this is a sort of matter programming in
+v40,C++,I-hZkUa9mIs,800.71,804.22,00:13:20,00:13:24,C++ because you can see instead of
+v40,C++,I-hZkUa9mIs,802.69,806.59,00:13:22,00:13:26,actually programming what our code does
+v40,C++,I-hZkUa9mIs,804.22,808.24,00:13:24,00:13:28,at runtime were kind of programming what
+v40,C++,I-hZkUa9mIs,806.59,810.64,00:13:26,00:13:30,the compiler will actually do during
+v40,C++,I-hZkUa9mIs,808.24,812.98,00:13:28,00:13:32,compile time and this is extremely
+v40,C++,I-hZkUa9mIs,810.64,814.6,00:13:30,00:13:34,powerful now what we're doing here I
+v40,C++,I-hZkUa9mIs,812.98,816.31,00:13:32,00:13:36,think this is a pretty good kind of
+v40,C++,I-hZkUa9mIs,814.6,817.78,00:13:34,00:13:37,gentle introduction we've even kind of
+v40,C++,I-hZkUa9mIs,816.31,819.49,00:13:36,00:13:39,gone as far as to create multiple
+v40,C++,I-hZkUa9mIs,817.78,821.8,00:13:37,00:13:41,template arguments and use integers
+v40,C++,I-hZkUa9mIs,819.49,823.54,00:13:39,00:13:43,instead of just kind of type names but
+v40,C++,I-hZkUa9mIs,821.8,827.05,00:13:41,00:13:47,this is just scratching the surface I
+v40,C++,I-hZkUa9mIs,823.54,829.24,00:13:43,00:13:49,mean this can get really crazy really
+v40,C++,I-hZkUa9mIs,827.05,831.22,00:13:47,00:13:51,quickly and because of that I kind of
+v40,C++,I-hZkUa9mIs,829.24,833.05,00:13:49,00:13:53,want to talk about where you might want
+v40,C++,I-hZkUa9mIs,831.22,834.91,00:13:51,00:13:54,to use templates and where you might not
+v40,C++,I-hZkUa9mIs,833.05,837.04,00:13:53,00:13:57,want to use templates so this part is
+v40,C++,I-hZkUa9mIs,834.91,840.82,00:13:54,00:14:00,kind of entirely subjective it's
+v40,C++,I-hZkUa9mIs,837.04,842.02,00:13:57,00:14:02,opinionated but in my experience this is
+v40,C++,I-hZkUa9mIs,840.82,844.09,00:14:00,00:14:04,this is how it works right
+v40,C++,I-hZkUa9mIs,842.02,846.13,00:14:02,00:14:06,so first of all a whole bunch of game
+v40,C++,I-hZkUa9mIs,844.09,848.05,00:14:04,00:14:08,studios out there or software companies
+v40,C++,I-hZkUa9mIs,846.13,850.21,00:14:06,00:14:10,whatever actually just outright down
+v40,C++,I-hZkUa9mIs,848.05,851.83,00:14:08,00:14:11,templates they say never use templates
+v40,C++,I-hZkUa9mIs,850.21,854.26,00:14:10,00:14:14,ever now I think that's a little bit
+v40,C++,I-hZkUa9mIs,851.83,856.06,00:14:11,00:14:16,kind of overreacting to the situation
+v40,C++,I-hZkUa9mIs,854.26,859.24,00:14:14,00:14:19,because I think the templates can be
+v40,C++,I-hZkUa9mIs,856.06,861.13,00:14:16,00:14:21,extremely useful for situations where
+v40,C++,I-hZkUa9mIs,859.24,862.78,00:14:19,00:14:22,like I don't know like a logging system
+v40,C++,I-hZkUa9mIs,861.13,865.81,00:14:21,00:14:25,or something like that you have every
+v40,C++,I-hZkUa9mIs,862.78,867.94,00:14:22,00:14:27,possible type that you want to log do
+v40,C++,I-hZkUa9mIs,865.81,870.67,00:14:25,00:14:30,you really have to like specify an
+v40,C++,I-hZkUa9mIs,867.94,872.59,00:14:27,00:14:32,overload for every single function well
+v40,C++,I-hZkUa9mIs,870.67,874.42,00:14:30,00:14:34,you can automate that with templates
+v40,C++,I-hZkUa9mIs,872.59,876.67,00:14:32,00:14:36,right you can get the compiler to write
+v40,C++,I-hZkUa9mIs,874.42,878.32,00:14:34,00:14:38,code for you based on a set of rules
+v40,C++,I-hZkUa9mIs,876.67,880.57,00:14:36,00:14:40,that's really what a template is just
+v40,C++,I-hZkUa9mIs,878.32,881.92,00:14:38,00:14:41,the compiler writing code for you based
+v40,C++,I-hZkUa9mIs,880.57,884.29,00:14:40,00:14:44,on the rules that you've given it and
+v40,C++,I-hZkUa9mIs,881.92,886.84,00:14:41,00:14:46,based on the usage of that function or
+v40,C++,I-hZkUa9mIs,884.29,889.48,00:14:44,00:14:49,class or anything like that right that
+v40,C++,I-hZkUa9mIs,886.84,890.74,00:14:46,00:14:50,being said if you start using templates
+v40,C++,I-hZkUa9mIs,889.48,892.45,00:14:49,00:14:52,if you start getting really really
+v40,C++,I-hZkUa9mIs,890.74,894.76,00:14:50,00:14:54,complex with your templates and you
+v40,C++,I-hZkUa9mIs,892.45,896.83,00:14:52,00:14:56,start just having it generate an entire
+v40,C++,I-hZkUa9mIs,894.76,899.98,00:14:54,00:14:59,like meta language for you and I've seen
+v40,C++,I-hZkUa9mIs,896.83,901.78,00:14:56,00:15:01,code that would probably give you
+v40,C++,I-hZkUa9mIs,899.98,904.54,00:14:59,00:15:04,nightmares like seriously you can go
+v40,C++,I-hZkUa9mIs,901.78,907.45,00:15:01,00:15:07,really far with templates that might be
+v40,C++,I-hZkUa9mIs,904.54,909.19,00:15:04,00:15:09,pushing it right that might be going a
+v40,C++,I-hZkUa9mIs,907.45,911.14,00:15:07,00:15:11,little bit too far because there's a
+v40,C++,I-hZkUa9mIs,909.19,913.33,00:15:09,00:15:13,point where the templates become so
+v40,C++,I-hZkUa9mIs,911.14,915.83,00:15:11,00:15:15,complex that if there's an issue with it
+v40,C++,I-hZkUa9mIs,913.33,918.35,00:15:13,00:15:18,no one can understand what's going
+v40,C++,I-hZkUa9mIs,915.83,920.69,00:15:15,00:15:20,and you'll literally have to just get
+v40,C++,I-hZkUa9mIs,918.35,922.31,00:15:18,00:15:22,like a notebook get a piece of paper and
+v40,C++,I-hZkUa9mIs,920.69,923.78,00:15:20,00:15:23,start filling in all these types
+v40,C++,I-hZkUa9mIs,922.31,926.09,00:15:22,00:15:26,manually of course you can get the
+v40,C++,I-hZkUa9mIs,923.78,928.43,00:15:23,00:15:28,compiler to actually tell you what code
+v40,C++,I-hZkUa9mIs,926.09,932.99,00:15:26,00:15:32,is generating and all of that but even
+v40,C++,I-hZkUa9mIs,928.43,934.64,00:15:28,00:15:34,so like at work we've had cases where
+v40,C++,I-hZkUa9mIs,932.99,937.07,00:15:32,00:15:37,we've just had to sit down and spend
+v40,C++,I-hZkUa9mIs,934.64,938.81,00:15:34,00:15:38,three hours figuring out what code has
+v40,C++,I-hZkUa9mIs,937.07,940.04,00:15:37,00:15:40,actually been compiled and what's going
+v40,C++,I-hZkUa9mIs,938.81,942.8,00:15:38,00:15:42,on with our templates and why they're
+v40,C++,I-hZkUa9mIs,940.04,943.58,00:15:40,00:15:43,not working when that happens I think
+v40,C++,I-hZkUa9mIs,942.8,945.86,00:15:42,00:15:45,you've gone too far
+v40,C++,I-hZkUa9mIs,943.58,947.72,00:15:43,00:15:47,and I don't think that you should get
+v40,C++,I-hZkUa9mIs,945.86,949.76,00:15:45,00:15:49,too crazy with templates even though you
+v40,C++,I-hZkUa9mIs,947.72,951.14,00:15:47,00:15:51,can there is a point where doing things
+v40,C++,I-hZkUa9mIs,949.76,953.15,00:15:49,00:15:53,manually and writing out code yourself
+v40,C++,I-hZkUa9mIs,951.14,954.98,00:15:51,00:15:54,is actually going to benefit you and
+v40,C++,I-hZkUa9mIs,953.15,956.69,00:15:53,00:15:56,your team a lot more than trying to
+v40,C++,I-hZkUa9mIs,954.98,958.97,00:15:54,00:15:58,create this massive template magic that
+v40,C++,I-hZkUa9mIs,956.69,960.44,00:15:56,00:16:00,just does everything for you but is kind
+v40,C++,I-hZkUa9mIs,958.97,961.97,00:15:58,00:16:01,of fragile and very difficult to
+v40,C++,I-hZkUa9mIs,960.44,964.55,00:16:00,00:16:04,understand so I don't think the template
+v40,C++,I-hZkUa9mIs,961.97,966.92,00:16:01,00:16:06,should be completely banned but I also
+v40,C++,I-hZkUa9mIs,964.55,970.13,00:16:04,00:16:10,don't think that you should go crazy
+v40,C++,I-hZkUa9mIs,966.92,971.69,00:16:06,00:16:11,templates and abuse them a lot anyway
+v40,C++,I-hZkUa9mIs,970.13,972.95,00:16:10,00:16:12,we're gonna have a lot more videos about
+v40,C++,I-hZkUa9mIs,971.69,974.51,00:16:11,00:16:14,templates because there's a lot more
+v40,C++,I-hZkUa9mIs,972.95,975.71,00:16:12,00:16:15,than I want to talk about is just
+v40,C++,I-hZkUa9mIs,974.51,978.08,00:16:14,00:16:18,scratching the surface once we actually
+v40,C++,I-hZkUa9mIs,975.71,979.85,00:16:15,00:16:19,get into kind of the game engine series
+v40,C++,I-hZkUa9mIs,978.08,982.64,00:16:18,00:16:22,as well will people start to see real
+v40,C++,I-hZkUa9mIs,979.85,985.73,00:16:19,00:16:25,examples of where we might want to use
+v40,C++,I-hZkUa9mIs,982.64,989.06,00:16:22,00:16:29,templates off the top of my head I think
+v40,C++,I-hZkUa9mIs,985.73,990.5,00:16:25,00:16:30,two kind of really important places
+v40,C++,I-hZkUa9mIs,989.06,992.09,00:16:29,00:16:32,where I would definitely use templates
+v40,C++,I-hZkUa9mIs,990.5,994.4,00:16:30,00:16:34,are things like logging systems and also
+v40,C++,I-hZkUa9mIs,992.09,996.17,00:16:32,00:16:36,even like a material system like for
+v40,C++,I-hZkUa9mIs,994.4,998.6,00:16:34,00:16:38,rendering graphics right when you have a
+v40,C++,I-hZkUa9mIs,996.17,1000.58,00:16:36,00:16:40,uniform buffer that can contain various
+v40,C++,I-hZkUa9mIs,998.6,1002.77,00:16:38,00:16:42,different types templating that to an
+v40,C++,I-hZkUa9mIs,1000.58,1003.94,00:16:40,00:16:43,extent can be extremely useful anyway I
+v40,C++,I-hZkUa9mIs,1002.77,1005.74,00:16:42,00:16:45,hope you guys enjoy this video if you
+v40,C++,I-hZkUa9mIs,1003.94,1007.12,00:16:43,00:16:47,did you can hit that like button you can
+v40,C++,I-hZkUa9mIs,1005.74,1008.59,00:16:45,00:16:48,also you can you can help support this
+v40,C++,I-hZkUa9mIs,1007.12,1010.18,00:16:47,00:16:50,series in all the series that I make
+v40,C++,I-hZkUa9mIs,1008.59,1012.34,00:16:48,00:16:52,here on my channel by going to pay for a
+v40,C++,I-hZkUa9mIs,1010.18,1014.08,00:16:50,00:16:54,Mac on 4/2 Cherno massive shout out as
+v40,C++,I-hZkUa9mIs,1012.34,1016.24,00:16:52,00:16:56,always to all the wonderful supporters
+v40,C++,I-hZkUa9mIs,1014.08,1017.35,00:16:54,00:16:57,that helped make this possible there are
+v40,C++,I-hZkUa9mIs,1016.24,1018.79,00:16:56,00:16:58,some pretty cool rewards that you can
+v40,C++,I-hZkUa9mIs,1017.35,1020.56,00:16:57,00:17:00,get such as access to all the source
+v40,C++,I-hZkUa9mIs,1018.79,1022.75,00:16:58,00:17:02,code from my OpenGL series as well as
+v40,C++,I-hZkUa9mIs,1020.56,1024.97,00:17:00,00:17:04,the soon to come game engine series by
+v40,C++,I-hZkUa9mIs,1022.75,1026.29,00:17:02,00:17:06,supporting then you also get like for
+v40,C++,I-hZkUa9mIs,1024.97,1027.55,00:17:04,00:17:07,the top tier supporters we do this thing
+v40,C++,I-hZkUa9mIs,1026.29,1029.08,00:17:06,00:17:09,while we basically hang out for an hour
+v40,C++,I-hZkUa9mIs,1027.55,1030.79,00:17:07,00:17:10,once a month and we just talk about
+v40,C++,I-hZkUa9mIs,1029.08,1033.04,00:17:09,00:17:13,whatever the next one is actually coming
+v40,C++,I-hZkUa9mIs,1030.79,1034.57,00:17:10,00:17:14,up in like a week so definitely sign up
+v40,C++,I-hZkUa9mIs,1033.04,1036.19,00:17:13,00:17:16,for that if you're interested and then
+v40,C++,I-hZkUa9mIs,1034.57,1038.59,00:17:14,00:17:18,also you'll get videos early and a whole
+v40,C++,I-hZkUa9mIs,1036.19,1039.76,00:17:16,00:17:19,bunch of other rewards but most of all
+v40,C++,I-hZkUa9mIs,1038.59,1041.59,00:17:18,00:17:21,you're helping to support this series
+v40,C++,I-hZkUa9mIs,1039.76,1043.48,00:17:19,00:17:23,which is awesome because I can basically
+v40,C++,I-hZkUa9mIs,1041.59,1045.49,00:17:21,00:17:25,just lets me make more videos you can
+v40,C++,I-hZkUa9mIs,1043.48,1046.34,00:17:23,00:17:26,also join discord I have just called
+v40,C++,I-hZkUa9mIs,1045.49,1048.26,00:17:25,00:17:28,server over
+v40,C++,I-hZkUa9mIs,1046.34,1049.97,00:17:26,00:17:29,- sherrilyn home slash discord that's
+v40,C++,I-hZkUa9mIs,1048.26,1051.11,00:17:28,00:17:31,basically just a community of people
+v40,C++,I-hZkUa9mIs,1049.97,1052.7,00:17:29,00:17:32,where you can talk about whatever you
+v40,C++,I-hZkUa9mIs,1051.11,1054.35,00:17:31,00:17:34,want including this programming stuff
+v40,C++,I-hZkUa9mIs,1052.7,1055.61,00:17:32,00:17:35,and just discuss it with other people
+v40,C++,I-hZkUa9mIs,1054.35,1056.87,00:17:34,00:17:36,ask for help with your kirtan all that
+v40,C++,I-hZkUa9mIs,1055.61,1059.45,00:17:35,00:17:39,definitely encourage you guys to join
+v40,C++,I-hZkUa9mIs,1056.87,1061.75,00:17:36,00:17:41,that and as always I will see you in the
+v40,C++,I-hZkUa9mIs,1059.45,1076.92,00:17:39,00:17:56,next video goodbye
+v40,C++,I-hZkUa9mIs,1061.75,1076.92,00:17:41,00:17:56,[Music]

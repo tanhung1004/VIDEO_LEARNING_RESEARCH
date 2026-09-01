@@ -1,0 +1,163 @@
+VIDEO ID: v39
+SUBJECT: C++
+TITLE: Inheritance, Poly Morphism | Introduction | CPP OOPS
+URL: https://www.youtube.com/watch?v=zsqhrxlp-Fo
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: variable
+DESCRIPTION: store and manipulate data using variables in C++ programs
+SEARCH ALIASES: variable, variables
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: data type
+DESCRIPTION: define the type of values and variables using C++ data types
+SEARCH ALIASES: data type, data types, datatype
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: pointer
+DESCRIPTION: store and use memory addresses with C++ pointers
+SEARCH ALIASES: pointer, pointers, memory address
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: reference
+DESCRIPTION: refer to an existing C++ object or variable using a reference
+SEARCH ALIASES: reference, references
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: class
+DESCRIPTION: define data and behavior using a C++ class
+SEARCH ALIASES: class, classes
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:13 - 00:00:25
+  SECONDS: 13.12 - 25.12
+  MATCH: class
+  TEXT: inheritance allows us to Define one class in terms of another class or in other words inheritance allows us to use
+
+  HIT 2
+  TIME: 00:00:18 - 00:00:29
+  SECONDS: 18.6 - 29.56
+  MATCH: class
+  TEXT: other words inheritance allows us to use the features defined in one class in another class so it's nothing but you
+
+  HIT 3
+  TIME: 00:00:21 - 00:00:33
+  SECONDS: 21.84 - 33.44
+  MATCH: class
+  TEXT: the features defined in one class in another class so it's nothing but you know when we create a class instead of
+
+------------------------------------------------------------------------
+
+CONCEPT: object
+DESCRIPTION: create and use an instance of a C++ class
+SEARCH ALIASES: object, objects, instance, instantiate
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:06:29 - 00:06:39
+  SECONDS: 389.16 - 399.32
+  MATCH: object
+  TEXT: person person okay now in our main function we're going to create an object of this class student to do that I'm
+
+  HIT 2
+  TIME: 00:06:36 - 00:06:48
+  SECONDS: 396.6 - 408.88
+  MATCH: object
+  TEXT: going to write student the class name and then the object name let's say Anil and then we're going to set the name
+
+  HIT 3
+  TIME: 00:07:01 - 00:07:13
+  SECONDS: 421.16 - 433.72
+  MATCH: object
+  TEXT: so here I'm going to refer that using an object of this class student so it's going to be Anil dot set name
+
+------------------------------------------------------------------------
+
+CONCEPT: constructor
+DESCRIPTION: initialize C++ objects using a class constructor
+SEARCH ALIASES: constructor, constructors
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: inheritance
+DESCRIPTION: reuse and extend behavior from a base class in C++
+SEARCH ALIASES: inheritance, inherit, base class, derived class
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:07 - 00:00:18
+  SECONDS: 7.76 - 18.6
+  MATCH: inheritance
+  TEXT: important Concepts in objectoriented programming that's inheritance so inheritance allows us to Define one
+
+  HIT 2
+  TIME: 00:00:10 - 00:00:21
+  SECONDS: 10.24 - 21.84
+  MATCH: inheritance
+  TEXT: programming that's inheritance so inheritance allows us to Define one class in terms of another class or in
+
+  HIT 3
+  TIME: 00:00:15 - 00:00:27
+  SECONDS: 15.68 - 27.24
+  MATCH: inheritance
+  TEXT: class in terms of another class or in other words inheritance allows us to use the features defined in one class in
+
+------------------------------------------------------------------------
+
+CONCEPT: polymorphism
+DESCRIPTION: use a common interface with different C++ object behaviors
+SEARCH ALIASES: polymorphism, polymorphic, virtual function, virtual functions
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: template
+DESCRIPTION: define generic C++ functions or classes using templates
+SEARCH ALIASES: template, templates, generic
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------

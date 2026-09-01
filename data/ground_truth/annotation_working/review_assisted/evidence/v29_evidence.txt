@@ -1,0 +1,198 @@
+VIDEO ID: v29
+SUBJECT: Java
+TITLE: Abstract Class In Java Tutorial #79
+URL: https://www.youtube.com/watch?v=52frlN8webg
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: class
+DESCRIPTION: define objects and behavior using a Java class
+SEARCH ALIASES: class, classes
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:00 - 00:00:07
+  SECONDS: 0.0 - 7.17
+  MATCH: classes
+  TEXT: hey how's it going you're probably confused about abstract classes right now which is why you click this video
+
+  HIT 2
+  TIME: 00:00:07 - 00:00:13
+  SECONDS: 7.17 - 13.89
+  MATCH: classes
+  TEXT: not regret that because we're gonna walk through abstract classes and get it working for you but I know for me
+
+  HIT 3
+  TIME: 00:00:11 - 00:00:18
+  SECONDS: 11.07 - 18.48
+  MATCH: classes
+  TEXT: working for you but I know for me abstract classes were pretty confusing yeah I'm pretty sure I didn't know what
+
+------------------------------------------------------------------------
+
+CONCEPT: object
+DESCRIPTION: instance of a Java class
+SEARCH ALIASES: object, objects, instance
+DIRECT HIT COUNT (top max 3 shown): 1
+
+  HIT 1
+  TIME: 00:02:45 - 00:02:58
+  SECONDS: 165.78 - 178.75
+  MATCH: object
+  TEXT: and now if we do that it'll work because now the Chihuahua object is an extension of dog so if it's an extension then it
+
+------------------------------------------------------------------------
+
+CONCEPT: method
+DESCRIPTION: define behavior using a Java method
+SEARCH ALIASES: method, methods
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:41 - 00:00:53
+  SECONDS: 41.13 - 53.13
+  MATCH: method
+  TEXT: gonna call it abstract tutorial hit this main method check box and then hit finish an abstract class is basically a
+
+  HIT 2
+  TIME: 00:00:47 - 00:00:59
+  SECONDS: 47.4 - 59.96
+  MATCH: methods
+  TEXT: finish an abstract class is basically a bunch of variables and methods that can be used to create other classes so here
+
+  HIT 3
+  TIME: 00:01:13 - 00:01:28
+  SECONDS: 73.47 - 88.04
+  MATCH: method
+  TEXT: we could say bark well have it be a normal method and we'll actually implement it too so we could say public
+
+------------------------------------------------------------------------
+
+CONCEPT: interface
+DESCRIPTION: define a Java interface containing method contracts
+SEARCH ALIASES: interface, interfaces
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:06:06 - 00:06:20
+  SECONDS: 366.7 - 380.77
+  MATCH: interface
+  TEXT: is is what this example is so how is this different than an interface an interface is like this you type the
+
+  HIT 2
+  TIME: 00:06:09 - 00:06:24
+  SECONDS: 369.37 - 384.97
+  MATCH: interface
+  TEXT: this different than an interface an interface is like this you type the interface and say dog interface for
+
+  HIT 3
+  TIME: 00:06:11 - 00:06:28
+  SECONDS: 371.58 - 388.59
+  MATCH: interface
+  TEXT: interface is like this you type the interface and say dog interface for example an interface is just a list of
+
+------------------------------------------------------------------------
+
+CONCEPT: implements
+DESCRIPTION: implement a Java interface in a class
+SEARCH ALIASES: implements, implement interface, implementing interface
+DIRECT HIT COUNT (top max 3 shown): 1
+
+  HIT 1
+  TIME: 00:07:54 - 00:08:05
+  SECONDS: 474.25 - 485.59
+  MATCH: implements
+  TEXT: dog interface and change this from extends to implements because we're implementing the methods from the
+
+------------------------------------------------------------------------
+
+CONCEPT: extends
+DESCRIPTION: extend a Java class through inheritance
+SEARCH ALIASES: extends, extend class
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:02:17 - 00:02:41
+  SECONDS: 137.62 - 161.89
+  MATCH: extends
+  TEXT: new class class Chihuahua Chihuahua class okay and say extends dot so now we can use these through the Chihuahua
+
+  HIT 2
+  TIME: 00:04:45 - 00:04:57
+  SECONDS: 285.79 - 297.1
+  MATCH: extends
+  TEXT: messages so Chihuahua knows how to bark because it extends dog it knows everything inside of here which is why
+
+  HIT 3
+  TIME: 00:07:54 - 00:08:05
+  SECONDS: 474.25 - 485.59
+  MATCH: extends
+  TEXT: dog interface and change this from extends to implements because we're implementing the methods from the
+
+------------------------------------------------------------------------
+
+CONCEPT: inheritance
+DESCRIPTION: reuse and extend behavior from a parent Java class
+SEARCH ALIASES: inheritance, inherit, inherited
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: abstract class
+DESCRIPTION: define an abstract Java class that cannot be directly instantiated
+SEARCH ALIASES: abstract class, abstract classes
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:00 - 00:00:07
+  SECONDS: 0.0 - 7.17
+  MATCH: abstract classes
+  TEXT: hey how's it going you're probably confused about abstract classes right now which is why you click this video
+
+  HIT 2
+  TIME: 00:00:07 - 00:00:13
+  SECONDS: 7.17 - 13.89
+  MATCH: abstract classes
+  TEXT: not regret that because we're gonna walk through abstract classes and get it working for you but I know for me
+
+  HIT 3
+  TIME: 00:00:11 - 00:00:18
+  SECONDS: 11.07 - 18.48
+  MATCH: abstract classes
+  TEXT: working for you but I know for me abstract classes were pretty confusing yeah I'm pretty sure I didn't know what
+
+------------------------------------------------------------------------
+
+CONCEPT: abstract method
+DESCRIPTION: declare an abstract method that subclasses must implement
+SEARCH ALIASES: abstract method, abstract methods
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:03:22 - 00:03:31
+  SECONDS: 202.9 - 211.9
+  MATCH: abstract methods
+  TEXT: most important part about abstract classes in Java its abstract methods I'll close this up so we can see
+
+  HIT 2
+  TIME: 00:03:37 - 00:03:44
+  SECONDS: 217.36 - 224.02
+  MATCH: abstract method
+  TEXT: put code inside the curly braces we're gonna make an abstract method which means we're not going to put code inside
+
+  HIT 3
+  TIME: 00:04:11 - 00:04:19
+  SECONDS: 251.44 - 259.69
+  MATCH: abstract method
+  TEXT: code it knows what to do but now we have this abstract method which doesn't know what to do when you call it so we have
+
+------------------------------------------------------------------------

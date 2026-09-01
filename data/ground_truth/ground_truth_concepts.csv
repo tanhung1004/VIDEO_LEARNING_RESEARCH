@@ -1,41 +1,154 @@
-video_id,subject,concept
-v1,SQL,select
-v1,SQL,where
+﻿video_id,subject,concept
+v1,SQL,aggregate function
+v1,SQL,count
 v1,SQL,group by
 v1,SQL,having
-v1,SQL,count
-v1,SQL,aggregate function
-v1,SQL,join
 v1,SQL,inner join
+v1,SQL,join
 v1,SQL,left join
+v1,SQL,select
 v1,SQL,subquery
-v2,Python,for loop
+v1,SQL,where
+v2,Python,break
 v2,Python,for
+v2,Python,for loop
 v2,Python,iteration
-v2,Python,range
 v2,Python,list
 v2,Python,nested loop
-v2,Python,break
-v3,Java,class
-v3,Java,object
-v3,Java,method
-v3,Java,interface
-v3,Java,implements
-v3,Java,extends
-v3,Java,inheritance
+v2,Python,range
 v3,Java,abstract class
 v3,Java,abstract method
-v4,SQL,select
-v4,SQL,where
+v3,Java,class
+v3,Java,extends
+v3,Java,implements
+v3,Java,inheritance
+v3,Java,interface
+v3,Java,method
+v3,Java,object
+v4,SQL,aggregate function
+v4,SQL,count
 v4,SQL,group by
 v4,SQL,having
-v4,SQL,count
-v4,SQL,aggregate function
-v5,Java,class
-v5,Java,object
-v5,Java,method
-v5,Java,interface
-v5,Java,implements
-v5,Java,inheritance
+v4,SQL,select
+v4,SQL,where
 v5,Java,abstract class
 v5,Java,abstract method
+v5,Java,class
+v5,Java,implements
+v5,Java,inheritance
+v5,Java,interface
+v5,Java,method
+v5,Java,object
+v6,SQL,aggregate function
+v6,SQL,group by
+v6,SQL,having
+v6,SQL,order by
+v6,SQL,select
+v6,SQL,where
+v7,SQL,aggregate function
+v7,SQL,count
+v7,SQL,order by
+v7,SQL,select
+v7,SQL,where
+v8,SQL,aggregate function
+v8,SQL,count
+v8,SQL,group by
+v8,SQL,having
+v8,SQL,inner join
+v8,SQL,join
+v8,SQL,order by
+v8,SQL,select
+v8,SQL,where
+v9,SQL,aggregate function
+v9,SQL,count
+v10,SQL,aggregate function
+v10,SQL,count
+v10,SQL,group by
+v10,SQL,having
+v11,SQL,aggregate function
+v11,SQL,count
+v11,SQL,group by
+v11,SQL,select
+v11,SQL,subquery
+v11,SQL,where
+v12,SQL,inner join
+v12,SQL,join
+v12,SQL,left join
+v12,SQL,select
+v13,SQL,aggregate function
+v13,SQL,count
+v13,SQL,group by
+v13,SQL,having
+v13,SQL,join
+v13,SQL,left join
+v13,SQL,order by
+v13,SQL,select
+v13,SQL,where
+v14,Python,break
+v14,Python,continue
+v14,Python,for
+v14,Python,for loop
+v14,Python,iteration
+v14,Python,range
+v15,Python,for
+v15,Python,for loop
+v15,Python,iteration
+v15,Python,range
+v16,Python,index
+v16,Python,list
+v17,Python,for
+v17,Python,for loop
+v17,Python,iteration
+v17,Python,range
+v18,Python,for
+v18,Python,for loop
+v18,Python,iteration
+v19,Python,break
+v19,Python,continue
+v20,Python,break
+v20,Python,continue
+v20,Python,for
+v20,Python,for loop
+v20,Python,iteration
+v20,Python,list
+v20,Python,range
+v21,Python,nested loop
+v22,Python,range
+v23,Java,class
+v23,Java,method
+v23,Java,object
+v24,Java,method
+v25,Java,implements
+v25,Java,interface
+v26,Java,abstract method
+v26,Java,implements
+v26,Java,interface
+v27,Java,extends
+v27,Java,inheritance
+v28,Java,extends
+v28,Java,inheritance
+v29,Java,abstract class
+v29,Java,abstract method
+v29,Java,extends
+v29,Java,implements
+v29,Java,inheritance
+v29,Java,interface
+v30,Java,abstract class
+v30,Java,abstract method
+v30,Java,extends
+v30,Java,inheritance
+v31,C++,data type
+v31,C++,variable
+v32,C++,data type
+v32,C++,variable
+v33,C++,pointer
+v33,C++,variable
+v34,C++,reference
+v35,C++,pointer
+v35,C++,reference
+v36,C++,class
+v36,C++,object
+v37,C++,constructor
+v38,C++,inheritance
+v39,C++,inheritance
+v40,C++,template

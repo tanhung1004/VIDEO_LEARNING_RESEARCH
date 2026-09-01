@@ -1,0 +1,8 @@
+﻿video_id,subject,frame_id,timestamp_sec,duration_sec,frame_interval_sec,image_file,status,capture_method
+v18,Python,0,0,63.621,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v18\v18_00000s.png,success,fast
+v18,Python,1,10,63.621,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v18\v18_00010s.png,success,fast
+v18,Python,2,20,63.621,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v18\v18_00020s.png,success,fast
+v18,Python,3,30,63.621,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v18\v18_00030s.png,success,fast
+v18,Python,4,40,63.621,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v18\v18_00040s.png,success,fast
+v18,Python,5,50,63.621,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v18\v18_00050s.png,success,fast
+v18,Python,6,60,63.621,10,C:\NCKH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\keyframes_full\v18\v18_00060s.png,success,fast

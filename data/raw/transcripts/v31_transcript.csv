@@ -1,0 +1,688 @@
+﻿video_id,subject,youtube_id,start_sec,end_sec,start_time,end_time,text
+v31,C++,solufpKPDwY,0.0,5.19,00:00:00,00:00:05,hi guys I hope you are all well and
+v31,C++,solufpKPDwY,2.82,7.53,00:00:02,00:00:07,welcome to the second video of C++ for
+v31,C++,solufpKPDwY,5.19,11.28,00:00:05,00:00:11,beginners in this video we are going to
+v31,C++,solufpKPDwY,7.53,13.41,00:00:07,00:00:13,talk about variables data types and also
+v31,C++,solufpKPDwY,11.28,15.48,00:00:11,00:00:15,I'm going to explain how you can enter
+v31,C++,solufpKPDwY,13.41,18.72,00:00:13,00:00:18,data in your program and how that data
+v31,C++,solufpKPDwY,15.48,21.99,00:00:15,00:00:21,is encoded into numbers using something
+v31,C++,solufpKPDwY,18.72,24.33,00:00:18,00:00:24,called ASCII table so here I have opened
+v31,C++,solufpKPDwY,21.99,26.79,00:00:21,00:00:26,Visual Studio and if you are not
+v31,C++,solufpKPDwY,24.33,28.71,00:00:24,00:00:28,familiar with Visual Studio or there is
+v31,C++,solufpKPDwY,26.79,30.93,00:00:26,00:00:30,some code that you see here but you
+v31,C++,solufpKPDwY,28.71,32.52,00:00:28,00:00:32,don't understand it I would recommend
+v31,C++,solufpKPDwY,30.93,34.62,00:00:30,00:00:34,you to watch my first video of this
+v31,C++,solufpKPDwY,32.52,37.2,00:00:32,00:00:37,course the link is going to be in the
+v31,C++,solufpKPDwY,34.62,40.44,00:00:34,00:00:40,description of this video and then come
+v31,C++,solufpKPDwY,37.2,43.95,00:00:37,00:00:43,back to this video so let's talk about
+v31,C++,solufpKPDwY,40.44,46.08,00:00:40,00:00:46,variables now what is variable well I
+v31,C++,solufpKPDwY,43.95,50.1,00:00:43,00:00:50,like to explain it to a real-life
+v31,C++,solufpKPDwY,46.08,52.35,00:00:46,00:00:52,example for example you see this glass
+v31,C++,solufpKPDwY,50.1,55.41,00:00:50,00:00:55,here well what I can say about this
+v31,C++,solufpKPDwY,52.35,57.72,00:00:52,00:00:57,glass is that it is a container for a
+v31,C++,solufpKPDwY,55.41,61.65,00:00:55,00:01:01,certain type of liquid so it can hold
+v31,C++,solufpKPDwY,57.72,64.65,00:00:57,00:01:04,water milk tea juice whatever you want
+v31,C++,solufpKPDwY,61.65,67.77,00:01:01,00:01:07,really and the same way a variable is a
+v31,C++,solufpKPDwY,64.65,70.05,00:01:04,00:01:10,container but for a certain data type so
+v31,C++,solufpKPDwY,67.77,72.66,00:01:07,00:01:12,you can put whole number inside that you
+v31,C++,solufpKPDwY,70.05,75.24,00:01:10,00:01:15,can put character or a decimal point
+v31,C++,solufpKPDwY,72.66,78.6,00:01:12,00:01:18,number or a boolean value meaning true
+v31,C++,solufpKPDwY,75.24,82.71,00:01:15,00:01:22,or false value so they are the same in
+v31,C++,solufpKPDwY,78.6,85.41,00:01:18,00:01:25,this aspect another thing that I can say
+v31,C++,solufpKPDwY,82.71,87.84,00:01:22,00:01:27,about this glass is that it defines a
+v31,C++,solufpKPDwY,85.41,91.92,00:01:25,00:01:31,maximum amount of liquid that it can
+v31,C++,solufpKPDwY,87.84,94.89,00:01:27,00:01:34,hold so it has a max limit and if you
+v31,C++,solufpKPDwY,91.92,97.86,00:01:31,00:01:37,put too much it will overflow the same
+v31,C++,solufpKPDwY,94.89,100.53,00:01:34,00:01:40,way with variables variables also define
+v31,C++,solufpKPDwY,97.86,102.93,00:01:37,00:01:42,a maximum amount of data that they can
+v31,C++,solufpKPDwY,100.53,105.75,00:01:40,00:01:45,hold for example if you have a whole
+v31,C++,solufpKPDwY,102.93,108.51,00:01:42,00:01:48,number variable well there is a max
+v31,C++,solufpKPDwY,105.75,111.36,00:01:45,00:01:51,number limit for that variable that it
+v31,C++,solufpKPDwY,108.51,112.44,00:01:48,00:01:52,can hold and also if you put too much it
+v31,C++,solufpKPDwY,111.36,114.51,00:01:51,00:01:54,is going to overflow
+v31,C++,solufpKPDwY,112.44,120.06,00:01:52,00:02:00,it is literally called data type
+v31,C++,solufpKPDwY,114.51,122.49,00:01:54,00:02:02,overflow so it is a container the same
+v31,C++,solufpKPDwY,120.06,124.83,00:02:00,00:02:04,as variable and also it defines a
+v31,C++,solufpKPDwY,122.49,127.92,00:02:02,00:02:07,maximum amount of data that it can hold
+v31,C++,solufpKPDwY,124.83,130.35,00:02:04,00:02:10,but how much data you really put inside
+v31,C++,solufpKPDwY,127.92,132.54,00:02:07,00:02:12,that variables so the same way would
+v31,C++,solufpKPDwY,130.35,133.68,00:02:10,00:02:13,with the water inside this class if you
+v31,C++,solufpKPDwY,132.54,137.49,00:02:12,00:02:17,decide to put
+v31,C++,solufpKPDwY,133.68,139.86,00:02:13,00:02:19,1/3 or 1/2 or 2/3 of this glass the same
+v31,C++,solufpKPDwY,137.49,141.99,00:02:17,00:02:21,way is fit variables you can put however
+v31,C++,solufpKPDwY,139.86,144.24,00:02:19,00:02:24,much you want as long as you don't put
+v31,C++,solufpKPDwY,141.99,148.17,00:02:21,00:02:28,too much because then it's going to
+v31,C++,solufpKPDwY,144.24,151.38,00:02:24,00:02:31,overflow one thing that is different
+v31,C++,solufpKPDwY,148.17,154.26,00:02:28,00:02:34,though between variables and this glass
+v31,C++,solufpKPDwY,151.38,155.94,00:02:31,00:02:35,is that you can put one day inside this
+v31,C++,solufpKPDwY,154.26,157.5,00:02:34,00:02:37,glass you can put water the next thing
+v31,C++,solufpKPDwY,155.94,160.95,00:02:35,00:02:40,you can put juice the next day you can
+v31,C++,solufpKPDwY,157.5,163.41,00:02:37,00:02:43,put milk vanity or even you can mix two
+v31,C++,solufpKPDwY,160.95,166.77,00:02:40,00:02:46,liquids but with variables you cannot do
+v31,C++,solufpKPDwY,163.41,168.87,00:02:43,00:02:48,that at least not with once in c++ there
+v31,C++,solufpKPDwY,166.77,171.54,00:02:46,00:02:51,are certain languages that you can do
+v31,C++,solufpKPDwY,168.87,173.82,00:02:48,00:02:53,that with and there is also advantages
+v31,C++,solufpKPDwY,171.54,178.08,00:02:51,00:02:58,and disadvantages when it comes to that
+v31,C++,solufpKPDwY,173.82,180.9,00:02:53,00:03:00,but in C++ you cannot put two different
+v31,C++,solufpKPDwY,178.08,184.17,00:02:58,00:03:04,data types inside one variables and you
+v31,C++,solufpKPDwY,180.9,186.81,00:03:00,00:03:06,can also not change a data type of
+v31,C++,solufpKPDwY,184.17,188.82,00:03:04,00:03:08,variables once you create it so let me
+v31,C++,solufpKPDwY,186.81,192.0,00:03:06,00:03:12,show you what I'm talking about on a
+v31,C++,solufpKPDwY,188.82,194.01,00:03:08,00:03:14,practical example let's say that you
+v31,C++,solufpKPDwY,192.0,196.05,00:03:12,00:03:16,want to create a variable that is going
+v31,C++,solufpKPDwY,194.01,198.87,00:03:14,00:03:18,to hold your annual salary
+v31,C++,solufpKPDwY,196.05,202.08,00:03:16,00:03:22,well that variable is definitely going
+v31,C++,solufpKPDwY,198.87,204.24,00:03:18,00:03:24,to be a decimal point number or also
+v31,C++,solufpKPDwY,202.08,208.26,00:03:22,00:03:28,floating-point number that's how it's
+v31,C++,solufpKPDwY,204.24,210.99,00:03:24,00:03:30,called in C++ and the type that is used
+v31,C++,solufpKPDwY,208.26,217.62,00:03:28,00:03:37,for that is called float so I'm going to
+v31,C++,solufpKPDwY,210.99,221.25,00:03:30,00:03:41,say float and then I'm going to give a
+v31,C++,solufpKPDwY,217.62,223.71,00:03:37,00:03:43,name to that variable since we said that
+v31,C++,solufpKPDwY,221.25,229.29,00:03:41,00:03:49,is going to hold our annual salary we
+v31,C++,solufpKPDwY,223.71,232.77,00:03:43,00:03:52,are going to call it annual salary okay
+v31,C++,solufpKPDwY,229.29,235.35,00:03:49,00:03:55,and then we are going to assign it a
+v31,C++,solufpKPDwY,232.77,242.4,00:03:52,00:04:02,value and that value is going to be
+v31,C++,solufpKPDwY,235.35,244.59,00:03:55,00:04:04,"let's say 50,000 point 99 so now what I"
+v31,C++,solufpKPDwY,242.4,247.26,00:04:02,00:04:07,have done here is I have created a
+v31,C++,solufpKPDwY,244.59,249.3,00:04:04,00:04:09,variable called annual salary I have
+v31,C++,solufpKPDwY,247.26,252.81,00:04:07,00:04:12,said that that variable is going to be
+v31,C++,solufpKPDwY,249.3,256.11,00:04:09,00:04:16,of type floating point number and then I
+v31,C++,solufpKPDwY,252.81,261.48,00:04:12,00:04:21,have put inside that variable 50000
+v31,C++,solufpKPDwY,256.11,264.78,00:04:16,00:04:24,point 99 so now let's see how we can
+v31,C++,solufpKPDwY,261.48,266.35,00:04:21,00:04:26,based on this variable based on our
+v31,C++,solufpKPDwY,264.78,270.06,00:04:24,00:04:30,annual salary
+v31,C++,solufpKPDwY,266.35,272.65,00:04:26,00:04:32,how much our user is earning every month
+v31,C++,solufpKPDwY,270.06,275.11,00:04:30,00:04:35,so what we are going to do is we are
+v31,C++,solufpKPDwY,272.65,278.02,00:04:32,00:04:38,going to create another variable we are
+v31,C++,solufpKPDwY,275.11,279.97,00:04:35,00:04:39,going to call it monthly salary and we
+v31,C++,solufpKPDwY,278.02,283.15,00:04:38,00:04:43,are going to assign that variable a
+v31,C++,solufpKPDwY,279.97,286.72,00:04:39,00:04:46,result of dividing this annual salary
+v31,C++,solufpKPDwY,283.15,289.81,00:04:43,00:04:49,with twelve months so we are creating a
+v31,C++,solufpKPDwY,286.72,294.03,00:04:46,00:04:54,variable of type float also since the
+v31,C++,solufpKPDwY,289.81,296.26,00:04:49,00:04:56,result of division usually can be also
+v31,C++,solufpKPDwY,294.03,299.35,00:04:54,00:04:59,floating-point number or a decimal
+v31,C++,solufpKPDwY,296.26,303.1,00:04:56,00:05:03,number and because of that we are using
+v31,C++,solufpKPDwY,299.35,309.22,00:04:59,00:05:09,also float type for our monthly salary
+v31,C++,solufpKPDwY,303.1,311.68,00:05:03,00:05:11,variable so I'm creating monthly salary
+v31,C++,solufpKPDwY,309.22,315.55,00:05:09,00:05:15,variable and I'm going to say that that
+v31,C++,solufpKPDwY,311.68,318.82,00:05:11,00:05:18,variable is going to hold result of this
+v31,C++,solufpKPDwY,315.55,323.71,00:05:15,00:05:23,expression annual salary divided by
+v31,C++,solufpKPDwY,318.82,326.23,00:05:18,00:05:26,twelve months and now we have result of
+v31,C++,solufpKPDwY,323.71,328.63,00:05:23,00:05:28,this division inside this variable and
+v31,C++,solufpKPDwY,326.23,331.24,00:05:26,00:05:31,what we are left to do is to write that
+v31,C++,solufpKPDwY,328.63,333.25,00:05:28,00:05:33,result out to our user so I'm going to
+v31,C++,solufpKPDwY,331.24,336.1,00:05:31,00:05:36,say C out since that's the command that
+v31,C++,solufpKPDwY,333.25,345.43,00:05:33,00:05:45,we use to output data to console and I'm
+v31,C++,solufpKPDwY,336.1,350.38,00:05:36,00:05:50,going to say your monthly salary is and
+v31,C++,solufpKPDwY,345.43,354.04,00:05:45,00:05:54,I'm going to say monthly salary so one
+v31,C++,solufpKPDwY,350.38,357.79,00:05:50,00:05:57,thing to notice here is that when you
+v31,C++,solufpKPDwY,354.04,362.26,00:05:54,00:06:02,are writing out strings or when you're
+v31,C++,solufpKPDwY,357.79,364.81,00:05:57,00:06:04,writing out data like this you use
+v31,C++,solufpKPDwY,362.26,366.52,00:06:02,00:06:06,quotation marks but when you want to
+v31,C++,solufpKPDwY,364.81,369.25,00:06:04,00:06:09,write out value that you are holding
+v31,C++,solufpKPDwY,366.52,371.47,00:06:06,00:06:11,inside a variable well then you just put
+v31,C++,solufpKPDwY,369.25,374.89,00:06:09,00:06:14,the name of your variable you don't use
+v31,C++,solufpKPDwY,371.47,377.98,00:06:11,00:06:17,any quotation marks then and now we can
+v31,C++,solufpKPDwY,374.89,380.5,00:06:14,00:06:20,run our program and let's see what's the
+v31,C++,solufpKPDwY,377.98,382.9,00:06:17,00:06:22,result that we got you see here your
+v31,C++,solufpKPDwY,380.5,386.2,00:06:20,00:06:26,monthly salary is four thousand one
+v31,C++,solufpKPDwY,382.9,388.81,00:06:22,00:06:28,hundred sixty six point 75 so if you
+v31,C++,solufpKPDwY,386.2,392.37,00:06:26,00:06:32,want to check that out you can you can
+v31,C++,solufpKPDwY,388.81,392.37,00:06:28,00:06:32,calculate it in your calculator
+v31,C++,solufpKPDwY,393.45,399.34,00:06:33,00:06:39,one thing that that bothers me in this
+v31,C++,solufpKPDwY,396.67,401.65,00:06:36,00:06:41,program is that we have hard-coded this
+v31,C++,solufpKPDwY,399.34,402.21,00:06:39,00:06:42,value here so we have hard-coded coded
+v31,C++,solufpKPDwY,401.65,406.12,00:06:41,00:06:46,this
+v31,C++,solufpKPDwY,402.21,409.09,00:06:42,00:06:49,"50,000 point 99 not every one salary is"
+v31,C++,solufpKPDwY,406.12,412.39,00:06:46,00:06:52,50000 point 99 and what if we wanted our
+v31,C++,solufpKPDwY,409.09,415.3,00:06:49,00:06:55,user to enter what his salary is during
+v31,C++,solufpKPDwY,412.39,417.13,00:06:52,00:06:57,the execution of our program so when he
+v31,C++,solufpKPDwY,415.3,419.29,00:06:55,00:06:59,runs our program our program should ask
+v31,C++,solufpKPDwY,417.13,421.84,00:06:57,00:07:01,him what is your annual salary and then
+v31,C++,solufpKPDwY,419.29,424.69,00:06:59,00:07:04,he enters that salary and then we
+v31,C++,solufpKPDwY,421.84,426.67,00:07:01,00:07:06,calculate his monthly salary based on
+v31,C++,solufpKPDwY,424.69,428.74,00:07:04,00:07:08,the number that he has entered so I
+v31,C++,solufpKPDwY,426.67,432.52,00:07:06,00:07:12,would like to upgrade this program now
+v31,C++,solufpKPDwY,428.74,434.62,00:07:08,00:07:14,to work like I just explained and how we
+v31,C++,solufpKPDwY,432.52,439.66,00:07:12,00:07:19,are going to do that well first I'm
+v31,C++,solufpKPDwY,434.62,443.17,00:07:14,00:07:23,"going to delete these 50,000 point 99 ok"
+v31,C++,solufpKPDwY,439.66,443.92,00:07:19,00:07:23,and then we are left with this situation
+v31,C++,solufpKPDwY,443.17,448.48,00:07:23,00:07:28,here
+v31,C++,solufpKPDwY,443.92,450.73,00:07:23,00:07:30,so it says float annual salary that
+v31,C++,solufpKPDwY,448.48,453.31,00:07:28,00:07:33,means that I have just created a
+v31,C++,solufpKPDwY,450.73,455.65,00:07:30,00:07:35,variable called annual salary and I have
+v31,C++,solufpKPDwY,453.31,458.23,00:07:33,00:07:38,said I'm going to put a floating-point
+v31,C++,solufpKPDwY,455.65,462.37,00:07:35,00:07:42,number inside that variable but I have
+v31,C++,solufpKPDwY,458.23,463.96,00:07:38,00:07:43,not assigned any value to it yet so here
+v31,C++,solufpKPDwY,462.37,467.38,00:07:42,00:07:47,we have a container for our annual
+v31,C++,solufpKPDwY,463.96,470.05,00:07:43,00:07:50,salary and that container doesn't hold
+v31,C++,solufpKPDwY,467.38,472.42,00:07:47,00:07:52,any value and if we try to run our
+v31,C++,solufpKPDwY,470.05,474.07,00:07:50,00:07:54,program now what do you think that we
+v31,C++,solufpKPDwY,472.42,475.99,00:07:52,00:07:55,are going to get write that in a
+v31,C++,solufpKPDwY,474.07,479.17,00:07:54,00:07:59,comments before I run this program and
+v31,C++,solufpKPDwY,475.99,482.23,00:07:55,00:08:02,now I'm going to so pause the video and
+v31,C++,solufpKPDwY,479.17,484.9,00:07:59,00:08:04,think about it and then write write your
+v31,C++,solufpKPDwY,482.23,489.34,00:08:02,00:08:09,answer in the comments and now I'm going
+v31,C++,solufpKPDwY,484.9,492.76,00:08:04,00:08:12,to run the program and you can see that
+v31,C++,solufpKPDwY,489.34,498.85,00:08:09,00:08:18,we have some build errors as this here
+v31,C++,solufpKPDwY,492.76,502.78,00:08:12,00:08:22,this window here says so let's see if we
+v31,C++,solufpKPDwY,498.85,505.48,00:08:18,00:08:25,open this part here it says we have one
+v31,C++,solufpKPDwY,502.78,508.66,00:08:22,00:08:28,error and that error is uninitialized
+v31,C++,solufpKPDwY,505.48,511.42,00:08:25,00:08:31,local variable annual salary used what
+v31,C++,solufpKPDwY,508.66,513.52,00:08:28,00:08:33,that means is that this expression is
+v31,C++,solufpKPDwY,511.42,517.66,00:08:31,00:08:37,expression here if you see this green
+v31,C++,solufpKPDwY,513.52,520.66,00:08:33,00:08:40,underline it also says using an
+v31,C++,solufpKPDwY,517.66,523.72,00:08:37,00:08:43,initialized memory annual salary well
+v31,C++,solufpKPDwY,520.66,526.09,00:08:40,00:08:46,that means that this expression here our
+v31,C++,solufpKPDwY,523.72,527.95,00:08:43,00:08:47,computer doesn't know how to do this
+v31,C++,solufpKPDwY,526.09,530.83,00:08:46,00:08:50,expression since we haven't assigned any
+v31,C++,solufpKPDwY,527.95,533.47,00:08:47,00:08:53,value to our annual salary variables so
+v31,C++,solufpKPDwY,530.83,536.35,00:08:50,00:08:56,it doesn't know how to divide that that
+v31,C++,solufpKPDwY,533.47,538.84,00:08:53,00:08:58,with well since there is no value inside
+v31,C++,solufpKPDwY,536.35,541.9,00:08:56,00:09:01,that container inside that variable so
+v31,C++,solufpKPDwY,538.84,544.09,00:08:58,00:09:04,this causes a compiler error and whoever
+v31,C++,solufpKPDwY,541.9,548.11,00:09:01,00:09:08,has written that compiler error is going
+v31,C++,solufpKPDwY,544.09,551.38,00:09:04,00:09:11,to cure he was right so how we have to
+v31,C++,solufpKPDwY,548.11,556.3,00:09:08,00:09:16,what we have to do to correct this is we
+v31,C++,solufpKPDwY,551.38,560.07,00:09:11,00:09:20,have to ask our user to enter his annual
+v31,C++,solufpKPDwY,556.3,563.68,00:09:16,00:09:23,salary so what we are going to do now is
+v31,C++,solufpKPDwY,560.07,566.74,00:09:20,00:09:26,let's see first command that we use to
+v31,C++,solufpKPDwY,563.68,569.35,00:09:23,00:09:29,output data from our program into our
+v31,C++,solufpKPDwY,566.74,572.22,00:09:26,00:09:32,console is C out so console output and
+v31,C++,solufpKPDwY,569.35,576.1,00:09:29,00:09:36,the command that we use to input data is
+v31,C++,solufpKPDwY,572.22,579.4,00:09:32,00:09:39,console input or C in so I'm going to
+v31,C++,solufpKPDwY,576.1,582.61,00:09:36,00:09:42,say C in and then we use these other
+v31,C++,solufpKPDwY,579.4,584.38,00:09:39,00:09:44,redirection sides and then we say what
+v31,C++,solufpKPDwY,582.61,586.9,00:09:42,00:09:46,is the variable that we want to store
+v31,C++,solufpKPDwY,584.38,589.96,00:09:44,00:09:49,what our user has entered and I'm going
+v31,C++,solufpKPDwY,586.9,593.17,00:09:46,00:09:53,to say annual salary so what I have set
+v31,C++,solufpKPDwY,589.96,596.05,00:09:49,00:09:56,here is our user is going to console
+v31,C++,solufpKPDwY,593.17,598.87,00:09:53,00:09:58,inputs the data and then whatever he has
+v31,C++,solufpKPDwY,596.05,603.45,00:09:56,00:10:03,imported you have to redirect that
+v31,C++,solufpKPDwY,598.87,609.01,00:09:58,00:10:09,inside our annual salary variable so now
+v31,C++,solufpKPDwY,603.45,611.95,00:10:03,00:10:11,if I run my program now you see that our
+v31,C++,solufpKPDwY,609.01,615.67,00:10:09,00:10:15,program runs now so there is no compile
+v31,C++,solufpKPDwY,611.95,618.97,00:10:11,00:10:18,time error and also our cursor is
+v31,C++,solufpKPDwY,615.67,622.12,00:10:15,00:10:22,blinking well it is blinking because it
+v31,C++,solufpKPDwY,618.97,624.97,00:10:18,00:10:24,expects here our user to enter annual
+v31,C++,solufpKPDwY,622.12,627.58,00:10:22,00:10:27,salary but this is not really clear to
+v31,C++,solufpKPDwY,624.97,630.46,00:10:24,00:10:30,someone who has not made this program so
+v31,C++,solufpKPDwY,627.58,633.13,00:10:27,00:10:33,what we have to do if I enter some value
+v31,C++,solufpKPDwY,630.46,634.78,00:10:30,00:10:34,now well it is going to calculate it
+v31,C++,solufpKPDwY,633.13,637.81,00:10:33,00:10:37,correctly but this is not really user
+v31,C++,solufpKPDwY,634.78,640.33,00:10:34,00:10:40,friendly so what we have to do is we
+v31,C++,solufpKPDwY,637.81,643.18,00:10:37,00:10:43,have to write a message to our user
+v31,C++,solufpKPDwY,640.33,645.7,00:10:40,00:10:45,before he enters anything so that he
+v31,C++,solufpKPDwY,643.18,649.95,00:10:43,00:10:49,knows what he should enter so before
+v31,C++,solufpKPDwY,645.7,655.36,00:10:45,00:10:55,this C in command I'm going to say C out
+v31,C++,solufpKPDwY,649.95,658.49,00:10:49,00:10:58,and I'm going to say please and turn
+v31,C++,solufpKPDwY,655.36,666.08,00:10:55,00:11:06,your annual
+v31,C++,solufpKPDwY,658.49,669.36,00:10:58,00:11:09,celery okay and now if I run my program
+v31,C++,solufpKPDwY,666.08,672.06,00:11:06,00:11:12,you are going to see please enter your
+v31,C++,solufpKPDwY,669.36,674.46,00:11:09,00:11:14,annual salary and the cursor is blinking
+v31,C++,solufpKPDwY,672.06,680.07,00:11:12,00:11:20,waiting for you to enter the value and
+v31,C++,solufpKPDwY,674.46,684.84,00:11:14,00:11:24,"if I say for example 40,000 you see that"
+v31,C++,solufpKPDwY,680.07,687.6,00:11:20,00:11:27,your monthly salary is 3 3 3 3 3 so the
+v31,C++,solufpKPDwY,684.84,691.08,00:11:24,00:11:31,program has calculated your monthly
+v31,C++,solufpKPDwY,687.6,695.13,00:11:27,00:11:35,salary and the number is based on
+v31,C++,solufpKPDwY,691.08,697.74,00:11:31,00:11:37,whatever our user decides to input so we
+v31,C++,solufpKPDwY,695.13,699.3,00:11:35,00:11:39,have upgraded our program and there is
+v31,C++,solufpKPDwY,697.74,703.02,00:11:37,00:11:43,also one more thing that I would like to
+v31,C++,solufpKPDwY,699.3,706.59,00:11:39,00:11:46,show you when we are doing this example
+v31,C++,solufpKPDwY,703.02,708.93,00:11:43,00:11:48,and then is let's say that we want to
+v31,C++,solufpKPDwY,706.59,712.59,00:11:46,00:11:52,calculate how much money our user is
+v31,C++,solufpKPDwY,708.93,723.47,00:11:48,00:12:03,going to earn in 10 years so let's say
+v31,C++,solufpKPDwY,712.59,727.53,00:11:52,00:12:07,see out in 10 years you will earn and
+v31,C++,solufpKPDwY,723.47,730.35,00:12:03,00:12:10,now we have to put a value of how much
+v31,C++,solufpKPDwY,727.53,733.32,00:12:07,00:12:13,money he is going to earn and if you
+v31,C++,solufpKPDwY,730.35,736.44,00:12:10,00:12:16,look at this situation here we first
+v31,C++,solufpKPDwY,733.32,739.59,00:12:13,00:12:19,created our monthly salary variable and
+v31,C++,solufpKPDwY,736.44,741.93,00:12:16,00:12:21,we then assigned it a value of annual
+v31,C++,solufpKPDwY,739.59,744.15,00:12:19,00:12:24,salary divided by 12 but there is
+v31,C++,solufpKPDwY,741.93,746.28,00:12:21,00:12:26,another way that we can write out
+v31,C++,solufpKPDwY,744.15,748.95,00:12:24,00:12:28,results of expla expressions without
+v31,C++,solufpKPDwY,746.28,753.36,00:12:26,00:12:33,creating any variables if that is what
+v31,C++,solufpKPDwY,748.95,755.76,00:12:28,00:12:35,we need and that is just here so in this
+v31,C++,solufpKPDwY,753.36,757.89,00:12:33,00:12:37,line in 10 years you will earn you are
+v31,C++,solufpKPDwY,755.76,760.05,00:12:35,00:12:40,DS redirection size and then you see
+v31,C++,solufpKPDwY,757.89,761.85,00:12:37,00:12:41,expression that you want your computer
+v31,C++,solufpKPDwY,760.05,764.25,00:12:40,00:12:44,to calculate and what we want to
+v31,C++,solufpKPDwY,761.85,767.52,00:12:41,00:12:47,calculate is how much our user is going
+v31,C++,solufpKPDwY,764.25,776.43,00:12:44,00:12:56,to earn in 10 years so that is annual
+v31,C++,solufpKPDwY,767.52,778.56,00:12:47,00:12:58,salary times 10 and if you do it this
+v31,C++,solufpKPDwY,776.43,781.86,00:12:56,00:13:01,way so if you don't decide to create a
+v31,C++,solufpKPDwY,778.56,783.87,00:12:58,00:13:03,variable then you will not be able to
+v31,C++,solufpKPDwY,781.86,786.24,00:13:01,00:13:06,use the result of this expression later
+v31,C++,solufpKPDwY,783.87,789.69,00:13:03,00:13:09,in your program so you don't have a
+v31,C++,solufpKPDwY,786.24,791.82,00:13:06,00:13:11,container that holds this 10 year salary
+v31,C++,solufpKPDwY,789.69,794.4,00:13:09,00:13:14,but you have a container
+v31,C++,solufpKPDwY,791.82,796.56,00:13:11,00:13:16,holds annual salary and monthly salaries
+v31,C++,solufpKPDwY,794.4,798.92,00:13:14,00:13:18,so each time that you want to to write
+v31,C++,solufpKPDwY,796.56,802.11,00:13:16,00:13:22,out or do something with your ten-year
+v31,C++,solufpKPDwY,798.92,804.18,00:13:18,00:13:24,salary you will have to write this
+v31,C++,solufpKPDwY,802.11,806.37,00:13:22,00:13:26,expression while if you want to do
+v31,C++,solufpKPDwY,804.18,808.47,00:13:24,00:13:28,something with your monthly for you have
+v31,C++,solufpKPDwY,806.37,810.54,00:13:26,00:13:30,a container that is holding that value
+v31,C++,solufpKPDwY,808.47,816.41,00:13:28,00:13:36,directly for you and you can access it
+v31,C++,solufpKPDwY,810.54,820.11,00:13:30,00:13:40,so if we run our program now you see it
+v31,C++,solufpKPDwY,816.41,824.37,00:13:36,00:13:44,expects us to enter our annual salary
+v31,C++,solufpKPDwY,820.11,827.13,00:13:40,00:13:47,"let's say 50,000 and you see here your"
+v31,C++,solufpKPDwY,824.37,829.71,00:13:44,00:13:49,monthly salary is four thousand one
+v31,C++,solufpKPDwY,827.13,833.22,00:13:47,00:13:53,hundred sixty six point sixty seven and
+v31,C++,solufpKPDwY,829.71,834.15,00:13:49,00:13:54,then in ten years you will earn what is
+v31,C++,solufpKPDwY,833.22,838.32,00:13:53,00:13:58,this half a million
+v31,C++,solufpKPDwY,834.15,841.23,00:13:54,00:14:01,so okay one thing that we are missing
+v31,C++,solufpKPDwY,838.32,844.38,00:13:58,00:14:04,here at them and that you can add is end
+v31,C++,solufpKPDwY,841.23,848.82,00:14:01,00:14:08,line or backslash n so you can add it
+v31,C++,solufpKPDwY,844.38,852.06,00:14:04,00:14:12,here and your program is going to format
+v31,C++,solufpKPDwY,848.82,858.0,00:14:08,00:14:18,your text nicely so this line should go
+v31,C++,solufpKPDwY,852.06,864.8,00:14:12,00:14:24,here like this if I add here one more
+v31,C++,solufpKPDwY,858.0,870.78,00:14:18,00:14:30,end line and if I run my program again
+v31,C++,solufpKPDwY,864.8,874.53,00:14:24,00:14:34,"you see after 50,000 and now we have our"
+v31,C++,solufpKPDwY,870.78,877.89,00:14:30,00:14:37,text formatted nicely because of this n
+v31,C++,solufpKPDwY,874.53,880.71,00:14:34,00:14:40,line that I have just added let's now
+v31,C++,solufpKPDwY,877.89,882.44,00:14:37,00:14:42,create another variable and this time we
+v31,C++,solufpKPDwY,880.71,887.79,00:14:40,00:14:47,are going to create a variable of type
+v31,C++,solufpKPDwY,882.44,890.25,00:14:42,00:14:50,character so char that is the type that
+v31,C++,solufpKPDwY,887.79,892.62,00:14:47,00:14:52,is used for character variables in C++
+v31,C++,solufpKPDwY,890.25,896.94,00:14:50,00:14:56,it's called char and let's name our
+v31,C++,solufpKPDwY,892.62,899.1,00:14:52,00:14:59,variable character and when you want to
+v31,C++,solufpKPDwY,896.94,902.67,00:14:56,00:15:02,assign a value to a character variable
+v31,C++,solufpKPDwY,899.1,907.92,00:14:59,00:15:07,and C++ what you use is these single
+v31,C++,solufpKPDwY,902.67,911.04,00:15:02,00:15:11,quotes like this if you see this example
+v31,C++,solufpKPDwY,907.92,913.47,00:15:07,00:15:13,here when we are writing out text so
+v31,C++,solufpKPDwY,911.04,915.06,00:15:11,00:15:15,string of text we use these double
+v31,C++,solufpKPDwY,913.47,919.02,00:15:13,00:15:19,quotation marks but when you want to
+v31,C++,solufpKPDwY,915.06,922.14,00:15:15,00:15:22,assign character value of character
+v31,C++,solufpKPDwY,919.02,925.42,00:15:19,00:15:25,variable we use these single quotations
+v31,C++,solufpKPDwY,922.14,927.25,00:15:22,00:15:27,like here and there are also some more
+v31,C++,solufpKPDwY,925.42,930.55,00:15:25,00:15:30,when it comes to naming your variables
+v31,C++,solufpKPDwY,927.25,932.26,00:15:27,00:15:32,and the most important one in my opinion
+v31,C++,solufpKPDwY,930.55,934.99,00:15:30,00:15:34,and the most important one to make it
+v31,C++,solufpKPDwY,932.26,936.64,00:15:32,00:15:36,easier to you is to name your variables
+v31,C++,solufpKPDwY,934.99,938.35,00:15:34,00:15:38,according to their purpose
+v31,C++,solufpKPDwY,936.64,940.06,00:15:36,00:15:40,so give meaningful names to your
+v31,C++,solufpKPDwY,938.35,942.91,00:15:38,00:15:42,variables that is really really
+v31,C++,solufpKPDwY,940.06,945.76,00:15:40,00:15:45,important for example you see this
+v31,C++,solufpKPDwY,942.91,948.79,00:15:42,00:15:48,monthly salary variable here we could
+v31,C++,solufpKPDwY,945.76,951.76,00:15:45,00:15:51,have as well name this variable blah
+v31,C++,solufpKPDwY,948.79,953.86,00:15:48,00:15:53,blah blah and copy it here also because
+v31,C++,solufpKPDwY,951.76,956.23,00:15:51,00:15:56,we are having compiler error right now
+v31,C++,solufpKPDwY,953.86,959.61,00:15:53,00:15:59,because our compiler does not know what
+v31,C++,solufpKPDwY,956.23,962.47,00:15:56,00:16:02,this variable really is you see it says
+v31,C++,solufpKPDwY,959.61,965.71,00:15:59,00:16:05,identifier is undefined because you have
+v31,C++,solufpKPDwY,962.47,968.56,00:16:02,00:16:08,not created this variable here because
+v31,C++,solufpKPDwY,965.71,971.32,00:16:05,00:16:11,it supposes that it is a variable but it
+v31,C++,solufpKPDwY,968.56,975.13,00:16:08,00:16:15,has not been created before so it does
+v31,C++,solufpKPDwY,971.32,977.41,00:16:11,00:16:17,not recognize what this variable is so
+v31,C++,solufpKPDwY,975.13,979.74,00:16:15,00:16:19,we have to copy the new name here also
+v31,C++,solufpKPDwY,977.41,984.73,00:16:17,00:16:24,and now our compile time error
+v31,C++,solufpKPDwY,979.74,986.2,00:16:19,00:16:26,disappears and this here this name does
+v31,C++,solufpKPDwY,984.73,988.84,00:16:24,00:16:28,not represent anything to your
+v31,C++,solufpKPDwY,986.2,990.49,00:16:26,00:16:30,computer's so your computer is now going
+v31,C++,solufpKPDwY,988.84,992.68,00:16:28,00:16:32,to run your program and your program is
+v31,C++,solufpKPDwY,990.49,995.2,00:16:30,00:16:35,going to work just the same as it did
+v31,C++,solufpKPDwY,992.68,997.57,00:16:32,00:16:37,before but this is really making it hard
+v31,C++,solufpKPDwY,995.2,1000.6,00:16:35,00:16:40,for you to understand what your code is
+v31,C++,solufpKPDwY,997.57,1003.18,00:16:37,00:16:43,doing and especially if you come to this
+v31,C++,solufpKPDwY,1000.6,1005.7,00:16:40,00:16:45,for example in ten days or someone else
+v31,C++,solufpKPDwY,1003.18,1009.9,00:16:43,00:16:49,tries to understand your program this is
+v31,C++,solufpKPDwY,1005.7,1012.12,00:16:45,00:16:52,really hard to read and he will just try
+v31,C++,solufpKPDwY,1009.9,1015.51,00:16:49,00:16:55,to uncover really what your program is
+v31,C++,solufpKPDwY,1012.12,1017.79,00:16:52,00:16:57,doing without understanding it because
+v31,C++,solufpKPDwY,1015.51,1019.8,00:16:55,00:16:59,you have used these bla bla bla names
+v31,C++,solufpKPDwY,1017.79,1022.05,00:16:57,00:17:02,for your variables the same situation
+v31,C++,solufpKPDwY,1019.8,1024.69,00:16:59,00:17:04,would be if you for example have three
+v31,C++,solufpKPDwY,1022.05,1028.41,00:17:02,00:17:08,boxes inside your kitchen and you use
+v31,C++,solufpKPDwY,1024.69,1030.93,00:17:04,00:17:10,one for storing sugar and flour and salt
+v31,C++,solufpKPDwY,1028.41,1033.9,00:17:08,00:17:13,and instead of naming those sugar flour
+v31,C++,solufpKPDwY,1030.93,1037.5,00:17:10,00:17:17,salt respectively you decide to name
+v31,C++,solufpKPDwY,1033.9,1040.56,00:17:13,00:17:20,them red box green box and blue box and
+v31,C++,solufpKPDwY,1037.5,1042.57,00:17:17,00:17:22,then and someone else comes to how
+v31,C++,solufpKPDwY,1040.56,1044.67,00:17:20,00:17:24,someone else comes to your program he
+v31,C++,solufpKPDwY,1042.57,1048.24,00:17:22,00:17:28,does not really know where to find sugar
+v31,C++,solufpKPDwY,1044.67,1050.73,00:17:24,00:17:30,because red does not mean that that box
+v31,C++,solufpKPDwY,1048.24,1053.31,00:17:28,00:17:33,is storing sugar so you should name that
+v31,C++,solufpKPDwY,1050.73,1055.18,00:17:30,00:17:35,box sugar box because imagine how three
+v31,C++,solufpKPDwY,1053.31,1057.88,00:17:33,00:17:37,is easily easy to remember but
+v31,C++,solufpKPDwY,1055.18,1060.37,00:17:35,00:17:40,having ten boxes or ten variables or a
+v31,C++,solufpKPDwY,1057.88,1064.63,00:17:37,00:17:44,hundred of them or even a thousand which
+v31,C++,solufpKPDwY,1060.37,1067.96,00:17:40,00:17:47,is very common inside large programs so
+v31,C++,solufpKPDwY,1064.63,1071.7,00:17:44,00:17:51,what you should do and I am going to do
+v31,C++,solufpKPDwY,1067.96,1075.31,00:17:47,00:17:55,is return that previous name so monthly
+v31,C++,solufpKPDwY,1071.7,1077.41,00:17:51,00:17:57,salary and here also so you should give
+v31,C++,solufpKPDwY,1075.31,1080.32,00:17:55,00:18:00,meaningful names to your variables that
+v31,C++,solufpKPDwY,1077.41,1084.28,00:17:57,00:18:04,is very important and that is the first
+v31,C++,solufpKPDwY,1080.32,1086.17,00:18:00,00:18:06,rule the second rule is that well the
+v31,C++,solufpKPDwY,1084.28,1088.72,00:18:04,00:18:08,second and third and fourth are the
+v31,C++,solufpKPDwY,1086.17,1091.12,00:18:06,00:18:11,rules that you will have to obey in most
+v31,C++,solufpKPDwY,1088.72,1094.68,00:18:08,00:18:14,cases because if you don't then you are
+v31,C++,solufpKPDwY,1091.12,1098.62,00:18:11,00:18:18,just going to get a compile-time error
+v31,C++,solufpKPDwY,1094.68,1100.96,00:18:14,00:18:20,in 99% of the cases let's say and I'm
+v31,C++,solufpKPDwY,1098.62,1105.7,00:18:18,00:18:25,not going to say what that 1% is because
+v31,C++,solufpKPDwY,1100.96,1107.08,00:18:20,00:18:27,I want you to obey these rules so when
+v31,C++,solufpKPDwY,1105.7,1109.39,00:18:25,00:18:29,it comes to naming your variables
+v31,C++,solufpKPDwY,1107.08,1113.38,00:18:27,00:18:33,another thing is that your variable
+v31,C++,solufpKPDwY,1109.39,1117.28,00:18:29,00:18:37,names cannot contain any special
+v31,C++,solufpKPDwY,1113.38,1121.36,00:18:33,00:18:41,characters except underscore so like
+v31,C++,solufpKPDwY,1117.28,1124.21,00:18:37,00:18:44,this this here is valid name to our
+v31,C++,solufpKPDwY,1121.36,1125.98,00:18:41,00:18:45,variable but if you try for example to
+v31,C++,solufpKPDwY,1124.21,1130.03,00:18:44,00:18:50,name your variable like this so you say
+v31,C++,solufpKPDwY,1125.98,1133.3,00:18:45,00:18:53,plus character you see that here in this
+v31,C++,solufpKPDwY,1130.03,1136.15,00:18:50,00:18:56,error window it says expected an
+v31,C++,solufpKPDwY,1133.3,1139.06,00:18:53,00:18:59,identifier so you cannot use this to
+v31,C++,solufpKPDwY,1136.15,1143.5,00:18:56,00:19:03,name your variable or this you cannot
+v31,C++,solufpKPDwY,1139.06,1146.38,00:18:59,00:19:06,say character with this - inside it so
+v31,C++,solufpKPDwY,1143.5,1150.07,00:19:03,00:19:10,character - sir
+v31,C++,solufpKPDwY,1146.38,1151.96,00:19:06,00:19:11,so these signs these special signs are
+v31,C++,solufpKPDwY,1150.07,1155.29,00:19:10,00:19:15,used for something else there are
+v31,C++,solufpKPDwY,1151.96,1157.24,00:19:11,00:19:17,operators inside C++ and you are not
+v31,C++,solufpKPDwY,1155.29,1159.97,00:19:15,00:19:19,supposed to use those inside your
+v31,C++,solufpKPDwY,1157.24,1163.42,00:19:17,00:19:23,variable names if you really want to use
+v31,C++,solufpKPDwY,1159.97,1167.71,00:19:19,00:19:27,some special signs what you should and
+v31,C++,solufpKPDwY,1163.42,1169.54,00:19:23,00:19:29,can use is underscore like this so this
+v31,C++,solufpKPDwY,1167.71,1171.19,00:19:27,00:19:31,is the only sign that is allowed and
+v31,C++,solufpKPDwY,1169.54,1174.43,00:19:29,00:19:34,that I recommend for you to use for
+v31,C++,solufpKPDwY,1171.19,1177.55,00:19:31,00:19:37,naming your variables that's the second
+v31,C++,solufpKPDwY,1174.43,1180.94,00:19:34,00:19:40,rule the third rule is that your
+v31,C++,solufpKPDwY,1177.55,1185.32,00:19:37,00:19:45,variable names cannot begin with numbers
+v31,C++,solufpKPDwY,1180.94,1187.93,00:19:40,00:19:47,like this so you cannot say eight
+v31,C++,solufpKPDwY,1185.32,1188.53,00:19:45,00:19:48,character for example it also says
+v31,C++,solufpKPDwY,1187.93,1190.99,00:19:47,00:19:50,expected
+v31,C++,solufpKPDwY,1188.53,1194.71,00:19:48,00:19:54,and identifiers but what you can do is
+v31,C++,solufpKPDwY,1190.99,1197.86,00:19:50,00:19:57,you can say for example character eight
+v31,C++,solufpKPDwY,1194.71,1200.77,00:19:54,00:20:00,that is a valid name so a number can be
+v31,C++,solufpKPDwY,1197.86,1204.46,00:19:57,00:20:04,on any other position except on their
+v31,C++,solufpKPDwY,1200.77,1206.94,00:20:00,00:20:06,first position so this is a valid name
+v31,C++,solufpKPDwY,1204.46,1210.4,00:20:04,00:20:10,for a variable so you can put also
+v31,C++,solufpKPDwY,1206.94,1213.67,00:20:06,00:20:13,number here so you can say for example C
+v31,C++,solufpKPDwY,1210.4,1215.62,00:20:10,00:20:15,12 character 8 but again what does that
+v31,C++,solufpKPDwY,1213.67,1217.93,00:20:13,00:20:17,really mean that is not a meaningful
+v31,C++,solufpKPDwY,1215.62,1220.36,00:20:15,00:20:20,name for a variable so again we come to
+v31,C++,solufpKPDwY,1217.93,1223.33,00:20:17,00:20:23,the first rule so you should name your
+v31,C++,solufpKPDwY,1220.36,1226.0,00:20:20,00:20:26,variables according to their purpose so
+v31,C++,solufpKPDwY,1223.33,1231.07,00:20:23,00:20:31,I'm going to return this to character
+v31,C++,solufpKPDwY,1226.0,1235.06,00:20:26,00:20:35,name again and then we have our third
+v31,C++,solufpKPDwY,1231.07,1238.18,00:20:31,00:20:38,rule I guess which is you cannot use
+v31,C++,solufpKPDwY,1235.06,1241.48,00:20:35,00:20:41,space inside your variable names so for
+v31,C++,solufpKPDwY,1238.18,1244.69,00:20:38,00:20:44,example this this is not valid and your
+v31,C++,solufpKPDwY,1241.48,1247.54,00:20:41,00:20:47,compiler says it here so it gives you an
+v31,C++,solufpKPDwY,1244.69,1252.07,00:20:44,00:20:52,error it does not know what this really
+v31,C++,solufpKPDwY,1247.54,1254.71,00:20:47,00:20:54,is so you cannot use space blank spaces
+v31,C++,solufpKPDwY,1252.07,1256.36,00:20:52,00:20:56,inside your variable names because you
+v31,C++,solufpKPDwY,1254.71,1259.69,00:20:54,00:20:59,are going to get a compile time error
+v31,C++,solufpKPDwY,1256.36,1262.36,00:20:56,00:21:02,and if I try to do that and I try to run
+v31,C++,solufpKPDwY,1259.69,1264.25,00:20:59,00:21:04,my program I get the window so it says
+v31,C++,solufpKPDwY,1262.36,1266.05,00:21:02,00:21:06,you cannot run this program you have
+v31,C++,solufpKPDwY,1264.25,1269.65,00:21:04,00:21:09,some tax against what you should do is
+v31,C++,solufpKPDwY,1266.05,1274.15,00:21:06,00:21:14,you should correct those errors and then
+v31,C++,solufpKPDwY,1269.65,1280.3,00:21:09,00:21:20,you can really run your program like
+v31,C++,solufpKPDwY,1274.15,1283.57,00:21:14,00:21:23,this okay so let's repeat these rules
+v31,C++,solufpKPDwY,1280.3,1285.4,00:21:20,00:21:25,one more time the first rule is that you
+v31,C++,solufpKPDwY,1283.57,1287.29,00:21:23,00:21:27,should give meaningful names to your
+v31,C++,solufpKPDwY,1285.4,1289.39,00:21:25,00:21:29,variables so name them according to
+v31,C++,solufpKPDwY,1287.29,1291.88,00:21:27,00:21:31,their purpose the second rule is that
+v31,C++,solufpKPDwY,1289.39,1295.78,00:21:29,00:21:35,your variables cannot contain any
+v31,C++,solufpKPDwY,1291.88,1297.79,00:21:31,00:21:37,special characters except underscore the
+v31,C++,solufpKPDwY,1295.78,1299.26,00:21:35,00:21:39,third rule is that your variables cannot
+v31,C++,solufpKPDwY,1297.79,1301.87,00:21:37,00:21:41,start with numbers
+v31,C++,solufpKPDwY,1299.26,1304.39,00:21:39,00:21:44,you can't put number on any other
+v31,C++,solufpKPDwY,1301.87,1307.3,00:21:41,00:21:47,position but not on the first one and
+v31,C++,solufpKPDwY,1304.39,1310.42,00:21:44,00:21:50,third rule is that a no rule actually is
+v31,C++,solufpKPDwY,1307.3,1313.78,00:21:47,00:21:53,that your variables cannot contain blank
+v31,C++,solufpKPDwY,1310.42,1317.2,00:21:50,00:21:57,spaces so empty spaces no no in a
+v31,C++,solufpKPDwY,1313.78,1319.24,00:21:53,00:21:59,variable name what you should do is you
+v31,C++,solufpKPDwY,1317.2,1321.58,00:21:57,00:22:01,should name your variables according to
+v31,C++,solufpKPDwY,1319.24,1322.57,00:21:59,00:22:02,their purpose so meaningfully and you
+v31,C++,solufpKPDwY,1321.58,1324.82,00:22:01,00:22:04,should also you
+v31,C++,solufpKPDwY,1322.57,1325.66,00:22:02,00:22:05,something called camel casing what is
+v31,C++,solufpKPDwY,1324.82,1328.27,00:22:04,00:22:08,camel casing
+v31,C++,solufpKPDwY,1325.66,1331.06,00:22:05,00:22:11,you see how I have named this annual
+v31,C++,solufpKPDwY,1328.27,1333.4,00:22:08,00:22:13,salary here you see that the first
+v31,C++,solufpKPDwY,1331.06,1336.1,00:22:11,00:22:16,letter of my variable name is small
+v31,C++,solufpKPDwY,1333.4,1338.86,00:22:13,00:22:18,water and then the next word starts with
+v31,C++,solufpKPDwY,1336.1,1341.59,00:22:16,00:22:21,capital letter and that is called camel
+v31,C++,solufpKPDwY,1338.86,1346.08,00:22:18,00:22:26,casing so for example you would name
+v31,C++,solufpKPDwY,1341.59,1350.86,00:22:21,00:22:30,your variable like this first second
+v31,C++,solufpKPDwY,1346.08,1352.93,00:22:26,00:22:32,third so like this you see that this
+v31,C++,solufpKPDwY,1350.86,1357.03,00:22:30,00:22:37,first second third these are words
+v31,C++,solufpKPDwY,1352.93,1359.5,00:22:32,00:22:39,inside your variable name and this F is
+v31,C++,solufpKPDwY,1357.03,1361.99,00:22:37,00:22:41,lowercase letter that's the start letter
+v31,C++,solufpKPDwY,1359.5,1364.87,00:22:39,00:22:44,of your variable and then each next word
+v31,C++,solufpKPDwY,1361.99,1367.09,00:22:41,00:22:47,begins with capital letter and all the
+v31,C++,solufpKPDwY,1364.87,1369.01,00:22:44,00:22:49,rest is lowercase letters that is called
+v31,C++,solufpKPDwY,1367.09,1372.52,00:22:47,00:22:52,camel casing and that is something that
+v31,C++,solufpKPDwY,1369.01,1375.43,00:22:49,00:22:55,is usually used with C++ let's talk
+v31,C++,solufpKPDwY,1372.52,1377.8,00:22:52,00:22:57,about datatypes now I am going to delete
+v31,C++,solufpKPDwY,1375.43,1381.36,00:22:55,00:23:01,this code so if you need this code for a
+v31,C++,solufpKPDwY,1377.8,1385.54,00:22:57,00:23:05,bit longer you can pause the video here
+v31,C++,solufpKPDwY,1381.36,1388.66,00:23:01,00:23:08,so what kind of data can we store in our
+v31,C++,solufpKPDwY,1385.54,1390.85,00:23:05,00:23:10,variables well for now we are going to
+v31,C++,solufpKPDwY,1388.66,1392.68,00:23:08,00:23:12,cover only the most basic ones the ones
+v31,C++,solufpKPDwY,1390.85,1394.33,00:23:10,00:23:14,that we are going to use frequently and
+v31,C++,solufpKPDwY,1392.68,1396.82,00:23:12,00:23:16,you should know that there are a lot
+v31,C++,solufpKPDwY,1394.33,1398.38,00:23:14,00:23:18,more data types besides from these that
+v31,C++,solufpKPDwY,1396.82,1400.27,00:23:16,00:23:20,we are going to mention here and more
+v31,C++,solufpKPDwY,1398.38,1403.45,00:23:18,00:23:23,complex ones that we are going to cover
+v31,C++,solufpKPDwY,1400.27,1405.43,00:23:20,00:23:25,later in these videos in this tutorial
+v31,C++,solufpKPDwY,1403.45,1409.56,00:23:23,00:23:29,so the first one that I would like to
+v31,C++,solufpKPDwY,1405.43,1412.03,00:23:25,00:23:32,mention is a whole number data type so
+v31,C++,solufpKPDwY,1409.56,1415.81,00:23:29,00:23:35,integer a data type that can hold
+v31,C++,solufpKPDwY,1412.03,1417.97,00:23:32,00:23:37,negative whole numbers 0 and positive
+v31,C++,solufpKPDwY,1415.81,1423.76,00:23:35,00:23:43,whole numbers so the type that is used
+v31,C++,solufpKPDwY,1417.97,1427.48,00:23:37,00:23:47,for that and C++ is called int and good
+v31,C++,solufpKPDwY,1423.76,1433.72,00:23:43,00:23:53,example for int variable is what's a
+v31,C++,solufpKPDwY,1427.48,1436.6,00:23:47,00:23:56,year of birth so that is an example of a
+v31,C++,solufpKPDwY,1433.72,1442.0,00:23:53,00:24:02,whole number variable and let's say that
+v31,C++,solufpKPDwY,1436.6,1444.6,00:23:56,00:24:04,that variable is going to hold 1995 okay
+v31,C++,solufpKPDwY,1442.0,1447.73,00:24:02,00:24:07,so that would be an integer variable
+v31,C++,solufpKPDwY,1444.6,1451.48,00:24:04,00:24:11,after that we have already seen this so
+v31,C++,solufpKPDwY,1447.73,1454.9,00:24:07,00:24:14,it is a character variable so let's say
+v31,C++,solufpKPDwY,1451.48,1455.54,00:24:11,00:24:15,char and an example of a char variable
+v31,C++,solufpKPDwY,1454.9,1459.1,00:24:14,00:24:19,could
+v31,C++,solufpKPDwY,1455.54,1463.94,00:24:15,00:24:23,gender for example let's call it gender
+v31,C++,solufpKPDwY,1459.1,1467.0,00:24:19,00:24:27,and you can store F for female or M for
+v31,C++,solufpKPDwY,1463.94,1471.92,00:24:23,00:24:31,male for example so the chart variable
+v31,C++,solufpKPDwY,1467.0,1475.52,00:24:27,00:24:35,can store one character then the next
+v31,C++,solufpKPDwY,1471.92,1478.49,00:24:31,00:24:38,one is boolean value meaning true or
+v31,C++,solufpKPDwY,1475.52,1480.89,00:24:35,00:24:40,false value this is the simplest one and
+v31,C++,solufpKPDwY,1478.49,1486.02,00:24:38,00:24:46,the type that is used to store boolean
+v31,C++,solufpKPDwY,1480.89,1488.54,00:24:40,00:24:48,is called bull and a good example for a
+v31,C++,solufpKPDwY,1486.02,1491.24,00:24:46,00:24:51,bull value could be for example if you
+v31,C++,solufpKPDwY,1488.54,1493.19,00:24:48,00:24:53,want to hold in your program a variable
+v31,C++,solufpKPDwY,1491.24,1496.7,00:24:51,00:24:56,that tells you whether your user is
+v31,C++,solufpKPDwY,1493.19,1500.75,00:24:53,00:25:00,older or younger than 18 years 18 years
+v31,C++,solufpKPDwY,1496.7,1505.22,00:24:56,00:25:05,old so let's call our variable is older
+v31,C++,solufpKPDwY,1500.75,1508.39,00:25:00,00:25:08,than 18 and we can assign to that
+v31,C++,solufpKPDwY,1505.22,1512.59,00:25:05,00:25:12,variable either value of true or false
+v31,C++,solufpKPDwY,1508.39,1516.55,00:25:08,00:25:16,so I'm going to put true true here
+v31,C++,solufpKPDwY,1512.59,1519.89,00:25:12,00:25:19,another variable another data type is
+v31,C++,solufpKPDwY,1516.55,1521.84,00:25:16,00:25:21,decimal point number also called
+v31,C++,solufpKPDwY,1519.89,1524.24,00:25:19,00:25:24,floating point number which we have
+v31,C++,solufpKPDwY,1521.84,1529.58,00:25:21,00:25:29,mentioned before and let's create a
+v31,C++,solufpKPDwY,1524.24,1532.01,00:25:24,00:25:32,variable of type float and let's say
+v31,C++,solufpKPDwY,1529.58,1540.2,00:25:29,00:25:40,that that variable is going to hold our
+v31,C++,solufpKPDwY,1532.01,1542.57,00:25:32,00:25:42,average grade so average grade and this
+v31,C++,solufpKPDwY,1540.2,1546.52,00:25:40,00:25:46,average grade can also be a whole number
+v31,C++,solufpKPDwY,1542.57,1548.99,00:25:42,00:25:48,but since it has potential to be also
+v31,C++,solufpKPDwY,1546.52,1552.53,00:25:46,00:25:52,floating-point number or a decimal point
+v31,C++,solufpKPDwY,1548.99,1556.43,00:25:48,00:25:56,number we are going to use a float data
+v31,C++,solufpKPDwY,1552.53,1559.34,00:25:52,00:25:59,type for this average grade and another
+v31,C++,solufpKPDwY,1556.43,1562.49,00:25:56,00:26:02,data type that I would like to mention
+v31,C++,solufpKPDwY,1559.34,1564.74,00:25:59,00:26:04,for also storing decimal numbers is
+v31,C++,solufpKPDwY,1562.49,1566.84,00:26:02,00:26:06,called double and the difference between
+v31,C++,solufpKPDwY,1564.74,1569.36,00:26:04,00:26:09,double and float is that double is
+v31,C++,solufpKPDwY,1566.84,1572.48,00:26:06,00:26:12,double size of float so if you remember
+v31,C++,solufpKPDwY,1569.36,1575.78,00:26:09,00:26:15,when we talked previously about take
+v31,C++,solufpKPDwY,1572.48,1578.27,00:26:12,00:26:18,memory space that variables take so
+v31,C++,solufpKPDwY,1575.78,1580.76,00:26:15,00:26:20,float is taking four bytes and double is
+v31,C++,solufpKPDwY,1578.27,1583.12,00:26:18,00:26:23,taking double of that so eight bytes so
+v31,C++,solufpKPDwY,1580.76,1586.18,00:26:20,00:26:26,you can put much more data inside your
+v31,C++,solufpKPDwY,1583.12,1588.95,00:26:23,00:26:28,double data type than inside float and
+v31,C++,solufpKPDwY,1586.18,1591.59,00:26:26,00:26:31,let's say for example that if you have
+v31,C++,solufpKPDwY,1588.95,1595.13,00:26:28,00:26:35,the credit card and you had a lot of
+v31,C++,solufpKPDwY,1591.59,1596.87,00:26:31,00:26:36,money a lot a lot a lot of money and you
+v31,C++,solufpKPDwY,1595.13,1600.05,00:26:35,00:26:40,want to store that value inside a
+v31,C++,solufpKPDwY,1596.87,1604.72,00:26:36,00:26:44,variable you would use double data type
+v31,C++,solufpKPDwY,1600.05,1608.48,00:26:40,00:26:48,so let's say double balance equals to
+v31,C++,solufpKPDwY,1604.72,1613.52,00:26:44,00:26:53,this large number here which I'm not
+v31,C++,solufpKPDwY,1608.48,1617.66,00:26:48,00:26:57,going to even try to read okay so these
+v31,C++,solufpKPDwY,1613.52,1619.73,00:26:53,00:26:59,are the most common data types that we
+v31,C++,solufpKPDwY,1617.66,1622.46,00:26:57,00:27:02,are going to use in this tutorial
+v31,C++,solufpKPDwY,1619.73,1624.89,00:26:59,00:27:04,I have said earlier that each data type
+v31,C++,solufpKPDwY,1622.46,1627.77,00:27:02,00:27:07,takes a certain space in memory but
+v31,C++,solufpKPDwY,1624.89,1630.32,00:27:04,00:27:10,let's see exactly how much each of these
+v31,C++,solufpKPDwY,1627.77,1632.93,00:27:07,00:27:12,take for that we are going to use
+v31,C++,solufpKPDwY,1630.32,1637.55,00:27:10,00:27:17,something called sizeof operator and
+v31,C++,solufpKPDwY,1632.93,1642.53,00:27:12,00:27:22,let's see how we use it so see out size
+v31,C++,solufpKPDwY,1637.55,1645.92,00:27:17,00:27:25,of int is and then we write this size of
+v31,C++,solufpKPDwY,1642.53,1648.23,00:27:22,00:27:28,so sizeof and in parentheses we pass to
+v31,C++,solufpKPDwY,1645.92,1652.97,00:27:25,00:27:32,it data type that we want to check how
+v31,C++,solufpKPDwY,1648.23,1655.85,00:27:28,00:27:35,much memory it is using so int and if I
+v31,C++,solufpKPDwY,1652.97,1658.85,00:27:32,00:27:38,run my program now you see that it says
+v31,C++,solufpKPDwY,1655.85,1661.58,00:27:35,00:27:41,that int takes four bytes of memory and
+v31,C++,solufpKPDwY,1658.85,1664.37,00:27:38,00:27:44,if you've ever actually studied binary
+v31,C++,solufpKPDwY,1661.58,1667.19,00:27:41,00:27:47,algebra you would know that four bytes
+v31,C++,solufpKPDwY,1664.37,1670.85,00:27:44,00:27:50,of memory is actually 32 bits since each
+v31,C++,solufpKPDwY,1667.19,1673.49,00:27:47,00:27:53,byte has 8 bits and as we said our int
+v31,C++,solufpKPDwY,1670.85,1676.61,00:27:50,00:27:56,can store both positive and negative
+v31,C++,solufpKPDwY,1673.49,1679.34,00:27:53,00:27:59,numbers and 0 also remember that so the
+v31,C++,solufpKPDwY,1676.61,1681.38,00:27:56,00:28:01,first of these 32 bits is used to
+v31,C++,solufpKPDwY,1679.34,1683.33,00:27:59,00:28:03,determine whether the number has plus
+v31,C++,solufpKPDwY,1681.38,1685.61,00:28:01,00:28:05,sign or minus sign so whether it's a
+v31,C++,solufpKPDwY,1683.33,1688.34,00:28:03,00:28:08,positive or a negative number and then
+v31,C++,solufpKPDwY,1685.61,1692.84,00:28:05,00:28:12,remaining 31 bits are used for this
+v31,C++,solufpKPDwY,1688.34,1695.03,00:28:08,00:28:15,value itself so let's check what is min
+v31,C++,solufpKPDwY,1692.84,1700.85,00:28:12,00:28:20,value for our end let's write that out
+v31,C++,solufpKPDwY,1695.03,1704.06,00:28:15,00:28:24,let's write C out int min value yes and
+v31,C++,solufpKPDwY,1700.85,1707.57,00:28:20,00:28:27,we have reserved word for a minimal
+v31,C++,solufpKPDwY,1704.06,1712.46,00:28:24,00:28:32,amount for INT and c++ and that is int
+v31,C++,solufpKPDwY,1707.57,1716.24,00:28:27,00:28:36,underscore min and if I run my program
+v31,C++,solufpKPDwY,1712.46,1718.37,00:28:32,00:28:38,now you see that it says this minus 2
+v31,C++,solufpKPDwY,1716.24,1720.65,00:28:36,00:28:40,billion extremely hard to read this
+v31,C++,solufpKPDwY,1718.37,1722.48,00:28:38,00:28:42,number but you see that this is the
+v31,C++,solufpKPDwY,1720.65,1725.33,00:28:40,00:28:45,minimal amount
+v31,C++,solufpKPDwY,1722.48,1727.49,00:28:42,00:28:47,of inte so this number is actually 2 to
+v31,C++,solufpKPDwY,1725.33,1731.57,00:28:45,00:28:51,the power of 31 well just quickly write
+v31,C++,solufpKPDwY,1727.49,1737.96,00:28:47,00:28:57,these so minus 1 minus 2 minus 3 and
+v31,C++,solufpKPDwY,1731.57,1741.2,00:28:51,00:29:01,then minus this number here so this
+v31,C++,solufpKPDwY,1737.96,1744.56,00:28:57,00:29:04,number as I said is 2 to the power of 31
+v31,C++,solufpKPDwY,1741.2,1748.7,00:29:01,00:29:08,why not 32 because this one-bite is used
+v31,C++,solufpKPDwY,1744.56,1751.67,00:29:04,00:29:11,to represent this minus prefix now we
+v31,C++,solufpKPDwY,1748.7,1757.04,00:29:08,00:29:17,should check a positive number range so
+v31,C++,solufpKPDwY,1751.67,1760.4,00:29:11,00:29:20,we also can write int max value yes and
+v31,C++,solufpKPDwY,1757.04,1763.76,00:29:17,00:29:23,then there is another key word in C++ 4
+v31,C++,solufpKPDwY,1760.4,1767.18,00:29:20,00:29:27,into X which is int underscore Max and
+v31,C++,solufpKPDwY,1763.76,1770.3,00:29:23,00:29:30,are you expecting to see this same
+v31,C++,solufpKPDwY,1767.18,1772.82,00:29:27,00:29:32,interval but just with plus sign so
+v31,C++,solufpKPDwY,1770.3,1777.07,00:29:30,00:29:37,write in the comments what are you
+v31,C++,solufpKPDwY,1772.82,1780.65,00:29:32,00:29:40,expecting to see and if I run my program
+v31,C++,solufpKPDwY,1777.07,1782.72,00:29:37,00:29:42,you see that that did not happen and if
+v31,C++,solufpKPDwY,1780.65,1786.08,00:29:40,00:29:46,some of you know why it did not happen I
+v31,C++,solufpKPDwY,1782.72,1788.9,00:29:42,00:29:48,would also like to hear what you think
+v31,C++,solufpKPDwY,1786.08,1791.06,00:29:46,00:29:51,why we have this number here and then
+v31,C++,solufpKPDwY,1788.9,1794.06,00:29:48,00:29:54,this number here for our negative and
+v31,C++,solufpKPDwY,1791.06,1796.43,00:29:51,00:29:56,for our positive range so different
+v31,C++,solufpKPDwY,1794.06,1800.42,00:29:54,00:30:00,ending number and I'm going to explain
+v31,C++,solufpKPDwY,1796.43,1803.12,00:29:56,00:30:03,why because this positive range here we
+v31,C++,solufpKPDwY,1800.42,1805.46,00:30:00,00:30:05,have to include 0 also so in order to
+v31,C++,solufpKPDwY,1803.12,1808.82,00:30:03,00:30:08,include one number here just let's just
+v31,C++,solufpKPDwY,1805.46,1811.67,00:30:05,00:30:11,copy this and paste that so our positive
+v31,C++,solufpKPDwY,1808.82,1814.04,00:30:08,00:30:14,range is going to from 1 up to let's say
+v31,C++,solufpKPDwY,1811.67,1816.68,00:30:11,00:30:16,that it is this number but since it is
+v31,C++,solufpKPDwY,1814.04,1820.13,00:30:14,00:30:20,including 0 also in order to include one
+v31,C++,solufpKPDwY,1816.68,1822.47,00:30:16,00:30:22,number here so 0 you have to take one
+v31,C++,solufpKPDwY,1820.13,1827.12,00:30:20,00:30:27,number here so this here is not eight
+v31,C++,solufpKPDwY,1822.47,1829.55,00:30:22,00:30:29,anymore but is seven so that is why we
+v31,C++,solufpKPDwY,1827.12,1831.8,00:30:27,00:30:31,got let's a different number for our
+v31,C++,solufpKPDwY,1829.55,1835.31,00:30:29,00:30:35,positive and negative range because this
+v31,C++,solufpKPDwY,1831.8,1837.35,00:30:31,00:30:37,here includes 0 also one thing that I
+v31,C++,solufpKPDwY,1835.31,1838.97,00:30:35,00:30:38,have to mention though is that if you
+v31,C++,solufpKPDwY,1837.35,1841.73,00:30:37,00:30:41,want to use only positive integer
+v31,C++,solufpKPDwY,1838.97,1845.06,00:30:38,00:30:45,numbers there is a data type for that as
+v31,C++,solufpKPDwY,1841.73,1848.27,00:30:41,00:30:48,well and data type that is yours for
+v31,C++,solufpKPDwY,1845.06,1851.36,00:30:45,00:30:51,that is called unsigned int and it's
+v31,C++,solufpKPDwY,1848.27,1855.17,00:30:48,00:30:55,size is the same as of int so 4 bytes or
+v31,C++,solufpKPDwY,1851.36,1855.83,00:30:51,00:30:55,32 bits but since it is unsigned that
+v31,C++,solufpKPDwY,1855.17,1859.64,00:30:55,00:30:59,means that it
+v31,C++,solufpKPDwY,1855.83,1862.46,00:30:55,00:31:02,does not use one bit for sign because
+v31,C++,solufpKPDwY,1859.64,1866.33,00:30:59,00:31:06,the sign is by default plus but it uses
+v31,C++,solufpKPDwY,1862.46,1869.27,00:31:02,00:31:09,all 32 bits to represent value and those
+v31,C++,solufpKPDwY,1866.33,1871.31,00:31:06,00:31:11,values go from 0 to let's see exactly
+v31,C++,solufpKPDwY,1869.27,1876.98,00:31:09,00:31:16,how big of a number four billion and
+v31,C++,solufpKPDwY,1871.31,1884.6,00:31:11,00:31:24,something so see out size of unsigned
+v31,C++,solufpKPDwY,1876.98,1889.97,00:31:16,00:31:29,int is and let's the size of unsigned in
+v31,C++,solufpKPDwY,1884.6,1893.39,00:31:24,00:31:33,this is the data type and let's also
+v31,C++,solufpKPDwY,1889.97,1897.19,00:31:29,00:31:37,write out what is the max value of
+v31,C++,solufpKPDwY,1893.39,1902.93,00:31:33,00:31:42,unseasoned so let's say C out you int
+v31,C++,solufpKPDwY,1897.19,1906.14,00:31:37,00:31:46,max value is and there is there is also
+v31,C++,solufpKPDwY,1902.93,1911.9,00:31:42,00:31:51,a reserved word for that and that is you
+v31,C++,solufpKPDwY,1906.14,1915.68,00:31:46,00:31:55,int underscore max so if I run my
+v31,C++,solufpKPDwY,1911.9,1917.93,00:31:51,00:31:57,program now you see that we got four
+v31,C++,solufpKPDwY,1915.68,1920.36,00:31:55,00:32:00,billion and something numbers so double
+v31,C++,solufpKPDwY,1917.93,1923.3,00:31:57,00:32:03,the size of this and this is actually
+v31,C++,solufpKPDwY,1920.36,1926.63,00:32:00,00:32:06,two to the power of 32 but minus one
+v31,C++,solufpKPDwY,1923.3,1930.11,00:32:03,00:32:10,because we are also including zero in
+v31,C++,solufpKPDwY,1926.63,1932.33,00:32:06,00:32:12,this range so let's check these
+v31,C++,solufpKPDwY,1930.11,1935.75,00:32:10,00:32:15,remaining datatypes I'm going to write
+v31,C++,solufpKPDwY,1932.33,1938.0,00:32:12,00:32:18,those out quickly and I will be back so
+v31,C++,solufpKPDwY,1935.75,1940.55,00:32:15,00:32:20,I have written here the rest of these
+v31,C++,solufpKPDwY,1938.0,1942.8,00:32:18,00:32:22,data types and as you can see since our
+v31,C++,solufpKPDwY,1940.55,1945.38,00:32:20,00:32:25,bull is only true or false value one
+v31,C++,solufpKPDwY,1942.8,1948.02,00:32:22,00:32:28,bite is enough for bull our chart is
+v31,C++,solufpKPDwY,1945.38,1952.07,00:32:25,00:32:32,using also one byte float is using four
+v31,C++,solufpKPDwY,1948.02,1954.74,00:32:28,00:32:34,bytes double is using eight and I'm also
+v31,C++,solufpKPDwY,1952.07,1956.27,00:32:32,00:32:36,going to include a table with some more
+v31,C++,solufpKPDwY,1954.74,1959.21,00:32:34,00:32:39,data types which we haven't mentioned
+v31,C++,solufpKPDwY,1956.27,1962.68,00:32:36,00:32:42,here so if you need to check those out
+v31,C++,solufpKPDwY,1959.21,1962.68,00:32:39,00:32:42,please pause the video
+v31,C++,solufpKPDwY,1964.56,1969.91,00:32:44,00:32:49,one thing that I promise to show you is
+v31,C++,solufpKPDwY,1967.15,1973.45,00:32:47,00:32:53,datatype overflow let's see what that is
+v31,C++,solufpKPDwY,1969.91,1976.57,00:32:49,00:32:56,so let's create a variable of type int
+v31,C++,solufpKPDwY,1973.45,1978.69,00:32:53,00:32:58,and call it int Max and let's say that I
+v31,C++,solufpKPDwY,1976.57,1982.21,00:32:56,00:33:02,want to store inside that variable
+v31,C++,solufpKPDwY,1978.69,1985.84,00:32:58,00:33:05,maximum amount of int so int underscore
+v31,C++,solufpKPDwY,1982.21,1988.93,00:33:02,00:33:08,Max and I'm going to write that variable
+v31,C++,solufpKPDwY,1985.84,1993.85,00:33:05,00:33:13,out now just to see how big a value that
+v31,C++,solufpKPDwY,1988.93,1997.03,00:33:08,00:33:17,really is so C out in Max and if I run
+v31,C++,solufpKPDwY,1993.85,2000.03,00:33:13,00:33:20,my program now you see that I have
+v31,C++,solufpKPDwY,1997.03,2001.86,00:33:17,00:33:21,gotten here this to Billy and very large
+v31,C++,solufpKPDwY,2000.03,2005.49,00:33:20,00:33:25,number actually so that is the max
+v31,C++,solufpKPDwY,2001.86,2007.29,00:33:21,00:33:27,amount of int now my question for you is
+v31,C++,solufpKPDwY,2005.49,2014.22,00:33:25,00:33:34,what is going to happen in this
+v31,C++,solufpKPDwY,2007.29,2016.53,00:33:27,00:33:36,situation so C out int max plus 1 what
+v31,C++,solufpKPDwY,2014.22,2019.35,00:33:34,00:33:39,is going to be the result of our program
+v31,C++,solufpKPDwY,2016.53,2021.96,00:33:36,00:33:41,now if I run it so some of you may know
+v31,C++,solufpKPDwY,2019.35,2024.09,00:33:39,00:33:44,this already some of you may not but I
+v31,C++,solufpKPDwY,2021.96,2026.16,00:33:41,00:33:46,am very interested in reading your
+v31,C++,solufpKPDwY,2024.09,2028.47,00:33:44,00:33:48,answers so make sure to write your
+v31,C++,solufpKPDwY,2026.16,2030.75,00:33:46,00:33:50,answers before watching my explanation
+v31,C++,solufpKPDwY,2028.47,2035.3,00:33:48,00:33:55,on this write those in the comments down
+v31,C++,solufpKPDwY,2030.75,2039.36,00:33:50,00:33:59,below and if I run my program now well
+v31,C++,solufpKPDwY,2035.3,2043.02,00:33:55,00:34:03,our number has not increased by 1 but it
+v31,C++,solufpKPDwY,2039.36,2045.54,00:33:59,00:34:05,has went to the minimal amount of int
+v31,C++,solufpKPDwY,2043.02,2047.61,00:34:03,00:34:07,and why has that happened well that is
+v31,C++,solufpKPDwY,2045.54,2049.17,00:34:05,00:34:09,the data type overflow that I was
+v31,C++,solufpKPDwY,2047.61,2051.66,00:34:07,00:34:11,talking about and how this works
+v31,C++,solufpKPDwY,2049.17,2056.91,00:34:09,00:34:16,actually is it works the same as your
+v31,C++,solufpKPDwY,2051.66,2059.88,00:34:11,00:34:19,clock works so it goes 9 10 11 12 and
+v31,C++,solufpKPDwY,2056.91,2063.48,00:34:16,00:34:23,then from 12 since that is the max value
+v31,C++,solufpKPDwY,2059.88,2068.64,00:34:19,00:34:28,on your clock it does not go to 13 but
+v31,C++,solufpKPDwY,2063.48,2072.81,00:34:23,00:34:32,it goes back to min so 1 12 and then 1
+v31,C++,solufpKPDwY,2068.64,2075.33,00:34:28,00:34:35,and that is applicable here it went from
+v31,C++,solufpKPDwY,2072.81,2079.04,00:34:32,00:34:39,the max value to men value just by
+v31,C++,solufpKPDwY,2075.33,2082.83,00:34:35,00:34:42,adding 1 and that is called datatype
+v31,C++,solufpKPDwY,2079.04,2084.57,00:34:39,00:34:44,overflow I already can see that this
+v31,C++,solufpKPDwY,2082.83,2086.52,00:34:42,00:34:46,video is pretty long and I'm currently
+v31,C++,solufpKPDwY,2084.57,2089.49,00:34:44,00:34:49,having problems uploading very long
+v31,C++,solufpKPDwY,2086.52,2091.65,00:34:46,00:34:51,videos to YouTube so I'm going to leave
+v31,C++,solufpKPDwY,2089.49,2094.2,00:34:49,00:34:54,for the next video explanation of ASCII
+v31,C++,solufpKPDwY,2091.65,2097.19,00:34:51,00:34:57,table and we are also going to do some
+v31,C++,solufpKPDwY,2094.2,2099.29,00:34:54,00:34:59,more examples and practice C++ some
+v31,C++,solufpKPDwY,2097.19,2101.9,00:34:57,00:35:01,or so make sure to subscribe to my
+v31,C++,solufpKPDwY,2099.29,2103.91,00:34:59,00:35:03,channel and also click the bell icon so
+v31,C++,solufpKPDwY,2101.9,2106.55,00:35:01,00:35:06,that you are first to be notified when I
+v31,C++,solufpKPDwY,2103.91,2108.29,00:35:03,00:35:08,upload my next video and also like it
+v31,C++,solufpKPDwY,2106.55,2110.18,00:35:06,00:35:10,and share it with anyone who do you
+v31,C++,solufpKPDwY,2108.29,2113.95,00:35:08,00:35:13,think could benefit from this video and
+v31,C++,solufpKPDwY,2110.18,2113.95,00:35:10,00:35:13,I will see you in the next one

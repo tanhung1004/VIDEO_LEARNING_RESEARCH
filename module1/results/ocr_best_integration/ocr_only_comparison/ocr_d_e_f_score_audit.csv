@@ -1,0 +1,9 @@
+﻿check,value,expected,pass
+D_input_frames,2398.0,2398.0,True
+E_input_frames,2398.0,2398.0,True
+D_E_chunk_key_mismatch,0.0,0.0,True
+D_E_score_rows_equal,0.0,0.0,True
+F_rows,4082.0,4082.0,True
+F_formula_max_abs_error,0.0,0.0,True
+F_nan_scores,0.0,0.0,True
+F_out_of_range,0.0,0.0,True

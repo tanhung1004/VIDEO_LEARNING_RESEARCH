@@ -1,0 +1,178 @@
+VIDEO ID: v35
+SUBJECT: C++
+TITLE: C++ Reference Variable | C++ Pointers vs References Explained
+URL: https://www.youtube.com/watch?v=LTXFr_RJE6M
+
+========================================================================
+TRANSCRIPT
+========================================================================
+
+[00:00:02 - 00:00:07] in this video we are going to learn
+[00:00:04 - 00:00:10] about references in
+[00:00:07 - 00:00:13] C++ a reference may be defined as an
+[00:00:10 - 00:00:16] alias or an alternative name for an
+[00:00:13 - 00:00:19] existing variable it can be used to
+[00:00:16 - 00:00:21] access and modify another variable let's
+[00:00:19 - 00:00:24] understand its
+[00:00:21 - 00:00:27] syntax here is the syntax of Declaration
+[00:00:24 - 00:00:29] of a reference as you can see here first
+[00:00:27 - 00:00:31] of all we mention the data type name
+[00:00:29 - 00:00:34] then we men mention the reference name
+[00:00:31 - 00:00:36] which must be preceded by an ENT sign or
+[00:00:34 - 00:00:39] an address of operator and at the time
+[00:00:36 - 00:00:41] of Declaration itself the reference name
+[00:00:39 - 00:00:44] must be initialized with the name of the
+[00:00:41 - 00:00:47] variable for which it is acting as a
+[00:00:44 - 00:00:50] reference in this program I'm going to
+[00:00:47 - 00:00:53] show you how to create a reference for a
+[00:00:50 - 00:00:55] variable and work with it so first of
+[00:00:53 - 00:00:59] all I'm going to create a floating Point
+[00:00:55 - 00:01:03] type variable let's call it as total and
+[00:00:59 - 00:01:03] assign it some value may be
+[00:01:03 - 00:01:10] 100.9 in The Next Step I'm going to
+[00:01:06 - 00:01:12] create a reference for this variable so
+[00:01:10 - 00:01:15] the data type should be the same which
+[00:01:12 - 00:01:18] is float then the name of the reference
+[00:01:15 - 00:01:20] let's say it is sum but it is a
+[00:01:18 - 00:01:24] reference variable so its name must be
+[00:01:20 - 00:01:27] preceded by an address of operator now
+[00:01:24 - 00:01:29] we can type sum and a reference variable
+[00:01:27 - 00:01:30] must be initialized at the time of
+[00:01:29 - 00:01:32] Declaration
+[00:01:30 - 00:01:35] so here we write
+[00:01:32 - 00:01:38] total and this is how we declare and
+[00:01:35 - 00:01:42] initialize it in single step after this
+[00:01:38 - 00:01:48] I'm going to print the values of sum and
+[00:01:42 - 00:01:51] total so first of all total is equal to
+[00:01:48 - 00:01:55] total and similarly I'm going to print
+[00:01:51 - 00:01:57] the value of sum as sum equal to name of
+[00:01:55 - 00:02:00] the variable
+[00:01:57 - 00:02:03] sum our program is already saved so
+[00:02:00 - 00:02:03] let's run
+[00:02:04 - 00:02:08] it and here you can see total is equal
+[00:02:07 - 00:02:11] to
+[00:02:08 - 00:02:14] 100.9 and similarly sum is equal to
+[00:02:11 - 00:02:17] 100.9 so we can clearly see that
+[00:02:14 - 00:02:20] variable sum is a reference for variable
+[00:02:17 - 00:02:21] total now let's make some change to our
+[00:02:20 - 00:02:26] variable
+[00:02:21 - 00:02:31] total let's say I change the value of
+[00:02:26 - 00:02:35] total as total Plus
+[00:02:31 - 00:02:38] 10 and in The Next Step once again I'm
+[00:02:35 - 00:02:43] going to print these
+[00:02:38 - 00:02:46] values so here I will type new Total and
+[00:02:43 - 00:02:48] new sum let's see if the sum value
+[00:02:46 - 00:02:51] Remains the Same or it is also changed
+[00:02:48 - 00:02:51] along with
+[00:02:51 - 00:02:58] total so as we execute it we can see
+[00:02:56 - 00:03:03] that the new Total becomes
+[00:02:58 - 00:03:07] 11.9 and and similarly new sum is also
+[00:03:03 - 00:03:07] 11.9 with just one change in
+[00:03:07 - 00:03:13] total if you make changes to the sum
+[00:03:10 - 00:03:15] variable itself let's say sum is equal
+[00:03:13 - 00:03:18] to
+[00:03:15 - 00:03:21] 0.0 then what would be the value of
+[00:03:18 - 00:03:24] total and sum well obviously sum is
+[00:03:21 - 00:03:27] going to be 0.0 but what about the
+[00:03:24 - 00:03:31] variable total let's
+[00:03:27 - 00:03:34] see so here new Total is equal to 0 and
+[00:03:31 - 00:03:36] new sum is equal to 0 that means both of
+[00:03:34 - 00:03:38] these variables have one to one
+[00:03:36 - 00:03:41] correspondence if you make any change to
+[00:03:38 - 00:03:44] one variable the other variable is
+[00:03:41 - 00:03:47] automatically going to get
+[00:03:44 - 00:03:50] changed references can also be used with
+[00:03:47 - 00:03:53] functions in C++ since they provide an
+[00:03:50 - 00:03:55] alternate way to access variables they
+[00:03:53 - 00:03:58] are therefore used for passing variables
+[00:03:55 - 00:04:00] or even larger data structures as
+[00:03:58 - 00:04:03] arguments to functions without creating
+[00:04:00 - 00:04:06] copies we have already seen this example
+[00:04:03 - 00:04:08] in call by reference method let us study
+[00:04:06 - 00:04:11] one more
+[00:04:08 - 00:04:13] example in this program I'm going to
+[00:04:11 - 00:04:16] show you how to pass an argument by
+[00:04:13 - 00:04:18] reference to a function so first of all
+[00:04:16 - 00:04:21] we are going to take an integer type
+[00:04:18 - 00:04:24] variable then we will pass it to some
+[00:04:21 - 00:04:27] function which accepts an integer
+[00:04:24 - 00:04:30] reference then increments it and then we
+[00:04:27 - 00:04:34] will see how passing by ref reference
+[00:04:30 - 00:04:38] affects the original value so our first
+[00:04:34 - 00:04:39] step is to create a function here let's
+[00:04:38 - 00:04:42] say the name of the function is
+[00:04:39 - 00:04:45] increment and its return type is
+[00:04:42 - 00:04:49] void so this function will take an
+[00:04:45 - 00:04:51] integer reference let's say and num is
+[00:04:49 - 00:04:55] the reference and we will simply
+[00:04:51 - 00:04:57] increment this num variable by one so
+[00:04:55 - 00:04:59] whatever variable is being passed to
+[00:04:57 - 00:05:01] this function by reference will get
+[00:04:59 - 00:05:03] incremented by 1 that is the goal of
+[00:05:01 - 00:05:06] defining this function
+[00:05:03 - 00:05:09] increment now coming to the main
+[00:05:06 - 00:05:12] function we are going to declare one
+[00:05:09 - 00:05:14] variable here let's say a and let's
+[00:05:12 - 00:05:18] initialize it with value
+[00:05:14 - 00:05:23] 10 now I'm going to
+[00:05:18 - 00:05:25] print the value of a equal to here we
+[00:05:23 - 00:05:30] will type the name
+[00:05:25 - 00:05:33] a after this I'm going to call the
+[00:05:30 - 00:05:35] function and this is a void type
+[00:05:33 - 00:05:37] function so we don't need to assign it
+[00:05:35 - 00:05:41] to some other variable we can simply
+[00:05:37 - 00:05:43] Call It by passing the name of our
+[00:05:41 - 00:05:48] actual variable which is
+[00:05:43 - 00:05:55] a and after this once again I'm going to
+[00:05:48 - 00:05:57] see the new value of a equal to and then
+[00:05:55 - 00:06:01] we will type here
+[00:05:57 - 00:06:03] a let's save this program
+[00:06:01 - 00:06:05] as
+[00:06:03 - 00:06:06] reference
+[00:06:05 - 00:06:10] to
+[00:06:06 - 00:06:10] save execute
+[00:06:12 - 00:06:19] it so here you can see original value of
+[00:06:15 - 00:06:22] a is 10 but the new value of a is 11
+[00:06:19 - 00:06:25] this variable a has been passed by
+[00:06:22 - 00:06:29] reference here in this line we are
+[00:06:25 - 00:06:33] actually passing by reference because
+[00:06:29 - 00:06:35] when we pass this variable a here its
+[00:06:33 - 00:06:39] reference is and num which is defined
+[00:06:35 - 00:06:42] inside the function body and once this
+[00:06:39 - 00:06:44] reference is incremented that increment
+[00:06:42 - 00:06:46] will affect the original value and
+[00:06:44 - 00:06:49] therefore the original value is also
+[00:06:46 - 00:06:53] incremented hence we got the new value
+[00:06:49 - 00:06:57] of a as 11 let me show you once
+[00:06:53 - 00:07:00] again so our actual value was 10 and the
+[00:06:57 - 00:07:02] new value is 11 after increment in it
+[00:07:00 - 00:07:05] through
+[00:07:02 - 00:07:07] reference let us understand what is the
+[00:07:05 - 00:07:10] difference between a reference and a
+[00:07:07 - 00:07:12] pointer a reference by definition means
+[00:07:10 - 00:07:15] an alternative name for an existing
+[00:07:12 - 00:07:18] variable on the other hand a pointer is
+[00:07:15 - 00:07:20] a variable which stores the address of
+[00:07:18 - 00:07:22] some existing variable in a
+[00:07:20 - 00:07:25] program second point of difference is
+[00:07:22 - 00:07:26] that a reference must be initialized
+[00:07:25 - 00:07:29] when
+[00:07:26 - 00:07:31] declared whereas a pointer can be
+[00:07:29 - 00:07:34] initialized ized at any time during the
+[00:07:31 - 00:07:37] program third point is that a reference
+[00:07:34 - 00:07:40] cannot be null as mentioned earlier at
+[00:07:37 - 00:07:42] the time of Declaration itself a
+[00:07:40 - 00:07:44] reference must be initialized with the
+[00:07:42 - 00:07:46] name of the variable for which it is
+[00:07:44 - 00:07:49] acting as a reference or an alternative
+[00:07:46 - 00:07:52] name on the other hand a pointer can be
+[00:07:49 - 00:07:55] null you may decide to assign it the
+[00:07:52 - 00:07:57] address of some other variable later but
+[00:07:55 - 00:07:59] for the time being you can keep your
+[00:07:57 - 00:08:02] pointer as null last
+[00:07:59 - 00:08:04] a reference cannot be reassigned to
+[00:08:02 - 00:08:08] reference or to refer to some other
+[00:08:04 - 00:08:10] variable once it is initialized on the
+[00:08:08 - 00:08:12] other hand a pointer can be reassigned
+[00:08:10 - 00:08:17] to point to different variables at
+[00:08:12 - 00:08:17] different times during the program

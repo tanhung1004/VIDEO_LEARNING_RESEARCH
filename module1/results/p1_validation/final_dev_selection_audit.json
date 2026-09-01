@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "dev_videos": 40,
+  "cv_folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "raw_score_audit": {
+    "30": {
+      "rows": 9484,
+      "videos": 40,
+      "folds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "60": {
+      "rows": 4853,
+      "videos": 40,
+      "folds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "90": {
+      "rows": 3253,
+      "videos": 40,
+      "folds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "120": {
+      "rows": 2523,
+      "videos": 40,
+      "folds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "num_search_configurations": 1936,
+  "expected_search_configurations": 1936,
+  "selected_config_count": 1,
+  "primary_metric": "mean_video_level_f1",
+  "final_test_used": false,
+  "baseline_preference_used": false,
+  "p_value_used_for_selection": false,
+  "heldout_text_used_for_fit": false,
+  "selected_configuration": {
+    "chunk_seconds": 120,
+    "alpha": 0.0,
+    "aggregation": "mean",
+    "threshold": 0.2
+  }
+}

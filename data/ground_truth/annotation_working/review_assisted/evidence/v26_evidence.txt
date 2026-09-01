@@ -1,0 +1,184 @@
+VIDEO ID: v26
+SUBJECT: Java
+TITLE: Java Interface & Implements Keyword | Java Tutorial for Beginners
+URL: https://www.youtube.com/watch?v=KjEkdELJua4
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: class
+DESCRIPTION: define objects and behavior using a Java class
+SEARCH ALIASES: class, classes
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:22 - 00:00:31
+  SECONDS: 22.44 - 31.68
+  MATCH: class
+  TEXT: order to declare an interface what we need to do is instead of our class keyword we need to write the interface
+
+  HIT 2
+  TIME: 00:00:52 - 00:01:01
+  SECONDS: 52.24 - 61.92
+  MATCH: class
+  TEXT: the abstract method which we have already seen in our abstract class video right so we can tell that this is an
+
+  HIT 3
+  TIME: 00:01:36 - 00:01:46
+  SECONDS: 96.4 - 106.16
+  MATCH: class
+  TEXT: write the extends keyword similar to our abstract class right so we need to call the interface using the implements
+
+------------------------------------------------------------------------
+
+CONCEPT: object
+DESCRIPTION: instance of a Java class
+SEARCH ALIASES: object, objects, instance
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: method
+DESCRIPTION: define behavior using a Java method
+SEARCH ALIASES: method, methods
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:43 - 00:00:54
+  SECONDS: 43.56 - 54.56
+  MATCH: method
+  TEXT: variable speed and below that we have a run method and you can notice one thing that you know this method run resembles
+
+  HIT 2
+  TIME: 00:00:47 - 00:00:57
+  SECONDS: 47.4 - 57.8
+  MATCH: method
+  TEXT: run method and you can notice one thing that you know this method run resembles the abstract method which we have
+
+  HIT 3
+  TIME: 00:00:50 - 00:01:00
+  SECONDS: 50.12 - 60.04
+  MATCH: method
+  TEXT: that you know this method run resembles the abstract method which we have already seen in our abstract class video
+
+------------------------------------------------------------------------
+
+CONCEPT: interface
+DESCRIPTION: define a Java interface containing method contracts
+SEARCH ALIASES: interface, interfaces
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:02 - 00:00:15
+  SECONDS: 2.96 - 15.8
+  MATCH: interface
+  TEXT: for beginners in our today's video we will talk about interface in Java so without wasting time let's get started
+
+  HIT 2
+  TIME: 00:00:09 - 00:00:22
+  SECONDS: 9.64 - 22.44
+  MATCH: interface
+  TEXT: without wasting time let's get started now let us understand interface in Java with help of this program now let us see
+
+  HIT 3
+  TIME: 00:00:15 - 00:00:26
+  SECONDS: 15.8 - 26.12
+  MATCH: interface
+  TEXT: with help of this program now let us see how we can declare an interface so in order to declare an interface what we
+
+------------------------------------------------------------------------
+
+CONCEPT: implements
+DESCRIPTION: implement a Java interface in a class
+SEARCH ALIASES: implements, implement interface, implementing interface
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:01:22 - 00:01:33
+  SECONDS: 82.08 - 93.96
+  MATCH: implements
+  TEXT: method right now next thing that we can see is the use of this implements keyword so in Java whenever we want to
+
+  HIT 2
+  TIME: 00:01:31 - 00:01:41
+  SECONDS: 91.36 - 101.88
+  MATCH: implements
+  TEXT: extend or use an interface we need to write the implements keyword we cannot write the extends keyword similar to our
+
+  HIT 3
+  TIME: 00:01:39 - 00:01:48
+  SECONDS: 99.32 - 108.92
+  MATCH: implements
+  TEXT: abstract class right so we need to call the interface using the implements keyword and inside the class what I've
+
+------------------------------------------------------------------------
+
+CONCEPT: extends
+DESCRIPTION: extend a Java class through inheritance
+SEARCH ALIASES: extends, extend class
+DIRECT HIT COUNT (top max 3 shown): 1
+
+  HIT 1
+  TIME: 00:01:33 - 00:01:44
+  SECONDS: 93.96 - 104.2
+  MATCH: extends
+  TEXT: write the implements keyword we cannot write the extends keyword similar to our abstract class right so we need to call
+
+------------------------------------------------------------------------
+
+CONCEPT: inheritance
+DESCRIPTION: reuse and extend behavior from a parent Java class
+SEARCH ALIASES: inheritance, inherit, inherited
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: abstract class
+DESCRIPTION: define an abstract Java class that cannot be directly instantiated
+SEARCH ALIASES: abstract class, abstract classes
+DIRECT HIT COUNT (top max 3 shown): 2
+
+  HIT 1
+  TIME: 00:00:52 - 00:01:01
+  SECONDS: 52.24 - 61.92
+  MATCH: abstract class
+  TEXT: the abstract method which we have already seen in our abstract class video right so we can tell that this is an
+
+  HIT 2
+  TIME: 00:01:36 - 00:01:46
+  SECONDS: 96.4 - 106.16
+  MATCH: abstract class
+  TEXT: write the extends keyword similar to our abstract class right so we need to call the interface using the implements
+
+------------------------------------------------------------------------
+
+CONCEPT: abstract method
+DESCRIPTION: declare an abstract method that subclasses must implement
+SEARCH ALIASES: abstract method, abstract methods
+DIRECT HIT COUNT (top max 3 shown): 2
+
+  HIT 1
+  TIME: 00:00:50 - 00:01:00
+  SECONDS: 50.12 - 60.04
+  MATCH: abstract method
+  TEXT: that you know this method run resembles the abstract method which we have already seen in our abstract class video
+
+  HIT 2
+  TIME: 00:04:07 - 00:04:18
+  SECONDS: 247.48 - 258.04
+  MATCH: abstract methods
+  TEXT: is that methods in an interface are abstract methods and they have the signature something like this public
+
+------------------------------------------------------------------------

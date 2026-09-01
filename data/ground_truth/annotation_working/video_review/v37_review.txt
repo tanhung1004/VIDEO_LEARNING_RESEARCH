@@ -1,0 +1,236 @@
+VIDEO ID: v37
+SUBJECT: C++
+TITLE: C++ CONSTRUCTORS explained easy
+URL: https://www.youtube.com/watch?v=5z3KEX9AZEQ
+
+========================================================================
+TRANSCRIPT
+========================================================================
+
+[00:00:02 - 00:00:05] hey everybody welcome back so in today's
+[00:00:04 - 00:00:08] video we're going to discuss
+[00:00:05 - 00:00:11] constructors a constructor is a special
+[00:00:08 - 00:00:13] method within a class that is
+[00:00:11 - 00:00:16] automatically called when an object is
+[00:00:13 - 00:00:19] instantiated it's useful for assigning
+[00:00:16 - 00:00:21] values to attributes as arguments before
+[00:00:19 - 00:00:24] when we were assigning attributes to an
+[00:00:21 - 00:00:26] object we would say for example
+[00:00:24 - 00:00:29] car one dot
+[00:00:26 - 00:00:31] make equals forward
+[00:00:29 - 00:00:33] the constructor we can do that
+[00:00:31 - 00:00:36] automatically here's an example this
+[00:00:33 - 00:00:37] time let's create a student class
+[00:00:36 - 00:00:40] class
+[00:00:37 - 00:00:40] student
+[00:00:40 - 00:00:46] i'll add a public access modifier what
+[00:00:44 - 00:00:50] attributes should students have
+[00:00:46 - 00:00:52] how about a name standard string name
+[00:00:50 - 00:00:55] int age
+[00:00:52 - 00:00:56] double gpa sounds good to me
+[00:00:55 - 00:00:58] then if i need to create a student
+[00:00:56 - 00:01:00] object i would type the name of the
+[00:00:58 - 00:01:02] class student
+[00:01:00 - 00:01:06] a unique identifier for this specific
+[00:01:02 - 00:01:08] object let's say student1
+[00:01:06 - 00:01:10] then to assign some of the attributes
+[00:01:08 - 00:01:12] right away i could use a constructor we
+[00:01:10 - 00:01:15] do have a constructor that is
+[00:01:12 - 00:01:17] automatically called behind the scenes
+[00:01:15 - 00:01:19] but we could explicitly set one up
+[00:01:17 - 00:01:21] the constructor has the same name as the
+[00:01:19 - 00:01:23] class
+[00:01:21 - 00:01:25] in this case student
+[00:01:23 - 00:01:26] add a set of parentheses add a set of
+[00:01:25 - 00:01:28] curly braces
+[00:01:26 - 00:01:30] think of this as a function
+[00:01:28 - 00:01:33] we can set up parameters
+[00:01:30 - 00:01:35] when we instantiate a student object we
+[00:01:33 - 00:01:38] will automatically call this function
+[00:01:35 - 00:01:40] the constructor then pass arguments
+[00:01:38 - 00:01:43] let's set up some parameters we have
+[00:01:40 - 00:01:44] standard string name
+[00:01:43 - 00:01:45] int age
+[00:01:44 - 00:01:48] double
+[00:01:45 - 00:01:50] gpa
+[00:01:48 - 00:01:52] then when i instantiate a student object
+[00:01:50 - 00:01:54] i will add a set of parentheses after
+[00:01:52 - 00:01:57] the object name then pass in my
+[00:01:54 - 00:02:00] arguments let me just zoom in real quick
+[00:01:57 - 00:02:02] okay in order to instantiate a student
+[00:02:00 - 00:02:05] object we need to pass in a name
+[00:02:02 - 00:02:07] an age and a gpa
+[00:02:05 - 00:02:09] so for the first student
+[00:02:07 - 00:02:11] student one's name will be spongebob
+[00:02:09 - 00:02:13] his age will be
+[00:02:11 - 00:02:15] i don't know how old spongebob is let's
+[00:02:13 - 00:02:18] say he's 25.
+[00:02:15 - 00:02:20] spongebob's gpa will be a solid
+[00:02:18 - 00:02:22] 3.2
+[00:02:20 - 00:02:25] when we instantiate our student object
+[00:02:22 - 00:02:27] we will pass these values as arguments
+[00:02:25 - 00:02:29] to the constructor
+[00:02:27 - 00:02:31] now to assign these attributes
+[00:02:29 - 00:02:34] with these parameters
+[00:02:31 - 00:02:35] we first need to select these attributes
+[00:02:34 - 00:02:36] in this example i gave them the same
+[00:02:35 - 00:02:39] name
+[00:02:36 - 00:02:41] just to remove ambiguity if i'm
+[00:02:39 - 00:02:43] referring to these attributes i will
+[00:02:41 - 00:02:44] type this
+[00:02:43 - 00:02:45] then an arrow
+[00:02:44 - 00:02:48] name
+[00:02:45 - 00:02:50] equals the name of the parameter
+[00:02:48 - 00:02:53] name
+[00:02:50 - 00:02:54] this name equals my name parameter
+[00:02:53 - 00:02:58] this
+[00:02:54 - 00:03:00] arrow age equals my age parameter
+[00:02:58 - 00:03:01] this
+[00:03:00 - 00:03:02] arrow
+[00:03:01 - 00:03:05] gpa
+[00:03:02 - 00:03:05] equals my gpa
+[00:03:06 - 00:03:13] so now let's test this i will display
+[00:03:08 - 00:03:13] student one's name age and gpa
+[00:03:13 - 00:03:17] standard
+[00:03:14 - 00:03:18] output
+[00:03:17 - 00:03:19] student1
+[00:03:18 - 00:03:20] dot
+[00:03:19 - 00:03:23] name
+[00:03:20 - 00:03:23] add a new line
+[00:03:24 - 00:03:30] then we have age
+[00:03:27 - 00:03:30] then gpa
+[00:03:31 - 00:03:36] okay we got spongebob he's 25 years old
+[00:03:34 - 00:03:38] his gpa is 3.2
+[00:03:36 - 00:03:40] so you can see that we don't need to
+[00:03:38 - 00:03:42] necessarily add these values to these
+[00:03:40 - 00:03:43] attributes manually
+[00:03:42 - 00:03:45] you can do that automatically with the
+[00:03:43 - 00:03:48] constructor so another way in which you
+[00:03:45 - 00:03:50] may see this constructor set up is with
+[00:03:48 - 00:03:52] the parameter names being different from
+[00:03:50 - 00:03:55] the attribute names perhaps instead of
+[00:03:52 - 00:03:56] name age and gpa let's say x
+[00:03:55 - 00:03:58] y
+[00:03:56 - 00:03:59] then z
+[00:03:58 - 00:04:02] if the attribute names are different
+[00:03:59 - 00:04:05] from the parameter names you don't need
+[00:04:02 - 00:04:08] the this keyword
+[00:04:05 - 00:04:10] you could say name equals x age equals y
+[00:04:08 - 00:04:13] gpa equals z
+[00:04:10 - 00:04:14] and this would work too
+[00:04:13 - 00:04:16] if you prefer this way of doing things
+[00:04:14 - 00:04:18] you can do that uh just my own personal
+[00:04:16 - 00:04:20] preference i like to use the this
+[00:04:18 - 00:04:22] keyword and then keep my parameters the
+[00:04:20 - 00:04:24] same but that's just me you do you let's
+[00:04:22 - 00:04:26] create a couple more students and it's
+[00:04:24 - 00:04:27] kind of nice because we can reuse this
+[00:04:26 - 00:04:30] constructor
+[00:04:27 - 00:04:32] let's create student two student student
+[00:04:30 - 00:04:35] two
+[00:04:32 - 00:04:36] student two will be patrick
+[00:04:35 - 00:04:39] i don't know how old patrick is let's
+[00:04:36 - 00:04:44] say patrick is 40.
+[00:04:39 - 00:04:46] uh patrick's gpa will be 1.5
+[00:04:44 - 00:04:51] okay to test this let's display student
+[00:04:46 - 00:04:53] twos and name age and gpa
+[00:04:51 - 00:04:55] okay we got patrick he's 40 years old
+[00:04:53 - 00:04:57] gpa is 1.5
+[00:04:55 - 00:04:58] one last student
+[00:04:57 - 00:05:00] student
+[00:04:58 - 00:05:02] student three
+[00:05:00 - 00:05:07] student three will be sandy
+[00:05:02 - 00:05:13] sandy is uh how about 21 years old
+[00:05:07 - 00:05:13] and sandy's gpa is a perfect 4.0
+[00:05:13 - 00:05:16] okay now we'll display student three's
+[00:05:15 - 00:05:19] name
+[00:05:16 - 00:05:19] age gpa
+[00:05:20 - 00:05:23] okay we got sandy
+[00:05:21 - 00:05:27] her age is 21
+[00:05:23 - 00:05:29] gpa is for well 4.0 let's do one last
+[00:05:27 - 00:05:31] example just to reinforce our
+[00:05:29 - 00:05:33] understanding of constructors
+[00:05:31 - 00:05:35] let's create an entirely new class let's
+[00:05:33 - 00:05:38] go back to our car class
+[00:05:35 - 00:05:40] i'm going to get rid of all this so we
+[00:05:38 - 00:05:42] need a class
+[00:05:40 - 00:05:44] class car
+[00:05:42 - 00:05:47] set of curly braces add a semicolon to
+[00:05:44 - 00:05:48] the end i will add a public axis
+[00:05:47 - 00:05:50] modifier
+[00:05:48 - 00:05:52] in the last topic we decided that cars
+[00:05:50 - 00:05:53] had four attributes
+[00:05:52 - 00:05:56] a make
+[00:05:53 - 00:06:01] standard string make
+[00:05:56 - 00:06:03] a model standard string model
+[00:06:01 - 00:06:07] int year
+[00:06:03 - 00:06:09] standard string color
+[00:06:07 - 00:06:11] now we'll create a constructor for our
+[00:06:09 - 00:06:14] car objects it has the same name as the
+[00:06:11 - 00:06:16] class name car
+[00:06:14 - 00:06:18] set of parenthesis set of curly braces
+[00:06:16 - 00:06:21] we can set up some parameters
+[00:06:18 - 00:06:22] we have make model year and color i
+[00:06:21 - 00:06:24] think i'm just going to copy this to
+[00:06:22 - 00:06:27] save time
+[00:06:24 - 00:06:31] you can rename these if you want
+[00:06:27 - 00:06:31] but i like to keep them the same
+[00:06:34 - 00:06:37] then i will assign this
+[00:06:36 - 00:06:40] arrow
+[00:06:37 - 00:06:40] make equals make
+[00:06:40 - 00:06:42] this
+[00:06:40 - 00:06:45] arrow
+[00:06:42 - 00:06:47] model equals model
+[00:06:45 - 00:06:47] this
+[00:06:47 - 00:06:49] arrow
+[00:06:48 - 00:06:52] year
+[00:06:49 - 00:06:52] equals year
+[00:06:53 - 00:06:56] this
+[00:06:54 - 00:06:58] arrow color
+[00:06:56 - 00:06:59] equals color
+[00:06:58 - 00:07:03] when we create a car object we'll need
+[00:06:59 - 00:07:06] to pass in these arguments
+[00:07:03 - 00:07:08] i will create car car 1 add a set of
+[00:07:06 - 00:07:09] parentheses pass in my arguments
+[00:07:08 - 00:07:12] a make
+[00:07:09 - 00:07:14] model year and color
+[00:07:12 - 00:07:16] i'll create a chevy
+[00:07:14 - 00:07:18] corvette
+[00:07:16 - 00:07:20] the year will be
+[00:07:18 - 00:07:23] 2022
+[00:07:20 - 00:07:23] the color is blue
+[00:07:24 - 00:07:30] i'm going to display the attributes
+[00:07:26 - 00:07:32] standard output car 1 dot make
+[00:07:30 - 00:07:35] i'll add a new line
+[00:07:32 - 00:07:37] then i will display the model year then
+[00:07:35 - 00:07:37] color
+[00:07:39 - 00:07:42] model
+[00:07:41 - 00:07:45] year
+[00:07:42 - 00:07:45] color
+[00:07:46 - 00:07:51] car one is a chevy corvette the year is
+[00:07:48 - 00:07:55] 2022 the color is blue
+[00:07:51 - 00:07:59] let's create a second car car car two
+[00:07:55 - 00:08:01] car two will be a ford
+[00:07:59 - 00:08:01] mustang
+[00:08:02 - 00:08:06] the year will be 2023 the color will be
+[00:08:05 - 00:08:10] red
+[00:08:06 - 00:08:10] i will display cartoons attributes
+[00:08:11 - 00:08:15] we have a forward mustang the year is
+[00:08:13 - 00:08:17] 2023 the color is red
+[00:08:15 - 00:08:20] so yeah that's a constructor everybody a
+[00:08:17 - 00:08:22] constructor is a special method that is
+[00:08:20 - 00:08:25] automatically called when an object is
+[00:08:22 - 00:08:28] instantiated it's useful for assigning
+[00:08:25 - 00:08:30] values to attributes as arguments when
+[00:08:28 - 00:08:32] you create an object from a class
+[00:08:30 - 00:08:34] add a set of parentheses
+[00:08:32 - 00:08:36] then add your arguments
+[00:08:34 - 00:08:38] within the constructor you can assign
+[00:08:36 - 00:08:41] those arguments to the attributes of
+[00:08:38 - 00:08:43] that class in the next topic we'll cover
+[00:08:41 - 00:08:45] overloaded constructors if you're
+[00:08:43 - 00:08:47] looking for some additional practice
+[00:08:45 - 00:08:50] in the comments section down below post
+[00:08:47 - 00:08:52] a class that contains a constructor
+[00:08:50 - 00:08:55] and well yeah those are constructors in
+[00:08:52 - 00:08:55] c plus plus

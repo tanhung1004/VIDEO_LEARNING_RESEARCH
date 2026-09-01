@@ -1,0 +1,155 @@
+VIDEO ID: v38
+SUBJECT: C++
+TITLE: Inheritance in C++
+URL: https://www.youtube.com/watch?v=X8nYM8wdNRE
+
+IMPORTANT:
+Keyword hits below are ONLY navigation aids.
+They are NOT automatic labels.
+Human reviewer must decide 1/0.
+
+========================================================================
+
+CONCEPT: variable
+DESCRIPTION: store and manipulate data using variables in C++ programs
+SEARCH ALIASES: variable, variables
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: data type
+DESCRIPTION: define the type of values and variables using C++ data types
+SEARCH ALIASES: data type, data types, datatype
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: pointer
+DESCRIPTION: store and use memory addresses with C++ pointers
+SEARCH ALIASES: pointer, pointers, memory address
+DIRECT HIT COUNT (top max 3 shown): 1
+
+  HIT 1
+  TIME: 00:03:42 - 00:03:51
+  SECONDS: 222.72 - 231.47
+  MATCH: pointer
+  TEXT: code here so that we only have everything that's new. Such as the name, which is a const char pointer, and the PrintName function which is kind of our additional functionality example.
+
+------------------------------------------------------------------------
+
+CONCEPT: reference
+DESCRIPTION: refer to an existing C++ object or variable using a reference
+SEARCH ALIASES: reference, references
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: class
+DESCRIPTION: define data and behavior using a C++ class
+SEARCH ALIASES: class, classes
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:08 - 00:00:16
+  SECONDS: 8.68 - 16.12
+  MATCH: classes
+  TEXT: in c++. So, in object oriented programming there's a huge huge huge paradigm, and inheritance between classes is one of the fundamental
+
+  HIT 2
+  TIME: 00:00:18 - 00:00:27
+  SECONDS: 18.11 - 27.25
+  MATCH: classes
+  TEXT: powerful features that we can actually leverage. Inheritance allows us to have a hierarchy of classes which relate to each other. Or in other words, it allows us to have a base class which contains
+
+  HIT 3
+  TIME: 00:00:21 - 00:00:30
+  SECONDS: 21.14 - 30.3
+  MATCH: class
+  TEXT: have a hierarchy of classes which relate to each other. Or in other words, it allows us to have a base class which contains common functionality and then it allows us to kind of
+
+------------------------------------------------------------------------
+
+CONCEPT: object
+DESCRIPTION: create and use an instance of a C++ class
+SEARCH ALIASES: object, objects, instance, instantiate
+DIRECT HIT COUNT (top max 3 shown): 1
+
+  HIT 1
+  TIME: 00:00:04 - 00:00:11
+  SECONDS: 4.4 - 11.51
+  MATCH: object
+  TEXT: Today, we're going to be continuing  on our adventure in object-orientated programming and talking about inheritance in c++. So, in object oriented programming
+
+------------------------------------------------------------------------
+
+CONCEPT: constructor
+DESCRIPTION: initialize C++ objects using a class constructor
+SEARCH ALIASES: constructor, constructors
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: inheritance
+DESCRIPTION: reuse and extend behavior from a base class in C++
+SEARCH ALIASES: inheritance, inherit, base class, derived class
+DIRECT HIT COUNT (top max 3 shown): 3
+
+  HIT 1
+  TIME: 00:00:04 - 00:00:11
+  SECONDS: 4.4 - 11.51
+  MATCH: inheritance
+  TEXT: Today, we're going to be continuing  on our adventure in object-orientated programming and talking about inheritance in c++. So, in object oriented programming
+
+  HIT 2
+  TIME: 00:00:08 - 00:00:16
+  SECONDS: 8.68 - 16.12
+  MATCH: inheritance
+  TEXT: in c++. So, in object oriented programming there's a huge huge huge paradigm, and inheritance between classes is one of the fundamental
+
+  HIT 3
+  TIME: 00:00:16 - 00:00:24
+  SECONDS: 16.45 - 24.16
+  MATCH: inheritance
+  TEXT: aspects of it and one of the most powerful features that we can actually leverage. Inheritance allows us to have a hierarchy of classes which relate to each other.
+
+------------------------------------------------------------------------
+
+CONCEPT: polymorphism
+DESCRIPTION: use a common interface with different C++ object behaviors
+SEARCH ALIASES: polymorphism, polymorphic, virtual function, virtual functions
+DIRECT HIT COUNT (top max 3 shown): 0
+
+  NO DIRECT KEYWORD HIT.
+  This does NOT mean negative.
+  Review transcript/video if concept may be expressed without exact terminology.
+
+------------------------------------------------------------------------
+
+CONCEPT: template
+DESCRIPTION: define generic C++ functions or classes using templates
+SEARCH ALIASES: template, templates, generic
+DIRECT HIT COUNT (top max 3 shown): 1
+
+  HIT 1
+  TIME: 00:01:09 - 00:01:18
+  SECONDS: 69.19 - 78.48
+  MATCH: template
+  TEXT: that common code between a number of classes into a base class so that we don't have to keep repeating ourselves. Kind of like a template. So, let's take a look at how we can actually define that in our source code.
+
+------------------------------------------------------------------------
