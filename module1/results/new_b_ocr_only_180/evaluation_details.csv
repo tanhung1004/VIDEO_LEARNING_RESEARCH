@@ -1,0 +1,263 @@
+﻿video_id,concept,ground_truth,predicted,result
+v1,aggregate function,1,0,FN
+v1,count,1,0,FN
+v1,group by,1,0,FN
+v1,having,1,0,FN
+v1,inner join,1,1,TP
+v1,join,1,1,TP
+v1,left join,1,1,TP
+v1,select,1,0,FN
+v1,subquery,1,0,FN
+v1,where,1,0,FN
+v10,aggregate function,1,1,TP
+v10,count,1,1,TP
+v10,group by,1,1,TP
+v10,having,1,0,FN
+v10,select,0,1,FP
+v11,aggregate function,1,0,FN
+v11,count,1,1,TP
+v11,group by,1,1,TP
+v11,having,0,1,FP
+v11,join,0,1,FP
+v11,select,1,1,TP
+v11,subquery,1,1,TP
+v11,where,1,1,TP
+v12,group by,0,1,FP
+v12,inner join,1,0,FN
+v12,join,1,0,FN
+v12,left join,1,0,FN
+v12,order by,0,1,FP
+v12,select,1,0,FN
+v13,aggregate function,1,1,TP
+v13,count,1,0,FN
+v13,group by,1,1,TP
+v13,having,1,0,FN
+v13,join,1,1,TP
+v13,left join,1,1,TP
+v13,order by,1,1,TP
+v13,select,1,1,TP
+v13,where,1,1,TP
+v14,break,1,1,TP
+v14,continue,1,0,FN
+v14,for,1,1,TP
+v14,for loop,1,1,TP
+v14,iteration,1,0,FN
+v14,range,1,1,TP
+v15,break,0,1,FP
+v15,continue,0,1,FP
+v15,for,1,1,TP
+v15,for loop,1,1,TP
+v15,index,0,1,FP
+v15,iteration,1,1,TP
+v15,list,0,1,FP
+v15,nested loop,0,1,FP
+v15,range,1,1,TP
+v16,index,1,0,FN
+v16,list,1,1,TP
+v16,range,0,1,FP
+v17,for,1,1,TP
+v17,for loop,1,1,TP
+v17,iteration,1,0,FN
+v17,list,0,1,FP
+v17,range,1,1,TP
+v18,continue,0,1,FP
+v18,for,1,0,FN
+v18,for loop,1,0,FN
+v18,iteration,1,0,FN
+v19,break,1,1,TP
+v19,continue,1,0,FN
+v19,for,0,1,FP
+v19,for loop,0,1,FP
+v19,iteration,0,1,FP
+v19,list,0,1,FP
+v19,range,0,1,FP
+v2,break,1,0,FN
+v2,for,1,1,TP
+v2,for loop,1,1,TP
+v2,iteration,1,0,FN
+v2,list,1,1,TP
+v2,nested loop,1,0,FN
+v2,range,1,1,TP
+v20,break,1,0,FN
+v20,continue,1,0,FN
+v20,for,1,1,TP
+v20,for loop,1,1,TP
+v20,iteration,1,0,FN
+v20,list,1,0,FN
+v20,range,1,1,TP
+v21,break,0,1,FP
+v21,continue,0,1,FP
+v21,for,0,1,FP
+v21,for loop,0,1,FP
+v21,index,0,1,FP
+v21,iteration,0,1,FP
+v21,list,0,1,FP
+v21,nested loop,1,1,TP
+v21,range,0,1,FP
+v22,range,1,1,TP
+v23,abstract class,0,1,FP
+v23,abstract method,0,1,FP
+v23,class,1,1,TP
+v23,extends,0,1,FP
+v23,implements,0,1,FP
+v23,inheritance,0,1,FP
+v23,interface,0,1,FP
+v23,method,1,1,TP
+v23,object,1,1,TP
+v24,implements,0,1,FP
+v24,interface,0,1,FP
+v24,method,1,1,TP
+v25,abstract class,0,1,FP
+v25,abstract method,0,1,FP
+v25,class,0,1,FP
+v25,implements,1,1,TP
+v25,interface,1,1,TP
+v25,method,0,1,FP
+v25,object,0,1,FP
+v26,abstract method,1,0,FN
+v26,implements,1,1,TP
+v26,interface,1,0,FN
+v27,abstract class,0,1,FP
+v27,class,0,1,FP
+v27,extends,1,1,TP
+v27,implements,0,1,FP
+v27,inheritance,1,1,TP
+v27,interface,0,1,FP
+v27,method,0,1,FP
+v27,object,0,1,FP
+v28,abstract class,0,1,FP
+v28,class,0,1,FP
+v28,extends,1,1,TP
+v28,implements,0,1,FP
+v28,inheritance,1,1,TP
+v28,object,0,1,FP
+v29,abstract class,1,1,TP
+v29,abstract method,1,0,FN
+v29,class,0,1,FP
+v29,extends,1,0,FN
+v29,implements,1,1,TP
+v29,inheritance,1,0,FN
+v29,interface,1,0,FN
+v3,abstract class,1,1,TP
+v3,abstract method,1,1,TP
+v3,class,1,0,FN
+v3,extends,1,0,FN
+v3,implements,1,0,FN
+v3,inheritance,1,0,FN
+v3,interface,1,0,FN
+v3,method,1,0,FN
+v3,object,1,0,FN
+v30,abstract class,1,1,TP
+v30,abstract method,1,1,TP
+v30,extends,1,0,FN
+v30,inheritance,1,0,FN
+v31,class,0,1,FP
+v31,constructor,0,1,FP
+v31,data type,1,1,TP
+v31,inheritance,0,1,FP
+v31,object,0,1,FP
+v31,pointer,0,1,FP
+v31,polymorphism,0,1,FP
+v31,reference,0,1,FP
+v31,template,0,1,FP
+v31,variable,1,1,TP
+v32,data type,1,1,TP
+v32,variable,1,1,TP
+v33,class,0,1,FP
+v33,constructor,0,1,FP
+v33,data type,0,1,FP
+v33,inheritance,0,1,FP
+v33,object,0,1,FP
+v33,pointer,1,1,TP
+v33,polymorphism,0,1,FP
+v33,reference,0,1,FP
+v33,template,0,1,FP
+v33,variable,1,1,TP
+v34,class,0,1,FP
+v34,constructor,0,1,FP
+v34,data type,0,1,FP
+v34,inheritance,0,1,FP
+v34,object,0,1,FP
+v34,polymorphism,0,1,FP
+v34,reference,1,1,TP
+v34,template,0,1,FP
+v34,variable,0,1,FP
+v35,pointer,1,1,TP
+v35,reference,1,1,TP
+v35,template,0,1,FP
+v35,variable,0,1,FP
+v36,class,1,1,TP
+v36,object,1,1,TP
+v36,pointer,0,1,FP
+v36,reference,0,1,FP
+v36,variable,0,1,FP
+v37,class,0,1,FP
+v37,constructor,1,1,TP
+v37,data type,0,1,FP
+v37,object,0,1,FP
+v37,polymorphism,0,1,FP
+v38,class,0,1,FP
+v38,inheritance,1,0,FN
+v38,object,0,1,FP
+v39,class,0,1,FP
+v39,inheritance,1,0,FN
+v39,reference,0,1,FP
+v39,variable,0,1,FP
+v4,aggregate function,1,1,TP
+v4,count,1,1,TP
+v4,group by,1,1,TP
+v4,having,1,1,TP
+v4,select,1,1,TP
+v4,where,1,0,FN
+v40,constructor,0,1,FP
+v40,data type,0,1,FP
+v40,object,0,1,FP
+v40,pointer,0,1,FP
+v40,reference,0,1,FP
+v40,template,1,1,TP
+v40,variable,0,1,FP
+v5,abstract class,1,1,TP
+v5,abstract method,1,0,FN
+v5,class,1,1,TP
+v5,extends,0,1,FP
+v5,implements,1,1,TP
+v5,inheritance,1,1,TP
+v5,interface,1,1,TP
+v5,method,1,1,TP
+v5,object,1,1,TP
+v6,aggregate function,1,1,TP
+v6,count,0,1,FP
+v6,group by,1,1,TP
+v6,having,1,1,TP
+v6,order by,1,1,TP
+v6,select,1,1,TP
+v6,where,1,1,TP
+v7,aggregate function,1,0,FN
+v7,count,1,1,TP
+v7,group by,0,1,FP
+v7,having,0,1,FP
+v7,inner join,0,1,FP
+v7,join,0,1,FP
+v7,order by,1,1,TP
+v7,select,1,1,TP
+v7,subquery,0,1,FP
+v7,where,1,1,TP
+v8,aggregate function,1,0,FN
+v8,count,1,0,FN
+v8,group by,1,1,TP
+v8,having,1,0,FN
+v8,inner join,1,1,TP
+v8,join,1,1,TP
+v8,left join,0,1,FP
+v8,order by,1,1,TP
+v8,select,1,1,TP
+v8,subquery,0,1,FP
+v8,where,1,1,TP
+v9,aggregate function,1,1,TP
+v9,count,1,1,TP
+v9,group by,0,1,FP
+v9,inner join,0,1,FP
+v9,join,0,1,FP
+v9,left join,0,1,FP
+v9,order by,0,1,FP
+v9,select,0,1,FP

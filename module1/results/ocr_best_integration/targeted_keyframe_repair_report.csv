@@ -1,2 +1,5 @@
 ﻿video_id,timestamp_sec,success,method
+v8,60,True,yt_dlp_ffmpeg_png
+v10,600,True,yt_dlp_ffmpeg_png
+v25,360,True,yt_dlp_ffmpeg_png
 v25,370,True,yt_dlp_ffmpeg_png

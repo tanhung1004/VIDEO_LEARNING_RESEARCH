@@ -1,0 +1,6 @@
+﻿check,value,expected,pass
+C_chunk_count,172,172,True
+C_transcript_present,172,> 0,True
+C_ocr_frames_assigned,2859,informational (total frames=2873),True
+C_ocr_frames_unassigned,14,informational (compare with D's own count),True
+C_score_rows,1689,1689,True

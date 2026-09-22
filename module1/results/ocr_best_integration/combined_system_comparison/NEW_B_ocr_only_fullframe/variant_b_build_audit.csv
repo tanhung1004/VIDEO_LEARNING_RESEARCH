@@ -1,0 +1,6 @@
+﻿check,value,expected,pass
+B_chunk_count,172,172,True
+B_no_transcript_leak,0,0,True
+B_ocr_frames_assigned,2384,informational (total frames=2398),True
+B_ocr_frames_unassigned,14,informational (compare with D's own count),True
+B_score_rows,1689,1689,True

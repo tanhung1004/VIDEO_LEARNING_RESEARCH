@@ -1,0 +1,2 @@
+﻿method,threshold,aggregation,LDA,LSA,TP,FP,FN,precision,recall,f1
+ocr_only,0.5,max,0,1,100,109,53,0.4784688995215311,0.6535947712418301,0.5524861878453039

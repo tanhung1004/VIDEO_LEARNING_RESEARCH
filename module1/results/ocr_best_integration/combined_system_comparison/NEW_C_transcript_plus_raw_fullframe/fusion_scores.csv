@@ -1,0 +1,1690 @@
+﻿video_id,subject,method,chunk_id,start_sec,end_sec,concept,lsa_score,lsa_norm,lda_norm,final_score
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,select,0.0806,0.42027690933452433,0.0,0.4203
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,where,-0.0135,0.0,0.0,0.0
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,group by,0.0072,0.09245198749441715,0.0,0.0925
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,having,0.0054,0.08441268423403304,0.0,0.0844
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,count,0.0154,0.12907548012505582,0.0,0.1291
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,aggregate function,0.0078,0.09513175524787851,0.0,0.0951
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,join,0.2104,1.0,0.0,1.0
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inner join,0.0081,0.0964716391246092,0.0,0.0965
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,left join,0.1493,0.7271103171058507,0.0,0.7271
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,subquery,-0.0033,0.045556051808843236,0.0,0.0456
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,order by,0.0414,0.24519874944171502,0.0,0.2452
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,select,0.0389,0.18290496114763893,0.0,0.1829
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,where,0.0151,0.04064554692169755,0.0,0.0406
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,group by,0.0083,0.0,0.0,0.0
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,having,0.0279,0.11715481171548116,0.0,0.1172
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,count,0.0175,0.054991034070531984,0.0,0.055
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,aggregate function,0.0094,0.006575014943215781,0.0,0.0066
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,join,0.1756,1.0,0.0,1.0
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inner join,0.1114,0.616258218768679,0.0,0.6163
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,left join,0.039,0.18350268977884038,0.0,0.1835
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,subquery,0.0548,0.27794381350866704,0.0,0.2779
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,order by,0.0374,0.17393903167961747,0.0,0.1739
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,select,0.0725,0.3899935856318152,0.0,0.39
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,where,0.0348,0.14817190506735084,0.0,0.1482
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,group by,0.0625,0.3258499037844772,0.0,0.3258
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,having,0.0445,0.21039127645926872,0.0,0.2104
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,count,0.0499,0.24502886465683127,0.0,0.245
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,aggregate function,0.0372,0.16356638871071194,0.0,0.1636
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,join,0.1676,1.0,0.0,1.0
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inner join,0.0921,0.5157152020525978,0.0,0.5157
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,left join,0.0117,0.0,0.0,0.0
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,subquery,0.0815,0.4477228992944195,0.0,0.4477
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,order by,0.0534,0.2674791533033996,0.0,0.2675
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,select,0.0811,0.516990291262136,0.0,0.517
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,where,0.0379,0.25485436893203883,0.0,0.2549
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,group by,0.0223,0.16019417475728154,0.0,0.1602
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,having,0.038,0.25546116504854366,0.0,0.2555
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,count,0.0187,0.1383495145631068,0.0,0.1383
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,aggregate function,0.014,0.10983009708737865,0.0,0.1098
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,join,0.1607,1.0,0.0,1.0
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inner join,0.1131,0.7111650485436893,0.0,0.7112
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,left join,-0.0041,0.0,0.0,0.0
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,subquery,0.0723,0.4635922330097088,0.0,0.4636
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,order by,0.0406,0.27123786407766987,0.0,0.2712
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,select,0.073,0.4423286180631121,0.0,0.4423
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,where,0.0357,0.2393906420021763,0.0,0.2394
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,group by,0.0195,0.1512513601741023,0.0,0.1513
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,having,0.0554,0.34657236126224156,0.0,0.3466
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,count,0.0111,0.10554951033732318,0.0,0.1055
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,aggregate function,0.0083,0.09031556039173015,0.0,0.0903
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,join,0.1755,1.0,0.0,1.0
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,inner join,0.1558,0.8928182807399347,0.0,0.8928
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,left join,-0.0083,0.0,0.0,0.0
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,subquery,0.0718,0.4357997823721437,0.0,0.4358
+v1,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,order by,0.0569,0.3547334058759521,0.0,0.3547
+v2,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for loop,0.1212,0.7117977528089888,0.0,0.7118
+v2,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for,0.1435,0.8370786516853933,0.0,0.8371
+v2,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,iteration,-0.0055,0.0,0.0,0.0
+v2,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,range,0.1725,1.0,0.0,1.0
+v2,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,list,0.1447,0.8438202247191011,0.0,0.8438
+v2,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,nested loop,0.0189,0.13707865168539327,0.0,0.1371
+v2,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,index,0.0024,0.04438202247191011,0.0,0.0444
+v2,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,break,0.0183,0.13370786516853933,0.0,0.1337
+v2,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,continue,0.0807,0.4842696629213483,0.0,0.4843
+v2,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for loop,0.1152,0.7444831591173054,0.0,0.7445
+v2,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for,0.1592,1.0,0.0,1.0
+v2,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,iteration,-0.013,0.0,0.0,0.0
+v2,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,range,0.1506,0.9500580720092916,0.0,0.9501
+v2,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,list,0.1407,0.8925667828106851,0.0,0.8926
+v2,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,nested loop,0.0288,0.24274099883855976,0.0,0.2427
+v2,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,index,0.0021,0.08768873403019743,0.0,0.0877
+v2,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,break,0.1036,0.6771196283391404,0.0,0.6771
+v2,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,continue,0.0839,0.5627177700348431,0.0,0.5627
+v2,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,for loop,0.1675,0.7245482591449978,0.0,0.7245
+v2,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,for,0.1641,0.7095636844424856,0.0,0.7096
+v2,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,iteration,0.0293,0.11546936976641692,0.0,0.1155
+v2,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,range,0.23,1.0,0.0,1.0
+v2,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,list,0.1434,0.618334067871309,0.0,0.6183
+v2,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,nested loop,0.1184,0.5081533715293081,0.0,0.5082
+v2,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,index,0.0031,0.0,0.0,0.0
+v2,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,break,0.0787,0.33318642573821067,0.0,0.3332
+v2,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,continue,0.1341,0.5773468488320846,0.0,0.5773
+v2,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,for loop,0.1192,0.48662470495672705,0.0,0.4866
+v2,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,for,0.1611,0.6514555468135327,0.0,0.6515
+v2,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,iteration,0.0347,0.15420928402832415,0.0,0.1542
+v2,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,range,0.2497,1.0,0.0,1.0
+v2,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,list,0.1656,0.6691581431943352,0.0,0.6692
+v2,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,nested loop,0.0169,0.08418568056648308,0.0,0.0842
+v2,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,index,0.0002,0.018489378442171515,0.0,0.0185
+v2,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,break,-0.0045,0.0,0.0,0.0
+v2,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,continue,0.0766,0.31904012588512987,0.0,0.319
+v2,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,for loop,0.1861,0.5947028025870034,0.0,0.5947
+v2,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,for,0.1861,0.5947028025870034,0.0,0.5947
+v2,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,iteration,0.0006,0.023406221127194333,0.0,0.0234
+v2,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,range,0.3177,1.0,0.0,1.0
+v2,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,list,0.117,0.3818909762858023,0.0,0.3819
+v2,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,nested loop,0.0259,0.10132429935324916,0.0,0.1013
+v2,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,index,-0.007,0.0,0.0,0.0
+v2,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,break,0.0064,0.04126886356636896,0.0,0.0413
+v2,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,continue,0.0287,0.1099476439790576,0.0,0.1099
+v3,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.1562,0.2871709746265118,0.0,0.2872
+v3,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0933,0.13801280531183305,0.0,0.138
+v3,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,method,0.0599,0.05880958027033437,0.0,0.0588
+v3,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,interface,0.0351,0.0,0.0,0.0
+v3,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,implements,0.1065,0.16931467868152714,0.0,0.1693
+v3,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,extends,0.076,0.09698838036518853,0.0,0.097
+v3,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.0856,0.1197533791795115,0.0,0.1198
+v3,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract class,0.4568,1.0,0.0,1.0
+v3,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract method,0.2747,0.5681764287408111,0.0,0.5682
+v3,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.0713,0.12270714737507905,0.0,0.1227
+v3,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.0325,0.0,0.0,0.0
+v3,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,method,0.0605,0.0885515496521189,0.0,0.0886
+v3,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,interface,0.1719,0.4408602150537634,0.0,0.4409
+v3,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,implements,0.2019,0.5357368753953193,0.0,0.5357
+v3,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,extends,0.0545,0.0695762175838077,0.0,0.0696
+v3,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.0489,0.05186590765338392,0.0,0.0519
+v3,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract class,0.3487,1.0,0.0,1.0
+v3,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract method,0.2458,0.6745730550284629,0.0,0.6746
+v3,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.0655,0.18335343787696018,0.0,0.1834
+v3,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.0529,0.14535585042219543,0.0,0.1454
+v3,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,method,0.0047,0.0,0.0,0.0
+v3,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,interface,0.1195,0.34620024125452353,0.0,0.3462
+v3,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,implements,0.1272,0.3694209891435465,0.0,0.3694
+v3,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,extends,0.0477,0.12967430639324487,0.0,0.1297
+v3,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,0.0305,0.07780458383594692,0.0,0.0778
+v3,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,abstract class,0.3363,1.0,0.0,1.0
+v3,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,abstract method,0.1461,0.4264173703256936,0.0,0.4264
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,select,0.0823,0.1544263596665343,0.0,0.1544
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,where,0.0558,0.1018261214767765,0.0,0.1018
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,group by,0.5083,1.0,0.0,1.0
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,having,0.1168,0.22290591504565302,0.0,0.2229
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,count,0.2045,0.3969829297340214,0.0,0.397
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,aggregate function,0.1032,0.19591107582373957,0.0,0.1959
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,join,0.0913,0.1722905915045653,0.0,0.1723
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inner join,0.0045,0.0,0.0,0.0
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,left join,0.0833,0.15641127431520443,0.0,0.1564
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,subquery,0.0828,0.15541881699086937,0.0,0.1554
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,order by,0.1418,0.2725287812624057,0.0,0.2725
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,select,0.0549,0.15050275705481672,0.0,0.1505
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,where,0.0826,0.24035030814142067,0.0,0.2404
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,group by,0.3168,1.0,0.0,1.0
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,having,0.1693,0.521569899448589,0.0,0.5216
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,count,0.157,0.48167369445345437,0.0,0.4817
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,aggregate function,0.0577,0.15958481998053842,0.0,0.1596
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,join,0.0157,0.023353876094712935,0.0,0.0234
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inner join,0.0085,0.0,0.0,0.0
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,left join,0.0345,0.08433344145313007,0.0,0.0843
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,subquery,0.0181,0.031138501459617256,0.0,0.0311
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,order by,0.0892,0.26175802789490754,0.0,0.2618
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,select,0.112,0.5686746987951807,0.0,0.5687
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,where,0.0166,0.10891566265060242,0.0,0.1089
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,group by,0.1223,0.6183132530120481,0.0,0.6183
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,having,0.1282,0.6467469879518073,0.0,0.6467
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,count,0.2015,1.0,0.0,1.0
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,aggregate function,0.1107,0.5624096385542169,0.0,0.5624
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,join,-0.006,0.0,0.0,0.0
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inner join,0.0242,0.14554216867469877,0.0,0.1455
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,left join,0.0114,0.08385542168674698,0.0,0.0839
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,subquery,0.028,0.163855421686747,0.0,0.1639
+v4,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,order by,0.0371,0.20771084337349396,0.0,0.2077
+v5,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.266,0.7686888454011742,0.0,0.7687
+v5,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.1994,0.5080234833659492,0.0,0.508
+v5,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,method,0.2232,0.6011741682974561,0.0,0.6012
+v5,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,interface,0.2995,0.8998043052837573,0.0,0.8998
+v5,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,implements,0.3251,1.0,0.0,1.0
+v5,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,extends,0.2022,0.5189823874755382,0.0,0.519
+v5,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.2298,0.6270058708414873,0.0,0.627
+v5,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract class,0.2572,0.7342465753424657,0.0,0.7342
+v5,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract method,0.0696,0.0,0.0,0.0
+v5,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.1719,0.7114427860696516,0.0,0.7114
+v5,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.142,0.5461580983969043,0.0,0.5462
+v5,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,method,0.1744,0.7252625760088446,0.0,0.7253
+v5,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,interface,0.22,0.9773355444997236,0.0,0.9773
+v5,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,implements,0.2241,1.0,0.0,1.0
+v5,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,extends,0.1465,0.5710337202874516,0.0,0.571
+v5,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.164,0.6677722498618021,0.0,0.6678
+v5,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract class,0.1765,0.7368711995577666,0.0,0.7369
+v5,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract method,0.0432,0.0,0.0,0.0
+v5,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.2099,0.8691000629326622,0.0,0.8691
+v5,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.1004,0.1799874134675897,0.0,0.18
+v5,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,method,0.2127,0.8867212083071114,0.0,0.8867
+v5,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,interface,0.1682,0.60667086217747,0.0,0.6067
+v5,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,implements,0.1277,0.3517935808684708,0.0,0.3518
+v5,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,extends,0.1593,0.5506607929515419,0.0,0.5507
+v5,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,0.1996,0.8042794210195092,0.0,0.8043
+v5,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,abstract class,0.2307,1.0,0.0,1.0
+v5,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,abstract method,0.0718,0.0,0.0,0.0
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,select,0.4661,1.0,0.0,1.0
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,where,0.3702,0.781896747782579,0.0,0.7819
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,group by,0.2126,0.4234705481009779,0.0,0.4235
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,having,0.0928,0.1510120536729588,0.0,0.151
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,count,0.0537,0.06208778712758698,0.0,0.0621
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,aggregate function,0.0264,0.0,0.0,0.0
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,join,0.126,0.22651808050943822,0.0,0.2265
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inner join,0.0452,0.04275642483511484,0.0,0.0428
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,left join,0.1337,0.24403002046850125,0.0,0.244
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,subquery,0.0542,0.06322492608596769,0.0,0.0632
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,order by,0.2724,0.5594723675233112,0.0,0.5595
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,select,0.1468,0.3580717488789238,0.0,0.3581
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,where,0.113,0.2822869955156951,0.0,0.2823
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,group by,0.4331,1.0,0.0,1.0
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,having,0.0909,0.23273542600896857,0.0,0.2327
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,count,0.0849,0.21928251121076234,0.0,0.2193
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,aggregate function,0.0761,0.19955156950672645,0.0,0.1996
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,join,-0.0129,0.0,0.0,0.0
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inner join,0.0058,0.04192825112107623,0.0,0.0419
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,left join,0.0525,0.14663677130044842,0.0,0.1466
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,subquery,0.0106,0.052690582959641255,0.0,0.0527
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,order by,0.2033,0.48475336322869955,0.0,0.4848
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,select,0.2345,0.5729653882132834,0.0,0.573
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,where,0.1146,0.2925631431244153,0.0,0.2926
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,group by,0.3042,0.7359681945743686,0.0,0.736
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,having,0.4171,1.0,0.0,1.0
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,count,0.19,0.4688961646398503,0.0,0.4689
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,aggregate function,0.196,0.48292797006548177,0.0,0.4829
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,join,-0.0105,0.0,0.0,0.0
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inner join,0.0321,0.09962581852198316,0.0,0.0996
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,left join,0.0415,0.1216089803554724,0.0,0.1216
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,subquery,0.1767,0.43779232927970063,0.0,0.4378
+v6,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,order by,0.3881,0.932179607109448,0.0,0.9322
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,select,0.1295,1.0,0.0,1.0
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,where,0.0212,0.18078668683812404,0.0,0.1808
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,group by,0.0279,0.23146747352496216,0.0,0.2315
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,having,-0.0004,0.017397881996974278,0.0,0.0174
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,count,0.009,0.0885022692889561,0.0,0.0885
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,aggregate function,-0.0027,0.0,0.0,0.0
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,join,0.0312,0.25642965204236,0.0,0.2564
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inner join,0.0131,0.11951588502269289,0.0,0.1195
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,left join,0.0282,0.23373676248108924,0.0,0.2337
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,subquery,0.0751,0.588502269288956,0.0,0.5885
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,order by,0.0605,0.47806354009077145,0.0,0.4781
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,select,0.116,1.0,0.0,1.0
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,where,0.0223,0.18592528236316244,0.0,0.1859
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,group by,0.0174,0.14335360556038224,0.0,0.1434
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,having,0.0009,0.0,0.0,0.0
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,count,0.0585,0.5004344048653345,0.0,0.5004
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,aggregate function,0.0328,0.27715030408340574,0.0,0.2772
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,join,0.0207,0.1720243266724587,0.0,0.172
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inner join,0.0088,0.0686359687228497,0.0,0.0686
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,left join,0.0235,0.19635099913119025,0.0,0.1964
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,subquery,0.1103,0.9504778453518679,0.0,0.9505
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,order by,0.0516,0.4404865334491746,0.0,0.4405
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,select,0.0151,0.23656927426955704,0.0,0.2366
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,where,0.0293,0.37040527803958534,0.0,0.3704
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,group by,0.0272,0.35061262959472195,0.0,0.3506
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,having,0.0085,0.174363807728558,0.0,0.1744
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,count,0.0068,0.1583411875589067,0.0,0.1583
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,aggregate function,-0.01,0.0,0.0,0.0
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,join,0.0139,0.22525918944392082,0.0,0.2253
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inner join,0.0043,0.1347785108388313,0.0,0.1348
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,left join,0.0053,0.14420358152686147,0.0,0.1442
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,subquery,0.0677,0.7323279924599434,0.0,0.7323
+v7,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,order by,0.0961,1.0,0.0,1.0
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,select,0.1599,0.9386904761904762,0.0,0.9387
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,where,0.0881,0.5113095238095239,0.0,0.5113
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,group by,0.1152,0.6726190476190477,0.0,0.6726
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,having,0.1461,0.8565476190476191,0.0,0.8565
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,count,0.092,0.5345238095238096,0.0,0.5345
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,aggregate function,0.0868,0.5035714285714287,0.0,0.5036
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,join,0.1702,1.0,0.0,1.0
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inner join,0.0609,0.34940476190476194,0.0,0.3494
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,left join,0.0022,0.0,0.0,0.0
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,subquery,0.1519,0.8910714285714286,0.0,0.8911
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,order by,0.1327,0.7767857142857144,0.0,0.7768
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,select,0.0165,1.0,0.0,1.0
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,where,0.0022,0.12269938650306747,0.0,0.1227
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,group by,0.0032,0.18404907975460122,0.0,0.184
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,having,0.0012,0.06134969325153372,0.0,0.0613
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,count,0.0019,0.10429447852760734,0.0,0.1043
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,aggregate function,0.0003,0.006134969325153371,0.0,0.0061
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,join,0.0071,0.4233128834355828,0.0,0.4233
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inner join,0.0002,0.0,0.0,0.0
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,left join,0.0031,0.17791411042944782,0.0,0.1779
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,subquery,0.0101,0.6073619631901839,0.0,0.6074
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,order by,0.0053,0.31288343558282206,0.0,0.3129
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,select,0.016,1.0,0.0,1.0
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,where,0.0108,0.6941176470588236,0.0,0.6941
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,group by,0.003,0.23529411764705882,0.0,0.2353
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,having,0.0008,0.10588235294117646,0.0,0.1059
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,count,0.0014,0.1411764705882353,0.0,0.1412
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,aggregate function,0.0001,0.06470588235294118,0.0,0.0647
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,join,0.0021,0.18235294117647058,0.0,0.1824
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inner join,-0.001,0.0,0.0,0.0
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,left join,0.0005,0.08823529411764705,0.0,0.0882
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,subquery,0.0112,0.7176470588235293,0.0,0.7176
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,order by,0.0057,0.3941176470588235,0.0,0.3941
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,select,0.014,0.972972972972973,0.0,0.973
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,where,0.0009,0.08783783783783784,0.0,0.0878
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,group by,0.0032,0.24324324324324328,0.0,0.2432
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,having,0.002,0.1621621621621622,0.0,0.1622
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,count,0.0009,0.08783783783783784,0.0,0.0878
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,aggregate function,-0.0004,0.0,0.0,0.0
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,join,0.0035,0.26351351351351354,0.0,0.2635
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inner join,-0.0002,0.013513513513513516,0.0,0.0135
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,left join,0.0144,1.0,0.0,1.0
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,subquery,0.0092,0.6486486486486487,0.0,0.6486
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,order by,0.0112,0.7837837837837838,0.0,0.7838
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,select,0.0168,0.5073313782991202,0.0,0.5073
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,where,0.0012,0.04985337243401759,0.0,0.0499
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,group by,0.0036,0.12023460410557184,0.0,0.1202
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,having,-0.0005,0.0,0.0,0.0
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,count,0.0007,0.03519061583577713,0.0,0.0352
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,aggregate function,0.0025,0.08797653958944282,0.0,0.088
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,join,0.0143,0.43401759530791795,0.0,0.434
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,inner join,0.0336,1.0,0.0,1.0
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,left join,0.0094,0.2903225806451613,0.0,0.2903
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,subquery,0.0111,0.3401759530791789,0.0,0.3402
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,order by,0.0062,0.19648093841642228,0.0,0.1965
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,select,0.0488,0.4956268221574345,0.0,0.4956
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,where,0.0112,0.13022351797862003,0.0,0.1302
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,group by,0.0709,0.7103984450923226,0.0,0.7104
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,having,0.0128,0.14577259475218662,0.0,0.1458
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,count,0.0205,0.22060252672497574,0.0,0.2206
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,aggregate function,0.0277,0.2905733722060253,0.0,0.2906
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,join,-0.0022,0.0,0.0,0.0
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,inner join,0.1007,1.0,0.0,1.0
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,left join,0.0182,0.1982507288629738,0.0,0.1983
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,subquery,0.0193,0.2089407191448008,0.0,0.2089
+v8,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,order by,0.076,0.7599611273080661,0.0,0.76
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,select,0.0251,0.117964533538936,0.0,0.118
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,where,0.011,0.0636083269082498,0.0,0.0636
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,group by,0.0571,0.2413261372397841,0.0,0.2413
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,having,0.0433,0.18812644564379333,0.0,0.1881
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,count,0.2539,1.0,0.0,1.0
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,aggregate function,0.2207,0.8720123361603701,0.0,0.872
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,join,0.119,0.47995373939861213,0.0,0.48
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inner join,0.0017,0.027756360832690823,0.0,0.0278
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,left join,-0.0055,0.0,0.0,0.0
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,subquery,0.0174,0.0882806476484194,0.0,0.0883
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,order by,0.0213,0.10331534309946028,0.0,0.1033
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,select,0.2401,0.937328632980807,0.0,0.9373
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,where,0.09,0.3493928711320016,0.0,0.3494
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,group by,0.0712,0.2757540148844497,0.0,0.2758
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,having,0.0024,0.00626713670191931,0.0,0.0063
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,count,0.2561,1.0,0.0,1.0
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,aggregate function,0.108,0.4198981590285939,0.0,0.4199
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,join,0.0949,0.3685859772816295,0.0,0.3686
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inner join,0.1666,0.6494320407363886,0.0,0.6494
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,left join,0.1232,0.47943595769682734,0.0,0.4794
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,subquery,0.0453,0.17430473952213082,0.0,0.1743
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,order by,0.0008,0.0,0.0,0.0
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,select,0.1086,0.701547987616099,0.0,0.7015
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,where,0.0056,0.06377708978328173,0.0,0.0638
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,group by,0.0546,0.3671826625386997,0.0,0.3672
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,having,-0.0025,0.013622291021671827,0.0,0.0136
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,count,0.0807,0.5287925696594427,0.0,0.5288
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,aggregate function,0.1568,1.0,0.0,1.0
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,join,-0.0047,0.0,0.0,0.0
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inner join,0.008,0.07863777089783282,0.0,0.0786
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,left join,0.0116,0.10092879256965943,0.0,0.1009
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,subquery,0.0267,0.19442724458204336,0.0,0.1944
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,order by,0.078,0.5120743034055727,0.0,0.5121
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,select,0.0762,0.39023389413212967,0.0,0.3902
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,where,0.0062,0.10299548625359048,0.0,0.103
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,group by,0.0911,0.45137464095199015,0.0,0.4514
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,having,0.0067,0.10504718916700863,0.0,0.105
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,count,0.0725,0.3750512925728354,0.0,0.3751
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,aggregate function,0.2248,1.0,0.0,1.0
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,join,0.0333,0.21419778416085353,0.0,0.2142
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inner join,-0.0189,0.0,0.0,0.0
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,left join,0.0237,0.17480508822322527,0.0,0.1748
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,subquery,0.0015,0.08370947886746,0.0,0.0837
+v9,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,order by,0.0823,0.4152646696758309,0.0,0.4153
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,select,0.2128,0.27947544228627985,0.0,0.2795
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,where,0.0553,0.08462204626994928,0.0,0.0846
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,group by,0.7952,1.0,0.0,1.0
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,having,0.1205,0.16528516639861437,0.0,0.1653
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,count,0.0952,0.13398490659408635,0.0,0.134
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,aggregate function,0.0943,0.13287145861685018,0.0,0.1329
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,join,0.0462,0.07336385005567239,0.0,0.0734
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inner join,0.0297,0.05295063713967587,0.0,0.053
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,left join,0.0436,0.070147222565879,0.0,0.0701
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,subquery,-0.0131,0.0,0.0,0.0
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,order by,0.1124,0.1552641346034888,0.0,0.1553
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,select,0.0989,0.2519040902679831,0.0,0.2519
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,where,0.0116,0.005641748942172074,0.0,0.0056
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,group by,0.3641,1.0,0.0,1.0
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,having,0.134,0.350916784203103,0.0,0.3509
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,count,0.0554,0.12919605077574048,0.0,0.1292
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,aggregate function,0.1086,0.27926657263751764,0.0,0.2793
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,join,0.0225,0.036389280677009875,0.0,0.0364
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inner join,0.0106,0.0028208744710860392,0.0,0.0028
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,left join,0.0096,0.0,0.0,0.0
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,subquery,0.0139,0.012129760225669958,0.0,0.0121
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,order by,0.0526,0.1212976022566996,0.0,0.1213
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,select,0.1398,0.7900990099009901,0.0,0.7901
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,where,0.0441,0.15841584158415842,0.0,0.1584
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,group by,0.1716,1.0,0.0,1.0
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,having,0.0825,0.4118811881188119,0.0,0.4119
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,count,0.0604,0.26600660066006604,0.0,0.266
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,aggregate function,0.0767,0.37359735973597363,0.0,0.3736
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,join,0.0596,0.2607260726072607,0.0,0.2607
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inner join,0.0201,0.0,0.0,0.0
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,left join,0.0463,0.17293729372937294,0.0,0.1729
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,subquery,0.0349,0.0976897689768977,0.0,0.0977
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,order by,0.0375,0.11485148514851484,0.0,0.1149
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,select,0.0852,0.4424720578566732,0.0,0.4425
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,where,0.0341,0.10650887573964496,0.0,0.1065
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,group by,0.17,1.0,0.0,1.0
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,having,0.0248,0.04536489151873767,0.0,0.0454
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,count,0.0687,0.33399079552925703,0.0,0.334
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,aggregate function,0.0538,0.23602892833662062,0.0,0.236
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,join,0.0468,0.19000657462195925,0.0,0.19
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inner join,0.0179,0.0,0.0,0.0
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,left join,0.0553,0.24589086127547666,0.0,0.2459
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,subquery,0.019,0.00723208415516108,0.0,0.0072
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,order by,0.0388,0.13740959894806049,0.0,0.1374
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,select,0.0834,0.4658119658119658,0.0,0.4658
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,where,0.0342,0.16544566544566544,0.0,0.1654
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,group by,0.1709,1.0,0.0,1.0
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,having,0.048,0.2496947496947497,0.0,0.2497
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,count,0.0636,0.34493284493284493,0.0,0.3449
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,aggregate function,0.0464,0.23992673992673988,0.0,0.2399
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,join,0.0447,0.2295482295482295,0.0,0.2295
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,inner join,0.0173,0.062271062271062265,0.0,0.0623
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,left join,0.0496,0.25946275946275943,0.0,0.2595
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,subquery,0.0071,0.0,0.0,0.0
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,order by,0.0336,0.16178266178266176,0.0,0.1618
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,select,0.0506,0.5498915401301518,0.0,0.5499
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,where,0.0239,0.2603036876355748,0.0,0.2603
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,group by,0.0921,1.0,0.0,1.0
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,having,0.046,0.5,0.0,0.5
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,count,0.0868,0.9425162689804772,0.0,0.9425
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,aggregate function,0.0531,0.5770065075921909,0.0,0.577
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,join,0.0316,0.34381778741865515,0.0,0.3438
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,inner join,0.0106,0.11605206073752711,0.0,0.1161
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,left join,0.0334,0.3633405639913232,0.0,0.3633
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,subquery,-0.0001,0.0,0.0,0.0
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,order by,0.017,0.18546637744034708,0.0,0.1855
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,select,0.0659,0.607976653696498,0.0,0.608
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,where,0.0271,0.23054474708171205,0.0,0.2305
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,group by,0.1062,1.0,0.0,1.0
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,having,0.0593,0.5437743190661478,0.0,0.5438
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,count,0.0363,0.32003891050583655,0.0,0.32
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,aggregate function,0.0253,0.2130350194552529,0.0,0.213
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,join,0.0349,0.30642023346303504,0.0,0.3064
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,inner join,0.0138,0.10116731517509726,0.0,0.1012
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,left join,0.041,0.36575875486381326,0.0,0.3658
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,subquery,0.0034,0.0,0.0,0.0
+v10,SQL,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,order by,0.0218,0.17898832684824903,0.0,0.179
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,select,0.0963,1.0,0.0,1.0
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,where,0.0692,0.7171189979123174,0.0,0.7171
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,group by,0.0166,0.16805845511482256,0.0,0.1681
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,having,0.0005,0.0,0.0,0.0
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,count,0.0081,0.07933194154488517,0.0,0.0793
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,aggregate function,0.0098,0.09707724425887265,0.0,0.0971
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,join,0.0285,0.29227557411273486,0.0,0.2923
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inner join,0.0391,0.4029227557411274,0.0,0.4029
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,left join,0.0544,0.5626304801670146,0.0,0.5626
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,subquery,0.0695,0.7202505219206682,0.0,0.7203
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,order by,0.0436,0.4498956158663883,0.0,0.4499
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,select,0.1692,1.0,0.0,1.0
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,where,0.0757,0.4854155200880572,0.0,0.4854
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,group by,0.038,0.27793065492570174,0.0,0.2779
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,having,0.003,0.085305448541552,0.0,0.0853
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,count,-0.0125,0.0,0.0,0.0
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,aggregate function,0.0281,0.22344523940561364,0.0,0.2234
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,join,-0.0035,0.049532195927352786,0.0,0.0495
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inner join,0.0264,0.21408915795266925,0.0,0.2141
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,left join,0.0333,0.2520638414969731,0.0,0.2521
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,subquery,0.0545,0.3687396807925152,0.0,0.3687
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,order by,0.0389,0.282883874518437,0.0,0.2829
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,select,0.1151,0.8117738187451587,0.0,0.8118
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,where,0.0129,0.020139426800929512,0.0,0.0201
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,group by,0.1394,1.0,0.0,1.0
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,having,0.0103,0.0,0.0,0.0
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,count,0.0824,0.5584817970565453,0.0,0.5585
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,aggregate function,0.0333,0.1781564678543765,0.0,0.1782
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,join,0.0443,0.2633617350890783,0.0,0.2634
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inner join,0.0132,0.022463206816421378,0.0,0.0225
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,left join,0.047,0.284275755228505,0.0,0.2843
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,subquery,0.0423,0.24786986831913246,0.0,0.2479
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,order by,0.0443,0.2633617350890783,0.0,0.2634
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,select,0.1236,0.5855263157894737,0.0,0.5855
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,where,-0.001,0.0,0.0,0.0
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,group by,0.2118,1.0,0.0,1.0
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,having,0.0117,0.05968045112781955,0.0,0.0597
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,count,0.0553,0.26456766917293234,0.0,0.2646
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,aggregate function,0.003,0.01879699248120301,0.0,0.0188
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,join,0.0724,0.34492481203007525,0.0,0.3449
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inner join,0.0028,0.01785714285714286,0.0,0.0179
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,left join,0.0514,0.24624060150375943,0.0,0.2462
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,subquery,0.037,0.17857142857142858,0.0,0.1786
+v11,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,order by,0.0541,0.25892857142857145,0.0,0.2589
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,select,0.129,0.882992327365729,0.0,0.883
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,where,0.0443,0.34143222506393867,0.0,0.3414
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,group by,0.0489,0.37084398976982097,0.0,0.3708
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,having,0.0038,0.08248081841432225,0.0,0.0825
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,count,-0.0091,0.0,0.0,0.0
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,aggregate function,0.0176,0.17071611253196933,0.0,0.1707
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,join,0.0189,0.1790281329923274,0.0,0.179
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inner join,0.1473,1.0,0.0,1.0
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,left join,0.0688,0.4980818414322251,0.0,0.4981
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,subquery,0.0291,0.2442455242966752,0.0,0.2442
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,order by,0.0734,0.5274936061381075,0.0,0.5275
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,select,0.0481,0.41523118766999084,0.0,0.4152
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,where,0.0194,0.15503173164097914,0.0,0.155
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,group by,0.0121,0.08884859474161377,0.0,0.0888
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,having,0.0023,0.0,0.0,0.0
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,count,0.0068,0.04079782411604714,0.0,0.0408
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,aggregate function,0.009,0.06074342701722574,0.0,0.0607
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,join,0.0368,0.31278331822302813,0.0,0.3128
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inner join,0.1126,1.0,0.0,1.0
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,left join,0.0512,0.44333635539437893,0.0,0.4433
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,subquery,0.0262,0.21668177697189483,0.0,0.2167
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,order by,0.0455,0.3916591115140526,0.0,0.3917
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,select,0.0249,0.24440298507462688,0.0,0.2444
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,where,0.0154,0.15578358208955226,0.0,0.1558
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,group by,0.0112,0.11660447761194032,0.0,0.1166
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,having,0.0161,0.1623134328358209,0.0,0.1623
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,count,0.0189,0.18843283582089554,0.0,0.1884
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,aggregate function,-0.0013,0.0,0.0,0.0
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,join,0.0651,0.6194029850746269,0.0,0.6194
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inner join,0.0744,0.7061567164179104,0.0,0.7062
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,left join,0.1059,1.0,0.0,1.0
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,subquery,0.0281,0.2742537313432836,0.0,0.2743
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,order by,0.0421,0.40485074626865675,0.0,0.4049
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,select,0.037,0.3767272727272727,0.0,0.3767
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,where,0.0013,0.11709090909090908,0.0,0.1171
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,group by,0.0258,0.29527272727272724,0.0,0.2953
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,having,0.0483,0.4589090909090909,0.0,0.4589
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,count,0.017,0.23127272727272727,0.0,0.2313
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,aggregate function,-0.0148,0.0,0.0,0.0
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,join,0.1227,1.0,0.0,1.0
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inner join,0.0059,0.15054545454545454,0.0,0.1505
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,left join,0.035,0.36218181818181816,0.0,0.3622
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,subquery,0.0306,0.33018181818181813,0.0,0.3302
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,order by,-0.0113,0.025454545454545462,0.0,0.0255
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,select,0.0656,0.47591743119266056,0.0,0.4759
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,where,0.0059,0.13360091743119265,0.0,0.1336
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,group by,0.0291,0.2666284403669725,0.0,0.2666
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,having,0.0473,0.37098623853211016,0.0,0.371
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,count,0.019,0.20871559633027523,0.0,0.2087
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,aggregate function,-0.0174,0.0,0.0,0.0
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,join,0.157,1.0,0.0,1.0
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,inner join,0.0494,0.3830275229357798,0.0,0.383
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,left join,0.0545,0.4122706422018348,0.0,0.4123
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,subquery,0.034,0.2947247706422018,0.0,0.2947
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,order by,-0.0083,0.0521788990825688,0.0,0.0522
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,select,0.0355,0.23696407879490153,0.0,0.237
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,where,-0.0042,0.0069524913093858675,0.0,0.007
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,group by,0.0052,0.061413673232908465,0.0,0.0614
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,having,0.0223,0.16048667439165704,0.0,0.1605
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,count,0.0131,0.10718424101969876,0.0,0.1072
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,aggregate function,-0.0054,0.0,0.0,0.0
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,join,0.1288,0.7775202780996524,0.0,0.7775
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,inner join,0.1672,1.0,0.0,1.0
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,left join,0.0542,0.3453070683661646,0.0,0.3453
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,subquery,0.0257,0.18018539976825032,0.0,0.1802
+v12,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,order by,0.0145,0.11529548088064892,0.0,0.1153
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,select,0.4464,1.0,0.0,1.0
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,where,0.1252,0.05390279823269517,0.0,0.0539
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,group by,0.2047,0.2880706921944035,0.0,0.2881
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,having,0.3054,0.5846833578792342,0.0,0.5847
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,count,0.1486,0.12282768777614142,0.0,0.1228
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,aggregate function,0.1703,0.1867452135493373,0.0,0.1867
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,join,0.281,0.5128129602356407,0.0,0.5128
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inner join,0.1069,0.0,0.0,0.0
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,left join,0.1994,0.27245949926362295,0.0,0.2725
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,subquery,0.3238,0.638880706921944,0.0,0.6389
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,order by,0.3067,0.5885125184094255,0.0,0.5885
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,select,0.0998,0.5963923337091319,0.0,0.5964
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,where,0.0706,0.4317925591882751,0.0,0.4318
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,group by,0.0519,0.32638105975197296,0.0,0.3264
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,having,-0.006,0.0,0.0,0.0
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,count,0.0316,0.21195039458850057,0.0,0.212
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,aggregate function,0.0083,0.080608793686584,0.0,0.0806
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,join,0.0009,0.03889515219842164,0.0,0.0389
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inner join,-0.0021,0.021984216459977453,0.0,0.022
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,left join,0.0123,0.10315670800450959,0.0,0.1032
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,subquery,0.0167,0.12795941375422773,0.0,0.128
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,order by,0.1714,1.0,0.0,1.0
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,select,0.0458,0.2639386189258312,0.0,0.2639
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,where,0.0129,0.09565217391304348,0.0,0.0957
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,group by,0.1897,1.0,0.0,1.0
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,having,0.0321,0.19386189258312017,0.0,0.1939
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,count,-0.0002,0.028644501278772376,0.0,0.0286
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,aggregate function,0.0382,0.22506393861892582,0.0,0.2251
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,join,-0.0058,0.0,0.0,0.0
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inner join,0.0058,0.05933503836317135,0.0,0.0593
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,left join,0.0017,0.038363171355498715,0.0,0.0384
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,subquery,0.0019,0.03938618925831201,0.0,0.0394
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,order by,0.1611,0.8537084398976982,0.0,0.8537
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,select,0.1644,0.9073461283917934,0.0,0.9073
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,where,0.1186,0.6042356055592322,0.0,0.6042
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,group by,0.1784,1.0,0.0,1.0
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,having,0.1075,0.5307743216412971,0.0,0.5308
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,count,0.064,0.24288550628722697,0.0,0.2429
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,aggregate function,0.0555,0.18663136995367305,0.0,0.1866
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,join,0.0278,0.0033090668431502114,0.0,0.0033
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inner join,0.0273,0.0,0.0,0.0
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,left join,0.0664,0.2587690271343481,0.0,0.2588
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,subquery,0.0289,0.010589013898080722,0.0,0.0106
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,order by,0.1672,0.9258769027134347,0.0,0.9259
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,select,0.0872,0.5808477237048665,0.0,0.5808
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,where,0.0296,0.12872841444270017,0.0,0.1287
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,group by,0.046,0.2574568288854003,0.0,0.2575
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,having,0.0132,0.0,0.0,0.0
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,count,0.0556,0.3328100470957613,0.0,0.3328
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,aggregate function,0.0227,0.07456828885400314,0.0,0.0746
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,join,0.0554,0.3312401883830455,0.0,0.3312
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,inner join,0.0561,0.33673469387755095,0.0,0.3367
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,left join,0.1336,0.9450549450549449,0.0,0.9451
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,subquery,0.0159,0.021193092621664057,0.0,0.0212
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,order by,0.1406,1.0,0.0,1.0
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,select,0.0773,0.7432314410480348,0.0,0.7432
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,where,-0.0078,0.0,0.0,0.0
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,group by,0.0126,0.17816593886462884,0.0,0.1782
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,having,0.0405,0.4218340611353712,0.0,0.4218
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,count,0.0057,0.11790393013100436,0.0,0.1179
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,aggregate function,0.0131,0.18253275109170305,0.0,0.1825
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,join,0.0574,0.5694323144104803,0.0,0.5694
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,inner join,0.0206,0.2480349344978166,0.0,0.248
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,left join,0.1067,1.0,0.0,1.0
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,subquery,0.0195,0.23842794759825325,0.0,0.2384
+v13,SQL,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,order by,-0.0023,0.04803493449781659,0.0,0.048
+v14,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for loop,0.0858,0.4028220300409649,0.0,0.4028
+v14,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for,0.0794,0.37369139736003637,0.0,0.3737
+v14,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,iteration,-0.0027,0.0,0.0,0.0
+v14,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,range,0.0186,0.09695038689121528,0.0,0.097
+v14,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,list,0.026,0.1306326809285389,0.0,0.1306
+v14,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,nested loop,0.1016,0.4747382794720072,0.0,0.4747
+v14,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,index,-0.0023,0.0018206645425580344,0.0,0.0018
+v14,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,break,0.217,1.0,0.0,1.0
+v14,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,continue,0.0979,0.45789713245334546,0.0,0.4579
+v14,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for loop,0.0758,0.7686034658511723,0.0,0.7686
+v14,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for,0.0496,0.5015290519877675,0.0,0.5015
+v14,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,iteration,0.0112,0.11009174311926605,0.0,0.1101
+v14,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,range,0.0723,0.7329255861365953,0.0,0.7329
+v14,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,list,0.0045,0.04179408766564729,0.0,0.0418
+v14,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,nested loop,0.0833,0.8450560652395515,0.0,0.8451
+v14,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,index,0.0004,0.0,0.0,0.0
+v14,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,break,0.0495,0.5005096839959225,0.0,0.5005
+v14,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,continue,0.0985,1.0,0.0,1.0
+v14,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,for loop,0.1623,0.43998965338851526,0.0,0.44
+v14,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,for,-0.0078,0.0,0.0,0.0
+v14,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,iteration,0.0188,0.06880496637351267,0.0,0.0688
+v14,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,range,0.0143,0.05716502845318159,0.0,0.0572
+v14,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,list,0.0514,0.15312984997413348,0.0,0.1531
+v14,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,nested loop,0.2091,0.5610450077599587,0.0,0.561
+v14,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,index,0.011,0.04862907397827211,0.0,0.0486
+v14,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,break,0.3788,1.0,0.0,1.0
+v14,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,continue,0.0603,0.17615106052767718,0.0,0.1762
+v14,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,for loop,0.0713,0.1790518191841235,0.0,0.1791
+v14,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,for,0.0045,0.03175303197353914,0.0,0.0318
+v14,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,iteration,0.0234,0.07342888643880927,0.0,0.0734
+v14,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,range,0.0131,0.050716648291069456,0.0,0.0507
+v14,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,list,-0.0099,0.0,0.0,0.0
+v14,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,nested loop,0.0766,0.19073869900771775,0.0,0.1907
+v14,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,index,-0.0061,0.008379272326350606,0.0,0.0084
+v14,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,break,0.4436,1.0,0.0,1.0
+v14,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,continue,0.0824,0.20352811466372658,0.0,0.2035
+v15,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for loop,0.5572,1.0,0.0,1.0
+v15,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for,0.0289,0.06561726211531659,0.0,0.0656
+v15,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,iteration,0.0251,0.05889635656172622,0.0,0.0589
+v15,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,range,0.0375,0.08082773257870533,0.0,0.0808
+v15,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,list,0.2383,0.43597453130527064,0.0,0.436
+v15,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,nested loop,0.3736,0.6752741422002122,0.0,0.6753
+v15,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,index,-0.0082,0.0,0.0,0.0
+v15,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,break,0.1157,0.2191368942341705,0.0,0.2191
+v15,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,continue,0.0782,0.1528121683763707,0.0,0.1528
+v15,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for loop,0.0891,0.813953488372093,0.0,0.814
+v15,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for,0.0675,0.6465116279069767,0.0,0.6465
+v15,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,iteration,-0.0159,0.0,0.0,0.0
+v15,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,range,0.0248,0.31550387596899226,0.0,0.3155
+v15,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,list,0.0349,0.39379844961240307,0.0,0.3938
+v15,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,nested loop,0.0475,0.4914728682170542,0.0,0.4915
+v15,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,index,0.001,0.1310077519379845,0.0,0.131
+v15,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,break,0.0097,0.19844961240310077,0.0,0.1984
+v15,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,continue,0.1131,1.0,0.0,1.0
+v15,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,for loop,0.0692,0.43713733075435207,0.0,0.4371
+v15,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,for,0.0886,0.5622179239200517,0.0,0.5622
+v15,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,iteration,0.0153,0.08961960025789813,0.0,0.0896
+v15,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,range,0.1565,1.0,0.0,1.0
+v15,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,list,0.0109,0.061250805931657,0.0,0.0613
+v15,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,nested loop,0.0347,0.21470019342359772,0.0,0.2147
+v15,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,index,0.0014,0.0,0.0,0.0
+v15,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,break,0.0121,0.06898774983881367,0.0,0.069
+v15,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,continue,0.123,0.7840103159252096,0.0,0.784
+v15,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,for loop,0.0199,0.3194544149318018,0.0,0.3195
+v15,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,for,0.0931,0.8449389806173725,0.0,0.8449
+v15,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,iteration,-0.0246,0.0,0.0,0.0
+v15,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,range,0.0289,0.3840631730078966,0.0,0.3841
+v15,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,list,0.0048,0.21105527638190952,0.0,0.2111
+v15,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,nested loop,-0.0118,0.09188801148600144,0.0,0.0919
+v15,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,index,0.0024,0.19382627422828427,0.0,0.1938
+v15,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,break,-0.0006,0.1722900215362527,0.0,0.1723
+v15,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,continue,0.1147,1.0,0.0,1.0
+v16,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for loop,-0.0247,0.048725972284309346,0.0,0.0487
+v16,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for,-0.0356,0.0,0.0,0.0
+v16,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,iteration,0.0168,0.2342422887796156,0.0,0.2342
+v16,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,range,0.0199,0.24810013410818063,0.0,0.2481
+v16,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,list,0.1881,1.0,0.0,1.0
+v16,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,nested loop,0.017,0.23513634331694236,0.0,0.2351
+v16,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,index,0.1628,0.8869021010281628,0.0,0.8869
+v16,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,break,0.0345,0.3133661153330353,0.0,0.3134
+v16,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,continue,0.0121,0.21323200715243631,0.0,0.2132
+v16,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for loop,0.0225,0.31131660061646854,0.0,0.3113
+v16,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for,0.0799,0.5640686922060766,0.0,0.5641
+v16,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,iteration,-0.0482,0.0,0.0,0.0
+v16,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,range,0.1789,1.0,0.0,1.0
+v16,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,list,0.1287,0.7789520035226772,0.0,0.779
+v16,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,nested loop,-0.0049,0.1906649053280493,0.0,0.1907
+v16,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,index,0.1753,0.9841479524438573,0.0,0.9841
+v16,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,break,-0.0305,0.07793923381770146,0.0,0.0779
+v16,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,continue,0.0305,0.34654337296345217,0.0,0.3465
+v17,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for loop,0.2451,1.0,0.0,1.0
+v17,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for,0.0963,0.3853779429987608,0.0,0.3854
+v17,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,iteration,0.07,0.2767451466336225,0.0,0.2767
+v17,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,range,0.113,0.45435770342833537,0.0,0.4544
+v17,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,list,0.1471,0.5952085914911194,0.0,0.5952
+v17,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,nested loop,0.1798,0.7302767451466335,0.0,0.7303
+v17,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,index,0.003,0.0,0.0,0.0
+v17,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,break,0.0744,0.2949194547707558,0.0,0.2949
+v17,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,continue,0.1141,0.4589012804626187,0.0,0.4589
+v17,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for loop,0.0456,0.7897727272727273,0.0,0.7898
+v17,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for,0.0479,0.8224431818181818,0.0,0.8224
+v17,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,iteration,-0.01,0.0,0.0,0.0
+v17,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,range,0.0604,1.0,0.0,1.0
+v17,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,list,0.0061,0.2286931818181818,0.0,0.2287
+v17,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,nested loop,0.0311,0.5838068181818181,0.0,0.5838
+v17,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,index,0.0025,0.17755681818181818,0.0,0.1776
+v17,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,break,0.0076,0.25,0.0,0.25
+v17,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,continue,0.0138,0.3380681818181818,0.0,0.3381
+v18,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for loop,0.1287,0.6808830908178626,0.0,0.6809
+v18,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for,0.1665,0.870546914199699,0.0,0.8705
+v18,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,iteration,0.0801,0.4370296036126443,0.0,0.437
+v18,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,range,0.1923,1.0,0.0,1.0
+v18,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,list,0.1344,0.7094831911690918,0.0,0.7095
+v18,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,nested loop,0.0724,0.3983943803311591,0.0,0.3984
+v18,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,index,-0.007,0.0,0.0,0.0
+v18,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,break,0.0181,0.12594079277471149,0.0,0.1259
+v18,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,continue,0.0459,0.26542900150526844,0.0,0.2654
+v18,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for loop,0.1064,0.6427680798004987,0.0,0.6428
+v18,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for,0.1568,0.9569825436408976,0.0,0.957
+v18,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,iteration,0.0903,0.5423940149625935,0.0,0.5424
+v18,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,range,0.0704,0.4183291770573566,0.0,0.4183
+v18,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,list,0.1637,1.0,0.0,1.0
+v18,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,nested loop,0.096,0.577930174563591,0.0,0.5779
+v18,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,index,0.0033,0.0,0.0,0.0
+v18,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,break,0.0358,0.20261845386533664,0.0,0.2026
+v18,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,continue,0.028,0.15399002493765584,0.0,0.154
+v18,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,for loop,0.0917,0.5839017735334243,0.0,0.5839
+v18,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,for,0.1527,1.0,0.0,1.0
+v18,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,iteration,0.0722,0.4508867667121419,0.0,0.4509
+v18,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,range,0.0691,0.4297407912687585,0.0,0.4297
+v18,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,list,0.1509,0.9877216916780355,0.0,0.9877
+v18,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,nested loop,0.0745,0.4665757162346521,0.0,0.4666
+v18,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,index,0.0061,0.0,0.0,0.0
+v18,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,break,0.0256,0.1330150068212824,0.0,0.133
+v18,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,continue,0.0209,0.10095497953615278,0.0,0.101
+v19,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for loop,0.057,1.0,0.0,1.0
+v19,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for,0.0158,0.2682060390763766,0.0,0.2682
+v19,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,iteration,0.0394,0.6873889875666074,0.0,0.6874
+v19,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,range,0.0291,0.5044404973357016,0.0,0.5044
+v19,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,list,0.0562,0.9857904085257548,0.0,0.9858
+v19,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,nested loop,0.0292,0.5062166962699822,0.0,0.5062
+v19,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,index,0.0007,0.0,0.0,0.0
+v19,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,break,0.0272,0.4706927175843694,0.0,0.4707
+v19,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,continue,0.0098,0.16163410301953818,0.0,0.1616
+v19,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for loop,0.0305,0.48211508553654747,0.0,0.4821
+v19,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for,0.0016,0.03265940902021774,0.0,0.0327
+v19,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,iteration,0.0446,0.7013996889580094,0.0,0.7014
+v19,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,range,0.0354,0.5583203732503889,0.0,0.5583
+v19,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,list,0.038,0.5987558320373251,0.0,0.5988
+v19,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,nested loop,0.0165,0.26438569206842927,0.0,0.2644
+v19,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,index,0.0014,0.02954898911353033,0.0,0.0295
+v19,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,break,0.0638,1.0,0.0,1.0
+v19,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,continue,-0.0005,0.0,0.0,0.0
+v19,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,for loop,0.0594,0.7192008879023307,0.0,0.7192
+v19,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,for,0.0628,0.7569367369589345,0.0,0.7569
+v19,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,iteration,-0.0054,0.0,0.0,0.0
+v19,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,range,0.0847,1.0,0.0,1.0
+v19,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,list,0.0309,0.40288568257491675,0.0,0.4029
+v19,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,nested loop,0.0113,0.1853496115427303,0.0,0.1853
+v19,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,index,-0.0015,0.04328523862375139,0.0,0.0433
+v19,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,break,0.0025,0.08768035516093231,0.0,0.0877
+v19,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,continue,0.073,0.8701442841287458,0.0,0.8701
+v19,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,for loop,0.0426,0.7074829931972789,0.0,0.7075
+v19,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,for,0.054,0.8182701652089407,0.0,0.8183
+v19,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,iteration,-0.0302,0.0,0.0,0.0
+v19,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,range,0.0727,1.0,0.0,1.0
+v19,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,list,0.0201,0.488824101068999,0.0,0.4888
+v19,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,nested loop,-0.0016,0.27793974732750243,0.0,0.2779
+v19,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,index,-0.0006,0.28765792031098153,0.0,0.2877
+v19,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,break,0.0019,0.31195335276967934,0.0,0.312
+v19,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,continue,0.0202,0.4897959183673469,0.0,0.4898
+v20,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for loop,0.2243,0.6214345056770978,0.0,0.6214
+v20,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for,0.361,1.0,0.0,1.0
+v20,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,iteration,0.018,0.05012461921905289,0.0,0.0501
+v20,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,range,0.1299,0.3600110772639158,0.0,0.36
+v20,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,list,0.179,0.49598449183051785,0.0,0.496
+v20,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,nested loop,0.0267,0.07421766823594572,0.0,0.0742
+v20,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,index,-0.0001,0.0,0.0,0.0
+v20,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,break,0.0034,0.009692605926336195,0.0,0.0097
+v20,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,continue,0.0098,0.027416228191636666,0.0,0.0274
+v20,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for loop,0.0536,0.6458583433373349,0.0,0.6459
+v20,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for,0.0831,1.0,0.0,1.0
+v20,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,iteration,-0.0002,0.0,0.0,0.0
+v20,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,range,0.0404,0.48739495798319327,0.0,0.4874
+v20,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,list,0.0422,0.5090036014405762,0.0,0.509
+v20,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,nested loop,0.0102,0.1248499399759904,0.0,0.1248
+v20,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,index,-0.0001,0.0012004801920768309,0.0,0.0012
+v20,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,break,0.0095,0.11644657863145258,0.0,0.1164
+v20,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,continue,0.0063,0.07803121248499399,0.0,0.078
+v20,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,for loop,0.1559,0.5651685393258427,0.0,0.5652
+v20,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,for,0.272,1.0,0.0,1.0
+v20,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,iteration,0.0109,0.022097378277153558,0.0,0.0221
+v20,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,range,0.1662,0.6037453183520598,0.0,0.6037
+v20,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,list,0.1102,0.3940074906367041,0.0,0.394
+v20,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,nested loop,0.0146,0.035955056179775284,0.0,0.036
+v20,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,index,0.0301,0.0940074906367041,0.0,0.094
+v20,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,break,0.0066,0.0059925093632958795,0.0,0.006
+v20,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,continue,0.005,0.0,0.0,0.0
+v20,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,for loop,0.1253,0.7131099353321575,0.0,0.7131
+v20,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,for,0.1741,1.0,0.0,1.0
+v20,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,iteration,0.0217,0.10405643738977073,0.0,0.1041
+v20,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,range,0.1281,0.7295708406819518,0.0,0.7296
+v20,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,list,0.1284,0.7313345091122868,0.0,0.7313
+v20,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,nested loop,0.0045,0.002939447383891826,0.0,0.0029
+v20,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,index,0.0399,0.21105232216343328,0.0,0.2111
+v20,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,break,0.0105,0.03821281599059377,0.0,0.0382
+v20,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,continue,0.004,0.0,0.0,0.0
+v20,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,for loop,0.1431,0.7316810344827587,0.0,0.7317
+v20,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,for,0.1929,1.0,0.0,1.0
+v20,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,iteration,0.0073,0.0,0.0,0.0
+v20,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,range,0.1159,0.5851293103448276,0.0,0.5851
+v20,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,list,0.1434,0.7332974137931035,0.0,0.7333
+v20,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,nested loop,0.019,0.06303879310344827,0.0,0.063
+v20,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,index,0.0111,0.020474137931034486,0.0,0.0205
+v20,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,break,0.0417,0.1853448275862069,0.0,0.1853
+v20,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,continue,0.0107,0.018318965517241378,0.0,0.0183
+v20,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,for loop,0.1313,0.47855454238432954,0.0,0.4786
+v20,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,for,0.2857,1.0,0.0,1.0
+v20,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,iteration,-0.0104,0.0,0.0,0.0
+v20,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,range,0.1415,0.5130023640661937,0.0,0.513
+v20,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,list,0.1279,0.46707193515704154,0.0,0.4671
+v20,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,nested loop,0.01,0.06889564336372847,0.0,0.0689
+v20,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,index,0.0028,0.044579533941236066,0.0,0.0446
+v20,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,break,0.0419,0.17662951705504895,0.0,0.1766
+v20,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,continue,0.0224,0.11077338736913203,0.0,0.1108
+v20,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,for loop,0.253,0.5997144217039505,0.0,0.5997
+v20,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,for,0.4212,1.0,0.0,1.0
+v20,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,iteration,0.0102,0.021894336030461682,0.0,0.0219
+v20,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,range,0.1898,0.4493098524512137,0.0,0.4493
+v20,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,list,0.1579,0.3733936220847216,0.0,0.3734
+v20,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,nested loop,0.0588,0.13755354593050928,0.0,0.1376
+v20,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,index,0.001,0.0,0.0,0.0
+v20,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,break,0.0078,0.016182770109471677,0.0,0.0162
+v20,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,continue,0.0661,0.15492622560685387,0.0,0.1549
+v21,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for loop,0.1974,0.3237082066869301,0.0,0.3237
+v21,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for,0.027,0.06474164133738602,0.0,0.0647
+v21,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,iteration,0.0161,0.04817629179331307,0.0,0.0482
+v21,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,range,-0.0021,0.020516717325227966,0.0,0.0205
+v21,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,list,-0.0156,0.0,0.0,0.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,nested loop,0.6424,1.0,0.0,1.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,index,0.0027,0.027811550151975686,0.0,0.0278
+v21,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,break,0.0964,0.17021276595744683,0.0,0.1702
+v21,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,continue,0.0932,0.16534954407294836,0.0,0.1653
+v21,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for loop,0.0358,1.0,0.0,1.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,for,0.0105,0.5711864406779661,0.0,0.5712
+v21,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,iteration,0.0352,0.9898305084745763,0.0,0.9898
+v21,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,range,0.03,0.9016949152542373,0.0,0.9017
+v21,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,list,-0.0118,0.19322033898305083,0.0,0.1932
+v21,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,nested loop,-0.0174,0.09830508474576272,0.0,0.0983
+v21,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,index,0.0007,0.40508474576271186,0.0,0.4051
+v21,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,break,-0.0176,0.0949152542372881,0.0,0.0949
+v21,Python,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,continue,-0.0232,0.0,0.0,0.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,for loop,0.2776,0.783301290854161,0.0,0.7833
+v21,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,for,0.0162,0.06536665751167262,0.0,0.0654
+v21,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,iteration,0.017,0.06756385608349355,0.0,0.0676
+v21,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,range,0.0124,0.054929964295523215,0.0,0.0549
+v21,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,list,-0.0076,0.0,0.0,0.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,nested loop,0.3565,1.0,0.0,1.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,index,-0.0001,0.020598736610821202,0.0,0.0206
+v21,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,break,0.1472,0.4251579236473496,0.0,0.4252
+v21,Python,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,continue,0.1014,0.2993683054106015,0.0,0.2994
+v21,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,for loop,0.245,0.5152456787725771,0.0,0.5152
+v21,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,for,-0.0002,0.03903670615653525,0.0,0.039
+v21,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,iteration,-0.0015,0.036511944066809084,0.0,0.0365
+v21,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,range,-0.0203,0.0,0.0,0.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,list,0.0177,0.07380073800738007,0.0,0.0738
+v21,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,nested loop,0.4946,1.0,0.0,1.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,index,-0.0013,0.03690036900369004,0.0,0.0369
+v21,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,break,0.1531,0.3367644202757817,0.0,0.3368
+v21,Python,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,continue,0.1535,0.3375412701495436,0.0,0.3375
+v21,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,for loop,0.1785,0.5522170361726955,0.0,0.5522
+v21,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,for,0.1132,0.36172695449241543,0.0,0.3617
+v21,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,iteration,-0.0108,0.0,0.0,0.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,range,0.0313,0.12281213535589265,0.0,0.1228
+v21,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,list,0.014,0.07234539089848309,0.0,0.0723
+v21,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,nested loop,0.332,1.0,0.0,1.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,index,-0.0026,0.023920653442240376,0.0,0.0239
+v21,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,break,0.0605,0.20799299883313888,0.0,0.208
+v21,Python,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,continue,0.0823,0.27158693115519256,0.0,0.2716
+v21,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,for loop,0.0473,0.5191297824456114,0.0,0.5191
+v21,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,for,0.0416,0.4763690922730683,0.0,0.4764
+v21,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,iteration,-0.0178,0.030757689422355586,0.0,0.0308
+v21,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,range,0.1114,1.0,0.0,1.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,list,0.0089,0.23105776444111029,0.0,0.2311
+v21,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,nested loop,-0.0219,0.0,0.0,0.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,index,-0.0041,0.13353338334583645,0.0,0.1335
+v21,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,break,0.0251,0.35258814703675917,0.0,0.3526
+v21,Python,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,continue,0.0222,0.33083270817704424,0.0,0.3308
+v21,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,for loop,0.2366,0.8715396578538103,0.0,0.8715
+v21,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,for,0.0605,0.32379471228615864,0.0,0.3238
+v21,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,iteration,-0.0436,0.0,0.0,0.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,range,0.0404,0.2612752721617418,0.0,0.2613
+v21,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,list,0.033,0.23825816485225507,0.0,0.2383
+v21,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,nested loop,0.2779,1.0,0.0,1.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,index,0.0118,0.1723172628304821,0.0,0.1723
+v21,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,break,0.0956,0.43297045101088644,0.0,0.433
+v21,Python,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,continue,0.1145,0.4917573872472784,0.0,0.4918
+v21,Python,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,for loop,0.0559,1.0,0.0,1.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,for,0.0409,0.7382198952879581,0.0,0.7382
+v21,Python,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,iteration,0.0042,0.09773123909249565,0.0,0.0977
+v21,Python,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,range,0.0203,0.3787085514834206,0.0,0.3787
+v21,Python,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,list,0.0161,0.30541012216404884,0.0,0.3054
+v21,Python,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,nested loop,0.0531,0.9511343804537522,0.0,0.9511
+v21,Python,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,index,-0.0014,0.0,0.0,0.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,break,0.0164,0.31064572425828973,0.0,0.3106
+v21,Python,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,continue,0.0153,0.2914485165794066,0.0,0.2914
+v21,Python,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,for loop,0.0276,1.0,0.0,1.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,for,-0.0127,0.0,0.0,0.0
+v21,Python,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,iteration,0.012,0.6129032258064516,0.0,0.6129
+v21,Python,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,range,0.019,0.7866004962779155,0.0,0.7866
+v21,Python,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,list,0.0179,0.7593052109181141,0.0,0.7593
+v21,Python,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,nested loop,0.0043,0.4218362282878412,0.0,0.4218
+v21,Python,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,index,0.002,0.3647642679900744,0.0,0.3648
+v21,Python,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,break,0.0202,0.8163771712158808,0.0,0.8164
+v21,Python,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,continue,0.0029,0.3870967741935483,0.0,0.3871
+v22,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for loop,-0.0052,0.05375408052230686,0.0,0.0538
+v22,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,for,-0.0385,0.017519042437431995,0.0,0.0175
+v22,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,iteration,0.3799,0.47279651795429817,0.0,0.4728
+v22,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,range,0.8644,1.0,0.0,1.0
+v22,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,list,-0.0546,0.0,0.0,0.0
+v22,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,nested loop,0.0063,0.06626768226332971,0.0,0.0663
+v22,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,index,-0.0003,0.05908596300326442,0.0,0.0591
+v22,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,break,0.0224,0.0837867247007617,0.0,0.0838
+v22,Python,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,continue,-0.0376,0.01849836779107726,0.0,0.0185
+v23,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.0277,1.0,0.0,1.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0258,0.9545454545454546,0.0,0.9545
+v23,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,method,0.0211,0.8421052631578948,0.0,0.8421
+v23,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,interface,-0.0141,0.0,0.0,0.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,implements,0.0203,0.8229665071770336,0.0,0.823
+v23,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,extends,0.0071,0.5071770334928231,0.0,0.5072
+v23,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.0085,0.5406698564593302,0.0,0.5407
+v23,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract class,-0.0024,0.2799043062200957,0.0,0.2799
+v23,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract method,0.0061,0.48325358851674644,0.0,0.4833
+v23,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.0829,0.4880546075085324,0.0,0.4881
+v23,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.1579,1.0,0.0,1.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,method,0.0628,0.35085324232081905,0.0,0.3509
+v23,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,interface,0.0645,0.362457337883959,0.0,0.3625
+v23,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,implements,0.0539,0.2901023890784983,0.0,0.2901
+v23,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,extends,0.056,0.3044368600682594,0.0,0.3044
+v23,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.0553,0.2996587030716723,0.0,0.2997
+v23,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract class,0.0512,0.27167235494880543,0.0,0.2717
+v23,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract method,0.0114,0.0,0.0,0.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.148,0.520917260613573,0.0,0.5209
+v23,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.3026,1.0,0.0,1.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,method,-0.003,0.05299039355438488,0.0,0.053
+v23,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,interface,0.0059,0.08057018903005887,0.0,0.0806
+v23,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,implements,0.1111,0.4065695692593741,0.0,0.4066
+v23,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,extends,0.0826,0.31825224666873264,0.0,0.3183
+v23,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,0.0683,0.2739386427022002,0.0,0.2739
+v23,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,abstract class,0.1071,0.39417415556244195,0.0,0.3942
+v23,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,abstract method,-0.0201,0.0,0.0,0.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,class,0.1561,0.4103977944072469,0.0,0.4104
+v23,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,object,0.3058,1.0,0.0,1.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,method,0.1353,0.3284757778653013,0.0,0.3285
+v23,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,interface,0.0519,0.0,0.0,0.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,implements,0.057,0.020086648286727057,0.0,0.0201
+v23,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,extends,0.0662,0.0563213863725876,0.0,0.0563
+v23,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inheritance,0.0823,0.11973217802284362,0.0,0.1197
+v23,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,abstract class,0.1054,0.21071287908625438,0.0,0.2107
+v23,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,abstract method,0.0698,0.07050019692792438,0.0,0.0705
+v23,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,class,0.0388,0.5671852899575672,0.0,0.5672
+v23,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,object,0.0587,0.8486562942008488,0.0,0.8487
+v23,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,method,0.0694,1.0,0.0,1.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,interface,0.0479,0.695898161244696,0.0,0.6959
+v23,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,implements,0.0175,0.26591230551626593,0.0,0.2659
+v23,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,extends,0.0369,0.5403111739745404,0.0,0.5403
+v23,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,inheritance,0.0295,0.43564356435643564,0.0,0.4356
+v23,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,abstract class,-0.0013,0.0,0.0,0.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,abstract method,-0.0005,0.011315417256011314,0.0,0.0113
+v23,Java,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,class,0.1212,1.0,0.0,1.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,object,0.0477,0.48056537102473496,0.0,0.4806
+v23,Java,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,method,0.0263,0.3293286219081272,0.0,0.3293
+v23,Java,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,interface,-0.0203,0.0,0.0,0.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,implements,0.0793,0.7038869257950529,0.0,0.7039
+v23,Java,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,extends,0.0386,0.4162544169611307,0.0,0.4163
+v23,Java,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,inheritance,0.0582,0.5547703180212014,0.0,0.5548
+v23,Java,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,abstract class,0.0963,0.8240282685512367,0.0,0.824
+v23,Java,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,abstract method,0.0271,0.33498233215547696,0.0,0.335
+v23,Java,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,class,0.1549,1.0,0.0,1.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,object,0.1486,0.9506656225528582,0.0,0.9507
+v23,Java,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,method,0.0989,0.5614722004698511,0.0,0.5615
+v23,Java,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,interface,0.0774,0.3931088488645262,0.0,0.3931
+v23,Java,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,implements,0.1005,0.5740015661707126,0.0,0.574
+v23,Java,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,extends,0.1073,0.6272513703993735,0.0,0.6273
+v23,Java,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,inheritance,0.1119,0.66327329678935,0.0,0.6633
+v23,Java,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,abstract class,0.1175,0.7071260767423648,0.0,0.7071
+v23,Java,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,abstract method,0.0272,0.0,0.0,0.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,class,0.0558,0.7567164179104477,0.0,0.7567
+v23,Java,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,object,0.0683,0.9432835820895523,0.0,0.9433
+v23,Java,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,method,0.0721,1.0,0.0,1.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,interface,0.0498,0.6671641791044776,0.0,0.6672
+v23,Java,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,implements,0.0533,0.7194029850746269,0.0,0.7194
+v23,Java,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,extends,0.0516,0.6940298507462687,0.0,0.694
+v23,Java,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,inheritance,0.0485,0.6477611940298508,0.0,0.6478
+v23,Java,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,abstract class,0.0394,0.5119402985074626,0.0,0.5119
+v23,Java,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,abstract method,0.0051,0.0,0.0,0.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,class,0.0416,0.34755463059313213,0.0,0.3476
+v23,Java,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,object,0.0505,0.4401664932362123,0.0,0.4402
+v23,Java,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,method,0.1043,1.0,0.0,1.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,interface,0.0667,0.6087408949011446,0.0,0.6087
+v23,Java,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,implements,0.0536,0.4724245577523413,0.0,0.4724
+v23,Java,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,extends,0.0392,0.3225806451612903,0.0,0.3226
+v23,Java,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,inheritance,0.043,0.3621227887617065,0.0,0.3621
+v23,Java,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,abstract class,0.0223,0.14672216441207075,0.0,0.1467
+v23,Java,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,abstract method,0.0082,0.0,0.0,0.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,class,0.1793,0.8905742145178763,0.0,0.8906
+v23,Java,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,object,0.1995,1.0,0.0,1.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,method,0.1734,0.8586132177681473,0.0,0.8586
+v23,Java,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,interface,0.1557,0.7627302275189599,0.0,0.7627
+v23,Java,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,implements,0.1747,0.865655471289274,0.0,0.8657
+v23,Java,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,extends,0.1894,0.9452871072589383,0.0,0.9453
+v23,Java,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,inheritance,0.1747,0.865655471289274,0.0,0.8657
+v23,Java,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,abstract class,0.1416,0.6863488624052004,0.0,0.6863
+v23,Java,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,abstract method,0.0149,0.0,0.0,0.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,class,0.0369,0.3295292439372326,0.0,0.3295
+v23,Java,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,object,0.0138,0.0,0.0,0.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,method,0.0839,1.0,0.0,1.0
+v23,Java,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,interface,0.0277,0.19828815977175462,0.0,0.1983
+v23,Java,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,implements,0.0323,0.2639087018544936,0.0,0.2639
+v23,Java,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,extends,0.0194,0.079885877318117,0.0,0.0799
+v23,Java,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,inheritance,0.0261,0.17546362339514981,0.0,0.1755
+v23,Java,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,abstract class,0.0357,0.31241084165477895,0.0,0.3124
+v23,Java,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,abstract method,0.0238,0.14265335235378035,0.0,0.1427
+v24,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.0473,0.1779661016949153,0.0,0.178
+v24,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0402,0.09200968523002424,0.0,0.092
+v24,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,method,0.1152,1.0,0.0,1.0
+v24,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,interface,0.0651,0.39346246973365623,0.0,0.3935
+v24,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,implements,0.0419,0.11259079903147702,0.0,0.1126
+v24,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,extends,0.0326,0.0,0.0,0.0
+v24,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.0396,0.08474576271186447,0.0,0.0847
+v24,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract class,0.0363,0.04479418886198549,0.0,0.0448
+v24,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract method,0.0458,0.15980629539951577,0.0,0.1598
+v24,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.0443,0.3035993740219092,0.0,0.3036
+v24,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.0409,0.2503912363067292,0.0,0.2504
+v24,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,method,0.0888,1.0,0.0,1.0
+v24,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,interface,0.0512,0.41158059467918623,0.0,0.4116
+v24,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,implements,0.042,0.26760563380281693,0.0,0.2676
+v24,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,extends,0.0364,0.17996870109546168,0.0,0.18
+v24,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.0377,0.20031298904538336,0.0,0.2003
+v24,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract class,0.0392,0.22378716744913923,0.0,0.2238
+v24,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract method,0.0249,0.0,0.0,0.0
+v24,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.0538,0.36891891891891887,0.0,0.3689
+v24,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.0527,0.354054054054054,0.0,0.3541
+v24,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,method,0.1005,1.0,0.0,1.0
+v24,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,interface,0.0665,0.5405405405405406,0.0,0.5405
+v24,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,implements,0.0551,0.3864864864864865,0.0,0.3865
+v24,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,extends,0.0521,0.3459459459459459,0.0,0.3459
+v24,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,0.0491,0.30540540540540534,0.0,0.3054
+v24,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,abstract class,0.0427,0.21891891891891893,0.0,0.2189
+v24,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,abstract method,0.0265,0.0,0.0,0.0
+v24,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,class,0.0414,0.24539007092198578,0.0,0.2454
+v24,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,object,0.0443,0.28652482269503543,0.0,0.2865
+v24,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,method,0.0946,1.0,0.0,1.0
+v24,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,interface,0.0638,0.5631205673758864,0.0,0.5631
+v24,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,implements,0.0482,0.3418439716312056,0.0,0.3418
+v24,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,extends,0.051,0.3815602836879432,0.0,0.3816
+v24,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inheritance,0.0417,0.24964539007092199,0.0,0.2496
+v24,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,abstract class,0.0307,0.09361702127659575,0.0,0.0936
+v24,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,abstract method,0.0241,0.0,0.0,0.0
+v25,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.0871,0.20777479892761394,0.0,0.2078
+v25,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0801,0.16085790884718504,0.0,0.1609
+v25,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,method,0.1085,0.3512064343163539,0.0,0.3512
+v25,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,interface,0.2053,1.0,0.0,1.0
+v25,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,implements,0.1764,0.8063002680965148,0.0,0.8063
+v25,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,extends,0.075,0.12667560321715818,0.0,0.1267
+v25,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.0739,0.11930294906166218,0.0,0.1193
+v25,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract class,0.0871,0.20777479892761394,0.0,0.2078
+v25,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract method,0.0561,0.0,0.0,0.0
+v25,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.0576,0.2937181663837012,0.0,0.2937
+v25,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.0516,0.2597623089983022,0.0,0.2598
+v25,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,method,0.0635,0.3271080928126769,0.0,0.3271
+v25,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,interface,0.175,0.9581211092246745,0.0,0.9581
+v25,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,implements,0.1824,1.0,0.0,1.0
+v25,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,extends,0.0444,0.21901528013582341,0.0,0.219
+v25,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.046,0.2280701754385965,0.0,0.2281
+v25,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract class,0.0396,0.19185059422750425,0.0,0.1919
+v25,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract method,0.0057,0.0,0.0,0.0
+v26,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.0746,0.33268229166666663,0.0,0.3327
+v26,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0525,0.18880208333333331,0.0,0.1888
+v26,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,method,0.0354,0.07747395833333333,0.0,0.0775
+v26,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,interface,0.1282,0.681640625,0.0,0.6816
+v26,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,implements,0.1771,1.0,0.0,1.0
+v26,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,extends,0.0493,0.16796874999999997,0.0,0.168
+v26,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.0516,0.18294270833333331,0.0,0.1829
+v26,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract class,0.0763,0.34375,0.0,0.3438
+v26,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract method,0.0235,0.0,0.0,0.0
+v26,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.0713,0.3774145616641902,0.0,0.3774
+v26,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.0433,0.16939078751857353,0.0,0.1694
+v26,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,method,0.0285,0.05943536404160476,0.0,0.0594
+v26,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,interface,0.1037,0.6181277860326895,0.0,0.6181
+v26,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,implements,0.1551,1.0,0.0,1.0
+v26,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,extends,0.0429,0.1664190193164933,0.0,0.1664
+v26,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.0464,0.19242199108469538,0.0,0.1924
+v26,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract class,0.0811,0.45022288261515603,0.0,0.4502
+v26,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract method,0.0205,0.0,0.0,0.0
+v27,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.1915,1.0,0.0,1.0
+v27,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.1723,0.8967186659494352,0.0,0.8967
+v27,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,method,0.1175,0.6019365250134481,0.0,0.6019
+v27,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,interface,0.0999,0.5072619688004304,0.0,0.5073
+v27,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,implements,0.1446,0.7477138246369016,0.0,0.7477
+v27,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,extends,0.1804,0.9402904787520172,0.0,0.9403
+v27,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.147,0.7606239913932221,0.0,0.7606
+v27,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract class,0.159,0.8251748251748252,0.0,0.8252
+v27,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract method,0.0056,0.0,0.0,0.0
+v27,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.1737,0.9458071876782658,0.0,0.9458
+v27,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.1449,0.7815173987450086,0.0,0.7815
+v27,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,method,0.1184,0.6303479749001711,0.0,0.6303
+v27,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,interface,0.1011,0.5316600114090131,0.0,0.5317
+v27,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,implements,0.1407,0.7575584711922418,0.0,0.7576
+v27,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,extends,0.1832,1.0,0.0,1.0
+v27,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.1453,0.7837992013690817,0.0,0.7838
+v27,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract class,0.1372,0.7375926982316029,0.0,0.7376
+v27,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract method,0.0079,0.0,0.0,0.0
+v27,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.1561,0.7589204025617565,0.0,0.7589
+v27,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.1257,0.6198536139066788,0.0,0.6199
+v27,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,method,0.0611,0.3243366880146386,0.0,0.3243
+v27,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,interface,0.0486,0.2671546203110704,0.0,0.2672
+v27,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,implements,0.1191,0.5896614821591948,0.0,0.5897
+v27,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,extends,0.2088,1.0,0.0,1.0
+v27,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,0.1551,0.7543458371454711,0.0,0.7543
+v27,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,abstract class,0.128,0.6303751143641354,0.0,0.6304
+v27,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,abstract method,-0.0098,0.0,0.0,0.0
+v28,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.224,1.0,0.0,1.0
+v28,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.1253,0.5045180722891566,0.0,0.5045
+v28,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,method,0.0966,0.3604417670682731,0.0,0.3604
+v28,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,interface,0.0807,0.2806224899598393,0.0,0.2806
+v28,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,implements,0.1818,0.788152610441767,0.0,0.7882
+v28,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,extends,0.1829,0.7936746987951807,0.0,0.7937
+v28,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.1941,0.8498995983935742,0.0,0.8499
+v28,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract class,0.1668,0.7128514056224899,0.0,0.7129
+v28,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract method,0.0248,0.0,0.0,0.0
+v28,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.0989,0.8119953863898501,0.0,0.812
+v28,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.0584,0.34486735870818913,0.0,0.3449
+v28,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,method,0.0556,0.3125720876585928,0.0,0.3126
+v28,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,interface,0.0472,0.2156862745098039,0.0,0.2157
+v28,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,implements,0.0489,0.2352941176470588,0.0,0.2353
+v28,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,extends,0.0862,0.6655132641291811,0.0,0.6655
+v28,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.045,0.19031141868512108,0.0,0.1903
+v28,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract class,0.1152,1.0,0.0,1.0
+v28,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract method,0.0285,0.0,0.0,0.0
+v28,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.1038,0.8703703703703703,0.0,0.8704
+v28,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.0587,0.49074074074074076,0.0,0.4907
+v28,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,method,0.0384,0.31986531986531985,0.0,0.3199
+v28,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,interface,0.0315,0.2617845117845118,0.0,0.2618
+v28,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,implements,0.0628,0.5252525252525252,0.0,0.5253
+v28,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,extends,0.1192,1.0,0.0,1.0
+v28,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,0.0775,0.648989898989899,0.0,0.649
+v28,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,abstract class,0.0811,0.6792929292929294,0.0,0.6793
+v28,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,abstract method,0.0004,0.0,0.0,0.0
+v28,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,class,0.1061,1.0,0.0,1.0
+v28,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,object,0.0867,0.8028455284552846,0.0,0.8028
+v28,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,method,0.0414,0.34247967479674796,0.0,0.3425
+v28,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,interface,0.027,0.1961382113821138,0.0,0.1961
+v28,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,implements,0.0746,0.6798780487804879,0.0,0.6799
+v28,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,extends,0.0829,0.7642276422764228,0.0,0.7642
+v28,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inheritance,0.0636,0.568089430894309,0.0,0.5681
+v28,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,abstract class,0.092,0.8567073170731707,0.0,0.8567
+v28,Java,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,abstract method,0.0077,0.0,0.0,0.0
+v28,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,class,0.0779,0.8751322751322751,0.0,0.8751
+v28,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,object,0.0897,1.0,0.0,1.0
+v28,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,method,0.0408,0.48253968253968255,0.0,0.4825
+v28,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,interface,0.0283,0.3502645502645502,0.0,0.3503
+v28,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,implements,0.0482,0.5608465608465608,0.0,0.5608
+v28,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,extends,0.054,0.6222222222222222,0.0,0.6222
+v28,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,inheritance,0.0475,0.5534391534391534,0.0,0.5534
+v28,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,abstract class,0.0767,0.8624338624338624,0.0,0.8624
+v28,Java,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,abstract method,-0.0048,0.0,0.0,0.0
+v29,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.1308,0.33983422720624085,0.0,0.3398
+v29,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0924,0.15260848366650412,0.0,0.1526
+v29,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,method,0.0709,0.047781569965870324,0.0,0.0478
+v29,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,interface,0.0611,0.0,0.0,0.0
+v29,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,implements,0.1019,0.19892735251097027,0.0,0.1989
+v29,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,extends,0.0975,0.17747440273037543,0.0,0.1775
+v29,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.0851,0.11701608971233542,0.0,0.117
+v29,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract class,0.2662,1.0,0.0,1.0
+v29,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract method,0.0997,0.1882008776206728,0.0,0.1882
+v29,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.0955,0.14821124361158433,0.0,0.1482
+v29,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.0823,0.07325383304940372,0.0,0.0733
+v29,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,method,0.0728,0.01930721181147076,0.0,0.0193
+v29,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,interface,0.0694,0.0,0.0,0.0
+v29,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,implements,0.0833,0.07893242475865984,0.0,0.0789
+v29,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,extends,0.1066,0.21124361158432708,0.0,0.2112
+v29,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.0822,0.0726859738784781,0.0,0.0727
+v29,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract class,0.2455,1.0,0.0,1.0
+v29,Java,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,abstract method,0.1056,0.20556501987507098,0.0,0.2056
+v29,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.0764,0.07159763313609467,0.0,0.0716
+v29,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.0656,0.007692307692307748,0.0,0.0077
+v29,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,method,0.0691,0.028402366863905317,0.0,0.0284
+v29,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,interface,0.1394,0.44437869822485204,0.0,0.4444
+v29,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,implements,0.133,0.406508875739645,0.0,0.4065
+v29,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,extends,0.0949,0.18106508875739646,0.0,0.1811
+v29,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,0.0643,0.0,0.0,0.0
+v29,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,abstract class,0.2333,1.0,0.0,1.0
+v29,Java,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,abstract method,0.092,0.163905325443787,0.0,0.1639
+v30,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.1262,0.23061564059900166,0.0,0.2306
+v30,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0152,0.045923460898502494,0.0,0.0459
+v30,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,method,-0.0124,0.0,0.0,0.0
+v30,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,interface,0.0153,0.04608985024958403,0.0,0.0461
+v30,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,implements,0.0495,0.10299500831946756,0.0,0.103
+v30,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,extends,0.1502,0.27054908485856904,0.0,0.2705
+v30,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.067,0.13211314475873545,0.0,0.1321
+v30,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract class,0.5886,1.0,0.0,1.0
+v30,Java,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,abstract method,0.3169,0.5479201331114809,0.0,0.5479
+v31,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,variable,0.0282,1.0,0.0,1.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,data type,0.0149,0.5993975903614458,0.0,0.5994
+v31,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,pointer,-0.0005,0.13554216867469882,0.0,0.1355
+v31,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,reference,0.0132,0.5481927710843374,0.0,0.5482
+v31,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.01,0.4518072289156626,0.0,0.4518
+v31,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,-0.0011,0.11746987951807228,0.0,0.1175
+v31,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,constructor,0.0067,0.35240963855421686,0.0,0.3524
+v31,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,-0.0024,0.0783132530120482,0.0,0.0783
+v31,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,polymorphism,-0.005,0.0,0.0,0.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,template,0.0068,0.35542168674698793,0.0,0.3554
+v31,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,variable,0.0226,1.0,0.0,1.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,data type,0.0068,0.42124542124542125,0.0,0.4212
+v31,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,pointer,0.0002,0.1794871794871795,0.0,0.1795
+v31,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,reference,0.0161,0.761904761904762,0.0,0.7619
+v31,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.0059,0.3882783882783883,0.0,0.3883
+v31,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.0004,0.18681318681318684,0.0,0.1868
+v31,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,constructor,0.0065,0.4102564102564103,0.0,0.4103
+v31,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,-0.0028,0.06959706959706961,0.0,0.0696
+v31,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,polymorphism,-0.0047,0.0,0.0,0.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,template,0.0054,0.36996336996337004,0.0,0.37
+v31,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,variable,0.0227,1.0,0.0,1.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,data type,0.0055,0.31746031746031744,0.0,0.3175
+v31,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,pointer,0.0105,0.5158730158730159,0.0,0.5159
+v31,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,reference,0.0152,0.7023809523809524,0.0,0.7024
+v31,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.0105,0.5158730158730159,0.0,0.5159
+v31,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.001,0.1388888888888889,0.0,0.1389
+v31,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,constructor,0.007,0.376984126984127,0.0,0.377
+v31,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,-0.0006,0.0753968253968254,0.0,0.0754
+v31,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,polymorphism,-0.0025,0.0,0.0,0.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,template,0.0102,0.5039682539682541,0.0,0.504
+v31,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,variable,0.0279,1.0,0.0,1.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,data type,0.0102,0.37010676156583633,0.0,0.3701
+v31,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,pointer,0.0188,0.6761565836298932,0.0,0.6762
+v31,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,reference,0.0159,0.5729537366548043,0.0,0.573
+v31,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,class,0.0169,0.6085409252669038,0.0,0.6085
+v31,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,object,0.0026,0.099644128113879,0.0,0.0996
+v31,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,constructor,0.0076,0.2775800711743772,0.0,0.2776
+v31,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inheritance,0.0004,0.021352313167259787,0.0,0.0214
+v31,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,polymorphism,-0.0002,0.0,0.0,0.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,template,0.014,0.505338078291815,0.0,0.5053
+v31,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,variable,0.0115,1.0,0.0,1.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,data type,0.0093,0.8070175438596491,0.0,0.807
+v31,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,pointer,0.0045,0.3859649122807017,0.0,0.386
+v31,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,reference,0.0091,0.7894736842105263,0.0,0.7895
+v31,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,class,0.0068,0.587719298245614,0.0,0.5877
+v31,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,object,0.0022,0.1842105263157895,0.0,0.1842
+v31,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,constructor,0.0034,0.2894736842105263,0.0,0.2895
+v31,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,inheritance,0.0001,0.0,0.0,0.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,polymorphism,0.0005,0.03508771929824561,0.0,0.0351
+v31,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,template,0.0059,0.5087719298245613,0.0,0.5088
+v31,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,variable,0.0153,1.0,0.0,1.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,data type,0.0098,0.6875000000000001,0.0,0.6875
+v31,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,pointer,-0.001,0.07386363636363637,0.0,0.0739
+v31,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,reference,0.001,0.18750000000000003,0.0,0.1875
+v31,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,class,0.0002,0.14204545454545456,0.0,0.142
+v31,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,object,0.0023,0.2613636363636364,0.0,0.2614
+v31,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,constructor,-0.0008,0.08522727272727273,0.0,0.0852
+v31,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,inheritance,0.001,0.18750000000000003,0.0,0.1875
+v31,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,polymorphism,0.0071,0.5340909090909092,0.0,0.5341
+v31,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,template,-0.0023,0.0,0.0,0.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,variable,0.0136,1.0,0.0,1.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,data type,0.0075,0.6139240506329114,0.0,0.6139
+v31,C++,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,pointer,-0.0013,0.056962025316455715,0.0,0.057
+v31,C++,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,reference,0.0008,0.18987341772151903,0.0,0.1899
+v31,C++,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,class,0.0009,0.19620253164556967,0.0,0.1962
+v31,C++,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,object,0.0041,0.39873417721518994,0.0,0.3987
+v31,C++,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,constructor,-0.0013,0.056962025316455715,0.0,0.057
+v31,C++,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,inheritance,0.0012,0.21518987341772156,0.0,0.2152
+v31,C++,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,polymorphism,0.0079,0.6392405063291141,0.0,0.6392
+v31,C++,NEW_C_transcript_plus_raw_fullframe,6,1080.0,1260.0,template,-0.0022,0.0,0.0,0.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,variable,0.0186,1.0,0.0,1.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,data type,0.0163,0.8814432989690721,0.0,0.8814
+v31,C++,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,pointer,-0.0008,0.0,0.0,0.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,reference,0.0053,0.3144329896907217,0.0,0.3144
+v31,C++,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,class,0.0038,0.2371134020618557,0.0,0.2371
+v31,C++,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,object,0.0023,0.1597938144329897,0.0,0.1598
+v31,C++,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,constructor,0.0015,0.11855670103092784,0.0,0.1186
+v31,C++,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,inheritance,0.0009,0.08762886597938147,0.0,0.0876
+v31,C++,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,polymorphism,-0.0007,0.005154639175257735,0.0,0.0052
+v31,C++,NEW_C_transcript_plus_raw_fullframe,7,1260.0,1440.0,template,0.0009,0.08762886597938147,0.0,0.0876
+v31,C++,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,variable,0.0195,0.7372262773722628,0.0,0.7372
+v31,C++,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,data type,0.0267,1.0,0.0,1.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,pointer,0.0073,0.291970802919708,0.0,0.292
+v31,C++,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,reference,0.0102,0.3978102189781022,0.0,0.3978
+v31,C++,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,class,0.0094,0.3686131386861314,0.0,0.3686
+v31,C++,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,object,0.0064,0.2591240875912409,0.0,0.2591
+v31,C++,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,constructor,0.0031,0.1386861313868613,0.0,0.1387
+v31,C++,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,inheritance,0.0034,0.14963503649635035,0.0,0.1496
+v31,C++,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,polymorphism,-0.0007,0.0,0.0,0.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,8,1440.0,1620.0,template,0.0035,0.1532846715328467,0.0,0.1533
+v31,C++,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,variable,0.0,0.18709677419354837,0.0,0.1871
+v31,C++,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,data type,0.0126,1.0,0.0,1.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,pointer,0.0076,0.6774193548387096,0.0,0.6774
+v31,C++,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,reference,-0.0012,0.1096774193548387,0.0,0.1097
+v31,C++,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,class,0.0017,0.2967741935483871,0.0,0.2968
+v31,C++,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,object,0.0045,0.4774193548387096,0.0,0.4774
+v31,C++,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,constructor,0.001,0.25161290322580643,0.0,0.2516
+v31,C++,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,inheritance,0.0035,0.41290322580645156,0.0,0.4129
+v31,C++,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,polymorphism,0.0037,0.4258064516129032,0.0,0.4258
+v31,C++,NEW_C_transcript_plus_raw_fullframe,9,1620.0,1800.0,template,-0.0029,0.0,0.0,0.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,variable,0.0047,0.39890710382513667,0.0,0.3989
+v31,C++,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,data type,0.0157,1.0,0.0,1.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,pointer,0.0,0.14207650273224046,0.0,0.1421
+v31,C++,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,reference,-0.0002,0.13114754098360656,0.0,0.1311
+v31,C++,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,class,0.0033,0.3224043715846995,0.0,0.3224
+v31,C++,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,object,0.0003,0.15846994535519127,0.0,0.1585
+v31,C++,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,constructor,0.0019,0.24590163934426232,0.0,0.2459
+v31,C++,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,inheritance,0.0017,0.23497267759562845,0.0,0.235
+v31,C++,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,polymorphism,0.0053,0.43169398907103834,0.0,0.4317
+v31,C++,NEW_C_transcript_plus_raw_fullframe,10,1800.0,1980.0,template,-0.0026,0.0,0.0,0.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,11,1980.0,2160.0,variable,0.0306,1.0,0.0,1.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,11,1980.0,2160.0,data type,-0.0116,0.0,0.0,0.0
+v31,C++,NEW_C_transcript_plus_raw_fullframe,11,1980.0,2160.0,pointer,-0.0024,0.21800947867298578,0.0,0.218
+v31,C++,NEW_C_transcript_plus_raw_fullframe,11,1980.0,2160.0,reference,0.0109,0.533175355450237,0.0,0.5332
+v31,C++,NEW_C_transcript_plus_raw_fullframe,11,1980.0,2160.0,class,0.0176,0.6919431279620852,0.0,0.6919
+v31,C++,NEW_C_transcript_plus_raw_fullframe,11,1980.0,2160.0,object,-0.0081,0.0829383886255924,0.0,0.0829
+v31,C++,NEW_C_transcript_plus_raw_fullframe,11,1980.0,2160.0,constructor,0.0052,0.39810426540284355,0.0,0.3981
+v31,C++,NEW_C_transcript_plus_raw_fullframe,11,1980.0,2160.0,inheritance,-0.0057,0.13981042654028433,0.0,0.1398
+v31,C++,NEW_C_transcript_plus_raw_fullframe,11,1980.0,2160.0,polymorphism,-0.0057,0.13981042654028433,0.0,0.1398
+v31,C++,NEW_C_transcript_plus_raw_fullframe,11,1980.0,2160.0,template,0.0234,0.8293838862559242,0.0,0.8294
+v32,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,variable,0.2676,1.0,0.0,1.0
+v32,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,data type,0.1042,0.38663663663663655,0.0,0.3866
+v32,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,pointer,0.1494,0.5563063063063063,0.0,0.5563
+v32,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,reference,0.0582,0.21396396396396394,0.0,0.214
+v32,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.0347,0.12575075075075073,0.0,0.1258
+v32,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0091,0.029654654654654656,0.0,0.0297
+v32,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,constructor,0.0032,0.007507507507507507,0.0,0.0075
+v32,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.0083,0.02665165165165165,0.0,0.0267
+v32,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,polymorphism,0.0055,0.016141141141141138,0.0,0.0161
+v32,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,template,0.0012,0.0,0.0,0.0
+v32,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,variable,0.0982,0.6200366524129506,0.0,0.62
+v32,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,data type,0.1604,1.0,0.0,1.0
+v32,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,pointer,0.0338,0.22663408674404398,0.0,0.2266
+v32,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,reference,0.0139,0.10507025045815517,0.0,0.1051
+v32,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.042,0.2767257177764203,0.0,0.2767
+v32,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.0033,0.04031765424557117,0.0,0.0403
+v32,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,constructor,0.0036,0.04215027489309713,0.0,0.0422
+v32,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.0015,0.0293219303604154,0.0,0.0293
+v32,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,polymorphism,0.006,0.056811240073304826,0.0,0.0568
+v32,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,template,-0.0033,0.0,0.0,0.0
+v32,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,variable,0.0753,0.4348060344827587,0.0,0.4348
+v32,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,data type,0.1802,1.0,0.0,1.0
+v32,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,pointer,-0.0054,0.0,0.0,0.0
+v32,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,reference,-0.0008,0.02478448275862069,0.0,0.0248
+v32,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.0446,0.26939655172413796,0.0,0.2694
+v32,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.0063,0.06303879310344829,0.0,0.063
+v32,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,constructor,0.0005,0.03178879310344828,0.0,0.0318
+v32,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,0.0156,0.11314655172413793,0.0,0.1131
+v32,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,polymorphism,0.0046,0.05387931034482759,0.0,0.0539
+v32,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,template,0.0133,0.1007543103448276,0.0,0.1008
+v32,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,variable,0.0716,0.3016778523489933,0.0,0.3017
+v32,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,data type,0.2797,1.0,0.0,1.0
+v32,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,pointer,0.0179,0.12147651006711409,0.0,0.1215
+v32,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,reference,0.019,0.12516778523489933,0.0,0.1252
+v32,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,class,0.0777,0.32214765100671144,0.0,0.3221
+v32,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,object,0.0112,0.09899328859060402,0.0,0.099
+v32,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,constructor,0.0103,0.09597315436241612,0.0,0.096
+v32,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inheritance,-0.0183,0.0,0.0,0.0
+v32,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,polymorphism,-0.0004,0.060067114093959734,0.0,0.0601
+v32,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,template,-0.0016,0.05604026845637584,0.0,0.056
+v33,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,variable,0.0227,0.34904270986745217,0.0,0.349
+v33,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,data type,0.0152,0.2385861561119293,0.0,0.2386
+v33,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,pointer,0.0669,1.0,0.0,1.0
+v33,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,reference,0.0148,0.23269513991163476,0.0,0.2327
+v33,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.0141,0.22238586156111928,0.0,0.2224
+v33,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0081,0.13402061855670103,0.0,0.134
+v33,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,constructor,0.0028,0.05596465390279823,0.0,0.056
+v33,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.0027,0.054491899852724596,0.0,0.0545
+v33,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,polymorphism,-0.001,0.0,0.0,0.0
+v33,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,template,0.016,0.2503681885125184,0.0,0.2504
+v33,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,variable,0.014,0.29191321499013806,0.0,0.2919
+v33,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,data type,0.0085,0.18343195266272191,0.0,0.1834
+v33,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,pointer,0.0499,1.0,0.0,1.0
+v33,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,reference,0.0099,0.21104536489151876,0.0,0.211
+v33,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.01,0.21301775147928995,0.0,0.213
+v33,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,-0.0003,0.009861932938856016,0.0,0.0099
+v33,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,constructor,0.0054,0.12228796844181461,0.0,0.1223
+v33,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.0008,0.03155818540433925,0.0,0.0316
+v33,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,polymorphism,-0.0008,0.0,0.0,0.0
+v33,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,template,0.0103,0.21893491124260356,0.0,0.2189
+v33,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,variable,0.0198,0.4640371229698376,0.0,0.464
+v33,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,data type,0.0123,0.2900232018561485,0.0,0.29
+v33,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,pointer,0.0429,1.0,0.0,1.0
+v33,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,reference,0.0111,0.26218097447795824,0.0,0.2622
+v33,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.0055,0.1322505800464037,0.0,0.1323
+v33,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.0014,0.03712296983758701,0.0,0.0371
+v33,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,constructor,0.0089,0.2111368909512761,0.0,0.2111
+v33,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,-0.0002,0.0,0.0,0.0
+v33,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,polymorphism,0.0025,0.06264501160092807,0.0,0.0626
+v33,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,template,0.0023,0.0580046403712297,0.0,0.058
+v33,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,variable,0.0024,0.07709750566893424,0.0,0.0771
+v33,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,data type,0.0014,0.054421768707483,0.0,0.0544
+v33,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,pointer,0.0431,1.0,0.0,1.0
+v33,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,reference,0.0049,0.13378684807256236,0.0,0.1338
+v33,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,class,0.003,0.09070294784580499,0.0,0.0907
+v33,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,object,0.0114,0.2811791383219955,0.0,0.2812
+v33,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,constructor,0.0018,0.06349206349206349,0.0,0.0635
+v33,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inheritance,0.0066,0.17233560090702948,0.0,0.1723
+v33,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,polymorphism,0.0068,0.17687074829931973,0.0,0.1769
+v33,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,template,-0.001,0.0,0.0,0.0
+v34,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,variable,0.0632,0.3240958196336308,0.0,0.3241
+v34,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,data type,0.0432,0.23015500234852043,0.0,0.2302
+v34,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,pointer,0.1763,0.85533114138093,0.0,0.8553
+v34,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,reference,0.2071,1.0,0.0,1.0
+v34,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.0422,0.22545796148426492,0.0,0.2255
+v34,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0151,0.09816815406294035,0.0,0.0982
+v34,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,constructor,0.003,0.04133395960544856,0.0,0.0413
+v34,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,-0.0058,0.0,0.0,0.0
+v34,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,polymorphism,0.004,0.046031000469704084,0.0,0.046
+v34,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,template,0.0363,0.19774542038515733,0.0,0.1977
+v34,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,variable,0.0105,0.21653543307086617,0.0,0.2165
+v34,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,data type,0.0108,0.22244094488188978,0.0,0.2224
+v34,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,pointer,0.0503,1.0,0.0,1.0
+v34,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,reference,0.0254,0.5098425196850394,0.0,0.5098
+v34,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.0061,0.12992125984251968,0.0,0.1299
+v34,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.0007,0.02362204724409449,0.0,0.0236
+v34,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,constructor,-0.0005,0.0,0.0,0.0
+v34,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,-0.0001,0.007874015748031496,0.0,0.0079
+v34,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,polymorphism,0.003,0.0688976377952756,0.0,0.0689
+v34,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,template,0.0005,0.01968503937007874,0.0,0.0197
+v34,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,variable,0.0047,0.09647058823529411,0.0,0.0965
+v34,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,data type,0.002,0.06470588235294117,0.0,0.0647
+v34,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,pointer,0.0392,0.5023529411764706,0.0,0.5024
+v34,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,reference,0.0815,1.0,0.0,1.0
+v34,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,-0.001,0.029411764705882353,0.0,0.0294
+v34,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.0058,0.10941176470588233,0.0,0.1094
+v34,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,constructor,0.0005,0.047058823529411764,0.0,0.0471
+v34,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,0.0022,0.06705882352941177,0.0,0.0671
+v34,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,polymorphism,0.0028,0.07411764705882352,0.0,0.0741
+v34,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,template,-0.0035,0.0,0.0,0.0
+v34,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,variable,0.0032,0.38767395626242546,0.0,0.3877
+v34,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,data type,0.0004,0.3320079522862823,0.0,0.332
+v34,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,pointer,0.034,1.0,0.0,1.0
+v34,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,reference,-0.0163,0.0,0.0,0.0
+v34,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,class,0.0036,0.39562624254473155,0.0,0.3956
+v34,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,object,0.0083,0.489065606361829,0.0,0.4891
+v34,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,constructor,0.0023,0.3697813121272366,0.0,0.3698
+v34,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inheritance,0.0027,0.37773359840954274,0.0,0.3777
+v34,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,polymorphism,0.0023,0.3697813121272366,0.0,0.3698
+v34,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,template,0.003,0.3836978131212723,0.0,0.3837
+v35,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,variable,0.1226,0.5001438848920863,0.0,0.5001
+v35,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,data type,0.0038,0.15827338129496402,0.0,0.1583
+v35,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,pointer,-0.0512,0.0,0.0,0.0
+v35,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,reference,0.2963,1.0,0.0,1.0
+v35,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.0176,0.19798561151079136,0.0,0.198
+v35,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0715,0.3530935251798561,0.0,0.3531
+v35,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,constructor,0.0106,0.177841726618705,0.0,0.1778
+v35,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.005,0.16172661870503596,0.0,0.1617
+v35,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,polymorphism,-0.0155,0.10273381294964029,0.0,0.1027
+v35,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,template,0.0465,0.28115107913669063,0.0,0.2812
+v35,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,variable,0.0628,0.5072664359861591,0.0,0.5073
+v35,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,data type,0.0245,0.2422145328719723,0.0,0.2422
+v35,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,pointer,-0.0105,0.0,0.0,0.0
+v35,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,reference,0.134,1.0,0.0,1.0
+v35,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.0098,0.1404844290657439,0.0,0.1405
+v35,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.0251,0.2463667820069204,0.0,0.2464
+v35,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,constructor,0.0108,0.14740484429065742,0.0,0.1474
+v35,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.0014,0.08235294117647059,0.0,0.0824
+v35,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,polymorphism,-0.0011,0.06505190311418685,0.0,0.0651
+v35,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,template,0.0552,0.4546712802768165,0.0,0.4547
+v35,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,variable,0.2118,0.5397727272727273,0.0,0.5398
+v35,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,data type,0.0719,0.22181818181818183,0.0,0.2218
+v35,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,pointer,0.2801,0.6950000000000001,0.0,0.695
+v35,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,reference,0.4143,1.0,0.0,1.0
+v35,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.0018,0.0625,0.0,0.0625
+v35,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,-0.0257,0.0,0.0,0.0
+v35,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,constructor,0.0024,0.06386363636363636,0.0,0.0639
+v35,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,-0.011,0.03340909090909091,0.0,0.0334
+v35,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,polymorphism,0.0413,0.15227272727272728,0.0,0.1523
+v35,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,template,0.0014,0.06159090909090909,0.0,0.0616
+v36,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,variable,0.012,0.298804780876494,0.0,0.2988
+v36,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,data type,0.0173,0.4043824701195219,0.0,0.4044
+v36,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,pointer,-0.003,0.0,0.0,0.0
+v36,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,reference,0.0132,0.32270916334661354,0.0,0.3227
+v36,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.0472,1.0,0.0,1.0
+v36,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0432,0.9203187250996017,0.0,0.9203
+v36,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,constructor,0.0163,0.38446215139442225,0.0,0.3845
+v36,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.0118,0.2948207171314741,0.0,0.2948
+v36,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,polymorphism,0.0196,0.45019920318725093,0.0,0.4502
+v36,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,template,0.0114,0.28685258964143423,0.0,0.2869
+v36,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,variable,0.0105,0.3917525773195876,0.0,0.3918
+v36,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,data type,0.011,0.40893470790378,0.0,0.4089
+v36,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,pointer,-0.0009,0.0,0.0,0.0
+v36,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,reference,0.0085,0.3230240549828179,0.0,0.323
+v36,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.0282,1.0,0.0,1.0
+v36,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.0215,0.7697594501718212,0.0,0.7698
+v36,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,constructor,0.0099,0.3711340206185567,0.0,0.3711
+v36,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.0043,0.17869415807560135,0.0,0.1787
+v36,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,polymorphism,0.0074,0.2852233676975945,0.0,0.2852
+v36,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,template,0.0071,0.27491408934707906,0.0,0.2749
+v36,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,variable,0.0077,0.46153846153846156,0.0,0.4615
+v36,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,data type,0.0052,0.30128205128205127,0.0,0.3013
+v36,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,pointer,0.0006,0.0064102564102564066,0.0,0.0064
+v36,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,reference,0.0044,0.25000000000000006,0.0,0.25
+v36,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.0161,1.0,0.0,1.0
+v36,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.0076,0.4551282051282052,0.0,0.4551
+v36,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,constructor,0.0062,0.3653846153846154,0.0,0.3654
+v36,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,0.0028,0.14743589743589744,0.0,0.1474
+v36,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,polymorphism,0.0005,0.0,0.0,0.0
+v36,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,template,0.005,0.2884615384615385,0.0,0.2885
+v36,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,variable,0.001,0.10091743119266056,0.0,0.1009
+v36,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,data type,0.0004,0.045871559633027525,0.0,0.0459
+v36,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,pointer,0.0066,0.6146788990825688,0.0,0.6147
+v36,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,reference,0.001,0.10091743119266056,0.0,0.1009
+v36,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,class,0.0099,0.9174311926605505,0.0,0.9174
+v36,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,object,0.0108,1.0,0.0,1.0
+v36,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,constructor,0.003,0.28440366972477066,0.0,0.2844
+v36,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inheritance,0.0065,0.6055045871559633,0.0,0.6055
+v36,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,polymorphism,0.0011,0.11009174311926606,0.0,0.1101
+v36,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,template,-0.0001,0.0,0.0,0.0
+v36,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,variable,0.0008,0.7209302325581395,0.0,0.7209
+v36,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,data type,-0.0023,0.0,0.0,0.0
+v36,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,pointer,0.002,1.0,0.0,1.0
+v36,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,reference,0.0013,0.8372093023255813,0.0,0.8372
+v36,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,class,-0.0007,0.37209302325581395,0.0,0.3721
+v36,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,object,-0.0017,0.13953488372093026,0.0,0.1395
+v36,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,constructor,-0.0001,0.5116279069767442,0.0,0.5116
+v36,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,inheritance,0.0008,0.7209302325581395,0.0,0.7209
+v36,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,polymorphism,-0.0017,0.13953488372093026,0.0,0.1395
+v36,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,template,-0.0003,0.46511627906976744,0.0,0.4651
+v37,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,variable,0.0892,0.7473073736536868,0.0,0.7473
+v37,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,data type,0.0187,0.16321458160729083,0.0,0.1632
+v37,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,pointer,-0.001,0.0,0.0,0.0
+v37,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,reference,0.0139,0.12344656172328086,0.0,0.1234
+v37,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.009,0.0828500414250207,0.0,0.0829
+v37,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0467,0.39519469759734877,0.0,0.3952
+v37,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,constructor,0.1197,1.0,0.0,1.0
+v37,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.0059,0.05716652858326429,0.0,0.0572
+v37,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,polymorphism,0.016,0.14084507042253522,0.0,0.1408
+v37,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,template,0.0019,0.024026512013256004,0.0,0.024
+v37,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,variable,0.1014,1.0,0.0,1.0
+v37,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,data type,0.0123,0.1610169491525424,0.0,0.161
+v37,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,pointer,0.0002,0.04708097928436911,0.0,0.0471
+v37,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,reference,0.0017,0.06120527306967984,0.0,0.0612
+v37,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.005,0.09227871939736346,0.0,0.0923
+v37,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.0125,0.16290018832391712,0.0,0.1629
+v37,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,constructor,0.0862,0.8568738229755178,0.0,0.8569
+v37,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.0021,0.06497175141242938,0.0,0.065
+v37,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,polymorphism,-0.0048,0.0,0.0,0.0
+v37,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,template,0.0013,0.057438794726930316,0.0,0.0574
+v37,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,variable,0.0931,1.0,0.0,1.0
+v37,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,data type,0.0072,0.1503461918892186,0.0,0.1503
+v37,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,pointer,0.0015,0.09396636993076163,0.0,0.094
+v37,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,reference,0.0011,0.09000989119683482,0.0,0.09
+v37,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.0117,0.19485657764589517,0.0,0.1949
+v37,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.0146,0.2235410484668645,0.0,0.2235
+v37,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,constructor,0.0744,0.815034619188922,0.0,0.815
+v37,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,0.0067,0.1454005934718101,0.0,0.1454
+v37,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,polymorphism,0.0067,0.1454005934718101,0.0,0.1454
+v37,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,template,-0.008,0.0,0.0,0.0
+v38,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,variable,0.0144,0.08830022075055188,0.0,0.0883
+v38,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,data type,0.0232,0.15305371596762327,0.0,0.1531
+v38,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,pointer,0.0129,0.0772626931567329,0.0,0.0773
+v38,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,reference,0.0024,0.0,0.0,0.0
+v38,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.0993,0.7130242825607065,0.0,0.713
+v38,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0805,0.5746872700515085,0.0,0.5747
+v38,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,constructor,0.0241,0.15967623252391466,0.0,0.1597
+v38,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.1383,1.0,0.0,1.0
+v38,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,polymorphism,0.0359,0.24650478292862402,0.0,0.2465
+v38,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,template,0.0417,0.28918322295805743,0.0,0.2892
+v38,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,variable,0.0015,0.06249999999999999,0.0,0.0625
+v38,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,data type,0.0104,0.23632812499999997,0.0,0.2363
+v38,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,pointer,0.0115,0.2578125,0.0,0.2578
+v38,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,reference,0.0007,0.04687499999999999,0.0,0.0469
+v38,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.0495,1.0,0.0,1.0
+v38,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.0288,0.595703125,0.0,0.5957
+v38,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,constructor,0.0125,0.27734375,0.0,0.2773
+v38,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.0244,0.509765625,0.0,0.5098
+v38,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,polymorphism,0.0009,0.05078124999999999,0.0,0.0508
+v38,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,template,-0.0017,0.0,0.0,0.0
+v39,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,variable,0.0117,0.15508021390374332,0.0,0.1551
+v39,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,data type,0.0286,0.3358288770053476,0.0,0.3358
+v39,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,pointer,0.01,0.13689839572192514,0.0,0.1369
+v39,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,reference,-0.0028,0.0,0.0,0.0
+v39,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.0907,1.0,0.0,1.0
+v39,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0419,0.4780748663101604,0.0,0.4781
+v39,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,constructor,0.0298,0.34866310160427805,0.0,0.3487
+v39,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,0.0402,0.4598930481283422,0.0,0.4599
+v39,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,polymorphism,0.0221,0.26631016042780753,0.0,0.2663
+v39,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,template,0.0177,0.21925133689839574,0.0,0.2193
+v39,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,variable,0.0088,0.06552094522019335,0.0,0.0655
+v39,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,data type,0.0118,0.09774436090225565,0.0,0.0977
+v39,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,pointer,0.0027,0.0,0.0,0.0
+v39,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,reference,0.0046,0.02040816326530612,0.0,0.0204
+v39,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.0958,1.0,0.0,1.0
+v39,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,0.0557,0.5692803437164339,0.0,0.5693
+v39,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,constructor,0.0285,0.27712137486573574,0.0,0.2771
+v39,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,0.0431,0.4339419978517723,0.0,0.4339
+v39,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,polymorphism,0.0124,0.1041890440386681,0.0,0.1042
+v39,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,template,0.0083,0.06015037593984962,0.0,0.0602
+v39,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,variable,0.0113,0.2072368421052632,0.0,0.2072
+v39,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,data type,-0.003,0.050438596491228074,0.0,0.0504
+v39,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,pointer,-0.0037,0.04276315789473684,0.0,0.0428
+v39,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,reference,0.0189,0.29057017543859653,0.0,0.2906
+v39,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.0836,1.0,0.0,1.0
+v39,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.0618,0.7609649122807018,0.0,0.761
+v39,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,constructor,0.0233,0.33881578947368424,0.0,0.3388
+v39,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,0.0435,0.5603070175438597,0.0,0.5603
+v39,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,polymorphism,-0.0076,0.0,0.0,0.0
+v39,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,template,0.012,0.21491228070175442,0.0,0.2149
+v39,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,variable,0.0111,0.16257225433526012,0.0,0.1626
+v39,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,data type,0.0018,0.09537572254335261,0.0,0.0954
+v39,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,pointer,-0.0017,0.07008670520231214,0.0,0.0701
+v39,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,reference,0.0109,0.1611271676300578,0.0,0.1611
+v39,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,class,0.127,1.0,0.0,1.0
+v39,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,object,0.0866,0.708092485549133,0.0,0.7081
+v39,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,constructor,0.0364,0.34537572254335264,0.0,0.3454
+v39,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inheritance,0.0739,0.616329479768786,0.0,0.6163
+v39,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,polymorphism,-0.0114,0.0,0.0,0.0
+v39,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,template,0.0185,0.21604046242774566,0.0,0.216
+v40,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,variable,-0.0018,0.0,0.0,0.0
+v40,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,data type,0.0237,0.1750171585449554,0.0,0.175
+v40,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,pointer,0.0044,0.04255319148936171,0.0,0.0426
+v40,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,reference,0.003,0.032944406314344546,0.0,0.0329
+v40,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,class,0.0039,0.03912148249828415,0.0,0.0391
+v40,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,object,0.0109,0.08716540837336993,0.0,0.0872
+v40,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,constructor,0.0047,0.04461221688400824,0.0,0.0446
+v40,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,inheritance,-0.0012,0.004118050789293068,0.0,0.0041
+v40,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,polymorphism,0.0102,0.08236101578586136,0.0,0.0824
+v40,C++,NEW_C_transcript_plus_raw_fullframe,0,0.0,180.0,template,0.1439,1.0,0.0,1.0
+v40,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,variable,0.0008,0.047814207650273235,0.0,0.0478
+v40,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,data type,0.0232,0.3538251366120219,0.0,0.3538
+v40,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,pointer,0.0056,0.11338797814207652,0.0,0.1134
+v40,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,reference,0.0014,0.05601092896174865,0.0,0.056
+v40,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,class,0.0095,0.16666666666666669,0.0,0.1667
+v40,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,object,-0.0009,0.024590163934426236,0.0,0.0246
+v40,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,constructor,-0.0012,0.02049180327868853,0.0,0.0205
+v40,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,inheritance,-0.0027,0.0,0.0,0.0
+v40,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,polymorphism,0.0112,0.18989071038251368,0.0,0.1899
+v40,C++,NEW_C_transcript_plus_raw_fullframe,1,180.0,360.0,template,0.0705,1.0,0.0,1.0
+v40,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,variable,0.0072,0.11098265895953757,0.0,0.111
+v40,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,data type,0.0267,0.3364161849710983,0.0,0.3364
+v40,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,pointer,-0.0024,0.0,0.0,0.0
+v40,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,reference,0.0011,0.04046242774566474,0.0,0.0405
+v40,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,class,0.0162,0.21502890173410405,0.0,0.215
+v40,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,object,0.0171,0.22543352601156072,0.0,0.2254
+v40,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,constructor,0.0106,0.15028901734104047,0.0,0.1503
+v40,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,inheritance,0.0071,0.10982658959537572,0.0,0.1098
+v40,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,polymorphism,-0.0021,0.0034682080924855483,0.0,0.0035
+v40,C++,NEW_C_transcript_plus_raw_fullframe,2,360.0,540.0,template,0.0841,1.0,0.0,1.0
+v40,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,variable,0.0141,0.19615384615384612,0.0,0.1962
+v40,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,data type,-0.0165,0.0,0.0,0.0
+v40,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,pointer,-0.0127,0.024358974358974363,0.0,0.0244
+v40,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,reference,0.0538,0.4506410256410256,0.0,0.4506
+v40,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,class,0.0302,0.29935897435897435,0.0,0.2994
+v40,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,object,0.035,0.3301282051282051,0.0,0.3301
+v40,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,constructor,0.0067,0.14871794871794872,0.0,0.1487
+v40,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,inheritance,0.0151,0.20256410256410254,0.0,0.2026
+v40,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,polymorphism,-0.0034,0.08397435897435897,0.0,0.084
+v40,C++,NEW_C_transcript_plus_raw_fullframe,3,540.0,720.0,template,0.1395,1.0,0.0,1.0
+v40,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,variable,-0.0004,0.0,0.0,0.0
+v40,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,data type,0.0043,0.04865424430641822,0.0,0.0487
+v40,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,pointer,0.0115,0.12318840579710146,0.0,0.1232
+v40,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,reference,0.0132,0.14078674948240166,0.0,0.1408
+v40,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,class,0.0389,0.40683229813664595,0.0,0.4068
+v40,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,object,0.0218,0.2298136645962733,0.0,0.2298
+v40,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,constructor,0.0005,0.009316770186335404,0.0,0.0093
+v40,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,inheritance,0.008,0.08695652173913043,0.0,0.087
+v40,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,polymorphism,0.0152,0.16149068322981366,0.0,0.1615
+v40,C++,NEW_C_transcript_plus_raw_fullframe,4,720.0,900.0,template,0.0962,1.0,0.0,1.0
+v40,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,variable,-0.0046,0.0,0.0,0.0
+v40,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,data type,0.0032,0.04202586206896552,0.0,0.042
+v40,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,pointer,0.0059,0.056573275862068964,0.0,0.0566
+v40,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,reference,0.006,0.057112068965517244,0.0,0.0571
+v40,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,class,-0.0001,0.024245689655172414,0.0,0.0242
+v40,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,object,0.0049,0.05118534482758621,0.0,0.0512
+v40,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,constructor,-0.0032,0.0075431034482758615,0.0,0.0075
+v40,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,inheritance,0.0014,0.032327586206896554,0.0,0.0323
+v40,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,polymorphism,0.0131,0.09536637931034483,0.0,0.0954
+v40,C++,NEW_C_transcript_plus_raw_fullframe,5,900.0,1080.0,template,0.181,1.0,0.0,1.0
