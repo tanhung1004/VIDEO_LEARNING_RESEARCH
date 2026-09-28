@@ -2,15 +2,20 @@
 
 ## 1. Purpose
 
-This document clarifies the statistical role of the 40-video DEV set.
+This document defines the statistical role of the current 40-video DEV dataset and pre-specifies the primary and secondary/descriptive evaluation metrics for V2.
 
-The purpose is to distinguish development/model-selection evidence from future independent confirmatory evaluation.
+The purpose is to distinguish clearly between:
 
-This document does not modify the frozen V1 artifacts or previously selected configuration.
+- development evidence;
+- model and configuration selection;
+- post-selection analysis;
+- future independent confirmatory evaluation.
+
+This document does not modify the frozen V1 artifacts or the already locked P1 configuration.
 
 ---
 
-## 2. DEV Dataset Role
+# 2. DEV Dataset Role
 
 The current project uses:
 
