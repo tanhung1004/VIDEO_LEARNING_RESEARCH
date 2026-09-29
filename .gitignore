@@ -3,4 +3,15 @@ data/processed/ocr_best_integration/keyframes_roi/
 .venv
 module1.zip
 data
+
+# V2 planning / local reference files
+KẾ HOẠCH PHÂN CÔNG VÀ KIỂM TRA CHÉO CHO PHIÊN BẢN V2.docx
+V2_METRIC_AUDIT.md
+data_structure.txt
+module1 (2).zip
+module1.rar
+module1_structure.txt
+
+# Python cache
 __pycache__/
+*.py[cod]
