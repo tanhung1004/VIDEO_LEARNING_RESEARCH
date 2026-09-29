@@ -1,0 +1,27 @@
+========================================================================
+V2 FINAL AUDIT SUMMARY
+========================================================================
+Overall status: PASS
+PASS: 65
+WARN: 0
+FAIL: 0
+
+Frozen evaluation universe:
+  DEV videos: 40
+  Same-subject video-concept pairs: 390
+  Positive pairs: 153
+  Negative pairs: 237
+  Videos per subject: 10
+
+Primary endpoint:
+  Macro Video F1
+  OLD combined system: 0.573430
+  NEW combined system: 0.668124
+  DEV delta: +0.094694
+
+Interpretation constraints:
+  - 40 videos are DEV, not an independent final test set.
+  - Historical pair-level McNemar is not treated as cluster-aware V2 inference.
+  - Secondary uncertainty is reported without adding mass hypothesis tests.
+  - Subject analyses are descriptive with only 10 DEV videos per subject.
+  - MDE is sensitivity/planning analysis, not post-hoc power.
