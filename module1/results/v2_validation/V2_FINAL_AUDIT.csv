@@ -1,0 +1,66 @@
+section,check,status,observed,expected,note
+files,code artifact: 05_clustered_statistics.py,PASS,24084,non-empty file,
+files,code artifact: 06_secondary_metric_uncertainty.py,PASS,25556,non-empty file,
+files,code artifact: 07_subject_uncertainty.py,PASS,13562,non-empty file,
+files,code artifact: 08_power_or_mde_analysis.py,PASS,14209,non-empty file,
+files,result artifact: V2_CLUSTERED_STATISTICS.csv,PASS,1310,non-empty file,
+files,result artifact: V2_SECONDARY_METRIC_UNCERTAINTY.csv,PASS,4111,non-empty file,
+files,result artifact: V2_SUBJECT_UNCERTAINTY.csv,PASS,2117,non-empty file,
+files,result artifact: V2_MDE_SENSITIVITY.csv,PASS,1876,non-empty file,
+files,documentation: V2_METRIC_AUDIT.md,PASS,4876,non-empty file,
+files,documentation: V2_STATISTICAL_PROTOCOL.md,PASS,7505,non-empty file,
+step13,same-subject evaluation pair count,PASS,390,390,
+step13,positive ground-truth pairs,PASS,153,153,
+step13,negative ground-truth pairs,PASS,237,237,
+step13,duplicate video-concept rows,PASS,0,0,
+step13,DEV video count,PASS,40,40,
+step13,balanced subject video counts,PASS,"{'SQL': 10, 'Python': 10, 'Java': 10, 'C++': 10}","{'C++': 10, 'Java': 10, 'Python': 10, 'SQL': 10}",
+step13,subject pair-space counts,PASS,"{'SQL': 110, 'C++': 100, 'Python': 90, 'Java': 90}","{'C++': 100, 'Java': 90, 'Python': 90, 'SQL': 110}",
+step13,system identifiers,PASS,"{'NEW_COMBINED_F', 'OLD_COMBINED'}","{'NEW_COMBINED_F', 'OLD_COMBINED'}",Historical artifact names are preserved.
+step13,OLD Macro Video F1,PASS,0.5734297034664682,0.5734297034664682,
+step13,NEW Macro Video F1,PASS,0.6681238206238206,0.6681238206238206,
+step13,Macro Video F1 delta,PASS,0.09469411715735243,0.09469411715735243,
+step13,OLD confusion counts,PASS,"{'TP': 134, 'FP': 144, 'FN': 19, 'TN': 93}","{'TP': 134, 'FP': 144, 'FN': 19, 'TN': 93}",
+step13,NEW confusion counts,PASS,"{'TP': 116, 'FP': 79, 'FN': 37, 'TN': 158}","{'TP': 116, 'FP': 79, 'FN': 37, 'TN': 158}",
+step13,subject metric subjects,PASS,"{'Python', 'C++', 'SQL', 'Java'}","{'Python', 'C++', 'SQL', 'Java'}",
+step13,subject metric row count,PASS,8,8,4 subjects x 2 systems.
+A5,required A5 analyses,PASS,"{'pair_accuracy_delta', 'macro_video_f1_delta', 'historical_exact_mcnemar'}","{'pair_accuracy_delta', 'macro_video_f1_delta', 'historical_exact_mcnemar'}",
+A5,primary endpoint role,PASS,primary,primary,
+A5,primary resampling unit,PASS,video,video,
+A5,historical McNemar not cluster-aware inference,PASS,historical result only; not treated as cluster-aware V2 inference,historical only; not treated as cluster-aware V2 inference,
+A5,A5 primary values match Step13,PASS,"(0.5734297034664682, 0.6681238206238206)","(0.5734297034664682, 0.6681238206238206)",
+A6,secondary metric set,PASS,"{'macro_video_recall', 'specificity', 'micro_precision', 'mcc', 'micro_recall', 'macro_video_precision', 'balanced_accuracy', 'micro_f1', 'fpr', 'macro_video_f1_std', 'pr_auc', 'roc_auc'}","{'macro_video_recall', 'specificity', 'micro_precision', 'mcc', 'micro_recall', 'macro_video_precision', 'balanced_accuracy', 'micro_f1', 'fpr', 'macro_video_f1_std', 'pr_auc', 'roc_auc'}",
+A6,no additional secondary hypothesis tests,PASS,{'none'},{'none'},Avoids mass secondary p-value testing.
+A6,Macro Video Recall uncertainty present,PASS,"(np.float64(-0.0632638888888889), np.float64(-0.1056944444444443), np.float64(-0.0270833333333335))",finite observed delta and 95% interval,
+A6,Macro Video Recall role,PASS,secondary,secondary,
+A7,all four subjects present,PASS,"{'Python', 'C++', 'SQL', 'Java'}","{'Python', 'C++', 'SQL', 'Java'}",
+A7,10 DEV videos per subject,PASS,{10},{10},
+A7,no subject-level hypothesis tests,PASS,{'none'},{'none'},
+A7,subject analysis metric,PASS,{'macro_video_f1'},{'macro_video_f1'},
+A7,subject estimates match Step13,PASS,True,True,
+A8,MDE target power grid,PASS,"[0.7, 0.8, 0.9, 0.95]","[0.7, 0.8, 0.9, 0.95]",
+A8,paired video sample size,PASS,{40},{40},
+A8,primary endpoint,PASS,{'macro_video_f1'},{'macro_video_f1'},
+A8,two-sided alpha 0.05,PASS,"({'two-sided'}, {0.05})","({'two-sided'}, {0.05})",
+A8,planning SD matches paired DEV deltas,PASS,{0.1977056446558819},0.1977056446558819,
+A8,observed DEV mean delta cross-check,PASS,{0.0946941171573524},0.09469411715735244,
+A8,MDE increases with target power,PASS,"[0.0796345098116774, 0.0898091610995135, 0.1039215846656118, 0.1155777820905843]",strictly increasing,
+A8,MDE is planning/sensitivity only,PASS,planning/sensitivity description only,planning/sensitivity; not post-hoc power; not independent confirmation,
+documentation,metric audit mentions Macro Video metrics,PASS,True,True,WARN means the audit artifact may be correct but the written documentation should be expanded.
+documentation,metric audit mentions Micro metrics,PASS,True,True,WARN means the audit artifact may be correct but the written documentation should be expanded.
+documentation,metric audit documents aggregation,PASS,True,True,WARN means the audit artifact may be correct but the written documentation should be expanded.
+documentation,metric audit documents thresholding,PASS,True,True,WARN means the audit artifact may be correct but the written documentation should be expanded.
+documentation,metric audit documents 390-pair universe,PASS,True,True,WARN means the audit artifact may be correct but the written documentation should be expanded.
+documentation,protocol identifies DEV role,PASS,True,True,"Missing wording does not change numeric artifacts, but should be resolved before final reporting."
+documentation,protocol identifies primary endpoint,PASS,True,True,"Missing wording does not change numeric artifacts, but should be resolved before final reporting."
+documentation,protocol distinguishes secondary metrics,PASS,True,True,"Missing wording does not change numeric artifacts, but should be resolved before final reporting."
+documentation,protocol limits independent confirmatory claims,PASS,True,True,"Missing wording does not change numeric artifacts, but should be resolved before final reporting."
+documentation,protocol addresses multiple comparisons,PASS,True,True,"Missing wording does not change numeric artifacts, but should be resolved before final reporting."
+documentation,protocol documents no further DEV tuning,PASS,True,True,"Missing wording does not change numeric artifacts, but should be resolved before final reporting."
+documentation,V2 naming documented: P1 frozen transcript comparator,PASS,True,True,Historical V1 filenames should remain unchanged.
+documentation,V2 naming documented: OLD combined system,PASS,True,True,Historical V1 filenames should remain unchanged.
+documentation,V2 naming documented: NEW combined system,PASS,True,True,Historical V1 filenames should remain unchanged.
+scientific_rules,single primary endpoint retained,PASS,['macro_video_f1_delta'],['macro_video_f1_delta'],
+scientific_rules,no mass secondary/subject hypothesis testing,PASS,"(True, True)","(True, True)",
+scientific_rules,pair-level McNemar limited to historical role,PASS,historical result only; not treated as cluster-aware V2 inference,historical result only; not cluster-aware V2 inference,
+scientific_rules,MDE does not claim independent confirmation,PASS,True,True,
