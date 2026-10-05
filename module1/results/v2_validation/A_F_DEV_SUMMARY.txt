@@ -1,0 +1,26 @@
+A-F DEV ABLATION - SUMMARY
+========================================================================
+
+Primary endpoint (locked before these results): macro_video_f1
+Aggregation: max    Threshold: 0.50
+Evaluation universe: 390 same-subject video-concept pairs (40 DEV videos, 153 positive pairs)
+
+Selection rule (V2_STATISTICAL_PROTOCOL.md section 18):
+  1) highest macro_video_f1
+  2) highest micro_f1 (tie-break)
+  3) lowest macro_video_f1_std (tie-break)
+  4) deterministic order A -> B -> C -> D -> E -> F (tie-break)
+
+Results (DEV, frozen protocol, all 6 variants same aggregation/threshold):
+  A (Transcript-only): macro_video_f1=0.662937, std=0.195983, micro_f1=0.689266, rank=4
+  B (OCR-only, full-frame cleaned): macro_video_f1=0.505517, std=0.295905, micro_f1=0.537143, rank=6
+  C (Transcript + full-frame OCR raw): macro_video_f1=0.685629, std=0.196783, micro_f1=0.692308, rank=1
+  D (Transcript + full-frame OCR cleaned): macro_video_f1=0.641108, std=0.192493, micro_f1=0.641834, rank=5
+  E (Transcript + ROI OCR cleaned): macro_video_f1=0.667058, std=0.202150, micro_f1=0.674352, rank=3
+  F (Combined D + E at score level (mean)): macro_video_f1=0.668124, std=0.202133, micro_f1=0.666667, rank=2
+
+Variant C was selected on DEV under the frozen development protocol.
+
+This is a DEV-stage model/variant-selection result. It is NOT an independent confirmatory estimate, and it does NOT establish that variant C is superior in the population. Secondary metrics (precision, recall, MCC, balanced accuracy, specificity, FPR, PR-AUC, ROC-AUC) are reported in A_F_DEV_COMPARISON.csv for interpretation only and were not used to override the primary selection criterion.
+
+Saved: E:\RESEARCH\VIDEO_LEARNING_RESEARCH\module1\results\v2_validation\A_F_DEV_COMPARISON.csv
