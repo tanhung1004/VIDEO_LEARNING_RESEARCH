@@ -313,3 +313,43 @@ Independent confirmatory claim:
 
 - not supported by the current DEV dataset
   '@ | Set-Content -Path docs/V2_STATISTICAL_PROTOCOL.md -Encoding UTF8
+
+## 18. A-F Ablation Selection Contract
+
+This section locks the A-F candidate selection rule before Track B evaluates the complete A-F ablation results.
+
+All A-F variants must be evaluated under the same frozen P1 evaluation protocol.
+
+### Primary Selection Criterion
+
+The A-F winner is selected using:
+
+1. Highest Macro Video F1.
+
+### Tie-Break Rules
+
+If two or more variants have the same Macro Video F1, the following tie-break rules are applied in order:
+
+2. Highest Micro F1.
+3. Lowest Macro Video F1 standard deviation.
+4. If still tied, use the deterministic order:
+
+A -> B -> C -> D -> E -> F
+
+### Secondary Metrics
+
+Secondary metrics such as Precision, Recall, MCC, Balanced Accuracy, Specificity, FPR, PR-AUC, and ROC-AUC are reported for interpretation.
+
+They must not replace Macro Video F1 as the primary A-F selection criterion after the B4 results are observed.
+
+### No Variant-Specific Retuning
+
+A-F variants must use the same frozen evaluation protocol.
+
+No variant-specific threshold tuning, aggregation tuning, representation tuning, or other DEV-based retuning is allowed after the B4 results are observed.
+
+After the A-F winner is selected:
+
+further_dev_tuning_allowed = false
+
+This selection rule is locked before Track B performs the B4 A-F evaluation.
