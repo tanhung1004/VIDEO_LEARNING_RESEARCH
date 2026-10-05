@@ -1,0 +1,34 @@
+V2 FINAL CONFIG - LOCK SUMMARY
+========================================================================
+
+Selected variant: C (Transcript + full-frame OCR raw)
+Selection rule:   V2_STATISTICAL_PROTOCOL.md section 18: 1) highest macro_video_f1, 2) highest micro_f1, 3) lowest macro_video_f1_std, 4) deterministic order A -> B -> C -> D -> E -> F
+
+Transcript config:
+  chunk_seconds = 180
+  lda_weight    = 0
+  lsa_weight    = 1
+
+OCR config:
+  keep_transcript = True
+  ocr_source      = E:\RESEARCH\VIDEO_LEARNING_RESEARCH\data\processed\ocr_best_integration\ocr_fullframe_raw.csv
+
+Aggregation: max
+Threshold:   0.50
+
+DEV metrics (selected variant):
+  macro_video_f1     = 0.685629
+  macro_video_f1_std = 0.196783
+  macro_video_precision = 0.686615
+  macro_video_recall    = 0.852034
+  micro_f1            = 0.692308
+  n_videos / n_pairs  = 40 / 390
+
+Config fingerprint (SHA-256): c144e02213255840106146ce9a54c5e2e5790c6d1c4346f92a0ab692887fc3fc
+
+Variant C was selected on DEV under the frozen development protocol. This is a development-stage selection, not an independent confirmatory result.
+
+further_dev_tuning_allowed = false
+No further threshold, aggregation, chunk, or OCR-representation tuning is permitted against this DEV set from this point forward. An independent confirmatory evaluation (if pursued) must use a separate dataset and this exact frozen configuration, unmodified.
+
+Saved: E:\RESEARCH\VIDEO_LEARNING_RESEARCH\module1\results\v2_validation\V2_FINAL_CONFIG.json

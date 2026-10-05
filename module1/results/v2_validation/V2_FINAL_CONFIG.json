@@ -1,0 +1,42 @@
+{
+  "v2_final_config_version": 1,
+  "locked_at_utc": "2026-10-05T13:20:45.660175+00:00",
+  "selected_variant": "C",
+  "selected_variant_definition": "Transcript + full-frame OCR raw",
+  "transcript_config": {
+    "chunk_seconds": 180,
+    "lda_weight": 0,
+    "lsa_weight": 1
+  },
+  "ocr_config": {
+    "keep_transcript": true,
+    "ocr_source": "E:\\RESEARCH\\VIDEO_LEARNING_RESEARCH\\data\\processed\\ocr_best_integration\\ocr_fullframe_raw.csv"
+  },
+  "aggregation": "max",
+  "threshold": 0.5,
+  "dev_metrics": {
+    "macro_video_f1": 0.685628819709702,
+    "macro_video_f1_std": 0.1967830465367201,
+    "macro_video_precision": 0.6866152597402598,
+    "macro_video_recall": 0.8520337301587301,
+    "micro_f1": 0.6923076923076923,
+    "n_videos": 40,
+    "n_pairs": 390
+  },
+  "selection_rule": "V2_STATISTICAL_PROTOCOL.md section 18: 1) highest macro_video_f1, 2) highest micro_f1, 3) lowest macro_video_f1_std, 4) deterministic order A -> B -> C -> D -> E -> F",
+  "all_variant_macro_video_f1": {
+    "A": 0.6629369241869242,
+    "B": 0.5055169136419136,
+    "C": 0.685628819709702,
+    "D": 0.641107507258823,
+    "E": 0.6670580808080808,
+    "F": 0.6681238206238206
+  },
+  "source_files": {
+    "a_f_dev_comparison": "E:\\RESEARCH\\VIDEO_LEARNING_RESEARCH\\module1\\results\\v2_validation\\A_F_DEV_COMPARISON.csv",
+    "ablation_build_audit": "E:\\RESEARCH\\VIDEO_LEARNING_RESEARCH\\module1\\results\\v2_validation\\ablation\\audit.csv"
+  },
+  "evaluation_status": "DEV selection only; not an independent confirmatory result.",
+  "further_dev_tuning_allowed": false,
+  "config_fingerprint_sha256": "c144e02213255840106146ce9a54c5e2e5790c6d1c4346f92a0ab692887fc3fc"
+}
